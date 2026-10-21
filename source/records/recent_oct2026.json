@@ -1,0 +1,110 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-10-21",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "PAK base near Hesenawa (Hasanawa), Balîsan (Balisan) valley, Herîr (Harir), Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.45,
+  "lon": 44.38,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": null,
+  "summary": "Rudaw and The New Region reported that Iranian state forces fired two to four projectiles, which the Kurdistan Freedom Party (PAK) called ballistic missiles, at a PAK base near Hesenawa in the Balîsan valley on the morning of 21 October; a security source told Rudaw two Hadid-110 drones were used. PAK said the base had been evacuated and no one was hurt.",
+  "sources": [
+   {
+    "title": "Rudaw: Iran targets Kurdish opposition positions near Erbil",
+    "url": "https://www.rudaw.net/english/categories/kurdistan/1079826"
+   },
+   {
+    "title": "The New Region: PAK says 4 Iranian ballistic missiles targeted Erbil base",
+    "url": "https://thenewregion.com/posts/6871"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-20",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Around Degaga village, Kosalan area, Serawa (Sarvabad)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.29,
+  "lon": 46.3,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF and Hawar News, citing a YRK statement, reported that Iranian state forces fired mortars from bases and outposts around Degaga village in the Kosalan area on 20 October. The YRK said it responded and suffered no losses.",
+  "sources": [
+   {
+    "title": "ANF: YRK: İran Devrim Muhafızları'na gereken yanıt verildi",
+    "url": "https://anfenglishmobile.com/kurdIstan/yrk-Iran-devrim-muhafizlari-na-gereken-yanit-verildi-234553"
+   },
+   {
+    "title": "Hawar News: YRK: Hêzên me bersiva êrişên Supayê Pasdaran dan",
+    "url": "https://hawarnews.com/kr/yrk-hezen-me-bersiva-erisen-supaye-pasdaran-dan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-20",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Deşta Mişarê, Herî Rêş and Kerxenê, Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.471,
+  "lon": 41.911,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of oak trees felled around oil fields; risk of desertification",
+  "summary": "ANF and Yeni Yaşam, citing MA, reported on 20 October that village guards under the supervision of Turkish state soldiers were felling hundreds of oak trees around the Mehmet İrfan Güler and Demir Boğazı oil fields on Gabar mountain. The timber was stacked by the roadside and trucked out via Dihê (Eruh).",
+  "sources": [
+   {
+    "title": "ANF: Gabar Dağı'nda petrol sahaları çevresinde ağaç kıyımı sürüyor",
+    "url": "https://anfenglishmobile.com/guncel/gabar-dagi-nda-petrol-sahalari-cevresinde-agac-kiyimi-suruyor-234520"
+   },
+   {
+    "title": "Yeni Yaşam: Gabar'da ağaç kıyımı: Tonlarca ağaç yol kenarında bekletiliyor",
+    "url": "https://yeniyasamgazetesi9.com/gabarda-agac-kiyimi-tonlarca-agac-yol-kenarinda-bekletiliyor/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-21",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Seyranbend border gate to Teymiz, Şêweguwêzan and Mîşyawe villages, Başûr–Rojhilat border",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.95,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 10 km of concrete wall with watchtowers and a border trench 3 m wide and 4 m deep",
+  "summary": "ANF, citing RojNews, reported on 21 October that Iranian state forces had built a concrete wall about 10 km long with watchtowers on the border between Başûr and Rojhilat, from the Seyranbend border gate to behind Teymiz and Şêweguwêzan villages, and dug a trench about 3 m wide and 4 m deep up to Mîşyawe village.",
+  "sources": [
+   {
+    "title": "ANF: İran, Başûr ve Rojhilat sınırında duvar örüyor",
+    "url": "https://anfenglishmobile.com/guncel/Iran-basur-ve-rojhilat-sinirinda-duvar-oruyor-234549"
+   }
+  ],
+  "kind": "eco"
+ }
+]

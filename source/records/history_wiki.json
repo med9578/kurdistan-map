@@ -1,0 +1,393 @@
+[
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1938-08",
+  "period": "6–8 August 1938",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Zini Gediği (Zini pass), Munzur mountains, Erzîngan (Erzincan)",
+  "governorate": "Erzincan",
+  "country": "Turkey",
+  "lat": 39.47,
+  "lon": 39.32,
+  "precision": "approximate",
+  "killed": 95,
+  "injured": null,
+  "civilian": true,
+  "impact": "Victims' families exiled to western provinces; the site stayed a restricted zone and bones lay unburied until a memorial tomb in 2014",
+  "summary": "During the Dersim campaign, Alevi Kurdish villagers from Surbahan (Kılıçkaya), Balıbey, Girlevik, Kismikor and Mağaçur were held under soldiers' guard, marched up to the Zini pass at about 3,200 m and killed there. BirGün gives 95 dead and bianet nearly 100; bianet dates the killings to 8 August 1938, other accounts to 6 August. In 2011 the Erzîngan prosecutor refused to prosecute, citing the statute of limitations.",
+  "sources": [
+   {
+    "title": "BirGün: 76 yıl sonra mezarları olacak (2014)",
+    "url": "https://www.birgun.net/haber/76-yil-sonra-mezarlari-olacak-65814"
+   },
+   {
+    "title": "Bianet: Zini Gediği Katliamında Öldürülenler Anılacak",
+    "url": "https://bianet.org/haber/zini-gedigi-katliaminda-oldurulenler-anilacak-157416"
+   },
+   {
+    "title": "Wikipedia (pointer): Zini Rift Massacre",
+    "url": "https://en.wikipedia.org/wiki/Zini_Rift_Massacre"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1943-07-29",
+  "period": "29–30 July 1943",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Sefo stream, near Qelqelî (Özalp), Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.68,
+  "lon": 44.12,
+  "precision": "approximate",
+  "killed": 32,
+  "injured": null,
+  "civilian": true,
+  "impact": "Remains never returned; the site is still a military zone",
+  "summary": "On the orders of Third Army commander General Mustafa Muğlalı, soldiers executed 33 Kurdish villagers from the Serav (Saray) and Qelqelî (Özalp) districts, accused of 'border violation', on the banks of the Sefo stream; bianet reports one man survived. Muğlalı was sentenced to death in 1950, commuted to 20 years. The killings are remembered as '33 bullets' after Ahmed Arif's poem.",
+  "sources": [
+   {
+    "title": "Bianet: 82nd anniversary of Sefo Stream massacre commemorated",
+    "url": "https://bianet.org/haber/82nd-anniversary-of-sefo-stream-massacre-commemorated-309927"
+   },
+   {
+    "title": "Wikipedia (pointer): Muğlalı incident",
+    "url": "https://en.wikipedia.org/wiki/Mu%C4%9Flal%C4%B1_incident"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1993-08-14",
+  "period": "14 August 1993",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Digor, Qers (Kars)",
+  "governorate": "Kars",
+  "country": "Turkey",
+  "lat": 40.375,
+  "lon": 43.415,
+  "precision": "approximate",
+  "killed": 17,
+  "injured": 63,
+  "civilian": true,
+  "impact": "Officers acquitted in 2006 on 'legitimate defence'; Turkey later paid €350,000 to seven families before the ECtHR",
+  "summary": "Turkish special operations police opened fire with heavy weapons on a silent march of Kurdish villagers protesting village-guard recruitment and raids near Digor. Bianet gives the official toll of 17 killed, including children, and 63 wounded. The eight officers tried were acquitted, but before the ECtHR the Turkish government acknowledged that police used excessive force.",
+  "sources": [
+   {
+    "title": "Bianet: 30 years on: The Digor Massacre",
+    "url": "https://bianet.org/haber/30-years-on-the-digor-massacre-282736"
+   },
+   {
+    "title": "Bianet: Digor Katliamının 30. yılı | Türkiye suçunu kabul etti ama failleri akladı",
+    "url": "https://bianet.org/haber/digor-katliaminin-30-yili-turkiye-sucunu-kabul-etti-ama-failleri-akladi-282719"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1993-10-03",
+  "period": "2–3 October 1993",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Vartinis (Altınova), Korkut, Mûş (Muş)",
+  "governorate": "Muş",
+  "country": "Turkey",
+  "lat": 38.76,
+  "lon": 41.72,
+  "precision": "approximate",
+  "killed": 9,
+  "injured": null,
+  "civilian": true,
+  "impact": "Case reopened only in 2003; the captain named by the Court of Cassation is still a fugitive",
+  "summary": "After a clash in which a soldier was killed, Turkish soldiers raided Vartinis and set fire to the house of the Öğüt family, stopping villagers from rescuing them; bianet reports nine people burned to death, seven of them children. Authorities first blamed the PKK, but Turkey's Court of Cassation found that gendarmerie captain Bülent Karaoğlu gave the order to burn the village.",
+  "sources": [
+   {
+    "title": "Bianet: Vartinis davasında zamanaşımı riski",
+    "url": "https://bianet.org/haber/vartinis-davasinda-zamanasimi-riski-280004"
+   },
+   {
+    "title": "Wikipedia (pointer): Vartinis massacre",
+    "url": "https://en.wikipedia.org/wiki/Vartinis_massacre"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2006-03-28",
+  "period": "28 March – 3 April 2006",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.914,
+  "lon": 40.23,
+  "precision": "approximate",
+  "killed": 10,
+  "injured": null,
+  "civilian": true,
+  "impact": "No prosecution of those responsible",
+  "summary": "During protests that began at funerals of PKK fighters, Turkish security forces fired on crowds in Amed. The Human Rights Association (İHD), reported by bianet, recorded 10 civilians killed, five of them children aged 8 to 17: eight by gunfire and two by blows. Some later accounts give a higher toll.",
+  "sources": [
+   {
+    "title": "Bianet: 10 dead in Diyarbakir, yet no investigation",
+    "url": "https://bianet.org/haber/10-dead-in-diyarbakir-yet-no-investigation-77420"
+   },
+   {
+    "title": "Bianet: Diyarbakır'da 10 Ölüm Var; Hâlâ İşlem Yok",
+    "url": "https://bianet.org/haber/diyarbakirda-10-olum-var-hala-islem-yok-77356"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2015-08-16",
+  "period": "16 August – November 2015",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Farqîn (Silvan)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 38.137,
+  "lon": 41.008,
+  "precision": "approximate",
+  "killed": 14,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 20,000 of 86,000 residents forced to leave; tanks and helicopters used on Mescit, Tekel and Konak neighbourhoods",
+  "summary": "Turkish authorities imposed six curfews on Farqîn in two months, the longest from 3 November 2015. Bianet, citing the Human Rights Foundation (TİHV), reported six civilians killed by police armoured-vehicle and special operations fire in the first ten days of that curfew and 14 civilians killed since the first curfew on 16 August.",
+  "sources": [
+   {
+    "title": "Bianet: Silvan'da 10 Günde Ne Oldu?",
+    "url": "https://bianet.org/haber/silvan-da-10-gunde-ne-oldu-169165"
+   },
+   {
+    "title": "BirGün: Silvan tankların ve helikopterlerin bombardımanı altında",
+    "url": "https://www.birgun.net/haber/silvan-tanklarin-ve-helikopterlerin-bombardimani-altinda-94836"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1986-08-15",
+  "period": "15 August 1986",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Border mountains of Behdînan, Başûr (opposite Çele/Çukurca)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.3,
+  "lon": 43.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "First large Turkish air and ground incursion into Başûr",
+  "summary": "After a PKK attack at Çele (Çukurca), the Turkish state sent warplanes and about 8,000 troops across the border into Başûr against PKK camps, by Iraqi consent, as memurlar.net and TRT Haber recount. Wikipedia, citing Turkish press, lists 165 PKK fighters killed; no independent count was found and no civilian toll is recorded.",
+  "sources": [
+   {
+    "title": "Memurlar.net: Irak'a ilk harekat 1983'te yapılmıştı",
+    "url": "https://www.memurlar.net/haber/208134/irak-a-ilk-harekat-1983-te-yapilmisti-video.html"
+   },
+   {
+    "title": "TRT Haber: Irak'ın kuzeyine gerçekleştirilen büyük harekatlar",
+    "url": "https://www.trthaber.com/haber/gundem/irakin-kuzeyine-gerceklestirilen-buyuk-harekatlar-417275.html"
+   },
+   {
+    "title": "Wikipedia (pointer): August 1986 Turkish incursion",
+    "url": "https://en.wikipedia.org/wiki/August_1986_Turkish_incursion_into_northern_Iraq"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2007-12-16",
+  "period": "16–26 December 2007",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Qendîl (Qandil), Zap, Avaşîn, Metîna and Xakurkê, Başûr",
+  "governorate": "Erbil / Sulaymaniyah / Duhok",
+  "country": "Iraq",
+  "lat": 36.45,
+  "lon": 44.95,
+  "precision": "approximate",
+  "killed": 150,
+  "injured": null,
+  "civilian": null,
+  "impact": "UNHCR: about 1,800 villagers displaced; ten villages damaged, bridges and schools destroyed",
+  "summary": "Turkish warplanes struck more than 200 targets in Qendîl, Zap, Avaşîn, Metîna and Xakurkê; the Turkish General Staff claimed 150–175 PKK fighters killed, while the PKK said it had no losses and Fırat News said seven people were killed. Local and Iraqi officials, reported by Al Jazeera and bianet, said at least one woman was killed and five or six civilians wounded; Turkey denied any civilian harm.",
+  "sources": [
+   {
+    "title": "Bianet: Genelkurmay: 200'den Fazla Hedef Vurduk",
+    "url": "https://www.bianet.org/bianet/siyaset/103779-genelkurmay-200-den-fazla-hedef-vurduk"
+   },
+   {
+    "title": "Bianet: Operations: 20 Million Dollars and 1,800 Displaced People",
+    "url": "https://www.bianet.org/english/minorities/103727-operations-20-million-dollars-and-1-800-displaced-people"
+   },
+   {
+    "title": "Al Jazeera: Iraq condemns Turkish air raids (2007)",
+    "url": "https://www.aljazeera.com/news/2007/12/17/iraq-condemns-turkish-air-raids"
+   },
+   {
+    "title": "Wikipedia (pointer): December 2007 Turkish incursion",
+    "url": "https://en.wikipedia.org/wiki/December_2007_Turkish_incursion_into_northern_Iraq"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2008-02-21",
+  "period": "21–29 February 2008",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Zap valley and Xakurkê (Hakurk), Başûr",
+  "governorate": "Duhok / Erbil",
+  "country": "Iraq",
+  "lat": 37.33,
+  "lon": 43.75,
+  "precision": "approximate",
+  "killed": 240,
+  "injured": null,
+  "civilian": false,
+  "impact": "Border villages hit by air strikes and artillery, according to residents",
+  "summary": "In the ground and air incursion the Turkish state called 'Operation Sun', about 10,000 troops entered the Zap valley and Xakurkê. The Turkish military claimed 240 PKK fighters killed and 27 soldiers dead, according to TRT; mid-operation it claimed 153, while the PKK claimed 81 soldiers killed (AFP via Institut kurde). The figures were never independently verified; residents of border villages reported Turkish air strikes and shelling.",
+  "sources": [
+   {
+    "title": "Institut kurde (AFP): Iraq denounces Turkish offensive",
+    "url": "https://institutkurde.org/info/iraq-denounces-turkish-offensive--1204294704"
+   },
+   {
+    "title": "TRT Haber: Irak'ın kuzeyine gerçekleştirilen büyük harekatlar",
+    "url": "https://www.trthaber.com/haber/gundem/irakin-kuzeyine-gerceklestirilen-buyuk-harekatlar-417275.html"
+   },
+   {
+    "title": "Wikipedia (pointer): 2008 Turkish incursion",
+    "url": "https://en.wikipedia.org/wiki/2008_Turkish_incursion_into_northern_Iraq"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2011-08-17",
+  "period": "17 August – October 2011",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Qendîl (Qandil) and border areas of Başûr",
+  "governorate": "Erbil / Sulaymaniyah / Duhok",
+  "country": "Iraq",
+  "lat": 36.5,
+  "lon": 44.85,
+  "precision": "approximate",
+  "killed": 160,
+  "injured": null,
+  "civilian": null,
+  "impact": "Includes the Bolê road strike that killed seven civilians of one family",
+  "summary": "Turkish warplanes bombed Qendîl and other areas of Başûr from 17 August 2011; on 29 August the Turkish General Staff claimed 'up to 160' PKK fighters killed (RFE/RL), and TRT later gave 270 for August–October. Iraqi Kurdish officials and Human Rights Watch said a strike near Bolê on 21 August killed seven civilians of one family, four of them children; Turkey denied responsibility.",
+  "sources": [
+   {
+    "title": "RFE/RL: Turkey says up to 160 Kurd rebels killed in Iraq strikes",
+    "url": "https://www.rferl.org/a/turkey_says_up_to_160_kurd_rebels_killed_in_iraq_strikes/24311838.html"
+   },
+   {
+    "title": "Human Rights Watch: Iran/Turkey: Recent attacks on civilians in Iraqi Kurdistan (2011)",
+    "url": "https://www.hrw.org/news/2011/12/20/iran/turkey-recent-attacks-civilians-iraqi-kurdistan"
+   },
+   {
+    "title": "TRT Haber: Irak'ın kuzeyine gerçekleştirilen büyük harekatlar",
+    "url": "https://www.trthaber.com/haber/gundem/irakin-kuzeyine-gerceklestirilen-buyuk-harekatlar-417275.html"
+   },
+   {
+    "title": "Wikipedia (pointer): August 2011 Turkey–Iraq cross-border raids",
+    "url": "https://en.wikipedia.org/wiki/August_2011_Turkey%E2%80%93Iraq_cross-border_raids"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1980-04-04",
+  "period": "from 4 April 1980",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Baghdad, Xaneqîn (Khanaqin), Mendelî (Mandali) and Feyli areas",
+  "governorate": "Baghdad / Diyala",
+  "country": "Iraq",
+  "lat": 33.315,
+  "lon": 44.366,
+  "precision": "approximate",
+  "killed": 10000,
+  "injured": null,
+  "civilian": true,
+  "impact": "300,000–750,000 deported and stripped of citizenship under Decree 666 (7 May 1980); property seized",
+  "summary": "From 4 April 1980 the Ba'ath state rounded up Feyli Kurds, stripped them of citizenship under Revolutionary Command Council Decree 666 of 7 May 1980 and expelled them to Iran; the KRG gives 300,000–500,000 deported and KGNA about 750,000. Thousands of young men were detained and disappeared: HRW (via VOA) says more than 10,000, Kurdistan24 10,000–20,000, KGNA about 23,000 and the KRG at least 25,000. The Iraqi High Criminal Court recognised the campaign as genocide in 2010.",
+  "sources": [
+   {
+    "title": "KGNA: The Genocide of the Faily Kurds 1980",
+    "url": "https://kgna.krd/11036/"
+   },
+   {
+    "title": "KRG Representation in the US: Commemorating the victims of the Feyli Kurdish genocide",
+    "url": "https://us.gov.krd/april-4-commemorating-the-victims-of-the-feyli-kurdish-genocide/"
+   },
+   {
+    "title": "Kurdistan24: The day Baghdad wrote exile into law",
+    "url": "https://www.kurdistan24.net/en/opinion/905529/the-day-baghdad-wrote-exile-into-law-feyli-kurds-and-the-mechanics-of-dispossession"
+   },
+   {
+    "title": "VOA: Fayli Kurds (2003), citing Human Rights Watch",
+    "url": "https://www.voanews.com/a/a-13-a-2003-05-06-31-an-66851487/375890.html"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01",
+  "period": "January 2026",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Rojhilat: Kirmaşan (Kermanshah), Îlam and Kurdistan provinces",
+  "governorate": "Kermanshah / Ilam / Kurdistan",
+  "country": "Iran",
+  "lat": 34.2,
+  "lon": 46.6,
+  "precision": "approximate",
+  "killed": 102,
+  "injured": null,
+  "civilian": true,
+  "impact": "Hengaw verified 290 Kurds killed across Iran in the protests, including at least 23 children and 24 women",
+  "summary": "Hengaw's first-half 2026 report verified the identities of 290 Kurds killed by Iranian state forces during the January 2026 protests, 284 of them by direct gunfire. Of these, 102 were killed in Rojhilat provinces: 89 in Kirmaşan, 11 in Îlam and 2 in Kurdistan (Sine); most of the rest were killed in Tehran (92) and Alborz (36).",
+  "sources": [
+   {
+    "title": "Hengaw: Statistical report on violations against Kurdish people in Iran, first half of 2026",
+    "url": "https://hengaw.org/en/content/article-41686"
+   }
+  ],
+  "kind": "strike"
+ }
+]
