@@ -73,6 +73,7 @@ t = t.replace("/*__DATA__*/", json.dumps(rows, ensure_ascii=False, separators=("
 t = t.replace("/*__ACLED__*/", read("acled_strikes.json"))
 t = t.replace("/*__RELIEF_GRAY__*/", b64(os.path.join(SRC, "terrain", "relief_gray.jpg")))
 t = t.replace("/*__RELIEF_NAT__*/", b64(os.path.join(SRC, "terrain", "natural.jpg")))
+t = t.replace("/*__SAT__*/", b64(os.path.join(SRC, "terrain", "satellite.jpg")))
 t = t.replace("/*__GEO__*/", json.dumps(geo, separators=(",", ":")))
 # share links point at wherever the page is hosted
 t = t.replace(f'const BASE_URL = "{ARTIFACT_URL}";',
