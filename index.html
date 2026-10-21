@@ -687,7 +687,7 @@ const Y0 = Math.min(...DATA.filter(d => !d.hist).map(d => d.year)), Y1 = Math.ma
 const HAS_HIST = DATA.some(d => d.hist);
 
 const subsOf = layer => layer === "Eco" ? Object.keys(CATS) : Object.keys(TYPES);
-const state = {on:{}, acled:true, hist:false, parts:new Set(PARTS.map(p => p.id)), year:null, month:null, heat:false, open:{}, only:null, kind:null, q:"", civ:false, sel:null, tab:"M"};
+const state = {on:{}, acled:true, hist:true, parts:new Set(PARTS.map(p => p.id)), year:null, month:null, heat:false, open:{}, only:null, kind:null, q:"", civ:false, sel:null, tab:"M"};
 let timer = null;
 const mkey = d => d.date.length >= 7 ? d.date.slice(0, 7) : d.date.slice(0, 4) + "-06";
 const LAST = DATA.filter(d => !d.hist && d.date.length === 10).map(d => d.date).sort().pop();
@@ -964,7 +964,7 @@ function renderBars() {
     const title = `${y === "H" ? T("histShort") : y}: ` + L.filter(l => c[l]).map(l => `${c[l]} ${ACTORS[l].label}`).join(", ");
     return `<button class="${dim ? "dim" : ""} ${cur ? "cur" : ""}" data-year="${y}" aria-pressed="${cur}" title="${esc(title)}"><span class="stk">${L.map(seg).join("")}</span><span class="y">${y === "H" ? T("histBar") : String(y).slice(2)}</span></button>`;
   }).join("");
-  document.getElementById("yrLbl").textContent = state.month ? `${T("months")[+state.month.slice(5) - 1]} ${state.month.slice(0, 4)}` : state.year === "H" ? T("histShort") : state.year ?? `${Y0}–${String(Y1).slice(2)}`;
+  document.getElementById("yrLbl").textContent = state.month ? `${T("months")[+state.month.slice(5) - 1]} ${state.month.slice(0, 4)}` : state.year === "H" ? T("histShort") : state.year ?? `${state.hist ? Math.min(...DATA.filter(d => d.hist).map(d => d.year)) : Y0}–${String(Y1).slice(2)}`;
 }
 
 function renderList(rows) {
