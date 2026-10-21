@@ -1,0 +1,1210 @@
+[
+ {
+  "record": "attack",
+  "date": "2025-06-24",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Villages of Amêdî (Amadiya) district",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Shells hit village homes; a mosque was destroyed; smoke rose from burning forest",
+  "summary": "Nûçe TV, citing CPT's Kameran Osman, reported that the Turkish army fired about 76 artillery shells at villages of Amêdî, with shells landing among villagers' houses, a mosque destroyed and forests set on fire.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Tirkiye êrîşên xwe li ser Başûrê Kurdistanê didomîne",
+    "url": "https://nucetv.net/tirkiye-erisen-xwe-li-ser-basure-kurdistane-didomine"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07-19",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Geliyê Mêwîn, Metîna mountains, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.18,
+  "lon": 43.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, citing CPT's Kameran Osman, reported that the Turkish army shelled Geliyê Mêwîn in the Metîna range twice; he said it was the 11th Turkish shelling of the Kurdistan Region since the guerrilla weapons-burning ceremony.",
+  "sources": [
+   {
+    "title": "Nûçe TV: ARTÊŞA TIRK CAREKE DIN ÇIYAYÊ METÎNA TOPBARAN KIR",
+    "url": "https://nucetv.net/Artesa--Tirk--Carek-Din-Ciyaye-Metîna-Topbaran-Kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-20",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Besta region (Besta Hincê, Romaran, Mendîçelî), Şirnex",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.48,
+  "lon": 42.28,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Article notes five years of continuous tree felling and mining, oil and dam exploration in the area",
+  "summary": "Nûçe TV, citing Ajansa Welat, reported that the Turkish army launched a ground and air military operation, with helicopter gunships, in the Besta region of Şirnex (Şırnak).",
+  "sources": [
+   {
+    "title": "Nûçe TV: Artêşa Tirk li Şirnexê operasyona leşkerî da destpêkirin",
+    "url": "https://nucetv.net/artesa-tirk-li-sirnexe-operasyona-leskeri-da-destpekirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-10-22",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Between Avîl village (Dih/Eruh, Sêrt) and Nihik village (Şirnex)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.64,
+  "lon": 42.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Continuous tree felling; a resident's phone with footage was seized by soldiers",
+  "summary": "Nûçe TV reported that despite the Şirnex governor's promise, trees are still being felled under soldiers' supervision by village guards 'on security grounds' between Avîl and Nihik; a resident who filmed it said soldiers took his phone.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Bakurê Kurdistanê birîna daran didome",
+    "url": "https://nucetv.net/li-bakure-kurdistane-birina-daran-didome-48679"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-06",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Qileban (Uludere) district rivers: Hêzil, Robozik, Avgarî, Behrancî, Havan, Hîlal",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.44,
+  "lon": 42.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Rivers and streams drying year by year due to numerous dams",
+  "summary": "Nûçe TV reported that the Turkish state's dam building has dried up many rivers in Kurdistan, with the main water sources of Qileban (Uludere) shrinking every year.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Dewleta Tirk bi çêkirina bendavan gelek çem zuha kirine",
+    "url": "https://nucetv.net/dewleta-tirk-bi-cekirina-bendavan-gelek-cem-zuha-kirine"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Border villages of Behdînan: Amêdî, Zakho (Batîfa, Bêgova, Derkar), Akrê (Deşta Nehlê, Dînarte) and Şêxan (Etrûş)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.15,
+  "lon": 43.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Over 400 villages occupied/emptied: 240+ of 310 in Amêdî district, 90 in Zakho, ~60 in Akrê, 10+ in Şêxan; century-old trees cut and taken to Turkey, forests bulldozed, springs dried by explosions",
+  "summary": "Nûçe TV reported, from field monitoring and villagers' accounts, that the Turkish state occupies or has emptied more than 400 villages in Behdînan, plundering orchards, cutting century-old trees, bulldozing forests with tanks and drying springs with explosions to stop villagers returning.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Zêdeyî 400 gundên Behdînanê di bin dagîrkeriya Artêşa Tirkî de ne",
+    "url": "https://nucetv.net/zedeyi-400-gunden-behdinane-di-bin-dagirkeriya-artesa-tirki-de-ne"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07-06",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Efrîn",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": "Victim's car and money stolen",
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups in occupied Efrîn stopped 70-year-old Bedrî Elî, beat and tortured him and stole his car and money; he was hospitalised with serious fractures.",
+  "sources": [
+   {
+    "title": "Nûçe TV: LI EFRÎNÊ ÊRÎŞÎ SER KALEMÊREKÎ 70 SALÎ HAT KIRIN",
+    "url": "https://nucetv.net/li-efrine-erisi-ser-kalemereki-70-sali-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-08-31",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Til El-Lebanê (west of Til Temir) and Tişrîn Dam area",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Drone strike near Tişrîn Dam",
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups attacked positions near Til El-Lebanê west of Til Temir, and that the Turkish state bombed the area around Tişrîn Dam with a drone at 01:02.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li derdora Til Temirê êrîşa çekdarên dewleta Tirk hat şikandin",
+    "url": "https://nucetv.net/li-derdora-til-temire-erisa-cekdaren-dewleta-tirk-hat-sikandin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-09-02",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Kefer Sefrê village, Cindirês (Jindires), Efrîn",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.42,
+  "lon": 36.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Three young men abducted from a condolence tent",
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups raided a condolence tent in Kefer Sefrê with five vehicles and abducted three young men, reportedly residents of Şêx Meqsûd; days earlier the same groups had looted Bozîkê village.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Efrînê çeteyan bi ser konê sersaxiyê de girt 3 ciwan revandin",
+    "url": "https://nucetv.net/li-efrine-ceteyan-bi-ser-kone-sersaxiye-de-girt-3-ciwan-revandin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-09-04",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Qenaya drinking-water station, west of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Power line feeding the station cut; town left without water",
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups bombarded the drinking-water station of Qenaya west of Kobanê, cutting the electricity network that runs it and leaving residents without water.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Çeteyên Dewleta Tirk stasyona avê ya Qanaya bombebaran kirin",
+    "url": "https://nucetv.net/ceteyen-dewleta-tirk-stasyona-ave-ya-qanaya-bombebaran-kirin"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-04",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Tewîla village, west of Til Temir",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.64,
+  "lon": 40.3,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups attacked Tewîla village west of Til Temir and its surroundings with heavy weapons around 00:45.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Komên çekdar ên dewleta Tirk êrîşî gundewarê Til Temirê kirin",
+    "url": "https://nucetv.net/komen-cekdar-en-dewleta-tirk-erisi-gundeware-til-temire-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-11",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Rûta village, Mabata (Maabatli), Efrîn",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.54,
+  "lon": 36.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Gold and money stolen; couple abducted",
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups raided the home of Sebrî Mecîd Nasan in Rûta, stole the family's gold and money and abducted him and his wife Zeyneb.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Efrînê çeteyên Dewleta Tirk 2 kes revandin",
+    "url": "https://nucetv.net/li-efrine-ceteyen-dewleta-tirk-2-kes-revandin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10",
+  "actor": "Turkey",
+  "type": "border shooting",
+  "place": "Serêkaniyê (Ras al-Ain) countryside, Turkish border",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.07,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing SOHR, reported that Turkish soldiers shot two young men from Xeranîc (Deir ez-Zor) trying to cross the border in the Serêkaniyê countryside, killing one and seriously wounding the other.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Leşkerên Tirk ciwanekî Sûriyeyî kuşt",
+    "url": "https://nucetv.net/leskeren-tirk-ciwaneki-suriyeyi-kust"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-11-17",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Road from Cib Ebyed (east of Dêr Hafir) to Minbic (Manbij)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.3,
+  "lon": 37.9,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV reported that Turkish-state-backed armed groups shot dead Ebdullah El Mûsa El Hesen while he was transporting fuel to Minbic, and wounded another resident in Meqta Hecer Kebîr south-east of Minbic.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Minbicê çeteyan welatiyek kuşt",
+    "url": "https://nucetv.net/li-der-hafire-ceteyan-welatiyek-kust"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.233,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV reported that Turkish Bayraktar drones were heavily bombing Şêx Meqsûd in support of Syrian transitional government forces trying to advance into the Kurdish neighbourhood.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Taxa Şêx Meqsûd bi dijwarî tê topbarankirin",
+    "url": "https://nucetv.net/taxa-sex-meqsud-bi-dijwari-te-topbarankirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-14",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Dêr Hafir and Meskene (Maskanah), east of Heleb",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Six air strikes in two days",
+  "summary": "Nûçe TV, citing the SDF, reported that armed Turkish Akıncı drones circling over Dêr Hafir carried out six strikes on Dêr Hafir and Meskene within two days alongside the Syrian government offensive.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Balafirên Tirkiyê êrîşî Dêr Hafirê dike",
+    "url": "https://nucetv.net/balafiren-tirkiye-erisi-der-hafire-dike"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-17",
+  "actor": "Turkey",
+  "type": "border shooting",
+  "place": "Road between Til Temir and Serê Kaniyê (Ras al-Ain), near Erîşa",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Returning villagers prevented from reaching homes",
+  "summary": "Nûçe TV reported that villagers of Erîşa trying to return home via the Til Temir–Serê Kaniyê road were fired on from a Turkish state base.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li ser rêya Til Temir-Serê Kaniyê êrîşî welatiyan hat kirin",
+    "url": "https://nucetv.net/li-ser-reya-til-temir-sere-kaniye-erisi-welatiyan-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-12",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Menax and Kinêhir villages, north of Til Temir, and Serê Kaniyê countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Only road blocked with earth berms; villagers barred from fields; 25 returning families camped outside their village",
+  "summary": "Nûçe TV reported that the Turkish army at Menax blocked the only road between Menax and Kinêhir with earth berms and stopped residents reaching their fields, with similar closures across the Serê Kaniyê countryside.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Artêşa Tirkiyê rêya 2 gundên Til Temirê girt",
+    "url": "https://nucetv.net/artesa-tirkiye-reya-2-gunden-til-temire-girt"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-06-19",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Şêx village and Zirgan (Abu Rasin)–Til Temir countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 75,000 dunams of farmland burned across ~23 villages; houses burned in Şêx village",
+  "summary": "Nûçe TV reported that fires spread across about 75,000 dunams of farmland around Zirgan and Til Temir (cause not determined), and that firefighters could not reach the fire in Şêx village because it was next to a Turkish state military base, so houses there burned.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li derdora 4 gundên Zirgan û Til Temirê şewat derket",
+    "url": "https://nucetv.net/li-derdora-4-gunden-zirgan-u-til-temire-sewat-derket"
+   },
+   {
+    "title": "Nûçe TV: Şewat bi zeviyên Zirganê ket û her ku diçe belav dibe",
+    "url": "https://nucetv.net/sewat-bi-zeviyen-zirgane-ket-u-her-ku-dice-belav-dibe"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-09",
+  "actor": "Syria",
+  "type": "artillery",
+  "place": "Tişrîn Dam (Tishreen Dam) area, Girê Syriatel and around Minbic",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, citing the SDF, reported that armed groups affiliated with the Syrian transitional government shelled the Tişrîn Dam area and Girê Syriatel with heavy artillery from positions around Minbic.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Çekdarên Hikûmeta Veguhêz derdora Bendava Tişrînê topbaran kirin",
+    "url": "https://nucetv.net/cekdaren-hikumeta-veguhez-derdora-bendava-tisrine-topbaran-kirin"
+   },
+   {
+    "title": "Nûçe TV: QSD'ê êrîşa Hêzên Hikûmeta Şamê ya li ser bendavê têk bir",
+    "url": "https://nucetv.net/qsde-erisa-hezen-hikumeta-same-ya-li-ser-bendave-tek-bir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-05",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Dêr Hafir road and surroundings, east of Heleb",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV reported that on 5 October forces of the Syrian transitional government bombed the Dêr Hafir road and its surroundings with kamikaze drones, wounding a civilian.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Di êrîşên li ser Dêr Hafirê de 8 sivîl şehîd bûn û 9 kes birîndar bûn",
+    "url": "https://nucetv.net/di-erisen-li-ser-der-hafire-de-8-sivil-sehid-bun-u-9-kes-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-11",
+  "actor": "Syria",
+  "type": "artillery",
+  "place": "Dêr Hafir gate on the Reqa–Heleb road",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV reported that Syrian transitional government forces bombarded the Dêr Hafir gate on the Reqa–Heleb road; an attack days earlier had killed a resident and wounded SDF and Asayîş members.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Hêzên hikumeta veguhêz deriyê Dêr Hafirê bombebaran kir",
+    "url": "https://nucetv.net/hezen-hikumeta-veguhez-deriye-der-hafire-bombebaran-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-16",
+  "actor": "Syria",
+  "type": "ground assault",
+  "place": "Şîhan roundabout checkpoint, Eşrefiyê (Ashrafieh), Heleb",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.226,
+  "lon": 37.145,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": false,
+  "impact": null,
+  "summary": "Nûçe TV reported that armed men of the Syrian transitional government attacked a joint checkpoint at the Şîhan roundabout in Eşrefiyê, seriously wounding two members of the Internal Security Forces (Asayîş).",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li taxa Eşrefiyê ya Helebê 2 endamên asayîşê birîndar bûn",
+    "url": "https://nucetv.net/li-taxa-esrefiye-ya-helebe-2-endamen-asayise-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-22",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Dêr Hafir gate, east of Heleb",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV reported that Syrian transitional government forces struck the area around the Dêr Hafir gate with a kamikaze drone.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz careke din êrîşî Dêr Hafirê kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-careke-din-erisi-der-hafire-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-05",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Îmam and Um Tîna villages, north of Dêr Hafir",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.18,
+  "lon": 37.7,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "impact": "Damage to civilian property",
+  "summary": "Nûçe TV, citing the SDF, reported that an armed drone of groups affiliated with the Syrian transitional government bombed Îmam and Um Tîna villages and fired on the area's road, damaging civilian property; no casualties.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Komên girêdayî Hikûmeta Şamê êrîşî du gundên Dêr Hafirê kirin",
+    "url": "https://nucetv.net/komen-giredayi-hikumtea-same-erisi-du-gunden-der-hafire-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-16",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Villages around Dêr Hafir, east of Heleb",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": "Medics evacuating the wounded were targeted",
+  "summary": "Nûçe TV, citing the SDF, reported that a transitional-government drone struck villages around Dêr Hafir, wounding two civilians, and then struck SDF fighters evacuating them, wounding two more.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Dêr Hafirê 2 sivîl û 2 şervanên QSD`ê birîndar bûn",
+    "url": "https://nucetv.net/li-der-hafire-2-sivil-u-2-servanen-qsde-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-25",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Dure village, Dêr Hafir",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.16,
+  "lon": 37.73,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": "A child killed",
+  "summary": "Nûçe TV reported that Syrian transitional government groups attacked Dure village with a drone, killing a child and wounding one person.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Dronekê gundekî Dêr hafir bombebaran kir",
+    "url": "https://nucetv.net/droneke-gundeki-der-hafir-bombebaran-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-29",
+  "actor": "Syria",
+  "type": "artillery",
+  "place": "Tişrîn Dam (Tishreen Dam) area",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Material damage",
+  "summary": "Nûçe TV, citing the SDF, reported that Syrian transitional government groups shelled the area around Tişrîn Dam with artillery and heavy weapons on 29 December and struck it again with kamikaze drones the next day, causing material damage.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz êrîşî Tişrînê kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-erisi-tisrine-kir"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz derdora Bendava Tişrînê topbaran kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-derdora-bendava-tisrine-topbaran-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-10",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Qelender Awa village border, Germik, Pênciwên (Penjwen)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.64,
+  "lon": 45.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, citing Rojnews, reported that Iran bombarded the border area of Qelender Awa village in Germik subdistrict of Pênciwên three times.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Îranê sînorê Pênciwênê bombebaran kir",
+    "url": "https://nucetv.net/irane-sinore-penciwene-bombebaran-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-17",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI family camp near Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Camp housing civilian families",
+  "summary": "Nûçe TV reported that the camp of the Kurdistan Democratic Party of Iran (PDKI) near Koye, home to civilian families, was bombed twice on 17 March, and that the IRGC struck the families' camp with drones again on 18 March, alongside a missile strike on a Rojhilat Kurds' camp in Koye.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Kampa PDK-Î’yê ya li navçeya Koye ya li Hewlêrê 2 caran hate bombebarankirin",
+    "url": "https://nucetv.net/kampa-pdk-iye-ya-li-navceya-koye-ya-li-hewlere-2-caran-hate-bombebarankirin"
+   },
+   {
+    "title": "Nûçe TV: Îranê bi dronan êrîş bir ser kampa PDK-Î ya li Koye",
+    "url": "https://nucetv.net/irane-bi-dronan-eris-bir-ser-kampa-pdk-i-ya-li-koye"
+   },
+   {
+    "title": "Nûçe TV: Bi dron û mûşekan êrîşî Koye û Silêmaniyê hat kirin",
+    "url": "https://nucetv.net/bi-dron-u-musekan-erisi-koye-u-silemaniye-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-19",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Surdaş camp (Komala Toilers families), Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.9,
+  "lon": 45.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV reported that the IRGC attacked the Surdaş camp near Dukan, home to families of the Kurdistan Toilers' Party (Komala) peshmerga, with drones.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Îranê êrîşî kampa Zehmetkêşên Kurdistanê kir",
+    "url": "https://nucetv.net/irane-erisi-kampa-zehmetkesen-kurdistane-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-22",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Surdaş camp, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.9,
+  "lon": 45.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, quoting Komala Toilers official Emced Huseyn Penahî, reported that the Iranian state struck the Surdaş refugee camp near Dukan with two missiles at 13:24.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Kampa Surdaşê careke din hat bombebarankirin",
+    "url": "https://nucetv.net/kampa-surdase-careke-din-hat-bombebarankirin"
+   },
+   {
+    "title": "Nûçe TV: Kampa Surdaşê careke din hat bombebarankirin",
+    "url": "https://nucetv.net/kampa-surdase-careke-din-hat-bombebarankirin-52592"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-10",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala Toilers bases, Dola Alanê",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.7,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": "76 Iranian missile/drone attacks on the party's bases since 28 February",
+  "summary": "Nûçe TV reported that Iran struck bases of the Kurdistan Toilers' Association (Komala) in Dola Alanê with three missiles; no casualties.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Bargehên Komeleya Zehmetkêşên Kurdistanê dîsa rastî êrîşan hatin",
+    "url": "https://nucetv.net/bargehen-komeleya-zehmetkesen-kurdistane-disa-rasti-erisan-hatin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-15",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Cêjnîkan (Jezhnikan) camp near Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.33,
+  "lon": 44.09,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Second drone attack on the camp in three days",
+  "summary": "Nûçe TV, citing the PDKI, reported that Iran attacked Cêjnîkan camp, home to PDKI families, with three drones, the second such attack in three days.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Îranê êrîşî kampa partiya Demokrat kir",
+    "url": "https://nucetv.net/irane-erisi-kampa-partiya-demokrat-kir"
+   },
+   {
+    "title": "Nûçe TV: Êrîşî Kampa Cêjnîkanê ya li Hewlêrê hate kirin",
+    "url": "https://nucetv.net/erisi-kampa-cejnikane-ya-li-hewlere-hate-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-12",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Sîdekan (Sidakan) border area",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.797,
+  "lon": 44.672,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": "Body and 850 sheep seized by Iranian forces",
+  "summary": "Nûçe TV reported that IRGC forces shot dead shepherd Rêbaz Silêman Herkî while he grazed his flock on the Sîdekan border and seized his body and 850 sheep.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Şivanek li Sîdekanê ji aliyê Artêşa Pasdarên Îranê ve hat kuştin",
+    "url": "https://nucetv.net/sivanek-li-sidekane-ji-aliye-artesa-pasdaren-irane-ve-hat-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-18",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Taslûce area",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.6,
+  "lon": 45.3,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Several people lightly wounded",
+  "summary": "Nûçe TV reported that Iranian missiles and drones struck the Taslûce area of Silêmanî; health officials said several people were lightly wounded.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Careke din Başûrê Kurdistanê rûbirûyî êrîşên dronî û mûşekî bû",
+    "url": "https://nucetv.net/careke-din-basure-kurdistane-rubiruyi-erisen-droni-u-museki-bu"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-27",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Heybet Sultan mountain behind Koye University",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, citing a private source, reported that the Iranian state attacked part of Heybet Sultan mountain behind Koye University; no casualties.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Êrîşî bajarokê Koye yê Başûrê Kurdistanê hat kirin",
+    "url": "https://nucetv.net/erisi-bajaroke-koye-ye-basure-kurdistane-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-08",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Surdaş party bases and a Komala member's house near Zirgwêz",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.9,
+  "lon": 45.15,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, quoting Komala Toilers' Amced Penahî, reported that the Iranian state attacked bases of Rojhilat Kurdish parties at Surdaş with four drones and also struck a Komala member's house near Zirgwêz; no casualties.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Bi dronan êrîşî kampên li ser sînorê Silêmaniyê hat kirin",
+    "url": "https://nucetv.net/bi-dronan-erisi-kampen-li-ser-sinore-silemaniye-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-11",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala Toilers bases, Geliyê Alan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.7,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV, quoting Emced Husên Penahî, reported that Iran attacked the party's bases in Geliyê Alan at 01:30; no casualty information yet.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Dewleta Îranê êrîşî Komeleya Zehmetkêşên Kurdistanê kir",
+    "url": "https://nucetv.net/dewleta-irane-erisi-komeleya-zehmetkesen-kurdistane-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-17",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Kurdistan Region Prime Minister's private office and home of the Security (Parastin) agency chief, Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.191,
+  "lon": 44.009,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV reported that Kurdistan Region PM Masrour Barzani said Iranian drones targeted his private office and the home of the head of the Security and Intelligence Agency in Erbil.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Bi 2 dronan êrîşî ser ofîsa serokwezîrê herêma Kurdistanê hat kirin",
+    "url": "https://nucetv.net/bi-2-dronan-erisi-ser-ofisa-serokwezire-herema-kurdistane-hat-kirin"
+   },
+   {
+    "title": "Nûçe TV: Ofîsa Serokwezîrê Herêma Kurdistanê û Dezgeha Parastinê bi dronan hatin armancgirtin",
+    "url": "https://nucetv.net/ofisa-serokwezire-herema-kurdistane-u-dezgeha-parastine-bi-dronan-hatin-armancgirtin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-14",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Zirgwêzele (Zirgwezala) area",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.58,
+  "lon": 45.57,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Nûçe TV reported that the IRGC struck the Zirgwêzele area, where camps of Rojhilat Kurdish parties (especially Komala) are based, with three missiles at dawn.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Sûpaya Pasdaran bi sê mûşekan êrîşî herêma Zirgiwêzele ya Silêmaniyê kir",
+    "url": "https://nucetv.net/supaya-pasdaran-bi-se-musekan-erisi-herema-zirgiwezele-ya-silemaniye-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07-25",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Seyranbend border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.95,
+  "lon": 45.75,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing human rights groups, reported that Iranian state forces killed kolber Berzan Salihî, 38, a father of three, on the Seyranbend border.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Dewleta Îranê dîsa kolberek Kurd qetil kir",
+    "url": "https://nucetv.net/dewleta-irane-disa-kolberek-kurd-qetil-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07-31",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Eşterawa area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.99,
+  "lon": 45.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing HANA, reported that Iranian forces shot and wounded kolber Behram, a father of two from Mîk village (Seqiz), on his way to work in the Eşterawa area of Bane.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Rojhilatê Kurdistanê kolberekî Kurd hat birîndarkirin",
+    "url": "https://nucetv.net/li-rojhilate-kurdistane-kolbereki-kurd-hat-biridnarkirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-08-11",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Bane (Baneh) border area",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.998,
+  "lon": 45.885,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing Kolber News, reported that kolber Xalid Ehmed, 45, was wounded by Iranian forces near Bane and hospitalised in poor condition.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li gundekî Rojhilatê Kurdistanê 2 kolber birîndar bûn",
+    "url": "https://nucetv.net/li-gundeki-rojhilate-kurdistane-2-kolber-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-24",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Sadawa border, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.0,
+  "lon": 45.75,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing Kolbernews, reported that Iranian state forces fired directly on kolbers at the Sadawa border, killing Îbrahîm Pîranzade from Bîlwî village and wounding another.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Kolberekî din li Rojhilatê Kurdistanê hate qetilkirin",
+    "url": "https://nucetv.net/kolbereki-din-li-rojhilate-kurdistane-hate-qetilkirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-01",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Bestam border area, Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.25,
+  "lon": 46.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing Hengaw, reported that kolbers Siyawş Ciwanî and Sîna were wounded by direct fire from Iranian military forces in the Bestam border area of Seqiz.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Hêzên dewleta Îranê 3 welatî girtin û 2 kolber birîndar kirin",
+    "url": "https://nucetv.net/hezen-dewleta-irane-3-welati-girtin-u-2-kolber-birindar-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-10",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hengejal border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.98,
+  "lon": 45.7,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing Kolbernews, reported that Iranian forces shot dead kolber Mihemed Tewhîd Penahî, 25, from Seqiz, at close range without warning in the Hengejal border area.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Kolberek di êrîşa hêzên Îranê de hat kuştin",
+    "url": "https://nucetv.net/kolberek-di-erisa-hezen-irane-de-hat-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-14",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Bane (Baneh) border",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.998,
+  "lon": 45.885,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": "Body not returned to family",
+  "summary": "Nûçe TV, citing Kolbernews, reported that Iranian state forces shot kolber Musa Zîbapûr without warning on the Bane border; he died at the scene.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Li Bane kolberek hat kuştin",
+    "url": "https://nucetv.net/li-bane-kolberek-hat-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-19",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Perdespiyan border line, Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.15,
+  "lon": 45.48,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Nûçe TV, citing Kolber News, reported that Iranian state forces fired on kolbers on the Perdespiyan border line of Serdeşt, killing Yûsif Mamepûr, 30, from Werdê village.",
+  "sources": [
+   {
+    "title": "Nûçe TV: Îranê kolbereke Kurd kuşt",
+    "url": "https://nucetv.net/irane-kolbereke-kurd-kust"
+   }
+  ],
+  "kind": "strike"
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "record": "ecocide",
+  "date": "2020",
+  "period": "2020–2023",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Behdînan (Badinan) mountain forests, Duhok",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.15,
+  "lon": 43.3,
+  "precision": "approximate",
+  "impact": "About 3 million trees felled or uprooted in 2020–2023 (Baxtyar Zebari's estimate); about 660 km of military roads cut through mountain forest; more than 100 Turkish bases",
+  "summary": "Duhok environmental journalist Baxtyar Zebari estimates the Turkish army felled or uprooted about three million trees in Behdînan between 2020 and 2023, after systematic cutting began around 2013. The Amargi, citing CPT mapping, reports that the army pushed up to 40 km into Başûr, built more than 100 bases and about 660 km of military roads through dense forest. A member of the Kurdistan parliament said military authorities encouraged traders to buy the felled timber and ship it across the border; the Turkish state says the canopy hides PKK fighters.",
+  "sources": [
+   {
+    "title": "The Amargi: Ecocide in Iraqi Kurdistan – Turkey's saws in the mountains (Khaled Sulaiman, 8 Oct 2026)",
+    "url": "https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018",
+  "period": "2018–present",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Occupied Efrîn, Serêkaniyê and Girê Spî",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.51,
+  "lon": 36.87,
+  "precision": "approximate",
+  "impact": "Kurdish residents displaced and abducted; settlements built for non-Kurdish settlers; olive groves and forests felled; areas run by Turkish governors",
+  "summary": "Since the Turkish state occupied Efrîn in 2018 and Serêkaniyê and Girê Spî in 2019, international lawyer Loqman Radpey writes, citing SOHR and other monitors, that Kurds have been displaced and abducted while settlements for non-Kurdish families were built with Qatari, Kuwaiti and Pakistani-linked funding. He also cites the felling of ancient olive groves and forests, and Turkish governors, school curricula, post offices and a Gaziantep University campus, as signs of Turkification and de facto annexation.",
+  "sources": [
+   {
+    "title": "The Loop (ECPR): The Turkification of Kurdistan – the world looks on (Loqman Radpey, 19 Aug 2024, opinion)",
+    "url": "https://theloop.ecpr.eu/the-turkification-of-kurdistan-the-world-looks-on/"
+   }
+  ],
+  "kind": "eco"
+ }
+]
