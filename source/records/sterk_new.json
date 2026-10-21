@@ -1,0 +1,370 @@
+[
+ {
+  "record": "attack",
+  "date": "2017-04-22",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Sêgirê area, Amêdî (Amadiya) district",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV reported that Turkish state warplanes bombed the Sêgirê area of Amêdî on 22 April 2017, killing a guerrilla and four militia members from the Botan region; it named them as Bedran Gundik Remo, Mehmet Tanit, Zekî, Evdilkerîm Ozer and Osman Îlhan.",
+  "sources": [
+   {
+    "title": "Sterk TV: Berxwedana Şehîdên Sêgirê [The resistance of the Sêgirê martyrs]",
+    "url": "https://sterktv.eu/berxwedana-shiden-sgire/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-04-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mount Qereçox (Karachok), Dêrik (al-Malikiyah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.95,
+  "lon": 42.03,
+  "precision": "approximate",
+  "killed": 20,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV reported that on the night of 25 April 2017 Turkish state warplanes bombed Mount Qereçox near Dêrik, killing 20 fighters, among them YPG/YPJ media members such as Şîlan Botan, Haqî Bagok and Rewan Gênco.",
+  "sources": [
+   {
+    "title": "Sterk TV: Salvegera êrîşa li ser Qerechoxê rapora Amara Bawer [Anniversary of the attack on Qereçox, report by Amara Bawer]",
+    "url": "https://sterktv.eu/salvegera-erisa-li-ser-qerechoxe-rapora-amara-bawer/"
+   },
+   {
+    "title": "Sterk TV: Salvegera Komkûjiya Qeraçoxê [Anniversary of the Qereçox massacre]",
+    "url": "https://sterktv.eu/salvegera-komkujiya-qerachoxe/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-12-06",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Makhmour (Mexmûr) refugee camp area",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV, recalling earlier strikes on Makhmour, reported that Turkish state warplanes struck Makhmour on 6 December 2017 and killed five members of the camp's self-defence forces, named as Bager Boran, Botan Amed, Çekdar Mawa, Dewran Mardîn and Baz Dijwar.",
+  "sources": [
+   {
+    "title": "Sterk TV: Balefirên Artêşa Tirk êrişî wargeha Mexmûrê kirin. [Turkish army planes attacked Makhmour camp]",
+    "url": "https://sterktv.eu/40414-2/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-10-11",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Prison in Qamişlo (Qamishli)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Sterk TV carried an SDF General Command statement saying the Turkish state had shelled a prison in Qamişlo holding ISIS members the day before, in what the SDF called an attempt to let them escape.",
+  "sources": [
+   {
+    "title": "Sterk TV: Daxuyaniya fermandariya Giştî ya QSD’ê derbarê şerên dawî [SDF General Command statement on the latest fighting]",
+    "url": "https://sterktv.eu/ji-30-parti-u-rexistinen-civaka-sivil-en-bakur-u-rojhilate-suriyeye-banga-berxwedane/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-11-08",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Derûna Axa and Girkê Legê (al-Muabbada), towards Dêrik",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.02,
+  "lon": 41.96,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "Sterk TV reported that Turkish soldiers on a joint Turkish-Russian patrol opened fire on residents protesting the patrol between Derûna Axa and Dêrik, killing a young man named Serxwebûn Alî; its correspondent reported five people wounded, who were taken to Dêrik hospital.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewriya Artêşa Tirk a dagirker sivîlek li Girkê Legê kuşt [Turkish army patrol killed a civilian in Girkê Legê]",
+    "url": "https://sterktv.eu/dewriya-artesa-tirk-a-dagirker-sivilek-li-girke-lege-kust/"
+   },
+   {
+    "title": "Sterk TV: Nîvroj-Rapora Amara Bawer-Berxwedana gelê Rojava [Midday news: Amara Bawer's report on the Rojava people's resistance]",
+    "url": "https://sterktv.eu/nivroj-rapora-amara-bawer/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-11",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Near Til Temir (Tal Tamr)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.655,
+  "lon": 40.371,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV's press review quoted the Saudi newspaper Okaz as saying that Turkish-backed armed groups shelled Syrian army-held areas near Til Temir, killing five people, the first such Syrian army losses on the Turkish border.",
+  "sources": [
+   {
+    "title": "Sterk TV: CÎHAN LI DIJÎ ÇETEYÊN ENQERÊ BI FIKAR E [The world is worried about Ankara's gangs]",
+    "url": "https://sterktv.eu/cihan-li-diji-ceteyen-enqere-bi-fikar-e/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-11-19",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Şengal (Sinjar) region",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.319,
+  "lon": 41.861,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Sterk TV reported a statement by the Şengal Assembly Abroad saying Turkish state unmanned warplanes had bombed Şengal that day, the third Turkish bombardment of Şengal within a month; no casualty figures were given.",
+  "sources": [
+   {
+    "title": "Sterk TV: Meclisa Şengalê êrişên balefirên Tirkiyê li ser Şengalê şermezar [Şengal Assembly condemns Turkish air strikes on Şengal]",
+    "url": "https://sterktv.eu/28017/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-02",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Girê Spî (Tell Abyad)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.685,
+  "lon": 38.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Homes of displaced Kurds burned; farm equipment, livestock, grain and vehicles seized",
+  "summary": "Sterk TV reported that Turkish-backed armed groups in occupied Girê Spî were burning the homes of displaced Kurdish families and seizing their property, farm machinery, sheep, wheat, barley and cars, naming the families of Mihemed Minbicî and Îdan Selûm among dozens affected.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewleta Tirk a dagirker malên kurdan li Girê Spî dişewetîne [The Turkish state is burning Kurds' houses in Girê Spî]",
+    "url": "https://sterktv.eu/dewleta-tirk-a-dagirker-malen-kurdan-li-gire-spi-disewetine/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-02-17",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Şehba villages (Dêr Cemal, Til Cîcan, Xalisa, Herbîl) and Şêrawa villages (Aqîbe, Ziyaret), Efrîn",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.447,
+  "lon": 37.028,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Sterk TV reported that the Turkish army and allied armed groups shelled the Şehba villages of Dêr Cemal, Til Cîcan, Xalisa and Herbîl and the Şêrawa villages of Aqîbe and Ziyaret overnight; no casualties were reported.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewleta tirk herêmên Şehba, Efrîn û Kobanê topbaran kir [The Turkish state shelled Şehba, Efrîn and Kobanê]",
+    "url": "https://sterktv.eu/36057-2/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-02-17",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Boraza village and Euphrates riverbank villages, west of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.79,
+  "lon": 38.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Sterk TV reported that Turkish forces and allied groups fired from Cerablus (Jarabulus) on Boraza village and villages on the Euphrates bank in Kobanê's countryside overnight; no casualties were reported.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewleta tirk herêmên Şehba, Efrîn û Kobanê topbaran kir [The Turkish state shelled Şehba, Efrîn and Kobanê]",
+    "url": "https://sterktv.eu/36057-2/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-04-01",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Zirgan (Abu Rasin) countryside, Serêkaniyê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.847,
+  "lon": 40.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "Sterk TV reported that the Turkish army and allied armed groups fired dozens of shells at villages around Zirgan, wounding four civilians named as Mihemed Xidir Sayil, Heysem Yusif Wezzo, Cazîye Elî Xirxir and Yasîn Remedan.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewleta Tirk li Rojava êrîşî sivîlan dike [The Turkish state attacks civilians in Rojava]",
+    "url": "https://sterktv.eu/dewleta-tirk/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-04-02",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Eboş checkpoint, Til Temir (Tal Tamr) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.655,
+  "lon": 40.371,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 5,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV reported that Turkish-backed armed groups shelled the Eboş checkpoint near Til Temir, killing two Syrian government soldiers and wounding five.",
+  "sources": [
+   {
+    "title": "Sterk TV: Dewleta Tirk li Rojava êrîşî sivîlan dike [The Turkish state attacks civilians in Rojava]",
+    "url": "https://sterktv.eu/dewleta-tirk/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-04",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Zînî Wertê, near Qendîl",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.459,
+  "lon": 44.767,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV reported that after the KDP moved forces into Zînî Wertê, Turkish state warplanes struck the area and killed three HPG guerrillas.",
+  "sources": [
+   {
+    "title": "Sterk TV: Aloziya li Zînî Wertê û Yekîtiya hêzên Kurd [The Zînî Wertê crisis and Kurdish unity]",
+    "url": "https://sterktv.eu/cavderi-siyasi-eli-oramar-aloziya-li-zini-werte-dinirxine/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-07-10",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Şikefta Birîndara resistance area, Zap",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 43.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": "White phosphorus used (HPG claim)",
+  "summary": "Sterk TV reported an HPG statement that the Turkish army used a white phosphorus bomb against guerrilla positions at Şikefta Birîndara in Zap at 12:50 on 10 July 2022, during the offensive on Zap, Avaşîn and Metîna. Sterk TV said the army had repeatedly used chemical weapons there.",
+  "sources": [
+   {
+    "title": "Sterk TV: Sûcên dewleta Tirk ên bi bombeyên fosforê gelekî zêde ne [The Turkish state's crimes with phosphorus bombs are very many]",
+    "url": "https://sterktv.eu/sucen-dewleta-tirk-en-bi-bombeyen-fosfore-geleki-zede-ne/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-04-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kobanê countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Sterk TV's evening bulletin reported that the Turkish army bombed a vehicle in Kobanê that morning; the SDF said one of its fighters was killed.",
+  "sources": [
+   {
+    "title": "Sterk TV: 17:00 Nûçe [17:00 news bulletin]",
+    "url": "https://sterktv.eu/1700-nuce-2/"
+   }
+  ],
+  "kind": "strike"
+ }
+]

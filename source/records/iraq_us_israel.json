@@ -1,0 +1,1030 @@
+[
+ {
+  "record": "attack",
+  "date": "2017-10-16",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Kerkûk (Kirkuk) and disputed territories",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.472,
+  "lon": 44.395,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "UN estimated 61,200 people fled as Iraqi forces retook areas (cited by HRW)",
+  "summary": "Iraqi federal forces, including Popular Mobilization Forces units, took Kerkûk (Kirkuk) and other disputed territories from the Peshmerga from 16 October 2017 after the independence referendum. HRW cited a UN estimate that 61,200 people fled; Peshmerga withdrew with limited fighting from areas including Şengal (Sinjar), Zummar, Xaneqîn (Khanaqin), Celawla (Jalawla) and Dibis.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Iraq: Fighting in Disputed Territories Kills Civilians (20 Oct 2017)",
+    "url": "https://www.hrw.org/news/2017/10/20/iraq-fighting-disputed-territories-kills-civilians"
+   },
+   {
+    "title": "UN Iraq press release on destruction, looting and forced displacement in disputed areas (19 Oct 2017)",
+    "url": "https://iraq.un.org/en/node/210646"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-10-16",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Xurmatû (Tuz Khurmatu)",
+  "governorate": "Salahaddin",
+  "country": "Iraq",
+  "lat": 34.877,
+  "lon": 44.665,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 35,000 people fled (UNAMI via Amnesty); hundreds of properties looted, burned or destroyed in mainly Kurdish areas; UN saw about 150 premises burned or damaged and up to 11 Kurdish houses destroyed with explosives",
+  "summary": "After Iraqi federal forces and the Popular Mobilization Forces took Xurmatû (Tuz Khurmatu) on 16 October 2017, residents told Amnesty that at least 11 civilians were killed in indiscriminate attacks and that Iraqi government forces, PMF members and Turkmen fighters took part in looting, arson and demolition of homes in mainly Kurdish areas. HRW said Iraqi forces let civilians loot unimpeded for at least a day.",
+  "sources": [
+   {
+    "title": "Amnesty International: Iraq: Fresh evidence that tens of thousands forced to flee Tuz Khurmatu amid indiscriminate attacks, lootings and arson (24 Oct 2017)",
+    "url": "https://www.amnesty.org/en/latest/news/2017/10/iraq-fresh-evidence-that-tens-of-thousands-forced-to-flee-tuz-khurmatu-amid-indiscriminate-attacks-lootings-and-arson-2/"
+   },
+   {
+    "title": "Human Rights Watch: Iraq: Fighting in Disputed Territories Kills Civilians (20 Oct 2017)",
+    "url": "https://www.hrw.org/news/2017/10/20/iraq-fighting-disputed-territories-kills-civilians"
+   },
+   {
+    "title": "Rudaw: UN probe confirms 100s of houses, businesses burned or bombed in Tuz Khurmatu (16 Dec 2017)",
+    "url": "https://rudaw.net/english/kurdistan/161220178"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-10-20",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Pirde (Altun Kupri)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.754,
+  "lon": 44.143,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": "Kurdistan Region Security Council said about 100,000 people were displaced (reported by CNN; not independently confirmed)",
+  "summary": "Iraqi Counter-Terrorism Service, Federal Police and Popular Mobilization Forces advanced on Pirde (Altun Kupri), the last district of Kirkuk province held by the Peshmerga, and took it after about three hours of fighting. Casualty figures from each side conflict; Kurdish authorities reported mass displacement.",
+  "sources": [
+   {
+    "title": "Rudaw: Iraqi army, Shiite militia and Peshmerga exchange heavy fire north of Kirkuk (20 Oct 2017)",
+    "url": "https://www.rudaw.net/english/kurdistan/20102017"
+   },
+   {
+    "title": "Al Arabiya: Iraqi forces complete takeover of Kirkuk province after clashing with Kurds (20 Oct 2017)",
+    "url": "https://english.alarabiya.net/amp/News/middle-east/2017/10/20/Iraqi-forces-complete-takeover-of-Kirkuk-province-after-clashing-with-Kurds"
+   },
+   {
+    "title": "Wikipedia: Battle of Altun Kupri (2017)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Altun_Kupri_(2017)"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2019-11",
+  "actor": "Iraq",
+  "place": "Southern Kerkûk (Kirkuk) farmland",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.14,
+  "lon": 44.448,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Kurdish-owned farmland taken over by Arab families resettled under the Ba'ath-era Arabisation policy",
+  "summary": "Rudaw reported that Arab families resettled under the former regime's Arabisation policy were confiscating Kurdish farmland in Kirkuk province after federal forces took control in 2017; the Iraqi Agriculture Ministry formed a committee on the dispute.",
+  "sources": [
+   {
+    "title": "Rudaw: Resettled Arabs confiscate Kurdish farmlands in Kirkuk (28 Nov 2019)",
+    "url": "https://rudaw.net/english/middleeast/iraq/281120192"
+   },
+   {
+    "title": "Rudaw: Kurdish farmers fear land takeover in Kirkuk province (18 May 2020)",
+    "url": "https://www.rudaw.net/english/middleeast/iraq/18052020"
+   }
+  ],
+  "category": "land",
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-11-04",
+  "actor": "Iraq",
+  "place": "Gabara, south of Kerkûk (Kirkuk)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.14,
+  "lon": 44.448,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Attempted transfer of a 100-dunam Kurdish-farmed plot",
+  "summary": "Dozens of Kurdish farmers in southern Kirkuk blocked resettled Arabs who arrived with an Iraqi army escort and an agriculture directorate document to take over a 100-dunam plot in Gabara. A farmer said the army vehicles claimed to be 'executing the law'.",
+  "sources": [
+   {
+    "title": "Rudaw: Kurdish farmers foil renewed effort to confiscate farmland in Kirkuk (4 Nov 2021)",
+    "url": "https://rudaw.net/english/middleeast/iraq/04112021"
+   }
+  ],
+  "category": "land",
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-04-18",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Dugure (Dokuri), Sinunê (Sinuni), Şengal (Sinjar)",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.465,
+  "lon": 41.712,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Iraqi army clashed for about an hour with Êzîdxan Security Forces at a compound in Dugure (Dokuri), Sinunê (Sinuni), after the Êzîdî force refused to leave a checkpoint; a local source said two civilians were wounded.",
+  "sources": [
+   {
+    "title": "The New Arab: Sinjar residents fear escalation after Iraqi army-YBS fight (20 Apr 2022)",
+    "url": "https://www.newarab.com/news/sinjar-residents-fear-escalation-after-iraqi-army-ybs-fight"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-05-01",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Sinunê (Sinuni) and Dugure, Şengal (Sinjar)",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.465,
+  "lon": 41.712,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": false,
+  "impact": "About 10,200 people fled (local officials); 1,746 Êzîdî families registered in Duhok camps (KRG Duhok displacement directorate)",
+  "summary": "The Iraqi army launched an operation on 1–2 May 2022 against the Sinjar Resistance Units (YBS) and Êzîdxan Security Forces in Dugure and Sinunê (Sinuni). A Yazidi official said fighting took place in residential areas with tanks and artillery; one soldier and one YBS fighter were killed and about 10,200 people fled to Duhok.",
+  "sources": [
+   {
+    "title": "The New Arab: How fighting in Sinjar is displacing Iraq's Yazidis (May 2022)",
+    "url": "https://newarab.com/analysis/how-fighting-sinjar-displacing-iraqs-yazidis"
+   },
+   {
+    "title": "Middle East Eye: Iraq: Yazidis flee Sinjar as army launches offensive against armed group (2 May 2022)",
+    "url": "https://www.middleeasteye.net/news/iraq-sinjar-yazidis-flee-offensive-armed-group"
+   },
+   {
+    "title": "Shafaq News: More than 1,200 families fled the clashes in Sinjar",
+    "url": "https://shafaq.com/en/Kurdistan/More-than-1-200-families-fled-the-clashes-in-Sinjar"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-05-20",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Mexmûr (Makhmour) refugee camp",
+  "governorate": "Nineveh (Erbil-administered)",
+  "country": "Iraq",
+  "lat": 35.814,
+  "lon": 43.545,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Attempt to fence the camp with wire and guard towers; residents' sit-in at camp entrances",
+  "summary": "Iraqi army units with armoured vehicles tried to surround and enter Mexmûr (Makhmour) refugee camp, where Kurdish refugees from Turkey live; residents held a sit-in at the perimeter to block them. Il Manifesto, citing the KNK, reported that soldiers fired on residents who threw stones and wounded two young men (not independently confirmed).",
+  "sources": [
+   {
+    "title": "Rudaw: Iraqi army attempts to enter PKK-held Makhmour Camp: local media (20 May 2023)",
+    "url": "https://www.rudaw.net/english/middleeast/iraq/20052023"
+   },
+   {
+    "title": "Jerusalem Post: Clashes rise in Kurdish refugee camp in Iraq (22 May 2023)",
+    "url": "https://jpost.com/middle-east/article-743835"
+   },
+   {
+    "title": "Il Manifesto: Baghdad's siege of Makhmour refugee camp is met with brave resistance",
+    "url": "https://global.ilmanifesto.it/baghdads-siege-of-makhmour-refugee-camp-is-met-with-brave-resistance"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-09-02",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Kerkûk (Kirkuk) city",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.472,
+  "lon": 44.395,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 16,
+  "civilian": true,
+  "impact": null,
+  "summary": "HRW said Iraqi security forces appear to have opened fire without warning on demonstrators in Kerkûk (Kirkuk), killing at least four Kurds, including an off-duty Peshmerga, and injuring 16. Rudaw noted it was unclear whether security forces or Shia armed men present fired the fatal shots.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Iraq: Security Forces Open Fire on Kirkuk Protesters (8 Sep 2023)",
+    "url": "https://www.hrw.org/news/2023/09/08/iraq-security-forces-open-fire-kirkuk-protesters"
+   },
+   {
+    "title": "Rudaw: HRW calls on Iraq to hold murderers of Kurdish protesters in Kirkuk accountable (9 Sep 2023)",
+    "url": "https://rudaw.net/english/middleeast/iraq/09092023"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-10-22",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Near Mexmûr (Makhmour) refugee camp",
+  "governorate": "Nineveh (Erbil-administered)",
+  "country": "Iraq",
+  "lat": 35.814,
+  "lon": 43.545,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 7,
+  "civilian": false,
+  "impact": null,
+  "summary": "The Iraqi army and Peshmerga clashed near Mexmûr (Makhmour) camp over posts recently vacated by the PKK; an Iraqi military spokesman said three people were killed and seven injured across both sides.",
+  "sources": [
+   {
+    "title": "Rudaw: Sudani urges restraint after Iraqi, Kurdish Makhmour clashes (23 Oct 2023)",
+    "url": "https://www.rudaw.net/english/middleeast/iraq/23102023"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07-03",
+  "actor": "Iraq-PMF",
+  "type": "drone",
+  "place": "Near Hewlêr (Erbil) International Airport",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.24,
+  "lon": 43.947,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": null,
+  "summary": "An explosive-laden drone crashed near Hewlêr (Erbil) International Airport, which hosts US forces, without causing casualties. The KRG interior ministry blamed the Popular Mobilization Forces; Baghdad rejected the accusation and no group claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: KRG denies drone strike on Israeli-linked site in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/KRG-denies-drone-strike-on-Israeli-linked-site-in-Erbil"
+   },
+   {
+    "title": "Al Arabiya: Drone downed near Iraq airport hosting US troops: Kurdish forces",
+    "url": "https://english.alarabiya.net/News/middle-east/2025/07/14/drone-downed-near-iraq-airport-hosting-us-troops-kurdish-forces-"
+   },
+   {
+    "title": "Peregraf: KRG Interior Ministry Accuses Hashd al-Shaabi of Drone Attacks",
+    "url": "https://peregraf.com/en/news/9223"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-07-14",
+  "actor": "Iraq-PMF",
+  "place": "Oil fields in Duhok and Erbil (Sarsang, Peşxabûr/Peshkhabour, Tawke, Ain Sifni, Xurmela/Khurmala)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.042,
+  "lon": 43.342,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "impact": "About 220,000 barrels per day taken offline, cutting Kurdistan oil output by about 70% (HRW citing The New Arab); a water pipeline damaged at Khurmala (Reuters)",
+  "summary": "Drone strikes hit five oil fields in Başûr (the Kurdistan Region) between 14 and 17 July 2025, halting most production; no group claimed them. A KRG official blamed 'criminal militias on the Iraqi government payroll' (HRW), and a Kurdish official blamed the PMF for the 16 July strikes; Baghdad denies PMF involvement.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Iraq: Damage to Kurdistan Region Oil Fields Puts Rights at Risk (29 Jul 2025)",
+    "url": "https://www.hrw.org/news/2025/07/29/iraq-damage-to-kurdistan-region-oil-fields-puts-rights-at-risk"
+   },
+   {
+    "title": "Reuters: Drone attack halts Sarsang oil output, Iraqi Kurdistan ministry says (15 Jul 2025)",
+    "url": "https://www.reuters.com/business/energy/drone-attack-halts-sarsang-oil-output-iraqi-kurdistan-ministry-says-2025-07-15/"
+   },
+   {
+    "title": "Rudaw: KRG ministry condemns drone strikes on Duhok oil fields as operations halt (16 Jul 2025)",
+    "url": "https://www.rudaw.net/english/kurdistan/160720251"
+   }
+  ],
+  "category": "infrastructure",
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-11-26",
+  "actor": "Iraq-PMF",
+  "place": "Xormor (Khor Mor) gas field, Çemçemał (Chamchamal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.33,
+  "lon": 44.97,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": null,
+  "civilian": true,
+  "impact": "Fire in a storage tank; gas flows and power generation sharply reduced across several provinces",
+  "summary": "Two drones struck the Xormor (Khor Mor) gas field; an Iraqi government inquiry said they were launched from areas east of Xurmatû (Tuz Khurmatu) under federal control, the 11th attack from that area, but did not name the group. A former KRG liaison said the launch area is held by Iraqi forces including Turkmen PMF units.",
+  "sources": [
+   {
+    "title": "Rudaw: Military expert says Khor Mor strike originated from Turkmen PMF area (29 Nov 2025)",
+    "url": "https://www.rudaw.net/english/kurdistan/291120254"
+   },
+   {
+    "title": "Rudaw: Baghdad says Khor Mor attack carried out by 'two drones' (3 Dec 2025)",
+    "url": "https://www.rudaw.net/english/middleeast/iraq/031220251"
+   },
+   {
+    "title": "Shafaq News: Khor Mor attack: Inquiry reveals drone origins, identifies attackers",
+    "url": "https://shafaq.com/en/Kurdistan/Iraq-identifies-perpetrators-of-Khor-Mor-drone-attack"
+   }
+  ],
+  "category": "infrastructure",
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-13",
+  "actor": "Israel",
+  "type": "missile",
+  "place": "Qesrî Şîrîn (Qasr-e Shirin), Welfare Department building",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.51,
+  "lon": 45.596,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 24,
+  "civilian": true,
+  "impact": null,
+  "summary": "Israeli missile strikes, including a second strike about half an hour after the first, hit the Welfare Department building and Arbaeen pilgrimage office in Qesrî Şîrîn (Qasr-e Shirin), killing an accountant and injuring 24 to 31 people, according to Airwars.",
+  "sources": [
+   {
+    "title": "Airwars incident ISIR250613u",
+    "url": "https://airwars.org/incidents/isir250613u-june-13-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-15",
+  "actor": "Israel",
+  "type": "missile",
+  "place": "Olympic Village horse breeding centre, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.406,
+  "lon": 47.085,
+  "precision": "exact",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": "50–60 horses reported killed and about 20 injured; nearby hospital damaged",
+  "summary": "An Israeli missile strike on the horse breeding centre at the Olympic Village sports complex in Kirmaşan (Kermanshah) injured a guard and reportedly killed 50 to 60 horses, according to Airwars.",
+  "sources": [
+   {
+    "title": "Airwars incident ISIR250615p",
+    "url": "https://airwars.org/incidents/isir250615p-june-15-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-16",
+  "actor": "Israel",
+  "type": "missile",
+  "place": "Farabi Hospital area, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.33,
+  "lon": 47.055,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 8,
+  "civilian": true,
+  "impact": "Mega ICU ward and medical equipment damaged; Social Security office nearby severely damaged",
+  "summary": "A series of Israeli strikes around Farabi Hospital in Kirmaşan (Kermanshah) damaged the hospital and injured at least eight staff, according to Airwars citing hospital officials. Iranian media said a nearby workshop was the target.",
+  "sources": [
+   {
+    "title": "Airwars incident ISIR250616c",
+    "url": "https://airwars.org/incidents/isir250616c-june-16-2025"
+   },
+   {
+    "title": "IranWire: Israeli strikes damage Kermanshah hospital",
+    "url": "https://iranwire.com/en/news/142204-israeli-strikes-damage-kermanshah-hospital/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-16",
+  "actor": "Israel",
+  "type": "airstrike",
+  "place": "Mianrahan health centre, Sehne (Sahneh) county",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.586,
+  "lon": 47.448,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 15,
+  "civilian": true,
+  "impact": null,
+  "summary": "An Israeli strike hit the Mianrahan health service centre; the Sahneh county governor said three people from Dinwar were killed and 15 injured. Sources date it to 16 or 19 June 2025.",
+  "sources": [
+   {
+    "title": "Airwars incident ISIR250620d",
+    "url": "https://airwars.org/incidents/isir250620d-june-16-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-21",
+  "actor": "Israel",
+  "type": "drone",
+  "place": "Hamil–Sarabeleh road, Şabad (Eslamabad-e Gharb) county",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.109,
+  "lon": 46.529,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "An Israeli drone strike hit a family car on the Hamil–Sarabeleh road, killing Pari Ahmadvash and her six-year-old son and injuring her husband and two-year-old son, according to Airwars.",
+  "sources": [
+   {
+    "title": "Airwars incident ISIR250621o",
+    "url": "https://airwars.org/incidents/isir250621o-june-21-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06",
+  "actor": "Israel",
+  "type": "campaign",
+  "place": "Kirmaşan (Kermanshah) province",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.314,
+  "lon": 47.065,
+  "precision": "approximate",
+  "killed": 61,
+  "injured": 532,
+  "civilian": null,
+  "impact": null,
+  "summary": "The provincial Martyrs Foundation head said 61 people from Kirmaşan (Kermanshah) province were killed and 532 injured in the 12-day Israel–Iran war of June 2025, without separating civilians from military personnel; 31 of the dead were from Kermanshah city.",
+  "sources": [
+   {
+    "title": "Shafaq News: Kermanshah: 61 killed, over 500 injured in Iran-Israel conflict (2 Jul 2025)",
+    "url": "https://shafaq.com/en/Kurdistan/Kermanshah-61-killed-over-500-injured-in-Iran-Israel-conflict"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-06-15",
+  "actor": "Israel",
+  "type": "airstrike",
+  "place": "Military base, Serpêl (Sarpol-e Zahab)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.461,
+  "lon": 45.864,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "Hengaw reported, via Iran International, that six Iranian army soldiers were killed in an Israeli strike on a military base in Serpêl (Sarpol-e Zahab).",
+  "sources": [
+   {
+    "title": "Iran International (15 Jun 2025), citing Hengaw",
+    "url": "https://www.iranintl.com/en/202506151309"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-28",
+  "actor": "US-Israel",
+  "type": "campaign",
+  "place": "Kurdish provinces of Iran (Îlam, Kirmaşan, Kurdistan, West Azerbaijan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": 109,
+  "injured": null,
+  "civilian": true,
+  "impact": "At least 253 military and security sites hit in 37 cities in the first 34 days",
+  "summary": "Hengaw recorded that in the first 34 days of the 2026 US-Israeli war on Iran, at least 253 military and security sites were struck in 37 cities in the Kurdish provinces, killing at least 1,600 military personnel and at least 109 civilians, including 12 children and nine women. Kermanshah officials separately said about 50 civilians from that province were killed in the 40-day war.",
+  "sources": [
+   {
+    "title": "Hengaw: report on 34 days of war (2 Apr 2026)",
+    "url": "https://hengaw.net/en/reports-and-statistics-1/2026/04/article-1"
+   },
+   {
+    "title": "Rudaw: 50 civilians killed in Iran's Kermanshah during Iran's 40-day war: Officials (27 Apr 2026)",
+    "url": "https://www.rudaw.net/english/middleeast/iran/270420261"
+   },
+   {
+    "title": "Wikipedia: Air campaign in Iranian Kurdistan",
+    "url": "https://en.wikipedia.org/wiki/Air_campaign_in_Iranian_Kurdistan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-01",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Shohada Square bridge, Rawansar (Ravansar)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.713,
+  "lon": 46.666,
+  "precision": "exact",
+  "killed": 2,
+  "injured": 10,
+  "civilian": true,
+  "impact": null,
+  "summary": "A US and/or Israeli airstrike on the Shohada Square bridge in Rawansar (Ravansar) killed teenager Hasti Mohammadi and fatally injured 15-year-old Kian Moradi, who died 13 days later; at least 10 other civilians were injured (Airwars, Hengaw).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260301k",
+    "url": "https://airwars.org/incidents/jir260301k-march-1-2026"
+   },
+   {
+    "title": "Hengaw: Five civilians... killed during ongoing war (15 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-36"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-01",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Police command headquarters, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.551,
+  "lon": 45.058,
+  "precision": "exact",
+  "killed": 4,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A US and/or Israeli airstrike destroyed the West Azerbaijan police command headquarters in Ûrmiye (Urmia), killing four police officers, whom Airwars classifies as civilians.",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260301a",
+    "url": "https://airwars.org/incidents/jir260301a-march-1-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-02",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Shahramfar IRGC intelligence HQ and security sites, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": 15,
+  "injured": 168,
+  "civilian": null,
+  "impact": null,
+  "summary": "US and Israeli airstrikes on security sites in Sine (Sanandaj), including the IRGC Shahramfar headquarters and Intelligence Department on Shebli Boulevard, killed up to 15 people and injured 168, including detained Kurdish political prisoners, according to Airwars and Hengaw. Dense residential areas nearby were also hit.",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260302c",
+    "url": "https://airwars.org/incidents/jir260302c-march-2-2026"
+   },
+   {
+    "title": "Hengaw: Detainees injured after airstrikes hit security facilities in Sanandaj (5 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-2"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-02",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "IRGC building, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Israeli and US jets struck the IRGC building in Merîwan (Marivan); the blast killed a family of three in their home behind the garrison, including a woman nine months pregnant and her four-year-old child (Hengaw).",
+  "sources": [
+   {
+    "title": "Hengaw: Pregnant woman, her 4-year-old child, and husband killed in Marivan airstrikes (7 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-7"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-03",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Police Station 17, Haft Tir Boulevard, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.563,
+  "lon": 45.093,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "A US and/or Israeli strike on Police Station 17 on a busy boulevard in Ûrmiye (Urmia) killed three to seven civilians, including 25-year-old Kurd Mohammad Ali Javanmard, and damaged homes and shops (Airwars, Hengaw).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260303l",
+    "url": "https://airwars.org/incidents/jir260303l-march-3-2026"
+   },
+   {
+    "title": "Hengaw: Four civilians, including three Kurds, killed during ongoing war (12 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-22"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-03",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Ûrmiye–Selmas (Urmia–Salmas) road",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.799,
+  "lon": 45.055,
+  "precision": "exact",
+  "killed": 9,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A US and/or Israeli airstrike hit cars on the Ûrmiye–Selmas road near the Urmia industrial estate, killing nine members of the related Heidari and Mirzazadeh families, including four children (Airwars).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260303n",
+    "url": "https://airwars.org/incidents/jir260303n-march-3-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-04",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Governor's office, Bokan (Bukan)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.515,
+  "lon": 46.209,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 57,
+  "civilian": true,
+  "impact": null,
+  "summary": "US and Israeli strikes hit the governor's office in central Bokan (Bukan) in two waves, the second after people had gathered; three civilians including a 15-year-old were killed and 57 to 70 injured (Hengaw, Airwars).",
+  "sources": [
+   {
+    "title": "Hengaw: Airstrike on governor's office in Bukan kills three civilians, including 15-year-old (6 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-4"
+   },
+   {
+    "title": "Airwars incident JIR260304r",
+    "url": "https://airwars.org/incidents/jir260304r-march-4-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-04",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Serdeşt (Sardasht) checkpoints",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.154,
+  "lon": 45.48,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "US and/or Israeli strikes on checkpoints around Serdeşt (Sardasht) killed 19-year-old boxer Mohammad Reza Abdi (Airwars).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260304l",
+    "url": "https://airwars.org/incidents/jir260304l-march-4-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-04",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Border Guard Hospital, Mehran",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.114,
+  "lon": 46.174,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "US and/or Israeli airstrikes hit the Border Guard Hospital in Mehran, killing Dr Mohammad Reza Abbasi from Eyvan (Airwars).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260304n",
+    "url": "https://airwars.org/incidents/jir260304n-march-4-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-06",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Police Station No. 11, Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.765,
+  "lon": 45.722,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Abubakr Moghmi, 75, was killed when US-Israeli airstrikes hit Police Station No. 11 in Mehabad (Mahabad) (Hengaw).",
+  "sources": [
+   {
+    "title": "Hengaw: Airstrikes during Iran war kill 21 Kurdish civilians, including children (8 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-11-1"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "IRGC base, 16th Street, Dîwandere (Divandarreh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.916,
+  "lon": 47.019,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "US and Israeli warplanes bombed an IRGC base on 16th Street in Dîwandere (Divandarreh), killing three civilians including a woman and a post office employee; a fourth civilian from the county was killed in strikes on 1 March (Hengaw).",
+  "sources": [
+   {
+    "title": "Hengaw: Four civilians, including one woman, killed in airstrikes in Divandarreh (8 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-9"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Payard flour and starch factory, Neqede (Naqadeh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.956,
+  "lon": 45.388,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": 21,
+  "civilian": true,
+  "impact": "Food-processing factory destroyed",
+  "summary": "A US-Israeli airstrike on the Payard flour and starch factory in Neqede (Naqadeh) killed ten workers at the scene; an eleventh died a week later and 21 others were injured (Hengaw).",
+  "sources": [
+   {
+    "title": "Hengaw: Airstrike on Payard flour factory in Naqadeh kills 11 workers (15 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-33"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-08",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Police station, Pawe (Paveh)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.046,
+  "lon": 46.362,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Fruit vendor Asaad Mohammadi, 60, was killed when US-Israeli strikes hit the police station in Pawe (Paveh) (Hengaw).",
+  "sources": [
+   {
+    "title": "Hengaw: Airstrikes during Iran war kill 21 Kurdish civilians, including children (8 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-11-1"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-14",
+  "actor": "US-Israel",
+  "type": "drone",
+  "place": "Jihad neighbourhood, Eywan (Eyvan)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.828,
+  "lon": 46.31,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A strike on a home in Eywan (Eyvan) killed six members of one Kurdish family, including children aged five years and six months; Ilam's deputy governor called it a US-Israeli strike. Hengaw gives the date as 7 March, while Iran International and Rudaw report it on 14 March.",
+  "sources": [
+   {
+    "title": "Iran International (14 Mar 2026)",
+    "url": "https://www.iranintl.com/en/202603141744"
+   },
+   {
+    "title": "Hengaw: Six members of one family... killed in Ivan during ongoing war (14 Mar 2026)",
+    "url": "https://hengaw.net/en/news/2026/03/article-30"
+   },
+   {
+    "title": "Rudaw (15 Mar 2026)",
+    "url": "https://rudaw.net/english/middleeast/iran/15032026"
+   },
+   {
+    "title": "Nûçe TV: Li Îlamê di encama êrîşekê de 6 kes ji malbateke Kurd jiyana xwe ji dest dan",
+    "url": "https://nucetv.net/li-ilame-di-encama-eriseke-de-6-kes-ji-malbateke-kurd-jiyana-xwe-ji-dest-dan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-27",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Residential areas, Kirmaşan (Kermanshah) city",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.314,
+  "lon": 47.065,
+  "precision": "approximate",
+  "killed": 13,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Kermanshah governor's office said more than ten residential units were hit in US-Israeli strikes and 13 people were killed, including two children and four women; AFP could not verify the figures.",
+  "sources": [
+   {
+    "title": "Blue News (dpa): More than 20 dead in attacks on residential complexes in Iran (27 Mar 2026)",
+    "url": "https://www.bluewin.ch/en/news/international/more-than-20-dead-in-attacks-on-residential-complexes-in-iran-3164508.html"
+   },
+   {
+    "title": "The Defense Post (AFP): US-Israeli strikes hit multiple residential, civilian areas in Iran (28 Mar 2026)",
+    "url": "https://thedefensepost.com/2026/03/28/us-israeli-strikes-iran-residential/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-31",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "Contracting company, irrigation project, Qesrî Şîrîn (Qasr-e Shirin)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.517,
+  "lon": 45.578,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 8,
+  "civilian": true,
+  "impact": "Buildings of a contractor on an irrigation network covering more than 24,000 hectares of dryland farmland destroyed",
+  "summary": "A US and/or Israeli airstrike destroyed the offices and equipment of a civilian contractor working on an irrigation project in Qesrî Şîrîn (Qasr-e Shirin), killing one person and wounding eight (Airwars).",
+  "sources": [
+   {
+    "title": "Airwars incident JIR260331a",
+    "url": "https://airwars.org/incidents/jir260331a-march-31-2026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-28",
+  "actor": "US-Israel",
+  "type": "airstrike",
+  "place": "PMF Northern and Eastern Tigris Operations HQ, Kerkûk (Kirkuk) province",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.472,
+  "lon": 44.395,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 4,
+  "civilian": false,
+  "impact": null,
+  "summary": "An airstrike on a Popular Mobilization Forces operations headquarters in Kirkuk province killed three PMF members and wounded four; the PMF blamed the US and Israel, which did not comment.",
+  "sources": [
+   {
+    "title": "Libnanews live (citing Middle East Eye): US-Israeli strike kills Iraqi government-linked fighters in Kirkuk (28 Mar 2026)",
+    "url": "https://live.libnanews.com/event/ev-1774719840749-86e2"
+   },
+   {
+    "title": "Peregraf: PMF says 32 US airstrikes since start of month killed 27 fighters",
+    "url": "https://peregraf.com/en/news/11170"
+   }
+  ],
+  "kind": "strike"
+ }
+]

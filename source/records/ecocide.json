@@ -1,0 +1,821 @@
+[
+ {
+  "date": "2018-06",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Ilisu Dam, Tigris River (Mardin/Şırnak)",
+  "country": "Turkey",
+  "lat": 37.534,
+  "lon": 41.847,
+  "precision": "approximate",
+  "impact": "Iraqi officials reported Tigris inflow at Mosul Dam down ~50%",
+  "summary": "Turkey began filling the Ilisu Dam on 1 June 2018, then paused after Tigris levels in Iraq fell sharply; Iraq's Mosul Dam director reported a 50% decrease in water from Turkey. Turkey said water would be released once the reservoir filled.",
+  "sources": [
+   {
+    "title": "Al Jazeera: Declining levels in Iraq's Tigris raise fear of water crisis",
+    "url": "https://www.aljazeera.com/news/2018/06/declining-levels-iraq-tigris-raise-fear-water-crisis-180607072317966.html"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2020-01",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Hasankeyf, Batman province (Ilisu reservoir)",
+  "country": "Turkey",
+  "lat": 37.713,
+  "lon": 41.414,
+  "precision": "exact",
+  "impact": "~3,000 town residents relocated; >70,000 people displaced reservoir-wide (NASA); 199 settlements affected",
+  "summary": "The Ilisu reservoir, filling since July 2019, submerged the ancient town of Hasankeyf, thought to date back some 12,000 years; its last residents left on 1 January 2020 for New Hasankeyf.",
+  "sources": [
+   {
+    "title": "Duvar English: As water level of Ilısu Dam rises, last residents move out of ancient Hasankeyf",
+    "url": "https://www.duvarenglish.com/amp/as-water-level-of-ilisu-dam-rises-last-residents-move-out-of-ancient-hasankeyf-news-8593"
+   },
+   {
+    "title": "NASA Earth Observatory: Slowly Flooding History",
+    "url": "https://earthobservatory.nasa.gov/images/146439/slowly-flooding-history"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-08-17",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Hozat to Ovacık, Dersim (Tunceli)",
+  "country": "Turkey",
+  "lat": 39.108,
+  "lon": 39.218,
+  "precision": "approximate",
+  "impact": "Fire burned ~10+ days; firefighting reportedly began only 13 days later",
+  "summary": "A forest fire that broke out after a military operation in rural Hozat on 17 August 2021 spread toward Ovacık; the Ovacık mayor said neither the municipality nor the forestry directorate was allowed into the area because of ongoing military operations.",
+  "sources": [
+   {
+    "title": "bianet: Government agencies not allowed to respond to wildfires in Dersim, says mayor",
+    "url": "https://bianet.org/haber/government-agencies-not-allowed-to-respond-to-wildfires-in-dersim-says-mayor-249416"
+   },
+   {
+    "title": "bianet: Military operations hamper response to wildfires in Dersim",
+    "url": "https://bianet.org/haber/military-operations-hamper-response-to-wildfires-in-dersim-249211"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-08-29",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Pülümür Valley, Dersim (Tunceli)",
+  "country": "Turkey",
+  "lat": 39.487,
+  "lon": 39.899,
+  "precision": "approximate",
+  "impact": "Unquantified; no firefighting response reported",
+  "summary": "Bianet reported that the Pülümür Valley area was bombed by soldiers before a fire broke out on 29 August 2021, with no response to the blaze; fires were raging across four eastern provinces.",
+  "sources": [
+   {
+    "title": "bianet: Forest fires raging across Turkey's 4 eastern provinces – no response",
+    "url": "https://ftp.bianet.org/haber/forest-fires-raging-across-turkey-s-4-eastern-provinces-no-response-249546"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2022-07",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Şırnak province (Şırnak–Siirt mountains, İdil–Midyat)",
+  "country": "Turkey",
+  "lat": 37.518,
+  "lon": 42.454,
+  "precision": "approximate",
+  "impact": "7% of province's forests lost in 7 months; 10–15 truckloads of timber leaving daily",
+  "summary": "The Şırnak Bar Association's environment commission reported that Şırnak lost 7% of its forests in seven months to tree felling linked to military operations against the PKK, with timber trucked to Kayseri, Antep and Osmaniye.",
+  "sources": [
+   {
+    "title": "bianet: Şırnak lost huge chunk of its forests in months due to tree felling for military ops",
+    "url": "https://bianet.org/english/environment/265076-sirnak-lost-huge-chunk-of-its-forests-in-months-due-to-tree-felling-for-military-ops"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2022-09",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Mount Cudi (also Gabar, Besta), Şırnak",
+  "country": "Turkey",
+  "lat": 37.367,
+  "lon": 42.35,
+  "precision": "approximate",
+  "impact": "~8% of region's forests destroyed by military logging in 2021 (Şırnak Bar Association)",
+  "summary": "The HDP said logging on Mount Cudi had continued for about two years inside restricted, depopulated military zones; a Şırnak Bar Association report put 2021 losses at about 8% of the region's forests. Gendarmerie dispersed a protest march on 17 Sept 2022. Former HDP MP Hüseyin Kaçmaz said in 2021 that companies protected by village guards and soldiers were taking about 400 tons of timber a day from the mountain (cited by The Amargi).",
+  "sources": [
+   {
+    "title": "HDP: AKP-MHP government is destroying and plundering nature in Mount Cudi",
+    "url": "https://www.hdp.org.tr/en/akp-mhp-government-is-destroying-and-plundering-nature-in-mount-cudi/16712"
+   },
+   {
+    "title": "bianet: Cutting of trees continues for two years in Şırnak",
+    "url": "https://bianet.org/english/politics/263908-cutting-of-trees-continues-for-two-years-in-sirnak"
+   },
+   {
+    "title": "The Amargi: Ecocide in Iraqi Kurdistan – Turkey's saws in the mountains (Khaled Sulaiman, 8 Oct 2026)",
+    "url": "https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2020",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Mountains of Başûr (Duhok to Silêmanî)",
+  "country": "Iraq",
+  "lat": 37.1,
+  "lon": 43.7,
+  "precision": "approximate",
+  "impact": "~50,000 acres (~20,000 ha) of burns linked to military incidents; ~23,000 acres in protected areas; ~300,000 acres burned overall May–Sept 2020",
+  "summary": "PAX matched ACLED-recorded Turkish and Iranian strikes against satellite burn scars: 32 of 81 incident locations overlapped burned areas. PAX also estimated 20% vegetation loss since 2014.",
+  "sources": [
+   {
+    "title": "PAX: Violence and wildfires driving people from their lands in Iraqi Kurdistan (13 Nov 2020)",
+    "url": "https://paxforpeace.nl/news/violence-and-wildfires-driving-people-from-their-lands-in-iraqi-kurdistan/"
+   },
+   {
+    "title": "Rudaw: Nearly 50,000 acres of Kurdistan Region land torched by Turkey's bombs this summer",
+    "url": "https://rudaw.net/english/kurdistan/12112020"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-05",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Duhok province (Gara, Metina, Avashin)",
+  "country": "Iraq",
+  "lat": 37.0,
+  "lon": 43.4,
+  "precision": "approximate",
+  "impact": "4,181 dunams (~418 ha) burned Jan–May 2021; 56,731 dunams in Duhok over 10 years",
+  "summary": "Duhok's Forest Police said Turkish bombardments burned 4,181 dunams in the first five months of 2021. The KRG environment board said >1 million dunams burned region-wide in a decade, ~35% from Turkish and Iranian bombardment.",
+  "sources": [
+   {
+    "title": "Rudaw: More than 4,000 dunams of Duhok land burned by Turkish airstrikes this year",
+    "url": "https://rudaw.net/english/kurdistan/250520214"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-05-31",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Duhok border areas",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 43.3,
+  "precision": "approximate",
+  "impact": "Tree cutting unquantified; villagers reported timber sold across border",
+  "summary": "KRG spokesperson Jotiar Adil formally warned Turkey to stop 'unacceptable' tree cutting in Duhok border areas; Duhok forestry head Kawa Sabri said there was evidence Turkey had been destroying forests for over a year. Turkey's defence ministry said it showed 'maximum sensitivity' to the environment.",
+  "sources": [
+   {
+    "title": "Rudaw: KRG warns Turkey to stop 'unacceptable' deforestation",
+    "url": "https://rudaw.net/english/kurdistan/01062021"
+   },
+   {
+    "title": "ANF: Rojane 450 ton dar dibin Tirkiye",
+    "url": "https://kurmanci.anf-news.com/kurdistan/-142978"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-06",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Kani Masi subdistrict, Amedi",
+  "country": "Iraq",
+  "lat": 37.23,
+  "lon": 43.43,
+  "precision": "approximate",
+  "impact": "~3,000 dunams in one fire; ~13,000 dunams burned since April 2021 (mayor's estimate)",
+  "summary": "A Turkish bombardment caused a large forest fire in Kani Masi; the local mayor estimated Turkey had burned 13,000 dunams there since launching operations in April 2021.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkish bombardment causes massive fire in Duhok forest – official",
+    "url": "https://rudaw.net/english/kurdistan/160620215-amp"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-07",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Near Hiror and Brifka villages, Amedi",
+  "country": "Iraq",
+  "lat": 37.15,
+  "lon": 43.48,
+  "precision": "approximate",
+  "impact": ">670 dunams (~67 ha) of forested land",
+  "summary": "A fire blamed on Turkish shelling burned more than 670 dunams of forest near Hiror and Brifka and threatened other villages, according to a local official.",
+  "sources": [
+   {
+    "title": "Rudaw (27 July 2021)",
+    "url": "https://rudaw.net/english/kurdistan/270720218"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-08",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Mount Gara, Amedi district",
+  "country": "Iraq",
+  "lat": 37.02,
+  "lon": 43.3,
+  "precision": "approximate",
+  "impact": "'Hundreds of dunams' burned",
+  "summary": "A week of Turkish air strikes on alleged PKK positions in Amedi started a fire in Mount Gara's forests, burning hundreds of dunams.",
+  "sources": [
+   {
+    "title": "Rudaw (18 Aug 2023)",
+    "url": "https://rudaw.net/english/kurdistan/18082023"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-09-19",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Sargale village, Amedi",
+  "country": "Iraq",
+  "lat": 37.23,
+  "lon": 43.33,
+  "precision": "approximate",
+  "impact": "~170 dunams of forest burned; houses cracked",
+  "summary": "Turkish bombardment sparked a wildfire near Sargale; villagers fought it with branches for five hours because Turkey had declared the area prohibited. Duhok forestry head said thousands of dunams in border areas had burned.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkish bombardment sparks wildfire in Duhok, damages homes",
+    "url": "https://www.rudaw.net/english/kurdistan/220920231"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-06",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Amedi region (Guharze, Balave, Barçê, Sergelê, Kanê, Aşkê Dere)",
+  "country": "Iraq",
+  "lat": 37.18,
+  "lon": 43.45,
+  "precision": "approximate",
+  "impact": ">20,000 dunams (~2,000 ha) of farmland burned 15 Jun–early Jul 2024; 238 bombardments in Duhok",
+  "summary": "CPT reported over 20,000 dunams of agricultural land torched during the Turkish operation launched 15 June 2024 in Berwari Bala, alongside 162 evacuated villages/families and new military bases.",
+  "sources": [
+   {
+    "title": "bianet: At least 162 villages evacuated in Iraqi Kurdistan due to Turkish military operations",
+    "url": "https://bianet.org/haber/report-at-least-162-villages-evacuated-in-iraqi-kurdistan-due-to-turkish-military-operations-297344"
+   },
+   {
+    "title": "ANF: Wildfire started by Turkish bombardment in Metina continues to rage",
+    "url": "https://english.anf-news.com/kurdistan/-73855"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-08",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Derishke, Dargale, Guharze (Amedi), near Metina and Gare",
+  "country": "Iraq",
+  "lat": 37.17,
+  "lon": 43.42,
+  "precision": "approximate",
+  "impact": "Tens of dunams of orchards and thousands of trees burned in Guharze alone",
+  "summary": "Villagers blamed Turkish drone and helicopter bombardment for fires that destroyed orchards, farmland and forest; Turkey said PKK fighters set forests on fire to hide positions.",
+  "sources": [
+   {
+    "title": "Rudaw: 'We were surrounded by fire': Duhok villagers battle blazes blamed on Turkish bombs",
+    "url": "https://rudaw.net/english/kurdistan/080820241"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Zagros mountains, Başûr (mainly Duhok)",
+  "country": "Iraq",
+  "lat": 37.1,
+  "lon": 43.5,
+  "precision": "approximate",
+  "impact": "7% of burned land in 2024 likely caused by conflict events",
+  "summary": "PAX's satellite analysis of summer 2024 fires found a strong correlation between military operations and wildfires, with most conflict-linked burns attributed to Turkish strikes or shelling on suspected PKK positions.",
+  "sources": [
+   {
+    "title": "PAX: Wildfires rage across Iraqi Kurdistan as conflict intensifies (8 Jan 2025)",
+    "url": "https://paxforpeace.nl/news/wildfires-rage-across-iraqi-kurdistan-as-conflict-intensifies/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2025-06-20",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Mount Gara and Metina, Duhok",
+  "country": "Iraq",
+  "lat": 37.02,
+  "lon": 43.3,
+  "precision": "approximate",
+  "impact": "Hundreds of dunams on Gara; thousands of dunams of farmland and orchards over several days",
+  "summary": "A Turkish artillery strike ignited a fire on Mount Gara destroying farmland and forest, with grape, walnut, almond and sumac crops lost; CPT had recorded 510 Turkish attacks in Duhok in May 2025 despite the PKK's dissolution announcement.",
+  "sources": [
+   {
+    "title": "Shafaq News: Turkish artillery causes large wildfire in Iraq's Duhok",
+    "url": "https://shafaq.com/en/Kurdistan/Turkish-artillery-causes-large-wildfire-in-Iraq-s-Duhok"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2019-07-10",
+  "actor": "Iran",
+  "category": "agriculture",
+  "place": "Barbazin heights, Sidakan (Soran)",
+  "country": "Iraq",
+  "lat": 36.797,
+  "lon": 44.668,
+  "precision": "approximate",
+  "impact": "Orchards and groves burned; 1 woman killed, 2 wounded",
+  "summary": "Iranian artillery shelling of the Sidakan border area set residents' orchards and groves on fire and killed 18-year-old Zaitwn Qadir; the KRG condemned the attack.",
+  "sources": [
+   {
+    "title": "Rudaw (10 July 2019)",
+    "url": "https://rudaw.net/english/kurdistan/100720192"
+   },
+   {
+    "title": "Airwars TI024a/IRI002 July 10 2019",
+    "url": "https://airwars.org/incidents/ti024a-iri002-july-10-2019"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2022-09",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Near Mergay village, Choman / Balakayety–Bradost",
+  "country": "Iraq",
+  "lat": 36.64,
+  "lon": 44.88,
+  "precision": "approximate",
+  "impact": "Forest fires; unquantified",
+  "summary": "An Iranian kamikaze drone targeting KDPI positions fell near Mergay village in Choman and the district mayor said forest fires broke out; Iranian artillery had shelled Balakayety and Bradost villages for four days.",
+  "sources": [
+   {
+    "title": "KurdSat: Iranian kamikaze drone falls before hitting its target in Erbil's Choman district",
+    "url": "https://news.kurdsat.tv/en/News/8112"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2026-07-17",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Zargwez mountains, east of Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.6,
+  "lon": 45.55,
+  "precision": "approximate",
+  "impact": "Fires across forested highlands; 8 Komala fighters reported killed",
+  "summary": "Iranian missile/drone strikes on Komala's headquarters in Zargwez were followed by live footage of fires spreading across nearby forested highlands; Iran did not comment.",
+  "sources": [
+   {
+    "title": "Shafaq News: Iranian strike on Komala in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/13-casualties-in-Iranian-strike-on-Komala-in-Al-Sulaymaniyah"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2026-07-21",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Goizha heights, north of Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.59,
+  "lon": 45.46,
+  "precision": "approximate",
+  "impact": "~200 dunams (20 ha) of pine and old-growth woodland",
+  "summary": "IRGC-affiliated Tasnim attributed the Goizha forest fire to projectiles fired from Iran, but the Forest Police listed the cause as undetermined and no Iraqi or KRG body confirmed it (attribution disputed).",
+  "sources": [
+   {
+    "title": "Shafaq News: Fire destroys 20 hectares of woodland near Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Iranian-projectiles-fire-20-hectares-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Nûçe TV: Agir bi Çiyayê Goyje yê Silêmaniyê ket",
+    "url": "https://nucetv.net/agir-bi-ciyaye-goyje-ye-silemaniye-ket"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2019-10-09",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Alouk water station, near Ras al-Ain",
+  "country": "Syria",
+  "lat": 36.827,
+  "lon": 40.083,
+  "precision": "approximate",
+  "impact": "Station serves ~460,000 people in Hasakah governorate",
+  "summary": "HRW reports the Alouk station was hit by artillery on 9 October 2019 at the start of the invasion Turkey named 'Peace Spring'; Turkey and allied forces then took control of it.",
+  "sources": [
+   {
+    "title": "HRW: Northeast Syria – Turkish strikes disrupt water, electricity (26 Oct 2023)",
+    "url": "https://www.hrw.org/news/2023/10/26/northeast-syria-turkish-strikes-disrupt-water-electricity"
+   },
+   {
+    "title": "HRW: Turkey/Syria – Weaponizing water in global pandemic? (31 Mar 2020)",
+    "url": "https://www.hrw.org/news/2020/03/31/turkey/syria-weaponizing-water-global-pandemic"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2020-03",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Alouk water station → Hasakah city and camps",
+  "country": "Syria",
+  "lat": 36.827,
+  "lon": 40.083,
+  "precision": "approximate",
+  "impact": "460,000 people; pumping interrupted several times in early 2020 incl. 29 Mar",
+  "summary": "HRW accused Turkish authorities of failing to keep Alouk pumping during the COVID-19 pandemic, cutting water to al-Hasakeh city and three displacement camps; Turkey's defence ministry later said the station was under maintenance.",
+  "sources": [
+   {
+    "title": "HRW: Turkey/Syria – Weaponizing water in global pandemic?",
+    "url": "https://www.hrw.org/news/2020/03/31/turkey/syria-weaponizing-water-global-pandemic"
+   },
+   {
+    "title": "Enab Baladi: Water crisis exhausts people of al-Hasakeh governorate (Aug 2020)",
+    "url": "https://english.enabbaladi.net/archives/2020/08/water-crisis-exhausts-people-of-al-hasakeh-governorate-turkish-backed-opposition-and-kurdish-led-autonomous-administration-disclaim-their-responsibility/amp/"
+   },
+   {
+    "title": "Sterk TV: Dewleta Tirk li Rojava êrîşî sivîlan dike [The Turkish state attacks civilians in Rojava]",
+    "url": "https://sterktv.eu/dewleta-tirk/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-05",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Euphrates River / Tishreen Dam",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "impact": "All-time low flow; worst drought since 1953; >90% wheat losses in Hasakah; flow ~200 m3/s vs 500 m3/s 1987 quota (early 2022)",
+  "summary": "Euphrates flow in NE Syria fell to an all-time low in May 2021, attributed to Turkish upstream diversion and climate change; a Tishreen Dam engineer warned of a historic reservoir drop in Sept 2021.",
+  "sources": [
+   {
+    "title": "Atlantic Council: Syria has a water crisis and it's not going away (24 Feb 2022)",
+    "url": "https://www.atlanticcouncil.org/blogs/menasource/syria-has-a-water-crisis-and-its-not-going-away/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-07",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Tishreen Dam reservoir, near Manbij",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "impact": "Inflow ~200 m3/s; reservoir down ~4.5 of 5 m usable; 2 of 6 turbines running ~6 h/day",
+  "summary": "The dam administrator said reduced Euphrates inflow from Turkey left the reservoir near critical levels and power generation close to total shutdown.",
+  "sources": [
+   {
+    "title": "Syriac Press: Turkish cutoff of Euphrates water pushes Tishreen Dam reservoir to critical levels",
+    "url": "https://syriacpress.com/blog/2023/07/26/turkish-cutoff-of-euphrates-river-water-pushes-tishreen-dam-reservoir-to-critical-levels-total-shutdown-of-power-generation-imminent/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2022-11-23",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Suwaydiyah gas installation, Derik countryside",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "impact": "Only domestic gas plant in NE Syria out of service",
+  "summary": "During the 'Claw-Sword' offensive, Turkish warplanes and drones struck oil and gas fields east of Qamishli; the Suwaydiyah gas installation was attacked four times and production stopped.",
+  "sources": [
+   {
+    "title": "North Press: Turkish airstrikes stop only gas installation in NE Syria",
+    "url": "https://npasyria.com/en/?p=88032"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-10-05",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Sweidiya power plant, Amuda & al-Gharbi transfer stations, water stations (Hasakah)",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "impact": ">=18 water pumping stations and 11 power stations knocked out; ~4.3 million people affected; Sweidiya plant served >1 million",
+  "summary": "HRW documented Turkish drone strikes on 5–10 Oct 2023 that disabled power, water, oil and the only domestic gas plant in NE Syria, and urged Turkey to stop targeting power and water stations.",
+  "sources": [
+   {
+    "title": "HRW: Northeast Syria – Turkish strikes disrupt water, electricity (26 Oct 2023)",
+    "url": "https://www.hrw.org/news/2023/10/26/northeast-syria-turkish-strikes-disrupt-water-electricity"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-10",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Rmelan (Rumeilan) oil fields",
+  "country": "Syria",
+  "lat": 36.992,
+  "lon": 41.99,
+  "precision": "approximate",
+  "impact": "13 oil wells hit (~$35.4m loss); 6 collection stations (~$96.6m); 2.15 million people with limited electricity",
+  "summary": "A SOHR report citing the Rmelan oil fields management assessed damage from the October 2023 Turkish campaign, which also disrupted bakeries, water stations, dams and irrigation networks.",
+  "sources": [
+   {
+    "title": "bianet: SOHR – Turkish airstrikes on Rojava limit electricity access for over 2 million people",
+    "url": "https://bianet.org/haber/sohr-turkish-airstrikes-on-rojava-limit-electricity-access-for-over-2-million-people-288490"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-12-23",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Awda (Odeh) oil station, al-Qahtaniyah countryside",
+  "country": "Syria",
+  "lat": 37.021,
+  "lon": 41.468,
+  "precision": "approximate",
+  "impact": "Station inoperative; fire; outages in Jal Agha, Tirbe Spiyeh, Derik",
+  "summary": "An alleged Turkish strike left the Awda oil station inoperative and on fire, cutting gas compressors that fed the Suwaydiyah power station and causing widespread outages across Hasakah.",
+  "sources": [
+   {
+    "title": "Airwars TS668 December 24 2023",
+    "url": "https://airwars.org/civilian-casualties/ts668-december-24-2023/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-01-14",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Suwaydiyah gas bottling plant and power station",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "impact": "NE Syria's only domestic gas bottling plant out of use; cooking-gas price spike and blackouts",
+  "summary": "Turkey struck Suwaydiyah again on 14 Jan 2024, three months after earlier damage; officials said the bottled cooking gas and power facilities were put out of use.",
+  "sources": [
+   {
+    "title": "Mesopotamia/RIC: Turkish airstrikes on Suwaydiyah power station – documenting the damage",
+    "url": "https://mesopotamia.coop/turkish-airstrikes-on-suwaydiyah-power-station-documenting-the-damage/"
+   },
+   {
+    "title": "Iraq Oil Report: Turkish strikes threaten Syrian crude exports to Iraqi Kurdistan",
+    "url": "https://iraqoilreport.com/news/turkish-strikes-threaten-syrian-crude-exports-to-iraqi-kurdistan-45355"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-01",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Waterway feeding the Khabour River, Hasakah province",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.9,
+  "precision": "approximate",
+  "impact": "Oil slicks in Khabour tributary (unquantified)",
+  "summary": "Residents reported oil slicks in a waterway feeding the Khabour River after Turkish strikes on oil stations and refineries in December 2023/January 2024, per AFP.",
+  "sources": [
+   {
+    "title": "Environmental Peacebuilding/AFP: Oil slicks blamed on Turkish strikes blight northeast Syria river",
+    "url": "https://www.environmentalpeacebuilding.org/news/show/970fa5636c69"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-01",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "North and East Syria (region-wide)",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.9,
+  "precision": "approximate",
+  "impact": "~1 million people lost electricity; >2 million limited safe water; 28 health facilities struck (end Jan 2024)",
+  "summary": "HRW warned that repeated Turkish strikes had left hospitals, bakeries and water facilities inoperable and fuel for cooking, heating and farming running out.",
+  "sources": [
+   {
+    "title": "HRW: Türkiye's strikes wreak havoc on northeast Syria (9 Feb 2024)",
+    "url": "https://www.hrw.org/news/2024/02/09/turkiyes-strikes-wreak-havoc-northeast-syria"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-06",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Manbij, Ain Issa, Zalin/Amuda, Tal Tamr, Abu Rasayn countryside",
+  "country": "Syria",
+  "lat": 36.528,
+  "lon": 37.955,
+  "precision": "approximate",
+  "impact": "2,443 ha of cropland affected (1,961 ha Manbij); >19,000 fruit trees burned; 344 fires",
+  "summary": "Syriac Press, citing Hawar News, reported Turkish and SNA attacks on crops ahead of the harvest; civil defence extinguished 300 fires in Manbij and 44 near Tal Abyad.",
+  "sources": [
+   {
+    "title": "Syriac Press: Turkish and Turkish-backed forces renew attacks on agricultural crops",
+    "url": "https://syriacpress.com/blog/2024/06/14/turkish-and-turkish-backed-forces-renew-attacks-on-agricultural-crops-in-north-and-east-syria/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-10",
+  "actor": "Turkey",
+  "category": "infrastructure",
+  "place": "Energy sites incl. al-Sweidiya gas plant, Awda oil field, Amuda power station, Kobani silos",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "impact": "Electricity threatened for ~1.05 million people; >250 critical sites hit across four campaigns Oct 2023–Oct 2024; >$1bn oil-sector losses (officials)",
+  "summary": "Synergy/Hevdesti documented the 23–31 Oct 2024 campaign's strikes on gas, heating-fuel and power sites and on the Kobani grain silos.",
+  "sources": [
+   {
+    "title": "Synergy/Hevdesti 2024 annual report",
+    "url": "https://hevdesti.org/en/?p=5031"
+   },
+   {
+    "title": "North Press: Turkish attack on Kobani silos claims life, injures 8",
+    "url": "https://npasyria.com/en/117951/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2024-12",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Tishreen Dam (Euphrates), SE of Manbij",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "impact": "Kobani without water and power for days; >=413,000 people in Manbij and Kobani affected (UN, late Dec 2024)",
+  "summary": "Attacks on the dam by Turkey-backed SNA forces from 8 Dec 2024 caused a total power outage, halting Kobani's water filtration plant; workers warned of partial collapse and the AANES urged action to prevent the dam's collapse.",
+  "sources": [
+   {
+    "title": "North Press: Turkey-backed forces plunge Kobani into crisis – no water, no electricity",
+    "url": "https://npasyria.com/en/119739/"
+   },
+   {
+    "title": "Rudaw: Rojava urges global action to prevent collapse of Tishreen Dam",
+    "url": "https://manage.rudaw.net/english/middleeast/syria/11012025"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2021-10",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Hirore, Barwari Bala (Amêdî)",
+  "country": "Iraq",
+  "governorate": "Duhok",
+  "lat": 37.25,
+  "lon": 43.37,
+  "precision": "approximate",
+  "impact": "Military roads of 74 km near Haftanin and 38 km near the Kesta mountains cut through forest, per a contractor who built them",
+  "summary": "Months after a pause won by local protest, the Turkish army resumed felling trees around Hirore, local sources and an official told Rudaw. A contractor said his firm cut roads for Turkish soldiers and that the wood heated their posts; PAX satellite analysis showed road building through forest north of Hirore from mid-June 2021. Iraq's president called the cutting in Hirore and Batifa an environmental crime. Turkish officials said the photos were old and denied cutting trees.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkey resumes deforestation in Kurdistan Region: sources",
+    "url": "https://www.rudaw.net/english/kurdistan/26102021"
+   },
+   {
+    "title": "Rudaw: Iraqi president condemns destruction of forests in Kurdistan Region",
+    "url": "https://www.rudaw.net/english/kurdistan/030620214-amp"
+   },
+   {
+    "title": "Middle East Eye: Turkey accused of 'stealing' trees in Iraqi Kurdistan logging campaign",
+    "url": "https://www.middleeasteye.net/news/turkey-iraqi-kurdistan-trees-logging-stealing"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-04",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Efrîn (Afrin) region, 114 forest sites",
+  "country": "Syria",
+  "governorate": "Aleppo",
+  "lat": 36.55,
+  "lon": 36.85,
+  "precision": "approximate",
+  "impact": "Logging at 114 forest sites, 57 of them almost entirely cleared; tens of thousands of trees lost since 2018",
+  "summary": "Satellite analysis by Syrians for Truth and Justice and the Lêlûn Association for Victims in Afrin found systematic logging across Efrîn since Turkey and Turkish-backed Syrian National Army factions occupied it in 2018. The report says SNA factions cut and sold the timber to fund themselves, and its authors call it ecocide. Local sources put the loss in the hundreds of thousands of trees.",
+  "sources": [
+   {
+    "title": "STJ: Syria: Satellite Images Reveal Extensive Logging in 114 Forest Patches in Afrin",
+    "url": "https://stj-sy.org/en/syria-satellite-images-reveal-extensive-logging-in-114-forest-patches-in-afrin/"
+   },
+   {
+    "title": "Kurdistan 24: Satellite images reveal extensive illegal logging in Afrin: report",
+    "url": "https://www.kurdistan24.net/en/story/391177/Satellite-images-reveal-extensive-illegal-logging-in-Afrin:-report"
+   },
+   {
+    "title": "North Press: Forests of Syria's Afrin face illegal, brutal logging by SNA factions",
+    "url": "https://npasyria.com/en/108545"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2023-03",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Şenyayla area, Mûş",
+  "country": "Turkey",
+  "lat": 38.68,
+  "lon": 41.62,
+  "precision": "approximate",
+  "impact": "Trees felled since March 2023 to build new police stations and military bases",
+  "summary": "Trees in the Şenyayla area of Mûş were cut down from March 2023 to make way for new police stations and military bases, despite objections from villagers and ecology activists, Mezopotamya Agency and Bianet reported. The Mesopotamia Ecology Movement said the felling serves the Turkish state's war policies.",
+  "sources": [
+   {
+    "title": "Bianet: Trees being cut down to build new military bases in eastern Turkey",
+    "url": "https://bianet.org/haber/trees-being-cut-down-to-build-new-military-bases-in-eastern-turkey-262560"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "date": "2016",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Sur and the Hevsel Gardens, Amed",
+  "country": "Turkey",
+  "lat": 37.906,
+  "lon": 40.237,
+  "precision": "approximate",
+  "impact": "About half of Sur's residents displaced; six neighbourhoods permanently evicted",
+  "summary": "After the Turkish state's 2015–16 curfews and urban war in Sur, about half the district's residents were displaced and six neighbourhoods were permanently evicted under what the state called anti-terror decrees. In 2016, after the state replaced elected mayors with appointed trustees, cultivation was banned on urban gardens that Yezidi refugee families tended with eco-activists. Anthropologist Umut Yıldırım writes that UNESCO, which lists the Hevsel Gardens as World Heritage, failed to press the state to stop developers seeking to build on them.",
+  "sources": [
+   {
+    "title": "MERIP: Kurdish Decolonial Ecologies (Umut Yıldırım, Middle East Report 311, July 2024)",
+    "url": "https://www.merip.org/2024/07/decolonial-ecologies-and-low-intensity-war-in-kurdistan/"
+   }
+  ],
+  "kind": "eco"
+ }
+]

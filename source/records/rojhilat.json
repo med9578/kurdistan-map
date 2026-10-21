@@ -1,0 +1,1858 @@
+[
+ {
+  "record": "attack",
+  "date": "2017-08-21",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Yarim Qayeh Olya village, Makû (Maku)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 39.291,
+  "lon": 44.452,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that Iranian border guards from Bazargan shot 17-year-old kolbar Vahid Dolatkhah Jankanloo at close range while he carried cartons of cigarettes; he died in hospital and his body was initially withheld from his family.",
+  "sources": [
+   {
+    "title": "KHRN: Kurdish teenage kolbar shot dead by Iranian disciplinary forces",
+    "url": "https://kurdistanhumanrights.org/en/news/kolbaras-and-tradsmen/2017/08/23/kurdish-teenage-kolbar-shot-dead-iranian-disciplinary-forces"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-09-04",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hengeh Jal (Hangeh Zhal) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.847,
+  "lon": 45.992,
+  "precision": "exact",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": "Killings triggered a general strike and protests in Bane; KHRN said anti-riot forces attacked protesters, injuring five.",
+  "summary": "KHRN reported that Iranian police (NAJA) border forces shot kolbars Ghader Bahrami and Heydar Faraji in the head; thousands protested in Bane, where security forces were deployed and the internet cut. Police said guards fired after warning shots were ignored.",
+  "sources": [
+   {
+    "title": "KHRN: Kurdish cities militarised after protests over killing of two kolbars",
+    "url": "https://kurdistanhumanrights.org/en/news/freedom/freedom-of-expression/2017/09/07/kurdish-cities-iran-militarised-demonstrations-kurdish-political-civil-activists-hunger-strike-protest-killing-two-kulbers"
+   },
+   {
+    "title": "Rudaw: Protests grow condemning deaths of Kurdish kolbars in Iran",
+    "url": "https://rudaw.net/english/middleeast/iran/07092017"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-04-12",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Tavarreh village, Xoy (Khoy)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 38.548,
+  "lon": 44.951,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that Iranian border guards fired on Kurdish man Behrouz Chatozadeh and an Afghan family of six near Tavarreh, killing Chatozadeh, the mother and her 13-year-old son, and injuring another child.",
+  "sources": [
+   {
+    "title": "KHRN: Three Kurdish and Afghan civilians killed by Iranian border guards at Khoy border area",
+    "url": "https://kurdistanhumanrights.org/en/news/kolbaras-and-tradsmen/2019/04/15/three-kurdish-and-afghan-civilians-killed-by-iranian-border-guards-at-khoy-border-area"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-08-31",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Bazhar / Qalarash border area, Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.155,
+  "lon": 45.48,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that forces at the Bardehpan border checkpoint fired machine guns from a few metres at a convoy of kolbars, killing Zanko Ahmadi, Zanest Hassannezhad and Soroush Mokari; Hengaw dated the shooting to 2 September 2020.",
+  "sources": [
+   {
+    "title": "KHRN annual report: 52 Kurdish kolbars died, 147 injured in 2020",
+    "url": "https://kurdistanhumanrights.org/en/publications/annual-report/2021/03/01/annual-report-52-kurdish-kolbars-died-147-injured-in-2020"
+   },
+   {
+    "title": "Hengaw: Four kolbars shot dead in the border regions near Sardasht and Piranshahr",
+    "url": "https://hengaw.org/en/content/article-11357"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-09-02",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Zewe border area, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.7,
+  "lon": 45.14,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC forces shot dead kolbar Jalal Khizri in the Zewe border area on the same day three kolbars were killed near Serdeşt; his body was not immediately returned to his family.",
+  "sources": [
+   {
+    "title": "Hengaw: Four kolbars shot dead in the border regions near Sardasht and Piranshahr",
+    "url": "https://hengaw.org/en/content/article-11357"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-02-24",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Shinabad–Zidan road, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.7,
+  "lon": 45.14,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Ministry agents and IRGC forces from the Hamzeh base machine-gunned a civilian truck, killing brothers Abdullah and Osman Naderi and seizing their bodies; the Intelligence Ministry described them as \"terrorists\".",
+  "sources": [
+   {
+    "title": "Hengaw: New details about murder of 2 Kurdish civilians by Iranian security forces in Piranshahr",
+    "url": "https://hengaw.org/en/content/article-12980"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-07-23",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Malateh border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.997,
+  "lon": 45.885,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that Iranian border guards shot kolbar brothers Saadollah and Ali Younesi at close range without warning; Saadollah died in hospital and Ali was left in critical condition.",
+  "sources": [
+   {
+    "title": "KHRN: Iran border forces shoot kolbar brothers, one dies in hospital",
+    "url": "https://kurdistanhumanrights.org/en/news/kolbaras-and-tradsmen/2022/07/25/iran-border-forces-shoot-kolbar-brothers-one-dies-in-hospital"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-09-21",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Şino (Oshnavieh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.042,
+  "lon": 45.098,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 43,
+  "civilian": true,
+  "impact": "Hana reported two more protesters shot dead in Şino on 24 September 2022.",
+  "summary": "Hengaw reported that Iranian forces shot dead three protesters in Şino, including 16-year-old Amin Marefat, and injured 43 during Jin, Jiyan, Azadî protests; IranWire reported military reinforcements sent to the town and IRGC artillery fire on the nearby border zone days later.",
+  "sources": [
+   {
+    "title": "Hengaw Report No.6 on the Kurdistan protests",
+    "url": "https://hengaw.org/en/content/article-17643"
+   },
+   {
+    "title": "IranWire: Military deployed to Oshnavieh as IRGC launches aerial attack on Kurdish border",
+    "url": "https://iranwire.com/en/provinces/107851-iran-protests-military-deployed-to-oshnavieh-as-irgc-launches-aerial-attack-on-kurdish-border/"
+   },
+   {
+    "title": "Hana: The death of another protesting citizen in Oshnavieh",
+    "url": "https://hanahr.org/en/news/the-death-of-another-protesting-citizen-in-oshnavieh"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-10-08",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "exact",
+  "killed": 4,
+  "injured": null,
+  "civilian": true,
+  "impact": "Hengaw said more than 50 people were injured by direct fire across Kurdish cities that day.",
+  "summary": "Hengaw reported at least four protesters killed by direct fire from security forces in Sine, some shot by forces on rooftops; Amnesty later documented that Yahya Rahimi was shot in his car after sounding his horn in solidarity with protesters.",
+  "sources": [
+   {
+    "title": "Hengaw: In Kurdistan's protests yesterday, there were 4 fatalities and 130 injuries",
+    "url": "https://hengaw.org/en/content/article-17794"
+   },
+   {
+    "title": "Iran International: 'They shot on sight': Amnesty details 2022 protest killings in Kurdish areas",
+    "url": "https://www.iranintl.com/en/202610020675"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-10-27",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.765,
+  "lon": 45.722,
+  "precision": "exact",
+  "killed": 5,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces shot dead Ismail Mauludi during protests on 26 October and at least four more people, including 55-year-old Kubra Sheikh Saqa, the next day, saying IRGC and special forces fired war weapons from the roofs of government buildings.",
+  "sources": [
+   {
+    "title": "Hengaw: In Mahabad and Sanandaj, government forces killed at least two young people",
+    "url": "https://hengaw.org/en/content/article-17953"
+   },
+   {
+    "title": "Hengaw: At least three individuals were murdered in Mahabad by IRI forces",
+    "url": "https://hengaw.org/en/content/article-17959"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-10-27",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.997,
+  "lon": 45.885,
+  "precision": "exact",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that security forces opened fire on crowds in Bane, killing Faraidun (Fereydoon) Faraji and Mutalib Saeid Piro, and that IRGC and plainclothes forces deliberately targeted homes; Amnesty documented that Faraji was shot while looking out of a window at his workplace.",
+  "sources": [
+   {
+    "title": "Hengaw: Two civilians were killed during the Baneh uprising",
+    "url": "https://hengaw.org/en/content/article-17965"
+   },
+   {
+    "title": "Iran International: 'They shot on sight': Amnesty details 2022 protest killings in Kurdish areas",
+    "url": "https://www.iranintl.com/en/202610020675"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-16",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Bokan (Bukan)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.522,
+  "lon": 46.211,
+  "precision": "exact",
+  "killed": 12,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw recorded 12 people killed by Iranian forces in Bokan between 15 and 21 November 2022, mostly by direct fire, including one man it said was stabbed to death by security forces; it said one body was taken to Ûrmiye and the family pressured to call it suicide.",
+  "sources": [
+   {
+    "title": "Hengaw: 42 Kurdish citizens killed in the cities of Kurdistan during the last week",
+    "url": "https://hengaw.org/en/content/article-18224"
+   },
+   {
+    "title": "Hengaw: Four citizens killed by IRI forces during the Bukan popular resistance",
+    "url": "https://hengaw.org/en/content/article-18184"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-17",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "exact",
+  "killed": 7,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw recorded seven people killed by Iranian forces in Sine between 15 and 21 November 2022, one after torture in custody; Amnesty documented that forces kept firing at people trying to help the wounded Shahou Bahmani on 17 November.",
+  "sources": [
+   {
+    "title": "Hengaw: 42 Kurdish citizens killed in the cities of Kurdistan during the last week",
+    "url": "https://hengaw.org/en/content/article-18224"
+   },
+   {
+    "title": "Iran International: 'They shot on sight': Amnesty details 2022 protest killings in Kurdish areas",
+    "url": "https://www.iranintl.com/en/202610020675"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-16",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.243,
+  "lon": 46.271,
+  "precision": "exact",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces shot dead 17-year-old Danyal Pabandi on 16 November and Abdur Rahman Bakhtiari on 17 November 2022 during protests in Seqiz, Jina Amini's home town.",
+  "sources": [
+   {
+    "title": "Hengaw: 42 Kurdish citizens killed in the cities of Kurdistan during the last week",
+    "url": "https://hengaw.org/en/content/article-18224"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-19",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.765,
+  "lon": 45.722,
+  "precision": "exact",
+  "killed": 4,
+  "injured": null,
+  "civilian": true,
+  "impact": "Rights groups and Rudaw reported IRGC units entering the city with armoured vehicles and helicopter-borne troops on 19–20 November.",
+  "summary": "Hengaw reported four Mehabad residents shot dead by Iranian forces on 16–18 November 2022, one on the roof of his home; IRGC ground forces were then sent into the city with armoured vehicles and helicopters, which analysts described as the first deployment of IRGC ground forces as combat units in the uprising.",
+  "sources": [
+   {
+    "title": "Hengaw: Four citizens from Mahabad were killed by government forces",
+    "url": "https://hengaw.org/en/content/article-18203"
+   },
+   {
+    "title": "Rudaw: Human rights groups warn of impending massacre in Kurdish city in western Iran",
+    "url": "https://rudaw.net/english/middleeast/iran/20112022"
+   },
+   {
+    "title": "Critical Threats: Iran Crisis Update, November 19, 2022",
+    "url": "https://www.criticalthreats.org/analysis/iran-crisis-update-november-19"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-19",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Dîwandere (Divandarreh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.916,
+  "lon": 47.019,
+  "precision": "exact",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw and Hana reported that Iranian forces shot dead Fuad Sawari and 51-year-old Habibullah Fathi during protests in Dîwandere; Hana said Fathi was killed with war weapons.",
+  "sources": [
+   {
+    "title": "Hengaw: 42 Kurdish citizens killed in the cities of Kurdistan during the last week",
+    "url": "https://hengaw.org/en/content/article-18224"
+   },
+   {
+    "title": "Hana: Diwandareh, the death of the second protesting citizen",
+    "url": "https://hanahr.org/?p=13284"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-20",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.7,
+  "lon": 45.14,
+  "precision": "exact",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces opened fire on people in Pîranşar, killing 16-year-old Karwan Qader Shukri, Taher Azizi and Jalal Ghorbani; it recorded four deaths in the city that week.",
+  "sources": [
+   {
+    "title": "Hengaw: 42 Kurdish citizens killed in the cities of Kurdistan during the last week",
+    "url": "https://hengaw.org/en/content/article-18224"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-11-21",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Cwanro (Javanrud)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.808,
+  "lon": 46.493,
+  "precision": "exact",
+  "killed": 7,
+  "injured": 100,
+  "civilian": true,
+  "impact": "Hengaw said hundreds of IRGC forces sealed the city and blocked blood supplies for the wounded.",
+  "summary": "Hengaw reported seven people killed in Cwanro on 20–21 November 2022, including 16-year-old Bahaddin Veisi, after the IRGC fired AK-47s, G3s and semi-heavy machine guns at mourners and protesters, injuring more than 100; a CHRI–KHRN investigation documented eight civilians killed in Cwanro from October to December 2022.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian government forces killed 5 Kurdish citizens in Javanrood with warfare weapons",
+    "url": "https://hengaw.org/en/content/article-18219"
+   },
+   {
+    "title": "CHRI: Massacre in Kurdish city by Islamic Republic forces exposed in new report",
+    "url": "https://iranhumanrights.org/2023/09/massacre-in-kurdish-city-by-islamic-republic-forces-exposed-in-new-report/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-12-31",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Cwanro (Javanrud)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.808,
+  "lon": 46.493,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 8,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces blocked the road to the cemetery and fired on people at a 40th-day memorial for those killed in November, killing 22-year-old shopkeeper Burhan Eliasi and seriously injuring eight, including a child.",
+  "sources": [
+   {
+    "title": "Hengaw: Burhan Eliasi killed by Iranian government forces",
+    "url": "https://hengaw.org/en/content/article-18707"
+   },
+   {
+    "title": "Rudaw: Security forces fire on mourners in Kurdish town",
+    "url": "https://www.rudaw.net/english/middleeast/iran/31122022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Rojhilat: Kurdistan, Kermanshah and West Azerbaijan provinces",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": 95,
+  "injured": null,
+  "civilian": true,
+  "impact": "Amnesty counted 35 killings in Kurdistan province, 19 in Kermanshah and 41 in West Azerbaijan, Sept–Dec 2022.",
+  "summary": "Amnesty International's 2026 investigation found Iranian security forces unlawfully killed 95 Kurdish protesters and bystanders, including 13 children, across 17 counties, often with military-grade weapons including heavy machine guns mounted on pickups, and said the killings met the elements of persecution as a crime against humanity.",
+  "sources": [
+   {
+    "title": "Amnesty International: Architects of Atrocities (report)",
+    "url": "https://www.amnestyusa.org/reports/architects-of-atrocities-state-machinery-orchestrating-crimes-against-humanity-in-irans-2022-woman-life-freedom-uprising/"
+   },
+   {
+    "title": "Iran International: 'They shot on sight': Amnesty details 2022 protest killings in Kurdish areas",
+    "url": "https://www.iranintl.com/en/202610020675"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-11-14",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hengeh Jal (Hangeh Zhal) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.847,
+  "lon": 45.992,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that border guards fired at close range without warning on two groups of kolbars, killing 34-year-old Yadegar Rahimi and injuring five, including 14-year-old Arvin Mohammadi and a 17-year-old.",
+  "sources": [
+   {
+    "title": "KHRN: Iran border guards fatally shoot kolbar, injure five in Baneh",
+    "url": "https://kurdistanhumanrights.org/en/news/2023/11/15/iran-border-guards-fatally-shoot-kolbar-injure-five-in-baneh"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-11-26",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hengeh Jal (Hangeh Zhal) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.847,
+  "lon": 45.992,
+  "precision": "exact",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that border guards fired without warning on a group of kolbars, shooting 17-year-old Farough Alizadeh from Rebat, Serdeşt, in the head and killing him instantly.",
+  "sources": [
+   {
+    "title": "KHRN: Child kolbar fatally shot by Iranian border guards in Baneh",
+    "url": "https://kurdistanhumanrights.org/en/news/2023/11/27/child-kolbar-fatally-shot-by-iranian-border-guards-in-baneh"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-04-21",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Beleh Keh border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.997,
+  "lon": 45.885,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border regiment forces opened fire on kolbars, killing 34-year-old father Shvaneh Ahmadpour and injuring two others.",
+  "sources": [
+   {
+    "title": "Hengaw: Three kolbars killed or injured by Iranian forces",
+    "url": "https://hengaw.net/en/news/2024/04/article-62"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-09-19",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Piran-e Kohneh, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": false,
+  "impact": "KHRN said follow-up IRGC shelling of the highlands caused widespread fires (see ecocide record).",
+  "summary": "KHRN reported that the IRGC ambushed Komala fighters near the border village of Piran-e Kohneh, killing Komala central committee member Rebwar Karimian after hours of clashes, then shelled the highlands until midday.",
+  "sources": [
+   {
+    "title": "KHRN: Clash between Komala, IRGC in Marivan leaves one dead, fires spread",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/09/20/clash-between-komala-irgc-in-marivan-leaves-one-dead-fires-spread"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-05-27",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Zhalaneh border area, Serawa (Sarvabad)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.366,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that border-post forces fired at close range on a vehicle carrying kolbars, killing 20-year-old Kourosh Moradi and seriously injuring Rizgar Vatan-Doust.",
+  "sources": [
+   {
+    "title": "KHRN: Young kolbar shot dead, another seriously injured by Iran border forces",
+    "url": "https://kurdistanhumanrights.org/en/news/2025/05/27/young-kolbar-shot-dead-another-seriously-injured-by-iran-border-forces"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-03",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Melikşahî (Malekshahi), Arkavaz",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.385,
+  "lon": 46.597,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 40,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC forces fired military-grade weapons at protesters in Melikşahî, killing four at the scene and injuring more than 40.",
+  "sources": [
+   {
+    "title": "Hengaw: At least four killed as IRGC forces open fire on protesters in Malekshahi, Ilam",
+    "url": "https://hengaw.net/en/news/2026/01/article-21"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Şabad (Eslamabad-e Gharb)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.113,
+  "lon": 46.526,
+  "precision": "exact",
+  "killed": 23,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that at least 23 people were killed by Iranian forces during protests in Şabad, verifying 14 identities, including dentist Sajjad Kiani, all shot by government forces on 8 January 2026.",
+  "sources": [
+   {
+    "title": "Hengaw: Identities of eight more people killed in Islam-Abad-e Gharb protests",
+    "url": "https://hengaw.net/en/news/2026/01/article-173"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.314,
+  "lon": 47.065,
+  "precision": "exact",
+  "killed": 45,
+  "injured": null,
+  "civilian": true,
+  "impact": "Hengaw counted 89 Kurds killed in Kermanshah province in the January 2026 protests.",
+  "summary": "Hengaw reported at least 45 people killed by Iranian security forces during protests in Kirmaşan on 8–9 January 2026, including 13-year-old Nazanin Zahra Salehi and 16-year-old Mohammad Matin Bagheri, with IRGC Nabi Akram Corps forces firing on the Dareh Deraz neighbourhood.",
+  "sources": [
+   {
+    "title": "Hengaw: Identities of twelve Kurds, including two children, killed in Kermanshah protests confirmed",
+    "url": "https://hengaw.net/en/news/2026/01/article-191"
+   },
+   {
+    "title": "Hengaw: First-half 2026 report on violations against Kurds",
+    "url": "https://hengaw.net/en/reports-and-statistics-1/2026/07/article-5"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Badreh",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.306,
+  "lon": 47.039,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that 21-year-old Armin Dadfar from Sartang village was killed by live ammunition fired by Iranian forces during protests in Badreh.",
+  "sources": [
+   {
+    "title": "Hengaw: Three more, including a woman, killed during protests in Kermanshah and Badreh",
+    "url": "https://hengaw.net/en/news/2026/01/article-175"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-11",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Near Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.997,
+  "lon": 45.885,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": "Three passengers were arrested; Hengaw described a wave of IRGC checkpoints and vehicle searches across Kurdistan during the war.",
+  "summary": "Hengaw reported that IRGC forces surrounded a private car near Bane and immediately opened fire, killing driver Arman Khaleghpanah from Seqiz, and arrested his three passengers; it was the first Kurdish civilian Hengaw recorded shot dead by state forces after the US–Israel war began.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man shot dead near Baneh; three others arrested by IRGC forces",
+    "url": "https://hengaw.net/en/news/2026/03/article-32"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-29",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Qolian–Sine road (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that plainclothes forces opened fire without warning on a car carrying Mohammad Sohrabzadeh and his parents, killing him, amid new checkpoints set up across Kurdistan during the war.",
+  "sources": [
+   {
+    "title": "Hengaw: Mohammad Sohrabzadeh shot dead by Iranian government forces in Sanandaj",
+    "url": "https://hengaw.net/en/news/2026/03/article-89-1"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-28",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Qaleh Kahush village, Dalahu",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.384,
+  "lon": 46.275,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": "Homeowner Farshad Hatamipour was missing after the raid; the bodies were withheld from the family.",
+  "summary": "Hengaw reported that IRGC forces besieged a house and fired from four directions without warning, killing Yarsan Kurdish cultural activists Meysam and Mojtaba Veisi, who had gone into hiding after the January 2026 protests.",
+  "sources": [
+   {
+    "title": "Hengaw: IRGC forces kill Kurdish activist brothers Meysam and Mojtaba Veisi in Dalahu",
+    "url": "https://hengaw.net/en/news/2026/05/article-159"
+   },
+   {
+    "title": "KHRN: IRGC forces shoot dead two Kurdish cultural activists in Dalahu raid",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/05/29/irgc-forces-shoot-dead-two-kurdish-cultural-activists-in-dalahu-raid"
+   },
+   {
+    "title": "Nûçe TV: Pasdarên dewleta Îranê 2 birayên Kurd kuştin",
+    "url": "https://nucetv.net/pasdaren-dewleta-irane-2-birayen-kurd-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-07",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Merîwan (Marivan) countryside",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "ANF reported, citing the YRK (PJAK's armed wing), that Iranian forces attacked YRK positions near Merîwan with artillery and mortar fire, the start of the 2026 clashes in Rojhilat.",
+  "sources": [
+   {
+    "title": "ANF: YRK says its forces responded to an Iranian attack in Marivan",
+    "url": "https://english.anf-news.com/kurdistan/yrk-our-forces-responded-to-an-iranian-attack-in-marivan-85816"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-16",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Serçor village area, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Vineyards and orchards belonging to local residents were damaged.",
+  "summary": "ANF reported, citing the YRK, that the IRGC fired Katyusha rockets at the area around Serçor village; the YRK said it had no casualties but villagers' vineyards and orchards were damaged.",
+  "sources": [
+   {
+    "title": "ANF: YRK reports Iranian bombardment in Marivan countryside",
+    "url": "https://english.anf-news.com/kurdistan/yrk-reports-iranian-bombardment-in-marivan-countryside-85899"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-28",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Gagesh heights, between Mehabad (Mahabad) and Pîranşar",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.465,
+  "lon": 45.512,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "KHRN reported that YRK fighters came under IRGC artillery and heavy fire on the Gagesh heights, setting off hours of fighting in which four YRK members, two women and two men, were killed.",
+  "sources": [
+   {
+    "title": "KHRN: At least 10 members of PDKI, PJAK lose their lives in IRGC clashes",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/at-least-10-members-of-pdki-pjak-lose-their-lives-in-irgc-clashes"
+   },
+   {
+    "title": "Hengaw: Report on deadly armed clashes in multiple cities",
+    "url": "https://hengaw.net/en/news/2026/06/article-201"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-01",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Qazqapan village, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.714,
+  "lon": 45.101,
+  "precision": "exact",
+  "killed": 6,
+  "injured": null,
+  "civilian": false,
+  "impact": "Hana reported the IRGC used heavy weaponry near residential areas.",
+  "summary": "KHRN reported that IRGC forces of the Hamzeh Seyyed al-Shohada HQ ambushed a vehicle carrying six PDKI members near Qazqapan, killing all six; RFE/RL cited Hana as saying heavy weapons were used near civilian homes.",
+  "sources": [
+   {
+    "title": "KHRN: At least 10 members of PDKI, PJAK lose their lives in IRGC clashes",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/at-least-10-members-of-pdki-pjak-lose-their-lives-in-irgc-clashes"
+   },
+   {
+    "title": "Rudaw: Five KDPI Peshmerga killed in IRGC ambush in western Iran",
+    "url": "https://rudaw.net/english/categories/iran/1078187"
+   },
+   {
+    "title": "RFE/RL via GlobalSecurity: clashes near Sardasht and Piranshahr",
+    "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260702-rferl02.htm"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-06",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Viseh border area, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border guards shot 18-year-old kolbar Sirwan (Salah) Khoshnamak at close range without warning, killing him; days earlier guards had killed 57-year-old kolbar Wazir Rahimi near Nowsud.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian border guards fatally shoot 18-year-old kolbar near Marivan",
+    "url": "https://hengaw.net/en/news/2026/07/article-28"
+   },
+   {
+    "title": "Nûçe TV: Sîrwan Xoşnemek li ser sînorê Merîwanê hat kuştin",
+    "url": "https://nucetv.net/sirwan-xosnemek-li-ser-sinore-meriwane-hat-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-26",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Merîwan–Bane (Marivan–Baneh) road",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": "Hengaw said the family was pressured to call the deaths a traffic accident.",
+  "summary": "Hengaw reported that IRGC Intelligence forces ambushed the car of Kurdish photographer and cultural activist Mehdi Tavakkoli, killing him, his mother Maryam Aslani and sister Somayeh; KHRN attributed the shooting to Intelligence Ministry agents, while police claimed it was a clash with PJAK members.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish activist Mehdi Tavakkoli, mother and sister killed in targeted state attack",
+    "url": "https://hengaw.net/en/news/2026/07/article-161"
+   },
+   {
+    "title": "KHRN: Ministry of Intelligence forces kill three members of Kurdish family",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/28/ministry-of-intelligence-forces-kill-three-members-of-kurdish-family"
+   },
+   {
+    "title": "Nûçe TV: Dewleta Îranê li Sine 3 kes kuştin",
+    "url": "https://nucetv.net/dewleta-irane-li-sine-3-kes-qetil-kirin"
+   },
+   {
+    "title": "Nûçe TV: Dewleta Îranê li Sine 3 kes kuştin",
+    "url": "https://nucetv.net/dewleta-irane-li-sine-3-kes-kustin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-23",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Nowsud border area, Hewraman",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.161,
+  "lon": 46.204,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that border guards fired at close range without warning on a group of kolbars, killing Mohammad (Mohammad Sedigh) Avali, a father of two from Salas-e Babajani.",
+  "sources": [
+   {
+    "title": "KHRN: Iran border guards shoot dead kolbar in Nowsud",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/09/23/iran-border-guards-shoot-dead-kolbar-in-nowsud"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-29",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Mountains of Salas-e Babajani",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.731,
+  "lon": 46.178,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rudaw, citing Hengaw, reported that the IRGC shot dead 25-year-old Kurdish shepherd Naib (Nayeb) Karimi while he grazed his flock; local media gave no reason for the shooting.",
+  "sources": [
+   {
+    "title": "Rudaw: IRGC kills Kurdish shepherd in western Iran, rights group says",
+    "url": "https://rudaw.net/english/categories/iran/1079518"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-15",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Niyava and Barqo area, Kelatirzan (Kalatarzan), Sine county",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.36,
+  "lon": 46.665,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fires broke out in surrounding forests (see ecocide record for Shaho).",
+  "summary": "KHRN reported, citing eyewitnesses, that IRGC forces launched suicide drone attacks on 15–16 October 2026 on forested mountains near Niyava and Barqo villages, sparking forest fires, as part of continuing drone and artillery operations across Kurdistan.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC continues artillery shelling and drone attacks across Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/16/irgc-continues-artillery-shelling-and-drone-attacks-across-kurdistan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-18",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Dasht-e Mil near Goyleh village, Serşiw, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.685,
+  "lon": 46.329,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that an IRGC convoy with artillery and drones took up positions around Goyleh and struck nearby mountains with two one-way attack drones followed by heavy artillery; no clashes had been reported in the area.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC intensifies drone attacks and artillery shelling in Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/18/irgc-intensifies-drone-attacks-and-artillery-shelling-in-kurdistan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-07-16",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Kosalan mountains, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "More than 1,000 hectares of rangeland and forest burned over four days, per KMMK.",
+  "summary": "The Kurdistan Human Rights Association (KMMK) reported that a fire in the Kosalan mountains started after IRGC ground forces fired incendiary artillery rounds, and kept burning for four days while officials claimed it was under control.",
+  "sources": [
+   {
+    "title": "KMMK: Thousands of hectares of Kousalan forests burned in the fire",
+    "url": "https://www.kmmk.info/en/1413/thousands-of-hectares-of-kousalan-forests-burned-in-the-fire/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-08-07",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Shaho mountain near Tangivar and Palangan, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.004,
+  "lon": 46.629,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "The fire took two days to put out.",
+  "summary": "KHRN reported that IRGC bombardment during a manoeuvre against Kurdish parties set Shaho mountain alight, and that IRGC forces threatened and blocked environmental activists and villagers trying to fight the fire for a day.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC manoeuvre led to massive fire in Shaho mountains",
+    "url": "https://kurdistanhumanrights.org/en/news/rights/ethnic-rights/2017/08/16/iran-manoeuvre-islamic-revolutionary-guards-corps-led-massive-fire-shahu-mountains"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-07-24",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that security forces arrested Arman Ghafouri, a member of the Chya Green Association, in Merîwan and held him in an unknown location for weeks with no news to his family, amid reports he had died in custody; Merîwan activists protested at the governor's office.",
+  "sources": [
+   {
+    "title": "KHRN: Concern over the fate of Arman Ghafouri, detained environmental activist",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2018/08/31/concern-over-the-fate-of-arman-ghafouri-detained-environmental-activist"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-08-25",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Forest between Slesi and Pileh, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 2,
+  "civilian": true,
+  "impact": "Eight activists were later summoned or detained for organising the funeral, per HRANA.",
+  "summary": "Four people fighting a forest fire near Merîwan died: Sharif Bajour and Omid Kohnepoushi of the Chya Green Association and Department of Environment staff Mohammad Pazhouhi and Rahmat Hakiminia. Hengaw said IRGC bombing had started the fire and that the IRGC had burned woods near Merîwan the month before to drive out Peshmerga; officials blamed heat and wind.",
+  "sources": [
+   {
+    "title": "Hengaw: Forest fires caused by IRGC bombing and the killing of four environmental activists",
+    "url": "https://hengaw.org/en/content/article-1507"
+   },
+   {
+    "title": "HRANA: Four environmental activists die fighting Marivan forest fire",
+    "url": "https://en-hrana.org/?p=20584"
+   },
+   {
+    "title": "HRANA: Eight activists condemned for commemorating forest fire victims",
+    "url": "https://en-hrana.org/?p=20901"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-10",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Ghale Pir Khedr, Shaho mountains",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.195,
+  "lon": 46.374,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that the IRGC heavily bombarded Ghale Pir Khedr in the Shaho range, starting widespread fires, then sealed the area from Loun Sadat to Diyzno and stopped environmental activists and villagers from fighting the blaze.",
+  "sources": [
+   {
+    "title": "KHRN: Massive fire in Shaho mountain ranges due to IRGC bombardment",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2018/10/09/massive-fire-in-shahu-mountain-ranges-due-to-bombardment-by-islamic-revolutionary-guards-corps-irgc"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-11-22",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Shaho–Kosalan protected area, between Kamyaran and Ravansar",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.195,
+  "lon": 46.374,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "The Shaho and Kosalan protected areas cover 57,236 hectares.",
+  "summary": "KHRN reported that after the IRGC's 'Muharram 2' manoeuvre, which involved about 20,000 troops, the IRGC kept bombarding Shaho, banned travel to the mountains and built new bases and roads in the protected area, causing what an activist called massive destruction.",
+  "sources": [
+   {
+    "title": "KHRN: Bombardment of the protected areas in Shaho mountain by IRGC",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2018/11/22/bombardment-of-the-protected-areas-in-shaho-mountain-by-islamic-revolutionary-guards-corps"
+   },
+   {
+    "title": "KHRN: Continued security atmosphere in Shaho, harassment of environmental activists",
+    "url": "https://kurdistanhumanrights.org/en/news/rights/ethnic-rights/2018/10/30/continued-security-atmosphere-in-shaho-mountain-threat-and-harassment-of-environmental-activists-and-citizens"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018",
+  "actor": "Iran",
+  "category": "dam",
+  "place": "Daryan dam on the Sîrwan (Sirvan) river, Hewraman (Paveh county)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.152,
+  "lon": 46.306,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Flow into the Kurdistan Region fell sharply; Halabja faced drinking-water shortages.",
+  "summary": "The state-owned Daryan dam in Hewraman, completed around 2018, holds back the Sîrwan and sends water through a tunnel of about 48 km to other parts of Iran. Rudaw reported Iraqi Kurdish officials saying the river sometimes stops flowing downstream, and a Niqash report described the flow dropping four metres during a test run.",
+  "sources": [
+   {
+    "title": "Rudaw: Halabja to face water crisis next month: dam manager",
+    "url": "https://www.rudaw.net/english/kurdistan/31052021"
+   },
+   {
+    "title": "Niqash via Iraqi Civil Society Solidarity Initiative: Iranian dam threatens Iraqi Kurdistan's Sirwan River",
+    "url": "https://www.iraqicivilsociety.org/archives/6219"
+   },
+   {
+    "title": "Wikipedia: Daryan Dam",
+    "url": "https://en.wikipedia.org/wiki/Daryan_Dam"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2019-02-17",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Sine (Sanandaj), Merîwan and Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "KHRN said 14 of 21 activists detained were still held in March 2019, some in solitary confinement.",
+  "summary": "KHRN reported a wave of arrests of Kurdish environmental activists, including Zakaria Naqshbandi of the Kurdistan Green Population Association and Iraj Rahimzadeh, held by Intelligence Ministry and IRGC detention centres in Sine.",
+  "sources": [
+   {
+    "title": "KHRN: Two Kurdish environmental activists arrested in Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2019/02/21/two-kurdish-environmental-activists-arrested-in-kurdistan"
+   },
+   {
+    "title": "KHRN: Latest status of environmental activists: seven released, fourteen still detained",
+    "url": "https://kurdistanhumanrights.org/en/news/freedom/freedom-of-expression/2019/03/13/latest-status-of-environmental-activists-and-members-of-kurdistan-branch-of-the-national-unity-party-seven-released-fourteen-still-detained"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2019-06",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Ney village, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.488,
+  "lon": 46.127,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that part of the forest around Ney village burned after IRGC bombardment, while IRGC forces moved large convoys into Kosalan and Shaho and shelled frontier heights daily, frightening herders.",
+  "sources": [
+   {
+    "title": "KHRN: Continuous deployment of military forces to several Kurdish cities",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2019/07/09/continuous-deployment-of-military-forces-to-several-kurdish-cities"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-04-05",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Shaho heights between Deyvaznav and Daleh Marz, Serawa (Sarvabad)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.366,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that an IRGC convoy shelled the Shaho heights for several hours without warning, damaging the protected area; an activist said IRGC shells had caused wildfires in recent years and attempts to contain them faced threats.",
+  "sources": [
+   {
+    "title": "KHRN: Iran's IRGC shells heights of Shaho Mountain in northwestern Sarvabad",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2021/04/05/irans-irgc-shells-heights-of-shaho-mountain-in-northwestern-sarvabad"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-08-26",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Lani Sur heights between Deyvaznav and Palangan, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.004,
+  "lon": 46.629,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that IRGC artillery fired from Sure Tu village set a large part of the protected Shaho forests on fire, that shelling continued despite the fire and the known presence of herders and beekeepers, and that the IRGC stopped volunteers controlling it.",
+  "sources": [
+   {
+    "title": "KHRN: Kamyaran: IRGC shelling causes widespread fire in Shaho forests",
+    "url": "https://kurdistanhumanrights.org/en/news/environment/2021/08/27/kamyaran-irgc-shelling-causes-widespread-fire-in-shaho-forests"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-09-15",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Korkore, Tazehabad, Kani Golzar and Brazan villages, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.312,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hana reported that the IRGC was excavating mountains near four villages under the pretext of copper and gold mining, and that residents protested and blocked IRGC vehicles.",
+  "sources": [
+   {
+    "title": "Hana: Sanandaj: Protests against the destruction and environmental manipulation of the region",
+    "url": "https://hanahr.org/?p=12143"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-06-16",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Daratefi–Kani Sanan and Kosalan (Selin–Zhiwar), Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported, citing informed sources and video, that after a clash with PJAK the IRGC deliberately lit fires in the mountains near Merîwan and in Kosalan pastures and stopped villagers approaching to put them out.",
+  "sources": [
+   {
+    "title": "Hengaw: Clash in Marivan and deliberate burning of Kurdistan forests by IRGC",
+    "url": "https://hengaw.org/en/content/article-20981"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-08-03",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Forests of Merîwan (Marivan), from Dereveran village",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "300 ha burned per officials, about 500 ha per the Chya association; KHRN said 440 ha burned in earlier late-July fires.",
+  "summary": "Hengaw reported the state did little to control a week-long fire around Merîwan while intelligence agents arrested five environmental activists, including Azad Rouhi and Alan Ardeshiri, as volunteers fought the blaze; KHRN said war-era landmines delayed containment.",
+  "sources": [
+   {
+    "title": "Hengaw: In-depth report on wildfires in forests and meadows of Marivan",
+    "url": "https://hengaw.org/en/content/article-21931"
+   },
+   {
+    "title": "Hengaw: Five environmental activists arrested in Marivan",
+    "url": "https://hengaw.org/en/content/article-21904"
+   },
+   {
+    "title": "KHRN: Kurdistan battling alarming forest fires, activists allege human involvement",
+    "url": "https://kurdistanhumanrights.org/en/news/detentions-and-arrests/2023/08/07/kurdistan-battling-alarming-forest-fires-activists-allege-human-involvement"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-01-29",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Shaho mountains near Tangivar and Palangan, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.004,
+  "lon": 46.629,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported two days of intense IRGC shelling that caused extensive damage to the protected Shaho area after the execution of four Kurdish political prisoners, and said the IRGC deliberately burns pasture and forest around its bases.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC shelling causes environmental devastation in Shaho mountains",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/01/30/irgc-shelling-causes-environmental-devastation-in-shaho-mountains"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-07-17",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Quri Qaleh and Piaz Dol highlands, Shaho (Kermanshah side)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.195,
+  "lon": 46.374,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that the IRGC banned travel to part of the Shaho protected area and extended a 'military-security exercise' with artillery shelling to 29 July; activists said such annual exercises have caused widespread fires.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC extends military exercise in Kermanshah's protected areas",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/07/28/irgc-extends-military-exercise-in-kermanshahs-protected-areas"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-07-22",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Kanishah pastures near Najafabad, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 34.797,
+  "lon": 46.936,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": "IRGC intelligence arrested five civil activists returning from his funeral, per KHRN.",
+  "summary": "KHRN reported that environmental activist and natural resources worker Esmaeil Karimi died of burns covering over 80% of his body after fighting a wildfire, and that the IRGC Intelligence Organisation detained five activists, including Farideh Veysi and Amanj Ghorbani, after his funeral.",
+  "sources": [
+   {
+    "title": "KHRN: Environmental activist dies from injuries sustained in Kamyaran wildfire",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/07/24/environmental-activist-dies-from-injuries-sustained-in-kamyaran-wildfire"
+   },
+   {
+    "title": "KHRN: IRGC intelligence agents arrest five activists after environmentalist's funeral",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/07/25/irgc-intelligence-agents-arrest-five-activists-after-environmentalists-funeral"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-09",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Zawali mountains near Shamshir village, Pawe (Paveh)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.046,
+  "lon": 46.362,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported, citing residents, that the IRGC sent construction equipment into the Shaho protected area to build roads, military bases and helicopter landing pads in the Big and Small Zawali ranges.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC's road construction damages protected area in Shaho mountains",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/09/12/irgcs-road-construction-damages-protected-area-in-shaho-mountains"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-09-19",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Highlands near Piran-e Kohneh, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that IRGC shelling after an ambush on Komala fighters caused widespread fires in the highlands, and that Chya the Green members trying to reach the fires were blocked by the IRGC.",
+  "sources": [
+   {
+    "title": "KHRN: Clash between Komala, IRGC in Marivan leaves one dead, fires spread",
+    "url": "https://kurdistanhumanrights.org/en/news/2024/09/20/clash-between-komala-irgc-in-marivan-leaves-one-dead-fires-spread"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-10",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Kosalan protected area, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "The protected area covers about 57,000 hectares.",
+  "summary": "Rudaw reported that Chya volunteers said new fires were set deliberately each time they put one out, and a Merîwan environmentalist said arrests, military bases and forces that make no effort to catch arsonists are a direct threat to the protected area.",
+  "sources": [
+   {
+    "title": "Rudaw: Rojhelat environmentalists say Marivan forests deliberately set on fire",
+    "url": "https://rudaw.net/english/middleeast/iran/09102024"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-06-25",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Bamo mountain, Doldara and Nawkhas, Salas-e Babajani",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.731,
+  "lon": 46.178,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Dozens of hectares of forest burned.",
+  "summary": "Hana reported suspicious fires on Bamo mountain, an area with several IRGC border bases and heavy access restrictions; locals accused state-affiliated forces, and unnamed sources said fires are set to clear border zones for military bases.",
+  "sources": [
+   {
+    "title": "Hana: Suspicious wildfires in the mountainous areas of Salas-e Babajani",
+    "url": "https://hanahr.org/?p=82311"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-07-21",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Mirgeh Nakhshineh village, Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.243,
+  "lon": 46.271,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces, on the Seqiz prosecutor's order, arrested at least five Kurds, including village head Latif Moradi and lawyer Mozaffar Moradi, for protesting a gold-mining company's destruction of orchards, roads and mountains.",
+  "sources": [
+   {
+    "title": "Hengaw: Five Kurds arrested over protest against destructive gold mining",
+    "url": "https://hengaw.net/en/news/2025/07/article-114"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-07-24",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Mount Abidar, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.316,
+  "lon": 46.925,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that volunteers Hamid Moradi, Chiako Yousefinezhad and Khabat Amini died of burns after fighting a wildfire on Mount Abidar, blaming a lack of basic safety equipment and government neglect; at least 10 activists had been killed or injured fighting fires in recent years.",
+  "sources": [
+   {
+    "title": "KHRN: Kurdish activist dies, four injured battling wildfire in Sanandaj",
+    "url": "https://kurdistanhumanrights.org/en/news/2025/07/25/kurdish-activist-dies-four-injured-battling-wildfire-in-sanandaj"
+   },
+   {
+    "title": "KHRN: Two more activists die from injuries after Mount Abidar wildfire",
+    "url": "https://kurdistanhumanrights.org/en/news/2025/07/28/two-more-activists-die-from-injuries-after-mount-abidar-wildfire"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-09-05",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Hanjiran area, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.522,
+  "lon": 46.176,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that 18-year-old volunteer Rebin Gorani died after 11 days in a coma from breathing injuries suffered fighting forest fires; Chya the Green said Merîwan hospital first refused to admit him.",
+  "sources": [
+   {
+    "title": "KHRN: Environmental volunteer dies after battling Marivan forest fire",
+    "url": "https://kurdistanhumanrights.org/en/news/2025/09/05/environmental-volunteer-dies-after-battling-marivan-forest-fire"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-09-15",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Pir Omran village / Qolqoleh gold mine, Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.243,
+  "lon": 46.271,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": "Residents had petitioned, with 16,000 signatures, to close the mines over pollution claims.",
+  "summary": "Hengaw reported that forces opened fire on villagers protesting the Qolqoleh gold mine and an unlicensed road through their farmland, killing 22-year-old Mohammad (Amin) Rashidi and injuring three; police said two mine workers fired and were arrested.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian forces kill Mohammad Rashidi, injure three at Saqqez gold mine protest",
+    "url": "https://hengaw.net/en/news/2025/09/article-75"
+   },
+   {
+    "title": "Iran International: One killed, three injured in shooting at gold mine in western Iran",
+    "url": "https://www.iranintl.com/en/202509158555"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-09",
+  "actor": "Iran",
+  "category": "water",
+  "place": "Lake Ûrmiye (Lake Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.7,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Area 581 km² and volume about 0.5 billion m³ on 1 August 2025 per Iran's Department of Environment.",
+  "summary": "Iran's Department of Environment said Lake Ûrmiye had shrunk to 581 km² by August 2025 and could dry up completely; Kurdistan24 cited a report that NASA imagery showed it had dried up, blaming dam building on its rivers and over-extraction for farming.",
+  "sources": [
+   {
+    "title": "Iran International: Iran's Lake Urmia may completely dry up next month, official warns",
+    "url": "https://v1.iranintl.com/en/202508101060"
+   },
+   {
+    "title": "Kurdistan24: 'Lake Urmia has become part of history' as NASA images confirm disappearance",
+    "url": "https://www.kurdistan24.net/en/story/862270/slug"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-10-25",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Spi Khani (Chenareh), Serşiw (Sarshiv), Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.685,
+  "lon": 46.329,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hana reported that wide forest areas caught fire after the IRGC shelled border areas of Merîwan county, reportedly targeting Kurdish opposition parties; the fire was still burning when reported.",
+  "sources": [
+   {
+    "title": "Hana: Forest fires in Marivan following IRGC shelling",
+    "url": "https://hanahr.org/en/news/forest-fires-in-marivan-following-irgc-shelling/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-15",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Shaho mountains (Daleh Marz, Barzeh Lang) between Serawa and Pawe, and Kelatirzan",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.195,
+  "lon": 46.374,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that IRGC suicide drones and artillery hit forested Shaho mountains in Hewraman and the Kelatirzan area, starting forest fires, after weeks of heavy IRGC shelling of Shaho during 'security exercises' in Ravansar and Kamyaran.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC continues artillery shelling and drone attacks across Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/16/irgc-continues-artillery-shelling-and-drone-attacks-across-kurdistan"
+   },
+   {
+    "title": "Nûçe TV: Îranê zozanên Şoho ya Rojhilatê Kurdistanê bombebaran kirin",
+    "url": "https://nucetv.net/irane-zozanen-soho-ya-rojhilate-kurdistane-bombebaran-kirin"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10",
+  "actor": "Iran",
+  "category": "dam",
+  "place": "Zhaveh (Zhawa) dam on the Sîrwan, near Darreh Kuleh, Sine county",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.06,
+  "lon": 46.69,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurdistan24 reported that a promised bridge was never built and children from Darreh Kuleh village must cross a stream linked to the Zhaveh dam to reach school; a specialist said heavy metals in the dam system were nine times allowed levels, which was not independently tested.",
+  "sources": [
+   {
+    "title": "Kurdistan24: Dam and broken promise burden children's path to school",
+    "url": "https://www.kurdistan24.net/en/story/945855"
+   }
+  ],
+  "kind": "eco"
+ }
+]
