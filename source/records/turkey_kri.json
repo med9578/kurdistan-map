@@ -1,0 +1,1856 @@
+[
+ {
+  "date": "2017-04-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mount Sinjar (Karasuk area), Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.37,
+  "lon": 41.85,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": 9,
+  "civilian": false,
+  "summary": "Turkish warplanes struck PKK-linked targets on Mount Sinjar; five Peshmerga and one Asayish member were killed and nine wounded, per the KRG Peshmerga ministry, which called the strike unacceptable.",
+  "sources": [
+   {
+    "title": "RFE/RL: Turkey bombs Kurdish militants in Iraq, Syria",
+    "url": "https://www.rferl.org/a/turkey-iraq-syria-pkk/28450499.html"
+   },
+   {
+    "title": "Institut kurde: Iraqi Kurds call deadly Turkish strike unacceptable",
+    "url": "https://www.institutkurde.org/en/info/latest/iraqi-kurds-call-deadly-turkish-strike-unacceptable-6943/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2017-07-29",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Zakho district (border area)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.146,
+  "lon": 42.674,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "summary": "Local Kurdish media reported four civilians injured by alleged Turkish artillery shelling in Zakho district near the Iraqi-Turkish border.",
+  "sources": [
+   {
+    "title": "Airwars incident TI007",
+    "url": "https://airwars.org/incidents/ti007-july-29-2017"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2017-11-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Barmiza village, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.801,
+  "lon": 44.665,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "summary": "One civilian was killed in alleged Turkish airstrikes on Barmiza village in the Sidakan area, per local sources.",
+  "sources": [
+   {
+    "title": "Airwars incident TI011",
+    "url": "https://airwars.org/incidents/ti011-november-13-2017"
+   },
+   {
+    "title": "ANF: Turkish airstrike kills a civilian in Southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-23187"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-03-22",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Villages in Choman district",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.637,
+  "lon": 44.89,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 10,
+  "civilian": true,
+  "summary": "Alleged Turkish airstrikes on villages in Choman district killed civilians (Airwars records 2; some local sources said 4) and injured about 10.",
+  "sources": [
+   {
+    "title": "Airwars incident TI012",
+    "url": "https://airwars.org/incidents/ti012-march-22-2018"
+   },
+   {
+    "title": "ANF: Turkish warplanes kill four civilians in Southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-25653"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-03-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Shiladze area, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.038,
+  "lon": 43.781,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "One civilian was killed and one or two injured in an alleged Turkish airstrike on the Shiladze area north of Duhok.",
+  "sources": [
+   {
+    "title": "Airwars incident TI014",
+    "url": "https://airwars.org/incidents/ti014-march-25-2018"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-08-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Kocho / Sinjar (convoy)",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.319,
+  "lon": 41.861,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": false,
+  "summary": "Turkish jets struck a convoy returning from a Kocho massacre memorial, killing senior PKK/Sinjar figure Zaki Shingali (Ismail Ozden) and reportedly four YBS members; Turkey said the operation was conducted jointly with MIT.",
+  "sources": [
+   {
+    "title": "Al-Monitor: Turkey airstrike kills PKK leader in Sinjar",
+    "url": "https://www.al-monitor.com/originals/2018/08/turkey-airstrike-kills-pkk-leader-sinjar.html"
+   },
+   {
+    "title": "Airwars incident TI017",
+    "url": "https://airwars.org/incidents/ti017-august-15-2018"
+   },
+   {
+    "title": "Rudaw",
+    "url": "https://rudaw.net/english/kurdistan/150820182"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-11-14",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Amedi district",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "summary": "At least three civilian men were killed in alleged Turkish airstrikes in Amedi (Amadiya) district.",
+  "sources": [
+   {
+    "title": "Airwars incident TI019",
+    "url": "https://airwars.org/incidents/ti019-november-14-2018"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-12-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Makhmour (Martyr Rustam Judi) refugee camp, Makhmour",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.761,
+  "lon": 43.605,
+  "precision": "exact",
+  "killed": 4,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkish airstrikes targeting Makhmour and Sinjar killed three women and a 14-year-old girl in Makhmour refugee camp, per Rudaw; Turkey said it struck PKK positions on Qarachogh mountain.",
+  "sources": [
+   {
+    "title": "Airwars incident TI020",
+    "url": "https://airwars.org/incidents/ti020-december-13-2018"
+   },
+   {
+    "title": "Rudaw: Makhmour airstrike",
+    "url": "https://rudaw.net/english/middleeast/iraq/14122018"
+   },
+   {
+    "title": "ANF: Identities of four women killed by Turkey in Makhmur announced",
+    "url": "https://english.anf-news.com/kurdistan/-31390"
+   },
+   {
+    "title": "Sterk TV: Balefirên Artêşa Tirk êrişî wargeha Mexmûrê kirin. [Turkish army planes attacked Makhmour camp]",
+    "url": "https://sterktv.eu/40414-2/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-01-23",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Deraluk, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.057,
+  "lon": 43.652,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkish airstrikes near Deraluk killed four civilians with two missing (later reported as six dead); on 26 Jan residents protested at the Turkish base near Shiladze and one protester was killed.",
+  "sources": [
+   {
+    "title": "Rudaw: Four killed, two missing in Turkish airstrike in Duhok province",
+    "url": "https://rudaw.net/english/kurdistan/240120191-amp"
+   },
+   {
+    "title": "Airwars incident TI021",
+    "url": "https://airwars.org/incidents/ti021-january-22-2019"
+   },
+   {
+    "title": "Kurdistan24: At least four civilians killed in Turkish air raid",
+    "url": "https://www.kurdistan24.net/en/story/22640-At-least-four-civilians-killed-in-Turkish-air-raid:-sources"
+   },
+   {
+    "title": "ANF: Two civilians dead, two others missing after Turkish air strike",
+    "url": "https://english.anf-news.com/kurdistan/-32387"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-05-28",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Hakurk (Xakurke) region, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 37.037,
+  "lon": 44.651,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched the 'Claw' offensive with artillery, airstrikes, commandos, ATAK helicopters and drones against PKK positions in the Hakurk region, later followed by Claw-2 and Claw-3.",
+  "sources": [
+   {
+    "title": "Arab News: Turkey says it has neutralized 43 Kurdish militants in northern Iraq",
+    "url": "https://www.arabnews.com/node/1507966"
+   },
+   {
+    "title": "Wikipedia: Operation Claw (2019-2020)",
+    "url": "https://en.wikipedia.org/wiki/Operation_Claw_(2019%E2%80%932020)"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-06-27",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Berker, near Sangasar, Pishdar",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.248,
+  "lon": 45.019,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 5,
+  "civilian": true,
+  "summary": "Three or four members of one family were reportedly killed and five injured when an alleged Turkish airstrike hit a civilian car near Sangasar.",
+  "sources": [
+   {
+    "title": "Airwars incident TI024",
+    "url": "https://airwars.org/incidents/ti024-june-27-2019"
+   },
+   {
+    "title": "ANF: Turkish warplanes brought dead to Kortek once again",
+    "url": "https://english.anf-news.com/kurdistan/-35907"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-07-19",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.76,
+  "lon": 43.605,
+  "precision": "exact",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Alleged Turkish shelling of Makhmour (Martyr Rustam Judi) camp wounded two people around 3:15 am.",
+  "sources": [
+   {
+    "title": "Airwars incident TI026",
+    "url": "https://airwars.org/incidents/ti026-july-19-2019"
+   },
+   {
+    "title": "Sterk TV: Balefirên Artêşa Tirk êrişî wargeha Mexmûrê kirin. [Turkish army planes attacked Makhmour camp]",
+    "url": "https://sterktv.eu/40414-2/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-09-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kani Mazi, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 36.923,
+  "lon": 43.448,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 5,
+  "civilian": true,
+  "summary": "One civilian aged 19 or 20 was killed and five injured in an alleged Turkish airstrike on Kani Mazi.",
+  "sources": [
+   {
+    "title": "Airwars incident TI028",
+    "url": "https://airwars.org/incidents/ti028-september-25-2019"
+   },
+   {
+    "title": "ANF: Young man killed by Turkish army bombing in Amediyê",
+    "url": "https://english.anf-news.com/kurdistan/-37884"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-01-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Dugure (Digor), Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.471,
+  "lon": 41.746,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": false,
+  "summary": "An alleged Turkish strike on a YBS base in Dugure, Sinjar, reportedly killed between four and eleven people (mostly fighters) and injured up to five including one civilian.",
+  "sources": [
+   {
+    "title": "Airwars incident TI032",
+    "url": "https://airwars.org/incidents/ti032-january-15-2020"
+   },
+   {
+    "title": "Sterk TV: Rasterast – Balafirên Artêşa tirk Şengal bombebaran kirin [Live: Turkish army planes bombed Şengal]",
+    "url": "https://sterktv.eu/2000-rasterast-17-01-2020/"
+   },
+   {
+    "title": "Sterk TV: Rojev – Êrişa dagirkeriya dewleta Tirk li dijî Şengalê [Agenda: the Turkish state's attack on Şengal]",
+    "url": "https://sterktv.eu/0000-rojev-18-01-2020/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-04-15",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.76,
+  "lon": 43.605,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 4,
+  "civilian": true,
+  "summary": "Turkish drone strikes on Makhmour camp killed three women working in gardens and injured four civilians; Iraq summoned the Turkish ambassador.",
+  "sources": [
+   {
+    "title": "Airwars incident TI034",
+    "url": "https://airwars.org/incidents/ti034-april-15-2020"
+   },
+   {
+    "title": "The New Arab: Iraq summons Turkish ambassador after two women killed in strike on refugee camp",
+    "url": "https://www.newarab.com/news/two-killed-after-turkey-strikes-refugee-camp-iraq"
+   },
+   {
+    "title": "Sterk TV: Balefirên Artêşa Tirk êrişî wargeha Mexmûrê kirin. [Turkish army planes attacked Makhmour camp]",
+    "url": "https://sterktv.eu/40414-2/"
+   },
+   {
+    "title": "Sterk TV: Rasterast – Li Mexmûrê bombebarana balafirên Tirk [Live: Turkish air bombardment in Makhmour]",
+    "url": "https://sterktv.eu/2000-rasterast-17-04-2020/"
+   },
+   {
+    "title": "Sterk TV: Aloziya li Zînî Wertê û Yekîtiya hêzên Kurd [The Zînî Wertê crisis and Kurdish unity]",
+    "url": "https://sterktv.eu/cavderi-siyasi-eli-oramar-aloziya-li-zini-werte-dinirxine/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-05-30",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Deraluk, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.057,
+  "lon": 43.652,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "A father and son were killed and another civilian injured in an alleged Turkish airstrike near Deraluk.",
+  "sources": [
+   {
+    "title": "Airwars incident TI036",
+    "url": "https://airwars.org/incidents/ti036-may-30-2020"
+   },
+   {
+    "title": "ANF: Turkish air raid kills a father and son in Behdinan",
+    "url": "https://english.anf-news.com/kurdistan/-44136"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-06-15",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Qandil mountains, Pishdar (also Sinjar, Makhmour, Zap, Gara, Avashin, Hakurk)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched the 'Claw-Eagle' air campaign, striking PKK-linked targets across Qandil, Sinjar, Makhmour, Haftanin, Zap, Gara, Avashin-Basyan and Hakurk.",
+  "sources": [
+   {
+    "title": "Wikipedia: Operations Claw-Eagle and Tiger",
+    "url": "https://en.wikipedia.org/wiki/Operations_Claw-Eagle_and_Tiger"
+   },
+   {
+    "title": "ACLED Regional Overview Middle East 14-20 June 2020",
+    "url": "https://acleddata.com/2020/06/24/regional-overview-middle-east14-20-june-2020"
+   },
+   {
+    "title": "Sterk TV: Piştî bi rojan ji êrîşên Dewleta Tirk nû serokamarê Îraqê daxwaza rawestandina êrîşan kir [Days into the Turkish attacks, the Iraqi president finally called for them to stop]",
+    "url": "https://sterktv.eu/pisti-birojan-ji-erisen-dewleta-tirk-nu-serokamare-iraqe-daxwaza-rawestandina-erisan-kir/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-06-17",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Haftanin area, Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.22,
+  "lon": 42.93,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkish commandos backed by jets, attack helicopters and drones entered the Haftanin area in the ground phase, the 'Claw-Tiger' offensive.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkey launches ground operation in Haftanin",
+    "url": "https://www.rudaw.net/english/kurdistan/17062020"
+   },
+   {
+    "title": "Anadolu: Turkey launches Operation Claw-Tiger",
+    "url": "https://aa.com.tr/en/middle-east/turkey-launches-operation-claw-tiger-in-northern-iraq/1879479"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-06-19",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kokar, Nerwa Rekan, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.114,
+  "lon": 43.826,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Three civilians were allegedly killed and two injured by a Turkish airstrike in the Nerwa Rekan area during the 'Claw-Eagle' offensive.",
+  "sources": [
+   {
+    "title": "Airwars incident TI039",
+    "url": "https://airwars.org/incidents/ti039-june-19-2020"
+   },
+   {
+    "title": "ANF: Turkish air raid kills 4 civilians in Sida – UPDATE",
+    "url": "https://english.anf-news.com/kurdistan/-44669"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-06-25",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Kuna Masi resort, Sharbazher",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.796,
+  "lon": 45.416,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 9,
+  "civilian": true,
+  "summary": "A Turkish strike on a shop and pickup truck at the Kuna Masi summer resort killed a PJAK fighter and wounded nine people including six civilians; HRW found Turkey failed to take adequate precautions.",
+  "sources": [
+   {
+    "title": "Rudaw: HRW says Turkey did not take adequate precautions in Kuna Masi attack",
+    "url": "https://rudaw.net/english/kurdistan/22072020"
+   },
+   {
+    "title": "Airwars incident TI041",
+    "url": "https://airwars.org/incidents/ti041-june-25-2020"
+   },
+   {
+    "title": "ANF: Turkish air raid kills 2, injures 8 in South Kurdistan – NEW",
+    "url": "https://english.anf-news.com/kurdistan/-44823"
+   },
+   {
+    "title": "Sterk TV: Rojnamevan Botan Germiyanî agahiyên li ser êrîşa Kune Masî da [Journalist Botan Germiyanî reported on the Kune Masî attack]",
+    "url": "https://sterktv.eu/rojnamevan-botan-germiyani-agahiyen-li-ser-erisa-kune-masi-da/"
+   },
+   {
+    "title": "Sterk TV: Jîl Şiwanî ê ku dimên ku sûcên Dewleta Tirk li êrîşa Kune Masî eşker dikin parvekir [Jîl Şiwanî shared footage exposing the Turkish state's crimes in the Kune Masî attack]",
+    "url": "https://sterktv.eu/jil-siwani-e-ku-dimen-ku-sucen-dewleta-tirk-li-erisa-kune-masi-esker-dikin-parvekir/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-08-11",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sidakan, Bradost",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.797,
+  "lon": 44.672,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": false,
+  "summary": "A Turkish drone strike killed two Iraqi border guard battalion commanders and their driver; Iraq summoned Turkey's ambassador and cancelled the Turkish defence minister's visit.",
+  "sources": [
+   {
+    "title": "Rudaw: 'Turkish attack' kills two Iraqi border officials",
+    "url": "https://rudaw.net/english/kurdistan/110820202"
+   },
+   {
+    "title": "Arab News: Iraq fumes against Turkey over deadly drone strike",
+    "url": "https://www.arabnews.pk/node/1718036"
+   },
+   {
+    "title": "Airwars incident TI046",
+    "url": "https://airwars.org/incidents/ti046-august-11-2020"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-08-25",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Bahrava, Khanasor, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.42,
+  "lon": 41.546,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkish drones allegedly struck two vehicles near Bahrava (Khanasor), killing two people whose civilian status is contested.",
+  "sources": [
+   {
+    "title": "Airwars incident TI049",
+    "url": "https://airwars.org/incidents/ti049-august-25-2020"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-12-12",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Deraluk, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.057,
+  "lon": 43.653,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "summary": "BasNews reported three children killed in an alleged Turkish airstrike on Deraluk (single-source report per Airwars).",
+  "sources": [
+   {
+    "title": "Airwars incident TI053",
+    "url": "https://airwars.org/incidents/ti053-december-12-2020"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-02-10",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Mount Gara (near Siyane), Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.013,
+  "lon": 43.37,
+  "precision": "approximate",
+  "killed": 13,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkey launched the 'Claw-Eagle 2' offensive on Gara; it ended on 14 Feb with the discovery of 13 Turkish captives dead, which Turkey blamed on PKK executions and the PKK blamed on Turkish bombing.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkey finds bodies of 13 citizens held hostage by PKK",
+    "url": "https://rudaw.net/english/kurdistan/14022021-amp"
+   },
+   {
+    "title": "Airwars incident TI056",
+    "url": "https://airwars.org/incidents/ti056-february-10-2021"
+   },
+   {
+    "title": "Sterk TV: Bernama Taybet – Tevgera dagirkeriyê li dijî Garê [Special programme: the occupation offensive against Garê]",
+    "url": "https://sterktv.eu/0930-bernama-taybet-10-02-2021/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-04-23",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Metina, Zap and Avashin-Basyan",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.14,
+  "lon": 43.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched the 'Claw-Lightning' and 'Claw-Thunderbolt' offensives, landing commandos by helicopter in Metina with air and drone support.",
+  "sources": [
+   {
+    "title": "Duvar English: Turkey launches new operation in Northern Iraq",
+    "url": "https://duvarenglish.com/turkey-launches-new-operation-in-northern-iraq-news-57214"
+   },
+   {
+    "title": "The Defense Post: Turkey launches new raid in northern Iraq",
+    "url": "https://www.thedefensepost.com/2021/04/26/turkey-new-raid-northern-iraq/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-06-05",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 5,
+  "civilian": true,
+  "summary": "A Turkish drone strike on Makhmour camp killed three people near a kindergarten per a Kurdish MP; Erdogan said a senior PKK official was killed.",
+  "sources": [
+   {
+    "title": "The New Arab: Turkish strike kills 3 civilians at Iraq refugee camp",
+    "url": "https://www.newarab.com/news/turkish-strike-kills-3-civilians-iraq-refugee-camp"
+   },
+   {
+    "title": "Rudaw: Turkey bombs Makhmour camp, killing three",
+    "url": "https://rudaw.net/english/kurdistan/050620211"
+   },
+   {
+    "title": "Airwars incident TI061",
+    "url": "https://airwars.org/incidents/ti061-june-5-2021"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-06-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Road between Deka and Kani Lane, Qaladiza",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.17,
+  "lon": 45.212,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": null,
+  "civilian": null,
+  "summary": "At least four people were killed in alleged Turkish airstrikes on the road between Deka and Kani Lane near Qaladiza; most sources said civilians, Turkish sources said PKK.",
+  "sources": [
+   {
+    "title": "Airwars incident TI062",
+    "url": "https://airwars.org/incidents/ti062-june-13-2021"
+   },
+   {
+    "title": "ANF: Turkish air attack targets civilian car, killing 4 in Sulaymaniyah",
+    "url": "https://english.anf-news.com/kurdistan/-52754"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-08-16",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sinjar town",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.319,
+  "lon": 41.861,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 3,
+  "civilian": false,
+  "summary": "A drone strike on a vehicle killed Yazidi YBS commander Said Hassan (Seid Hesen) and a passenger during PM al-Kadhimi's visit to the area.",
+  "sources": [
+   {
+    "title": "Syriac Press: Turkey assassinates Yezidi politician and YBS commander Saeed Hassan",
+    "url": "https://syriacpress.com/blog/2021/08/16/turkey-assassinates-yezidi-politician-and-ybs-commander-saaed-hassan-in-shengal-with-drone-strike"
+   },
+   {
+    "title": "Wikipedia: Turkish airstrikes on Sinjar (2021)",
+    "url": "https://en.wikipedia.org/wiki/Turkish_airstrikes_on_Sinjar_(2021)"
+   },
+   {
+    "title": "Sterk TV: Rojava – Êrişên rejîma Tirk ên li ser Şengalê [Rojava: the Turkish regime's attacks on Şengal]",
+    "url": "https://sterktv.eu/2000-rojava-19-08-2021/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-08-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sikeniye hospital, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.294,
+  "lon": 41.554,
+  "precision": "exact",
+  "killed": 8,
+  "injured": 4,
+  "civilian": true,
+  "summary": "Successive Turkish drone strikes on a medical centre in Sikeniye killed eight people (four medical staff and four YBS fighters); a complaint was filed at the UN Human Rights Committee.",
+  "sources": [
+   {
+    "title": "Bianet: Case against Turkey at the UN over airstrikes on hospital in Sinjar",
+    "url": "https://bianet.org/haber/case-against-turkey-at-the-un-over-airstrikes-on-hospital-in-sinjar-killing-eight-in-2021-282209"
+   },
+   {
+    "title": "The New Arab: Turkish air raid hits clinic in Sinjar",
+    "url": "https://www.newarab.com/news/deaths-injuries-turkish-air-raid-hits-iraq-clinic"
+   },
+   {
+    "title": "Airwars incident TI065",
+    "url": "https://airwars.org/incidents/ti065-august-17-2021"
+   },
+   {
+    "title": "ANF: Eight killed in Turkish bombing of hospital in Shengal",
+    "url": "https://english.anf-news.com/kurdistan/-54257"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-09-07",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Sinamoka village, Pishdar",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.416,
+  "lon": 45.023,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Up to two civilians were killed and two injured in alleged Turkish airstrikes on Sinamoka village.",
+  "sources": [
+   {
+    "title": "Airwars incident TI071",
+    "url": "https://airwars.org/incidents/ti071-september-7-2021"
+   },
+   {
+    "title": "ANF: Turkish army bombs civilian settlement in Bashur, injuring four civilians",
+    "url": "https://english.anf-news.com/kurdistan/-54742"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-12-07",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Khanasor, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.478,
+  "lon": 41.611,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "A drone strike on his car killed YBS commander and Sinjar autonomous administration figure Marwan Badal; his two sons in the car were hospitalised.",
+  "sources": [
+   {
+    "title": "Rudaw: YBS official killed by Turkish airstrike",
+    "url": "https://rudaw.net/english/middleeast/iraq/071220212"
+   },
+   {
+    "title": "Al-Monitor: Turkey strikes Yazidi militia in Iraq",
+    "url": "https://al-monitor.com/originals/2021/12/turkey-strikes-yazidi-militia-iraq"
+   },
+   {
+    "title": "North Press: Turkish drone kills Yezidi official in Sinjar",
+    "url": "https://npasyria.com/en/68852/"
+   },
+   {
+    "title": "ANF: Turkish attack kills co-president of Autonomous Administration Council in Shengal",
+    "url": "https://english.anf-news.com/kurdistan/-56705"
+   },
+   {
+    "title": "Sterk TV: Rojava – Êrişa dagirkeriya Tirk a li dijî Şengalê [Rojava: the Turkish occupation attack on Şengal]",
+    "url": "https://sterktv.eu/1800-rojava-08-12-2021/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-02-01",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Makhmour refugee camp (and Sinjar)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "exact",
+  "killed": 2,
+  "injured": 15,
+  "civilian": true,
+  "summary": "Turkish airstrikes on Makhmour camp killed at least two civilians and injured up to 17 (CPT: up to 2 killed, 15 injured).",
+  "sources": [
+   {
+    "title": "Airwars incident TI076",
+    "url": "https://airwars.org/incidents/ti076-february-1-2022"
+   },
+   {
+    "title": "CPT: Civilian Casualties of Turkish Bombardments in Northern Iraq in 2022",
+    "url": "https://cptik.org/reports-1/2023/7/28/report-civilian-casualties-of-turkish-bombardments-in-northern-iraq-in-2022"
+   },
+   {
+    "title": "ANF: YBŞ: 21 locations bombed, three civilians killed in Turkish attacks",
+    "url": "https://english.anf-news.com/kurdistan/-57884"
+   },
+   {
+    "title": "ANF: Turkish airstrike leaves two dead, dozens injured in Maxmur",
+    "url": "https://english.anf-news.com/kurdistan/-57872"
+   },
+   {
+    "title": "Sterk TV: Rojava – êrişên hemwext ên rejîma Tirk a dagirker [Rojava: simultaneous attacks by the Turkish occupation regime]",
+    "url": "https://sterktv.eu/1800-rojava-02-02-2022/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-04-18",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Zap, Metina and Avashin-Basyan",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 43.569,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched the 'Claw-Lock' offensive, attacking PKK positions by air and ground in Metina, Zap and Avashin-Basyan; by Jan 2023 the Turkish state claimed to have 'neutralised' 506 people, its word for killing.",
+  "sources": [
+   {
+    "title": "Kurdistan24: Turkey launches new operation against PKK in Kurdistan Region",
+    "url": "https://www.kurdistan24.net/en/story/28024-Turkey-launches-new-operation-against-PKK-in-Kurdistan-Region%C2%A0"
+   },
+   {
+    "title": "Wikipedia: Operation Claw-Lock",
+    "url": "https://en.wikipedia.org/wiki/Operation_Claw-Lock"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-05-21",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Road near Tutaqal, Aghjalar (Chamchamal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.817,
+  "lon": 44.698,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "At least two civilians were killed and one injured in alleged Turkish drone strikes on a road near Tutaqal village in Aghjalar.",
+  "sources": [
+   {
+    "title": "Airwars incident TI078",
+    "url": "https://airwars.org/incidents/ti078-may-21-2022"
+   },
+   {
+    "title": "ANF: Five killed in air strike on village in southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-60063"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-05-21",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.754,
+  "lon": 43.605,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 7,
+  "civilian": true,
+  "summary": "Alleged Turkish drone strikes on Makhmour camp killed at least one civilian and injured seven; one or two alleged PKK members were also killed.",
+  "sources": [
+   {
+    "title": "Airwars incident TI079",
+    "url": "https://airwars.org/incidents/ti079-may-21-2022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-05-26",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Outside Bamarne (Ziwa area), Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.199,
+  "lon": 43.19,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "Turkish bombardment outside Bamarne killed two boys aged 13 and 11 and injured an 8-year-old, per CPT (Airwars notes attribution was contested).",
+  "sources": [
+   {
+    "title": "CPT: Civilian Casualties of Turkish Bombardments in Northern Iraq in 2022",
+    "url": "https://cptik.org/reports-1/2023/7/28/report-civilian-casualties-of-turkish-bombardments-in-northern-iraq-in-2022"
+   },
+   {
+    "title": "Airwars incident TI080",
+    "url": "https://airwars.org/incidents/ti080-yi003-may-26-2022"
+   },
+   {
+    "title": "ANF: Turkish army bombs civilians in Bamerne, kills two children",
+    "url": "https://english.anf-news.com/kurdistan/-60172"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-06-15",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sinune (Snune), Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.469,
+  "lon": 41.71,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 10,
+  "civilian": true,
+  "summary": "A Turkish drone strike on a YBS site in Sinune killed 11/12-year-old Salah Shifan Khader Nassou and injured up to ten civilians; up to six YBS fighters were also reported killed.",
+  "sources": [
+   {
+    "title": "Airwars incident TI081",
+    "url": "https://airwars.org/incidents/ti081-june-15-2022"
+   },
+   {
+    "title": "The New Arab: Yazidi child killed in Turkish airstrike in Sinjar",
+    "url": "https://www.newarab.com/news/yazidi-child-killed-turkish-airstrike-sinjar"
+   },
+   {
+    "title": "Al-Monitor: Turkish drone kills Yazidi child in Sinjar",
+    "url": "https://al-monitor.com/originals/2022/06/silence-baghdad-turkish-drone-kills-yazidi-child-sinjar"
+   },
+   {
+    "title": "ANF: Turkish drone attack in Shengal results in deaths and injuries",
+    "url": "https://english.anf-news.com/kurdistan/-60583"
+   },
+   {
+    "title": "Sterk TV: Rojava – Li dijî Şengalê êrişên dagirkeriya Tirk [Rojava: Turkish occupation attacks on Şengal]",
+    "url": "https://sterktv.eu/1900-rojava-15-06-2022/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-06-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Kalar town",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 34.627,
+  "lon": 45.319,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 1,
+  "civilian": null,
+  "summary": "Alleged Turkish drone strikes in Kalar killed four and injured one; reports conflicted on whether all were PKK members.",
+  "sources": [
+   {
+    "title": "Airwars incident TI083",
+    "url": "https://airwars.org/incidents/ti083-june-17-2022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-07-20",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Parakh (Barakh) resort, Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.274,
+  "lon": 42.782,
+  "precision": "exact",
+  "killed": 9,
+  "injured": 23,
+  "civilian": true,
+  "summary": "Shelling of a mountain resort in Parakh killed nine tourists from central and southern Iraq, including children, and wounded 23; Baghdad blamed Turkey and complained to the UN Security Council, while Ankara denied involvement.",
+  "sources": [
+   {
+    "title": "Airwars incident TI086",
+    "url": "https://airwars.org/incidents/ti086-july-20-2022"
+   },
+   {
+    "title": "Rudaw: Aftermath of deadly Zakho attack killing 9 tourists",
+    "url": "https://www.rudaw.net/english/kurdistan/23072022-amp"
+   },
+   {
+    "title": "Al-Monitor: Eight killed in northern Iraq shelling blamed on Turkey",
+    "url": "https://al-monitor.com/originals/2022/07/eight-killed-northern-iraq-shelling-blamed-turkey"
+   },
+   {
+    "title": "CPT: Civilian Casualties of Turkish Bombardments in Northern Iraq in 2022",
+    "url": "https://cptik.org/reports-1/2023/7/28/report-civilian-casualties-of-turkish-bombardments-in-northern-iraq-in-2022"
+   },
+   {
+    "title": "ANF: Turkish attack against civilians results in casualties in Zakho countryside - UPDATE",
+    "url": "https://english.anf-news.com/kurdistan/-61322"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-08-29",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 4,
+  "civilian": true,
+  "summary": "A Turkish aircraft or drone struck a home in Makhmour camp, killing at least one civilian and injuring up to four including women and children.",
+  "sources": [
+   {
+    "title": "Airwars incident TI087",
+    "url": "https://airwars.org/incidents/ti087-august-29-2022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Qandil, Asos and Hakurk mountains",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched the 'Claw-Sword' air campaign after the Istanbul bombing, striking Qandil, Asos and Hakurk in Iraq along with targets in Syria (89 targets claimed on the first night).",
+  "sources": [
+   {
+    "title": "The Defense Post: Turkey launches air raids against Kurdish militants in Syria, Iraq",
+    "url": "https://www.thedefensepost.com/2022/11/21/turkey-air-raid-kurdish-militants/"
+   },
+   {
+    "title": "TRT World",
+    "url": "https://www.trtworld.com/article/12781791"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-02-27",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Khanasor, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.478,
+  "lon": 41.611,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": false,
+  "summary": "A Turkish drone hit a vehicle near Khanasor, killing a YBS (PMF 80th Brigade) officer and two fighters, per Kurdistan Region counter-terrorism.",
+  "sources": [
+   {
+    "title": "The New Arab: Turkish drone attack kills three Yazidi fighters",
+    "url": "https://www.newarab.com/news/turkish-drone-attack-kills-three-yazidi-fighters-iraq"
+   },
+   {
+    "title": "Kurdistan Chronicle: Turkish Drone Strike Kills 3 near Sinjar",
+    "url": "https://kurdistanchronicle.com/b/2569"
+   },
+   {
+    "title": "ANF: Drone attack in Shengal leaves three injured",
+    "url": "https://english.anf-news.com/kurdistan/-65744"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-04-07",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sulaymaniyah International Airport perimeter",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.562,
+  "lon": 45.315,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": false,
+  "summary": "A suspected Turkish drone strike hit near Sulaymaniyah airport as SDF commander Mazloum Abdi's convoy, with three US personnel, passed; no casualties; Iraq demanded a Turkish apology.",
+  "sources": [
+   {
+    "title": "Rudaw: SDF confirms commander was in Sulaimani during strike",
+    "url": "https://www.rudaw.net/english/kurdistan/080420233"
+   },
+   {
+    "title": "The New Arab: Iraq calls on Turkey to apologise",
+    "url": "https://www.newarab.com/news/iraq-calls-turkey-apologise-kurdish-airport-strike"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-08-11",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Penjwen-Sulaymaniyah road, Penjwen",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.623,
+  "lon": 45.946,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "summary": "A Turkish drone struck a car near Penjwen killing three people first described as PKK, later reported to be Arab civilians from Mosul including an Asiacell employee; the US Consulate in Erbil condemned the strike.",
+  "sources": [
+   {
+    "title": "Airwars incident TI094",
+    "url": "https://airwars.org/incidents/ti094-august-11-2023"
+   },
+   {
+    "title": "The New Arab: Turkish 'anti-PKK' airstrike kills three Arab civilians",
+    "url": "https://www.newarab.com/news/turkish-anti-pkk-airstrike-kills-3-civilians-iraq"
+   },
+   {
+    "title": "Kurdistan24: Turkish drone targets a vehicle in Penjwen",
+    "url": "https://www.kurdistan24.net/en/story/32240-Turkish-drone-targets-a-vehicle-in-Penjwen,-killing-three"
+   },
+   {
+    "title": "ANF: Turkish drone attack on Friday killed three members of a family from Duhok",
+    "url": "https://english.anf-news.com/kurdistan/-68776"
+   },
+   {
+    "title": "ANF: Turkish drone attack kills 3 in South Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-68764"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-08-24",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Merg Mir village, Bradost",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.75,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": null,
+  "civilian": null,
+  "summary": "A drone strike in Merg Mir killed four people described either as civilians or PKK fighters (two in medical roles).",
+  "sources": [
+   {
+    "title": "Airwars incident TI095",
+    "url": "https://airwars.org/incidents/ti095-august-24-2023"
+   },
+   {
+    "title": "ANF: Turkish state bombs South Kurdistan three times, killing 4 civilians in Bradost",
+    "url": "https://english.anf-news.com/kurdistan/-68974"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-09-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Arbat agricultural airfield, Arbat",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.43,
+  "lon": 45.58,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 3,
+  "civilian": false,
+  "summary": "A drone strike on Arbat airfield killed three PUK-affiliated counter-terrorism members and wounded three; Iraq's army said the drone entered from Turkey (CPT cited reports of up to six killed).",
+  "sources": [
+   {
+    "title": "Al Jazeera: Airport in Iraq's Kurdish region hit by deadly drone attack",
+    "url": "https://www.aljazeera.com/news/2023/9/18/airport-in-iraqs-kurdish-region-hit-by-deadly-drone-attack"
+   },
+   {
+    "title": "Rudaw: Sulaimani CT says three members killed",
+    "url": "https://rudaw.net/english/kurdistan/18092023"
+   },
+   {
+    "title": "CPT: Turkish military intensifies drone operations in southern regions",
+    "url": "https://cptik.org/reports-1/2023/9/21/turkey-conducts-airstrikes-further-south-in-iraqi-kurdistan-and-intensifies-their-military-operations-in-cities-and-inhabitant-areas"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-09-27",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Bugriskan village, Sangasar, Pishdar",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.248,
+  "lon": 45.019,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "summary": "Two alleged Turkish drone strikes on Bugriskan killed a woman and injured a man; six PKK members were also reportedly killed.",
+  "sources": [
+   {
+    "title": "Airwars incident TI096",
+    "url": "https://airwars.org/incidents/ti096-september-27-2023"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-10-07",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on Makhmour camp killed one civilian and injured a woman and two boys.",
+  "sources": [
+   {
+    "title": "Airwars incident TI097",
+    "url": "https://airwars.org/incidents/ti097-october-7-2023"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-10-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Kani Kindi village, Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on a car in Kani Kindi killed a man and injured up to three women.",
+  "sources": [
+   {
+    "title": "Airwars incident TI099",
+    "url": "https://airwars.org/incidents/ti099-october-17-2023"
+   },
+   {
+    "title": "ANF: Maxmur resident killed in Turkish drone attack laid to rest",
+    "url": "https://english.anf-news.com/kurdistan/-69880"
+   },
+   {
+    "title": "ANF: One killed, three injured in Turkish drone attack in Southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-69863"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-12-05",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Bamarne subdistrict, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.12,
+  "lon": 43.27,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "summary": "A Turkish drone killed an off-duty Peshmerga, Ali Jamil, near his home and wounded a shepherd; Turkey claimed it had 'neutralised' two PKK members.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkish drone kills off-duty Peshmerga in Duhok",
+    "url": "https://rudaw.net/english/kurdistan/05122023"
+   },
+   {
+    "title": "Airwars incident TI100",
+    "url": "https://airwars.org/incidents/ti100-december-5-2023"
+   },
+   {
+    "title": "ANF: Turkish attack kills a civilian in South Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-70622"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-12-28",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Karki village, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.35,
+  "lon": 41.8,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": 2,
+  "civilian": null,
+  "summary": "During strikes Turkey called retaliation in late December, a drone strike in Karki killed at least five and injured two; local administration said they were well diggers, other outlets said PKK members.",
+  "sources": [
+   {
+    "title": "Airwars incident TI101",
+    "url": "https://airwars.org/incidents/ti101-december-28-2023"
+   },
+   {
+    "title": "Al Jazeera: Turkey hits 71 targets in Iraq, Syria",
+    "url": "https://www.aljazeera.com/news/2023/12/27/turkey-hits-71-targets-in-iraq-syria-in-retaliation-for-soldiers-deaths"
+   },
+   {
+    "title": "ANF: Turkish airstrike kills 5 workers in Shengal",
+    "url": "https://english.anf-news.com/kurdistan/-71005"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-02-20",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kafya village, Dinarta, Akre",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 36.89,
+  "lon": 43.83,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "An alleged Turkish airstrike killed two elderly men and injured at least one civilian in Kafya village.",
+  "sources": [
+   {
+    "title": "Airwars incident TI102",
+    "url": "https://airwars.org/incidents/ti102-february-20-2024"
+   },
+   {
+    "title": "ANF: Turkey bombs villagers in Garê, KDP prevents rescue of injured",
+    "url": "https://english.anf-news.com/kurdistan/-71871"
+   },
+   {
+    "title": "ANF: Turkish attack kills two peshmergas in South Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-71875"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-03-07",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Deuki village near Gara, Shiladze",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.01,
+  "lon": 43.62,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "An alleged Turkish airstrike killed two civilian farmers and injured one near Gara mountain.",
+  "sources": [
+   {
+    "title": "Airwars incident TI104",
+    "url": "https://airwars.org/incidents/ti104-march-7-2024"
+   },
+   {
+    "title": "Rudaw: Suspected Turkish airstrike kills two in Duhok",
+    "url": "https://rudaw.net/english/kurdistan/080320241"
+   },
+   {
+    "title": "ANF: Two villagers killed in Turkish airstrike in Southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-72137"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-04-28",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mount Bradost",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.75,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "Two civilian men were killed and one injured in an alleged Turkish airstrike on Mount Bradost.",
+  "sources": [
+   {
+    "title": "Airwars incident TI107",
+    "url": "https://airwars.org/incidents/ti107-april-28-2024"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-06-15",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Berwari Bala area, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.222,
+  "lon": 43.233,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkish forces began a ground operation in Berwari Bala, set up checkpoints and new bases in villages, advancing about 15 km; CPT counted 238 bombardments, burned farmland and displacement of Christian and Muslim villages.",
+  "sources": [
+   {
+    "title": "CPT: An overview of the recent Turkish military actions in Iraqi Kurdistan",
+    "url": "https://cpt.org/2024/07/08/an-overview-of-the-recent-turkish-military-actions-in-iraqi-kurdistan"
+   },
+   {
+    "title": "Syriac Press: Seven Christian villages in Berwari Bala evacuated",
+    "url": "https://syriacpress.com/blog/2024/07/12/seven-christian-villages-in-berwari-bala-in-nohadra-iraq-evacuated-due-to-turkish-operations/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-07-08",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sabahiya village, Sinjar-Qayrawan road",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.3,
+  "lon": 42.1,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 5,
+  "civilian": true,
+  "summary": "A drone strike hit a vehicle of Cira TV/Radio near Sabahiya, killing one and injuring five, including media personnel.",
+  "sources": [
+   {
+    "title": "Airwars incident TI108",
+    "url": "https://airwars.org/incidents/ti108-july-8-2024"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-08-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Tabeh Rash, Sayid Sadiq",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.354,
+  "lon": 45.866,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 6,
+  "civilian": true,
+  "summary": "A drone strike on a Sterk TV car killed journalists Hero Bahaddin and Gulistan Tara and injured six civilians.",
+  "sources": [
+   {
+    "title": "Airwars incident TI111",
+    "url": "https://airwars.org/incidents/ti111-august-23-2024"
+   },
+   {
+    "title": "ANF: Two media workers killed in Turkish drone attack near Sulaymaniyah",
+    "url": "https://english.anf-news.com/kurdistan/-74938"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-09-04",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Dukan-Khalkan road, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.99,
+  "lon": 44.97,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on a Land Cruiser killed a father and his two sons, including a child.",
+  "sources": [
+   {
+    "title": "Airwars incident TI112",
+    "url": "https://airwars.org/incidents/ti112-september-4-2024"
+   },
+   {
+    "title": "ANF: Father and two sons killed in Turkish UCAV attack in Dukan, Sulaymaniyah - UPDATE",
+    "url": "https://english.anf-news.com/kurdistan/-75134"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-09-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Makhmour refugee camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 43.603,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "A drone strike on a house in Makhmour camp killed one and injured two to three women while a UN and Iraqi delegation was in the camp.",
+  "sources": [
+   {
+    "title": "Airwars incident TI113",
+    "url": "https://airwars.org/incidents/ti113-september-10-2024"
+   },
+   {
+    "title": "Rudaw: Drone strike kills one at Makhmour camp",
+    "url": "https://rudaw.net/english/kurdistan/16092024"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-10-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Bari village and Digor complex, Sinjar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.471,
+  "lon": 41.746,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Hours after the TUSAS attack in Ankara, Turkey struck 29 targets in Iraq; an alleged drone strike on Bari village and Digor in Sinjar injured two civilians.",
+  "sources": [
+   {
+    "title": "Airwars incident TI114",
+    "url": "https://airwars.org/incidents/ti114-october-23-2024"
+   },
+   {
+    "title": "PBS: Turkey strikes Kurdish militant targets after attack on military company",
+    "url": "https://www.pbs.org/newshour/world/turkey-strikes-kurdish-militant-targets-again-after-deadly-attack-on-military-company"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-12-04",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Harura village, Berwari Bala, Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.229,
+  "lon": 43.439,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Alleged Turkish artillery shelling of Harura village killed one civilian and injured two.",
+  "sources": [
+   {
+    "title": "Airwars incident TI115",
+    "url": "https://airwars.org/incidents/ti115-december-4-2024"
+   },
+   {
+    "title": "ANF: One killed, two wounded in Turkish attack in Duhok countryside",
+    "url": "https://english.anf-news.com/kurdistan/-76659"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-27",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Shahe village, Dinarta, Akre",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 36.89,
+  "lon": 43.83,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "summary": "A suspected Turkish drone strike on alleged PKK positions killed civilian Jaafar Jalal and his wife in Shahe village.",
+  "sources": [
+   {
+    "title": "The New Region: Two civilians killed in suspected Turkish drone attack in Duhok",
+    "url": "https://thenewregion.com/posts/1486"
+   },
+   {
+    "title": "ANF: Turkish airstrike kills two civilians in Duhok countryside - UPDATED",
+    "url": "https://english.anf-news.com/kurdistan/-77650"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-05-12",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Amedi district",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "CPT recorded 94 Turkish strikes on 12 May 2025, the day the PKK announced its dissolution, and 510 in May (458 artillery, 36 airstrikes, 16 helicopter attacks), 98% in Amedi district; June then saw at least 550.",
+  "sources": [
+   {
+    "title": "CPT: Turkish military strikes intensify and concentrate three months into unilateral ceasefire",
+    "url": "https://cptik.org/reports-1/2025/6/4/turkish-military-strikes-intensify-and-concentrate-three-months-into-unilateral-ceasefire-weeks-after-pkk-dissolution-announcement"
+   },
+   {
+    "title": "CPT: Turkish military attacks hold steady in June",
+    "url": "https://cptik.org/reports-1/2025/7/10/turkish-military-attacks-hold-steady-in-june-remain-concentrated-as-symbolic-pkk-disarmament-ceremony-approaches"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-07-19",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Shiwa Gwezan, Germik subdistrict, Penjwen",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.65,
+  "lon": 45.98,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": false,
+  "summary": "A drone struck a Toyota Hilux, killing one PJAK member and injuring another; CPT assessed a Turkish drone as highly likely, the first drone incident since the March 2025 ceasefire.",
+  "sources": [
+   {
+    "title": "CPT: Turkish military attacks reduce by 97%",
+    "url": "https://cptik.org/reports-1/2025/8/7/turkish-military-attacks-reduce-by-97-amid-ongoing-peace-developments-and-new-turkish-military-operation"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-07-29",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Batifa district (Shilin, Banke, Lehvane etc.), Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.183,
+  "lon": 43.017,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "About 250 Turkish soldiers launched a ground operation in Batifa, reportedly to recover two MIT operatives held by the PKK, and set up a new base on Siara Sttawre mountain.",
+  "sources": [
+   {
+    "title": "CPT: Turkish military attacks reduce by 97%",
+    "url": "https://cptik.org/reports-1/2025/8/7/turkish-military-attacks-reduce-by-97-amid-ongoing-peace-developments-and-new-turkish-military-operation"
+   },
+   {
+    "title": "Nûçe TV: Artêşa Tirk li Batufayê rêya gundan girt",
+    "url": "https://nucetv.net/artesa-tirk-li-batufaye-reya-gundan-girt"
+   },
+   {
+    "title": "Nûçe TV: CPT: Artêşa Tirk li Başûr operasyonek nû daye destpêkirin",
+    "url": "https://nucetv.net/cpt-artesa-tirk-li-basur-operasyonek-nu-daye-destpekirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-08",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Bari Gare villages (Mizhe, Spindare, Girgashe, Derashe), Amedi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.0,
+  "lon": 43.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Villagers returning to Bari Gare on 21 Aug 2025 after 14 months' displacement reported more than 50 homes, schools, a hospital and mosques destroyed by Turkish aerial bombardment (date of bombing not specified).",
+  "sources": [
+   {
+    "title": "CPT: A Cold Peace: A Ceasefire Without Demobilization",
+    "url": "https://cptik.org/reports-1/2025/10/14/a-cold-peace-a-ceasefire-without-demobilization"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-02-13",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Khnera highlands, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.83,
+  "lon": 44.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "CPT documented three Turkish bombardments in the Khnera area of Sidakan in February 2026, the first since 24 Aug 2025, after a strike-free stretch that included September 2025, the first month with no Turkish bombardment since 2015.",
+  "sources": [
+   {
+    "title": "CPT: The Fragility of Peace",
+    "url": "https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages"
+   }
+  ],
+  "kind": "strike"
+ }
+]

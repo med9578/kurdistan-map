@@ -1,0 +1,1197 @@
+[
+ {
+  "date": "2019-10-09",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Rojava border strip (Serêkaniyê / Girê Spî)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.073,
+  "precision": "approximate",
+  "killed": 72,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkey launched the invasion it named 'Peace Spring' on 9 October 2019 with air and artillery strikes and a ground offensive. Amnesty International accused Turkish forces and allied Syrian groups of war crimes including unlawful attacks on homes, a bakery and a school; SOHR counted at least 72 civilians killed in the first days.",
+  "sources": [
+   {
+    "title": "Times of Israel: Amnesty International accuses Turkey of war crimes in Syria",
+    "url": "https://www.timesofisrael.com/rights-group-accuses-turkey-of-war-crimes-in-syria/"
+   },
+   {
+    "title": "Rojava Information Center: Turkey accused of 'utterly callous disregard for civilian lives'",
+    "url": "https://rojavainformationcenter.org/2019/10/turkey-accused-of-utterly-callous-disregard-for-civilian-lives/"
+   },
+   {
+    "title": "Sterk TV: Daxuyaniya fermandariya Giştî ya QSD’ê derbarê şerên dawî [SDF General Command statement on the latest fighting]",
+    "url": "https://sterktv.eu/ji-30-parti-u-rexistinen-civaka-sivil-en-bakur-u-rojhilate-suriyeye-banga-berxwedane/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-10-12",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Salhiye (school sheltering displaced people)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.073,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "summary": "Amnesty International documented a Turkish airstrike near a school in Salhiye where displaced civilians sheltered; a Kurdish Red Crescent worker recovered the charred bodies of two children. Coordinates are approximate (Ras al-Ain area).",
+  "sources": [
+   {
+    "title": "Rojava Information Center (summarising Amnesty report)",
+    "url": "https://rojavainformationcenter.org/2019/10/turkey-accused-of-utterly-callous-disregard-for-civilian-lives/"
+   },
+   {
+    "title": "Arab News: Amnesty accuses Turkey of 'war crimes' in Syria",
+    "url": "https://arabnews.pk/node/1570551"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-10-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Civilian convoy near Ras al-Ain (Serekaniye)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.073,
+  "precision": "approximate",
+  "killed": 15,
+  "injured": null,
+  "civilian": true,
+  "summary": "A Turkish airstrike hit a civilian convoy heading to Ras al-Ain, killing ANHA reporter Saad Ahmed; Cira TV's Mohammed Hussein Rasho died of wounds the next day. CPJ cited SOHR's toll of 15 civilians including both journalists (Reuters/SOHR gave 14 dead incl. 5 civilians).",
+  "sources": [
+   {
+    "title": "CPJ: Syrian Kurdish journalist killed in Turkish airstrike on civilian convoy",
+    "url": "https://cpj.org/2019/10/journalist-killed-syria-turkey-air-strike/"
+   },
+   {
+    "title": "CPJ: Second Syrian Kurdish journalist dies of wounds",
+    "url": "https://cpj.org/2019/10/second-syrian-kurdish-journalist-dies-of-wounds-su/"
+   },
+   {
+    "title": "ANF: Civilian massacre by the Turkish army in northern Syria - UPDATE",
+    "url": "https://english.anf-news.com/rojava-syria/-38361"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-06-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Helincê village, outside Kobani",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 2,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on a house in Helincê near Kobani killed three women, including Kongra Star Euphrates executive member Zehra Berkel. Airwars recorded two further civilians wounded.",
+  "sources": [
+   {
+    "title": "Airwars TS439 June 23 2020",
+    "url": "https://airwars.org/civilian-casualties/ts439-june-23-2020/"
+   },
+   {
+    "title": "Institut kurde: Turkish drone strike kills 3 women in Kobani",
+    "url": "https://www.institutkurde.org/info/turkish-drone-strike-kills-3-women-in-north-syria-s-kurdish-city-of-kobani-1232551846"
+   },
+   {
+    "title": "Sterk TV: Merasîma 3 jinên şoreşger Zehra, Emîne û Hebûn li Kobanê [Funeral of three revolutionary women Zehra, Emîne and Hebûn in Kobanê]",
+    "url": "https://sterktv.eu/merasima-3-jinen-soresger-zehra-emine-u-hebun-li-kobane/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-11-09",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "al-Hilaliya neighbourhood, Qamishli",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "summary": "Alleged Turkish drone strikes on a vehicle in Qamishli's al-Hilaliya neighbourhood killed two to three civilian men, including a 70-year-old; Airwars rated the strike 'likely'.",
+  "sources": [
+   {
+    "title": "Airwars TS478 November 9 2021",
+    "url": "https://airwars.org/civilian-casualties/ts478-november-9-2021/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-02-01",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Takil Bakil (Taql Baql) village, Derik countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.03,
+  "lon": 42.07,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 5,
+  "civilian": false,
+  "summary": "Turkish airstrikes on Takil Bakil village in the Derik countryside killed four people the SDF identified as fighters/guards, and injured four to five civilians, per Airwars.",
+  "sources": [
+   {
+    "title": "Airwars TS487 February 1 2022",
+    "url": "https://airwars.org/civilian-casualties/ts487-february-1-2022/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-08-06",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "al-Sina'a neighbourhood, Qamishli",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 2,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on a car in Qamishli's industrial (al-Sina'a) district killed two to four civilians, including two children, and injured at least two.",
+  "sources": [
+   {
+    "title": "Airwars TS539 August 6 2022",
+    "url": "https://airwars.org/civilian-casualties/ts539-august-6-2022/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-08-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Shamouka (girls' education centre), Tal Tamr–Hasakah road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.58,
+  "lon": 40.55,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 11,
+  "civilian": true,
+  "summary": "A drone struck a UN-supported girls' education centre in Shamouka; the Autonomous Administration said four girls were killed and 11 injured (Airwars: five). CJTF-OIR condemned the strike on 'teenaged girls playing volleyball'; AANES attributed it to Turkey.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkish drone kills four children in Hasaka province",
+    "url": "https://rudaw.net/english/middleeast/syria/19082022"
+   },
+   {
+    "title": "North Press: AANES reveals details of Turkish strike that killed 4 girls",
+    "url": "https://npasyria.com/en/82358"
+   },
+   {
+    "title": "North Press: CJTF-OIR condemns attacks",
+    "url": "https://npasyria.com/en/82311"
+   },
+   {
+    "title": "ANF: AANES: Turkish attack on an education centre killed four children",
+    "url": "https://english.anf-news.com/rojava-syria/-61956"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Kobanî, Til Rifet, Cizîr and Dêrik regions (the 'Claw-Sword' offensive)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 31,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkey launched 'Claw-Sword' air raids after the 13 Nov Istanbul bombing, claiming 89 targets destroyed in Iraq and Syria. SOHR counted 31 killed in Syria (18 SDF, 12 Syrian government soldiers, 1 journalist); the Kurdish administration said 29 died including 11 civilians.",
+  "sources": [
+   {
+    "title": "The New Arab: Turkey strikes kill at least 31 people in north Syria, monitor says",
+    "url": "https://www.newarab.com/news/turkey-strikes-kill-least-31-north-syria-monitor-says"
+   },
+   {
+    "title": "The Defense Post: Turkey launches air raids against Kurdish militants in Syria, Iraq",
+    "url": "https://www.thedefensepost.com/2022/11/21/turkey-air-raid-kurdish-militants/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Taqel Baqel (Takel Bakel) power station, Derik countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.03,
+  "lon": 42.07,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkish warplanes repeatedly struck the Takel Bakel power station near al-Malikiyah/Derik in the first hours of Claw-Sword; STJ reports 11 civilians killed, including people who rushed to help victims of earlier strikes.",
+  "sources": [
+   {
+    "title": "STJ: Northeastern Syria – Unprecedented Turkish Strikes on Energy Infrastructure (PDF)",
+    "url": "https://stj-sy.org/wp-content/uploads/2023/01/Northeastern-Syria_Unprecedented-Turkish-Strikes-on-Energy-Infrastructure-.pdf"
+   },
+   {
+    "title": "North Press: Survivor of Turkish attack in NE Syria lives in ongoing distress",
+    "url": "https://npasyria.com/en/101537/"
+   },
+   {
+    "title": "ANF: At least 12 civilians killed in Turkish attacks on Rojava",
+    "url": "https://english.anf-news.com/rojava-syria/-63790"
+   },
+   {
+    "title": "ANF: Turkish airstrike kills ANHA reporter in Derik",
+    "url": "https://english.anf-news.com/rojava-syria/-63782"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-23",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Suwaydiyah gas installation, Derik countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Turkish warplanes and drones struck oil and gas fields east of Qamishli; the Suwaydiyah gas installation, NE Syria's only gas plant, was hit four times and production stopped.",
+  "sources": [
+   {
+    "title": "North Press: Turkish airstrikes stop only gas installation in NE Syria",
+    "url": "https://npasyria.com/en/?p=88032"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "al-Qarmouti roundabout, Qamishli",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "An alleged Turkish drone hit a truck at a Qamishli roundabout; Airwars records one to two civilians killed and one injured, with an SDF figure reportedly targeted.",
+  "sources": [
+   {
+    "title": "Airwars (incident page, Nov 23 2022)",
+    "url": "https://airwars.org/?p=85592"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-12-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "al-Raqas village, Chalabiya countryside south of Kobani",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 38.45,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 3,
+  "civilian": true,
+  "summary": "A Turkish drone strike killed three people including a 12-year-old boy and injured three civilians, according to the SDF media office.",
+  "sources": [
+   {
+    "title": "North Press: Turkish drone claims three lives in Syria's Kobani, including child",
+    "url": "https://npasyria.com/en/?p=89146"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-06-20",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Tal Shaeer village, Qamishli countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 1,
+  "civilian": true,
+  "summary": "A drone strike on a car killed Qamishli canton council co-chair Yusra Darwish, her deputy Liman Shoish and driver Firat Toma; co-chair Gabi Chamoun was wounded. Kurdish authorities blamed Turkey; Turkey did not comment.",
+  "sources": [
+   {
+    "title": "Rudaw: Rojava administration says Turkish drone killed two officials in Hasaka",
+    "url": "https://www.rudaw.net/english/middleeast/syria/200620231"
+   },
+   {
+    "title": "Airwars TS605 June 20 2023",
+    "url": "https://airwars.org/civilian-casualties/ts605-june-20-2023/"
+   },
+   {
+    "title": "ANF: Turkish drone attack in Tirbespiyê kills three, including co-chair of Qamishlo Canton",
+    "url": "https://english.anf-news.com/rojava-syria/-67896"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-08-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qamishli–Amuda road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.08,
+  "lon": 41.08,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "summary": "A suspected Turkish drone hit a JIN TV vehicle, killing driver Najmaddin Faisal Haj Sinan and wounding journalist Dalila Agid; CPJ urged an investigation. SOHR counted 37 Turkish drone strikes on Kurdish-held areas in 2023 by then, with 54 deaths.",
+  "sources": [
+   {
+    "title": "Airwars TS624 August 23 2023",
+    "url": "https://airwars.org/civilian-casualties/ts624-august-23-2023/"
+   },
+   {
+    "title": "Rudaw: Turkish drone kills journalist in Rojava – SOHR",
+    "url": "https://rudaw.net/english/middleeast/syria/230820231"
+   },
+   {
+    "title": "ANF: Turkish drone targets Jin TV vehicle on Qamişlo-Amûde road killing one person and wounding another",
+    "url": "https://english.anf-news.com/rojava-syria/-68959"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-10-05",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": ">150 locations in Hasakah, Raqqa and Aleppo governorates",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "After the 1 Oct Ankara attack, Turkey struck more than 150 locations on 5–10 Oct 2023, killing dozens including civilians and knocking out at least 18 water pumping stations, 11 power stations, oil sites and the only domestic gas plant; AANES estimated 4.3 million people affected. RIC counted at least 11 civilian deaths from drone strikes.",
+  "sources": [
+   {
+    "title": "HRW: Northeast Syria – Turkish strikes disrupt water, electricity",
+    "url": "https://www.hrw.org/news/2023/10/26/northeast-syria-turkish-strikes-disrupt-water-electricity"
+   },
+   {
+    "title": "Turkish Minute: HRW urges Turkey to investigate airstrikes",
+    "url": "https://turkishminute.com/2023/11/03/hrw-urge-turkey-to-investigate-airstrikes-that-killed-or-injured-civilian-in-syria/amp/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-10-05",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Mushayrifa Hamma farms, Hasakah",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.502,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "summary": "A suspected Turkish drone strike on farms near Hasakah injured three civilians; one source (Hawar News) reported one civilian killed.",
+  "sources": [
+   {
+    "title": "Airwars TS634 October 5 2023",
+    "url": "https://airwars.org/civilian-casualties/ts634-october-5-2023/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-10-05",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kardahol oil station / oil wells, Tirbe Spiyeh (al-Qahtaniyah) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.021,
+  "lon": 41.468,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "An alleged Turkish evening airstrike on oil wells including Kardahol station reportedly killed a 55-year-old man and injured two others.",
+  "sources": [
+   {
+    "title": "Airwars assessment (Oct 5 2023 oil wells)",
+    "url": "https://airwars.org/?p=102640"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2023-12-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Simav printing press, Qamishli",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": null,
+  "civilian": true,
+  "summary": "Turkish strikes on more than 20 targets mainly around Qamishli killed eight civilians per SOHR, five of them workers at a printing facility; STJ said seven Simav Printing Press workers died. Turkey said it hit ~50 PKK/YPG-linked facilities after 12 soldiers were killed in Iraq.",
+  "sources": [
+   {
+    "title": "Al-Monitor: Eight civilians killed in Turkish strikes on Syria",
+    "url": "https://www.al-monitor.com/originals/2023/12/eight-civilians-killed-turkish-strikes-syria-monitor-media"
+   },
+   {
+    "title": "STJ: Northeast Syria – Turkish attacks kill civilians, destroy their livelihoods",
+    "url": "https://stj-sy.org/en/northeast-syria-turkish-attacks-kill-civilians-destroy-their-livelihoods/"
+   },
+   {
+    "title": "ANF: RIC: Turkish airstrikes hit 18 civilian locations on Christmas day",
+    "url": "https://english.anf-news.com/rojava-syria/-70965"
+   },
+   {
+    "title": "ANF: 6 killed, 9 injured as Turkey attacks infrastructure facilities in Qamishlo - UPDATE",
+    "url": "https://english.anf-news.com/rojava-syria/-70948"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-01-12",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Power plants and oil facilities, Qamishli region",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "After nine Turkish soldiers died in Iraq, Turkey struck NE Syria from 12 Jan 2024; the Kurdish administration said six power plants were hit (one twice in Qamishli on 15 Jan), leaving hundreds of villages without power and water stations out of service.",
+  "sources": [
+   {
+    "title": "Al-Monitor: Turkish strikes deprive hundreds of northeast Syria villages of power",
+    "url": "https://www.al-monitor.com/originals/2024/01/turkish-strikes-deprive-hundreds-northeast-syria-villages-power"
+   },
+   {
+    "title": "HRW: Türkiye's strikes wreak havoc on northeast Syria",
+    "url": "https://www.hrw.org/news/2024/02/09/turkiyes-strikes-wreak-havoc-northeast-syria"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-08-19",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "al-Sina'a neighbourhood near Heart and Eye Hospital, Qamishli",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": null,
+  "summary": "A suspected Turkish drone strike in Qamishli killed one person and injured another (SOHR). SOHR counted 90 Turkish strikes in Rojava in 2024 by then, killing at least 29.",
+  "sources": [
+   {
+    "title": "Rudaw: Turkish drone kills one in Qamishli – monitor",
+    "url": "https://rudaw.net/english/middleeast/syria/19082024"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-10-23",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Oil, energy, bakery and checkpoint sites across NE Syria",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 12,
+  "injured": 25,
+  "civilian": true,
+  "summary": "After the TUSAS attack in Ankara, Turkey struck PKK/YPG-linked 'strategic' sites in Syria and Iraq; the SDF said strikes on bakeries, power stations and oil facilities killed 12 civilians and wounded 25. Synergy/Hevdesti later counted 14 killed and 64 injured over 23–31 Oct.",
+  "sources": [
+   {
+    "title": "PBS/AP: Turkey strikes Kurdish militant targets again after deadly attack",
+    "url": "https://www.pbs.org/newshour/world/turkey-strikes-kurdish-militant-targets-again-after-deadly-attack-on-military-company"
+   },
+   {
+    "title": "Synergy/Hevdesti 2024 annual report",
+    "url": "https://hevdesti.org/en/?p=5031"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-10-24",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Kobani grain silos",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 8,
+  "civilian": true,
+  "summary": "A Turkish attack on the Kobani silos killed one worker and injured eight, according to the Asayish.",
+  "sources": [
+   {
+    "title": "North Press: Turkish attack on Kobani silos claims life, injures 8",
+    "url": "https://npasyria.com/en/117951/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-10-25",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "al-Sweidiya gas plant",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 41.95,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "summary": "An airstrike on the al-Sweidiya gas plant killed a security guard, a father of three, per Synergy/Hevdesti.",
+  "sources": [
+   {
+    "title": "Synergy/Hevdesti 2024 annual report",
+    "url": "https://hevdesti.org/en/?p=5031"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-12-19",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Tishreen Dam, east of Aleppo",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": true,
+  "summary": "Journalists Nazim Dashtan and Cihan Bilgin were killed when their car was hit near Tishreen Dam in an alleged Turkish drone strike; driver Aziz Haj Bozan was injured. Press groups including PEN International called for an investigation.",
+  "sources": [
+   {
+    "title": "Duvar English: Journalists killed in alleged targeted Turkish drone strike",
+    "url": "https://www.duvarenglish.com/journalists-killed-in-alleged-targeted-turkish-drone-strike-in-northern-syria-news-65413"
+   },
+   {
+    "title": "CBS News: Two journalists killed in northern Syria",
+    "url": "https://www.cbsnews.com/news/journalists-killed-syria-tishrin-dam-turkish-backed-fighters-kurdish-militia"
+   },
+   {
+    "title": "ANF: Journalists Nazım Daştan and Cihan Bilgin fall as martyrs in Turkish drone attack",
+    "url": "https://english.anf-news.com/freedom-of-the-press/-76974"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-08",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Civilian convoy near Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": 15,
+  "civilian": true,
+  "summary": "An alleged Turkish air/drone strike hit a civilian protest convoy heading to Tishreen Dam, killing up to five civilians including two women and injuring 15 including two journalists; an ambulance was hit.",
+  "sources": [
+   {
+    "title": "Airwars TS762 January 8 2025",
+    "url": "https://airwars.org/incidents/ts762-january-8-2025"
+   },
+   {
+    "title": "Syria Direct: What happened to the Tishreen Dam protest convoy",
+    "url": "https://syriadirect.org/what-happened-to-the-tishreen-dam-protest-convoy/"
+   },
+   {
+    "title": "ANF: 3 killed, 15 wounded in Turkish drone attack on civilian convoy heading to Tishrin",
+    "url": "https://english.anf-news.com/rojava-syria/-77328"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-08",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Car repair garage, Sarrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.528,
+  "lon": 38.411,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 6,
+  "civilian": true,
+  "summary": "An alleged Turkish drone attack hit a car repair garage in Sarrin, killing one civilian and injuring five to six.",
+  "sources": [
+   {
+    "title": "Airwars TS761 January 8 2025",
+    "url": "https://airwars.org/incidents/ts761-january-8-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-08",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Karki Khajo village, al-Malikiyah district",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.077,
+  "lon": 42.106,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "summary": "Two successive alleged Turkish drone strikes on a civilian car killed one person and severely injured another.",
+  "sources": [
+   {
+    "title": "Airwars TS763 January 8 2025",
+    "url": "https://airwars.org/incidents/ts763-january-8-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Khan al-Jabal (Khana Seri), al-Malikiyah countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.06,
+  "lon": 41.98,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "summary": "An alleged Turkish drone hit a civilian car, killing a female Kurdish activist and her driver.",
+  "sources": [
+   {
+    "title": "Airwars TS767 January 10 2025",
+    "url": "https://airwars.org/incidents/ts767-january-10-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-11",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Masrab",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.528,
+  "lon": 38.411,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 6,
+  "civilian": true,
+  "summary": "An alleged Turkish airstrike on a house killed a father and two daughters and injured their mother and five other children. Coordinates approximate (Sarrin/Kobani area).",
+  "sources": [
+   {
+    "title": "Airwars TS769 January 11 2025",
+    "url": "https://airwars.org/incidents/ts769-january-11-2025"
+   },
+   {
+    "title": "ANF: Turkey bombs a house in Sirrin, killing 3 members of a family and injuring 6 others",
+    "url": "https://english.anf-news.com/rojava-syria/-77383"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-12",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Jabal Abdul Aziz, north-west of Hasakah",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.6,
+  "lon": 40.4,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Turkish forces allegedly bombed the Jabal Abdul Aziz area, killing one and injuring two (SOHR, Rojnews).",
+  "sources": [
+   {
+    "title": "Airwars TS770 January 12 2025",
+    "url": "https://airwars.org/incidents/ts770-january-12-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Civilian convoy and gathering near Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 7,
+  "injured": 22,
+  "civilian": true,
+  "summary": "Alleged Turkish airstrikes and/or shelling hit a civilian convoy and gathering near the dam, killing seven including two women and ambulance crew, and injuring 22–23.",
+  "sources": [
+   {
+    "title": "Airwars TS771 January 15 2025",
+    "url": "https://airwars.org/incidents/ts771-january-15-2025"
+   },
+   {
+    "title": "ANF: Four killed, 23 wounded in Turkish shelling of civilian convoy at Tishrin Dam - UPDATED",
+    "url": "https://english.anf-news.com/rojava-syria/-77448"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-16",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": 40,
+  "civilian": true,
+  "summary": "Alleged Turkish warplane and drone strikes on civilians and shift workers at the dam killed one to five and injured 10–40, including four journalists.",
+  "sources": [
+   {
+    "title": "Airwars TS772 January 16 2025",
+    "url": "https://airwars.org/incidents/ts772-january-16-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Civilian gathering at Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": 20,
+  "civilian": true,
+  "summary": "Alleged Turkish drone strikes on a civilian gathering killed six identified people, including a Kurdish actor and a playwright, and injured about 20.",
+  "sources": [
+   {
+    "title": "Airwars TS774 January 18 2025",
+    "url": "https://airwars.org/incidents/ts774-january-18-2025"
+   },
+   {
+    "title": "ANF: 4 civilians martyred, 15 others wounded in Turkish attack at Tishrin Dam",
+    "url": "https://english.anf-news.com/rojava-syria/-77498"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-21",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 20,
+  "civilian": true,
+  "summary": "Two alleged Turkish drone strikes on civilians near the dam killed two, including a woman, and injured 20–70, among them journalists and officials.",
+  "sources": [
+   {
+    "title": "Airwars TS775 January 21 2025",
+    "url": "https://airwars.org/incidents/ts775-january-21-2025"
+   },
+   {
+    "title": "ANF: Turkish attack on civilians at Tishrin Dam kills 2, injures 20",
+    "url": "https://english.anf-news.com/rojava-syria/-77550"
+   },
+   {
+    "title": "Sterk TV: 20:00 Stêrk Taybet – Berxweeana Bendava Tişrînê [Sterk Special: the resistance at Tishreen Dam]",
+    "url": "https://sterktv.eu/2000-sterk-taybet-berxweeana-bendava-tisrine/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-22",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 23,
+  "civilian": true,
+  "summary": "An alleged Turkish air/drone strike on a civilian gathering near the dam killed two and injured 23.",
+  "sources": [
+   {
+    "title": "Airwars TS776 January 22 2025",
+    "url": "https://airwars.org/incidents/ts776-january-22-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-25",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Protest gathering at Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 21,
+  "civilian": true,
+  "summary": "An alleged Turkish drone attack on a protest gathering near the dam killed two and injured 21.",
+  "sources": [
+   {
+    "title": "Airwars TS777 January 25 2025",
+    "url": "https://airwars.org/incidents/ts777-january-25-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-26",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "al-Jammas village, Ain Issa subdistrict",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.858,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 5,
+  "civilian": true,
+  "summary": "Alleged Turkish shelling of al-Jammas village reportedly killed two children and injured two to five others.",
+  "sources": [
+   {
+    "title": "Airwars TS779 January 26 2025",
+    "url": "https://airwars.org/incidents/ts779-january-26-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-28",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Central market, Sarrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.528,
+  "lon": 38.411,
+  "precision": "approximate",
+  "killed": 13,
+  "injured": 20,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on Sarrin's central market killed 9–13 civilians and injured 13–20.",
+  "sources": [
+   {
+    "title": "Airwars TS781 January 28 2025",
+    "url": "https://airwars.org/incidents/ts781-january-28-2025"
+   },
+   {
+    "title": "ANF: Turkish UCAV attack kills at least 6 people in Sirrin",
+    "url": "https://english.anf-news.com/rojava-syria/-77670"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-28",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Umm Harmal village",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.502,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 12,
+  "civilian": true,
+  "summary": "Alleged overnight Turkish artillery strikes on Umm Harmal killed three members of one extended family and injured 9–12. Coordinates approximate (governorate-level).",
+  "sources": [
+   {
+    "title": "Airwars TS780 January 28 2025",
+    "url": "https://airwars.org/incidents/ts780-january-28-2025"
+   },
+   {
+    "title": "ANF: Turkish UCAV attack in Zirgan kills 3 civilians from the same family, including a child - UPDATED",
+    "url": "https://english.anf-news.com/rojava-syria/-77664"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-01-28",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kobani city",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 2,
+  "civilian": true,
+  "summary": "A declared Turkish airstrike hit Kobani city, killing one to three people and injuring one to two.",
+  "sources": [
+   {
+    "title": "Airwars TS782 January 28 2025",
+    "url": "https://airwars.org/incidents/ts782-january-28-2025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-02-06",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Protest convoy at Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 14,
+  "civilian": true,
+  "summary": "A Turkish drone allegedly struck a convoy of protesters from Kobani heading to the dam, injuring 14 including at least two women.",
+  "sources": [
+   {
+    "title": "Airwars TS786 February 6 2025",
+    "url": "https://airwars.org/incidents/ts786-february-6-2025"
+   },
+   {
+    "title": "ANF: Turkey carries out yet another air strike on civilians at Tishrin Dam",
+    "url": "https://english.anf-news.com/rojava-syria/-77816"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-02-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Vicinity of Tishreen Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.383,
+  "lon": 38.183,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "An alleged Turkish warplane strike killed a Syrian Kurdish journalist and injured at least two.",
+  "sources": [
+   {
+    "title": "Airwars TS791 February 15 2025",
+    "url": "https://airwars.org/incidents/ts791-february-15-2025"
+   },
+   {
+    "title": "ANF: Turkish drone strike kills journalist Egîd Roj in Tishrin",
+    "url": "https://english.anf-news.com/freedom-of-the-press/-77959"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-02-26",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Al-Kharafi road between Deir ez-Zor and Hasakah",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 35.9,
+  "lon": 40.5,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "summary": "An alleged Turkish drone strike on a vehicle killed two shepherds.",
+  "sources": [
+   {
+    "title": "Airwars TS793 February 26 2025",
+    "url": "https://airwars.org/incidents/ts793-february-26-2025"
+   },
+   {
+    "title": "ANF: SDF: 12 military personnel and civilians killed by Turkey in Shaddadi countryside",
+    "url": "https://english.anf-news.com/rojava-syria/-78131"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2025-03-17",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "South of Kobani",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.8,
+  "lon": 38.38,
+  "precision": "approximate",
+  "killed": 9,
+  "injured": null,
+  "civilian": true,
+  "summary": "The SDF said a Turkish airstrike killed at least nine members of one family south of Kobani, a week after the 10 March SDF–Damascus agreement; Turkey's communications directorate denied responsibility.",
+  "sources": [
+   {
+    "title": "Rudaw (18 March 2025)",
+    "url": "https://rudaw.net/english/middleeast/syria/180320251"
+   },
+   {
+    "title": "ANF: Turkish drone attack kills 7 children and their parents in Kobanê",
+    "url": "https://english.anf-news.com/rojava-syria/-78433"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-01-19",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Hasakah city",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.502,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "The SDF said Turkish drones struck Hasakah a day after the 18 Jan 2026 14-point SDF–government integration deal, amid government advances into Raqqa and Deir ez-Zor; Turkish security sources told Reuters the claim was false.",
+  "sources": [
+   {
+    "title": "Turkish Minute: Kurdish-led forces say Turkish drones hit Syria's Hasaka, Turkey denies it",
+    "url": "https://turkishminute.com/2026/01/19/kurdish-led-forces-say-turkish-drones-hit-syrias-hasaka-turkey-denies-it/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-01-26",
+  "actor": "Syria",
+  "type": "drone",
+  "place": "Khirab Ashk village, Kobani countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 38.3,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": 5,
+  "civilian": true,
+  "summary": "A drone strike on a family home killed at least five civilians including four children (Airwars range 5–8; Kurdistan24 reported six) and injured 5–7, during the January 2026 ceasefire. The attacker is disputed: Airwars lists the Turkish military or Syrian interim-government forces, SOHR said the drone was believed to be Turkish, and the SDF blamed Damascus-affiliated factions.",
+  "sources": [
+   {
+    "title": "Airwars TS798 January 26 2026",
+    "url": "https://airwars.org/incidents/ts798-january-26-2026"
+   },
+   {
+    "title": "Kurdistan24: Drone Strike Near Kobani Kills Six Civilians as Ceasefire Violations Persist",
+    "url": "https://www.kurdistan24.net/en/story/890010/slug"
+   }
+  ],
+  "disputed": true,
+  "kind": "strike"
+ }
+]

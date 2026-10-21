@@ -1,0 +1,3942 @@
+[
+ {
+  "record": "attack",
+  "date": "2017-05-03",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Suncê village, Amêdî (Amadiya)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed the countryside of Suncê village in Amêdî district, killing one civilian and injuring another.",
+  "sources": [
+   {
+    "title": "ANF: Turkish airstrike on Southern Kurdistan kills a civilian",
+    "url": "https://english.anf-news.com/kurdistan/-19836"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-08",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Ovacık, Hozat, Pülümür and Nazimiye districts, Dersim",
+  "governorate": "Tunceli",
+  "country": "Turkey",
+  "lat": 39.107,
+  "lon": 39.548,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fires burning in 18 areas for over a week",
+  "summary": "ANF reported that forest fires it attributed to Turkish military operations were burning in 18 areas across Dersim in mid-August 2017, and that state forces stopped a group of 50 volunteers from reaching the fires.",
+  "sources": [
+   {
+    "title": "ANF: Latest in Dersim: Fires rage on in 18 areas",
+    "url": "https://english.anf-news.com/news/-21570"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-08",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Hesar mountain, Kiğı, Bingöl",
+  "governorate": "Bingöl",
+  "country": "Turkey",
+  "lat": 39.31,
+  "lon": 40.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Wildfire burning for three days across Hesar mountain",
+  "summary": "ANF reported that a wildfire broke out after Turkish F-16s bombed the Kiğı countryside and was still spreading across Hesar mountain three days later.",
+  "sources": [
+   {
+    "title": "ANF: Another wildfire started by Turkish bombardments in Bingöl",
+    "url": "https://english.anf-news.com/news/-21541"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-08-05",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Deriyê Cibrail and Sefine areas, Mount Cudi, Silopi",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.37,
+  "lon": 42.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of trees burned; fire spread over several areas towards Hesena (Kösterli) village",
+  "summary": "ANF reported that artillery fire from the Turkish gendarmerie commando battalion at Görümlü set Mount Cudi alight; hundreds of trees burned as the fire spread for days while shelling continued and no firefighting was allowed.",
+  "sources": [
+   {
+    "title": "ANF: Turkish artillery attacks start a fire on Mount Cudi",
+    "url": "https://english.anf-news.com/news/-21374"
+   },
+   {
+    "title": "ANF: Fire started by Turkish attacks on Mount Cudi spreads",
+    "url": "https://english.anf-news.com/news/-21382"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2017-08-12",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Near Enzê village, Qandil",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 20 decares (2 ha) of forest burned; animals killed",
+  "summary": "ANF reported that Turkish airstrikes near civilian settlements in Qandil started a fire that burned about 20 decares of forest near Enzê village, killing many animals; villagers put it out themselves.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombardments start a fire in Qandil as well",
+    "url": "https://english.anf-news.com/news/-21539"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2017-09-19",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Rêkan and Nerwê villages, Sheladizê, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.785,
+  "precision": "approximate",
+  "killed": 7,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish airstrikes hit villagers heading to their vineyards and orchards near Rêkan and Nerwê villages around Sheladizê, killing seven civilians, among them the brothers Ali and Ciger Mistafa, Sedat Sıtkı and Hakim Said. One body was only recovered from a stream bed two weeks later.",
+  "sources": [
+   {
+    "title": "ANF: Turkish massacre in Southern Kurdistan: 10 dead",
+    "url": "https://english.anf-news.com/kurdistan/-22239"
+   },
+   {
+    "title": "ANF: Body of a villager killed by Turkish jets in Sheladize found",
+    "url": "https://english.anf-news.com/kurdistan/-22528"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2017-09-19",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Tepeka village near Horê, Çemço/Avashin area",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.263,
+  "lon": 44.082,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the same night's Turkish airstrikes on the Avashin area hit the rural area of Horê (Tepeka village in the Çemço area), killing three local men in their vineyards, named as Faxir Tahir, Şaban Said Dohuki and İsmet Temer Said.",
+  "sources": [
+   {
+    "title": "ANF: Turkish massacre in Southern Kurdistan: 10 dead",
+    "url": "https://english.anf-news.com/kurdistan/-22239"
+   },
+   {
+    "title": "ANF: Another Turkish bombardment in Southern Kurdistan: 3 killed",
+    "url": "https://english.anf-news.com/news/-22236"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-01-20",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Afrin city, Cindirês, Reco, Shera, Shêrawa and Mabeta",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "approximate",
+  "killed": 9,
+  "injured": 13,
+  "civilian": null,
+  "impact": null,
+  "summary": "On the first day of the Turkish invasion of Afrin ('Operation Olive Branch'), ANF reported that 72 Turkish jets bombed Afrin city and five districts, killing six civilians and three YPG/YPJ fighters and wounding 13 people.",
+  "sources": [
+   {
+    "title": "ANF: Six civilians and three fighters die in Turkish attack on Afrin",
+    "url": "https://english.anf-news.com/news/-24305"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-01-21",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Cilbir village, Shêrawa, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.43,
+  "lon": 36.95,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish airstrike on Cilbir village killed eight members of one Arab family displaced from Idlib, seven of them children, and injured five more people.",
+  "sources": [
+   {
+    "title": "ANF: 8 people from the same family martyred in Turkish attack on Afrin",
+    "url": "https://english.anf-news.com/news/-24336"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-01-24",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Rajo, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.676,
+  "lon": 36.664,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish airstrike on Rajo killed Roşêr Konîs, a boy from one of Afrin's Armenian families, and injured his mother and sister.",
+  "sources": [
+   {
+    "title": "ANF: Armenian young boy among those killed by Turkish attacks on Afrin",
+    "url": "https://english.anf-news.com/news/-24477"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-01-26",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mabeta (Maabatli) town centre, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.563,
+  "lon": 36.738,
+  "precision": "approximate",
+  "killed": 7,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish airstrike on Mabeta town centre at around 4am hit a family home and killed seven civilians from the same family.",
+  "sources": [
+   {
+    "title": "ANF: Massacre in Afrin: Seven civilians killed in Turkish airstrike",
+    "url": "https://english.anf-news.com/news/-24466"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-01-28",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Gubele village, Shêrawa, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.43,
+  "lon": 36.95,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing ANHA, ANF reported that Turkish warplanes bombed Gubele village near Shêrawa, killing three civilians and wounding four; the area around Rubar refugee camp was also hit.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombing kills three civilians in Afrin",
+    "url": "https://english.anf-news.com/news/-24519"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-02-08",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Shikate village, Shiye (Sheikh al-Hadid), Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.501,
+  "lon": 36.599,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed Shikate village, killing at least three civilians, among them Nisret Osman (50), who had fled his own village, and wounding several more.",
+  "sources": [
+   {
+    "title": "ANF: Turkish army kills three civilians in Shiye",
+    "url": "https://english.anf-news.com/news/-24828"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-02-26",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Yelangoz village, Cindirês (Jindires), Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.395,
+  "lon": 36.69,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed Yelangoz village in Cindirês district, killing five civilians whose bodies were recovered from the ruins by Heyva Sor a Kurd.",
+  "sources": [
+   {
+    "title": "ANF: Turkish army kills 5 civilians in Jindires",
+    "url": "https://english.anf-news.com/news/-25150"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-03-05",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Berbenê village, Rajo, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.676,
+  "lon": 36.664,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 18,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that shelling by the Turkish army and allied factions on Berbenê village wounded 21 civilians including seven children; three of them, Emine Mihemed Mustefa (80), Abdulrehman Xelil and Nuri Cuma, later died.",
+  "sources": [
+   {
+    "title": "ANF: Three of those wounded by Turkish attack in Rajo die",
+    "url": "https://english.anf-news.com/news/-25297"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-03-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Afrin city centre",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "exact",
+  "killed": 13,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that intensified Turkish air and artillery bombardment of Afrin city from the evening of 14 March killed 13 civilians, seven of them children (including Kajin Ali, 4, and Mihemed Qishle, 6), and wounded dozens.",
+  "sources": [
+   {
+    "title": "ANF: Turkish airstrike on Afrin kills 3 children and 2 women",
+    "url": "https://english.anf-news.com/news/-25493"
+   },
+   {
+    "title": "ANF: Turkish bombing kills two children in Afrin",
+    "url": "https://english.anf-news.com/news/-25481"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-03-16",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Avrin Hospital, Afrin city",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "approximate",
+  "killed": 16,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish attacks hit Avrin Hospital in central Afrin, killing 16 civilians, on a day when it said 47 civilians were killed across the city.",
+  "sources": [
+   {
+    "title": "ANF: Turkish army attacks civilian convoy in Afrin: Dozens killed",
+    "url": "https://english.anf-news.com/news/-25541"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-04",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Euphrates river at Tabqa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.831,
+  "lon": 38.544,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Reduced Euphrates flow cut power in the region to 12 hours a day; crops at risk of drying out",
+  "summary": "Citing ANHA, ANF reported that Turkey's cutting of the Euphrates flow left Tabqa and nearby areas with electricity only 12 hours a day and threatened crops.",
+  "sources": [
+   {
+    "title": "ANF: Another war crime by Turkey: Waters of the Euphrates cut off",
+    "url": "https://english.anf-news.com/news/-26145"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-06-07",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Qibar, Dar Girê, Birc Weqas and Berade villages, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.5,
+  "lon": 36.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "7 ha of farmland burned in Qibar and Dar Girê; olive trees and cereal fields burned in Birc Weqas",
+  "summary": "Citing ANHA, ANF reported that the Turkish army and allied factions occupying Afrin set fire to fields and forest, burning seven hectares in Qibar and Dar Girê and many olive trees and grain fields in Birc Weqas and Berade.",
+  "sources": [
+   {
+    "title": "ANF: Occupation forces burn down forests in Afrin",
+    "url": "https://english.anf-news.com/news/-27292"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2018-06-30",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Near Bawra village, Şêrwan Mezin, Barzan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.93,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing RojNews, ANF reported that Turkish artillery fire on the Şêrwan Mezin sub-district in the Barzan area killed a 19-year-old woman, Dinyar Reşid Naci, from Bawra village.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombardment kills a young woman in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-27870"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-07",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Helkêla and Dêliyan mountain, Bradost",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.85,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Dozens of decares of forest and farmland in Nawmêrgan and Helgêlan burned",
+  "summary": "ANF reported that Turkish airstrikes on Helkêla and Dêliyan mountain started a fire that burned dozens of decares of forest and farmland, and that Turkish soldiers fired on villagers trying to put it out.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombardment starts huge wildfire in Bradost",
+    "url": "https://english.anf-news.com/news/-28069"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2018-07-06",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Gamêrkê area near Ravina village, Kani Masi",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.229,
+  "lon": 43.439,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a mortar fired from the Turkish army's Kani Masi outpost killed beekeeper Macid Sileman Permos of Ravina village as he went to tend his bees.",
+  "sources": [
+   {
+    "title": "ANF: Turkish soldiers kill a civilian in Kanimasi, South Kurdistan",
+    "url": "https://english.anf-news.com/news/-28038"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-07-11",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Mount Cudi near Görümlü, Silopi",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fire spreading for at least three days",
+  "summary": "ANF reported that village guards started a fire on Mount Cudi near Görümlü, where soldiers and village guards are stationed, and that soldiers at the outpost prevented anyone from fighting it.",
+  "sources": [
+   {
+    "title": "ANF: Village guards set fire to forested land in Cudi",
+    "url": "https://english.anf-news.com/news/-28225"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2018-08-02",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Girezerel village, Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 42.8,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing Roj News, ANF reported that Turkish army shelling of villagers' vineyards and orchards in Girezerel village killed 12-year-old Yazidi boy Mahir Eli, who was working in the garden.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills a Yazidi child in Zakho countryside",
+    "url": "https://english.anf-news.com/news/-28688"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2018-09",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Cudi mountains",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.37,
+  "lon": 42.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Almost 200 pistachio trees burned in two fires in one week",
+  "summary": "ANF reported that Turkish military bombing during an operation sparked two fires on Cudi mountain within a week, burning almost 200 pistachio trees; soldiers stopped residents from putting them out.",
+  "sources": [
+   {
+    "title": "ANF: Pistachio trees burn in the Cudi mountains",
+    "url": "https://english.anf-news.com/news/-29807"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2018-12-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Shilo Valley, Shengal (Sinjar)",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.36,
+  "lon": 41.8,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish jets struck the Shilo Valley in Shengal 17 times, killing three civilians from Kobanê, Xelîl Xalid Cio, Mistefa Hecî and Mehmûd Xan Temo, who had been working on water mills there.",
+  "sources": [
+   {
+    "title": "ANF: 3 civilians killed by Turkish airstrikes in Shengal laid to rest",
+    "url": "https://english.anf-news.com/kurdistan/-31513"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-01-23",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Cave near Ekute village, Zap",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 43.75,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that two young men, Ziyad Haci and Bahtiyar Hesen, were killed by Turkish forces in a natural cave near Ekute village in Zap on the same day as the airstrike on the Deraluk area.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills two young civilians in Zap, South Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-32423"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2019-05",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Afrin region (Raco, Mabeta, Hawar castle, Ruza valley and others)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "At least 11,000 ha burned since the 2018 occupation",
+  "summary": "Citing ANHA, ANF reported that at least 11,000 hectares of forest and land in Afrin's villages had been deliberately set on fire under Turkish occupation, listing forests in Raco, Mabeta, around Hawar castle and elsewhere.",
+  "sources": [
+   {
+    "title": "ANF: Turkey deliberately burned 11,000 hectares of lands in Afrin",
+    "url": "https://english.anf-news.com/news/-35286"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2019-05-15",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mount Bote, Barzan area",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.93,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish fighter jets bombed Mount Bote in the Barzan area, killing 50-year-old Kazım Eli, who was gathering wild beets.",
+  "sources": [
+   {
+    "title": "ANF: Turkish air raid killed a civilian in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-34986"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-06-05",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Şêx Zade valley, Xakurkê (Hakurk)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.98,
+  "lon": 44.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes struck villagers who had gone out at dawn to put out fires on their land in the Şêx Zade valley, wounding four, one seriously.",
+  "sources": [
+   {
+    "title": "ANF: Four villagers wounded in Turkish warplanes attack on Xakurke",
+    "url": "https://english.anf-news.com/news/-35424"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-07-18",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Spindar village, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.25,
+  "lon": 43.38,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed Spindar village in Amêdî district, injuring three people.",
+  "sources": [
+   {
+    "title": "ANF: Turkish air raid injures 3 in Amadiya, South Kurdistan",
+    "url": "https://english.anf-news.com/news/-36345"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2019-08",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Xazyene village and olive groves, Mabeta, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.563,
+  "lon": 36.738,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Over 5,000 trees cut in Xazyene; some thousand olive trees burned in Mabeta; over 14 ha of farmland burned",
+  "summary": "ANF reported that Turkish-backed factions (112th and 3rd Brigades) burned olive groves in Mabeta, cut down over 5,000 trees in Xazyene village to send to Turkey, and burned over 14 hectares of farmland and thousands of fruit trees.",
+  "sources": [
+   {
+    "title": "ANF: Occupation forces cut down 5,000 trees in Afrin",
+    "url": "https://english.anf-news.com/news/-36731"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2019-08-01",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Çemekurk village, Derecik (Şemdinli), Hakkari",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.081,
+  "lon": 44.312,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish army helicopter opened fire on villagers from Çemekurk returning from cross-border trade, killing 14-year-old Vedat Ekinci and seriously wounding another villager.",
+  "sources": [
+   {
+    "title": "ANF: Turkish helicopter attacks villagers, killing a minor in Hakkari",
+    "url": "https://english.anf-news.com/news/-36651"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-08-19",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Silê and Bolê villages, Binarê Qandil",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.38,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed Silê and Bolê villages in Binarê Qandil, wounding four civilians and damaging homes and a garden.",
+  "sources": [
+   {
+    "title": "ANF: Turkish warplanes bombed Kandil: Four civilians injured",
+    "url": "https://english.anf-news.com/news/-37025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-10-18",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Mishrafa village, Serêkaniyê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.07,
+  "precision": "approximate",
+  "killed": 16,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the bodies of at least 16 people killed by the Turkish state and allied factions were found in Mishrafa village of Serêkaniyê during the October 2019 invasion.",
+  "sources": [
+   {
+    "title": "ANF: At least 16 civilians killed by Turkey in a village of Serekaniye",
+    "url": "https://english.anf-news.com/news/-38548"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-11-03",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Between al-Rashidiya and al-Kasimiya villages, Til Temir",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.65,
+  "lon": 40.37,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish forces and allied factions shelled a Free Burma Rangers medical team vehicle near Til Temir, wounding two medics; Zhao Sang (37) from Thailand died shortly afterwards.",
+  "sources": [
+   {
+    "title": "ANF: Turkey bombs Free Burma Rangers team, killing a doctor - UPDATE",
+    "url": "https://english.anf-news.com/news/-39006"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-11-09",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Hisha, southeast of Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.36,
+  "lon": 38.92,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish armed drones struck cotton pickers in Hisha near Ain Issa, killing two civilians including Hanî Ehmed El-Rawî (25) and wounding five.",
+  "sources": [
+   {
+    "title": "ANF: Turkish aerial attack kills two, injures five near Ain Issa",
+    "url": "https://english.anf-news.com/news/-39174"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-12-02",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Til Rifat town, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "exact",
+  "killed": 10,
+  "injured": 10,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish artillery hit residential areas of Til Rifat in the afternoon, killing at least nine civilians, most of them children, and wounding ten; a later report put the toll at eight children and two adults.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills 9 civilians in Til Rifat, Shehba",
+    "url": "https://english.anf-news.com/news/-39793"
+   },
+   {
+    "title": "ANF: Turkish attack kills a child, wounds another in Til Rifat -UPDATE",
+    "url": "https://english.anf-news.com/news/-41220"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2019-12-21",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Seyda village, near Ain Issa camp",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.861,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed Seyda village near Ain Issa camp, seriously wounding three civilians.",
+  "sources": [
+   {
+    "title": "ANF: Three civilians wounded in Turkish airstrike in Ain Issa",
+    "url": "https://english.anf-news.com/news/-40238"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-01-27",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Zebar area, Akrê (near Dinarta)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 36.8,
+  "lon": 43.99,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": false,
+  "impact": null,
+  "summary": "ANF reported that a Turkish airstrike on the Zebar area of Akrê killed a Peshmerga named Seid Hebib Sirani from Dudi village and seriously injured another, Nizar Haci Şeban.",
+  "sources": [
+   {
+    "title": "ANF: One peshmerga killed during Turkish air strike in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-41186"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-01-29",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Til Rifat town, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish howitzer fire on Til Rifat killed seven-year-old Nadir Ehmed Ehmed Ebud and injured ten-year-old Mihemed Emin Ehmed Heci İsa.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills a child, wounds another in Til Rifat -UPDATE",
+    "url": "https://english.anf-news.com/news/-41220"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-02-26",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Sida village, Zap",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.08,
+  "lon": 43.82,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the HPG, reported that Turkish jets struck a civilian car in Sida village in Zap, killing Xelil İbrahim Sidani.",
+  "sources": [
+   {
+    "title": "ANF: Turkish air raid kills a civilian in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-41938"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-04-02",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Waterworks at Um al-Kaf village, Til Temir",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.68,
+  "lon": 40.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Water line from Serêkaniyê to Til Temir, Hesekê and Shaddadi put out of service",
+  "summary": "ANF reported that Turkish and allied artillery directly hit the waterworks at Um al-Kaf that carries water from Serêkaniyê to Til Temir, Hesekê and Shaddadi, cutting supply while the Alouk station was also shut.",
+  "sources": [
+   {
+    "title": "ANF: Turkey bombs waterworks, interrupting supply to Northern Syria",
+    "url": "https://english.anf-news.com/news/-42729"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2020-04-28",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Xakurkê (Hakurk)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.98,
+  "lon": 44.8,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish jets bombed the Xakurkê area, killing two young men from Shino, Faxir Tazeward and Reşîd Mîroyî, who were picking wild beets.",
+  "sources": [
+   {
+    "title": "ANF: Turkish air raid kills two young civilians in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-43356"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-05-28",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Esediye village, Zirgan",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.98,
+  "lon": 40.69,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": "Field fire started by shelling",
+  "summary": "ANF reported that Turkish and allied artillery fire started a fire in Esediye village; two residents trying to put it out were badly burned and one, Suxeyer El Hecî, died.",
+  "sources": [
+   {
+    "title": "ANF: Fire started by occupation forces kills a civilian in Zirgan",
+    "url": "https://english.anf-news.com/news/-44093"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-06",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Manbij countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.527,
+  "lon": 37.956,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "250 ha of farmland burned since the start of the harvest",
+  "summary": "ANF, citing Manbij's fire department, reported that field fires started by Turkish and allied artillery had destroyed 250 hectares of farmland since the harvest began.",
+  "sources": [
+   {
+    "title": "ANF: Field fires in Manbij destroy 250 hectares of agricultural land",
+    "url": "https://english.anf-news.com/news/-44336"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-06-10",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Qerqin village, Shera, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.623,
+  "lon": 36.937,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "At least 300 trees cut; a 4 km strip of forest on Mount Hawar burned earlier",
+  "summary": "ANF reported that occupying forces cut at least 300 trees in Qerqin village, after burning a 4 km stretch of forest on Mount Hawar, and cited the Afrin Human Rights Organization as saying over 200,000 olive trees had been cut since the occupation.",
+  "sources": [
+   {
+    "title": "ANF: 300 olive trees cut down in a village of occupied Afrin",
+    "url": "https://english.anf-news.com/news/-44418"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2020-06-17",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Berde Spi plateau, Sîdekan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.804,
+  "lon": 44.663,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed the highlands of Sîdekan overnight, killing a civilian named Osman on the Berde Spi plateau.",
+  "sources": [
+   {
+    "title": "ANF: Turkish war planes bomb Sidekan, kill civilian",
+    "url": "https://english.anf-news.com/news/-44628"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-07-28",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Qert Wêran and Wîlanlî villages, northwest of Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.58,
+  "lon": 37.9,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": 6,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the Manbij Military Council, reported that heavy Turkish artillery fire on Qert Wêran and Wîlanlî villages killed six civilians including children, among them Alia Diab (60) and Fatima Makhlouf (35), and injured six.",
+  "sources": [
+   {
+    "title": "ANF: Turkish army kills six civilians in Manbij",
+    "url": "https://english.anf-news.com/news/-45571"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-07-29",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Mount Shekif, Deşta Hertê (Xakurkê area)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.95,
+  "lon": 44.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish artillery fired from a hill in the Xakurkê area at villagers from Pirekan gathering wild herbs on Mount Shekif, seriously injuring Zozan Qadir and lightly injuring four others.",
+  "sources": [
+   {
+    "title": "ANF: Woman seriously injured in Turkish artillery attack in Bashur",
+    "url": "https://english.anf-news.com/news/-45599"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-08",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Şabaniye neighbourhood, Van",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.5,
+  "lon": 43.38,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Thousands of trees cut; owners offered 300 TL per tree",
+  "summary": "ANF reported that village guards began clearing large areas of forest in Van's Şabaniye neighbourhood, on the grounds that trees blocked military observation and radio frequencies; soldiers offered owners 300 TL per tree.",
+  "sources": [
+   {
+    "title": "ANF: Village guards cut down forests in Van",
+    "url": "https://english.anf-news.com/news/-45745"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2020-08-01",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Bagêre area, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.15,
+  "lon": 43.55,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing Roj News, ANF reported that Turkish warplanes struck a civilian vehicle in the Bagêre area of Amêdî, destroying it and killing two people inside.",
+  "sources": [
+   {
+    "title": "ANF: Turkish warplanes target civilian vehicle, kill two",
+    "url": "https://english.anf-news.com/news/-45679"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2020-08-04",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Çiliya Jor (Yukarı Çilli) village, Çaldıran, Van",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 39.136,
+  "lon": 43.903,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish soldiers shot dead 46-year-old İbrahim Baykara, a father of six, in Çiliya Jor village; relatives said his body lay in the field for hours.",
+  "sources": [
+   {
+    "title": "ANF: 46-year-old man killed by Turkish soldiers in Van",
+    "url": "https://english.anf-news.com/news/-45738"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-09",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Besta region (Şırnak–Siirt–Herekol triangle)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.65,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "21 areas completely burned over three months; tens of thousands of trees",
+  "summary": "ANF reported that fires apparently started by Turkish army operations had burned in Besta for over three months, destroying tens of thousands of trees in 21 areas, with the army blocking firefighting 'for safety reasons'.",
+  "sources": [
+   {
+    "title": "ANF: Besta region on fire for three months",
+    "url": "https://english.anf-news.com/news/-46941"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2020-10-20",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Mezrî and Dêrikaberavê villages, Dêrik",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.15,
+  "lon": 42.12,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that, according to the Asayish, Turkish armed drones struck the villages of Mezrî and Dêrikaberavê near Dêrik, killing two civilians.",
+  "sources": [
+   {
+    "title": "ANF: Turkish air strike kills two civilians in Derik, Rojava - UPDATE",
+    "url": "https://english.anf-news.com/news/-47388"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2020-11",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Alouk water station, near Serêkaniyê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.86,
+  "lon": 40.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Station out of service for 15 days; Hesekê left without water",
+  "summary": "ANF reported that SNA factions stole the power cable to the Alouk water station, leaving it out of service for 15 days and Hesekê without water.",
+  "sources": [
+   {
+    "title": "ANF: Turkish-backed gangs cut off electricity to Alouk station",
+    "url": "https://english.anf-news.com/news/-48381"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2020-11-30",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Border area, Derecik (Şemdinli), Hakkari",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.081,
+  "lon": 44.312,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported, citing the Human Rights Association (İHD), that 16-year-old Özcan Erbaş was shot in the back by soldiers firing without warning from the border line while picnicking and gathering acorns with friends.",
+  "sources": [
+   {
+    "title": "ANF: Call for 16-year-old Erbaş killed by Turkish soldiers in Hakkari",
+    "url": "https://english.anf-news.com/news/-48432"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-01-22",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "House near Memit village, south of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 38.36,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone struck a house near Memit village south of Kobanê, injuring a civilian named Fehid Eli Şihade.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone strikes a house in Kobane, injuring a civilian",
+    "url": "https://english.anf-news.com/news/-49500"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-01-22",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Giriyan village, Chemanke, Duhok",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.3,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish fighter jets bombed Giriyan village near Chemanke; eyewitnesses said three civilians were injured and hospitalised and there was material damage.",
+  "sources": [
+   {
+    "title": "ANF: Turkish jets bomb a village in Duhok countryside, injuring three civilians",
+    "url": "https://english.anf-news.com/news/-49503"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-01-22",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Azadî village, Balekayetî (Choman)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.66,
+  "lon": 44.98,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "250 sheep and goats killed",
+  "summary": "ANF reported that Turkish jets bombed the villages of Alane, Gunderoj and Azadî in Balekayetî; in Azadî 250 sheep and goats belonging to a villager named Seyid Hesen were killed.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombardment kills 250 animals in Southern Kurdistan",
+    "url": "https://english.anf-news.com/news/-49499"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2021-01-23",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Til Rifat town, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "exact",
+  "killed": 3,
+  "injured": 6,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish mortar attack on Til Rifat killed three civilians, Macid Yasır Segran (8), Ebdulmehsin Segran (12) and Nazdiyê Mihemmed Mistefa, and wounded six.",
+  "sources": [
+   {
+    "title": "ANF: Turkish aggression kills 3 civilians, injures 6 others in Til Rifat - UPDATE",
+    "url": "https://english.anf-news.com/news/-49517"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-03",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Besta Risor, Şerevan, Cemiller, Xirbekbesta and Deloşer, Besta",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.65,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Tens of thousands of trees cut",
+  "summary": "ANF reported that village guards cut down tens of thousands of trees in the Besta region under the supervision of Turkish soldiers.",
+  "sources": [
+   {
+    "title": "ANF: Turkish soldiers order village guards to cut down thousands of trees",
+    "url": "https://english.anf-news.com/news/-50664"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2021-05-07",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Aşağıtorunoba (Kilmer) village, Ovacık, Dersim",
+  "governorate": "Tunceli",
+  "country": "Turkey",
+  "lat": 39.358,
+  "lon": 39.214,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing Mezopotamya Agency, reported that 28-year-old Murat Yıldız, a great-grandson of Seyit Rıza, was killed while building a shelter for his family's herd near Ağaçpınar (Aşkirik); ANF first reported a drone strike on his vehicle and later said he was killed by Turkish fighter jets. His body was released 20 days later and buried under military blockade.",
+  "sources": [
+   {
+    "title": "ANF: Missing civilian apparently killed in drone attack in Dersim",
+    "url": "https://english.anf-news.com/news/-51931"
+   },
+   {
+    "title": "ANF: Young man killed by Turkish bombardment buried under military blockade",
+    "url": "https://english.anf-news.com/news/-52326"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-05-25",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Derkarê, Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.17,
+  "lon": 42.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish artillery fire injured two brothers from Shengal, Hesen and Elî Muhsîn, while they grazed animals in Derkarê, Zakho.",
+  "sources": [
+   {
+    "title": "ANF: Turkish state bombs Zaxo, injures 2 civilians",
+    "url": "https://english.anf-news.com/news/-52316"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-06-05",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Meyasê village, Shêrawa, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.43,
+  "lon": 36.97,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish artillery attack on Meyasê village at around 1am killed 14-year-old Zeynep Hisen Ibrahim.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack in Afrin kills 14-year-old girl",
+    "url": "https://english.anf-news.com/news/-52554"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-08",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Mount Namaz near Sêgirkê (Şenoba), Uludere",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.44,
+  "lon": 42.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 150 tonnes of felled trees loaded for sale; area left almost treeless",
+  "summary": "ANF reported that about 50 village guards, supervised by soldiers, cut trees on Mount Namaz, loading about 150 tonnes onto trucks for sale and leaving the area almost treeless.",
+  "sources": [
+   {
+    "title": "ANF: Deforestation on Mount Namaz by village guards continues",
+    "url": "https://english.anf-news.com/news/-54426"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-08",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Forest between Shiye and Cindirês, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.45,
+  "lon": 36.65,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "More than 2,000 trees cut",
+  "summary": "ANF Kurmanji reported that the Turkish-backed Mihemed El Fatîh, Suleyman Şah, Liwa Semerqend and Liwa El Weqas factions cut more than 2,000 trees between Shiye and Cindirês and sent the wood to Turkey for sale.",
+  "sources": [
+   {
+    "title": "ANF: Dewleta Tirk li Efrînê 2 hezar dar birî",
+    "url": "https://kurmanci.anf-news.com/rojava-sUriye/-146150"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2021-08-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Deşişê village, Kani Masi, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.229,
+  "lon": 43.439,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing RojNews, ANF reported that Turkish fighter jets bombed the Kani Masi and Amêdî areas, killing a civilian named İbrahim Hesen in Deşişê village.",
+  "sources": [
+   {
+    "title": "ANF: Turkish airstrike kills a civilian in Southern Kurdistan",
+    "url": "https://english.anf-news.com/news/-54143"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-08-22",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Picnic area between Banke and Bosele villages, Batîfa",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.174,
+  "lon": 43.013,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the Turkish army struck a civilian car travelling from Mosul to Batîfa at a picnic area between Banke and Bosele, killing Ehmed Şakır (40) and Yusif Omar (26).",
+  "sources": [
+   {
+    "title": "ANF: Turkish army strikes a civilian car, killing two in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-54350"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-09-17",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Dibis village, west of Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.39,
+  "lon": 38.8,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that an attack by the Turkish army and allied factions on Dibis village killed four civilians, named as Malik el-Muharib el-Hemid, Xemus El-Biseyli, Hemed El-Xineys el-Cerbueh and İdan Hemed El-Omeyri, and injured three.",
+  "sources": [
+   {
+    "title": "ANF: Attack by occupation forces kills 4 civilians in a village of Ain Issa",
+    "url": "https://english.anf-news.com/news/-54938"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2021-10-20",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Derarê (Metina) and Nizurê (Zendura) areas",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.2,
+  "lon": 43.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that, from 20 October, the Turkish army had village guards from Şırnak cut down and carry off trees in the Metina and Zendura areas, then set parts of the area on fire.",
+  "sources": [
+   {
+    "title": "ANF: Turkey cuts down and loots trees in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-55841"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2021-12-21",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Zirgan (Abu Rasin) and nearby villages",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.98,
+  "lon": 40.69,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 7,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that attacks by Turkish and allied forces on Zirgan and the villages of Um Hermele, Til Emir, El Rebiat, El Esediye and others killed four civilians, including Fesla El-Îd and his daughter, and injured seven.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attacks leave 4 dead 7 injured in Til Temir and Zirgan",
+    "url": "https://english.anf-news.com/news/-57029"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-12-25",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Şehîd Peyman district, Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.36,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone struck a house in eastern Kobanê, killing two people at once; three of seven injured later died, bringing the toll to five, among them Nûjiyan Ocalan, Viyan Kobanê and Rojîn Ehmed Îsa.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack targets a house in Kobane, killing 2, injuring 7",
+    "url": "https://english.anf-news.com/news/-57095"
+   },
+   {
+    "title": "ANF: Number of civilians killed by Turkish drone attack on Kobanê rises to five",
+    "url": "https://english.anf-news.com/news/-57117"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-02-09",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Amûdê–Dirbêsiyê road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.07,
+  "lon": 40.8,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone strike on the road between Amûdê and Dirbêsiyê killed 11-year-old Mihemed Eli Kelah and injured a 13-year-old, a teacher and a 25-year-old woman.",
+  "sources": [
+   {
+    "title": "ANF: Four injured in Turkish drone attack in northern Syria",
+    "url": "https://english.anf-news.com/news/-58330"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-02-24",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qamişlo–Amûdê road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.08,
+  "lon": 41.08,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone bombed a civilian minibus on the Qamişlo–Amûdê road, injuring four people including three women named as Daliya Şêxmûs, Roza Hemo and Menîfe Himêdî.",
+  "sources": [
+   {
+    "title": "ANF: Four injured in Turkish drone attack in northern Syria",
+    "url": "https://english.anf-news.com/news/-58330"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-04-21",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Tall Damshij village, Til Temir",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.591,
+  "lon": 40.434,
+  "precision": "exact",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone struck the Assyrian village of Tall Damshij in the Khabur valley, injuring three people, while Turkish artillery shelled Tall Tawil.",
+  "sources": [
+   {
+    "title": "ANF: Three injured in Turkish drone strike on Til Temir",
+    "url": "https://english.anf-news.com/news/-59464"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-05",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Tîkera area, Besta",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.65,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 300 tonnes of trees cut per day",
+  "summary": "ANF Kurmanji reported that villagers said about 300 tonnes of trees a day were being cut in Besta's Tîkera area by village guards under soldiers' supervision and taken to Sêgirkê to be sold.",
+  "sources": [
+   {
+    "title": "ANF: Li Bestayê wêrankirina xwezayê: Rojan e 300 ton dar tên birîn",
+    "url": "https://kurmanci.anf-news.com/kurdistan/-155880"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-05-24",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Fafin district, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.32,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "20.6 ha of grain fields plus 1 ha of wheat and grazing land burned",
+  "summary": "ANF, citing the Shehba fire committee, reported that Turkish artillery fire burned 20.6 hectares of grain fields in Fafin and another hectare owned by seven families.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attacks burn over twenty hectares of fields in Shehba",
+    "url": "https://english.anf-news.com/news/-60135"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-06-15",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Perex (Parakh) village, Zakho",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.15,
+  "lon": 42.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish artillery hit Perex village in Zakho district, injuring a man and his son, who were taken to Zakho hospital.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack wounds a man and his son in Zaxo",
+    "url": "https://english.anf-news.com/news/-60592"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-06-17",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Keste village, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.22,
+  "lon": 43.1,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish soldiers opened DShK fire from their base by Keste village, injuring two women, according to the village head.",
+  "sources": [
+   {
+    "title": "ANF: Turkish soldiers open fire on civilians, injuring 2 in Amadiya",
+    "url": "https://english.anf-news.com/news/-60635"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-07",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Alouk water station, near Serêkaniyê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.86,
+  "lon": 40.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Station inoperative from 20 July, cutting water to some 460,000 people; the 27th stoppage since October 2019",
+  "summary": "Citing the Rojava Information Centre, ANF reported that Turkish-backed forces had kept the Alouk station, which supplies about 460,000 people, out of action since 20 July, the 27th stoppage since October 2019.",
+  "sources": [
+   {
+    "title": "ANF: New water crisis in Hesekê as Turkish-backed forces disrupt water supply from Alouk station",
+    "url": "https://english.anf-news.com/news/-62099"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-07-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Tal Afar",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.377,
+  "lon": 42.448,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF, citing Iraqi security sources, reported that a Turkish combat drone hit a car in Tal Afar, killing at least five people including a woman.",
+  "sources": [
+   {
+    "title": "ANF: Turkish UCAV attack kills 5 in Tal Afar",
+    "url": "https://english.anf-news.com/news/-61263"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-07-26",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Hesana (Kösterli) village, Silopi, Mount Cudi",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Thousands of trees cut",
+  "summary": "Citing Mezopotamya Agency, ANF reported that soldiers oversaw the cutting of thousands of trees around the Assyrian village of Hesana to make way for a military tower and its roads.",
+  "sources": [
+   {
+    "title": "ANF: Soldiers cut down thousands of trees in Silopi to build military tower",
+    "url": "https://english.anf-news.com/news/-61469"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-08-04",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Til Rifat town centre, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "exact",
+  "killed": null,
+  "injured": 9,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone bombed the centre of Til Rifat, injuring at least nine people, six of them children, who were taken to Avrîn hospital in Fafin.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone attack injures 9 civilians in Tel Rifat - UPDATE",
+    "url": "https://english.anf-news.com/news/-61647"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-08-12",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Marinus village area, Hakkari",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.57,
+  "lon": 43.74,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fire burning for 11 days",
+  "summary": "ANF reported that a forest fire started when Turkish soldiers opened fire with heavy weapons near Marinus village was still burning 11 days later, and that villagers trying to put it out were sent back.",
+  "sources": [
+   {
+    "title": "ANF: Forest fire in Hakkari raging for 11 days",
+    "url": "https://english.anf-news.com/news/-62047"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-08-16",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Kobanê city centre and western villages",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish artillery hit central Kobanê, Miştenûr hill and nearby villages, killing 12-year-old Ebid Mihemed Heci and injuring two-year-old Xelîl Cîhad Şêxo and two adults.",
+  "sources": [
+   {
+    "title": "ANF: 12-year-old killed, three injured in ongoing attacks on Kobanê - UPDATE",
+    "url": "https://english.anf-news.com/news/-61886"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-08-19",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Qeramil, Hasin, Eyn Deqnê and Belûniyê villages, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the Turkish army fired over 65 artillery shells at villages in Shehba and Tel Rifat, injuring Xedîce Welo (55) and 13-year-old Emîre Hisên Xelef, who died of her wounds weeks later.",
+  "sources": [
+   {
+    "title": "ANF: 13-year-old injured in Turkish attack on Shehba dies",
+    "url": "https://english.anf-news.com/news/-62455"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-09-20",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Siwêdiyê (Suwadiyah) village, near Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 38.9,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone attack on Siwêdiyê village near Ain Issa killed two villagers, Khaled Hanifah and Bashar Berekat, and injured three.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone kills two villagers near Ain Issa",
+    "url": "https://english.anf-news.com/news/-62601"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-09-27",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Girkê Legê (al-Muabbada)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.83,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the Cizîrê Region administration said its Justice Bureau co-chairs, Zeyneb Mihemed and Yılmaz Şero, were killed by a Turkish drone near Girkê Legê.",
+  "sources": [
+   {
+    "title": "ANF: Co-chairs of Cizre Justice Bureau killed in Turkish drone attack in Girkê Legê",
+    "url": "https://english.anf-news.com/news/-62740"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2022-12",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Khalilaka and Jaqmaq Kabir (Rajo) and Kabashin (Shêrawa), Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.6,
+  "lon": 36.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 220 olive trees and 25 almond trees cut",
+  "summary": "Citing SOHR, ANF reported that Turkish-backed factions cut olive trees in Afrin to sell as firewood, including about 200 in Kabashin and 20 in Khalilaka, plus 25 almond trees in Jaqmaq Kabir.",
+  "sources": [
+   {
+    "title": "ANF: Turkish-backed factions continue logging olive trees in Afrin",
+    "url": "https://english.anf-news.com/news/-64362"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2022-12-02",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Gelale village, Sharbajêr, near Mount Asos",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.95,
+  "lon": 45.35,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish warplanes bombed a group of civilians in Gelale village near Mount Asos, killing Aziz Muhammed Resul and injuring five others, who were named.",
+  "sources": [
+   {
+    "title": "ANF: Civilian killed in Turkish airstrike in South Kurdistan laid to rest",
+    "url": "https://english.anf-news.com/news/-64078"
+   },
+   {
+    "title": "ANF: Turkish fighter jets bomb civilians in Sulaymaniyah countryside",
+    "url": "https://english.anf-news.com/news/-64062"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-12-22",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Waterworks at Şêxlera Jorîn village, west of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.86,
+  "lon": 38.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish attack on a waterworks in Şêxlera Jorîn west of Kobanê injured three workers, Fadil Bazar, Bozan Şêx Nebî and Muslim Hemo, destroyed a car and badly damaged the facility.",
+  "sources": [
+   {
+    "title": "ANF: Three workers injured as Turkey attacks waterworks near Kobanê",
+    "url": "https://english.anf-news.com/news/-64459"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-01-06",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Xalidiyê village, west of Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.38,
+  "lon": 38.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone strike on Xalidiyê village west of Ain Issa injured ten-year-old Xelîfe El Elî in the hand.",
+  "sources": [
+   {
+    "title": "ANF: Child injured by Turkish drone attack near Ain Issa",
+    "url": "https://english.anf-news.com/news/-64788"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-01-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Maşûqê village, Qamişlo–Dêrik road, east of Tirbespiyê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.03,
+  "lon": 41.5,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone bombed a car near Maşûqê village; 12-year-old Ehmed Ebdulxanî Salim and Hisên Hesam from Kihêna Dirêj later died of their injuries.",
+  "sources": [
+   {
+    "title": "ANF: 12-year-old injured in Turkish drone attack in Rojava loses his life",
+    "url": "https://english.anf-news.com/news/-65065"
+   },
+   {
+    "title": "ANF: Man injured in Turkish drone attack in Rojava dies",
+    "url": "https://english.anf-news.com/news/-65118"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-02-16",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Til Rifat town, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.473,
+  "lon": 37.096,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing ANHA, ANF reported that Turkish shelling of the earthquake-hit town of Til Rifat killed a 70-year-old civilian and injured another man.",
+  "sources": [
+   {
+    "title": "ANF: One civilian killed, another injured in Turkish attack on earthquake-hit town of Tel Rifat",
+    "url": "https://english.anf-news.com/news/-65547"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-03",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Between Cindirês and Tilif village, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.395,
+  "lon": 36.69,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "80 olive trees cut",
+  "summary": "ANF reported that the Turkish-backed al-Hamza faction cut down 80 olive trees belonging to Mihemed Teter between Cindirês and Tilif village.",
+  "sources": [
+   {
+    "title": "ANF: Turkish-backed group cuts down 80 olive trees in occupied Afrin",
+    "url": "https://english.anf-news.com/news/-65998"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2023-03-01",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Shengal (Sinjar) town centre",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.319,
+  "lon": 41.86,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that a Turkish airstrike hit a vehicle of the Yazidi security force Ezidxane Asayish in central Shengal, killing senior member Şêrzad Şemo Kasım.",
+  "sources": [
+   {
+    "title": "ANF: Member of Yazidi Asayish killed in Turkish aerial attack",
+    "url": "https://english.anf-news.com/news/-65787"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-03-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Çemçemal (Chamchamal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.531,
+  "lon": 44.827,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that, according to Çemçemal district governor Remik Ramazan, a Turkish drone strike on a vehicle near Çemçemal killed one person and injured two.",
+  "sources": [
+   {
+    "title": "ANF: One person killed and 2 injured in Turkish drone attack on Çemçemal",
+    "url": "https://english.anf-news.com/news/-65965"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-04-03",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Dawidkê mountain near Erdêl village, Sheladizê",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.78,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that, according to Community Peacemaker Teams, Arif Umer (40) and Ahmet Hasan (35), who had gone to Dawidkê mountain on 3 April to gather wild beets, were killed in a Turkish airstrike; their bodies were found near Erdêl village 11 days later.",
+  "sources": [
+   {
+    "title": "ANF: Two citizens from Sheladizê killed in Turkish state bombing",
+    "url": "https://english.anf-news.com/news/-66632"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-05",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Ain Dara village, Shera, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.46,
+  "lon": 36.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "650 pomegranate trees cut; 2,124 olive and pomegranate trees cut across Afrin in May",
+  "summary": "ANF reported that the Turkish-backed al-Hamzat faction cut 650 pomegranate trees in Ain Dara, part of 2,124 olive and pomegranate trees cut in occupied Afrin in May 2023.",
+  "sources": [
+   {
+    "title": "ANF: 650 pomegranate trees cut down in Turkish occupied Afrin",
+    "url": "https://english.anf-news.com/news/-67662"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2023-06-04",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qelereş valley, Sharbajêr",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.85,
+  "lon": 45.45,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that a Turkish armed drone attacked two people on motorcycles near the Qelereş valley in Sharbajêr, killing one and injuring the other.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone attack kills one person and injures another in Sulaymaniyah region",
+    "url": "https://english.anf-news.com/news/-67597"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-07",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Xûlepûr and other villages, Hizan",
+  "governorate": "Bitlis",
+  "country": "Turkey",
+  "lat": 38.225,
+  "lon": 42.426,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of hazelnut, walnut and apple trees uprooted; 30 decares razed",
+  "summary": "ANF reported that during a five-day military curfew on ten villages in Hizan, Turkish state forces used heavy machinery to uproot hundreds of trees; one Xûlepûr villager said 30 decares of his orchards were razed.",
+  "sources": [
+   {
+    "title": "ANF: Turkish state forces uproot hundreds of trees during curfew in Bitlis countryside",
+    "url": "https://english.anf-news.com/news/-68232"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2023-08-06",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Çemankê, Garê area",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.3,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish strike hit a vehicle carrying three men home to their village in Çemankê, killing Alan Ismail from Xelata village and seriously injuring another.",
+  "sources": [
+   {
+    "title": "ANF: A civilian killed, another seriously injured in Turkish attack in Çemankê",
+    "url": "https://english.anf-news.com/news/-68678"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2023-09-07",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Shehba Dam",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.36,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Material damage to the dam",
+  "summary": "ANF reported that a Turkish armed drone struck the Shehba Dam, causing material damage.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone strikes the Shehba Dam",
+    "url": "https://english.anf-news.com/news/-69193"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2023-09-17",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qamişlo–Amûdê road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.08,
+  "lon": 41.08,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 8,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that a Turkish drone hit an Internal Security Forces vehicle on the way from Qamişlo to Amûdê, killing two members; when people rushed to help, the same spot was struck again, injuring eight civilians.",
+  "sources": [
+   {
+    "title": "ANF: Two killed, eight injured in Turkish drone attacks in Qamishlo",
+    "url": "https://english.anf-news.com/news/-69376"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-10-09",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Ain Issa town",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.861,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish heavy artillery hit homes in Ain Issa, killing two children, Ali Ahmed Al-Ayash (9) and Nadia Mohsen Al-Ayash (10).",
+  "sources": [
+   {
+    "title": "ANF: Two children martyred, five women wounded by Turkish attacks on North-East Syria today",
+    "url": "https://english.anf-news.com/news/-69733"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-10-09",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Cotton field in Bişêriyê (al-Bashiriya) village, east of Zirgan",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.0,
+  "lon": 40.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish shelling with artillery and tanks hit cotton pickers in Bişêriyê village, injuring five women, who were named.",
+  "sources": [
+   {
+    "title": "ANF: 5 women injured in Turkish bombing of cotton field near Zirgan",
+    "url": "https://english.anf-news.com/news/-69721"
+   },
+   {
+    "title": "ANF: Two children martyred, five women wounded by Turkish attacks on North-East Syria today",
+    "url": "https://english.anf-news.com/news/-69733"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-10-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Maxmur (Makhmour) refugee camp",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 35.776,
+  "lon": 43.58,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that an air attack on the Martyr Rustem Cudi refugee camp in Maxmur injured a 50-year-old woman, Ayşe Muhammed Ahmed, six days after a Turkish strike on a mosque in the camp.",
+  "sources": [
+   {
+    "title": "ANF: Woman injured in airstrike on Maxmur Refugee Camp - NEW",
+    "url": "https://english.anf-news.com/news/-69789"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-10-27",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Azadî neighbourhood, Dêrik (al-Malikiyah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.175,
+  "lon": 42.141,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish shelling hit a house in the Azadî neighbourhood of Dêrik, injuring 11-year-old Ehmed Şahîn and 39-year-old Evîn Xelîl.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombing injures a child and a woman in Dêrik",
+    "url": "https://english.anf-news.com/news/-70019"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-11-06",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Boskênî village, Ranya",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.257,
+  "lon": 44.883,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the village head via RojNews, reported that a Turkish combat drone strike in Boskênî, Ranya, injured at least three people, a passer-by and two shop workers.",
+  "sources": [
+   {
+    "title": "ANF: Three injured in Turkish drone attack in Ranya",
+    "url": "https://english.anf-news.com/news/-70178"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-11-23",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Amûdê",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.103,
+  "lon": 40.93,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that, according to the Amûdê District Council, a Turkish drone struck a car in Amûdê, killing Ciwan Mihemed and injuring Munîr Ebid Faris and Ronak Silêman Mihemed.",
+  "sources": [
+   {
+    "title": "ANF: One killed, two injured in Turkish aerial attack in Amude",
+    "url": "https://english.anf-news.com/news/-70454"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-02-29",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Chicken farm in Tehan village, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 37.1,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish shelling of a chicken farm in Tehan village killed 30-year-old Yûsêf Heyak, wounded 16-year-old Ebdurrehman Heyat and killed hundreds of chickens.",
+  "sources": [
+   {
+    "title": "ANF: A villager killed, a child wounded in Turkish attack on Shehba",
+    "url": "https://english.anf-news.com/news/-72011"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-04-13",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Gelale village, Sharbajêr, Asos area",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.95,
+  "lon": 45.35,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the YRK, reported that a Turkish strike (warplanes according to the YRK, a drone according to other reports) hit three houses in Gelale village on the anniversary of the Anfal, killing a young man named Muhammed Seyit who had come to help his family, and destroying the houses.",
+  "sources": [
+   {
+    "title": "ANF: YRK: Turkish attack killed a young Kurdish man in Asos region",
+    "url": "https://english.anf-news.com/news/-72782"
+   },
+   {
+    "title": "ANF: UCAV attack kills a young man in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-72768"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-04-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Road near Ênbetê (Ayn al-Batt), east of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 38.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing Ronahî TV, reported that a Turkish drone struck the car of a married couple near Ênbetê, critically injuring Halime Mihemed Osman, spokeswoman of the Sara organisation against violence against women, and injuring her husband Elî Mistefa Osman.",
+  "sources": [
+   {
+    "title": "ANF: Couple injured in Turkish drone attack in Kobanê",
+    "url": "https://english.anf-news.com/news/-72845"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-05-11",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "al-Ulshlî to al-Boxaz villages, west of Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.52,
+  "lon": 37.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "200 ha of land and 3,000 olive trees burned",
+  "summary": "ANF reported that the Turkish army and allied factions set fire to pasture, forest and fields west of Manbij overnight, burning 200 hectares and 3,000 olive trees.",
+  "sources": [
+   {
+    "title": "ANF: Invaders burn down 200 hectares of land and 3,000 olive trees in Manbij",
+    "url": "https://english.anf-news.com/news/-73222"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-05-14",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Mişêrfê to Teanê villages, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "20 ha of fields burned",
+  "summary": "ANF reported that Turkish shelling of Shehba villages started fires in cultivated fields that spread from Mişêrfê to Teanê, burning 20 hectares.",
+  "sources": [
+   {
+    "title": "ANF: 20 hectares of fields burned by Turkish bombardment in Shehba",
+    "url": "https://english.anf-news.com/news/-73266"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-05-18",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Simûqa, Til Medîq, Til Cîcan and Um Hoş villages, Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish howitzer and mortar fire on Shehba villages and the Shehba dam hit children grazing animals, injuring four; 13-year-old Faris Ibrahim died the next day.",
+  "sources": [
+   {
+    "title": "ANF: Turkish shelling injures four children in Shehba",
+    "url": "https://english.anf-news.com/news/-73327"
+   },
+   {
+    "title": "ANF: 13-year-old seriously wounded in Turkish attack in Shehba, dies",
+    "url": "https://english.anf-news.com/news/-73341"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-05-23",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Jat, Ewn Dadat and Toxar villages, Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.6,
+  "lon": 37.95,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the Manbij Military Council, reported that at least 24 mortar rounds from the Turkish army and allied factions hit populated villages north of Manbij, killing a woman.",
+  "sources": [
+   {
+    "title": "ANF: Intense shelling by occupation forces kills a woman in Manbij",
+    "url": "https://english.anf-news.com/news/-73406"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-05-25",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Qirtwêrana Mezin, Qirtwêrana Biçûk and Yalnî villages, Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.58,
+  "lon": 37.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "1,500 ha of farmland and over 18,000 olive trees burned on the Manbij front lines",
+  "summary": "ANF Kurmanji reported that fires set by Turkish-backed factions on the Manbij front had burned 1,500 hectares of farmland and over 18,000 olive trees, including 500 hectares and 8,000 olive trees around Qirtwêrana and Yalnî.",
+  "sources": [
+   {
+    "title": "ANF: Li Minbicê hezar û 500 hektar erd û 18 hezar darên zeytûnê hatin şewitandin",
+    "url": "https://kurmanci.anf-news.com/rojava-sUriye/-183828"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-05-31",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Henwa and Selmase villages, Til Hemîs",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.8,
+  "lon": 41.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 11,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish drones bombed two villages in Til Hemîs and struck again when residents came to help the injured, wounding 11 civilians including women and children, mostly from the Al Musa family.",
+  "sources": [
+   {
+    "title": "ANF: Identities of 9 of the 11 civilians injured in Turkish drone attacks on Til Hemis published",
+    "url": "https://english.anf-news.com/news/-73555"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-06",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Ramedana (Cindirês), Hawar mountain forest and Dîkê (Raco), Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.55,
+  "lon": 36.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "~150 decares burned at Ramedana; ~150 ha of Hawar mountain forest burned; over 1,000 olive trees destroyed in Dîkê",
+  "summary": "ANF, citing the Afrin Human Rights Organization, reported that the Turkish state and allied factions set fires that burned about 150 decares at Ramedana, about 150 hectares of Hawar mountain forest and over 1,000 olive trees in Dîkê.",
+  "sources": [
+   {
+    "title": "ANF: Turkish-linked mercenaries burn forests and olive trees in Afrin",
+    "url": "https://english.anf-news.com/news/-73688"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-07-12",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Lolan plateau and Shekiwyan mountain, Bradost",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.85,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing RojNews, ANF reported that Turkish shelling of the Lolan plateau and Shekiwyan mountain in Bradost wounded two villagers, whom medics could not reach.",
+  "sources": [
+   {
+    "title": "ANF: Two wounded as Turkey bombs civilian settlements in Bradost",
+    "url": "https://english.anf-news.com/news/-74241"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-07-15",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Afrin and Shehba (occupied Afrin)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.512,
+  "lon": 36.869,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of olive trees cut down",
+  "summary": "ANF, citing local sources, reported that the Turkish-backed 'Al Muntesir Billah' faction cut down hundreds of olive trees belonging to local people in occupied Afrin and Shehba.",
+  "sources": [
+   {
+    "title": "ANF: A civilian kidnapped, hundreds of trees cut down in Turkish-occupied Afrin",
+    "url": "https://english.anf-news.com/news/-74316"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-07-18",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Outskirts of Şêladizê, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.785,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone struck near Şêladizê, killing Osman Rijdi Mîrweysiye (32), a beekeeper and retired Peshmerga, according to Community Peacemaker Teams.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone kills a civilian in Şêladize - UPDATE",
+    "url": "https://english.anf-news.com/news/-74338"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-07-23",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Edamo, Elbîskê and Bilîlko villages, Raco, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.66,
+  "lon": 36.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 25,000 olive, cherry, walnut and pine trees burned; 2,550 fruit trees documented in Bilîlko alone",
+  "summary": "Citing ANHA, ANF reported that Turkish forces and allied factions set fire to fields in three Raco villages; the fire spread towards Bilbilê and burned about 25,000 trees, 2,550 of them documented by owner in Bilîlko.",
+  "sources": [
+   {
+    "title": "ANF: 25 thousand trees burnt as occupation forces set fire to fields in villages of Afrin",
+    "url": "https://english.anf-news.com/news/-74444"
+   },
+   {
+    "title": "ANF: More than 2,550 fruit trees burned by Turkey-backed mercenaries in a village of Afrin",
+    "url": "https://english.anf-news.com/news/-74628"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-07-27",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Tuteqel (Tutaqal) village, Çemçemal",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.6,
+  "lon": 44.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fire spread through the village and surrounding area",
+  "summary": "ANF reported that a Turkish armed drone bombed the area around Tuteqel village, starting a fire that spread while people could not reach the village to put it out for fear of further strikes.",
+  "sources": [
+   {
+    "title": "ANF: Turkey bombs village in Çemçemal, fire erupts",
+    "url": "https://english.anf-news.com/news/-74487"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-07-31",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Bênê village, Shêrawa, Afrin",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.44,
+  "lon": 37.03,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that the Turkish army and allied factions shelled Bênê village with howitzers, wounding Mihemed Abu El Rehim and his child.",
+  "sources": [
+   {
+    "title": "ANF: Two civilians wounded in attack on a village of Afrin",
+    "url": "https://english.anf-news.com/news/-74545"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-08",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Bêtkar area, Uludere, and Beytüşşebap countryside",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.44,
+  "lon": 42.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "600-700 tonnes of trees cut per day",
+  "summary": "ANF reported that village guards under military supervision were cutting 600-700 tonnes of trees a day in Uludere's Bêtkar area for 'fortress construction', using around 40 tractors, and that logging had spread to Beytüşşebap.",
+  "sources": [
+   {
+    "title": "ANF: Hundreds of tonnes of trees cut down in Şırnak countryside every day",
+    "url": "https://english.anf-news.com/news/-74582"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-09-03",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Mêrge Hewş village, Sîdekan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.804,
+  "lon": 44.663,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Community Peacemaker Teams said a Turkish bombardment of Mêrge Hewş village killed a young woman, Bedia Kemal Muhammed.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills a woman in Sîdekan",
+    "url": "https://english.anf-news.com/news/-75125"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-09-05",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Near Chwarta, Sharbajêr",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.718,
+  "lon": 45.57,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Citing RojNews, ANF reported that a Turkish combat drone struck a car near Chwarta sub-district at noon, killing three people, a day after a drone strike near Dukan killed a father and his two sons.",
+  "sources": [
+   {
+    "title": "ANF: Yet another attack by the Turkish state in Sulaymaniyah leaves 3 dead",
+    "url": "https://english.anf-news.com/news/-75150"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-09-11",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Hisha drinking water station, Hedriyat village, east of Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.36,
+  "lon": 38.92,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "50 villages left without water",
+  "summary": "ANF reported that Turkish shelling of Hedriyat and Fatsa villages hit the Hisha drinking water station, leaving 50 villages without water.",
+  "sources": [
+   {
+    "title": "ANF: 50 villages left without water as Turkey bombs civilian infrastructure east of Ain Issa",
+    "url": "https://english.anf-news.com/news/-75260"
+   },
+   {
+    "title": "ANF: Turkey bombs a water station in Ain Issa",
+    "url": "https://english.anf-news.com/news/-75257"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-10-03",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qamişlo–Amûdê road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.08,
+  "lon": 41.08,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that, according to the Internal Security Forces, a Turkish strike hit a vehicle on the Qamişlo–Amûdê road and a second strike hit it again after it left the road, killing two people inside.",
+  "sources": [
+   {
+    "title": "ANF: 2 killed in Turkish airstrike on the Qamişlo-Amûdê road",
+    "url": "https://english.anf-news.com/news/-75625"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-10-10",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Tehna Mezin village, Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.55,
+  "lon": 37.9,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that an attack by the Turkish army and allied factions on Tehna Mezin village killed brothers Casim (9) and Ebdo (5) Cuma El Casim and seriously injured three cousins.",
+  "sources": [
+   {
+    "title": "ANF: Turkish attack kills 2 children and wounds 3 others in Manbij",
+    "url": "https://english.anf-news.com/news/-75719"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-10-20",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "al-Fatsa village, Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.38,
+  "lon": 38.92,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish army mortar fire killed three 13-year-old boys, Muslit Zaki, Resûl Munadî and Feysel Xazî El-Xedîp, while they grazed sheep in al-Fatsa village.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombardment kills 3 children in Ain Issa",
+    "url": "https://english.anf-news.com/news/-75893"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-10-25",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Bineye village, Manbij",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.55,
+  "lon": 37.92,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish bombardment of a family home in Bineye village killed 11-year-old Ferha Alberho and injured two other children.",
+  "sources": [
+   {
+    "title": "ANF: Turkey targets a house in Manbij, killing a child and wounding two others",
+    "url": "https://english.anf-news.com/news/-75977"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-11-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Shengal, on the road to Serdesht",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.35,
+  "lon": 41.86,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone hit a car in Shengal, killing its driver, Kerim Hecî Şero, a young Yazidi from Sinûnê who was on his way to the Serdesht area.",
+  "sources": [
+   {
+    "title": "ANF: Young Yazidi man martyred in Turkish airstrike in Shengal",
+    "url": "https://english.anf-news.com/news/-76270"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-02",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Qamişlo–Hesekê highway",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 41.05,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone killed 20-year-old Ezîz Selahedîn Şêxo on the highway between Qamişlo and Hesekê.",
+  "sources": [
+   {
+    "title": "ANF: 2 killed, 2 seriously wounded UCAV attack in Derik - UPDATE",
+    "url": "https://english.anf-news.com/news/-76663"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-04",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Dêrik (al-Malikiyah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.175,
+  "lon": 42.141,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 2,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone attack in Dêrik killed two people and seriously wounded two others, who were taken to hospital in Qamişlo.",
+  "sources": [
+   {
+    "title": "ANF: 2 killed, 2 seriously wounded UCAV attack in Derik - UPDATE",
+    "url": "https://english.anf-news.com/news/-76663"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-08",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "El Mustareha village, west of Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.39,
+  "lon": 38.8,
+  "precision": "approximate",
+  "killed": 12,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing ANHA, ANF reported that a Turkish armed drone struck El Mustareha village at around 11pm, killing 12 civilians, mostly women and children.",
+  "sources": [
+   {
+    "title": "ANF: Turkey carries out armed drone attack in Ain Issa, killing 12 civilians",
+    "url": "https://english.anf-news.com/news/-76756"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-09",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Kuneftar village, Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 38.4,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone attack on Kuneftar village in Kobanê killed two children.",
+  "sources": [
+   {
+    "title": "ANF: Turkish UCAV attack kills 2 children in Kobanê",
+    "url": "https://english.anf-news.com/news/-76764"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-09",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Mihermela and Hermel villages, Zirgan",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.95,
+  "lon": 40.65,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish combat drones bombed farmers working their fields in Mihermela and Hermel villages near Zirgan, killing one civilian and wounding two, including Mihemed Hesen Hesen (45).",
+  "sources": [
+   {
+    "title": "ANF: One civilian killed, two others wounded in Turkish UCAV attack in Zirgan",
+    "url": "https://english.anf-news.com/news/-76760"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Sefiya village, Ain Issa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 38.85,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone struck Sefiya village near Ain Issa, killing eight members of one family, including two children, Casim and Husam Silêman.",
+  "sources": [
+   {
+    "title": "ANF: Turkish state commits another massacre in Ain Issa, killing 8 people from the same family",
+    "url": "https://english.anf-news.com/news/-76786"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-21",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Hesekê–Til Berak road",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.75,
+  "lon": 40.95,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish combat drone bombed a civilian vehicle on the road between Hesekê and Til Berak, killing three people and injuring one.",
+  "sources": [
+   {
+    "title": "ANF: Turkish UCAV bombs a vehicle in Cizire Canton, killing 3, injuring 1 - UPDATE",
+    "url": "https://english.anf-news.com/news/-77001"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2024-12-21",
+  "actor": "Turkey",
+  "category": "agriculture",
+  "place": "Grain silos on the Sirrîn road, south of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.66,
+  "lon": 38.28,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "300 tonnes of stored wheat burned",
+  "summary": "ANF Kurmanji reported that a Turkish drone bombed the grain silos on the Sirrîn road, burning 300 tonnes of stored wheat.",
+  "sources": [
+   {
+    "title": "ANF: Di bombebarana dewleta Tirk a dagirker de 300 ton genim şewitî",
+    "url": "https://kurmanci.anf-news.com/rojava-sUriye/-191755"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2024-12-22",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Ja'ada village, south of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.78,
+  "lon": 38.35,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish heavy artillery hit Ja'ada village south of Kobanê, killing 12-year-old Nasîm Xelîl and her mother Sewsen Xelîl (35).",
+  "sources": [
+   {
+    "title": "ANF: A child and her mother martyred in Turkish shelling in Kobani countryside",
+    "url": "https://english.anf-news.com/news/-77025"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-01-27",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Chwarqurna sub-district, Ranya",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.212,
+  "lon": 44.827,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing RojNews and an eyewitness, reported that a Turkish combat drone hit a civilian vehicle in Chwarqurna, killing four people and wounding one. The YRD later said Kurdish journalist Aziz Köylüoğlu was killed in a Turkish drone attack in Ranya that day.",
+  "sources": [
+   {
+    "title": "ANF: Turkish UCAV hits a civilian car in Ranya, killing 4",
+    "url": "https://english.anf-news.com/kurdistan/-77655"
+   },
+   {
+    "title": "ANF: Kurdish journalist Aziz Köylüoğlu killed in Turkish drone attack in South Kurdistan",
+    "url": "https://english.anf-news.com/news/-77843"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-02-02",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Ashme village, west of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 10,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Turkish bombing of a house in Ashme village injured ten members of one family, seven of them children aged one to 13.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombing of house in Kobanê leaves 7 children and 3 adults injured",
+    "url": "https://english.anf-news.com/news/-77745"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-02-02",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Drinking water station, Şiyûxa Jorîn village, Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.83,
+  "lon": 38.08,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Station destroyed; over 200,000 people left without water",
+  "summary": "ANF reported that a Turkish airstrike destroyed the water station at Şiyûxa Jorîn that supplies Kobanê city and countryside; the Euphrates Canton water department said over 200,000 people would be left without water.",
+  "sources": [
+   {
+    "title": "ANF: War crime: Turkey bombs water station in Kobanê",
+    "url": "https://english.anf-news.com/news/-77763"
+   },
+   {
+    "title": "ANF: Turkish attack in Kobanê leaves over 200,000 people without water",
+    "url": "https://english.anf-news.com/news/-77767"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-02-08",
+  "actor": "Turkey",
+  "type": "artillery",
+  "place": "Xatûniyê village, Tabqa",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.9,
+  "lon": 38.45,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that heavy-weapons fire by the Turkish state and allied factions on Curniye mountain and nearby villages killed Mihemed Murad from Xatûniyê.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombing kills a civilian in Tabqa",
+    "url": "https://english.anf-news.com/news/-77858"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-02-08",
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Aşmê Iwêna village, south of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.8,
+  "lon": 38.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 9,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish bombing of Aşmê Iwêna village south of Kobanê injured nine civilians, seven of them children.",
+  "sources": [
+   {
+    "title": "ANF: Turkish bombing kills a civilian in Tabqa",
+    "url": "https://english.anf-news.com/news/-77858"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-03-10",
+  "actor": "Turkey",
+  "type": "drone",
+  "place": "Gerraf village, Sirrîn",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.66,
+  "lon": 38.28,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that Turkish combat drones struck Gerraf village in Sirrîn, killing 13-year-old Fewaz Mistefa Îbrahîm and wounding two boys aged 9 and 13.",
+  "sources": [
+   {
+    "title": "ANF: Turkish drone attack kills a child, injures two others near Kobanê",
+    "url": "https://english.anf-news.com/news/-78330"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-06",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Kiwex (Yazidi village), İdil",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.34,
+  "lon": 41.89,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported that building a new military post at the entrance of the historic Yazidi village of Kiwex involved large-scale tree clearing in the adjacent forest, partly on private land.",
+  "sources": [
+   {
+    "title": "ANF: Deforestation for the construction of a military post in Yazidi village in İdil sparks protests",
+    "url": "https://english.anf-news.com/news/-79965"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-07",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Hizan, Tatvan and Oleka Jor, Bitlis",
+  "governorate": "Bitlis",
+  "country": "Turkey",
+  "lat": 38.4,
+  "lon": 42.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "40% of Bitlis forest lost over about seven years of cutting",
+  "summary": "ANF reported that about seven years of tree cutting under the pretext of 'security', later taken over by companies, had destroyed 40% of the forest in Bitlis, with trees uprooted by excavators.",
+  "sources": [
+   {
+    "title": "ANF: 40% of forested area gone in Bitlis",
+    "url": "https://english.anf-news.com/news/-80487"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-09",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Besta, Gabar and Cudi villages",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.52,
+  "lon": 42.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "14% of Şırnak's forest cover lost",
+  "summary": "ANF reported that village guards, supervised by soldiers and with the governor's permission, kept cutting villagers' orchards in Besta, Gabar and Cudi, threatening owners who objected; it said 14% of the province's forest cover had been lost.",
+  "sources": [
+   {
+    "title": "ANF: Village guards cut down people’s orchards, and threatened them with guns",
+    "url": "https://english.anf-news.com/news/-81285"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2026-05",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Koskê village, Kobanê border",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.3,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Citing ANHA, ANF reported that Turkish soldiers opened fire on 44-year-old Îbrahîm Sebrî while he irrigated his field in Koskê village, killing him at the scene.",
+  "sources": [
+   {
+    "title": "ANF: Man from Kobanê killed by Turkish soldiers while irrigating his field",
+    "url": "https://english.anf-news.com/news/-85337"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-06-02",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Şax (Çağlayan) and Hebler (Hisar) villages, Cizre",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.332,
+  "lon": 42.185,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Fire reached the first-degree protected archaeological site around Şax castle",
+  "summary": "ANF reported that artillery fire from a Turkish military outpost in Hebler village started a fire that spread into the protected archaeological site around Şax castle until locals put it out.",
+  "sources": [
+   {
+    "title": "ANF: Artillery fire from military outpost starts fire in Cizre countryside",
+    "url": "https://english.anf-news.com/news/-85663"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Xoşnav village, Rûbarok (Derecik), Hakkari",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.081,
+  "lon": 44.312,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Thousands of trees cut over three months",
+  "summary": "ANF Kurmanji reported that village guards had cut thousands of trees around Xoşnav village over three months during mining exploration work, taking the wood to military areas in Şemdinli.",
+  "sources": [
+   {
+    "title": "ANF: Li Rûbarokê qirkirina daran didome: Bi hezaran dar hatin birîn",
+    "url": "https://kurmanci.anf-news.com/civak-ekolojI/-214582"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-20",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Sipiyero village, Dola Lîna, Qandil",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.3,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF, citing the Qeladizê emergency service via RojNews, reported that Iran's Revolutionary Guards attacked shepherd Wisû Hesen (29) while he grazed his flock near Sipiyero village, wounding him; another Qandil shepherd had been killed in an IRGC attack the week before.",
+  "sources": [
+   {
+    "title": "ANF: Shepherd wounded in attack by Iranian forces in Qandil",
+    "url": "https://english.anf-news.com/news/-86387"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-22",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Dola Alane camp (Komala families), Xelîfan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.6,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that two rockets, believed fired from Iran, hit the Dola Alane camp in Xelîfan, which houses families of members of the Komala of the Toilers of Kurdistan, injuring four people, one critically.",
+  "sources": [
+   {
+    "title": "ANF: Four injured in rocket attack on Dola Alane camp in Xelîfan",
+    "url": "https://english.anf-news.com/news/-86433"
+   },
+   {
+    "title": "Nûçe TV: Êrîşên bi dron û mûşekan li ser Hewlêr û Soranê didomin",
+    "url": "https://nucetv.net/erisen-bi-dron-u-musekan-li-ser-hewler-u-sorane-didomin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Kêste village and Berwarî Bala area, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.22,
+  "lon": 43.3,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Trees cut over a large area; more than 250 truckloads of felled trees taken to Turkey in 10 days",
+  "summary": "ANF reported that trees cut over a large area around Kêste village were being trucked to Turkey under Turkish army supervision, and that Turkish companies had moved felled trees out of Berwarî Bala in more than 250 trucks in ten days.",
+  "sources": [
+   {
+    "title": "ANF: Trees cut down in Amadiya are being transported to Turkey",
+    "url": "https://english.anf-news.com/news/-87374"
+   },
+   {
+    "title": "ANF: Turkish companies accelerate tree cutting in the Behdînan region",
+    "url": "https://english.anf-news.com/news/-87518"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Besta region (Çemê Tahlo area)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.65,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of trees cut at Çemê Tahlo; tonnes of logs felled in February trucked out",
+  "summary": "ANF, citing Mezopotamya Agency, reported that tonnes of trees felled in Besta in February were being trucked out past military checkpoints, and that village guards from Siirt's Pervari district were cutting hundreds more trees at Çemê Tahlo under soldiers' supervision.",
+  "sources": [
+   {
+    "title": "ANF: Tons of felled trees transported out of Besta by trucks",
+    "url": "https://english.anf-news.com/news/-87398"
+   },
+   {
+    "title": "ANF: Tree felling by village guards in Besta",
+    "url": "https://english.anf-news.com/news/-87634"
+   }
+  ],
+  "kind": "eco"
+ }
+]

@@ -1,0 +1,1270 @@
+[
+ {
+  "date": "2017-07-03",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Balakayati / Haji Omaran border villages (Kuna Re, Kifarstan, Gunda Zhur), Choman District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.65,
+  "lon": 44.95,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 3,
+  "civilian": null,
+  "summary": "Iranian forces fired heavy artillery (a farmer estimated nearly 1,000 shells) and DShK fire at border villages, citing PDKI and Komala presence. One woman herder and two Komala fighters were lightly wounded.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian shelling of Haji Omaran and Choman border areas",
+    "url": "https://www.rudaw.net/english/kurdistan/03072017"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2018-09-08",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "KDPI/PDKI headquarters, Koya (Koysinjaq), Koya District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": 14,
+  "injured": 42,
+  "civilian": false,
+  "summary": "The IRGC fired seven Fateh-110 short-range ballistic missiles, with drone support, at the KDPI headquarters in Koya during a central committee meeting. Reported deaths range from 11 (Koya hospital) to 14 (party tally) to 16; about 30-48 were wounded, and an adjacent refugee camp was reportedly hit.",
+  "sources": [
+   {
+    "title": "Al Jazeera - '11 dead' after rockets hit Iranian Kurdish offices in Iraq",
+    "url": "https://www.aljazeera.com/amp/news/2018/09/dead-rockets-hit-iranian-kurdish-offices-iraq-180908132528313.html"
+   },
+   {
+    "title": "CSIS Missile Threat - IRGC Attacks Kurdish Opposition in Iraq",
+    "url": "https://missilethreat.csis.org/igrc-attacks-kurdish-opposition-in-iraq/"
+   },
+   {
+    "title": "Airwars - Incident IRI001, September 8, 2018",
+    "url": "https://airwars.org/incidents/iri001-september-8-2018"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-07-10",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Dere village / Barbazin heights, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.8,
+  "lon": 44.66,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": true,
+  "summary": "Iranian artillery shelled the Barbazin heights and Dere village area of Sidakan, killing 18-year-old Zaitwn Qadir and badly wounding her two brothers, according to Sidakan's mayor. Airwars notes ANF also blamed Turkey for strikes in the area that day.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian shelling kills girl in Sidakan",
+    "url": "https://rudaw.net/english/kurdistan/100720192"
+   },
+   {
+    "title": "Al-Monitor - Iran, Turkey shelling in Iraqi Kurdistan",
+    "url": "https://www.al-monitor.com/originals/2019/07/iraq-iran-kurdistan-turkey.html"
+   },
+   {
+    "title": "Airwars - Incident TI024a/IRI002, July 10, 2019",
+    "url": "https://airwars.org/incidents/ti024a-iri002-july-10-2019"
+   },
+   {
+    "title": "ANF: Iran hit Bradost: One dead and two injured",
+    "url": "https://english.anf-news.com/kurdistan/-36173"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2019-07-11",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Alana area, Haji Omaran sub-district, Choman District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.68,
+  "lon": 45.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "summary": "A second day of Iranian shelling hit the Alana area and villages of Haji Omaran. Residents said it displaced families and damaged orchards and crops.",
+  "sources": [
+   {
+    "title": "Rudaw - Second day of Iranian shelling pummels northeastern Erbil province",
+    "url": "https://rudaw.net/english/kurdistan/110720191"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2020-10-29",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Katina, Barbzin and Bnaparez villages, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.8,
+  "lon": 44.68,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Iranian artillery shelled villages on the outskirts of Sidakan, with drones hovering afterwards. No casualties were reported.",
+  "sources": [
+   {
+    "title": "Rudaw - Iran shells border villages in Erbil province",
+    "url": "https://www.rudaw.net/english/middleeast/iran/291020201"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2021-09-09",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Sidakan and Choman border areas",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.797,
+  "lon": 44.672,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "From 9 September 2021 the IRGC attacked KDPI positions around Sidakan with suicide drones, artillery and Katyusha rockets; the KDPI said 16 drones were used (4 shot down). The KDPI reported material damage to civilian property; no deaths were confirmed.",
+  "sources": [
+   {
+    "title": "Rudaw - KDPI says it downed Iranian drones as IRGC bombs Sidakan",
+    "url": "https://rudaw.net/english/kurdistan/130920213"
+   },
+   {
+    "title": "Middle East Eye - Iran launches air strikes on Kurdish separatist group in northern Iraq",
+    "url": "https://www.middleeasteye.net/news/iran-iraq-strike-kurdish-separatist-kdpi"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-03-13",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Near new US consulate compound (Baz Karim Barzinji villa), northeastern Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.243,
+  "lon": 44.064,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 2,
+  "civilian": true,
+  "summary": "The IRGC fired about 12 ballistic missiles at Erbil, claiming an Israeli 'strategic centre'; at least four hit the villa of KAR Group CEO Baz Karim Barzinji. A guard and a passing taxi driver were injured and about 100 homes and shops damaged; an Iraqi parliamentary committee found no evidence of an Israeli site.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian ballistic missiles damage civilian houses in Erbil",
+    "url": "https://www.rudaw.net/english/kurdistan/130320224"
+   },
+   {
+    "title": "USIP Iran Primer - Iran Launches Missiles on Iraq",
+    "url": "https://iranprimer.usip.org/node/10246"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-05-11",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Barbzin heights, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.8,
+  "lon": 44.66,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "The IRGC shelled the Barbzin heights in Sidakan, saying it targeted 'terrorist bases'. The Sidakan mayor said uninhabited areas were hit, with no casualties.",
+  "sources": [
+   {
+    "title": "Rudaw - Iran bombards Erbil's Sidakan area",
+    "url": "https://manage.rudaw.net/english/kurdistan/11052022"
+   },
+   {
+    "title": "Iran Watch (Reuters) - Revolutionary Guards shell militant bases north of Erbil",
+    "url": "https://www.iranwatch.org/node/11962"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-09-24",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Rashkin, Darhol and Binpareza villages, Sidakan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.79,
+  "lon": 44.7,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Three consecutive days of IRGC shelling (24-26 Sept) hit villages around Sidakan, aimed at KDPI and Komala. No casualties were reported, but about 100 families were affected and the mayor later said six villages were abandoned.",
+  "sources": [
+   {
+    "title": "Rudaw - Locals in Sidakan decry third consecutive day of Iranian shelling",
+    "url": "https://www.rudaw.net/english/kurdistan/26092022"
+   },
+   {
+    "title": "Rudaw - Six villages abandoned in Sidakan due to recent bombardments",
+    "url": "https://rudaw.net/english/kurdistan/051020221"
+   },
+   {
+    "title": "Human Rights Watch (via ecoi.net) - Iraq: Iran Attacks Kill Civilians in Kurdistan Region",
+    "url": "https://www.ecoi.net/de/dokument/2080527.html"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-09-28",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "KDPI offices, refugee settlement and school, Koya (with simultaneous strikes elsewhere)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": 13,
+  "injured": 58,
+  "civilian": true,
+  "summary": "The IRGC launched dozens of ballistic missiles and suicide drones at Iranian Kurdish party sites in Koya, Zrgwez, Altun Kupri/Pirde and elsewhere. Kurdish counter-terrorism officials said 13 people were killed (Airwars: 13-18) and 58 wounded, mostly civilians; in Koya a refugee-settlement school was hit and pregnant Rehana Kanaani and her newborn son died. The totals cover all 28 Sept sites.",
+  "sources": [
+   {
+    "title": "Airwars - Civilian casualties, Iranian strikes 28 Sept 2022 (IRI004)",
+    "url": "https://airwars.org/?p=85489"
+   },
+   {
+    "title": "Human Rights Watch (via JURIST) - Iran forces attacked and killed civilians in Kurdistan region of Iraq",
+    "url": "https://www.jurist.org/news/2022/10/hrw-iran-forces-attacked-and-killed-civilians-in-kurdistan-region-of-iraq/"
+   },
+   {
+    "title": "AP (via KSAT) - Kurdish officials: death toll climbs in Iranian drone attack",
+    "url": "https://www.ksat.com/news/world/2022/09/28/kurdish-officials-death-toll-climbs-in-iranian-drone-attack/"
+   },
+   {
+    "title": "ANF: Iranian attacks on Southern Kurdistan result in deaths and injuries",
+    "url": "https://english.anf-news.com/kurdistan/-62752"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-09-28",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala offices, Zrgwez (Zargwezalla) residential complex",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": null,
+  "civilian": null,
+  "summary": "Komala said about 10 drones and missiles hit its offices in a complex housing Iranian Kurdish refugees, destroying a building. A Komala member told HRW no one was killed there; several members had shrapnel wounds. Casualties are counted in the 28 Sept Koya entry.",
+  "sources": [
+   {
+    "title": "Human Rights Watch (via ecoi.net) - Iraq: Iran Attacks Kill Civilians in Kurdistan Region",
+    "url": "https://www.ecoi.net/de/dokument/2080527.html"
+   },
+   {
+    "title": "Airwars - IRI004",
+    "url": "https://airwars.org/?p=85489"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-09-28",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK headquarters, Altun Kupri / Pirde",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 44.143,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "The Kurdistan Freedom Party (PAK) headquarters near Altun Kupri (Pirde) was bombed in the same IRGC operation. Kurdistan 24 correspondent Soran Kamran was reported seriously injured; casualties are counted in the 28 Sept Koya entry.",
+  "sources": [
+   {
+    "title": "Airwars - IRI004",
+    "url": "https://airwars.org/?p=85489"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-10-03",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Horani area and Sidekan/Balakayati villages, Soran District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.76,
+  "lon": 44.7,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "Iranian artillery continued shelling the Horani area and villages in the Sidekan and Balakayati sub-districts. No casualties were reported in this shelling; residents of six villages had fled.",
+  "sources": [
+   {
+    "title": "Middle East Monitor - Iran continues attack on Iraq's Kurdistan",
+    "url": "https://www.middleeastmonitor.com/20221004-iran-continues-missile-attack-on-iraqs-kurdistan/"
+   },
+   {
+    "title": "Rudaw - Six villages abandoned in Sidakan due to recent bombardments",
+    "url": "https://rudaw.net/english/kurdistan/051020221"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-14",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "KDPI headquarters and refugee camps, Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 10,
+  "civilian": null,
+  "summary": "The IRGC fired five ballistic missiles (reported as Fateh-110) at the KDPI headquarters and nearby camps in Koya, killing KDPI Peshmerga Rebwar Abdi and Aso Tawana; at least eight to ten were injured. Reuters, citing the mayor, reported one killed and 10 wounded.",
+  "sources": [
+   {
+    "title": "Hengaw - IRGC missile and drone attacks on Kurdish opposition parties in KRI",
+    "url": "https://hengaw.org/en/content/article-18163"
+   },
+   {
+    "title": "Reuters - Rocket attack near Iraq's Erbil kills one, wounds 10 - mayor",
+    "url": "https://www.reuters.com/world/middle-east/rocket-attack-near-iraqs-erbil-kills-one-wounds-10-mayor-2022-11-14/"
+   },
+   {
+    "title": "Airwars - Iranian strikes 14 Nov 2022",
+    "url": "https://airwars.org/?p=85380"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-14",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala headquarters, Zrgwez",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "Six suicide drones were launched at the Komala headquarters, four of which detonated and damaged property. No casualties were reported.",
+  "sources": [
+   {
+    "title": "Hengaw - IRGC missile and drone attacks on Kurdish opposition parties in KRI",
+    "url": "https://hengaw.org/en/content/article-18163"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "KDPI headquarters and adjacent refugee camp, Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "summary": "Missiles and drones launched from the IRGC's Hamza Sayyid al-Shuhada base hit the KDPI headquarters near Koya, with two missiles striking an adjacent refugee camp. KDPI Peshmerga Behzad Iskat was killed.",
+  "sources": [
+   {
+    "title": "Rudaw - Iran attacks KDPI and Komala bases",
+    "url": "https://rudaw.net/english/kurdistan/21112022"
+   },
+   {
+    "title": "Kurdistan24 - Iran again carries out attacks on Iranian Kurdish opposition parties",
+    "url": "https://www.kurdistan24.net/en/story/389996"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Jejnikan camp, Bahirka (Baharka)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.33,
+  "lon": 44.02,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "In the same operation, drones targeted the KDPI-linked Jejnikan camp near Baharka north of Erbil. The Erbil mayor said two drones crashed in the camp, causing no casualties.",
+  "sources": [
+   {
+    "title": "Kurdistan24 - Iran again carries out attacks on Iranian Kurdish opposition parties",
+    "url": "https://www.kurdistan24.net/en/story/389996"
+   },
+   {
+    "title": "Rudaw - Iran attacks KDPI and Komala bases",
+    "url": "https://rudaw.net/english/kurdistan/21112022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-20",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala base, Zrgwez",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Missiles and drones also hit the Komala party base in Zrgwez, Sulaimani province, in the same IRGC operation.",
+  "sources": [
+   {
+    "title": "Rudaw - Iran attacks KDPI and Komala bases",
+    "url": "https://rudaw.net/english/kurdistan/21112022"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2022-11-22",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK base, Pirde (Prde)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.756,
+  "lon": 44.143,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Iranian drones struck the Kurdistan Freedom Party (PAK) base in Pirde on the Erbil-Kirkuk border; IRGC-linked Telegram channels confirmed it. A PAK commander said casualty information was unclear.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian drones hit PAK base in Prde",
+    "url": "https://rudaw.net/english/kurdistan/221120221"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2024-01-15",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Home of Peshraw Dizayee, near new US consulate, Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.24,
+  "lon": 44.06,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": 6,
+  "civilian": true,
+  "summary": "The IRGC fired ballistic missiles at a home in Erbil, claiming a 'Mossad espionage centre'. Businessman Peshraw Dizayee, his 11-month-old daughter, his housekeeper and businessman Karam Mikhail were killed and six were injured; HRW found no evidence of a military target.",
+  "sources": [
+   {
+    "title": "Human Rights Watch - Iraq: Iranian Attack Kills Civilians in Erbil",
+    "url": "https://www.hrw.org/news/2024/01/22/iraq-iranian-attack-kills-civilians-erbil"
+   },
+   {
+    "title": "Rudaw - Who was the Kurdish businessman killed by Iranian missiles in Erbil?",
+    "url": "https://www.rudaw.net/english/kurdistan/160120249"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-02-28",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Erbil International Airport and US consulate area, Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.238,
+  "lon": 43.963,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "After US-Israeli strikes on Iran on 28 Feb 2026, the Kurdistan Region Counter-Terrorism Directorate said Iran launched drones and missiles at US sites including the consulate and Erbil airport, which was hit by more than ten attacks over two days; most were intercepted. Pro-Iran Iraqi groups also claimed attacks on Erbil.",
+  "sources": [
+   {
+    "title": "Rudaw - Harir air base in Erbil hit by two suspected drone attacks",
+    "url": "https://www.rudaw.net/english/kurdistan/01032026"
+   },
+   {
+    "title": "The New Arab - Erbil under the crossfire of the US-Israel war on Iran",
+    "url": "https://www.newarab.com/news/erbil-amid-crossfire-us-israel-war-iran"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-01",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Zwi Spi and Azadi camps (Koya), Zargwez (Sulaymaniyah) and other opposition sites",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Iranian drones and missiles hit headquarters of four Iranian Kurdish parties (PDKI, PAK, Komala and others) across the Kurdistan Region, including PDKI sites in Koya and Komala HQ in Zargwez. The PDKI said none of its members were killed.",
+  "sources": [
+   {
+    "title": "FDD Long War Journal - Kurdish Iranian opposition groups say Iran targeted them in northern Iraq",
+    "url": "https://www.longwarjournal.org/archives/2026/03/kurdish-iranian-opposition-groups-say-iran-targeted-them-in-northern-iraq-claim-operations-in-iran.php"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-03",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadi camp (KDPI families), Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 1,
+  "civilian": true,
+  "summary": "At least three Iranian drones hit the Azadi camp, the former home of KDPI members and families, injuring at least one person. The IRGC said it used about 30 drones against Kurdish opposition groups.",
+  "sources": [
+   {
+    "title": "The New Region - Drone attack on PAK base and Azadi camp in Koya",
+    "url": "https://thenewregion.com/posts/4742"
+   },
+   {
+    "title": "Rudaw - Iran, Iraqi proxies intensify attack on Kurdish opposition groups",
+    "url": "https://www.rudaw.net/english/kurdistan/03032026"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-04",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK base, Saqa cave, Degala, Koya District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.13,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": false,
+  "summary": "Three drones hit the Kurdistan Freedom Party (PAK) base in Koya's Saqa cave, killing PAK member Jalal Rashid (Kawan) and injuring one, according to the Degala sub-district mayor.",
+  "sources": [
+   {
+    "title": "The New Region - Drone attack on PAK base in Koya",
+    "url": "https://thenewregion.com/posts/4742"
+   },
+   {
+    "title": "HANA Human Rights - Six Peshmerga killed in Iranian drone and missile attacks",
+    "url": "https://hanahr.org/?p=95044"
+   },
+   {
+    "title": "Wladimir van Wilgenburg - Iran-linked attacks leave 21 dead in Kurdistan Region",
+    "url": "https://wladimirvanwilgenburg.substack.com/p/iran-linked-attacks-leave-21-dead"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-11",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala positions, Zirgwezala village",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": false,
+  "summary": "Between five and eight one-way attack drones (Peregraf: six drones and a missile) hit Komala positions in Zirgwezala, killing Peshmerga Omid Veysi (Omid Ravansar) and wounding one or two. Komala blamed Iran.",
+  "sources": [
+   {
+    "title": "Peregraf - Six drones and one missile strike village in Kurdistan Region, one Komala member killed",
+    "url": "https://peregraf.com/en/news/11163"
+   },
+   {
+    "title": "Institut kurde (AFP) - Drone strike kills Iranian opposition member in Iraqi Kurdistan",
+    "url": "https://www.institutkurde.org/en/info/latest/drone-strike-kills-iranian-opposition-member-in-iraqi-kurdistan-exiled-grou-14871/"
+   },
+   {
+    "title": "Nûçe TV: Pêşmergeyekî Komele di encama êrîşeke Îranî de jiyana xwe ji dest da",
+    "url": "https://nucetv.net/pesmergeyeki-komele-di-encama-eriseke-irani-de-jiyana-xwe-ji-dest-da"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-12",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Zawi Spi camp (KDPI families), Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.07,
+  "lon": 44.62,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "A drone the KDPI attributed to Iran hit a civilian house in the Zawi Spi camp, which houses women and children; it was the first strike on that camp. No casualties were reported.",
+  "sources": [
+   {
+    "title": "Rudaw - Drone hits KDPI camp in Koya",
+    "url": "https://rudaw.net/english/kurdistan/120320262"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-13",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Khabat Organization position, Bashiqa mountains",
+  "governorate": "Nineveh",
+  "country": "Iraq",
+  "lat": 36.46,
+  "lon": 43.35,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 4,
+  "civilian": false,
+  "summary": "A drone strike on Khabat Organization of Iranian Kurdistan positions in the Kurdish-controlled Bashiqa mountains killed Iqbal Salehpour and Fakhraddin Moradi and wounded four. Khabat blamed Iran and its militias; two PDKI bases in Koya were also hit that day without casualties.",
+  "sources": [
+   {
+    "title": "Institut kurde (AFP) - Drone strike kills two Iranian opposition members in Iraq",
+    "url": "https://www.institutkurde.org/en/info/latest/drone-strike-kills-two-iranian-opposition-members-in-iraq-14910/"
+   },
+   {
+    "title": "Peregraf - Two Peshmerga killed, four wounded in drone strikes on Iranian Kurdish opposition",
+    "url": "https://peregraf.com/en/news/11188"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşa hewayî de 2 peşmergeyan jiyana xwe ji dest dan",
+    "url": "https://nucetv.net/di-erisa-hewayi-de-2-pesmergeyan-jiyana-xwe-ji-dest-dan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-15",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala camp, Zargwez",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "Three IRGC missiles struck a Komala camp in the Zargwez area of Sulaimani. No casualties were immediately reported.",
+  "sources": [
+   {
+    "title": "Iran International - IRGC missiles hit Iranian Kurdish opposition camp in Iraqi Kurdistan",
+    "url": "https://www.iranintl.com/en/202603156665"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-03-24",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Peshmerga headquarters, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.653,
+  "lon": 44.544,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": 20,
+  "civilian": false,
+  "summary": "Missiles hit a KRG Peshmerga base in Soran, killing six Peshmerga and wounding about 20-30. KRG President Nechirvan Barzani called it an Iranian missile attack, while Rudaw attributed it to pro-Iran armed groups, so attribution is disputed.",
+  "sources": [
+   {
+    "title": "FDD Long War Journal - 6 KRG soldiers killed in Iranian attack on northern Iraq",
+    "url": "https://www.longwarjournal.org/archives/2026/03/6-kurdistan-regional-government-soldiers-killed-in-iranian-attack-on-northern-iraq.php"
+   },
+   {
+    "title": "Reuters - Rocket attack kills six Kurdish Peshmerga fighters in Iraq's Kurdistan",
+    "url": "https://www.reuters.com/world/middle-east/rocket-attack-kills-six-kurdish-peshmerga-fighters-iraqs-kurdistan-sources-say-2026-03-24/"
+   },
+   {
+    "title": "Nûçe TV: Wezareta Pêşmergeyan: Di êrişa Îranê de 6 pêşmergeyên me şehîd ketin",
+    "url": "https://nucetv.net/wezareta-pesmergeyan-di-erisa-irane-de-6-pesmergeyen-me-sehid-ketin"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşek li Hewlêrê de 6 Pêşmergeyan jiyana xwe ji dest da û 45 jî birîndar bûn",
+    "url": "https://nucetv.net/di-erisek-li-hewlere-de-6-pesmerge-jiyana-xwe-ji-dest-dan-u-45-ji-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-04-07",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Rural village on the outskirts of Erbil (reported near Darashakran)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Three explosive drones targeted a rural farming village; one hit a home and killed a married couple (Musa Rasul and Mujda Hassan). The KRG Counter-Terrorism Directorate said the drone was launched from Iran; no group claimed it.",
+  "sources": [
+   {
+    "title": "Rudaw - Drone attack kills couple in Erbil province",
+    "url": "https://www.rudaw.net/english/middleeast/iran/070420261"
+   },
+   {
+    "title": "Wladimir van Wilgenburg - Iran-linked attacks leave 21 dead in Kurdistan Region",
+    "url": "https://wladimirvanwilgenburg.substack.com/p/iran-linked-attacks-leave-21-dead"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşên li ser Hewlêrê de 2 kesan jiyana xwe ji dest dan",
+    "url": "https://nucetv.net/di-erisen-li-ser-hewlere-de-2-kesan-jiyana-xwe-ji-dest-dan-52035"
+   },
+   {
+    "title": "Nûçe TV: Ji ber dronê malbatek Kurd parçe bû û zarok sêwî man",
+    "url": "https://nucetv.net/ji-ber-drone-malbatek-kurd-parce-bu-u-zarok-sewi-man"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-04-14",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala (Toilers) camp, Surdash, Dukan District",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.86,
+  "lon": 45.11,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 2,
+  "civilian": false,
+  "summary": "An IRGC drone strike on the Komala of the Toilers of Kurdistan camp in Surdash fatally wounded 18-year-old member Ghazal Mawlan; two others were injured. The same day drones hit a PDKI camp in Koya.",
+  "sources": [
+   {
+    "title": "HANA Human Rights - Six Peshmerga killed in Iranian drone and missile attacks",
+    "url": "https://hanahr.org/?p=95044"
+   },
+   {
+    "title": "Jerusalem Post - Kurdish opposition group attacked in Iraq",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-912042"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşa li ser kampa Sûrdaşê de 3 kes birîndar bûn",
+    "url": "https://nucetv.net/di-erisa-li-ser-kampa-surdase-de-3-kes-birindar-bun"
+   },
+   {
+    "title": "Nûçe TV: Êrîşî ser navendeke Komele li Sûrdaş`ê hat kirin",
+    "url": "https://nucetv.net/erisi-ser-navendeke-komele-li-surdase-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-04-17",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "PDKI headquarters, Khalifan sub-district (KHRN: Sidakan area), Soran District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.597,
+  "lon": 44.407,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 1,
+  "civilian": false,
+  "summary": "An IRGC missile strike on a PDKI headquarters killed female Peshmerga Neda Miri and Samira Allah-Yari and wounded one, despite the US-Iran ceasefire.",
+  "sources": [
+   {
+    "title": "Kurdistan Human Rights Network - IRGC attacks kill three PDKI members in Iraqi Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/04/20/irgc-attacks-kill-three-pdki-members-in-iraqi-kurdistan"
+   },
+   {
+    "title": "Hengaw - IRGC attacks on PDKI bases kill two women peshmerga and a minor",
+    "url": "https://hengaw.net/en/news/2026/04/article-51"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-04-17",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Jezhnikan civilian camp (KDPI families), north of Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.33,
+  "lon": 44.02,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "summary": "A noon drone strike on the Jezhnikan camp housing KDPI families killed Shahin Azarbarzin and critically wounded his father Nader.",
+  "sources": [
+   {
+    "title": "Kurdistan Human Rights Network - IRGC attacks kill three PDKI members in Iraqi Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/04/20/irgc-attacks-kill-three-pdki-members-in-iraqi-kurdistan"
+   },
+   {
+    "title": "The New Region - Iranian strikes kill three in Erbil",
+    "url": "https://thenewregion.com/posts/5133"
+   },
+   {
+    "title": "ANF: Missile attack on Hewlêr kills 3 people",
+    "url": "https://english.anf-news.com/kurdistan/-84982"
+   },
+   {
+    "title": "ANF: Three Peshmerga fighters killed in Iranian attacks in Southern Kurdistan",
+    "url": "https://english.anf-news.com/kurdistan/-84990"
+   },
+   {
+    "title": "Nûçe TV: Îranê êrîşî Hewlêrê kir.. 3 Pêşmergeyan jiyana xwe ji dest dan",
+    "url": "https://nucetv.net/irane-erisi-hewlere-kir-2-pesmerge-u-zarokeki-jiyana-xwe-ji-dest-dan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-04-27",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadi camp, Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Two drones hit the Azadi camp, which houses Iranian Kurdish opposition members and families; Rudaw reports it was struck again by five drones in early May, causing only material damage.",
+  "sources": [
+   {
+    "title": "Rudaw - Iran strikes Kurdish opposition group in Kurdistan Region of Iraq",
+    "url": "https://www.rudaw.net/english/kurdistan/06052026"
+   },
+   {
+    "title": "The New Arab - Iranian-linked drones target opposition camp in Iraqi Kurdistan",
+    "url": "https://www.newarab.com/news/iranian-linked-drones-target-opposition-camp-iraqi-kurdistan"
+   },
+   {
+    "title": "Nûçe TV: Kampa Azadî ya Li Hewlêrê rastî êrîşeke hawayî hat",
+    "url": "https://nucetv.net/kampa-surdase-careke-din-rasti-erisen-dewleta-irane-hat"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-05-05",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala camp, Surdash, Dukan District",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.86,
+  "lon": 45.11,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "Two IRGC drones struck the Komala camp in Surdash, causing material damage but no reported casualties; a PDKI family camp at Girde Chal was hit by two drones early the next day.",
+  "sources": [
+   {
+    "title": "Peregraf - Iran launches new drone strikes on Kurdish opposition camps despite ceasefire",
+    "url": "https://peregraf.com/en/news/11620"
+   },
+   {
+    "title": "Rudaw - Iran strikes Kurdish opposition group in Kurdistan Region of Iraq",
+    "url": "https://www.rudaw.net/english/kurdistan/06052026"
+   },
+   {
+    "title": "Nûçe TV: Careke din êrîş li ser Kampa Sûrdaşê pêk hat",
+    "url": "https://nucetv.net/careke-din-eris-li-ser-kampa-surdase-pek-hat"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-05-25",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK command centre near Darashakran camp, Khabat District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 9,
+  "civilian": false,
+  "summary": "Two drones and a guided missile hit a PAK Peshmerga command centre in northern Erbil governorate, wounding nine fighters (four critically). PAK blamed Iran; PAK and Komala camps were also struck on 23 May.",
+  "sources": [
+   {
+    "title": "FDD Long War Journal - Iran conducts new attacks on Kurdish opposition groups in northern Iraq",
+    "url": "https://www.longwarjournal.org/archives/2026/05/iran-conducts-new-attacks-on-kurdish-opposition-groups-in-northern-iraq.php"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-07-01",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "PAK camp near Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.3,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "summary": "The IRGC hit a PAK camp near Erbil with two ballistic missiles and two drones, and struck camps of at least two other Iranian Kurdish parties within 48 hours (1-2 July). Casualties at the PAK camp were not stated.",
+  "sources": [
+   {
+    "title": "France 24 - Iran launches drone, missile attacks on dissident bases in Iraqi Kurdistan",
+    "url": "https://www.france24.com/en/middle-east/20260713-iran-launches-drone-missile-attacks-kurdish-dissident-bases-iraq"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-07-13",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Iranian Kurdish refugee camp, Darashakran, Khabat District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.4,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Three drones struck an Iranian Kurdish refugee camp in Darashakran; no casualties were reported.",
+  "sources": [
+   {
+    "title": "Shafaq News - Drones strike Iranian refugee camp in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-strike-Iranian-refugee-camp-in-Erbil"
+   },
+   {
+    "title": "Nûçe TV: Îranê dîsa êrîşî baregeha PAK'ê kir",
+    "url": "https://nucetv.net/irane-disa-erisi-baregeha-pake-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-07-17",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala headquarters, Zirgwezala village",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.51,
+  "lon": 45.5,
+  "precision": "approximate",
+  "killed": 9,
+  "injured": 3,
+  "civilian": false,
+  "summary": "At about 06:00 the IRGC fired several missiles at the reception area of Komala's headquarters in Zirgwezala, killing nine members (some reports later said 10) and critically wounding at least three. It was the deadliest single strike of 2026 on the opposition parties.",
+  "sources": [
+   {
+    "title": "Kurdistan Human Rights Network - IRGC missile strikes kill nine Komala peshmergas in Iraqi Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/17/irgc-missile-strikes-kill-nine-komala-peshmergas-in-iraqi-kurdistan"
+   },
+   {
+    "title": "The Defense Post (AFP) - Strikes kill nine Iranian Kurdish rebels in Iraq",
+    "url": "https://thedefensepost.com/2026/07/18/strike-kill-nine-kurdish/"
+   },
+   {
+    "title": "ANF: Komala peshmerga fighter dies from wounds sustained in IRGC strike",
+    "url": "https://english.anf-news.com/kurdistan/-86432"
+   },
+   {
+    "title": "ANF: Nine Komala Peshmerga fighters killed in Iranian missile strike on Zirguêz",
+    "url": "https://english.anf-news.com/kurdistan/-86343"
+   },
+   {
+    "title": "Nûçe TV: Komeleya Şoreşger: 9 pêşmergeyên me şehîd ketin",
+    "url": "https://nucetv.net/komeleya-soresger-9-pesmergeyen-me-sehid-ketin"
+   },
+   {
+    "title": "Nûçe TV: Saziyên Kurdistanî yên li Kanadayê êrîşa li ser Zirgiwêzeyê şermezar kirin",
+    "url": "https://nucetv.net/saziyen-kurdistani-yen-li-kanadaye-erisa-li-ser-zirgiwezeye-sermezar-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-07-19",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK camp near Erbil",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.3,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 8,
+  "civilian": false,
+  "summary": "A drone struck a PAK camp near Erbil at about 02:00, wounding eight members; PAK and the KRG prime minister blamed Iran, and PAK alleged white phosphorus use.",
+  "sources": [
+   {
+    "title": "Arab News (AFP) - Drone strike wounds eight Iranian Kurdish rebels in Iraq",
+    "url": "https://www.arabnews.com/node/2651507/middle-east"
+   },
+   {
+    "title": "Hengaw - PAK says Iran used white phosphorus",
+    "url": "https://hengaw.net/en/news/2026/07/article-97"
+   },
+   {
+    "title": "Nûçe TV: Bi dronan êrîşî baregeha PAK'ê ya li sînorê Hewlêrê hat kirin",
+    "url": "https://nucetv.net/bi-dronan-erisi-baregeha-pake-ya-li-sinore-hewlere-hat-kirin"
+   },
+   {
+    "title": "Nûçe TV: PAK: Di êrîşan de 8 Pêşmerge birîndar bûn",
+    "url": "https://nucetv.net/pak-di-erisan-de-8-pesmerge-birindar-bun"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşên li hember partiyên Rojhilat de fosfora spî hatiye bikaranîn",
+    "url": "https://nucetv.net/di-erisen-li-hember-partiyen-rojhilat-de-fosfora-spi-hatiye-bikaranin"
+   },
+   {
+    "title": "Nûçe TV: 9 Pêşmergên PAK'ê ji ber êrîşên Îranê birîndar bûn",
+    "url": "https://nucetv.net/9-pesmergen-pake-ji-ber-erisen-irane-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-09-07",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala (Reform Faction) base and refugee camp, Surdash",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.86,
+  "lon": 45.11,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "Three drones hit the Komala Reform Faction base in Surdash, partly setting it on fire, and local authorities said a refugee camp there was also hit by three drones. No casualties were reported; the group blamed Iran.",
+  "sources": [
+   {
+    "title": "Jerusalem Post - Iran attacks Kurdish Iranian opposition group in Iraq",
+    "url": "https://www.jpost.com/middle-east/article-907812"
+   },
+   {
+    "title": "Nûçe TV: Îranê bi droneyan êrişî Kampa Komeleyê kir: Xanî şewitîn",
+    "url": "https://nucetv.net/irane-bi-droneyan-erisi-kampa-komeleye-kir-xani-sewitin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-09-28",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadi camp (KDPI), Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "The IRGC reportedly hit the KDPI's Azadi residential camp with three Hadid-110 drones.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian drone hits KDPI camp in Koya for second time in one week",
+    "url": "https://rudaw.net/english/categories/kurdistan/1079528"
+   },
+   {
+    "title": "Nûçe TV: Kampa Azadî ya li Koyê bi 3 dronan hate armancgirtin: Tevî 1000 êrîşî valahiya ewlehiyê berdewam e",
+    "url": "https://nucetv.net/kampa-azadi-ya-li-koye-bi-3-dronan-hate-armancgirtin-tevi-1000-erisi-valahiya-ewlehiye-berdewam-e"
+   },
+   {
+    "title": "Nûçe TV: Îranê bi dronan li biryargehên partiyên kurdên Rojhilat ên li Başûrê Kurdistanê xist",
+    "url": "https://nucetv.net/irane-bi-dronan-li-biryargehen-partiyen-kurden-rojhilat-en-li-basure-kurdistane-xist"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-09-30",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadi camp (KDPI), Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "A single suspected Iranian drone struck the Azadi camp at 8:22 pm; Asayish said there were no casualties.",
+  "sources": [
+   {
+    "title": "Rudaw - Iranian drone hits KDPI camp in Koya for second time in one week",
+    "url": "https://rudaw.net/english/categories/kurdistan/1079528"
+   },
+   {
+    "title": "Nûçe TV: Bi dronan êrîşî navçeya Koyê hat kirin",
+    "url": "https://nucetv.net/bi-dronan-erisi-navceya-koye-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-10-08",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Complex housing Iranian Kurdish refugee families, Khabat District",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.27,
+  "lon": 43.67,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "A drone hit a complex housing families of Kurdish refugees from Iran in Khabat district, north of Erbil. No casualties were reported.",
+  "sources": [
+   {
+    "title": "FDD Long War Journal - Iran targets Kurdish opposition groups in Iraq with new round of drone attacks",
+    "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php"
+   },
+   {
+    "title": "Nûçe TV: Bi dronan êrîşî baregeha Sazmana Xebatê ya li Hewlêrê hat kirin",
+    "url": "https://nucetv.net/bi-dronan-erisi-baregeha-sazmana-xebate-ya-li-hewlere-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-10-12",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadi camp (KDPI families), Koya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.64,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "summary": "Two drones (Hana: launched from Piranshahr) struck the evacuated Azadi camp at 12:01, causing material damage. The KDPI called it the 175th Iranian attack on the party since the war began.",
+  "sources": [
+   {
+    "title": "Jerusalem Post - Iranian drones hit Iranian Kurdish opposition camp in northern Iraq",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-911436"
+   },
+   {
+    "title": "FDD Long War Journal - Iran targets Kurdish opposition groups with new round of drone attacks",
+    "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "date": "2026-10-18",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala base, Balisan (Komala: Khalifan area)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.43,
+  "lon": 44.39,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "summary": "Overnight on 17-18 October, two drones that Rudaw's security source said were launched from Iran hit a Komala base and guard post, damaging buildings. No casualties were reported.",
+  "sources": [
+   {
+    "title": "Jerusalem Post - Kurdish opposition group attacked in Iraq amid increased Iran tensions",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-912042"
+   },
+   {
+    "title": "Nûçe TV: Kampa Balîsan ya li Başûrê Kurdistanê bi 2 dronan hate bordûmankirin",
+    "url": "https://nucetv.net/kampa-balisan-ya-li-basure-kurdistane-bi-2-dronan-hate-bordumankirin"
+   }
+  ],
+  "kind": "strike"
+ }
+]

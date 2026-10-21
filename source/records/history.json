@@ -1,0 +1,2366 @@
+[
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1925-02",
+  "period": "1925",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.914,
+  "lon": 40.23,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Leaders hanged in Diyarbakır; thousands fled to French-mandate Syria",
+  "summary": "The Turkish state crushed the Sheikh Said uprising with army operations and hanged Sheikh Said and other leaders in Diyarbakır in mid-1925; the Kurdistan Memory Programme notes that thousands of Kurds fled to Syria to escape reprisals. No reliable death toll for the repression is established.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Sheikh Said rebellion",
+    "url": "https://en.wikipedia.org/wiki/Sheikh_Said_rebellion"
+   },
+   {
+    "title": "KGNA: The Dersim Massacre",
+    "url": "https://kgna.krd/15269/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1930-07-12",
+  "period": "12–13 July 1930",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Zîlan valley, near Erdîş (Erciş)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 39.15,
+  "lon": 43.3,
+  "precision": "approximate",
+  "killed": 15000,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "During the suppression of the Ararat (Agirî) uprising, Turkish army units killed the inhabitants of the Zîlan valley; the newspaper Cumhuriyet reported at the time that some 15,000 people had been 'wiped out'. Kurdish sources and survivors give figures of 40,000–47,000.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Zilan massacre",
+    "url": "https://en.wikipedia.org/wiki/Zilan_massacre"
+   },
+   {
+    "title": "Bianet: Human bones coming ashore in river in eastern Türkiye where thousands killed in 1930",
+    "url": "https://bianet.org/haber/human-bones-coming-ashore-in-river-in-eastern-turkiye-where-thousands-killed-in-1930-271365"
+   },
+   {
+    "title": "Rudaw: Zilan massacre survivors' accounts",
+    "url": "https://rudaw.net/english/middleeast/turkey/081020201"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1937-05-04",
+  "period": "1937–1938",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Dersim (Tunceli)",
+  "governorate": "Tunceli",
+  "country": "Turkey",
+  "lat": 39.108,
+  "lon": 39.548,
+  "precision": "approximate",
+  "killed": 13806,
+  "injured": null,
+  "civilian": true,
+  "impact": "Aerial bombing, villages destroyed, mass deportations to western Anatolia; province renamed Tunceli",
+  "summary": "The Turkish state's military campaign in Dersim used aerial bombing, ground massacres and deportations against Alevi Kurdish (Kirmanc/Zaza) communities. A 1939 gendarmerie document cited by Prime Minister Erdoğan in 2011 counted 13,806 killed; the Kurdistan Memory Programme cites about 30,000 and KGNA cites Kurdish estimates of 50,000–70,000.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Dersim massacre",
+    "url": "https://en.wikipedia.org/wiki/Dersim_massacre"
+   },
+   {
+    "title": "Bianet: Prime Minister: 'I apologize for Dersim'",
+    "url": "https://bianet.org/haber/prime-minister-i-apologize-for-dersim-134261"
+   },
+   {
+    "title": "KGNA: The Dersim Massacre",
+    "url": "https://kgna.krd/15269/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1974",
+  "period": "Reservoir filled from 1974",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Keban Dam, Euphrates (Firat)",
+  "governorate": "Elazığ",
+  "country": "Turkey",
+  "lat": 38.807,
+  "lon": 38.756,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Large Euphrates reservoir flooded valley villages and farmland",
+  "summary": "The Turkish state's Keban Dam on the Euphrates, filled from 1974, created a large reservoir over valley villages and farmland in Elazığ and neighbouring provinces, displacing their residents. Displacement figures are not given here because reliable counts were not found.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Keban Dam",
+    "url": "https://en.wikipedia.org/wiki/Keban_Dam"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1990",
+  "period": "1990–1992 (filling)",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Atatürk Dam, Euphrates; Samsat",
+  "governorate": "Adıyaman / Şanlıurfa",
+  "country": "Turkey",
+  "lat": 37.483,
+  "lon": 38.317,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Old town of Samsat and many villages flooded",
+  "summary": "The Turkish state's Atatürk Dam, the centrepiece of the Southeastern Anatolia Project (GAP), began filling in 1990 and flooded the historic town of Samsat and many villages and farmland in the Kurdish-majority southeast.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Atatürk Dam",
+    "url": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Dam"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1992-03-21",
+  "period": "21–23 March 1992",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Cizîr (Cizre), also Nisêbîn (Nusaybin) and Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.327,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Turkish security forces opened fire on Newroz crowds in Cizîr, Nisêbîn and Şirnex in March 1992; Helsinki Watch recorded reports of mass killings of unarmed civilians. Death tolls are disputed: one account gives 16 killed in Nisêbîn alone, and some press accounts give more than 80 in total.",
+  "sources": [
+   {
+    "title": "Helsinki Watch (HRW): Kurds massacred – Turkish forces kill scores of peaceful demonstrators (1992)",
+    "url": "https://www.hrw.org/reports/pdfs/t/turkey/turkey926.pdf"
+   },
+   {
+    "title": "Bianet: Bir kanlı Newroz hikayesi: 1992, Cizre",
+    "url": "https://bianet.org/yazi/bir-kanli-newroz-hikayesi-1992-cizre-293153"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1992",
+  "period": "1992–1999",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Villages across Bakur (representative: Kulp–Lice area)",
+  "governorate": "Diyarbakır, Şırnak, Hakkari, Tunceli, Mardin, Siirt, Bingöl and others",
+  "country": "Turkey",
+  "lat": 38.4,
+  "lon": 40.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Interior minister: 2,215 villages and hamlets evacuated by 1994; 3,000+ by the late 1990s; hundreds of thousands displaced",
+  "summary": "Turkish security forces forcibly evacuated and burned Kurdish villages and hamlets across Bakur, destroying homes, crops, orchards and forests. The interior minister acknowledged 2,215 villages and hamlets evacuated by late 1994, later totals exceeded 3,000, and the European Court of Human Rights found Turkey responsible in Akdivar v. Turkey (1996) and many later cases.",
+  "sources": [
+   {
+    "title": "Human Rights Watch/Helsinki: Turkey – Forced displacement of ethnic Kurds from southeastern Turkey (Oct 1994)",
+    "url": "https://hrw.org/reports/TURKEY94O.PDF"
+   },
+   {
+    "title": "MERIP: Forced Evictions and Destruction in Villages in Turkish Kurdistan (1999)",
+    "url": "https://merip.org/1999/06/forced-evictions-and-destruction-in-villages-in-turkish-kurdistan/"
+   },
+   {
+    "title": "Human Rights Watch backgrounder: displaced Kurds in Turkey",
+    "url": "https://www.hrw.org/legacy/backgrounder/eca/turkey1206/2.htm"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1993",
+  "period": "1990s",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Amed (Diyarbakır), Cizîr (Cizre) and the wider southeast",
+  "governorate": "Diyarbakır / Şırnak",
+  "country": "Turkey",
+  "lat": 37.92,
+  "lon": 40.215,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Thousands of extrajudicial killings and enforced disappearances",
+  "summary": "In the 1990s Turkish state agents, including the unacknowledged gendarmerie intelligence unit JİTEM, carried out thousands of extrajudicial killings and enforced disappearances of Kurdish civilians. Human Rights Watch documents the Temizöz trial over 20 killings in the Cizîr area in 1993–95 and complaints over at least 160 more in the Şirnex region.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Time for Justice – Ending Impunity for Killings and Disappearances in 1990s Turkey (2012)",
+    "url": "https://www.hrw.org/report/2012/09/03/time-justice/ending-impunity-killings-and-disappearances-1990s-turkey"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1993-10-22",
+  "period": "20–23 October 1993",
+  "actor": "Turkey",
+  "type": "ground assault",
+  "place": "Licê (Lice)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 38.459,
+  "lon": 40.651,
+  "precision": "exact",
+  "killed": 16,
+  "injured": 19,
+  "civilian": true,
+  "impact": "ECtHR: 424 shops and 640 houses destroyed",
+  "summary": "Turkish security forces attacked the town of Licê with heavy weapons and helicopters, burning much of it. The European Court of Human Rights (Ayder and Others v. Turkey, 2004) recorded 16 dead and 19 wounded and found that security forces destroyed homes; the Human Rights Foundation of Turkey put the toll at 30 or more.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Lice massacre",
+    "url": "https://en.wikipedia.org/wiki/Lice_massacre"
+   },
+   {
+    "title": "ECtHR: Ayder and Others v. Turkey (judgment text)",
+    "url": "https://failibelli.org/sites/default/files/kaynaklar/CASE%20OF%20AYDER%20AND%20OTHERS%20v.%20TURKEY.pdf"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1994-03-26",
+  "period": null,
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Kuşkonar and Koçağılı villages",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.45,
+  "lon": 42.55,
+  "precision": "approximate",
+  "killed": 38,
+  "injured": null,
+  "civilian": true,
+  "impact": "Both villages destroyed",
+  "summary": "Turkish military aircraft bombed the Kurdish villages of Kuşkonar and Koçağılı, killing 38 villagers. The army denied the flights at first, but the European Court of Human Rights later found Turkey responsible and Turkey's Constitutional Court found a violation of the right to life.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Kuşkonar and Koçağılı massacre",
+    "url": "https://en.wikipedia.org/wiki/Ku%C5%9Fkonar_and_Ko%C3%A7a%C4%9F%C4%B1l%C4%B1_massacre"
+   },
+   {
+    "title": "Bianet: Turkey Found Guilty of 'Bombarding Kuşkonar Village' in 1994",
+    "url": "https://bianet.org/haber/turkey-found-guilty-of-bombarding-kuskonar-village-in-1994-151252"
+   },
+   {
+    "title": "Bianet: Kuşkonar witnesses told about the bombs 18 years ago (HRW 1995)",
+    "url": "https://bianet.org/haber/kuskonar-witnesses-told-about-the-bombs-18-years-ago-151337"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1994-09",
+  "period": "Late Sept – Oct 1994",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Dersim (Tunceli) province",
+  "governorate": "Tunceli",
+  "country": "Turkey",
+  "lat": 39.25,
+  "lon": 39.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 30 villages and hamlets burned, forests set alight, mass displacement",
+  "summary": "During a three-week operation in Dersim by about 40,000 troops, Turkish forces reportedly burned around 30 villages and hamlets, along with surrounding forests and fields. Human Rights Minister Azimet Köylüoğlu called the burnings 'state terrorism', while the government officially denied them.",
+  "sources": [
+   {
+    "title": "Human Rights Watch/Helsinki: Turkey – Forced displacement of ethnic Kurds from southeastern Turkey (Oct 1994)",
+    "url": "https://hrw.org/reports/TURKEY94O.PDF"
+   },
+   {
+    "title": "Human Rights Watch backgrounder: displaced Kurds in Turkey",
+    "url": "https://www.hrw.org/legacy/backgrounder/eca/turkey1206/2.htm"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1996-01-15",
+  "period": null,
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Near Elkê/Güçlükonak",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.469,
+  "lon": 41.913,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Eleven Kurdish men were killed and burned in a minibus near Güçlükonak. Turkish authorities blamed the PKK, but a civil fact-finding mission pointed to security-force involvement, and Amnesty International reported that its authors were prosecuted. Press reports attributed the attack to JİTEM; this is unproven.",
+  "sources": [
+   {
+    "title": "Amnesty International: Turkey report (1998), EUR 44/024/1998",
+    "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/eur440241998en.pdf"
+   },
+   {
+    "title": "Bianet: Parliament will investigate attack in Şırnak",
+    "url": "https://bianet.org/haber/parliament-will-investigate-attack-in-sirnak-102116"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "2006",
+  "period": "2006–2020 (construction 2006; reservoir filled 2019–2020)",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Heskîf (Hasankeyf), Ilısu Dam on the Tigris (Dicle)",
+  "governorate": "Batman / Mardin / Şırnak",
+  "country": "Turkey",
+  "lat": 37.713,
+  "lon": 41.414,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Plans to flood 85 villages fully and 124 partially; 36,000–80,000 people affected (estimates vary)",
+  "summary": "The Turkish state's Ilısu Dam on the Tigris, under construction from 2006, flooded the ancient town of Heskîf (Hasankeyf) and dozens of Kurdish villages when the reservoir filled in 2019–2020. Estimates of people affected range from 36,000 to 80,000, and rights groups criticised the compensation as inadequate.",
+  "sources": [
+   {
+    "title": "KHRP: Briefing paper – The Ilısu Dam project, an update",
+    "url": "https://khrp.org/khrp-news/human-rights-documents/doc_details/240-briefing-paper-the-ilisu-dam-project-an-update.html"
+   },
+   {
+    "title": "Hasankeyf Coordination: Ilısu reservoir has reached Hasankeyf (2020)",
+    "url": "https://mesopotamia.coop/ilisu-dam-reservoir-has-reached-hasankeyf-town-apocalypse-is-impending/index.html"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "2008",
+  "period": "2008 onwards",
+  "actor": "Turkey",
+  "category": "dam",
+  "place": "Border valleys of Şirnex and Colemêrg (e.g. Silopi, Çetintepe, Çocuktepe dams)",
+  "governorate": "Şırnak / Hakkari",
+  "country": "Turkey",
+  "lat": 37.45,
+  "lon": 43.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "11 dams (7 in Şırnak, 4 in Hakkari) flooding border valleys",
+  "summary": "The Turkish state launched 11 'security dams' along the Iraqi border, 7 in Şirnex and 4 in Colemêrg, which Turkish press reports said were meant to flood valleys and caves used by the PKK. The dams flood village lands and grazing areas, while the government presents them as energy projects.",
+  "sources": [
+   {
+    "title": "Roads & Kingdoms: Will dams in Southeastern Turkey be used as weapons of war? (2015)",
+    "url": "https://roadsandkingdoms.com/2015/flooding-out-the-pkk"
+   },
+   {
+    "title": "openDemocracy: Unchanging state security policies in southeast Turkey",
+    "url": "https://www.opendemocracy.net/en/unchanging-state-security-policies-in-southeast-turkey/"
+   },
+   {
+    "title": "Wikipedia (pointer): Çetintepe Dam",
+    "url": "https://en.wikipedia.org/wiki/%C3%87etintepe_Dam"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2011-08-21",
+  "period": null,
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Near Bolê, Qendîl (Qandil) foothills",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.33,
+  "lon": 45.05,
+  "precision": "approximate",
+  "killed": 7,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A Turkish warplane reportedly bombed the car of a farmer from Bolê who was driving to Ranya with six family members, killing all seven, including children. Amnesty International documented the strike.",
+  "sources": [
+   {
+    "title": "Amnesty USA: Turkish bombings and civilian casualties in northern Iraq (2011)",
+    "url": "https://amnestyusa.org/blog/turk-bombings-and-civilian-casualties-in-northern-iraq"
+   },
+   {
+    "title": "Human Rights Watch: Iran/Turkey – Recent attacks on civilians in Iraqi Kurdistan (Dec 2011)",
+    "url": "https://www.hrw.org/news/2011/12/20/iranturkey-recent-attacks-civilians-iraqi-kurdistan"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2011-12-28",
+  "period": null,
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Roboskî (Ortasu), Qilaban (Uludere)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.381,
+  "lon": 43.019,
+  "precision": "approximate",
+  "killed": 34,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Turkish F-16 jets, acting on drone footage, bombed 37 villagers from Roboskî and Bujeh as they crossed back from Başûr with mules, killing 34 of them, 17 of whom were children. A military prosecutor called it an 'unavoidable error', and no one was prosecuted.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Turkey – No Justice for Airstrike Victims (2012)",
+    "url": "https://www.hrw.org/news/2012/12/27/turkey-no-justice-airstrike-victims"
+   },
+   {
+    "title": "Human Rights Watch: Dispatches – Impunity and cover-up in Turkey (2014)",
+    "url": "https://www.hrw.org/news/2014/01/07/dispatches-impunity-and-cover-turkey"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2015-08-01",
+  "period": null,
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Zergelê, Qendîl (Qandil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.42,
+  "lon": 45.0,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": 8,
+  "civilian": true,
+  "impact": null,
+  "summary": "Turkish airstrikes on Zergelê village in the Qendîl mountains killed 8 residents and injured at least 8 in what Amnesty International called a 'flagrantly unlawful' attack. Other counts give 10 dead.",
+  "sources": [
+   {
+    "title": "Amnesty International: Fresh evidence of casualties underscores need for impartial investigation into Turkish airstrikes in Kandil Mountains",
+    "url": "https://www.amnesty.org/en/latest/news/2015/08/fresh-evidence-of-casualties-underscores-need-for-impartial-investigation-into-turkish-airstrikes-in-kandil-mountains/"
+   },
+   {
+    "title": "Airwars: civilian casualty record (Zergele)",
+    "url": "https://airwars.org/?p=27220"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2015-12-14",
+  "period": "14 Dec 2015 – 19 Jan 2016",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Silopiya (Silopi)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.249,
+  "lon": 42.469,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Round-the-clock curfew; heavy damage to residential districts",
+  "summary": "Turkish security forces imposed a round-the-clock curfew on Silopiya and used heavy weapons in residential neighbourhoods. Civilians were killed and many homes destroyed; OHCHR reports that what the state called security operations in the southeast killed about 2,000 people between July 2015 and December 2016.",
+  "sources": [
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   },
+   {
+    "title": "Human Rights Watch: Turkey – State Blocks Probes of Southeast Killings (11 July 2016)",
+    "url": "https://www.hrw.org/news/2016/07/11/turkey-state-blocks-probes-southeast-killings"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2015-12-02",
+  "period": "Dec 2015 – March 2016 (curfew in parts until later)",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Sûr (Sur), old city of Amed",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.91,
+  "lon": 40.237,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Large parts of the historic old city destroyed and later expropriated and demolished",
+  "summary": "During a curfew of more than 100 days, Turkish security forces' operations in Sûr destroyed large parts of Amed's historic old city, displacing tens of thousands of residents. The state later expropriated much of the district and demolished it.",
+  "sources": [
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   },
+   {
+    "title": "Human Rights Watch: Turkey – State Blocks Probes of Southeast Killings (11 July 2016)",
+    "url": "https://www.hrw.org/news/2016/07/11/turkey-state-blocks-probes-southeast-killings"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-01",
+  "period": "Sept 2015; Dec 2015 – March 2016",
+  "actor": "Turkey",
+  "type": "massacre",
+  "place": "Cizîr (Cizre) basements",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.327,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": 130,
+  "injured": null,
+  "civilian": null,
+  "impact": "Up to 189 people trapped in basements without food, water or medical care",
+  "summary": "During the Cizîr curfew, Turkish security forces besieged basements where wounded people and civilians sheltered, and those inside were killed by gunfire and fire. Human Rights Watch estimated about 130 people were trapped and the OHCHR cited up to 189; those killed included unarmed civilians and injured combatants.",
+  "sources": [
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   },
+   {
+    "title": "Human Rights Watch: Turkey – State Blocks Probes of Southeast Killings (11 July 2016)",
+    "url": "https://www.hrw.org/news/2016/07/11/turkey-state-blocks-probes-southeast-killings"
+   },
+   {
+    "title": "UN News: 'Alarming' reports of major violations in south-east Turkey – UN rights chief",
+    "url": "https://news.un.org/en/node/528832"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-02-16",
+  "period": "From 16 Feb 2016",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Hezex (İdil)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.341,
+  "lon": 41.894,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Homes demolished during and after curfew",
+  "summary": "Turkish authorities imposed a curfew on Hezex from February 2016, and homes were destroyed and demolished during the military siege. Families whose houses were demolished were later investigated over the donations they received.",
+  "sources": [
+   {
+    "title": "Duvar English: Kurdish families whose houses were demolished during 2016 curfews testify for receiving donation",
+    "url": "https://duvarenglish.com/kurdish-families-whose-houses-were-demolished-during-2016-curfews-in-southeastern-turkey-testify-for-receiving-donation-news-63348"
+   },
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-03-14",
+  "period": "14 March – Nov 2016",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Şirnex (Şırnak) city",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.518,
+  "lon": 42.454,
+  "precision": "approximate",
+  "killed": 23,
+  "injured": null,
+  "civilian": true,
+  "impact": "Much of the city rendered uninhabitable; families still without homes years later",
+  "summary": "During a months-long curfew in Şirnex city, Turkish forces shot at and burned homes, killed civilians (23, according to one tally), and left much of the city uninhabitable. Many displaced families were still waiting for promised housing eight years later.",
+  "sources": [
+   {
+    "title": "Wikipedia (pointer): Şırnak Province – 2015–16 clashes",
+    "url": "https://en.wikipedia.org/wiki/%C5%9E%C4%B1rnak_Province"
+   },
+   {
+    "title": "Bianet: Curfews lifted in Şırnak",
+    "url": "https://bianet.org/haber/curfews-lifted-in-sirnak-185314"
+   },
+   {
+    "title": "Stockholm Center for Freedom: Hundreds of families in Şırnak waiting for new homes 8 years after clashes",
+    "url": "https://stockholmcf.org/?p=60481"
+   },
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-03-13",
+  "period": "March – May 2016",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Gever (Yüksekova)",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.573,
+  "lon": 44.283,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Neighbourhoods heavily damaged under curfew",
+  "summary": "Turkish security forces imposed a curfew on Gever and carried out heavy operations in its neighbourhoods, one of the nine towns where OHCHR and Human Rights Watch found most of the 2015–16 deaths and displacement.",
+  "sources": [
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   },
+   {
+    "title": "Human Rights Watch: Turkey – State Blocks Probes of Southeast Killings (11 July 2016)",
+    "url": "https://www.hrw.org/news/2016/07/11/turkey-state-blocks-probes-southeast-killings"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-03-14",
+  "period": "14 March – July 2016",
+  "actor": "Turkey",
+  "type": "campaign",
+  "place": "Nisêbîn (Nusaybin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.075,
+  "lon": 41.215,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Large areas of the town destroyed; tens of thousands displaced",
+  "summary": "During a curfew lasting several months, Turkish military operations destroyed large parts of Nisêbîn and displaced most residents of the affected districts. Human Rights Watch counted at least 338 civilians killed across the curfew towns by mid-2016.",
+  "sources": [
+   {
+    "title": "OHCHR: Report on the human rights situation in South-East Turkey, July 2015 to December 2016",
+    "url": "https://www.ohchr.org/Documents/Countries/TR/OHCHR_South-East_TurkeyReport_10March2017.pdf"
+   },
+   {
+    "title": "Human Rights Watch: Turkey – State Blocks Probes of Southeast Killings (11 July 2016)",
+    "url": "https://www.hrw.org/news/2016/07/11/turkey-state-blocks-probes-southeast-killings"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-08-28",
+  "period": null,
+  "actor": "Turkey",
+  "type": "airstrike",
+  "place": "Cib el-Kussa and el-Amarneh, south of Cerablus (Jarablus)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.69,
+  "lon": 38.02,
+  "precision": "approximate",
+  "killed": 35,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Turkish airstrikes and shelling during the Euphrates Shield incursion hit two villages held by Kurdish-backed forces south of Cerablus. The Syrian Observatory for Human Rights reported at least 35–40 civilians killed, and the Kurdish administration said 75; Turkey said it killed 25 'terrorists'.",
+  "sources": [
+   {
+    "title": "Al Jazeera: Deaths as Turkey targets Kurdish fighters in Syria (28 Aug 2016)",
+    "url": "https://www.aljazeera.com/news/2016/8/28/deaths-as-turkey-targets-kurdish-fighters-in-syria"
+   },
+   {
+    "title": "The New Arab: Syria – 35 civilians killed, dozens wounded by Turkish bombing",
+    "url": "https://www.newarab.com/news/syria-35-civilians-killed-dozens-wounded-turkish-bombing"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1947-03-31",
+  "period": "Dec 1946 – March 1947",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Mehabad (Mahabad), Çwarçira square",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.765,
+  "lon": 45.722,
+  "precision": "exact",
+  "killed": 3,
+  "injured": null,
+  "civilian": null,
+  "impact": "Republic of Kurdistan suppressed; leaders hanged",
+  "summary": "After Iranian troops retook Mehabad and ended the Republic of Kurdistan, the Pahlavi state hanged President Qazi Muhammad, his brother and his cousin in Çwarçira square on 31 March 1947, after a military trial. Officers who had served the republic were also executed.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   },
+   {
+    "title": "Kurdistan24: 79 years ago, Kurdistan Republic in Mahabad's leaders executed",
+    "url": "https://www.kurdistan24.net/en/opinion/904595/79-years-ago-kurdistan-republic-in-mahabads-leaders-executed-legacy-lives-on"
+   },
+   {
+    "title": "Wikipedia (pointer): Republic of Mahabad",
+    "url": "https://en.wikipedia.org/wiki/Republic_of_Mahabad"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1979-03-18",
+  "period": "18–19 March 1979",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.311,
+  "lon": 46.996,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Forces of the new Islamic Republic attacked Sine by land and air two days before Newroz ('Bloody Newroz'). The KGNA study cites tolls ranging from 450 (Abdullah Hassan-Zadeh) to 2,300 (Ghani Blourian), with about 600 in some accounts; the figures are unverified.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1979-08-18",
+  "period": "Aug 1979 – 1983",
+  "actor": "Iran",
+  "type": "campaign",
+  "place": "Pawe (Paveh), Sine, Mehabad and Rojhilat generally",
+  "governorate": "Kermanshah / Kurdistan / West Azerbaijan",
+  "country": "Iran",
+  "lat": 35.044,
+  "lon": 46.356,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "KGNA: at least 51–64 villages burned or destroyed, massacres in 61 villages and 11 towns (1979–1987)",
+  "summary": "After Khomeini's 18 August 1979 order to attack Kurdistan, the army and Revolutionary Guards shelled and stormed Pawe, Sine, Mehabad and other towns and villages. Estimates of about 10,000 killed in the conflict, including executed prisoners, are widely cited; KGNA counts at least 518 verified victims of village massacres as a minimum.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   },
+   {
+    "title": "Abdorrahman Boroumand Center: The Qarna Massacre",
+    "url": "https://iranrights.org/library/document/3637"
+   },
+   {
+    "title": "Wikipedia (pointer): 1979 Kurdish rebellion in Iran",
+    "url": "https://en.wikipedia.org/wiki/1979_Kurdish_rebellion_in_Iran"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1979-08-27",
+  "period": null,
+  "actor": "Iran",
+  "type": "massacre",
+  "place": "Sine (Sanandaj) airport",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.246,
+  "lon": 47.009,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "After a summary trial under the cleric Sadegh Khalkhali, the Islamic Republic executed 11 men, most of them Kurds, by firing squad at Sine airport. Jahangir Razmi's photograph of the shooting won the 1980 Pulitzer Prize.",
+  "sources": [
+   {
+    "title": "NPR: Source of prize-winning execution photo revealed (2006)",
+    "url": "https://www.npr.org/2006/12/02/6567103/source-of-prize-winning-execution-photo-revealed"
+   },
+   {
+    "title": "Institut kurde de Paris: A Chilling Photograph's Hidden History",
+    "url": "https://www.institutkurde.org/en/info/a-chilling-photograph-s-hidden-history-1165667317"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1979-09-02",
+  "period": null,
+  "actor": "Iran",
+  "type": "massacre",
+  "place": "Qarne (Qarna), near Nexede (Naqadeh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.88,
+  "lon": 45.3,
+  "precision": "approximate",
+  "killed": 42,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Newly formed Revolutionary Guards attacked the Kurdish village of Qarne, where no fighting had taken place, and killed women, children and elderly people. Counts range from 42 to 68 killed; KGNA and the Kurdistan Human Rights Association record 68, with 60 named.",
+  "sources": [
+   {
+    "title": "Abdorrahman Boroumand Center: The Qarna Massacre",
+    "url": "https://iranrights.org/library/document/3637"
+   },
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   },
+   {
+    "title": "Iran Rights blog: Remembering Qarna",
+    "url": "https://blog.iranrights.org/remembering-qarna-38-years-ago-iranian-security-forces-massacred-kurdish-civilians/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1980-03-26",
+  "period": null,
+  "actor": "Iran",
+  "type": "massacre",
+  "place": "Qelatan (Qalatan), near Nexede (Naqadeh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.95,
+  "lon": 45.4,
+  "precision": "approximate",
+  "killed": 12,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iranian state forces attacked the village of Qelatan; KGNA records more than 12 villagers killed on 26 March 1980. The Boroumand Center lists Qelatan with Qarne among villages where 'a large number' of residents were killed after the August 1979 order.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   },
+   {
+    "title": "Abdorrahman Boroumand Center: The Qarna Massacre",
+    "url": "https://iranrights.org/library/document/3637"
+   },
+   {
+    "title": "Christian Science Monitor: 20 reported slain in Iran guerrilla-Army clash (28 March 1980)",
+    "url": "https://www.csmonitor.com/1980/0328/032815.html"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1980-11-04",
+  "period": null,
+  "actor": "Iran",
+  "type": "massacre",
+  "place": "Îndirqaş (Inarqash) and Wisûkend villages, near Mehabad",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.7,
+  "lon": 45.6,
+  "precision": "approximate",
+  "killed": 53,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KGNA records that Basij forces of the Islamic Republic killed 53 people, 35 of them named, in the villages of Îndirqaş and Wisûkend near Mehabad. This is a single-source figure.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1980",
+  "period": "1979–1987",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Villages of Hewşar, Nexede and Mehabad districts (representative)",
+  "governorate": "West Azerbaijan / Kurdistan",
+  "country": "Iran",
+  "lat": 36.6,
+  "lon": 45.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "51–64 villages burned, destroyed or severely damaged",
+  "summary": "KGNA's study of Iranian state repression in Rojhilat records 51–64 Kurdish villages burned, destroyed or severely damaged by Iranian forces between 1979 and 1987, with Hewşar and Nexede among the hardest-hit districts.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1983-06-02",
+  "period": null,
+  "actor": "Iran",
+  "type": "massacre",
+  "place": "Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.765,
+  "lon": 45.722,
+  "precision": "approximate",
+  "killed": 59,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Islamic Republic hanged 59 young people from Mehabad after summary trials, some of them under 18, according to KGNA citing HANA, IranWire and Iran International.",
+  "sources": [
+   {
+    "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
+    "url": "https://kgna.krd/18407/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1996-07-27",
+  "period": "26–28 July 1996",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Koye (Koya), Heybet Sultan mountain",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.083,
+  "lon": 44.628,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "About 3,000 Revolutionary Guards crossed into Başûr in more than 100 vehicles to attack KDPI camps around Koye, occupied Heybet Sultan mountain and shelled civilian areas of Koye and Taqtaq, according to a letter from Iraq to the UN Security Council. No casualty count is established.",
+  "sources": [
+   {
+    "title": "UN Security Council document S/1996/617",
+    "url": "https://digitallibrary.un.org/record/219422/files/S_1996_617-EN.pdf"
+   },
+   {
+    "title": "Rudaw (opinion): the 1996 IRGC incursion into Koya",
+    "url": "https://rudaw.net/english/categories/opinion/1078929"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2011-07-16",
+  "period": "July – Nov 2011",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Sîdekan (Sidakan) and Qendîl (Qandil) border villages",
+  "governorate": "Erbil / Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.797,
+  "lon": 44.672,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 11,
+  "civilian": true,
+  "impact": "About 1,350 families (8,000 people) displaced; farmland damaged",
+  "summary": "Iranian Revolutionary Guards shelled and rocketed Kurdish border villages around Sîdekan and Qendîl during an offensive against PJAK, killing at least three Iraqi Kurdish civilians and wounding 11 by late July. Human Rights Watch reported that Iranian and Turkish attacks displaced about 8,000 people between July and November 2011.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Iran/Turkey – Recent attacks on civilians in Iraqi Kurdistan (Dec 2011)",
+    "url": "https://www.hrw.org/news/2011/12/20/iranturkey-recent-attacks-civilians-iraqi-kurdistan"
+   },
+   {
+    "title": "VOA: Iran shelling kills 2 in Iraq's Kurdish region (2011)",
+    "url": "https://www.globalsecurity.org/wmd/library/news/iran/2011/iran-110725-voa01.htm"
+   },
+   {
+    "title": "Institut kurde: Hundreds displaced by Iran–Iraq Kurd clashes – ICRC",
+    "url": "https://www.institutkurde.org/en/info/latest/hundreds-displaced-by-iran-iraq-kurd-clashes-icrc-2708/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1963-06-05",
+  "period": "1963",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Qeredere (Qara Dara), Şêrnaw and villages around Dibis, NW of Kerkûk",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.64,
+  "lon": 44.07,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "24 villages razed between Khatoun and Kaywan (witness account); houses, crops and livestock burned or seized",
+  "summary": "After the February 1963 Ba'ath coup, the Iraqi National Guard, backed by army tanks, attacked Kurdish villages around Dibis in Kerkûk province, killing farmers, burning houses and crops and expelling families so Arab settlers could replace them. Survivors told the Kurdistan Memory Programme that 24 villages were razed and 22 people killed in Şêrnaw alone between 1963 and 1975.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: 'The Iraqis razed 24 villages and drove people from their lands'",
+    "url": "https://kurdistanmemoryprogramme.com/the-iraqis-razed-24-villages-and-drove-people-from-their-lands/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: 'The Iraqi National Guard burned down whatever they could: houses, belongings and crops'",
+    "url": "https://kurdistanmemoryprogramme.com/the-iraqi-national-guard-burned-down-whatever-they-could-houses-belongings-and-crops/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: 'I was 10 years old when my father was killed in the wheat fields'",
+    "url": "https://kurdistanmemoryprogramme.com/i-was-10-years-old-when-my-father-was-killed-in-the-wheat-fields/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: 'The Arabs are still occupying our lands 45 years later'",
+    "url": "https://kurdistanmemoryprogramme.com/the-arabs-are-still-occupying-our-lands-45-years-later/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1969-08-18",
+  "period": "18–19 August 1969",
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Dakan cave, near the Xazir river, Şêxan",
+  "governorate": "Duhok / Nineveh",
+  "country": "Iraq",
+  "lat": 36.75,
+  "lon": 43.45,
+  "precision": "approximate",
+  "killed": 70,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi army troops and allied militia set fire to the entrance of a cave where villagers of Dakan were sheltering from bombardment, burning them alive. KGNA records 70–80 victims, most of them women and children, and nine burned survivors.",
+  "sources": [
+   {
+    "title": "KGNA: Dakan Cave Massacre Crime – 1969",
+    "url": "https://kgna.krd/11329/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1969-09-16",
+  "period": null,
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Soriya (Surya), Silêvanî plain near Feyşxabûr",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.05,
+  "lon": 42.45,
+  "precision": "approximate",
+  "killed": 39,
+  "injured": 27,
+  "civilian": true,
+  "impact": null,
+  "summary": "An Iraqi army unit massacred villagers of Soriya, a mixed Kurdish Muslim and Christian village on the Tigris. KGNA records 39 killed (25 Christians and 14 Muslims) and 27 wounded.",
+  "sources": [
+   {
+    "title": "KGNA: The Soriya Village Massacre of 1969",
+    "url": "https://kgna.krd/11327/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1970-09",
+  "period": "1970; 1979–1980",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Xaneqîn (Khanaqin) and Feyli Kurdish areas (also Baghdad)",
+  "governorate": "Diyala / Baghdad",
+  "country": "Iraq",
+  "lat": 34.348,
+  "lon": 45.391,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 50,000 deported in 1970 (McDowall); larger expulsions in 1980 with mass detention and disappearance of young men",
+  "summary": "The Ba'ath state stripped Feyli Kurds of citizenship and deported them to Iran, about 50,000 after September 1970 according to McDowall, followed by mass expulsions from 1980 in which thousands of young men were detained and disappeared. The Iraqi High Tribunal (2010) and the Iraqi parliament (2011) recognised the 1980 campaign as genocide.",
+  "sources": [
+   {
+    "title": "KGNA: The Genocide of the Faily Kurds 1980",
+    "url": "https://kgna.krd/11036/"
+   },
+   {
+    "title": "KGNA: Deportation, forced migration, genocide of Kurdish Faily",
+    "url": "https://kgna.krd/11856/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1974-04-24",
+  "period": null,
+  "actor": "Iraq",
+  "type": "airstrike",
+  "place": "Qeladize (Qaladiza)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.183,
+  "lon": 45.125,
+  "precision": "exact",
+  "killed": 130,
+  "injured": 300,
+  "civilian": true,
+  "impact": "University, hospital, schools and homes destroyed",
+  "summary": "Iraqi warplanes from Kerkûk airbase bombed Qeladize, where the University of Silêmanî had relocated, reportedly with napalm. The Kurdistan Memory Programme gives 130 civilians killed, KGNA gives 163 killed and more than 300 injured (mostly students), and other estimates reach 400.",
+  "sources": [
+   {
+    "title": "KGNA: Massacre, forced deportation and bombing of Qaladze -1974",
+    "url": "https://kgna.krd/11320/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   },
+   {
+    "title": "Wikipedia (pointer): Qaladiza",
+    "url": "https://en.wikipedia.org/wiki/Qaladiza"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1974-04-26",
+  "period": null,
+  "actor": "Iraq",
+  "type": "airstrike",
+  "place": "Helebce (Halabja)",
+  "governorate": "Halabja",
+  "country": "Iraq",
+  "lat": 35.178,
+  "lon": 45.986,
+  "precision": "approximate",
+  "killed": 43,
+  "injured": 100,
+  "civilian": true,
+  "impact": null,
+  "summary": "Two days after Qeladize, Iraqi aircraft bombed Helebce, which was protesting that attack. The Kurdistan Memory Programme gives 43 killed and KGNA gives 58 civilians killed and more than 100 injured, with much of the town destroyed and many residents fleeing to Iran.",
+  "sources": [
+   {
+    "title": "KGNA: Bombardment of Halabja – 1974",
+    "url": "https://kgna.krd/11322/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1974-04-29",
+  "period": null,
+  "actor": "Iraq",
+  "type": "airstrike",
+  "place": "Galala, near Çoman",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.62,
+  "lon": 44.8,
+  "precision": "approximate",
+  "killed": 20,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi air raids on Galala killed at least 20 people, part of the April 1974 bombing campaign on Kurdish towns described by the Kurdistan Memory Programme.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1975",
+  "period": "1975–1981",
+  "actor": "Iraq",
+  "category": "land",
+  "place": "Iran border strip (Pişder, Qendîl foothills, Hewraman)",
+  "governorate": "Sulaymaniyah / Erbil / Duhok",
+  "country": "Iraq",
+  "lat": 36.2,
+  "lon": 45.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Border villages cleared for a 20+ km security belt; e.g. 125 villages around Qeladize moved to camps",
+  "summary": "After the 1975 Algiers Agreement, the Iraqi state cleared a security belt more than 20 km deep along the Iranian border, razing Kurdish villages and moving residents into forced 'mujamma'at' camps. KGNA lists more than 120 villages around Qeladize relocated in 1977–1981, and the Kurdistan Memory Programme describes an army 'cordon sanitaire' around Kurdish areas. The Kurdish Project, which cites no sources, says about 600 villages were destroyed and 200,000 Kurds forcibly resettled by the end of the 1970s.",
+  "sources": [
+   {
+    "title": "KGNA: Massacre, forced deportation and bombing of Qaladze -1974",
+    "url": "https://kgna.krd/11320/"
+   },
+   {
+    "title": "KGNA: The Kani Ashqan Crime and Halabja uprising- 1987",
+    "url": "https://kgna.krd/11324/"
+   },
+   {
+    "title": "Human Rights Watch: Claims in Conflict – Reversing Ethnic Cleansing in Northern Iraq (2004)",
+    "url": "https://www.hrw.org/report/2004/08/02/claims-conflict/reversing-ethnic-cleansing-northern-iraq"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   },
+   {
+    "title": "The Kurdish Project: Kurdistan Genocide (overview page, cites no sources)",
+    "url": "https://thekurdishproject.org/history-and-culture/kurdish-history/kurdistan-genocide/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1983-07-31",
+  "period": "31 July – Aug 1983",
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Quşteppe (Qushtapa) camps of Quds and Qadisiya",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.01,
+  "lon": 44.042,
+  "precision": "approximate",
+  "killed": 8000,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi security forces and the Republican Guard rounded up Barzani men and boys from resettlement camps around Hewlêr. They were taken to the southern desert and executed, and their remains were later found in mass graves near Busayya. KGNA records 8,000 killed, including 315 juveniles; the Kurdistan Memory Programme gives 5,000–8,000.",
+  "sources": [
+   {
+    "title": "KGNA: Genocide of the Barzanis -1983",
+    "url": "https://kgna.krd/11296/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Tragedy of the Missing Barzanis",
+    "url": "https://kurdistanmemoryprogramme.com/the-tragedy-of-the-missing-barzanis/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1985-06-09",
+  "period": null,
+  "actor": "Iraq",
+  "type": "airstrike",
+  "place": "Ziwa refugee camp, Mergewer (Margavar), near Ûrmiye",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.4,
+  "lon": 44.95,
+  "precision": "approximate",
+  "killed": 150,
+  "injured": 373,
+  "civilian": true,
+  "impact": null,
+  "summary": "Eight Iraqi warplanes bombed the Ziwa camp for Kurdish refugees from Başûr inside Iran, as students gathered for exam results. KGNA records 150 killed, including pregnant women and infants, and 373 injured; the camp was bombed nine times during the war.",
+  "sources": [
+   {
+    "title": "KGNA: The crime of bombardment of the Ziwa camp – 1985",
+    "url": "https://kgna.krd/11318/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1987-04-15",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Şarbajêr–Jafayetî valley villages (Sergelû, Bergelû, Haldan and others)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.87,
+  "lon": 45.37,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Iraqi aircraft dropped chemical weapons on villages of the Jafayetî valley, including Sergelû, Bergelû and Haldan, causing dozens of civilian and Peshmerga casualties, in the first of the 1987 chemical attacks on Kurdish villages recorded by KGNA.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions -1987",
+    "url": "https://kgna.krd/11333/"
+   },
+   {
+    "title": "KGNA: Chemical Attack on Balesan Valley and Sheikh Wasan -1987",
+    "url": "https://kgna.krd/11331/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1987-04-16",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Balîsan valley and Şêx Wesan (Sheikh Wasan)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.427,
+  "lon": 44.405,
+  "precision": "approximate",
+  "killed": 187,
+  "injured": 346,
+  "civilian": true,
+  "impact": "Survivors taken from hospital later disappeared; 25 found in mass grave at Erbil asphalt factory (1991)",
+  "summary": "Iraqi aircraft dropped chemical weapons on Balîsan, Şêx Wesan and nearby villages, among the first gas attacks by a state on its own civilians. KGNA counts 61 dead in Balîsan and 126 in Şêx Wesan from direct exposure, and 376–435 total victims including the injured who were later taken from hospital and disappeared.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attack on Balesan Valley and Sheikh Wasan -1987",
+    "url": "https://kgna.krd/11331/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Chemical Apocalypse in Balisan valley",
+    "url": "https://kurdistanmemoryprogramme.com/chemical-apocalypse-in-balisan-valley/"
+   },
+   {
+    "title": "KGNA: Mass Graves",
+    "url": "https://kgna.krd/13102/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1987-05-13",
+  "period": null,
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Kanî Aşqan neighbourhood, Helebce (Halabja)",
+  "governorate": "Halabja",
+  "country": "Iraq",
+  "lat": 35.18,
+  "lon": 45.985,
+  "precision": "approximate",
+  "killed": 79,
+  "injured": null,
+  "civilian": true,
+  "impact": "350+ homes in Kanî Aşqan blown up with TNT; 3,000+ displaced",
+  "summary": "The Ba'ath state suppressed protests in Helebce, Xurmal and Seyid Sadiq against forced village clearances: wounded protesters were taken from hospital and shot, and the Kanî Aşqan neighbourhood was dynamited. KGNA records 79 people executed or buried alive, more than 350 homes destroyed and more than 3,000 displaced.",
+  "sources": [
+   {
+    "title": "KGNA: The Kani Ashqan Crime and Halabja uprising- 1987",
+    "url": "https://kgna.krd/11324/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1987-06-28",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.155,
+  "lon": 45.479,
+  "precision": "exact",
+  "killed": 110,
+  "injured": 4500,
+  "civilian": true,
+  "impact": "More than 8,000 residents exposed to mustard gas",
+  "summary": "Iraqi aircraft dropped mustard-gas bombs on the Kurdish town of Serdeşt in Iran, the first chemical attack on a civilian town inside Iran. KGNA records 130 eventual deaths (109 civilians) and more than 8,000 people exposed; the Kurdistan Memory Programme gives about 110 civilians killed and 4,500 injured.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attack on Sardasht 1987",
+    "url": "https://kgna.krd/15916/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-02-23",
+  "period": "23 Feb – 6 Sept 1988 (with 1987–1989 related operations)",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Başûr rural areas (representative: Germiyan / Silêmanî)",
+  "governorate": "Sulaymaniyah, Kirkuk, Erbil, Duhok",
+  "country": "Iraq",
+  "lat": 35.3,
+  "lon": 45.0,
+  "precision": "approximate",
+  "killed": 50000,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 4,000–4,500 villages destroyed; tens of thousands deported to camps and mass graves",
+  "summary": "In the Anfal genocide, the Iraqi Ba'ath state carried out eight phases of military, chemical and mass-execution operations against rural Kurds. Human Rights Watch estimated 50,000–100,000 killed and Kurdish sources (KGNA, the Kurdistan Memory Programme) give up to 182,000; it was recognised as genocide by the Iraqi High Tribunal (2007), the Iraqi parliament (2008), and the parliaments of Sweden (2012), the UK (2013) and Norway.",
+  "sources": [
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   },
+   {
+    "title": "KGNA: Anfal Genocide-1988",
+    "url": "https://kgna.krd/11308/"
+   },
+   {
+    "title": "KGNA: Anfal Court – Part 1",
+    "url": "https://kgna.krd/12336/"
+   },
+   {
+    "title": "KGNA: Genocide Decision in the Kurdistan Parliament-2008",
+    "url": "https://kgna.krd/12325/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Story of Anfal",
+    "url": "https://kurdistanmemoryprogramme.com/story-of-anfal/"
+   },
+   {
+    "title": "The New Arab: Iraq marks 37 years of Anfal genocide",
+    "url": "https://www.newarab.com/news/iraq-marks-37-years-anfal-genocide-amid-justice-demands"
+   },
+   {
+    "title": "Al Jazeera: Iraq Kurds press states to recognise genocide (2014)",
+    "url": "https://www.aljazeera.com/indepth/features/2014/04/iraq-kurds-press-states-recognise-genocide-anfal-201441371637191288.html"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-02-23",
+  "period": "23 Feb – 19 March 1988",
+  "actor": "Iraq",
+  "type": "ground assault",
+  "place": "Sergelû and Bergelû, Jafayetî valley (First Anfal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.87,
+  "lon": 45.37,
+  "precision": "approximate",
+  "killed": 200,
+  "injured": null,
+  "civilian": null,
+  "impact": "25–30 villages destroyed",
+  "summary": "The first phase of the Anfal genocide besieged the Jafayetî valley with shelling, chemical attacks (8 dead and 201 injured on 26 February) and ground assaults. KGNA records 200–250 people killed and 25–30 villages destroyed; the remains of 358 victims were exhumed at Nugra Salman in 2008.",
+  "sources": [
+   {
+    "title": "KGNA: The First Anfal Genocide-1988",
+    "url": "https://kgna.krd/12969/"
+   },
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-03-16",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Helebce (Halabja)",
+  "governorate": "Halabja",
+  "country": "Iraq",
+  "lat": 35.178,
+  "lon": 45.986,
+  "precision": "exact",
+  "killed": 3200,
+  "injured": 10000,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi aircraft bombed Helebce and surrounding villages with mustard gas and nerve agents, the deadliest chemical attack on civilians on record. Estimates of the dead range from 3,200 to 5,000 (KGNA and the Kurdistan Memory Programme give about 5,000), with up to 10,000 injured; the Iraqi High Tribunal later ruled it genocide.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attack Halabja-1988",
+    "url": "https://kgna.krd/11337/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Lost Children of Halabja",
+    "url": "https://kurdistanmemoryprogramme.com/lost-children-of-halabja/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   },
+   {
+    "title": "The Kurdish Project: Kurdistan Genocide (overview page, cites no sources)",
+    "url": "https://thekurdishproject.org/history-and-culture/kurdish-history/kurdistan-genocide/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-03-17",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Nowsud (Nodşe), Hewraman",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.162,
+  "lon": 46.203,
+  "precision": "approximate",
+  "killed": 104,
+  "injured": 700,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi aircraft carried out a chemical attack on the village of Nodşe in Iranian Hewraman, a day after Helebce. KGNA records 104 killed and more than 700 injured; KGNA's timeline also lists attacks on the area on 24 March and 2 April 1988.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   },
+   {
+    "title": "KGNA: Timeline",
+    "url": "https://kgna.krd/timeline/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-03-22",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Sêwsenan (Siwsinan), Qeredax (Qaradagh)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.3,
+  "lon": 45.35,
+  "precision": "approximate",
+  "killed": 68,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "During the Second Anfal, Iraqi forces fired rockets with sarin and tabun at the village of Sêwsenan in Qeredax. KGNA records 68 civilians killed, including women, children and elderly people, and hundreds injured.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   },
+   {
+    "title": "KGNA: The Second Anfal 1988",
+    "url": "https://kgna.krd/16790/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-03-22",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Nijmaro, Balek and Degaşêxan villages near Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.52,
+  "lon": 46.18,
+  "precision": "approximate",
+  "killed": 300,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi aircraft carried out chemical attacks on Kurdish villages near Merîwan in Iran. KGNA records 300 deaths and hundreds injured; the figure is single-sourced.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   },
+   {
+    "title": "KGNA: Timeline",
+    "url": "https://kgna.krd/timeline/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-04-07",
+  "period": "7–20 April 1988",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Germiyan (Third Anfal): Qadir Kerem, Kifrî, Kelar, Çemçemal, Dûzxurmatû",
+  "governorate": "Kirkuk / Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.2,
+  "lon": 44.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "More than 500 villages destroyed; nearly 30,000 civilians detained and disappeared (KGNA)",
+  "summary": "The Third Anfal depopulated Germiyan: Iraqi forces razed villages and trucked women, children and men to camps such as Topzawa, from where most were taken to desert execution sites. KGNA records more than 500 villages destroyed and nearly 30,000 people detained and disappeared, making it the deadliest phase.",
+  "sources": [
+   {
+    "title": "KGNA: The Third Anfal Genocide 1988",
+    "url": "https://kgna.krd/16812/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Kulajo: the Village that Rose from the Dead",
+    "url": "https://kurdistanmemoryprogramme.com/the-kurdish-village-that-rose-from-the-dead/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-04",
+  "period": null,
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Kulajo village, Germiyan",
+  "governorate": "Sulaymaniyah / Diyala",
+  "country": "Iraq",
+  "lat": 34.95,
+  "lon": 45.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Village of ~300 lost almost half its population",
+  "summary": "Iraqi soldiers destroyed Kulajo during the Anfal genocide and took its roughly 300 inhabitants to the Qoratu fort; many were later shot in the desert near the Saudi border, where 12-year-old Teimour Abdullah survived the mass execution. The village lost almost half its population, according to the Kurdistan Memory Programme.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: Kulajo: the Village that Rose from the Dead",
+    "url": "https://kurdistanmemoryprogramme.com/the-kurdish-village-that-rose-from-the-dead/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1988-03",
+  "period": "March 1988",
+  "actor": "Iraq",
+  "category": "land",
+  "place": "Seyid Sadiq (Sayid Sadiq) and its villages",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.354,
+  "lon": 45.866,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Town levelled; 54 villages forcibly emptied",
+  "summary": "In late March 1988, the Iraqi Ba'ath state demolished the whole town of Seyid Sadiq and forcibly moved the people of its 54 villages to the Nasr and Brayati camps, KGNA records.",
+  "sources": [
+   {
+    "title": "KGNA: Genocide of the Seyed Sadegh Area-1988",
+    "url": "https://kgna.krd/11304/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-05-03",
+  "period": "3–9 May 1988",
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Goptepe (Goktapa) and Esker, Little Zab valley (Fourth Anfal)",
+  "governorate": "Sulaymaniyah / Kirkuk",
+  "country": "Iraq",
+  "lat": 35.95,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": 200,
+  "injured": null,
+  "civilian": true,
+  "impact": "Villages levelled the next day",
+  "summary": "The Fourth Anfal opened with chemical bombing of Goptepe, Esker and a dozen nearby villages in the Little Zab valley, which were bulldozed the next day. KGNA gives 200–300 killed in Goptepe and about 560 across all the villages bombed that day.",
+  "sources": [
+   {
+    "title": "KGNA: The Fourth Anfal Genocide 1988",
+    "url": "https://kgna.krd/11306/"
+   },
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-05-15",
+  "period": "15 May – 25 Aug 1988",
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Balîsan valley: Warê, Nazanîn, Smaqulî and others (5th–7th Anfal)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.45,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": 36,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "In the 5th–7th Anfal phases, Iraqi forces gassed and stormed villages in the Şeqlawe–Rewandiz mountains and the Balîsan valley; KGNA records 36 civilians killed in Warê alone. Human Rights Watch documents further gas attacks, such as Bileh on 23 May and Balîsan and Smaqulî on 26 July (13–15 dead).",
+  "sources": [
+   {
+    "title": "KGNA: The 5th, 6th, 7th phases of the Anfal Genocide",
+    "url": "https://kgna.krd/16822/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-07-22",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Zerde (Zardeh), Dalahû",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.55,
+  "lon": 46.25,
+  "precision": "approximate",
+  "killed": 275,
+  "injured": 1100,
+  "civilian": true,
+  "impact": null,
+  "summary": "Iraqi warplanes carried out a chemical attack on the Kurdish village of Zerde in Iran, with one bomb poisoning its only drinking-water spring. KGNA records 275 killed in the first hour, rising to 320, and about 1,100 injured.",
+  "sources": [
+   {
+    "title": "KGNA: Chemical Attack of Zarda village",
+    "url": "https://kgna.krd/16394/"
+   },
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-08-25",
+  "period": "25 Aug – 6 Sept 1988",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Badînan (Final Anfal), representative: Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.092,
+  "lon": 43.487,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "KGNA: 663+ villages destroyed, 13,535 people detained; 65,000–80,000+ fled to Turkey",
+  "summary": "In the Final Anfal, Iraqi forces gassed and stormed Badînan, executing captured men at villages such as Korêmê and Mirgatû and driving more than 65,000 people to flee into Turkey. KGNA cites official records of 13,535 detainees and more than 663 villages destroyed; its higher chemical death figures for Bazê and Banke (thousands) are not corroborated and are not used here.",
+  "sources": [
+   {
+    "title": "KGNA: The Final Anfal -1988",
+    "url": "https://kgna.krd/16828/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Survivors of Kureme",
+    "url": "https://kurdistanmemoryprogramme.com/survivors-of-kureme/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-08-26",
+  "period": null,
+  "actor": "Iraq",
+  "type": "chemical",
+  "place": "Tika (Tuika) village, Badînan",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.0,
+  "lon": 43.3,
+  "precision": "approximate",
+  "killed": 13,
+  "injured": 15,
+  "civilian": true,
+  "impact": null,
+  "summary": "One of the first chemical attacks of the Final Anfal hit Tika village; a witness told the Kurdistan Memory Programme that 13 villagers were killed. KGNA records 14 dead and 15 injured in attacks on Tuika, Blîcan and Zêrhewa on 25 August.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: 'They told us 13 villagers had been killed and we panicked'",
+    "url": "https://kurdistanmemoryprogramme.com/they-told-us-13-villagers-had-been-killed-and-we-panicked/"
+   },
+   {
+    "title": "KGNA: Chemical Attacks in Kurdistan Regions – 1988",
+    "url": "https://kgna.krd/11335/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1988-08-28",
+  "period": null,
+  "actor": "Iraq",
+  "type": "massacre",
+  "place": "Korêmê (Koreme), near Mangêş",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.08,
+  "precision": "approximate",
+  "killed": 27,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "After the villagers of Korêmê surrendered during the Final Anfal, Iraqi soldiers lined up 33 men and boys and shot them; six survived, leaving 27 dead. The site was exhumed by Middle East Watch and Physicians for Human Rights in 1992, and KGNA gives 33.",
+  "sources": [
+   {
+    "title": "Kurdistan Memory Programme: Survivors of Kureme",
+    "url": "https://kurdistanmemoryprogramme.com/survivors-of-kureme/"
+   },
+   {
+    "title": "Human Rights Watch / PHR: The Anfal Campaign in Iraqi Kurdistan – The Destruction of Koreme (1992)",
+    "url": "https://www.hrw.org/report/1992/12/01/anfal-campaign-iraqi-kurdistan/destruction-koreme"
+   },
+   {
+    "title": "KGNA: The Final Anfal -1988",
+    "url": "https://kgna.krd/16828/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1987",
+  "period": "1987–1989",
+  "actor": "Iraq",
+  "category": "agriculture",
+  "place": "Rural Başûr (representative: Germiyan plain)",
+  "governorate": "Sulaymaniyah, Kirkuk, Erbil, Duhok",
+  "country": "Iraq",
+  "lat": 35.4,
+  "lon": 44.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 4,000–4,500 villages razed (KGNA ~4,500; KMP ~2,500 during Anfal itself); orchards, wells and springs destroyed; 'prohibited zones'",
+  "summary": "Under orders 160 and 28/4008 (1987), the Iraqi state declared rural Kurdistan a 'prohibited zone', razed thousands of villages, and destroyed orchards, wells, livestock and farmland, turning a farming society into one of camps. KGNA counts about 4,500 villages destroyed.",
+  "sources": [
+   {
+    "title": "KGNA: Anfal Genocide-1988",
+    "url": "https://kgna.krd/11308/"
+   },
+   {
+    "title": "KGNA: Decision No. 28/4008 – 1987",
+    "url": "https://kgna.krd/13062/"
+   },
+   {
+    "title": "KGNA: Decision No. 160 in 1987",
+    "url": "https://kgna.krd/12331/"
+   },
+   {
+    "title": "Human Rights Watch / Middle East Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds (1993)",
+    "url": "https://www.hrw.org/reports/1993/iraqanfal/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: Kulajo: the Village that Rose from the Dead",
+    "url": "https://kurdistanmemoryprogramme.com/the-kurdish-village-that-rose-from-the-dead/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1989-06-20",
+  "period": "1989",
+  "actor": "Iraq",
+  "category": "land",
+  "place": "Qeladize (Qaladiza) and Pişder district",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 36.183,
+  "lon": 45.125,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Town and district emptied into 17 camps; homes, schools and mosques blown up",
+  "summary": "After Anfal, the Iraqi state forcibly moved the whole population of Qeladize and the Pişder district into camps, dynamited homes, schools and mosques, and declared the area a prohibited zone. KGNA records that those who tried to return were arrested or disappeared.",
+  "sources": [
+   {
+    "title": "KGNA: Pshdar Genocide – 1989",
+    "url": "https://kgna.krd/11302/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "1991-03",
+  "period": "March – April 1991",
+  "actor": "Iraq",
+  "type": "campaign",
+  "place": "Kerkûk (Kirkuk) and Başûr cities; mass exodus to Turkish and Iranian borders",
+  "governorate": "Kirkuk / Sulaymaniyah / Erbil / Duhok",
+  "country": "Iraq",
+  "lat": 35.468,
+  "lon": 44.392,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 1.5–2 million fled; KGNA cites 500–1,000 deaths per day on the Turkish border (US State Dept)",
+  "summary": "After the March 1991 uprising, Iraqi forces retook Kerkûk and the Kurdish cities with heavy weapons and helicopters, driving a mass exodus of Kurds into the mountains along the Turkish and Iranian borders. KGNA cites estimates of 50,000–100,000 killed, disappeared or dead from cold and hunger; the figure is disputed.",
+  "sources": [
+   {
+    "title": "KGNA: Uprising Kurdistan and forced migration -1991",
+    "url": "https://kgna.krd/11316/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: 'Caught in those blizzards, parents had no choice but to abandon their children'",
+    "url": "https://kurdistanmemoryprogramme.com/caught-in-those-blizzards-parents-had-no-choice-but-to-abandon-their-children/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1991",
+  "period": "1963–2003 (intensified 1975 and 1991–2003)",
+  "actor": "Iraq",
+  "category": "land",
+  "place": "Kerkûk (Kirkuk) and the disputed territories",
+  "governorate": "Kirkuk / Diyala / Nineveh",
+  "country": "Iraq",
+  "lat": 35.468,
+  "lon": 44.392,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "HRW: about 120,000 Kurds, Turkmen and Assyrians forcibly transferred since 1991; hundreds of thousands since 1975",
+  "summary": "Under 'Arabisation', the Iraqi state expelled Kurds, Turkmen and Assyrians from Kerkûk and other disputed areas, seized their farmland and homes, and settled Arab families in their place. Human Rights Watch estimated about 120,000 people forcibly transferred after 1991 alone, a possible crime against humanity.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Claims in Conflict – Reversing Ethnic Cleansing in Northern Iraq (2004)",
+    "url": "https://www.hrw.org/report/2004/08/02/claims-conflict/reversing-ethnic-cleansing-northern-iraq"
+   },
+   {
+    "title": "Human Rights Watch: Iraq – Forcible expulsion of ethnic minorities (Kirkuk, 2003)",
+    "url": "https://www.hrw.org/reports/2003/iraq0303/Kirkuk0303.htm"
+   },
+   {
+    "title": "KGNA: Ethnic Cleansing Case 1968-2003",
+    "url": "https://kgna.krd/11310/"
+   },
+   {
+    "title": "Kurdistan Memory Programme: 'My Kurdish family were the original inhabitants of Mama village, not Arabs'",
+    "url": "https://kurdistanmemoryprogramme.com/my-kurdish-family-were-the-original-inhabitants-of-mama-village-not-arabs/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1962-10-05",
+  "period": "1962 onwards",
+  "actor": "Syria",
+  "category": "land",
+  "place": "Hesekê (al-Hasakah) governorate",
+  "governorate": "Al-Hasakah",
+  "country": "Syria",
+  "lat": 36.502,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 120,000 Kurds stripped of citizenship; barred from owning land and property",
+  "summary": "Under Decree 93, a special census in Hesekê province stripped about 120,000 Syrian Kurds (20% of Syrian Kurds at the time) of citizenship, leaving them stateless and unable to own land, property or businesses. Human Rights Watch describes it as part of a plan to Arabise the resource-rich northeast.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Syria – The Silenced Kurds (1996)",
+    "url": "https://www.hrw.org/report/1996/10/01/syria-silenced-kurds"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "ecocide",
+  "layer": "history",
+  "date": "1973",
+  "period": "Planned 1965; implemented 1973–1976",
+  "actor": "Syria",
+  "category": "land",
+  "place": "Arab Belt along the Turkish border (Serêkaniyê to Dêrik)",
+  "governorate": "Al-Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.2,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Kurdish farmland seized for state 'model farms' settled by Arab families displaced by the Tabqa reservoir",
+  "summary": "The Syrian Ba'ath state's 'Arab Belt' seized Kurdish farmland in a strip along the Turkish border and built about 40 'model villages' for Arab settlers, many of them displaced by the Tabqa dam reservoir. The project was suspended in 1976, but the land was never returned.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Syria – The Silenced Kurds (1996)",
+    "url": "https://www.hrw.org/report/1996/10/01/syria-silenced-kurds"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   },
+   {
+    "title": "Wikipedia (pointer): Arab Belt project",
+    "url": "https://en.wikipedia.org/wiki/Arab_Belt"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2004-03-12",
+  "period": "12–16 March 2004",
+  "actor": "Syria",
+  "type": "massacre",
+  "place": "Qamişlo (Qamishli) and other Kurdish towns",
+  "governorate": "Al-Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "exact",
+  "killed": 30,
+  "injured": 160,
+  "civilian": true,
+  "impact": "2,000+ arrested",
+  "summary": "Syrian security forces opened fire on Kurds after a football-stadium clash in Qamişlo and at the funerals that followed, and unrest spread to other Kurdish towns. Human Rights Watch and Amnesty International report at least 30 killed and more than 160 injured (STJ counts 36), with over 2,000 arrested and no official investigation.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Syria – Address grievances underlying Kurdish unrest (2004)",
+    "url": "https://www.hrw.org/news/2004/03/18/syria-address-grievances-underlying-kurdish-unrest"
+   },
+   {
+    "title": "Amnesty International: Syria – Kurds in the Syrian Arab Republic one year after the March 2004 events",
+    "url": "https://www.amnesty.org/es/wp-content/uploads/2021/09/mde240012005en.pdf"
+   },
+   {
+    "title": "Kurdistan Memory Programme: History of the Kurds",
+    "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2008-03-20",
+  "period": null,
+  "actor": "Syria",
+  "type": "massacre",
+  "place": "Qamişlo (Qamishli)",
+  "governorate": "Al-Hasakah",
+  "country": "Syria",
+  "lat": 37.052,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "Syrian internal security forces fired on Kurds celebrating Newroz in Qamişlo, killing three young men and wounding at least five. Authorities did not investigate.",
+  "sources": [
+   {
+    "title": "Human Rights Watch: Syria – Investigate killing of Kurds (2008)",
+    "url": "https://www.hrw.org/news/2008/03/23/syria-investigate-killing-kurds"
+   },
+   {
+    "title": "Human Rights Watch: Syria – Investigate security force shooting of Kurds (2010)",
+    "url": "https://www.hrw.org/news/2010/03/26/syria-investigate-security-force-shooting-kurds"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "layer": "history",
+  "date": "2016-08-18",
+  "period": "18–22 August 2016",
+  "actor": "Syria",
+  "type": "airstrike",
+  "place": "Hesekê (al-Hasakah) Kurdish neighbourhoods",
+  "governorate": "Al-Hasakah",
+  "country": "Syria",
+  "lat": 36.505,
+  "lon": 40.745,
+  "precision": "approximate",
+  "killed": 22,
+  "injured": null,
+  "civilian": true,
+  "impact": "Thousands fled the city",
+  "summary": "Syrian government Su-24 jets bombed Kurdish-held neighbourhoods of Hesekê, the regime's first air attacks on Kurdish areas, during clashes with Asayish and YPG forces. The Syrian Observatory counted at least 22 civilians killed, including nine children, in two days; other reports give 27.",
+  "sources": [
+   {
+    "title": "Al Jazeera: Civilians evacuated as Syrian Kurds bombed in Hasakah (2016)",
+    "url": "https://www.aljazeera.com/news/2016/8/20/civilians-evacuated-as-syrian-kurds-bombed-in-hasakah"
+   },
+   {
+    "title": "Institut kurde: Syria regime aircraft hit Kurd-held area for first time",
+    "url": "https://www.institutkurde.org/en/info/latest/syria-regime-aircraft-hit-kurd-held-area-for-first-time-6452/"
+   },
+   {
+    "title": "Rudaw: Syrian regime fighter planes bomb Kurdish Hasaka",
+    "url": "https://www.rudaw.net/english/middleeast/syria/180820163"
+   }
+  ],
+  "kind": "strike"
+ }
+]
