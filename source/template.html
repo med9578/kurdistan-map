@@ -1,0 +1,1119 @@
+<title>Kurdistan Strike Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Noto+Sans+Arabic:wght@400..700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<style>
+/*__LEAFLET_CSS__*/
+
+/* Acid on black, glass cards. Phone: top bar + chips, bottom sheet, tab bar. Desktop: one sidebar. */
+:root{
+  --ground:#0a0a0a; --land:#171717; --water:#040404; --grid:transparent; --road:#262626; --river:#1f3442; --border:#7a7a7a;
+  --panel:rgba(20,20,20,.8); --panel-solid:#121212; --card:rgba(255,255,255,.05); --ink:#f3f3f1; --muted:#9d9d99; --line:rgba(255,255,255,.1); --hover:rgba(255,255,255,.06);
+  --accent:#d7ff3d; --accent-ink:#d7ff3d; --on-accent:#0a0a0a;
+  --turkey:#ff4538; --iran:#b07cff; --syria:#29d3c2; --iraq:#ffa41c; --usil:#a3adbb; --eco:#45e08a; --halo:#171717;
+  --heat1:#d7ff3d; --heat2:#ffa41c; --heat3:#ff4538; --heat4:#ffffff;
+  --sans:"Bricolage Grotesque",system-ui,sans-serif; --cond:var(--sans); --mono:var(--sans);
+  --r:22px; --glass:blur(18px) saturate(140%); color-scheme:dark;
+}
+html,body{height:100%;margin:0}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;overflow:hidden;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-variant-numeric:tabular-nums}
+.app{position:relative;height:100%}
+#map{position:absolute;inset:0;background:var(--water)}
+.leaflet-container{background:var(--water);font-family:var(--sans)}
+.glass{background:var(--panel);backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass);border:1px solid var(--line);box-shadow:0 12px 36px rgba(0,0,0,.45)}
+.eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+
+/* floating layout: the map fills the screen; a dock at the bottom opens one sheet at a time */
+.langs.float{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));flex:none;display:flex;border-radius:999px;background:var(--panel);backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass);border:1px solid var(--line);padding:3px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
+.langs button{border:0;background:none;border-radius:999px;padding:6px 10px;font-size:12.5px;font-weight:700;color:var(--muted)}
+.langs button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.dock{position:absolute;z-index:920;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:6px;padding:6px;border-radius:999px;width:max-content;max-width:calc(100% - 24px)}
+.keybtn{display:flex;align-items:center;gap:10px;height:48px;padding:0 18px 0 14px;border:0;border-radius:999px;background:var(--accent);color:var(--on-accent);font-size:15px;font-weight:700;white-space:nowrap;min-width:0}
+.keybtn .g{display:flex;gap:3px;align-items:center;flex:none}
+.keybtn span:last-child{overflow:hidden;text-overflow:ellipsis}
+.keybtn[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--on-accent)}
+.keybtn.nudge{animation:nudge 1.8s ease-in-out 3}
+@keyframes nudge{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.ib{flex:none;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;color:var(--ink)}
+.ib svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ib[aria-pressed="true"]{background:var(--ink);color:var(--bg,#0a0a0a);border-color:transparent}
+.sheet{position:absolute;z-index:910;top:calc(64px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:calc(86px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
+.sh{flex:none;display:flex;align-items:center;gap:10px;padding:14px 14px 8px 18px}
+.sh h2{flex:1;margin:0;font-size:19px;font-weight:800;letter-spacing:-.01em}
+.shx{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;line-height:1;display:grid;place-items:center}
+.pane{flex:1;min-height:0;overflow-y:auto;padding:4px 18px 20px}
+.search{display:flex;align-items:center;gap:10px;padding:0 16px;height:46px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted);margin-bottom:8px}
+.search input{flex:1;min-width:0;border:0;background:none;outline:0;font-size:15px;color:var(--ink)}
+.search input::placeholder{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+.chip{flex:none;display:flex;align-items:center;gap:7px;height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:600;white-space:nowrap}
+.chip i{width:9px;height:9px;border-radius:50%;display:block}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:transparent}
+.fh{font-size:14px;font-weight:700;margin:4px 0 10px}
+
+/* overview */
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat{padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.stat b{display:block;font-size:28px;font-weight:800;letter-spacing:-.02em;line-height:1.05;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted);line-height:1.25;display:block;margin-top:2px}
+.stat.k b{color:var(--accent)}
+.ylbl{display:flex;justify-content:space-between;align-items:baseline;margin:18px 0 8px}
+.ylbl b{font-weight:700;font-variant-numeric:tabular-nums}
+.years{display:flex;align-items:flex-end;gap:10px}
+.play{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--accent);color:var(--on-accent);font-size:15px;display:grid;place-items:center;margin-bottom:16px}
+.bars{flex:1;display:flex;gap:4px;align-items:flex-end}
+.bars button{flex:1;border:0;background:none;padding:0;display:flex;flex-direction:column;align-items:stretch;min-width:0}
+.bars .stk{height:46px;display:flex;flex-direction:column-reverse;border-radius:5px;overflow:hidden}
+.bars .stk i{display:block}
+.bars .y{font-size:10px;color:var(--muted);text-align:center;margin-top:4px;font-variant-numeric:tabular-nums}
+.bars button.dim .stk{opacity:.22}
+.bars button.cur .y{color:var(--accent);font-weight:700}
+.tip{margin-top:18px;padding:12px 14px;border-radius:16px;border:1px dashed var(--line);font-size:13px;color:var(--muted);display:flex;gap:10px}
+.tip b{color:var(--accent)}
+
+/* list */
+.listhead{display:flex;justify-content:space-between;align-items:baseline;margin:2px 0 4px}
+.rec{display:grid;grid-template-columns:16px 1fr;gap:10px;padding:11px 4px;border:0;border-bottom:1px solid var(--line);background:none;width:100%;text-align:start}
+.rec:hover{background:var(--hover)}
+.rec.sel{background:var(--hover);box-shadow:inset 3px 0 0 var(--accent)}
+.rec .d{font-size:11.5px;color:var(--muted)}
+.rec .p{display:block;font-weight:700;font-size:14.5px;line-height:1.3}
+.rec .k{font-size:12.5px;color:var(--muted)}
+.rec svg{margin-top:4px}
+.empty{padding:20px 4px;color:var(--muted)}
+
+/* guide: key + filters */
+#keyBody h4{margin:14px 0 8px;font-size:14px;font-weight:700}
+#keyBody h4:first-child{margin-top:4px}
+#keyBody .kgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px 12px}
+#keyBody .kgrid div{display:flex;align-items:center;gap:8px;font-size:13px}
+#keyBody .klist{display:flex;flex-direction:column;gap:8px}
+#keyBody .krow2{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:center;font-size:14.5px;line-height:1.3}
+#keyBody .kgrid div{font-size:14.5px}
+#keyBody .kgrid .sw{width:12px;height:12px}
+#keyBody .krow{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-top:9px}
+#keyBody .hint{font-size:12.5px;color:var(--muted);margin:12px 0 4px}
+.sw{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.sec{padding:14px 0;border-top:1px solid var(--line)}
+p.sec{font-size:12.5px;color:var(--muted);margin:0}
+.sec h3{margin:0 0 8px;display:flex;align-items:center;gap:8px;font-size:13.5px;font-weight:700}
+.sec h3 button{all:unset;cursor:pointer;display:flex;align-items:center;gap:8px;flex:1}
+.sec h3 button:focus-visible{outline:2px solid var(--accent)}
+.sec h3 .n{margin-left:auto;font-weight:500;color:var(--muted);font-size:12.5px}
+.off{opacity:.38}
+.opt{display:flex;align-items:center;gap:10px;padding:5px 0;cursor:pointer;font-size:13.5px}
+.opt input{accent-color:var(--accent);margin:0;width:17px;height:17px;flex:none}
+.opt svg{flex:none}
+.opt .n{margin-left:auto;font-size:12px;color:var(--muted)}
+.parts{display:flex;gap:6px;flex-wrap:wrap}
+.part{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:6px 12px;font-size:13.5px;font-weight:600;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;text-align:start}
+.part small{font-size:10.5px;color:var(--muted);font-weight:400}
+.part[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.ref{display:flex;flex-direction:column;gap:6px;font-size:12.5px;color:var(--muted)}
+.ref div{display:flex;align-items:center;gap:9px}
+.ref i{width:22px;flex:none;display:block}
+.exp{border:0;background:none;color:var(--muted);font-size:12px;padding:2px 4px;white-space:nowrap}
+.exp:hover{color:var(--ink)}
+
+/* detail */
+.detail{padding:2px 0 8px}
+.back{border:0;background:none;padding:0;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:12px}
+.detail .tag{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.detail h2{font-weight:800;font-size:26px;line-height:1.08;letter-spacing:-.02em;margin:12px 0 6px;text-wrap:balance}
+.detail .meta{font-size:12.5px;color:var(--muted);line-height:1.6}
+.detail .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
+.detail .facts div{padding:10px 12px;border-radius:16px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
+.detail .facts b{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+.detail .facts span{font-size:11px;color:var(--muted);line-height:1.25}
+.detail .impact{font-weight:700;margin-top:12px}
+.detail p{margin:8px 0;font-size:15px;line-height:1.55}
+.detail ul{margin:6px 0 0;padding-inline-start:18px;font-size:13px}
+.detail a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px;word-break:break-word}
+.detail .eyebrow{margin-top:16px}
+.share{display:flex;gap:8px;margin-top:16px}
+.sbtn{flex:1;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:12px 14px;font-size:13.5px;font-weight:700;white-space:nowrap}
+.sbtn.go{background:var(--accent);color:var(--on-accent);border-color:transparent}
+
+/* map marks: picture pins (colour = state, icon = kind, badge = people killed) and grouped bubbles */
+.pin{position:relative;width:30px;height:37px}
+.pin .pc{position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--c);display:grid;place-items:center;box-shadow:0 0 0 2px #0a0a0a,0 5px 12px rgba(0,0,0,.55);transition:transform .15s}
+.pin::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);border:5px solid transparent;border-top:8px solid var(--c);border-bottom:0}
+.pin .pc svg{width:17px;height:17px}
+.pin b{position:absolute;top:-7px;right:-9px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:#fff;color:#0a0a0a;font-size:10.5px;font-weight:800;line-height:17px;text-align:center;box-shadow:0 0 0 2px #0a0a0a;font-family:var(--sans)}
+.pin.hist .pc{background:#0a0a0a;box-shadow:0 0 0 2px var(--c),0 5px 12px rgba(0,0,0,.55)}
+.pin.sel .pc{transform:scale(1.28);box-shadow:0 0 0 3px var(--accent),0 0 0 6px rgba(215,255,61,.25),0 5px 12px rgba(0,0,0,.55)}
+.mk:hover .pin .pc{transform:scale(1.12)}
+.pin .live{position:absolute;left:-7px;top:-7px;width:44px;height:44px;border-radius:50%;border:2px solid var(--accent);animation:live 1.9s ease-out infinite;pointer-events:none}
+.cl{border-radius:50%;background:var(--g);display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.55);transition:transform .15s}
+.cl:hover{transform:scale(1.08)}
+.cl span{width:calc(100% - 8px);height:calc(100% - 8px);border-radius:50%;background:#0a0a0a;color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--sans)}
+.leaflet-cluster-anim .leaflet-marker-icon,.leaflet-cluster-anim .leaflet-marker-shadow{transition:transform .3s ease-out,opacity .3s ease-in}
+.leaflet-cluster-spider-leg{transition:stroke-dashoffset .3s ease-out,stroke-opacity .3s ease-in}
+.ico{display:inline-block;vertical-align:middle;flex:none}
+.kpin{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--muted);flex:none}
+.kpin svg{width:14px;height:14px}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+.clear{border:0;background:none;color:var(--accent);font-weight:700;font-size:13px;padding:0;text-decoration:underline;text-underline-offset:3px;margin:0 0 14px}
+/* map marks */
+.mk{background:none;border:0}
+.mk svg{display:block;overflow:visible}
+.mk .live{position:absolute;inset:-7px;border-radius:50%;border:2px solid var(--accent);animation:live 1.9s ease-out infinite;pointer-events:none}
+@keyframes live{0%{transform:scale(.55);opacity:.95}100%{transform:scale(1.55);opacity:0}}
+.leaflet-heatmap-layer{z-index:300!important;pointer-events:none}
+.leaflet-relief-pane{mix-blend-mode:hard-light;opacity:.95}
+[data-map="natural"] .leaflet-relief-pane{mix-blend-mode:normal;opacity:1}
+[data-map="natural"] .leaflet-container{background:#9fbfd2}
+[data-map="natural"] .lbl span{color:#1b1b1b;text-shadow:0 0 3px rgba(255,255,255,.95),0 0 3px rgba(255,255,255,.95),0 0 2px #fff}
+[data-map="natural"] .lbl.part span{color:#1b1b1b;opacity:.32;text-shadow:none}
+[data-map="natural"] .lbl.t1 span,[data-map="natural"] .lbl.t2 span{color:#111}
+.lbl{background:none;border:0;white-space:nowrap;pointer-events:none}
+.lbl span{display:block;transform:translate(-50%,-50%);text-shadow:0 0 3px var(--halo),0 0 3px var(--halo),0 0 2px var(--halo);color:var(--muted)}
+.lbl.part span{font-weight:800;font-size:22px;letter-spacing:.32em;color:var(--ink);opacity:.14;text-shadow:none}
+.lbl.state span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.75}
+.lbl.t1 span{font-size:12.5px;font-weight:700;color:var(--ink)}
+.lbl.t2 span{font-size:11.5px;color:var(--ink)}
+.lbl.t3 span{font-size:11px}
+.lbl.mt span{font-size:11px;font-style:italic;letter-spacing:.04em}
+.lbl.t1 span::before,.lbl.t2 span::before,.lbl.t3 span::before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:currentColor;margin-right:5px;vertical-align:middle}
+.leaflet-tooltip.mtip{background:var(--panel-solid);color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.5);font-family:var(--sans);font-size:12.5px;padding:7px 10px;line-height:1.35}
+.leaflet-tooltip.mtip::before{display:none}
+.mtip b{font-weight:700}
+.mtip small{color:var(--muted);font-size:11px}
+.leaflet-tooltip{background:var(--panel-solid);color:var(--ink);border-color:var(--line)}
+.leaflet-control-attribution{background:transparent!important;color:var(--muted)!important;font-size:9.5px}
+.leaflet-control-attribution a{color:var(--muted)!important}
+.leaflet-bottom.leaflet-left{left:0}
+.leaflet-control-scale-line{background:transparent;border-color:var(--muted);color:var(--muted);font-size:10px}
+.leaflet-control-zoom{border:1px solid var(--line)!important;border-radius:14px!important;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.4)!important}
+.leaflet-control-zoom a{background:var(--panel)!important;color:var(--ink)!important;border-color:var(--line)!important;backdrop-filter:var(--glass)}
+
+/* welcome */
+.hintcard{position:absolute;z-index:1000;left:50%;top:50%;transform:translate(-50%,-50%);width:min(460px,calc(100% - 24px));max-height:calc(100% - 24px);overflow-y:auto;padding:22px;border-radius:var(--r)}
+.hintcard h2{font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-.02em;margin:8px 0 10px}
+.hintcard p{margin:0 0 16px;font-size:15px;color:var(--ink)}
+.hintcard .big{display:block;width:100%;padding:14px;font-size:15px}
+.hintcard ol{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.hintcard li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:14px;line-height:1.4;color:var(--muted)}
+.hintcard li i{font-style:normal;color:var(--accent);text-align:center}
+
+/* about */
+dialog{border:1px solid var(--line);border-radius:var(--r);background:var(--panel-solid);color:var(--ink);padding:0;width:min(760px,calc(100% - 24px));max-height:calc(100% - 40px)}
+dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
+.about{padding:24px 26px 28px;overflow-y:auto}
+.about header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:6px}
+.about h2{font-weight:800;font-size:28px;letter-spacing:-.02em;margin:4px 0 0;line-height:1.05}
+.about h3{font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:24px 0 8px}
+.about p,.about li{max-width:68ch;margin:0 0 9px;font-size:14.5px}
+.about ul{padding-inline-start:18px;margin:0}
+.about a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px}
+.about .x{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700}
+
+/* phone: the sheet rises from the bottom above the dock */
+@media (max-width:760px){
+  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(76px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 150px - env(safe-area-inset-top,0px));height:auto}
+  .sheet.tall{height:calc(100% - 150px - env(safe-area-inset-top,0px))}
+  .dock{left:12px;right:12px;transform:none;width:auto;max-width:none}
+  .keybtn{flex:1;justify-content:center;padding:0 12px;font-size:13.5px;gap:8px}
+  .keybtn .g svg{width:14px;height:14px}
+  .ib{width:46px;height:46px}
+  .stats{grid-template-columns:1fr 1fr}
+  .detail h2{font-size:24px}
+  .leaflet-control-zoom,.leaflet-bottom.leaflet-left,.leaflet-control-attribution{display:none}
+  .hintcard{padding:18px}
+  .hintcard h2{font-size:24px}
+}
+/* Sorani: Arabic script, right to left; letter-spacing would break the joined letters */
+:root[lang="ckb"]{--sans:"Noto Sans Arabic","Bricolage Grotesque",system-ui,sans-serif}
+[dir="rtl"] *{letter-spacing:0!important}
+[dir="rtl"] .eyebrow{text-transform:none;font-size:12.5px}
+[dir="rtl"] .langs.float{direction:ltr}
+#yrLbl,.rec .d,.detail .meta{unicode-bidi:plaintext}
+#yrLbl{direction:ltr}
+:root[lang="ckb"] .keybtn{font-size:13.5px;gap:8px;padding:0 12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="app">
+  <div id="map" dir="ltr" role="application" aria-label="Map of attacks across Kurdistan"></div>
+
+  <div class="langs float" role="group" aria-label="Ziman · Dil · Language"><button data-lang="ku" lang="ku" aria-label="Kurmancî">KU</button><button data-lang="ckb" lang="ckb" aria-label="کوردیی ناوەندی (سۆرانی)">سۆرانی</button><button data-lang="tr" lang="tr" aria-label="Türkçe">TR</button><button data-lang="en" lang="en" aria-label="English">EN</button></div>
+
+  <section class="sheet glass" id="sheet" hidden aria-labelledby="shT">
+    <header class="sh"><h2 id="shT"></h2><button class="shx" id="shX">×</button></header>
+    <div class="pane" id="pK" hidden><div id="keyBody"></div></div>
+    <div class="pane" id="paneR" hidden>
+      <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input type="search" id="q" placeholder="Li cihekî bigere" aria-label="Li tomaran bigere"></label>
+      <div class="listhead"><span class="eyebrow" data-t="records"></span><b id="recN" class="mono"></b></div>
+      <ol id="items" style="list-style:none;margin:0;padding:0"></ol>
+    </div>
+    <div class="pane" id="pF" hidden>
+      <div class="fh" data-t="byState"></div>
+      <div class="chips" id="chips" role="group"></div>
+      <div class="fh" data-t="byKind"></div>
+      <div class="pills" id="kinds" role="group"></div>
+      <button class="clear" id="clearF" data-t="clearF"></button>
+      <div class="stats" aria-live="polite">
+        <div class="stat"><b id="sN">0</b><span data-t="stN"></span></div>
+        <div class="stat k"><b id="sK">0</b><span data-t="stK"></span></div>
+        <div class="stat"><b id="sC">0</b><span data-t="stC"></span></div>
+        <div class="stat"><b id="sE">0</b><span data-t="stE"></span></div>
+      </div>
+      <div class="ylbl"><span class="eyebrow" data-t="years"></span><b id="yrLbl"></b></div>
+      <div class="years"><button class="play" id="play"></button><div class="bars" id="bars"></div></div>
+      <div class="fh" data-t="mapStyle"></div>
+      <div class="pills" role="group"><button class="chip" data-mapstyle="natural"></button><button class="chip" data-mapstyle="dark"></button></div>
+      <div id="paneL"></div>
+    </div>
+    <div class="pane" id="paneD" hidden></div>
+  </section>
+
+  <nav class="dock glass" aria-label="Menu">
+    <button class="keybtn" data-tab="K" aria-pressed="false"><span class="g" id="keyIcons" aria-hidden="true"></span><span data-t="keyAsk"></span></button>
+    <button class="ib" data-tab="R" aria-pressed="false" data-tl="searchList"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+    <button class="ib" data-tab="F" aria-pressed="false" data-tl="tabFilters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></button>
+    <button class="ib" id="aboutBtn" aria-haspopup="dialog" data-tl="tabAbout"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg></button>
+  </nav>
+
+  <section class="hintcard glass" id="hint" hidden role="dialog" aria-labelledby="wH">
+    <div class="eyebrow" data-t="wEb"></div>
+    <h2 id="wH" data-t="h1"></h2>
+    <p data-t="lede"></p>
+    <button class="sbtn go big" id="hintX" data-t="wExplore"></button>
+    <ol><li><i>●</i><span data-t="hint1"></span></li><li><i>◎</i><span data-t="nearHint"></span></li><li><i>?</i><span data-t="wKey3"></span></li></ol>
+  </section>
+
+  <dialog id="about" aria-labelledby="aboutH">
+    <div class="about">
+      <header>
+        <div><div class="eyebrow" data-t="aboutEyebrow"></div><h2 id="aboutH" data-t="h1"></h2></div>
+        <button class="x" id="aboutX" data-t="close"></button>
+      </header>
+      <div id="aboutKU" lang="ku">
+      <p>Kurdistan welatek e ku bi sînorên çar dewletan hatiye parçekirin. Ev nexşe êrîşên van dewletan (Tirkiye, Îran, Iraq û Sûriye) û yên hêzên DYA û Îsraîlê li ser Kurdistanê tomar dike: êrîşên dronan, bombebarana ji asîman, topbaran, mûşek, êrîşên leşkerî yên bejayî û gulebarankirina kolberan li ser sînor. Qateke dîrokî jî komkujiyên berê nîşan dide, ji tepeserkirina 1925an li Bakur heta Enfal û Helebceyê. Her wiha şewitandin, birîn, bendavkirin û jehrîkirina ax û avên Kurdistanê ya ku bi van êrîşan re tê, tomar dike.</p>
+      <h3>Ziman çawa tê bikaranîn</h3>
+      <ul>
+        <li>Cih bi navên ku xelkê Kurdistanê bi kar tîne hatine nivîsîn: Hewlêr, Silêmanî, Qamişlo, Amed, Sine. Çar parçeyên Kurdistanê Başûr, Rojava, Bakur û Rojhilat in; dewleta ku her parçeyekê birêve dibe di rêza duyem de tê nivîsîn.</li>
+        <li>Sînorên dewletan bi xêzên qutqutkirî hatine kişandin. Bandora wan rast e, lê ew bi zorê hatine danîn.</li>
+        <li>Êrîşkar wekî dewlet têne binavkirin. Navên ku ew li êrîşên xwe dikin, wekî "Peace Spring" an "Claw-Lock", tenê di nav tewangan de cih digirin, wekî etîketên wan.</li>
+        <li>Peyvên wekî "mîlîtan", "terorîst", "bêbandorkirin" û "operasyona ewlehiyê" tenê dema ku îdîayeke dewletê tê vegotin cih digirin, û tomar dibêje ev îdîaya kê ye.</li>
+        <li>Wêrankirina daristan, zevî, çem û pergalên elektrîk û avê wekî ekosîd tê tomarkirin: beşek ji tundiyê bi xwe ye.</li>
+      </ul>
+      <h3>Ev zanîn a kê ye</h3>
+      <p>Ev tomar li ser keda rojnamevanên Kurd, çavdêrên herêmî û gundiyên ku van êrîşan belge kirine ava bûye, gelek caran bi xetereya jiyana xwe. Hinek ji wan di vî karî de hatin kuştin. Her wiha ji Community Peacemaker Teams, Rojava Information Center, Hengaw, Tora Mafên Mirovan a Kurdistanê (KHRN), Synergy/Hevdestî, Airwars, PAX, Human Rights Watch, Hengaw, KGNA, Kurdistan Memory Programme, ACLED, ANF, Sterk TV û Nûçe TV sûd werdigire. Her tomar bi çavkaniya xwe ve girêdayî ye.</p>
+      <h3>Tiştên ku nexşe nikare nîşan bide</h3>
+      <p>Ev êrîşên belgekirî yên hilbijartî ne, ne hejmareke temam. Gelek êrîş li çiyayên ku rê li ber rojnamevanan girtî ye û li herêmên sînor ên ku dewlet nahêlin kes têkevinê dikevin, û qet nayên tomarkirin.</p>
+      <p>Hejmarên kuştî û birîndaran li gorî raporên çavkaniyan in û her jiyana ku winda bûye dihejmêrin, şervan jî tê de. Hejmara giştî ya "kes hatin kuştin" tenê bûyerên takekesî dihejmêre; hejmarên giştî yên kampanyayan, ku bi wan re li hev dikevin, di tomarên xwe de têne nîşandan. "Zirar gihîşt sivîlan" tenê li cihê ku çavkaniyek wiha dibêje tê nîşankirin. Dema ku dewleta tawanbar êrîşekê înkar dike, an êrîşkar ne diyar e, tomar vê dibêje. Hinek xal li gund an navçeya herî nêzîk hatine danîn û wekî "cih bi nêzîkî" hatine nîşankirin.</p>
+      <p>Kurteyên tomaran bi Kurmancî, Soranî, Tirkî û Îngilîzî ne; Kurmancî, Soranî û Tirkî ji kurteyên Îngilîzî hatine wergerandin. Sernavên çavkaniyan bi zimanê xwe yê eslî hatine hiştin.</p>
+      <h3>Ekosîd wekî rêbazeke desthilatdariyê</h3>
+      <p>Wêrankirina axa Kurdistanê beşek e ji awayê ku dewlet li ser wê hukum dikin. Antropolog Umut Yıldırım nîşan dide ku şerê kêm-tundî axê bi avakirinê jî diguherîne, ne tenê bi şewitandinê: bendav, kan, rêyên ber bi baregehên leşkerî yên li serê çiyayan, qereqolên bi ewlehiya bilind û "nûavakirina bajarî", wekî li Sûrê piştî 2016an. Meclîsên ekolojîk ên Kurdistanê bi kampanyayên ji bo serweriya xwarinê, parastina tovên xwecihî û li dijî fracking bersiv didin.</p>
+      <p>Nivîskarên UNPOyê dibêjin ku axa gelên bêdewlet dibe hedefa yekem, ji ber ku hiqûqa navneteweyî tenê dewletan nas dike. Gelekî bêdewlet, dema ku daristan, çem û zeviyên wî têne wêrankirin, ti rêyeke fermî tune ku heqê xwe bixwaze.</p>
+      <h3>Ji bo xwendina zêdetir</h3>
+      <ul>
+        <li><a href="https://theloop.ecpr.eu/the-turkification-of-kurdistan-the-world-looks-on/" target="_blank" rel="noopener">The Turkification of Kurdistan: the world looks on</a>, Loqman Radpey, The Loop (ECPR), Tebax 2024. Nivîsa nêrînê ye.</li>
+        <li><a href="https://kgna.krd" target="_blank" rel="noopener">Kurdistan Genocide National Archive (KGNA)</a>, arşîva Enfal, êrîşên kîmyewî û gorên komî.</li>
+        <li><a href="https://kurdistanmemoryprogramme.com/history-of-the-kurds/" target="_blank" rel="noopener">Kurdistan Memory Programme</a>, arşîva dîroka devkî û şahidiyan.</li>
+        <li><a href="https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains" target="_blank" rel="noopener">Ecocide in Iraqi Kurdistan: Turkey's saws in the mountains</a>, Khaled Sulaiman, The Amargi, Cotmeh 2026.</li>
+        <li><a href="https://www.merip.org/2024/07/decolonial-ecologies-and-low-intensity-war-in-kurdistan/" target="_blank" rel="noopener">Kurdish Decolonial Ecologies</a>, Umut Yıldırım, Middle East Report 311, Tîrmeh 2024.</li>
+        <li><a href="https://academy.unpo.org/ecocide-and-stateless-nations-why-the-land-of-the-stateless-becomes-the-first-target-of-destruction/" target="_blank" rel="noopener">Ecocide and Stateless Nations: Why the Land of the Stateless Becomes the First Target of Destruction</a>, Dawod Rasooli, Ali Abdelzadeh û Evin Adin, UNPO Academy, Sibat 2026.</li>
+        <li><a href="https://academy.unpo.org/peoples-and-the-planet-self-governance-land-rights-and-climate-justice/" target="_blank" rel="noopener">Peoples and the Planet: Self-Governance, Land Rights and Climate Justice</a>, UNPO Academy.</li>
+        <li><a href="https://www.ecohubmap.com/hot-spot/kurdistan-areas-deforested-by-turkey-used-to-be-so-dense-one-could-barely-see-the-sky/11yxis0ml7u76ki1" target="_blank" rel="noopener">Deforestation in Kurdistan due to the war</a>, EcoHubMap. Berhevokeke nûçeyan e ku nivîskarê wê ne diyar e; hejmarên wê berî ku li ser vê nexşeyê cih bigirin, bi raporên orîjînal re têne berhevdan.</li>
+      </ul>
+      <h3>Hejmara berfirehtir</h3>
+      <ul>
+        <li><strong>1.718</strong> bombebaranên dewleta Tirk li Başûr di sala 2025an de. Îlona 2025an yekem meh bû ku ji 2015an û vir ve tu bombebaran tê de nebû. <a href="https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages" target="_blank" rel="noopener">CPT</a></li>
+        <li><strong>425</strong> sivîl hatin kuştin û 420 birîndar bûn li Başûr bi êrîşên dewletên Tirk û Îranê, 1991–2024. <a href="https://cptik.org/reports-1/2024/8/12/civilian-casualties-by-turkish-and-iranian-military-operations-1991-2024" target="_blank" rel="noopener">CPT</a></li>
+        <li><strong>1.192</strong> gundên Başûr rastî êrîşan hatin; 183 ji wan bi temamî ji xelkê xwe vala bûn. <a href="https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages" target="_blank" rel="noopener">CPT, Sibat 2026</a></li>
+        <li><strong>1.000+</strong> êrîşên dron û mûşekan li ser Başûr ji 28ê Sibata 2026an ve, ji aliyê Îranê û komên girêdayî Îranê. <a href="https://www.jpost.com/middle-east/iran-news/article-912042" target="_blank" rel="noopener">HRK, bi riya Jerusalem Post</a></li>
+        <li><strong>638</strong> êrîşên dewleta Tirk li ser Rojava di sala 2024an de, ku 83 sivîl kuştin. <a href="https://hevdesti.org/en/?p=5031" target="_blank" rel="noopener">Synergy / Hevdestî</a></li>
+        <li><strong>~50.000 akre</strong> ax li Başûr di agirên girêdayî êrîşên Tirk û Îranê de şewitî. <a href="https://paxforpeace.nl/news/violence-and-wildfires-driving-people-from-their-lands-in-iraqi-kurdistan/" target="_blank" rel="noopener">PAX</a></li>
+        <li><strong>15.912</strong> êrîşên hewayî, dron û topbaranê yên ku ACLED li parêzgehên Duhok, Hewlêr û Silêmaniyê yên Başûr tomar kirine, 2017 heta Cotmeha 2026an, bi 2.346 mirinan. Tenê Duhok: 11.783. Ev hejmar hemû êrîşkaran digirin nav xwe. <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a></li>
+        <li><strong>2.975</strong> êrîşên ku ACLED di heman demê de li parêzgeha Cizîrê (Hesekê) ya Rojava tomar kirine, bi 1.779 mirinan. <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a></li>
+        <li><strong>46, 41 û 57</strong> kolber di salên 2022, 2023 û 2024an de hatin kuştin, piraniya wan bi gulebarana hêzên sînor ên Îranê; 244, 292 û 282 birîndar. <a href="https://hengaw.net/en/reports-and-statistics-1/2025/01/article-3" target="_blank" rel="noopener">Hengaw</a></li>
+        <li><strong>109</strong> sivîl li Rojhilat di meha yekem a şerê 2026an de bi êrîşên DYA û Îsraîlê yên li ser 253 cihan hatin kuştin. <a href="https://hengaw.net/en/reports-and-statistics-1/2026/04/article-1" target="_blank" rel="noopener">Hengaw</a></li>
+      </ul>
+
+      </div>
+      <!--__ABOUT_CKB__-->
+      <div id="aboutTR" lang="tr" hidden>
+      <p>Kürdistan, dört devletin sınırlarıyla bölünmüş tek bir ülkedir. Bu harita, bu devletlerin (Türkiye, İran, Irak ve Suriye) ve ABD ile İsrail güçlerinin Kürdistan'a yönelik saldırılarını kaydediyor: SİHA saldırıları, hava saldırıları, topçu atışları, füzeler, kara saldırıları ve sınırda kolberlerin vurulması. Tarihsel katman, 1925'te Bakur'daki bastırmadan Enfal'e ve Helebce'ye kadar daha önceki vahşetleri ekliyor. Harita ayrıca bu saldırılarla birlikte gelen Kürt topraklarının ve sularının yakılmasını, kesilmesini, barajlarla boğulmasını ve zehirlenmesini de kaydediyor.</p>
+      <h3>Dil nasıl kullanılıyor</h3>
+      <ul>
+        <li>Yerler, Kürdistan'da yaşayanların kullandığı adlarla yazılıyor: Hewlêr, Silêmanî, Qamişlo, Amed, Sine. Kürdistan'ın dört parçası Başûr, Rojava, Bakur ve Rojhilat olarak adlandırılıyor; her birini yöneten devlet ikinci sırada veriliyor.</li>
+        <li>Devlet sınırları kesik çizgilerle gösteriliyor. Etkileri gerçek, kökenleri dayatmadır.</li>
+        <li>Saldırganlar devlet olarak adlandırılıyor. Devletlerin kendi harekâtlarına verdiği adlar, örneğin "Barış Pınarı" ya da "Pençe-Kilit", yalnızca tırnak içinde, onların etiketi olarak yer alıyor.</li>
+        <li>"Terörist", "etkisiz hale getirme", "militan" ve "güvenlik operasyonu" gibi sözcükler yalnızca bir devletin iddiası aktarılırken kullanılıyor ve kayıt bu iddianın kime ait olduğunu belirtiyor.</li>
+        <li>Ormanların, tarlaların, nehirlerin, elektrik ve su sistemlerinin yok edilmesi ekokırım olarak kaydediliyor: şiddetin bir yan etkisi değil, kendisinin bir parçası.</li>
+      </ul>
+      <h3>Bu bilgi kimin</h3>
+      <p>Bu kayıt, çoğu zaman canları pahasına bu saldırıları belgeleyen Kürt gazetecilerin, yerel gözlemcilerin ve köylülerin emeğine dayanıyor. Bazıları bu iş yüzünden öldürüldü. Ayrıca Community Peacemaker Teams, Rojava Information Center, Hengaw, Kürdistan İnsan Hakları Ağı (KHRN), Synergy/Hevdestî, Airwars, PAX, Human Rights Watch, Kürdistan Soykırım Ulusal Arşivi (KGNA), Kurdistan Memory Programme, ACLED, ANF, Sterk TV ve Nûçe TV'den yararlanıyor. Her kayıt, onu belgeleyen kaynağa bağlantı veriyor.</p>
+      <h3>Haritanın gösteremedikleri</h3>
+      <p>Bunlar belgelenmiş saldırılardan bir seçki, eksiksiz bir sayım değil. Pek çok saldırı gazetecilere kapalı dağlarda ve devletlerin girişi engellediği sınır bölgelerinde gerçekleşiyor ve hiç kayda geçmiyor.</p>
+      <p>Ölü ve yaralı sayıları alıntılanan raporlara dayanıyor ve savaşanlar dahil kaybedilen her canı sayıyor. "Kişi öldürüldü" toplamı yalnızca tek tek olayları topluyor; bunlarla örtüşen harekât geneli toplamlar kendi kayıtlarında gösteriliyor. "Sivillere zarar" yalnızca bir kaynak bunu söylediğinde işaretleniyor. Suçlanan devlet bir saldırıyı inkâr ettiğinde ya da saldırgan tartışmalı olduğunda kayıt bunu belirtiyor. Bazı noktalar en yakın köy ya da ilçeye yerleştirildi ve yaklaşık konum olarak işaretlendi.</p>
+      <p>Kayıt özetleri Kurmancî, Soranî, Türkçe ve İngilizce olarak sunuluyor; Kurmancî, Soranî ve Türkçe çeviriler İngilizce özetlerden yapıldı. Kaynak başlıkları özgün dillerinde bırakıldı.</p>
+      <h3>Bir yönetme biçimi olarak ekokırım</h3>
+      <p>Kürt topraklarını yok etmek, devletlerin bu toprakları yönetme biçiminin bir parçasıdır. Antropolog Umut Yıldırım, düşük yoğunluklu savaşın toprağı yalnızca yakarak değil inşa ederek de dönüştürdüğünü gösteriyor: barajlar, madenler, dağ tepelerindeki askeri üslere giden yollar, yüksek güvenlikli karakollar ve 2016 sonrası Sur'da olduğu gibi "kentsel dönüşüm". Kürdistan'daki ekoloji meclisleri gıda egemenliği, yerel tohumların korunması ve hidrolik kırılmaya (fracking) karşı kampanyalarla yanıt veriyor.</p>
+      <p>UNPO yazarları, uluslararası hukuk yalnızca devletleri tanıdığı için devletsiz halkların topraklarının ilk hedef haline geldiğini savunuyor. Devleti olmayan bir halkın, ormanları, nehirleri ve tarlaları yok edildiğinde hak aramak için resmi bir yolu yok.</p>
+      <h3>Daha fazla okuma</h3>
+      <ul>
+        <li><a href="https://theloop.ecpr.eu/the-turkification-of-kurdistan-the-world-looks-on/" target="_blank" rel="noopener">The Turkification of Kurdistan: the world looks on</a>, Loqman Radpey, The Loop (ECPR), Ağustos 2024. Bir görüş yazısı.</li>
+        <li><a href="https://kgna.krd" target="_blank" rel="noopener">Kürdistan Soykırım Ulusal Arşivi (KGNA)</a>, Enfal soykırımı, kimyasal saldırılar ve toplu mezarlar arşivi.</li>
+        <li><a href="https://kurdistanmemoryprogramme.com/history-of-the-kurds/" target="_blank" rel="noopener">Kurdistan Memory Programme</a>, sözlü tarih ve tanıklık arşivi.</li>
+        <li><a href="https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains" target="_blank" rel="noopener">Ecocide in Iraqi Kurdistan: Turkey's saws in the mountains</a>, Khaled Sulaiman, The Amargi, Ekim 2026.</li>
+        <li><a href="https://www.merip.org/2024/07/decolonial-ecologies-and-low-intensity-war-in-kurdistan/" target="_blank" rel="noopener">Kurdish Decolonial Ecologies</a>, Umut Yıldırım, Middle East Report 311, Temmuz 2024.</li>
+        <li><a href="https://academy.unpo.org/ecocide-and-stateless-nations-why-the-land-of-the-stateless-becomes-the-first-target-of-destruction/" target="_blank" rel="noopener">Ecocide and Stateless Nations</a>, Dawod Rasooli, Ali Abdelzadeh ve Evin Adin, UNPO Academy, Şubat 2026.</li>
+        <li><a href="https://academy.unpo.org/peoples-and-the-planet-self-governance-land-rights-and-climate-justice/" target="_blank" rel="noopener">Peoples and the Planet: Self-Governance, Land Rights and Climate Justice</a>, UNPO Academy.</li>
+        <li><a href="https://www.ecohubmap.com/hot-spot/kurdistan-areas-deforested-by-turkey-used-to-be-so-dense-one-could-barely-see-the-sky/11yxis0ml7u76ki1" target="_blank" rel="noopener">Deforestation in Kurdistan due to the war</a>, EcoHubMap. Yazarı belirtilmemiş bir haber derlemesi; rakamları bu haritaya girmeden önce özgün haberlerle karşılaştırılıyor.</li>
+      </ul>
+      <h3>Daha geniş sayım</h3>
+      <ul>
+        <li><strong>1.718</strong> Türk devleti bombardımanı, 2025'te Başûr'da. Eylül 2025, 2015'ten bu yana bombardımanın olmadığı ilk ay oldu. <a href="https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages" target="_blank" rel="noopener">CPT</a></li>
+        <li><strong>425</strong> sivil öldürüldü, 420 kişi yaralandı: 1991–2024 arasında Başûr'da Türk ve İran devletlerinin saldırılarıyla. <a href="https://cptik.org/reports-1/2024/8/12/civilian-casualties-by-turkish-and-iranian-military-operations-1991-2024" target="_blank" rel="noopener">CPT</a></li>
+        <li><strong>1.192</strong> Başûr köyü saldırıya uğradı; 183'ü tamamen boşaltıldı. <a href="https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages" target="_blank" rel="noopener">CPT, Şubat 2026</a></li>
+        <li><strong>1.000+</strong> SİHA ve füze saldırısı, 28 Şubat 2026'dan bu yana Başûr'a, İran ve İran'a bağlı gruplar tarafından. <a href="https://www.jpost.com/middle-east/iran-news/article-912042" target="_blank" rel="noopener">KBY, Jerusalem Post aracılığıyla</a></li>
+        <li><strong>638</strong> Türk devleti saldırısı, 2024'te Rojava'ya; 83 sivil öldürüldü. <a href="https://hevdesti.org/en/?p=5031" target="_blank" rel="noopener">Synergy / Hevdestî</a></li>
+        <li><strong>~50.000 dönüm (acre)</strong> toprak, Başûr'da Türk ve İran saldırılarıyla bağlantılı yangınlarda yandı. <a href="https://paxforpeace.nl/news/violence-and-wildfires-driving-people-from-their-lands-in-iraqi-kurdistan/" target="_blank" rel="noopener">PAX</a></li>
+        <li><strong>15.912</strong> hava, SİHA ve topçu saldırısı: ACLED'in 2017'den Ekim 2026'ya kadar Başûr'un Duhok, Hewlêr ve Silêmanî illerinde kaydettiği; 2.346 ölüm. Yalnızca Duhok: 11.783. Bu sayılar tüm saldırganları kapsıyor. <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a></li>
+        <li><strong>2.975</strong> saldırı: ACLED'in aynı dönemde Rojava'nın Cizîr (Hesekê) ilinde kaydettiği; 1.779 ölüm. <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a></li>
+        <li><strong>46, 41 ve 57</strong> kolber 2022, 2023 ve 2024'te öldürüldü, çoğu İran sınır güçlerince vuruldu; 244, 292 ve 282 kişi yaralandı. <a href="https://hengaw.net/en/reports-and-statistics-1/2025/01/article-3" target="_blank" rel="noopener">Hengaw</a></li>
+        <li><strong>109</strong> sivil, 2026 savaşının ilk ayında ABD ve İsrail'in 253 noktaya yönelik saldırılarıyla Rojhilat'ta öldürüldü. <a href="https://hengaw.net/en/reports-and-statistics-1/2026/04/article-1" target="_blank" rel="noopener">Hengaw</a></li>
+      </ul>
+      </div>
+      <div id="aboutEN" lang="en" hidden>
+      <p>Kurdistan is one land divided by the borders of four states. This map records attacks on it by those states (Turkey, Iran, Iraq and Syria) and by US and Israeli forces: drone strikes, airstrikes, shelling, missiles, ground assaults and the shooting of kolbars at the border. A historical layer adds earlier atrocities, from the repression of 1925 in Bakur to Anfal and Helebce. It also records the burning, felling, damming and poisoning of Kurdish land and water that comes with these attacks.</p>
+      <h3>How the language works</h3>
+      <ul>
+        <li>Places carry the names people in Kurdistan use for them: Hewlêr, Silêmanî, Qamişlo, Amed, Sine. The four parts of Kurdistan are named Başûr, Rojava, Bakur and Rojhilat, and the state that governs each is given second.</li>
+        <li>State borders are drawn as dashed lines. They are real in their effects and imposed in their origin.</li>
+        <li>The attackers are named as states. Their own names for their offensives, such as "Peace Spring" or "Claw-Lock", appear only in quotation marks, as their labels.</li>
+        <li>Words such as "militant", "terrorist", "neutralised" and "security operation" appear only when quoting a state's claim, and the record says whose claim it is.</li>
+        <li>Destroying forests, farmland, rivers and power and water systems is recorded as ecocide, a part of the violence and not a side effect of it.</li>
+      </ul>
+      <h3>Whose knowledge this is</h3>
+      <p>The record rests on Kurdish journalists, local monitors and villagers who documented these attacks, often at risk to their lives. Some were killed doing it. It also draws on Community Peacemaker Teams, the Rojava Information Center, Hengaw, the Kurdistan Human Rights Network, Synergy/Hevdestî, Airwars, PAX, Human Rights Watch, the Kurdistan Genocide National Archive, the Kurdistan Memory Programme, ACLED, ANF, Sterk TV and Nûçe TV. Every record links to who documented it.</p>
+      <h3>What the map cannot show</h3>
+      <p>These are selected, documented attacks, not a full count. Many strikes hit mountains closed to journalists and border zones where states block access, and go unrecorded.</p>
+      <p>Killed and wounded figures follow the cited reports and count every life lost, fighters included. The "people killed" total adds up individual incidents only; campaign-wide totals, which overlap them, are shown in their own records. "Harmed civilians" is marked only where a source says so. When the accused state denies an attack, or the attacker is disputed, the record says so. Some points sit at the nearest named village or district and are marked as approximate.</p>
+      <h3>Ecocide as a way of ruling</h3>
+      <p>Destroying Kurdish land is part of how states rule it. Anthropologist Umut Yıldırım shows how low-intensity war remakes land by building as well as burning: dams, mines, roads to mountaintop military posts, high-security police stations and "urban renewal", as in Sur after 2016. Kurdish ecological councils answer with campaigns for food sovereignty, seed saving and against fracking.</p>
+      <p>Writers at UNPO argue that the land of stateless peoples becomes a first target because international law recognises only states. A people without a state has no formal standing to seek redress when its forests, rivers and fields are destroyed.</p>
+      <h3>Further reading</h3>
+      <ul>
+        <li><a href="https://theloop.ecpr.eu/the-turkification-of-kurdistan-the-world-looks-on/" target="_blank" rel="noopener">The Turkification of Kurdistan: the world looks on</a>, Loqman Radpey, The Loop (ECPR), August 2024. An opinion piece.</li>
+        <li><a href="https://kgna.krd" target="_blank" rel="noopener">Kurdistan Genocide National Archive (KGNA)</a>, an archive of the Anfal genocide, chemical attacks and mass graves.</li>
+        <li><a href="https://kurdistanmemoryprogramme.com/history-of-the-kurds/" target="_blank" rel="noopener">Kurdistan Memory Programme</a>, an oral history and testimony archive.</li>
+        <li><a href="https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains" target="_blank" rel="noopener">Ecocide in Iraqi Kurdistan: Turkey's saws in the mountains</a>, Khaled Sulaiman, The Amargi, October 2026.</li>
+        <li><a href="https://www.merip.org/2024/07/decolonial-ecologies-and-low-intensity-war-in-kurdistan/" target="_blank" rel="noopener">Kurdish Decolonial Ecologies</a>, Umut Yıldırım, Middle East Report 311, July 2024.</li>
+        <li><a href="https://academy.unpo.org/ecocide-and-stateless-nations-why-the-land-of-the-stateless-becomes-the-first-target-of-destruction/" target="_blank" rel="noopener">Ecocide and Stateless Nations: Why the Land of the Stateless Becomes the First Target of Destruction</a>, Dawod Rasooli, Ali Abdelzadeh and Evin Adin, UNPO Academy, February 2026.</li>
+        <li><a href="https://academy.unpo.org/peoples-and-the-planet-self-governance-land-rights-and-climate-justice/" target="_blank" rel="noopener">Peoples and the Planet: Self-Governance, Land Rights and Climate Justice</a>, UNPO Academy.</li>
+        <li><a href="https://www.ecohubmap.com/hot-spot/kurdistan-areas-deforested-by-turkey-used-to-be-so-dense-one-could-barely-see-the-sky/11yxis0ml7u76ki1" target="_blank" rel="noopener">Deforestation in Kurdistan due to the war</a>, EcoHubMap. An unsigned collection of news reports; its figures are checked against the original reporting before they appear on this map.</li>
+      </ul>
+      <h3>The wider count</h3>
+      /*__TOTALS__*/
+      </div>
+    </div>
+  </dialog>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const GEO = /*__GEO__*/;
+const ACLED = /*__ACLED__*/;
+const ADM_KU = {Duhok:"Duhok", Erbil:"Hewlêr", "Al Sulaymaniyah":"Silêmanî", "Al Hasakeh":"Cizîr (Hesekê)", Hakkari:"Colemêrg", Sirnak:"Şirnex", Van:"Wan", Diyarbakir:"Amed", Mardin:"Mêrdîn", Batman:"Êlih", Siirt:"Sêrt", Bitlis:"Bedlîs", Mus:"Mûş", Tunceli:"Dersim", Bingol:"Çewlîg", Agri:"Agirî", Kurdistan:"Sine (Kurdistan)", Kermanshah:"Kirmaşan", "West Azerbaijan":"Ûrmiye", Ilam:"Îlam"};
+const STR = {
+  ku:{h1:"Nexşeya Êrîşan li ser Kurdistanê", alt:"Kürdistan Saldırı Haritası · Kurdistan Strike Map",
+    lede:"Cihên ku dewletên Tirk, Îran, Sûriye û Iraqê, û hêzên DYA û Îsraîlê, ji 2017an û vir ve êrîşî Kurdistanê kirine, û daristan, zevî û avên ku pê re hatine wêrankirin. Qateke dîrokî heta 1925an vedigere.",
+    stN:"êrîş", stK:"kes hatin kuştin", stC:"zirar gihîşt sivîlan", stE:"tomarên ekosîdê",
+    search:"Li cihekî bigere", layers:"PARZÛN", about:"DERBARÊ", legend:"Rêber", records:"Tomar", years:"Sal", play:"▶ DESTPÊK", stop:"■ RAWESTÎNE",
+    hide:"VEŞÊRE", show:"NÎŞAN BIDE", close:"BIGIRE", aboutEyebrow:"Derbarê nexşeyê de", mapLabel:"Nexşeya êrîşan li ser Kurdistanê",
+    aT:"Dewleta Tirk", aI:"Dewleta Îranê", aE:"Ekosîd",
+    ty_drone:"Êrîşa dronê", ty_airstrike:"Bombebarana ji asîman", ty_artillery:"Topbaran", ty_missile:"Êrîşa mûşekan", ty_chemical:"Êrîşa kîmyewî", ty_massacre:"Komkujî", aS:"Dewleta Sûriyeyê", aQ:"Dewleta Iraqê", aU:"DYA û Îsraîl", histH:"Dîrok", keyH:"Nîşan çi dibêjin", keyWho:"Reng: kê êrîş kir", keyWhat:"Şêwe: cureya êrîşê", keyAcled:"Xeleka xalxalî: hejmara êrîşan li parêzgehê (ACLED)", keyClick:"Mişkê bibe ser nîşanekê da ku navê wê bibînî; bitikîne ji bo hûrgilî û çavkaniyan.", legendHint:"Reng nîşan dide kê êrîş kir, şêwe jî cureya êrîşê nîşan dide. Qatek an cureyek veke yan bigire.", acledH:"ACLED: hemû êrîşên tomarkirî", acledOn:"Parêzgehan nîşan bide", acledNote:"Êrîşên hewayî, dron û topbaranê yên ku ACLED li her parêzgeheke Kurdistanê tomar kirine, ji hêla her êrîşkarî ve. Daneyên heftane yên ACLED nabêjin kê êrîş kiriye.", acledShort:"êrîş", acledTag:"êrîşên tomarkirî", acledStrikes:"êrîş", acledDeaths:"mirin", acledYears:"sal", acledAir:"hewayî/dron", acledShell:"topbaran", histOn:"Tomarên berî 2017an nîşan bide", histNote:"Nîşanên vala: bûyerên dîrokî", histShort:"Berî 2017an", histBar:"DÎR", "ty_ground assault":"Êrîşa leşkerî ya bejayî", "ty_border shooting":"Gulebarankirina kolberan", ty_campaign:"Êrîşa leşkerî ya berfireh",
+    "c_forest fire":"Şewitandina daristanan", c_deforestation:"Birîna daristanan", c_agriculture:"Zevî û baxçe", c_water:"Av", c_infrastructure:"Elektrîk, petrol û gaz", c_dam:"Bendav û çem", c_land:"Desteserkirin û guhertina axê",
+    sIraq:"di nav sînorên dewleta Iraqê de", sSyria:"di nav sînorên dewleta Sûriyeyê de", sTurkey:"di nav sînorên dewleta Tirk de", sIran:"di nav sînorên dewleta Îranê de",
+    stTr:"Dewleta Tirk", stIr:"Dewleta Îranê", stIq:"Dewleta Iraqê", stSy:"Dewleta Sûriyeyê",
+    parts:"Parçeyên Kurdistanê", civOnly:"Tenê êrîşên ku zirar gihandine sivîlan", reading:"Xwendina nexşeyê", larger:"Nîşana mezintir: bêtir kes hatin kuştin",
+    border:"Sînorê dewletê", road:"Rê", river:"Çem", part:"Parçeyeke Kurdistanê",
+    empty:"Tiştek li hev nayê. Qatekê dîsa veke an lêgerînê paqij bike.", nKilled:"kuştî",
+    killed:"hatin kuştin", wounded:"birîndar bûn", civHarmed:"zirar gihîşt sivîlan", yes:"erê", no:"na", unclear:"ne diyar", none:"tune",
+    back:"VEGERE", approx:"cih bi nêzîkî", docBy:"Kê belge kiriye", enNote:"Kurte bi Îngilîzî", N:"B", E:"R", langBtn:"EN", langAria:"Switch to English"},
+  tr:{h1:"Kürdistan Saldırı Haritası", alt:"Nexşeya Êrîşan li ser Kurdistanê · Kurdistan Strike Map",
+    lede:"Türk, İran, Suriye ve Irak devletlerinin, ABD ve İsrail güçlerinin 2017'den bu yana Kürdistan'a saldırdığı yerler ve bu saldırılarla yok edilen ormanlar, tarlalar ve sular. Tarihsel katman 1925'e kadar uzanıyor.",
+    stN:"saldırı", stK:"kişi öldürüldü", stC:"sivillere zarar", stE:"ekokırım kaydı",
+    search:"Bir yer ara", layers:"FİLTRELER", about:"HAKKINDA", legend:"Açıklama", records:"Kayıtlar", years:"Yıllar", play:"▶ OYNAT", stop:"■ DURDUR",
+    hide:"GİZLE", show:"GÖSTER", close:"KAPAT", aboutEyebrow:"Harita hakkında", mapLabel:"Kürdistan'daki saldırıların haritası",
+    aT:"Türk devleti", aI:"İran devleti", aE:"Ekokırım",
+    ty_drone:"SİHA saldırısı", ty_airstrike:"Hava saldırısı", ty_artillery:"Topçu atışı", ty_missile:"Füze saldırısı", ty_chemical:"Kimyasal saldırı", ty_massacre:"Katliam", aS:"Suriye devleti", aQ:"Irak devleti", aU:"ABD ve İsrail", histH:"Tarih", keyH:"Simgeler ne anlama geliyor", keyWho:"Renk: kim saldırdı", keyWhat:"Şekil: saldırı türü", keyAcled:"Kesik daire: ildeki saldırı sayısı (ACLED)", keyClick:"Adını görmek için imleci bir simgenin üzerine getirin; ayrıntılar ve kaynaklar için tıklayın.", legendHint:"Renk saldıranı, şekil saldırı türünü gösterir. Katmanları ve türleri açıp kapatabilirsiniz.", acledH:"ACLED: kayıtlı tüm saldırılar", acledOn:"İlleri göster", acledNote:"ACLED'in her Kürdistan ilinde kaydettiği hava, SİHA ve topçu saldırıları, saldırgan kim olursa olsun. ACLED'in haftalık verileri saldırıyı kimin yaptığını belirtmiyor.", acledShort:"saldırı", acledTag:"kayıtlı saldırılar", acledStrikes:"saldırı", acledDeaths:"ölüm", acledYears:"yıl", acledAir:"hava/SİHA", acledShell:"topçu", histOn:"2017 öncesi kayıtları göster", histNote:"İçi boş simgeler: tarihsel olaylar", histShort:"2017 öncesi", histBar:"TAR", "ty_ground assault":"Kara saldırısı", "ty_border shooting":"Sınırda vurulan kolberler", ty_campaign:"Askeri harekât",
+    "c_forest fire":"Yakılan orman", c_deforestation:"Kesilen orman", c_agriculture:"Tarla ve bahçeler", c_water:"Su", c_infrastructure:"Elektrik, petrol ve gaz", c_dam:"Barajlar ve nehirler", c_land:"Ele geçirilen ve dönüştürülen toprak",
+    sIraq:"Irak devleti sınırları içinde", sSyria:"Suriye devleti sınırları içinde", sTurkey:"Türk devleti sınırları içinde", sIran:"İran devleti sınırları içinde",
+    stTr:"Türk devleti", stIr:"İran devleti", stIq:"Irak devleti", stSy:"Suriye devleti",
+    parts:"Kürdistan'ın parçaları", civOnly:"Yalnızca sivillere zarar veren saldırılar", reading:"Haritayı okumak", larger:"Büyük simge: daha çok kişi öldürüldü",
+    border:"Devlet sınırı", road:"Yol", river:"Nehir", part:"Kürdistan'ın bir parçası",
+    empty:"Eşleşen kayıt yok. Bir katmanı yeniden açın ya da aramayı temizleyin.", nKilled:"ölü",
+    killed:"öldürüldü", wounded:"yaralandı", civHarmed:"sivillere zarar", yes:"evet", no:"hayır", unclear:"belirsiz", none:"yok",
+    back:"GERİ", approx:"yaklaşık konum", docBy:"Belgeleyen", enNote:"İngilizce özet", N:"K", E:"D", langAria:"Türkçe"},
+  en:{h1:"Kurdistan Strike Map", alt:"Nexşeya Êrîşan li ser Kurdistanê · Kürdistan Saldırı Haritası",
+    lede:"Where the Turkish, Iranian, Syrian and Iraqi states, and US and Israeli forces, have attacked Kurdistan since 2017, and the forests, fields and water destroyed with it. A historical layer reaches back to 1925.",
+    stN:"attacks", stK:"people killed", stC:"harmed civilians", stE:"ecocide records",
+    search:"Search a place", layers:"FILTERS", about:"ABOUT", legend:"Legend", records:"Records", years:"Years", play:"▶ PLAY", stop:"■ STOP",
+    hide:"HIDE", show:"SHOW", close:"CLOSE", aboutEyebrow:"About the map", mapLabel:"Map of attacks across Kurdistan",
+    aT:"Turkish state", aI:"Iranian state", aE:"Ecocide",
+    ty_drone:"Drone strike", ty_airstrike:"Airstrike", ty_artillery:"Artillery shelling", ty_missile:"Missile strike", ty_chemical:"Chemical attack", ty_massacre:"Massacre", aS:"Syrian state", aQ:"Iraqi state", aU:"US and Israel", histH:"History", keyH:"What the symbols mean", keyWho:"Colour: who attacked", keyWhat:"Shape: kind of attack", keyAcled:"Dashed circle: strikes recorded in the province (ACLED)", keyClick:"Point at a symbol to see what it is; click it for details and sources.", legendHint:"Colour shows who attacked; shape shows the kind of attack. Turn layers and kinds on or off below.", acledH:"ACLED: all recorded strikes", acledOn:"Show provinces", acledNote:"Air, drone and artillery strikes ACLED recorded in each Kurdish province, by any attacker. ACLED\u2019s weekly data does not say who carried out each strike.", acledShort:"strikes", acledTag:"recorded strikes", acledStrikes:"strikes", acledDeaths:"deaths", acledYears:"years", acledAir:"air/drone", acledShell:"shelling", histOn:"Show records before 2017", histNote:"Outlined symbols: historical events", histShort:"Before 2017", histBar:"HIST", "ty_ground assault":"Ground assault", "ty_border shooting":"Kolbars shot at the border", ty_campaign:"Military offensive",
+    "c_forest fire":"Forest burned", c_deforestation:"Forest felled", c_agriculture:"Farmland and orchards", c_water:"Water", c_infrastructure:"Power, oil and gas", c_dam:"Dams and rivers", c_land:"Land seized and remade",
+    sIraq:"within Iraqi state borders", sSyria:"within Syrian state borders", sTurkey:"within Turkish state borders", sIran:"within Iranian state borders",
+    stTr:"Turkish state", stIr:"Iranian state", stIq:"Iraqi state", stSy:"Syrian state",
+    parts:"Parts of Kurdistan", civOnly:"Only attacks that harmed civilians", reading:"Reading the map", larger:"Larger symbol, more people killed",
+    border:"State border", road:"Road", river:"River", part:"Part of Kurdistan",
+    empty:"Nothing matches. Turn a layer back on or clear the search.", nKilled:"killed",
+    killed:"killed", wounded:"wounded", civHarmed:"civilians harmed", yes:"yes", no:"no", unclear:"unclear", none:"none",
+    back:"BACK", approx:"approximate", docBy:"Documented by", enNote:"", N:"N", E:"E", langBtn:"KU", langAria:"Biguhere bo Kurmancî"}
+};
+Object.assign(STR.ku, {keyAsk:"Nîşan çi dibêjin?", searchList:"Lêgerîn û lîste", tabFilters:"Parzûn û sal", byState:"Kîjan dewletê êrîş kir", wKey3:"Ji bo ku bizanî nîşan çi dibêjin, li bişkoka zer a jêrîn bitikîne: ● ▲ ■ Nîşan çi dibêjin?", tabMap:"Nexşe", tabList:"Lîste", tabGuide:"Rêber", tabAbout:"Derbarê", all:"Hemû", shareBtn:"↗ Parve bike", wKey2:"Reng nîşan dide kîjan dewletê êrîş kir, şêwe jî cureya êrîşê. Di beşa Rêber de hemû têne ravekirin.", wEb:"Ji vir dest pê bike", wStory:"▶ BI ÇÎROKÊ DEST PÊ BIKE · 8 BEŞ", wExplore:"LI NEXŞEYÊ BIGERE",
+  wKey:"Reng nîşan dide kîjan dewletê êrîş kir, şêwe jî cureya êrîşê. Bişkoka NÎŞAN hemûyan rave dike.",
+  sh_circle:"Êrîşa dronê", sh_triangle:"Bombebarana ji asîman an mûşek", sh_square:"Topbaran, êrîşa bejayî an gulebarana li ser sînor", sh_star:"Komkujî an êrîşa kîmyewî", keyBtn:"NÎŞAN", hintH:"Çawa bi kar bînî", gotIt:"BAŞ E", more:"cure",
+  hint1:"Li nîşanekê bitikîne da ku bibînî çi qewimî û çavkanî kî ne.",
+  hint3:"Bi ÇÎROK dest pê bike, an jî bi MEH BI MEH salan bibîne ku derbas dibin.", mStory:"ÇÎROK", mReplay:"MEH BI MEH", heatOn:"Wekî nexşeya germahiyê nîşan bide",
+  storyEb:"Çîrok", prev:"← PAŞ", next:"PÊŞ →", exit:"DERKEVE", nearH:"Li vir çi qewimî?", nearPlace:"Li dora {p}", nearR:"di nav {r} km de",
+  nearNone:"Di nav vê dorê de, bi parzûnên niha, tu tomar tune.", nearHint:"Li cihekî vala yê nexşeyê bitikîne da ku bibînî çi li dora wê qewimî.",
+  liveNote:"Xeleka ku lê dide: 30 rojên dawî yên tomarê", copyLink:"LÎNKÊ KOPÎ BIKE", copyText:"NIVÎSÊ KOPÎ BIKE", copied:"HAT KOPÎKIRIN ✓", shareH:"Belav bike",
+  months:["Çile","Sibat","Adar","Nîsan","Gulan","Hezîran","Tîrmeh","Tebax","Îlon","Cotmeh","Mijdar","Kanûn"]});
+Object.assign(STR.tr, {keyAsk:"Semboller ne anlama geliyor?", searchList:"Ara ve liste", tabFilters:"Filtreler ve yıllar", byState:"Saldıran devlet", wKey3:"Sembollerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: ● ▲ ■ Semboller ne anlama geliyor?", tabMap:"Harita", tabList:"Liste", tabGuide:"Rehber", tabAbout:"Hakkında", all:"Tümü", shareBtn:"↗ Paylaş", wKey2:"Renk saldıran devleti, şekil saldırının türünü gösterir. Rehber sekmesi hepsini açıklar.", wEb:"Buradan başla", wStory:"▶ HİKÂYEYLE BAŞLA · 8 BÖLÜM", wExplore:"HARİTAYI KEŞFET",
+  wKey:"Renk saldıran devleti, şekil saldırının türünü gösterir. SEMBOLLER düğmesi hepsini açıklar.",
+  sh_circle:"SİHA saldırısı", sh_triangle:"Hava saldırısı ya da füze", sh_square:"Topçu, kara saldırısı ya da sınırda ateş", sh_star:"Katliam ya da kimyasal saldırı", keyBtn:"SEMBOLLER", hintH:"Nasıl kullanılır", gotIt:"TAMAM", more:"tür",
+  hint1:"Ne olduğunu ve kaynakları görmek için bir sembole tıkla.",
+  hint3:"HİKÂYELER ile başla ya da AY AY ile yılların akışını izle.", mStory:"HİKÂYELER", mReplay:"AY AY", heatOn:"Yoğunluk haritası olarak göster",
+  storyEb:"Hikâye", prev:"← GERİ", next:"İLERİ →", exit:"ÇIK", nearH:"Burada ne oldu?", nearPlace:"{p} çevresi", nearR:"{r} km içinde",
+  nearNone:"Bu çevrede, mevcut filtrelerle hiç kayıt yok.", nearHint:"Çevresinde ne olduğunu görmek için haritada boş bir yere tıkla.",
+  liveNote:"Atan halka: kaydın son 30 günü", copyLink:"BAĞLANTIYI KOPYALA", copyText:"METNİ KOPYALA", copied:"KOPYALANDI ✓", shareH:"Yay",
+  months:["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"]});
+Object.assign(STR.en, {keyAsk:"What do the symbols mean?", searchList:"Search and list", tabFilters:"Filters and years", byState:"Which state attacked", wKey3:"To see what the symbols mean, tap the yellow button at the bottom: ● ▲ ■ What do the symbols mean?", tabMap:"Map", tabList:"List", tabGuide:"Guide", tabAbout:"About", all:"All", shareBtn:"↗ Share", wKey2:"Colour shows which state attacked; shape shows the kind of attack. The Guide tab explains them all.", wEb:"Start here", wStory:"▶ START WITH THE STORY · 8 CHAPTERS", wExplore:"EXPLORE THE MAP",
+  wKey:"Colour shows which state attacked; shape shows the kind of attack. The KEY button explains them all.",
+  sh_circle:"Drone strike", sh_triangle:"Airstrike or missile", sh_square:"Shelling, ground attack or border shooting", sh_star:"Massacre or chemical attack", keyBtn:"KEY", hintH:"How to use this map", gotIt:"GOT IT", more:"kinds",
+  hint1:"Click a symbol to see what happened and who documented it.",
+  hint3:"Start with STORIES, or watch the years go by with REPLAY.", mStory:"STORIES", mReplay:"REPLAY", heatOn:"Show as a heat map",
+  storyEb:"Story", prev:"← BACK", next:"NEXT →", exit:"EXIT", nearH:"What happened here?", nearPlace:"Around {p}", nearR:"within {r} km",
+  nearNone:"Nothing on record within this radius under the current filters.", nearHint:"Click any empty spot on the map to see what happened around it.",
+  liveNote:"Pulsing ring: the last 30 days on record", copyLink:"COPY LINK", copyText:"COPY TEXT", copied:"COPIED ✓", shareH:"Spread it",
+  months:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]});
+
+STR.ckb = {h1:"نەخشەی هێرشەکان بۆ سەر کوردستان", alt:"Nexşeya Êrîşan li ser Kurdistanê · Kurdistan Strike Map",
+  lede:"ئەو شوێنانەی دەوڵەتانی تورک، ئێران، سووریا و عێراق، و هێزەکانی ئەمریکا و ئیسرائیل، لە ساڵی 2017ەوە هێرشیان کردۆتە سەر کوردستان، و ئەو دارستان و کێڵگە و ئاوانەی لەگەڵیدا وێران کراون. چینێکی مێژوویی تا ساڵی 1925 دەگەڕێتەوە.",
+  stN:"هێرش", stK:"کەس کوژران", stC:"زیان بە مەدەنییەکان", stE:"تۆماری ژینگەکوژی",
+  search:"بەدوای شوێنێکدا بگەڕێ", layers:"فلتەر", about:"دەربارە", legend:"ڕێبەر", records:"تۆمارەکان", years:"ساڵەکان", play:"لێدان", stop:"وەستان",
+  hide:"شاردنەوە", show:"پیشاندان", close:"داخستن", aboutEyebrow:"دەربارەی نەخشەکە", mapLabel:"نەخشەی هێرشەکان بۆ سەر کوردستان",
+  aT:"دەوڵەتی تورک", aI:"دەوڵەتی ئێران", aS:"دەوڵەتی سووریا", aQ:"دەوڵەتی عێراق", aU:"ئەمریکا و ئیسرائیل", aE:"ژینگەکوژی",
+  ty_drone:"هێرشی درۆن", ty_airstrike:"بۆردومانی ئاسمانی", ty_artillery:"تۆپباران", ty_missile:"هێرشی مووشەکی", ty_chemical:"هێرشی کیمیایی", ty_massacre:"کۆمەڵکوژی",
+  "ty_ground assault":"هێرشی زەمینی", "ty_border shooting":"تەقەکردن لە کۆڵبەران لە سنوور", ty_campaign:"هێرشی سەربازیی فراوان",
+  histH:"مێژوو", keyH:"هێماکان چی دەڵێن", keyWho:"ڕەنگ: کێ هێرشی کرد", keyWhat:"شێوە: جۆری هێرش",
+  keyAcled:"بازنەی خاڵخاڵ: ژمارەی هێرشەکان لە پارێزگاکەدا (ACLED)", keyClick:"ماوس بخەرە سەر هێمایەک بۆ ئەوەی بزانیت چییە؛ کلیکی لێ بکە بۆ وردەکاری و سەرچاوەکان.",
+  legendHint:"ڕەنگ نیشان دەدات کێ هێرشی کرد؛ شێوە جۆری هێرشەکە. لە خوارەوە چین و جۆرەکان بکەرەوە یان دایانبخە.",
+  acledH:"ACLED: هەموو هێرشە تۆمارکراوەکان", acledOn:"پارێزگاکان پیشان بدە",
+  acledNote:"ئەو هێرشە ئاسمانی، درۆنی و تۆپبارانانەی ACLED لە هەر پارێزگایەکی کوردستاندا تۆماری کردوون، لەلایەن هەر هێرشبەرێکەوە بێت. داتا هەفتانەکانی ACLED ناڵێن کێ هەر هێرشێکی ئەنجام داوە.",
+  acledShort:"هێرش", acledTag:"هێرشی تۆمارکراو", acledStrikes:"هێرش", acledDeaths:"کوژراو", acledYears:"ساڵ", acledAir:"ئاسمانی/درۆن", acledShell:"تۆپباران",
+  histOn:"تۆمارەکانی پێش 2017 پیشان بدە", histNote:"هێما بەتاڵەکان: ڕووداوە مێژووییەکان", histShort:"پێش 2017", histBar:"مێژوو",
+  "c_forest fire":"سووتاندنی دارستان", c_deforestation:"بڕینی دارستان", c_agriculture:"کێڵگە و باخ", c_water:"ئاو", c_infrastructure:"کارەبا، نەوت و گاز", c_dam:"بەنداو و ڕووبار", c_land:"داگیرکردن و گۆڕینی زەوی",
+  sIraq:"لە ناو سنووری دەوڵەتی عێراق", sSyria:"لە ناو سنووری دەوڵەتی سووریا", sTurkey:"لە ناو سنووری دەوڵەتی تورک", sIran:"لە ناو سنووری دەوڵەتی ئێران",
+  stTr:"دەوڵەتی تورک", stIr:"دەوڵەتی ئێران", stIq:"دەوڵەتی عێراق", stSy:"دەوڵەتی سووریا",
+  parts:"پارچەکانی کوردستان", civOnly:"تەنها ئەو هێرشانەی زیانیان بە مەدەنییەکان گەیاندووە", reading:"خوێندنەوەی نەخشەکە",
+  larger:"هێمای گەورەتر: کەسی زیاتر کوژراون", border:"سنووری دەوڵەت", road:"ڕێگا", river:"ڕووبار", part:"پارچەیەکی کوردستان",
+  empty:"هیچ شتێک ناگونجێت. چینێک دووبارە بکەرەوە یان گەڕانەکە پاک بکەرەوە.",
+  nKilled:"کوژراو", killed:"کوژران", wounded:"بریندار بوون", civHarmed:"زیان بە مەدەنییەکان", yes:"بەڵێ", no:"نەخێر", unclear:"ڕوون نییە", none:"هیچ",
+  back:"گەڕانەوە", approx:"نزیکەیی", docBy:"کێ بەڵگەی کردووە", enNote:"", N:"N", E:"E",
+  keyAsk:"هێماکان چی دەڵێن؟", searchList:"گەڕان و لیست", tabFilters:"فلتەر و ساڵەکان", byState:"کام دەوڵەت هێرشی کرد",
+  wKey3:"بۆ ئەوەی بزانیت هێماکان چی دەڵێن، لە دوگمە زەردەکەی خوارەوە بدە: ● ▲ ■ هێماکان چی دەڵێن؟",
+  tabAbout:"دەربارە", all:"هەموو", shareBtn:"↗ بڵاوکردنەوە", wEb:"لێرەوە دەست پێ بکە", wExplore:"بە نەخشەکەدا بگەڕێ",
+  sh_circle:"هێرشی درۆن", sh_triangle:"بۆردومانی ئاسمانی یان مووشەک", sh_square:"تۆپباران، هێرشی زەمینی یان تەقەکردن لە سنوور", sh_star:"کۆمەڵکوژی یان هێرشی کیمیایی",
+  more:"جۆر", hint1:"لە هێمایەک بدە بۆ ئەوەی بزانیت چی ڕوویداوە و کێ بەڵگەی کردووە.", heatOn:"وەک نەخشەی گەرمی پیشان بدە",
+  nearH:"لێرە چی ڕوویدا؟", nearPlace:"دەوروبەری {p}", nearR:"لە ماوەی {r} کیلۆمەتردا", nearNone:"بە فلتەرەکانی ئێستا، لەم ناوچەیەدا هیچ تۆمارێک نییە.",
+  nearHint:"لە شوێنێکی بەتاڵی نەخشەکە بدە بۆ ئەوەی بزانیت چی لە دەوروبەریدا ڕوویداوە.", liveNote:"بازنەی لێدەر: 30 ڕۆژی کۆتایی تۆمار",
+  copyLink:"لینکەکە کۆپی بکە", copyText:"دەقەکە کۆپی بکە", copied:"کۆپی کرا ✓", shareH:"بڵاوی بکەرەوە",
+  months:["کانوونی دووەم","شوبات","ئازار","نیسان","ئایار","حوزەیران","تەممووز","ئاب","ئەیلوول","تشرینی یەکەم","تشرینی دووەم","کانوونی یەکەم"]};
+Object.assign(STR.ku, {"keyIcon": "Wêne: cureya êrîşê", "keyMore": "Nîşanên din", "keyBadge": "Hejmara li ser nîşanê: kesên hatin kuştin", "keyCluster": "Bilbila bi hejmar: çend êrîş li wê derê ne. Nêzîk bike an bitikîne da ku vebin.", "byKind": "Cureya êrîşê", "clearF": "Parzûnan paqij bike", "k_drone": "Dron", "k_air": "Ji asîman û mûşek", "k_ground": "Topbaran û bejayî", "k_border": "Gulebarana li ser sînor", "k_mass": "Komkujî û kîmyewî", "k_eco": "Ekosîd"});
+Object.assign(STR.ckb, {"keyIcon": "وێنە: جۆری هێرش", "keyMore": "هێماکانی تر", "keyBadge": "ژمارەی سەر هێماکە: کەسە کوژراوەکان", "keyCluster": "بڵقی ژمارەدار: چەند هێرش لەو شوێنەدان. نزیک بکەرەوە یان لێی بدە بۆ ئەوەی بکرێنەوە.", "byKind": "جۆری هێرش", "clearF": "فلتەرەکان پاک بکەرەوە", "k_drone": "درۆن", "k_air": "ئاسمانی و مووشەک", "k_ground": "تۆپباران و زەمینی", "k_border": "تەقەکردن لە سنوور", "k_mass": "کۆمەڵکوژی و کیمیایی", "k_eco": "ژینگەکوژی"});
+Object.assign(STR.tr, {"keyIcon": "Simge: saldırının türü", "keyMore": "Diğer işaretler", "keyBadge": "İşaretin üzerindeki sayı: öldürülen kişi sayısı", "keyCluster": "Sayılı baloncuk: o bölgedeki saldırı sayısı. Yakınlaştır ya da dokun, açılsın.", "byKind": "Saldırı türü", "clearF": "Filtreleri temizle", "k_drone": "SİHA", "k_air": "Hava ve füze", "k_ground": "Topçu ve kara", "k_border": "Sınırda ateş", "k_mass": "Katliam ve kimyasal", "k_eco": "Ekokırım"});
+Object.assign(STR.en, {"keyIcon": "Icon: kind of attack", "keyMore": "Other marks", "keyBadge": "Number on a pin: people killed", "keyCluster": "Numbered bubble: how many attacks are there. Zoom in or tap it to open it up.", "byKind": "Kind of attack", "clearF": "Clear filters", "k_drone": "Drone", "k_air": "Air and missile", "k_ground": "Shelling and ground", "k_border": "Border shooting", "k_mass": "Massacre and chemical", "k_eco": "Ecocide"});
+Object.assign(STR.ku, {"mapStyle": "Şêweya nexşeyê", "ms_natural": "Erd û çiya", "ms_dark": "Tarî"});
+Object.assign(STR.ckb, {"mapStyle": "شێوەی نەخشە", "ms_natural": "زەوی و چیا", "ms_dark": "تاریک"});
+Object.assign(STR.tr, {"mapStyle": "Harita görünümü", "ms_natural": "Doğal arazi", "ms_dark": "Koyu"});
+Object.assign(STR.en, {"mapStyle": "Map style", "ms_natural": "Natural terrain", "ms_dark": "Dark"});
+Object.assign(STR.ku, {"legendHint": "Reng nîşan dide kê êrîş kir, wêne jî cureya êrîşê. Li jêr qat û cureyan veke an bigire.", "wKey3": "Ji bo ku bizanî reng û wêne çi dibêjin, li bişkoka zer a jêrîn bitikîne: Nîşan çi dibêjin?", "histNote": "Nîşanên reş bi xeleka rengîn: bûyerên dîrokî"});
+Object.assign(STR.ckb, {"legendHint": "ڕەنگ نیشان دەدات کێ هێرشی کرد؛ وێنەکە جۆری هێرشەکە. لە خوارەوە چین و جۆرەکان بکەرەوە یان دایانبخە.", "wKey3": "بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن، لە دوگمە زەردەکەی خوارەوە بدە: هێماکان چی دەڵێن؟", "histNote": "هێمای ڕەش بە ئەڵقەی ڕەنگاوڕەنگ: ڕووداوە مێژووییەکان"});
+Object.assign(STR.tr, {"legendHint": "Renk saldıranı, simge saldırının türünü gösterir. Aşağıdan katmanları ve türleri açıp kapatabilirsin.", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: Semboller ne anlama geliyor?", "histNote": "Renkli halkalı koyu işaretler: tarihsel olaylar"});
+Object.assign(STR.en, {"legendHint": "Colour shows who attacked; the icon shows the kind of attack. Turn layers and kinds on or off below.", "wKey3": "To see what the colours and icons mean, tap the yellow button at the bottom: What do the symbols mean?", "histNote": "Dark pins with a coloured ring: historical events"});
+/* Sorani names for parts, governorates and map labels */
+const PART_CKB = {Iraq:"باشوور", Syria:"ڕۆژاوا", Turkey:"باکوور", Iran:"ڕۆژهەڵات"};
+const GOV_CKB = {Duhok:"دهۆک", Erbil:"هەولێر", Sulaymaniyah:"سلێمانی", "Al Sulaymaniyah":"سلێمانی", Kirkuk:"کەرکووک", Nineveh:"نەینەوا", Hasakah:"حەسەکە", "Al Hasakeh":"جزیرە (حەسەکە)", Aleppo:"حەلەب", Raqqa:"ڕەققە", "Deir ez-Zor":"دێرەزوور", Kurdistan:"سنە (کوردستان)", Kermanshah:"کرماشان", "West Azerbaijan":"ورمێ", Ilam:"ئیلام", Hakkari:"جۆلەمێرگ", Sirnak:"شرناخ", Van:"وان", Diyarbakir:"ئامەد", Mardin:"ماردین", Batman:"ئێلح", Siirt:"سێرت", Bitlis:"بەدلیس", Mus:"مووش", Tunceli:"دێرسم", Bingol:"چەولیگ", Agri:"ئاگری"};
+const LBL_CKB = {BAKUR:"باکوور", ROJAVA:"ڕۆژاوا", "BAŞÛR":"باشوور", ROJHILAT:"ڕۆژهەڵات", "Hewlêr":"هەولێر", Duhok:"دهۆک", "Silêmanî":"سلێمانی", "Kerkûk":"کەرکووک", "Mûsil":"مووسڵ",
+  "Qamişlo":"قامیشلۆ", "Kobanî":"کۆبانێ", "Hesekê":"حەسەکە", Amed:"ئامەد", Wan:"وان", Mehabad:"مەهاباد", Sine:"سنە", "Kirmaşan":"کرماشان", "Ûrmiye":"ورمێ", Heleb:"حەلەب",
+  Reqa:"ڕەققە", Riha:"ڕوها", "Meletî":"مەلەتی", Erzerom:"ئەرزەڕۆم", "Zaxo":"زاخۆ", "Şengal":"شنگال", "Mexmûr":"مەخموور", Helebce:"هەڵەبجە", Koye:"کۆیە", Soran:"سۆران", Ranya:"ڕانیە",
+  Qeladize:"قەڵادزێ", "Amêdî":"ئامێدی", "Akrê":"ئاکرێ", Kelar:"کەلار", "Xaneqîn":"خانەقین", "Efrîn":"عەفرین", Minbic:"مەنبج", "Dêrik":"دێرک", "Amûdê":"عامودا", "Serêkaniyê":"سەرێکانی",
+  "Girê Spî":"گرێ سپی", "Colemêrg":"جۆلەمێرگ", "Şirnex":"شرناخ", "Cizîr":"جزیر", "Nisêbîn":"نسێبین", "Mêrdîn":"ماردین", "Êlih":"ئێلح", "Sêrt":"سێرت", "Bedlîs":"بەدلیس", "Mûş":"مووش",
+  "Çewlîg":"چەولیگ", Dersim:"دێرسم", "Xarpêt":"خارپێت", "Semsûr":"سەمسوور", "Agirî":"ئاگری", Gever:"گەڤەر", Bane:"بانە", "Merîwan":"مەریوان", Seqiz:"سەقز", Bokan:"بۆکان",
+  "Serdeşt":"سەردەشت", "Pîranşar":"پیرانشار", "Şino":"شنۆ", Pawe:"پاوە", Xoy:"خۆی", "Qesrê Şîrîn":"قەسری شیرین", "Penciwên":"پێنجوێن", "Sîdekan":"سیدەکان", "Batîfa":"باتیفا",
+  "Kanî Masî":"کانی ماسی", "Çemçemal":"چەمچەماڵ", Dukan:"دووکان", Seyidsadiq:"سەیدسادق", "Til Temir":"تل تەمر", "Dirbêsiyê":"دەرباسیە", "Ain Îsa":"عەین عیسا", "Til Rifet":"تل ڕفعەت",
+  "Hacî Omeran":"حاجی ئۆمەران", "Çelê":"چەلێ", "Şemzînan":"شەمزینان", Qilaban:"قلابان", "Silopî":"سلۆپی", "Heskîf":"حەسکیف",
+  "Çiyayê Qendîl":"چیای قەندیل", "Çiyayê Cûdî":"چیای جوودی", "Çiyayê Gare":"چیای گارە", "Çiyayê Şengalê":"چیای شنگال"};
+const govName = g => LANG === "ckb" ? GOV_CKB[g] || g : KU[g] || ADM_KU[g] || g;
+const BACK = () => (LANG === "ckb" ? "→ " : "← ") + T("back");
+
+let LANG = "ku";
+try { const l = localStorage.getItem("ksm-lang"); if (l === "en" || l === "ku" || l === "tr" || l === "ckb") LANG = l; } catch (e) {}
+const loc = (d, f) => (LANG !== "en" && d[f + "_" + LANG]) || d[f];
+const T = k => STR[LANG][k] ?? STR.en[k] ?? k;
+function applyStatic() {
+  document.documentElement.lang = LANG;
+  document.querySelectorAll("[data-t]").forEach(el => el.textContent = T(el.dataset.t));
+  document.querySelectorAll("[data-tl]").forEach(el => { el.setAttribute("aria-label", T(el.dataset.tl)); el.title = T(el.dataset.tl); });
+  document.getElementById("shX").setAttribute("aria-label", T("close"));
+  document.querySelectorAll("[data-mapstyle]").forEach(b => { b.textContent = T("ms_" + b.dataset.mapstyle); b.setAttribute("aria-pressed", b.dataset.mapstyle === MAPSTYLE); });
+  if (state.tab) setSheetTitle(state.tab);
+  document.getElementById("q").placeholder = T("search");
+  document.getElementById("map").setAttribute("aria-label", T("mapLabel"));
+  document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
+  document.getElementById("aboutTR").hidden = LANG !== "tr";
+  document.getElementById("aboutKU").hidden = LANG !== "ku";
+  document.getElementById("aboutEN").hidden = LANG !== "en";
+  { const c = document.getElementById("aboutCKB"); if (c) c.hidden = LANG !== "ckb"; }
+  document.documentElement.dir = LANG === "ckb" ? "rtl" : "ltr";
+  const play = document.getElementById("play"); play.textContent = timer ? "■" : "▶"; play.setAttribute("aria-label", T(timer ? "stop" : "play"));
+  if (typeof renderChips === "function") renderChips();
+}
+
+
+const ACTORS = {
+  Turkey:{get label(){return T("aT")}, v:"--turkey"},
+  Iran:{get label(){return T("aI")}, v:"--iran"},
+  Syria:{get label(){return T("aS")}, v:"--syria"},
+  Iraq:{get label(){return T("aQ")}, v:"--iraq"},
+  USIL:{get label(){return T("aU")}, v:"--usil"},
+  Eco:{get label(){return T("aE")}, v:"--eco"}
+};
+const TYPES = {drone:"circle", airstrike:"triangle", missile:"triangle", artillery:"square", "ground assault":"square", "border shooting":"square", chemical:"star", massacre:"star", campaign:"ring"};
+const SHAPES = [["circle", "sh_circle"], ["triangle", "sh_triangle"], ["square", "sh_square"], ["star", "sh_star"], ["ring", "ty_campaign"]];
+const CATS = {"forest fire":1, deforestation:1, agriculture:1, water:1, infrastructure:1, dam:1, land:1};
+const PARTS = [
+  {id:"Iraq", get name(){return LANG === "ckb" ? PART_CKB.Iraq : "Başûr"}, get sub(){return T("sIraq")}},
+  {id:"Syria", get name(){return LANG === "ckb" ? PART_CKB.Syria : "Rojava"}, get sub(){return T("sSyria")}},
+  {id:"Turkey", get name(){return LANG === "ckb" ? PART_CKB.Turkey : "Bakur"}, get sub(){return T("sTurkey")}},
+  {id:"Iran", get name(){return LANG === "ckb" ? PART_CKB.Iran : "Rojhilat"}, get sub(){return T("sIran")}}
+];
+const PART = Object.fromEntries(PARTS.map(p => [p.id, p]));
+const KU = {Duhok:"Duhok", Erbil:"Hewlêr", Sulaymaniyah:"Silêmanî", Kirkuk:"Kerkûk", Nineveh:"Nînewa", Hasakah:"Cizîr / Hesekê", Aleppo:"Heleb", Raqqa:"Reqa", "Deir ez-Zor":"Dêra Zor", Kurdistan:"Sine (Kurdistan)", Kermanshah:"Kirmaşan", "West Azerbaijan":"Ûrmiye (West Azerbaijan)", Ilam:"Îlam"};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = n => n.toLocaleString("en-US");
+
+DATA.forEach((d, i) => {
+  d.id = i;
+  d.hist = d.layer === "history";
+  const grp = {"Iraq-PMF":"Iraq", US:"USIL", Israel:"USIL", "US-Israel":"USIL"}[d.actor] || d.actor;
+  d.layer = d.kind === "eco" ? "Eco" : grp;
+  d.sub = d.layer === "Eco" ? d.category : d.type;
+  d.year = +String(d.date).slice(0, 4);
+});
+const Y0 = Math.min(...DATA.filter(d => !d.hist).map(d => d.year)), Y1 = Math.max(...DATA.filter(d => !d.hist).map(d => d.year));
+const HAS_HIST = DATA.some(d => d.hist);
+
+const subsOf = layer => layer === "Eco" ? Object.keys(CATS) : Object.keys(TYPES);
+const state = {on:{}, acled:true, hist:false, parts:new Set(PARTS.map(p => p.id)), year:null, month:null, heat:false, open:{}, only:null, kind:null, q:"", civ:false, sel:null, tab:"M"};
+let timer = null;
+const mkey = d => d.date.length >= 7 ? d.date.slice(0, 7) : d.date.slice(0, 4) + "-06";
+const LAST = DATA.filter(d => !d.hist && d.date.length === 10).map(d => d.date).sort().pop();
+const isRecent = d => !d.hist && d.date.length === 10 && Date.parse(LAST) - Date.parse(d.date) <= 30 * 864e5;
+const RM = matchMedia("(prefers-reduced-motion: reduce)");
+const phone = () => matchMedia("(max-width:760px)").matches;
+Object.keys(ACTORS).forEach(l => subsOf(l).forEach(s => state.on[l + "|" + s] = true));
+
+/* picture icons for each kind of attack and each kind of ecocide */
+const ICON = {
+  drone:'<path d="M9 9 5.5 5.5M15 9l3.5-3.5M9 15l-3.5 3.5M15 15l3.5 3.5"/><rect x="9" y="9" width="6" height="6" rx="1.5"/><circle cx="4.5" cy="4.5" r="2.5"/><circle cx="19.5" cy="4.5" r="2.5"/><circle cx="4.5" cy="19.5" r="2.5"/><circle cx="19.5" cy="19.5" r="2.5"/>',
+  airstrike:'<path class="f" d="M12 2c.8 0 1.3 1 1.3 2.5V9l7.7 4.5V16l-7.7-2.3V18l2.4 1.8V22L12 21l-3.7 1v-2.2L10.7 18v-4.3L3 16v-2.5L10.7 9V4.5C10.7 3 11.2 2 12 2z"/>',
+  missile:'<path d="M14.5 4.5c2-2 5-2.5 5-2.5s-.5 3-2.5 5l-7 7-2.5-2.5z"/><path d="M8 10.5 5 11l-2 2 3 .5M13.5 16l-.5 3-2 2-.5-3M7.5 14.5 3 21"/>',
+  artillery:'<path class="f" d="M12 2l1.8 4.6 4.4-2.4-1.6 4.8 5 1.4-4.4 2.6 3 4.2-5-.6.2 5.2L12 18.4l-3.4 3.4.2-5.2-5 .6 3-4.2L2.4 10.4l5-1.4-1.6-4.8 4.4 2.4z"/>',
+  "ground assault":'<rect x="2.5" y="13" width="19" height="6" rx="3"/><path d="M6.5 13v-3h9v3M15.5 11H22"/><circle cx="7" cy="16" r="1"/><circle cx="12" cy="16" r="1"/><circle cx="17" cy="16" r="1"/>',
+  "border shooting":'<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2" class="f"/><path d="M12 1.5v5M12 17.5v5M1.5 12h5M17.5 12h5"/>',
+  chemical:'<path d="M7 14.5a4 4 0 0 1-.4-8A5.5 5.5 0 0 1 17 6a4 4 0 0 1 .5 8.5z"/><path d="M8 17.5v2M12 17v4M16 17.5v2"/>',
+  massacre:'<path class="f" d="M12 2.5c2.2 2.3 2.2 4.5 0 6-2.2-1.5-2.2-3.7 0-6z"/><rect x="8.5" y="10.5" width="7" height="11" rx="1"/>',
+  campaign:'<path d="M3 8h13l-3.5-3.5M21 16H8l3.5 3.5"/>',
+  "forest fire":'<path class="f" d="M12 2c3.5 4.2 6.5 6.6 6.5 11.5a6.5 6.5 0 0 1-13 0c0-3 1.8-5 3.2-6.3 0 2.2 1 3.4 2.3 3.6-.2-3.2-.6-5.6 1-8.8z"/>',
+  deforestation:'<path d="M5 21h14M8 21v-9h8v9"/><ellipse cx="12" cy="12" rx="4" ry="1.6"/><path d="M14 3.5 19.5 9 17.5 11 12 5.5z"/>',
+  agriculture:'<path d="M12 22V7"/><path class="f" d="M12 11.5c-3 0-4.2-2-4.2-4 3 0 4.2 2 4.2 4zM12 11.5c3 0 4.2-2 4.2-4-3 0-4.2 2-4.2 4zM12 16.5c-3 0-4.2-2-4.2-4 3 0 4.2 2 4.2 4zM12 16.5c3 0 4.2-2 4.2-4-3 0-4.2 2-4.2 4zM12 7c-1.2-1.8-.6-3.6 0-5 .6 1.4 1.2 3.2 0 5z"/>',
+  water:'<path class="f" d="M12 2.5c4.3 5.1 6.5 8.3 6.5 11.5a6.5 6.5 0 0 1-13 0c0-3.2 2.2-6.4 6.5-11.5z"/>',
+  infrastructure:'<path class="f" d="M13.5 2 4.5 14h6.5l-1 8 9-12h-6.5z"/>',
+  dam:'<path d="M3 3v18M7 7c2.3 0 2.3 1.6 4.7 1.6S14 7 16.4 7s2.3 1.6 4.6 1.6M7 13c2.3 0 2.3 1.6 4.7 1.6S14 13 16.4 13s2.3 1.6 4.6 1.6"/>',
+  land:'<path d="M5 21V7.5l2-3 2 3V21M15 21V7.5l2-3 2 3V21M2.5 11h19M2.5 17h19"/>'
+};
+const subOf = d => d.layer === "Eco" ? d.category : d.type;
+const ico = (sub, color, size) => `<svg class="ico" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${(ICON[sub] || ICON.drone).replace(/class="f"/g, `fill="${color}" stroke="none"`)}</svg>`;
+const KINDS = [["drone", ["drone"]], ["air", ["airstrike", "missile"]], ["ground", ["artillery", "ground assault", "campaign"]], ["border", ["border shooting"]], ["mass", ["chemical", "massacre"]], ["eco", null]];
+const kindGroup = d => d.layer === "Eco" ? "eco" : (KINDS.find(([, s]) => s && s.includes(d.type)) || ["ground"])[0];
+const KIND_ICON = {drone:"drone", air:"airstrike", ground:"artillery", border:"border shooting", mass:"massacre", eco:"forest fire"};
+
+/* symbols */
+function sym(d, size) { return ico(subOf(d), css(ACTORS[d.layer].v), Math.max(size, 14)); }
+function poly(n, h, r, rot, inner) {
+  const pts = [];
+  for (let k = 0; k < n * (inner ? 2 : 1); k++) { const rr = inner && k % 2 ? r * inner : r, a = Math.PI * 2 * k / (n * (inner ? 2 : 1)) + rot; pts.push(`${(h + rr * Math.cos(a)).toFixed(1)},${(h + rr * Math.sin(a)).toFixed(1)}`); }
+  return `<polygon points="${pts.join(" ")}"/>`;
+}
+function glyph(shape, color, s, selected, _stroke, hollow) {
+  let h = s / 2; const st = selected ? css("--accent") : hollow ? color : css("--halo"), sw = selected ? 2.5 : hollow ? 1.6 : 1.25;
+  let el;
+  switch (shape) {
+    case "circle": el = `<circle cx="${h}" cy="${h}" r="${h - 1.5}"/>`; break;
+    case "triangle": el = `<path d="M${h} 1.5L${s - 1.5} ${s - 2}H1.5Z"/>`; break;
+    case "square": el = `<rect x="2" y="2" width="${s - 4}" height="${s - 4}"/>`; break;
+    case "diamond": el = `<path d="M${h} 1L${s - 1} ${h}L${h} ${s - 1}L1 ${h}Z"/>`; break;
+    case "cross": el = `<path d="M${h - s * .17} 1.5h${s * .34}v${h - 1.5 - s * .17}h${h - 1.5 - s * .17}v${s * .34}h-${h - 1.5 - s * .17}v${h - 1.5 - s * .17}h-${s * .34}v-${h - 1.5 - s * .17}H1.5v-${s * .34}h${h - 1.5 - s * .17}Z"/>`; break;
+    case "x": el = `<path d="M${h} ${h - s * .2}L${s - 3} 1.5L${s - 1.5} 3L${h + s * .2} ${h}L${s - 1.5} ${s - 3}L${s - 3} ${s - 1.5}L${h} ${h + s * .2}L3 ${s - 1.5}L1.5 ${s - 3}L${h - s * .2} ${h}L1.5 3L3 1.5Z"/>`; break;
+    case "star": el = poly(5, h, h - 1, -Math.PI / 2, .45); break;
+    case "octagon": el = poly(8, h, h - 1.5, Math.PI / 8); break;
+    case "ring": s = Math.max(s, 15); h = s / 2; return `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}" aria-hidden="true"><circle cx="${h}" cy="${h}" r="${h - 2.5}" fill="none" stroke="${selected ? css("--accent") : color}" stroke-width="${selected ? 3.5 : 2.5}" stroke-dasharray="3 2.5"/><circle cx="${h}" cy="${h}" r="2.5" fill="${color}"/></svg>`;
+    default: { const r = h - 1.5, pts = [0,1,2,3,4,5].map(k => { const a = Math.PI / 3 * k + Math.PI / 6; return `${(h + r * Math.cos(a)).toFixed(1)},${(h + r * Math.sin(a)).toFixed(1)}`; }).join(" "); el = `<polygon points="${pts}"/>`; }
+  }
+  return `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}" aria-hidden="true"><g fill="${color}"${hollow ? ' fill-opacity=".22"' : ""} stroke="${st}" stroke-width="${sw}">${el}</g></svg>`;
+}
+function sizeOf(d) {
+  if (d.layer === "Eco") return 16;
+  if (d.type === "campaign") return 26;
+  const k = d.killed || 0;
+  return (k >= 10 ? 24 : k >= 3 ? 19 : k >= 1 ? 16 : 14) + (TYPES[d.type] === "star" ? 2 : 0);
+}
+const kindOf = d => d.layer === "Eco" ? T("c_" + d.category) : T("ty_" + d.type);
+
+function matches(d, ignoreYear) {
+  if (!state.on[d.layer + "|" + d.sub]) return false;
+  if (state.only && d.layer !== state.only) return false;
+  if (state.kind && kindGroup(d) !== state.kind) return false;
+  if (!state.parts.has(d.country)) return false;
+  if (d.hist && !state.hist) return false;
+  if (!ignoreYear && state.year != null && (state.year === "H" ? !d.hist : (d.hist || d.year !== state.year))) return false;
+  if (state.month && (d.hist || mkey(d) > state.month)) return false;
+  if (state.civ && d.civilian !== true) return false;
+  if (state.q) {
+    const hay = [d.place, d.place_ku, d.place_tr, d.summary_ku, d.summary_tr, d.governorate, KU[d.governorate], GOV_CKB[d.governorate], d.place_ckb, d.summary_ckb, PART[d.country]?.name, PART_CKB[d.country], d.summary, kindOf(d), d.impact, d.actor].join(" ").toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+/* map */
+const map = L.map("map", {zoomSnap:.25, minZoom:5, maxZoom:12, zoomControl:false, attributionControl:true}).setView([36.5, 42.4], 6.75);
+L.control.zoom({position:"bottomright"}).addTo(map);
+map.setMaxBounds([[27.5, 30], [45, 55]]);
+map.attributionControl.setPrefix(false).addAttribution("Natural Earth · Terrain: AWS Terrain Tiles (SRTM)");
+L.control.scale({metric:true, imperial:false, position:"bottomleft"}).addTo(map);
+
+const graticule = {type:"FeatureCollection", features:[]};
+for (let x = 33; x <= 52; x++) graticule.features.push({type:"Feature", geometry:{type:"LineString", coordinates:[[x, 30], [x, 42.5]]}});
+for (let y = 30; y <= 42; y++) graticule.features.push({type:"Feature", geometry:{type:"LineString", coordinates:[[33, y], [52, y]]}});
+
+let base = [];
+/* terrain: real elevation (AWS Terrain Tiles, from SRTM and other public DEMs), shaded into the map */
+const RELIEF = {bounds:[[24.527134822597795, 26.71875], [46.07323062540836, 56.25]], gray:"data:image/jpeg;base64,/*__RELIEF_GRAY__*/", natural:"data:image/jpeg;base64,/*__RELIEF_NAT__*/"};
+let MAPSTYLE = "natural";
+try { const s = localStorage.getItem("ksm-mapstyle"); if (s === "natural" || s === "dark") MAPSTYLE = s; } catch (e) {}
+map.createPane("land").style.zIndex = 210;
+map.createPane("relief").style.zIndex = 220;
+function drawBase() {
+  base.forEach(l => l.remove()); base = [];
+  document.documentElement.dataset.map = MAPSTYLE;
+  const add = (g, style) => base.push(L.geoJSON(g, {interactive:false, style}).addTo(map));
+  base.push(L.geoJSON(GEO.c0, {interactive:false, pane:"land", style:{weight:0, fillColor:MAPSTYLE === "natural" ? "#a29c76" : css("--land"), fillOpacity:1}}).addTo(map));
+  base.push(L.imageOverlay(MAPSTYLE === "natural" ? RELIEF.natural : RELIEF.gray, RELIEF.bounds, {pane:"relief", interactive:false, className:"relief"}).addTo(map));
+  add(graticule, {color:css("--grid"), weight:1, opacity:1});
+  add(GEO.lak, {weight:0, fillColor:MAPSTYLE === "natural" ? "#9fbfd2" : css("--water"), fillOpacity:1});
+  const nat = MAPSTYLE === "natural";
+  add(GEO.rd, f => ({color:nat ? "#f3eee2" : css("--road"), weight:f.properties.scalerank <= 5 ? 1.4 : .9, opacity:nat ? .55 : 1}));
+  add(GEO.riv, {color:nat ? "#5d8fb0" : css("--river"), weight:1.4, opacity:nat ? .9 : 1});
+  add(GEO.c0, {color:nat ? "#2b2b2b" : css("--border"), weight:1.4, fill:false, opacity:.75, dashArray:"7 5"});
+}
+
+/* labels: Kurdish names first */
+const LABELS = [
+  ["part","BAKUR",38.6,41.3],["part","ROJAVA",36.12,39.7],["part","BAŞÛR",35.05,44.7],["part","ROJHILAT",35.45,47.25],
+  ["state","stTr",39.55,35.8],["state","stIr",33.9,49.3],["state","stIq",32.6,43.4],["state","stSy",34.3,38.1],
+  ["t1","Hewlêr",36.19,44.01],["t1","Duhok",36.87,43.0],["t1","Silêmanî",35.56,45.43],["t1","Kerkûk",35.47,44.39],["t1","Mûsil",36.35,43.14],
+  ["t1","Qamişlo",37.03,41.23],["t1","Kobanî",36.89,38.35],["t1","Hesekê",36.48,40.75],["t1","Amed",37.92,40.23],["t1","Wan",38.5,43.4],
+  ["t1","Mehabad",36.77,45.72],["t1","Sine",35.3,47.02],["t1","Kirmaşan",34.38,47.06],["t1","Ûrmiye",37.53,45.0],["t1","Heleb",36.22,37.16],
+  ["t1","Reqa",35.93,39.02],["t1","Riha",37.17,38.79],["t1","Meletî",38.37,38.3],["t1","Erzerom",39.92,41.29],
+  ["t2","Zaxo",37.14,42.69],["t2","Şengal",36.32,41.87],["t2","Mexmûr",35.78,43.58],["t2","Helebce",35.18,45.99],["t2","Koye",36.08,44.63],
+  ["t2","Soran",36.65,44.55],["t2","Ranya",36.25,44.88],["t2","Qeladize",36.18,45.12],["t2","Amêdî",37.09,43.49],["t2","Akrê",36.74,43.89],
+  ["t2","Kelar",34.63,45.32],["t2","Xaneqîn",34.35,45.39],["t2","Efrîn",36.51,36.87],["t2","Minbic",36.53,37.96],["t2","Dêrik",37.05,42.21],
+  ["t2","Amûdê",37.1,40.93],["t2","Serêkaniyê",36.85,40.07],["t2","Girê Spî",36.7,38.95],["t2","Colemêrg",37.57,43.74],["t2","Şirnex",37.52,42.46],
+  ["t2","Cizîr",37.33,42.19],["t2","Nisêbîn",37.07,41.22],["t2","Mêrdîn",37.31,40.74],["t2","Êlih",37.89,41.14],["t2","Sêrt",37.94,41.93],
+  ["t2","Bedlîs",38.39,42.12],["t2","Mûş",38.75,41.5],["t2","Çewlîg",38.89,40.5],["t2","Dersim",39.11,39.55],["t2","Xarpêt",38.68,39.23],
+  ["t2","Semsûr",37.77,38.28],["t2","Agirî",39.72,43.05],["t2","Gever",37.57,44.28],["t2","Bane",35.99,45.89],["t2","Merîwan",35.53,46.18],
+  ["t2","Seqiz",36.25,46.27],["t2","Bokan",36.53,46.21],["t2","Serdeşt",36.15,45.48],["t2","Pîranşar",36.7,45.14],["t2","Şino",37.04,45.42],
+  ["t2","Pawe",35.04,46.36],["t2","Xoy",38.53,44.97],["t2","Qesrê Şîrîn",34.51,45.58],
+  ["t3","Penciwên",35.62,45.95],["t3","Sîdekan",36.8,44.67],["t3","Batîfa",37.18,43.02],["t3","Kanî Masî",37.22,43.43],["t3","Çemçemal",35.52,44.83],
+  ["t3","Dukan",35.95,44.95],["t3","Seyidsadiq",35.35,45.87],["t3","Til Temir",36.65,40.37],["t3","Dirbêsiyê",37.08,40.65],["t3","Ain Îsa",36.38,38.86],
+  ["t3","Til Rifet",36.47,37.1],["t3","Hacî Omeran",36.67,45.04],["t3","Çelê",37.25,43.62],["t3","Şemzînan",37.31,44.57],["t3","Qilaban",37.44,42.73],
+  ["t3","Silopî",37.25,42.47],["t3","Heskîf",37.71,41.41],
+  ["mt","Çiyayê Qendîl",36.42,45.08],["mt","Çiyayê Cûdî",37.38,42.33],["mt","Çiyayê Gare",36.98,43.3],["mt","Çiyayê Şengalê",36.38,41.75]
+];
+const lblMarkers = LABELS.map(([cls, t, lat, lon]) => ({cls, m:L.marker([lat, lon], {interactive:false, keyboard:false, zIndexOffset:-1000,
+  icon:lblIcon(cls, t)}), t}));
+function lblIcon(cls, t) { return L.divIcon({className:"lbl " + cls, html:`<span>${esc(cls === "state" ? T(t) : LANG === "ckb" && LBL_CKB[t] ? LBL_CKB[t] : t)}</span>`, iconSize:[0,0]}); }
+const MINZ = {part:0, state:0, t1:6, t2:7.25, t3:8.25, mt:7.75};
+function syncLabels() {
+  const z = map.getZoom();
+  lblMarkers.forEach(({cls, m}) => { const show = z >= MINZ[cls] && !(cls === "part" && z >= 9); show ? m.addTo(map) : m.remove(); });
+}
+map.on("zoomend", syncLabels);
+
+const acledLayer = L.layerGroup().addTo(map);
+function acledCount(a) {
+  const ys = Object.entries(a.years).filter(([y]) => state.month ? +y <= +state.month.slice(0, 4) : state.year == null || state.year === "H" || +y === state.year);
+  return ys.reduce((s, [, v]) => ({n:s.n + v.air + v.shell, f:s.f + v.fat}), {n:0, f:0});
+}
+function renderAcled() {
+  acledLayer.clearLayers();
+  if (!state.acled || state.year === "H") return;
+  ACLED.forEach(a => {
+    if (!state.parts.has(a.country)) return;
+    const c = acledCount(a); if (!c.n) return;
+    const r = Math.max(5, Math.sqrt(c.n) * (state.year == null ? 0.55 : 1.1));
+    const m = L.circleMarker([a.lat, a.lon], {radius:r, bubblingMouseEvents:false, color:css("--ink"), weight:1, opacity:.35, fillColor:css("--ink"), fillOpacity:.07, dashArray:"3 3"});
+    m.bindTooltip(`${esc(govName(a.admin1))}: ${fmt(c.n)} ${T("acledShort")}`, {direction:"top", sticky:true});
+    m.on("click", e => { L.DomEvent.stopPropagation(e); showAcled(a); });
+    acledLayer.addLayer(m);
+  });
+}
+function showAcled(a) {
+  select(null); openDrawer(true);
+  const rows = Object.entries(a.years).sort((x, y) => x[0] - y[0]);
+  const max = Math.max(1, ...rows.map(([, v]) => v.air + v.shell));
+  const tot = rows.reduce((s, [, v]) => ({n:s.n + v.air + v.shell, f:s.f + v.fat}), {n:0, f:0});
+  document.getElementById("paneD").innerHTML = `<div class="detail">
+    <button class="back" id="back">${BACK()}</button>
+    <div class="tag" style="color:var(--muted)">ACLED · ${T("acledTag")}</div>
+    <h2>${esc(govName(a.admin1))}</h2>
+    <div class="meta">${esc(PART[a.country]?.name || "")} (${esc(PART[a.country]?.sub || "")}) · 2017–2026</div>
+    <div class="facts"><div><b>${fmt(tot.n)}</b><span>${T("acledStrikes")}</span></div><div><b>${fmt(tot.f)}</b><span>${T("acledDeaths")}</span></div><div><b>${rows.length}</b><span>${T("acledYears")}</span></div></div>
+    <table style="width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px">
+      <tr style="color:var(--muted);text-align:start"><th style="font-weight:500;padding:3px 0">${T("years")}</th><th style="font-weight:500">${T("acledAir")}</th><th style="font-weight:500">${T("acledShell")}</th><th style="font-weight:500">${T("acledDeaths")}</th><th></th></tr>
+      ${rows.map(([y, v]) => `<tr style="border-top:1px solid var(--line)"><td style="padding:3px 0">${y}</td><td>${fmt(v.air)}</td><td>${fmt(v.shell)}</td><td>${fmt(v.fat)}</td><td style="width:35%"><i style="display:block;height:6px;background:var(--ink);opacity:.35;width:${(v.air + v.shell) / max * 100}%"></i></td></tr>`).join("")}
+    </table>
+    <p style="font-size:12.5px;color:var(--muted)">${T("acledNote")}</p>
+    <ul><li><a href="https://acleddata.com" target="_blank" rel="noopener noreferrer">ACLED: Middle East aggregated data, up to week of 2026-10-03</a></li></ul>
+  </div>`;
+  showPane("D"); document.getElementById("paneD").scrollTop = 0;
+  document.getElementById("back").onclick = () => showPane(lastTab);
+}
+const markers = new Map();
+const markerLayer = (L.markerClusterGroup ? L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:z => z < 6.5 ? 90 : z < 8 ? 70 : z < 9 ? 50 : 35, disableClusteringAtZoom:10, spiderfyOnMaxZoom:true, chunkedLoading:true,
+  iconCreateFunction:cl => {
+    const kids = cl.getAllChildMarkers(), n = kids.length, by = {};
+    kids.forEach(m => by[m.options.layer] = (by[m.options.layer] || 0) + 1);
+    let a = 0; const seg = Object.keys(ACTORS).filter(l => by[l]).map(l => { const s = `var(${ACTORS[l].v}) ${a}deg ${a += by[l] / n * 360}deg`; return s; }).join(",");
+    const s = Math.round(Math.min(64, 30 + Math.sqrt(n) * 3));
+    return L.divIcon({className:"mk", iconSize:[s, s], html:`<div class="cl" style="--g:conic-gradient(${seg});width:${s}px;height:${s}px"><span>${n}</span></div>`});
+  }}) : L.layerGroup()).addTo(map);
+const zOf = d => state.sel === d.id ? 10000 : d.type === "campaign" ? -100 : d.layer === "Eco" ? 0 : (d.killed || 0) * 10;
+function iconFor(d) {
+  const sel = state.sel === d.id, c = ACTORS[d.layer].v, k = d.type === "campaign" ? 0 : d.killed || 0;
+  return L.divIcon({className:"mk", iconSize:[30, 37], iconAnchor:[15, 37], tooltipAnchor:[0, -30],
+    html:`<div class="pin${sel ? " sel" : ""}${d.hist ? " hist" : ""}" style="--c:var(${c})">${isRecent(d) ? '<span class="live"></span>' : ""}<span class="pc">${ico(subOf(d), d.hist ? css(c) : "#0a0a0a", 17)}</span>${k ? `<b>${k > 999 ? Math.round(k / 1000) + "k" : k}</b>` : ""}</div>`});
+}
+function buildMarkers() {
+  markerLayer.clearLayers(); markers.clear();
+  DATA.forEach(d => {
+    if (d.lat == null || d.lon == null) return;
+    const m = L.marker([d.lat, d.lon], {icon:iconFor(d), layer:d.layer, title:`${loc(d, "place")}, ${d.date}`, riseOnHover:true, zIndexOffset:zOf(d)});
+    m.bindTooltip(() => `<div dir="auto"><b>${esc(ACTORS[d.layer].label)}</b> · ${esc(kindOf(d))}<br>${esc(loc(d, "place"))}<br><small>${esc(d.period || d.date)}${d.killed ? " · " + d.killed + " " + T("nKilled") : ""}</small></div>`, {className:"mtip", direction:"top", offset:[0, 0], opacity:1});
+    m.on("click", () => select(d.id, false));
+    markers.set(d.id, m);
+  });
+}
+
+/* legend */
+function renderKey() {
+  const who = ["Turkey", "Iran", "Syria", "Iraq", "USIL"].filter(l => DATA.some(d => d.layer === l));
+  const types = Object.keys(TYPES).filter(k => DATA.some(d => d.layer !== "Eco" && d.type === k));
+  const cats = Object.keys(CATS).filter(k => DATA.some(d => d.layer === "Eco" && d.category === k));
+  const row = (sub, label, bg) => `<div class="krow2"><span class="kpin" style="background:${bg || "var(--muted)"}">${ico(sub, "#0a0a0a", 14)}</span><span>${label}</span></div>`;
+  document.getElementById("keyBody").innerHTML =
+    `<h4>${T("keyWho")}</h4><div class="kgrid">${who.map(l => `<div><span class="sw" style="background:var(${ACTORS[l].v})"></span>${ACTORS[l].label}</div>`).join("")}<div><span class="sw" style="background:var(--eco)"></span>${T("aE")}</div></div>` +
+    `<h4>${T("keyIcon")}</h4><div class="klist">${types.map(k => row(k, T("ty_" + k))).join("")}</div>` +
+    `<h4>${T("aE")}</h4><div class="klist">${cats.map(k => row(k, T("c_" + k), "var(--eco)")).join("")}</div>` +
+    `<h4>${T("keyMore")}</h4>` +
+    `<div class="krow"><span class="pin" style="--c:var(--muted);transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("drone", "#0a0a0a", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>` +
+    `<div class="krow"><span class="cl" style="--g:conic-gradient(var(--turkey) 0 200deg,var(--iran) 200deg 300deg,var(--eco) 300deg);width:30px;height:30px"><span style="font-size:11px">12</span></span><span>${T("keyCluster")}</span></div>` +
+    (HAS_HIST ? `<div class="krow"><span class="pin hist" style="--c:var(--muted);transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("massacre", css("--muted"), 17)}</span></span><span>${T("histNote")}</span></div>` : "") +
+    `<div class="krow"><i style="width:14px;height:14px;border:1px dashed var(--ink);border-radius:50%;opacity:.5;flex:none"></i><span>${T("keyAcled")}</span></div>` +
+    `<div class="krow"><i style="width:14px;height:14px;border:2px solid var(--accent);border-radius:50%;flex:none"></i><span>${T("liveNote")}</span></div>` +
+    `<p class="hint">${T("keyClick")} ${T("nearHint")}</p>`;
+}
+function renderLegend() {
+  const pane = document.getElementById("paneL");
+  const sec = (layer) => {
+    const a = ACTORS[layer], subs = subsOf(layer).filter(s => DATA.some(d => d.layer === layer && d.sub === s));
+    const anyOn = subs.some(s => state.on[layer + "|" + s]);
+    const n = DATA.filter(d => d.layer === layer).length;
+    return `<div class="sec">
+      <h3><button data-layer="${layer}" aria-pressed="${anyOn}" class="${anyOn ? "" : "off"}"><span class="sw" style="background:var(${a.v})"></span>${a.label}<span class="n">${n}</span></button><button class="exp" data-exp="${layer}" aria-expanded="${!!state.open[layer]}">${subs.length} ${T("more")} ${state.open[layer] ? "▴" : "▾"}</button></h3>
+      ${!state.open[layer] ? "" : subs.map(s => {
+        const c = DATA.filter(d => d.layer === layer && d.sub === s).length;
+        const shape = layer === "Eco" ? "hex" : TYPES[s];
+        const label = layer === "Eco" ? T("c_" + s) : T("ty_" + s);
+        return `<label class="opt"><input type="checkbox" data-sub="${layer}|${s}" ${state.on[layer + "|" + s] ? "checked" : ""}>${ico(s, css(a.v), 16)}<span>${label}</span><span class="n">${c}</span></label>`;
+      }).join("")}
+    </div>`;
+  };
+  pane.innerHTML = `<p class="sec" style="margin:0;font-size:12.5px;color:var(--muted)">${T("legendHint")}</p>` +
+    `<div class="sec"><label class="opt"><input type="checkbox" id="heatOn" ${state.heat ? "checked" : ""}><span>◉ ${T("heatOn")}</span></label></div>` + ["Turkey", "Iran", "Syria", "Iraq", "USIL", "Eco"].filter(l => DATA.some(d => d.layer === l)).map(sec).join("") +
+    `<div class="sec"><h3>${T("acledH")}</h3><label class="opt"><input type="checkbox" id="acledOn" ${state.acled ? "checked" : ""}><span>${T("acledOn")}</span><span class="n">${ACLED.length}</span></label><div class="ref" style="margin-top:6px"><div><i style="width:14px;height:14px;border:1px dashed var(--ink);border-radius:50%;opacity:.5"></i><span>${T("acledNote")}</span></div></div></div>` +
+    (HAS_HIST ? `<div class="sec"><h3>${T("histH")}</h3><label class="opt"><input type="checkbox" id="histOn" ${state.hist ? "checked" : ""}><span>${T("histOn")}</span><span class="n">${DATA.filter(d => d.hist).length}</span></label><div class="ref" style="margin-top:6px"><div><span class="pin hist" style="--c:var(--muted);transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("massacre", css("--muted"), 17)}</span></span><span>${T("histNote")}</span></div></div></div>` : "") +
+    `<div class="sec"><h3>${T("parts")}</h3><div class="parts">${PARTS.filter(p => DATA.some(d => d.country === p.id)).map(p =>
+      `<button class="part" data-part="${p.id}" aria-pressed="${state.parts.has(p.id)}">${p.name}<small>${p.sub}</small></button>`).join("")}</div>
+      <label class="opt" style="margin-top:10px"><input type="checkbox" id="civ" ${state.civ ? "checked" : ""}><span>${T("civOnly")}</span></label></div>
+    <div class="sec"><h3>${T("reading")}</h3><div class="ref">
+      <div><span class="pin" style="--c:var(--muted);transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("drone", "#0a0a0a", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>
+      <div><i style="border-top:1.5px dashed var(--border)"></i>${T("border")}</div>
+      <div><i style="border-top:2px solid var(--road)"></i>${T("road")}</div>
+      <div><i style="border-top:2px solid var(--river)"></i>${T("river")}</div>
+      <div><i style="text-align:center;font-family:var(--cond);font-weight:600;letter-spacing:.2em;color:var(--ink);opacity:.5">A</i>${T("part")}</div>
+    </div></div>`;
+}
+
+function renderBars() {
+  const L = Object.keys(ACTORS), keys = [];
+  if (state.hist) keys.push("H");
+  for (let y = Y0; y <= Y1; y++) keys.push(y);
+  const counts = Object.fromEntries(keys.map(k => [k, Object.fromEntries(L.map(l => [l, 0]))]));
+  DATA.forEach(d => { if (matches(d, true)) { const k = d.hist ? "H" : d.year; if (counts[k]) counts[k][d.layer]++; } });
+  const tot = c => L.reduce((s, l) => s + c[l], 0);
+  const max = Math.max(1, ...keys.filter(k => k !== "H").map(k => tot(counts[k])));
+  document.getElementById("bars").innerHTML = keys.map(y => {
+    const cy = state.month ? +state.month.slice(0, 4) : state.year;
+    const c = counts[y], cur = cy === y, dim = state.month ? y === "H" || y > cy : state.year != null && !cur;
+    const seg = k => c[k] ? `<i style="height:${Math.min(1, c[k] / max) * 100}%;background:var(${ACTORS[k].v})${y === "H" ? ";opacity:.55" : ""}"></i>` : "";
+    const title = `${y === "H" ? T("histShort") : y}: ` + L.filter(l => c[l]).map(l => `${c[l]} ${ACTORS[l].label}`).join(", ");
+    return `<button class="${dim ? "dim" : ""} ${cur ? "cur" : ""}" data-year="${y}" aria-pressed="${cur}" title="${esc(title)}"><span class="stk">${L.map(seg).join("")}</span><span class="y">${y === "H" ? T("histBar") : String(y).slice(2)}</span></button>`;
+  }).join("");
+  document.getElementById("yrLbl").textContent = state.month ? `${T("months")[+state.month.slice(5) - 1]} ${state.month.slice(0, 4)}` : state.year === "H" ? T("histShort") : state.year ?? `${Y0}–${String(Y1).slice(2)}`;
+}
+
+function renderList(rows) {
+  document.getElementById("recN").textContent = rows.length;
+  const ol = document.getElementById("items");
+  if (!rows.length) { ol.innerHTML = `<li class="empty">${T("empty")}</li>`; return; }
+  ol.innerHTML = rows.map(recHTML).join("");
+}
+const recHTML = d => `<li><button class="rec ${state.sel === d.id ? "sel" : ""}" data-id="${d.id}">${sym(d, 12, false)}<span><span class="d">${esc(d.date)} · ${esc(PART[d.country]?.name)}</span><span class="p">${esc(loc(d, "place"))}</span><span class="k">${ACTORS[d.layer].label} · ${esc(kindOf(d))}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}</span></span></button></li>`;
+
+function render() {
+  const rows = DATA.filter(d => matches(d)).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  markerLayer.clearLayers();
+  const ms = []; rows.forEach(d => { const m = markers.get(d.id); if (m && (!state.heat || d.id === state.sel)) ms.push(m); });
+  markerLayer.addLayers ? markerLayer.addLayers(ms) : ms.forEach(m => markerLayer.addLayer(m));
+  renderHeat(rows);
+  const strikes = rows.filter(d => d.layer !== "Eco");
+  document.getElementById("sN").textContent = fmt(strikes.length);
+  document.getElementById("sK").textContent = fmt(strikes.filter(d => d.type !== "campaign").reduce((s, d) => s + (d.killed || 0), 0));
+  document.getElementById("sC").textContent = fmt(strikes.filter(d => d.civilian === true).length);
+  document.getElementById("sE").textContent = fmt(rows.length - strikes.length);
+  renderBars(); renderList(rows); renderAcled();
+}
+
+function showPane(p) {
+  state.tab = p;
+  [["K", "pK"], ["R", "paneR"], ["F", "pF"], ["D", "paneD"]].forEach(([k, id]) => document.getElementById(id).hidden = p !== k);
+  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.tab === (p === "D" ? lastTab : p)));
+  sheet.hidden = !p;
+  sheet.classList.toggle("tall", p === "R" || p === "F" || p === "D");
+  if (p) setSheetTitle(p);
+}
+function setSheetTitle(p) { document.getElementById("shT").textContent = p === "K" ? T("keyH") : p === "R" ? T("searchList") : p === "F" ? T("tabFilters") : ""; }
+let lastTab = null;
+const sheet = document.getElementById("sheet");
+document.getElementById("shX").onclick = () => { lastTab = null; select(null); };
+/* keep a point visible beside the open sheet */
+function flyVis(ll, z, fly) {
+  const off = sheet.hidden ? [0, 0] : phone() ? [0, (sheet.getBoundingClientRect().height - 40) / 2] : [201, 0];
+  const c = map.unproject(map.project(ll, z).add(off), z);
+  fly ? map.flyTo(c, z, {duration:.6}) : map.setView(c, z, {animate:true});
+}
+function renderKeyIcons() { document.getElementById("keyIcons").innerHTML = ["drone", "airstrike", "forest fire"].map(s => ico(s, "#0a0a0a", 17)).join(""); }
+function renderKinds() {
+  document.getElementById("kinds").innerHTML = `<button class="chip" data-kind="" aria-pressed="${!state.kind}">${T("all")}</button>` +
+    KINDS.filter(([k]) => DATA.some(d => kindGroup(d) === k)).map(([k]) => `<button class="chip" data-kind="${k}" aria-pressed="${state.kind === k}">${ico(KIND_ICON[k], state.kind === k ? "#0a0a0a" : css("--ink"), 15)}${T("k_" + k)}</button>`).join("");
+}
+function renderChips() {
+  renderKinds();
+  const ls = ["Turkey", "Iran", "Syria", "Iraq", "USIL", "Eco"].filter(l => DATA.some(d => d.layer === l));
+  document.getElementById("chips").innerHTML = `<button class="chip" data-only="" aria-pressed="${!state.only}">${T("all")}</button>` +
+    ls.map(l => `<button class="chip" data-only="${l}" aria-pressed="${state.only === l}"><i style="background:var(${ACTORS[l].v})"></i>${esc(ACTORS[l].label)}</button>`).join("");
+}
+function setIcon(id) { const d = DATA[id], m = markers.get(id); if (m) { m.setIcon(iconFor(d)); m.setZIndexOffset(zOf(d)); } }
+function select(id, fly) {
+  const prev = state.sel; state.sel = id;
+  if (prev != null) setIcon(prev);
+  document.querySelectorAll(".rec").forEach(e => e.classList.toggle("sel", +e.dataset.id === id));
+  if (id == null) { clearNear(); showPane(lastTab); return; }
+  setIcon(id);
+  if (state.tab !== "D") lastTab = state.tab;
+  openDrawer(true);
+  const d = DATA[id], a = ACTORS[d.layer], part = PART[d.country];
+  const where = [d.governorate ? govName(d.governorate) : "", part ? `${part.name} (${part.sub})` : d.country].filter(Boolean).join(" · ");
+  const facts = d.layer === "Eco" ? "" : `<div class="facts">
+    <div><b>${d.killed ?? "–"}</b><span>${T("killed")}</span></div>
+    <div><b>${d.injured ?? "–"}</b><span>${T("wounded")}</span></div>
+    <div><b>${T(d.nocas ? "none" : d.civilian === true ? "yes" : d.civilian === false ? "no" : "unclear")}</b><span>${T("civHarmed")}</span></div></div>`;
+  document.getElementById("paneD").innerHTML = `<div class="detail">
+    <button class="back" id="back">${BACK()}</button>
+    <div class="tag" style="color:var(${a.v})">${sym(d, 12, false)}${d.layer === "Eco" ? `${T("aE")}${d.actor && d.actor !== "Other" ? " · " + esc(ACTORS[d.actor]?.label || d.actor) : ""}` : esc(a.label)} · ${esc(kindOf(d))}</div>
+    <h2>${esc(loc(d, "place"))}</h2>
+    <div class="meta">${esc(d.period || d.date)}<br>${esc(where)}<br>${d.lat.toFixed(3)}°${T("N")} ${d.lon.toFixed(3)}°${T("E")}${d.precision === "approximate" ? " · " + T("approx") : ""}</div>
+    ${facts}
+    ${d.impact ? `<div class="impact">${esc(loc(d, "impact"))}</div>` : ""}
+    ${LANG !== "en" && !d["summary_" + LANG] ? `<div class="eyebrow" style="margin-top:12px">${T("enNote")}</div>` : ""}<p lang="${d["summary_" + LANG] ? LANG : "en"}" dir="auto">${esc(loc(d, "summary"))}</p>
+    <div class="eyebrow" style="margin-top:14px">${T("docBy")}</div>
+    <ul>${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a></li>`).join("")}</ul>
+    <div class="share"><button class="sbtn go" id="cpLink">${T("shareBtn")}</button><button class="sbtn" id="cpText">${T("copyText")}</button></div>
+  </div>`;
+  document.getElementById("cpLink").onclick = e => { const b = e.currentTarget; if (navigator.share && phone()) navigator.share({title:loc(d, "place"), text:`${loc(d, "place")} · ${d.period || d.date}`, url:linkOf(d)}).catch(() => {}); else copy(linkOf(d), b); };
+  document.getElementById("cpText").onclick = e => copy(textOf(d), e.currentTarget);
+  showPane("D");
+  document.getElementById("paneD").scrollTop = 0;
+  document.getElementById("back").onclick = () => select(null);
+  if (d.lat != null && (fly || phone())) flyVis([d.lat, d.lon], fly ? Math.max(map.getZoom(), 10) : map.getZoom(), fly);
+}
+
+function openDrawer() {}
+
+/* events */
+document.addEventListener("click", e => {
+  const ex = e.target.closest("[data-exp]");
+  if (ex) { state.open[ex.dataset.exp] = !state.open[ex.dataset.exp]; renderLegend(); return; }
+  const lay = e.target.closest("[data-layer]");
+  if (lay) { const l = lay.dataset.layer, subs = subsOf(l), anyOn = subs.some(s => state.on[l + "|" + s]); subs.forEach(s => state.on[l + "|" + s] = !anyOn); renderLegend(); render(); return; }
+  const pt = e.target.closest("[data-part]");
+  if (pt) { const k = pt.dataset.part; state.parts.has(k) ? state.parts.delete(k) : state.parts.add(k); pt.setAttribute("aria-pressed", state.parts.has(k)); render(); return; }
+  const yb = e.target.closest("[data-year]");
+  if (yb) { stopPlay(); const y = yb.dataset.year === "H" ? "H" : +yb.dataset.year; state.year = state.year === y ? null : y; render(); return; }
+  const ms = e.target.closest("[data-mapstyle]");
+  if (ms) { MAPSTYLE = ms.dataset.mapstyle; try { localStorage.setItem("ksm-mapstyle", MAPSTYLE); } catch (e) {} drawBase(); applyStatic(); return; }
+  const kd = e.target.closest("[data-kind]");
+  if (kd) { state.kind = kd.dataset.kind || null; renderKinds(); render(); return; }
+  if (e.target.id === "clearF") { state.only = null; state.kind = null; state.year = null; state.civ = false; state.q = ""; document.getElementById("q").value = ""; state.parts = new Set(PARTS.map(p => p.id)); Object.keys(state.on).forEach(k => state.on[k] = true); renderChips(); renderLegend(); render(); return; }
+  const ch = e.target.closest("[data-only]");
+  if (ch) { state.only = ch.dataset.only || null; renderChips(); render(); return; }
+  const tb = e.target.closest("[data-tab]");
+  if (tb) { const k = tb.dataset.tab, open = state.tab === k; lastTab = open ? null : k; select(null); clearNear(); if (k === "K") { tb.classList.remove("nudge"); try { localStorage.setItem("ksm-keyseen", "1"); } catch (e) {} } if (k === "R" && !open && !phone()) document.getElementById("q").focus(); return; }
+  const r = e.target.closest(".rec");
+  if (r) { select(+r.dataset.id, true); return; }
+});
+document.addEventListener("change", e => {
+  if (e.target.dataset.sub) { state.on[e.target.dataset.sub] = e.target.checked; renderLegend(); render(); }
+  if (e.target.id === "heatOn") { state.heat = e.target.checked; render(); }
+  if (e.target.id === "civ") { state.civ = e.target.checked; render(); }
+  if (e.target.id === "acledOn") { state.acled = e.target.checked; render(); }
+  if (e.target.id === "histOn") { state.hist = e.target.checked; if (!state.hist && state.year === "H") state.year = null; render(); }
+});
+document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase();  render(); };
+const dlg = document.getElementById("about");
+document.getElementById("aboutBtn").onclick = () => dlg.showModal();
+document.getElementById("aboutX").onclick = () => dlg.close();
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !dlg.open) { lastTab = null; select(null); } });
+
+/* share */
+const BASE_URL = "https://claude.ai/artifact/796jNHKRSBvtxbLDxMNCus";
+const linkOf = d => `${BASE_URL}#r-${d.uid}`;
+const textOf = d => [`${loc(d, "place")} · ${d.period || d.date}`,
+  `${d.layer === "Eco" ? T("aE") : ACTORS[d.layer].label} · ${kindOf(d)}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}`,
+  loc(d, "summary"), (d.sources || []).map(s => s.url).join("\n"), linkOf(d)].filter(Boolean).join("\n\n");
+function copy(txt, btn) {
+  const label = btn.textContent, done = () => { btn.textContent = T("copied"); setTimeout(() => btn.textContent = label, 1600); };
+  const fallback = () => { const ta = document.createElement("textarea"); ta.value = txt; ta.style.position = "fixed"; ta.style.opacity = "0"; document.body.appendChild(ta); ta.select(); try { if (document.execCommand("copy")) done(); } catch (e) {} ta.remove(); };
+  try { navigator.clipboard.writeText(txt).then(done, fallback); } catch (e) { fallback(); }
+}
+function openFromHash() {
+  const m = location.hash.match(/^#r-([0-9a-f]{10})$/), d = m && DATA.find(x => x.uid === m[1]);
+  if (!d) return;
+  if (d.hist && !state.hist) { state.hist = true; renderLegend(); render(); }
+  select(d.id, true);
+}
+addEventListener("hashchange", openFromHash);
+
+/* heat */
+let heat = null;
+function renderHeat(rows) {
+  if (heat) { heat.remove(); heat = null; }
+  if (!state.heat || !L.heatLayer) return;
+  const pts = rows.filter(d => d.lat != null && d.type !== "campaign").map(d => [d.lat, d.lon, d.layer === "Eco" ? .6 : .55 + Math.min(1.45, (d.killed || 0) / 6)]);
+  heat = L.heatLayer(pts, {radius:24, blur:20, maxZoom:9, max:1.4, minOpacity:.3, gradient:{.2:css("--heat1"), .5:css("--heat2"), .8:css("--heat3"), 1:css("--heat4")}}).addTo(map);
+}
+
+/* what happened here? */
+let nearCircle = null;
+function clearNear() { if (nearCircle) { nearCircle.remove(); nearCircle = null; } }
+map.on("click", e => showNear(e.latlng));
+function showNear(ll) {
+  const z = map.getZoom(), km = z < 7 ? 40 : z < 8.5 ? 20 : 10;
+  const rows = DATA.filter(d => d.lat != null && matches(d) && map.distance(ll, [d.lat, d.lon]) <= km * 1000).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  select(null); clearNear();
+  if (state.tab !== "D") lastTab = state.tab;
+  nearCircle = L.circle(ll, {radius:km * 1000, interactive:false, color:css("--accent"), weight:2.5, dashArray:"6 5", fillColor:css("--accent"), fillOpacity:.1}).addTo(map);
+  const near = LABELS.filter(l => /^t[123]$/.test(l[0])).map(l => [l[1], map.distance(ll, [l[2], l[3]])]).sort((a, b) => a[1] - b[1])[0];
+  const strikes = rows.filter(d => d.layer !== "Eco"), killed = strikes.filter(d => d.type !== "campaign").reduce((s, d) => s + (d.killed || 0), 0);
+  const by = Object.keys(ACTORS).map(l => [l, rows.filter(d => d.layer === l).length]).filter(([, n]) => n);
+  const years = rows.filter(d => !d.hist).map(d => d.year);
+  openDrawer(true);
+  document.getElementById("paneD").innerHTML = `<div class="detail">
+    <button class="back" id="back">${BACK()}</button>
+    <div class="tag" style="color:var(--ink)">◎ ${T("nearH")}</div>
+    <h2>${near && near[1] < 45000 ? esc(T("nearPlace").replace("{p}", near[0])) : `${ll.lat.toFixed(2)}°${T("N")} ${ll.lng.toFixed(2)}°${T("E")}`}</h2>
+    <div class="meta">${ll.lat.toFixed(3)}°${T("N")} ${ll.lng.toFixed(3)}°${T("E")} · ${T("nearR").replace("{r}", km)}${years.length ? ` · ${Math.min(...years)}–${Math.max(...years)}` : ""}</div>
+    <div class="facts"><div><b>${fmt(strikes.length)}</b><span>${T("stN")}</span></div><div><b>${fmt(killed)}</b><span>${T("stK")}</span></div><div><b>${fmt(rows.length - strikes.length)}</b><span>${T("stE")}</span></div></div>
+    ${by.length ? `<div style="display:flex;height:10px;margin:4px 0 6px">${by.map(([l, n]) => `<i style="flex:${n};background:var(${ACTORS[l].v})"></i>`).join("")}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px">${by.map(([l, n]) => `<span style="display:flex;align-items:center;gap:5px"><span class="sw" style="background:var(${ACTORS[l].v})"></span>${ACTORS[l].label} <b class="mono">${n}</b></span>`).join("")}</div>` : `<p style="color:var(--muted)">${T("nearNone")}</p>`}
+  </div><ol style="list-style:none;margin:0;padding:0;border-top:1px solid var(--line)">${rows.map(recHTML).join("")}</ol>`;
+  showPane("D"); document.getElementById("paneD").scrollTop = 0;
+  document.getElementById("back").onclick = () => { clearNear(); showPane(lastTab); };
+}
+
+/* play: step through the years */
+function stopPlay() { if (timer) { clearInterval(timer); timer = null; document.getElementById("play").textContent = "▶"; } }
+document.getElementById("play").onclick = () => {
+  if (timer) { stopPlay(); state.year = null; render(); return; }
+  select(null); state.year = Y0; render();
+  document.getElementById("play").textContent = "■";
+  timer = setInterval(() => { if (state.year >= Y1) { stopPlay(); state.year = null; render(); return; } state.year++; render(); }, 1400);
+};
+
+
+
+if (phone()) map.setView([36.7, 42.6], 6.0);
+
+new ResizeObserver(() => map.invalidateSize({pan:false})).observe(document.getElementById("map"));
+function boot() { renderKeyIcons(); applyStatic(); showPane(null); drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); syncLabels(); }
+boot();
+openFromHash();
+{ let s = null; try { s = localStorage.getItem("ksm-keyseen"); } catch (e) {} if (!s) document.querySelector(".keybtn").classList.add("nudge"); }
+{ let seen = null; try { seen = localStorage.getItem("ksm-welcome"); } catch (e) {}
+  const hint = document.getElementById("hint"), close = () => { hint.hidden = true; try { localStorage.setItem("ksm-welcome", "1"); } catch (e) {} };
+  if (!seen && !location.hash) hint.hidden = false;
+  document.getElementById("hintX").onclick = close;
+  map.on("click", close); }
+const rethemed = () => { const s = state.sel; state.sel = null; drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); if (s != null) select(s, false); if (nearCircle) nearCircle.setStyle({color:css("--accent"), fillColor:css("--accent")}); };
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", rethemed);
+document.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => {
+  LANG = b.dataset.lang;
+  try { localStorage.setItem("ksm-lang", LANG); } catch (e) {}
+  applyStatic();
+  lblMarkers.forEach(o => o.m.setIcon(lblIcon(o.cls, o.t)));
+  const s = state.sel; renderKey(); renderLegend(); render(); if (s != null) { state.sel = null; select(s, false); }
+});
+
+new MutationObserver(rethemed).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>

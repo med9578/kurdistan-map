@@ -1,0 +1,1271 @@
+[
+ {
+  "record": "ecocide",
+  "date": "1974-06-24",
+  "actor": "Syria",
+  "regime": "Assad",
+  "category": "land",
+  "place": "Arab Belt strip along the Turkish border, from Dêrik (al-Malikiyah) to Serêkaniyê (Ras al-Ayn)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.95,
+  "lon": 41.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Expropriation of Kurdish farmland along a strip of more than 300 km, about 10–15 km wide in places; land handed to Arab settler families resettled in 'model villages'.",
+  "summary": "The Syrian state's 'Arab Belt' project, formally launched by Resolution No. 521 of 24 June 1974 after land seizures under the agrarian reform law (1958–1973), took Kurdish-owned farmland along the border and settled thousands of Arab families displaced by the Tabqa Dam on it. Syrians for Truth and Justice says the expropriation disproportionately hit Kurdish landowners; some Syrian commentators dispute the scale of the displacement.",
+  "sources": [
+   {
+    "title": "Syria: Facts and Recommendations on the 'Arab Belt' Project 52 Years Later (Syrians for Truth and Justice)",
+    "url": "https://stj-sy.org/en/?p=30811"
+   },
+   {
+    "title": "Rights group urges justice for victims of Syria's 'Arab Belt' project (North Press)",
+    "url": "https://npasyria.com/en/126730"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2011-10-08",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "Qamişlo (Qamishli), funeral of Mashaal Tammo",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": "Security forces fired on a funeral procession that activists said drew more than 50,000 people.",
+  "summary": "Syrian security forces opened fire on mourners at the funeral of Kurdish opposition leader Mashaal Tammo in Qamişlo, a day after he was shot dead at home by unidentified gunmen. The Syrian Observatory for Human Rights (SOHR) reported two killed; AP, citing witnesses, reported five.",
+  "sources": [
+   {
+    "title": "Syrian forces fire on 50,000 mourning slain Kurd (AFP via Institut kurde)",
+    "url": "https://www.institutkurde.org/en/info/latest/syrian-forces-fire-on-50-000-mourning-slain-kurd-2896/"
+   },
+   {
+    "title": "Five Killed By Syrian Forces (VOA)",
+    "url": "https://blogs.voanews.com/breaking-news/?p=68412"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2012-11-12",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "airstrike",
+  "place": "Serêkaniyê (Ras al-Ayn)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.07,
+  "precision": "approximate",
+  "killed": 12,
+  "injured": null,
+  "civilian": null,
+  "impact": "Strikes on residential areas on 12–13 November sent a new wave of refugees across the Turkish border.",
+  "summary": "Syrian government warplanes bombed the mixed Kurdish-Arab town of Serêkaniyê after armed opposition groups seized it, with medical workers and refugees saying residential areas were hit. SOHR counted 12 dead, including seven Islamist fighters; the Local Coordination Committees reported 16 dead.",
+  "sources": [
+   {
+    "title": "Deadly fighting near Damascus, Syria border town bombed (Ahram Online/AFP)",
+    "url": "https://english.ahram.org.eg/News/57957.aspx"
+   },
+   {
+    "title": "Syria pursues bombardment of rebel-held border town (Reuters via Daily Mirror)",
+    "url": "https://dailymirror.lk/amp/international/syria-pursues-bombardment-of-rebel-held-border-town/107-23452"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2013-04-06",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "airstrike",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.238,
+  "lon": 37.155,
+  "precision": "approximate",
+  "killed": 15,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A Syrian government warplane bombed the western edge of the Kurdish-majority Şêx Meqsûd neighbourhood, killing at least 15 people, including nine children and three women, according to SOHR. Activists and the Observatory blamed government forces.",
+  "sources": [
+   {
+    "title": "Children among dead in 'Aleppo airstrike' (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2013/4/7/children-among-dead-in-aleppo-airstrike"
+   },
+   {
+    "title": "Bombing kills 15, including 9 children, in Aleppo: NGO (Ahram Online/AFP)",
+    "url": "https://english.ahram.org.eg/News/68588.aspx"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2015-01-16",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.501,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Ended a long-standing local truce between government forces and the YPG in the city.",
+  "summary": "Fighting broke out in Hesekê between Syrian government forces and allied fighters on one side and the YPG and Asayish on the other. The YPG accused government forces of using cluster bombs; casualty figures were not independently confirmed.",
+  "sources": [
+   {
+    "title": "What's Behind the Kurdish-Arab Clashes in East Syria? (Carnegie Endowment)",
+    "url": "https://carnegieendowment.org/middle-east/diwan/2015/01/whats-behind-the-kurdish-arab-clashes-in-east-syria"
+   },
+   {
+    "title": "Tensions, exchange of fire in Hasakah between regime and YPG forces (Rudaw)",
+    "url": "https://rudaw.net/english/middleeast/syria/21012015"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2016-04-20",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "Qamişlo (Qamishli)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Three days of fighting ended in a truce.",
+  "summary": "Pro-government National Defence Forces and Syrian government troops fought the Asayish in Qamişlo after a checkpoint dispute. SOHR's early count included two civilians killed; Kurdish security forces later said 17 civilians, 10 Kurdish fighters and 31 government troops and allied fighters died.",
+  "sources": [
+   {
+    "title": "Two days of bloodshed in Qamishli as Kurds battle regime forces (Syria Direct)",
+    "url": "https://syriadirect.org/?p=21430"
+   },
+   {
+    "title": "Kurds, regime in deadly clashes in northeast Syria (AFP via Institut kurde)",
+    "url": "https://www.institutkurde.org/en/info/latest/kurds-regime-in-deadly-clashes-in-northeast-syria-6237/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2016-08-18",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "airstrike",
+  "place": "Kurdish-held districts of Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.501,
+  "lon": 40.747,
+  "precision": "approximate",
+  "killed": 22,
+  "injured": null,
+  "civilian": true,
+  "impact": "Thousands of civilians, mostly women and children, were evacuated from the city.",
+  "summary": "Syrian government jets bombed Kurdish-held parts of Hesekê for the first time in the war, hitting Asayish and YPG positions as fighting spread through the city. SOHR said at least 22 civilians, including nine children, were killed over two days; a YPG spokesman said dozens were killed.",
+  "sources": [
+   {
+    "title": "Civilians evacuated as Syrian Kurds bombed in Hasakah (Al Jazeera)",
+    "url": "https://www.aljazeera.com/amp/news/2016/8/20/civilians-evacuated-as-syrian-kurds-bombed-in-hasakah"
+   },
+   {
+    "title": "Syria regime aircraft hit Kurd-held area for first time (AFP via Institut kurde)",
+    "url": "https://www.institutkurde.org/en/info/latest/syria-regime-aircraft-hit-kurd-held-area-for-first-time-6452/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2018-09-08",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "Asayish checkpoint, Qamişlo (Qamishli)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.231,
+  "precision": "approximate",
+  "killed": 18,
+  "injured": 3,
+  "civilian": false,
+  "impact": null,
+  "summary": "A clash between a Syrian government patrol and the Asayish at a checkpoint in Qamişlo killed 11 government fighters and seven Asayish members, according to the Asayish and SOHR. The Asayish said the patrol had arrested civilians and then fired on the checkpoint; Damascus said its soldiers were attacked.",
+  "sources": [
+   {
+    "title": "18 dead as Syria Kurds clash with regime forces (Al Arabiya/AFP)",
+    "url": "https://english.alarabiya.net/en/News/middle-east/2018/09/08/18-dead-as-Syria-Kurds-clash-with-regime-forces-.html"
+   },
+   {
+    "title": "Deadly clashes between regime and Kurdish forces in Qamishli (Rudaw)",
+    "url": "https://www.rudaw.net/english/middleeast/syria/08092018"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2021-04-20",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "Tay (Tayy) neighbourhood, Qamişlo (Qamishli)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.044,
+  "lon": 41.233,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Residents fled the neighbourhood; the fighting ended with a Russian-brokered deal removing the NDF from Qamişlo.",
+  "summary": "Pro-government National Defence Forces killed an Asayish official at a checkpoint near al-Wahda roundabout, setting off a week of fighting in Qamişlo's Tay neighbourhood. The Kurdish National Council said civilians were killed and wounded by indiscriminate bombardment; no reliable civilian toll was published.",
+  "sources": [
+   {
+    "title": "Syrian government, Kurdish forces end dispute in Qamishli (Al-Monitor)",
+    "url": "https://al-monitor.com/originals/2021/04/syrian-government-kurdish-forces-end-dispute-qamishli"
+   },
+   {
+    "title": "Rojava opposition group calls for ceasefire in Qamishli (Rudaw)",
+    "url": "https://rudaw.net/english/middleeast/syria/24042021"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2022-08",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "campaign",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo), plus Shehba villages",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Electricity cut to about two hours a day; hospitals and bakeries ran short of fuel; no food aid arrived for months. Tens of thousands of civilians affected.",
+  "summary": "From August 2022 Syrian government army units, including the Fourth Division, blocked fuel, flour and aid from entering the Kurdish-majority neighbourhoods of Heleb and more than 50 villages in Shehba, according to Amnesty International, which called on Damascus to lift the siege. Amnesty said this followed earlier blockades, including one lasting over a month in April 2022.",
+  "sources": [
+   {
+    "title": "Syria: Government forces must lift siege on civilians in predominantly Kurdish areas in Aleppo (Amnesty International)",
+    "url": "https://www.amnesty.org/en/latest/news/2023/01/syria-government-forces-must-lift-siege-on-civilians-in-predominantly-kurdish-areas-in-aleppo/"
+   },
+   {
+    "title": "Aleppo's Sheikh Maqsoud neighborhood without fuel, regime tightens noose (Enab Baladi)",
+    "url": "https://english.enabbaladi.net/archives/2022/12/aleppos-sheikh-maqsoud-neighborhood-without-fuel-regime-tightens-noose/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2023-09",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "campaign",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo), plus Shehba",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Restrictions on fuel and essential supplies at Fourth Division checkpoints.",
+  "summary": "Syrians for Truth and Justice documented a renewed partial siege from September 2023, with Syrian government Fourth Division checkpoints restricting fuel and other essential supplies to Şêx Meqsûd, Eşrefiyê, Tel Rifaat and more than 50 villages in Shehba. Enab Baladi described the blockade as being repeated each year.",
+  "sources": [
+   {
+    "title": "Aleppo: Syrian Government Forces Block Essential Supplies to Kurdish Neighbourhoods (Syrians for Truth and Justice, PDF)",
+    "url": "https://stj-sy.org/wp-content/uploads/2024/04/Aleppo_Syrian-Government-Forces-Block-Essential-Supplies-to-Kurdish-Neighbourhoods-1.pdf"
+   },
+   {
+    "title": "Living conditions deteriorate in northern Aleppo due to regime's siege (Enab Baladi)",
+    "url": "https://english.enabbaladi.net/archives/2023/11/living-conditions-deteriorate-in-aleppo-due-to-government-siege/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-08-07",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "ground assault",
+  "place": "SDF-held villages east of the Euphrates, Dêra Zor (Deir ez-Zor) countryside, including Dhiban",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 35.003,
+  "lon": 40.512,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": "Start of a week of bombardment of SDF-held areas east of the Euphrates.",
+  "summary": "Iran-backed Arab tribal fighters attacked SDF-held villages on the east bank of the Euphrates, backed by bombardment from Syrian government forces and the pro-government National Defence Forces on the west bank, according to Syria Direct. The SDF said two civilians were killed on the first day.",
+  "sources": [
+   {
+    "title": "Deir e-Zor civilians under fire as regime-backed groups attack SDF (Syria Direct)",
+    "url": "https://syriadirect.org/deir-e-zor-civilians-under-fire-as-regime-backed-groups-attack-sdf/"
+   },
+   {
+    "title": "Pro-Damascus forces attack Deir ez-Zor, killing two civilians: SDF (Rudaw)",
+    "url": "https://manage.rudaw.net/english/middleeast/syria/07082024"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2024-08-09",
+  "actor": "Syria",
+  "regime": "Assad",
+  "type": "artillery",
+  "place": "al-Dahla (Dahla), Dêra Zor (Deir ez-Zor) countryside",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 35.226,
+  "lon": 40.386,
+  "precision": "approximate",
+  "killed": 11,
+  "injured": null,
+  "civilian": true,
+  "impact": "SNHR counted at least 17 civilians killed in the wider fighting by 13 August; SOHR counted 18 killed and 48 injured over six days.",
+  "summary": "Shelling from Syrian government positions on the west bank of the Euphrates hit the SDF-held town of al-Dahla, killing 11 civilians, most of them children, according to the SDF and the Syrian Network for Human Rights. SNHR also recorded SDF shelling that killed civilians on the government side during the same fighting.",
+  "sources": [
+   {
+    "title": "Syrian army bombing kills 11 in Deir ez-Zor, says SDF (Rudaw)",
+    "url": "https://www.rudaw.net/english/middleeast/syria/090820241"
+   },
+   {
+    "title": "17 civilians killed in SDF and regime clashes in eastern Deir Ezzor (Enab Baladi)",
+    "url": "https://english.enabbaladi.net/archives/2024/08/17-civilians-killed-in-sdf-and-regime-clashes-in-eastern-deir-ezzor/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-07",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "campaign",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Fuel supplies to the Kurdish-majority neighbourhoods blocked.",
+  "summary": "At the start of July 2025, Syrian interim government forces blocked fuel supplies from reaching Şêx Meqsûd and Eşrefiyê. SOHR described the blockade as a continuation of 'old regime tactics'.",
+  "sources": [
+   {
+    "title": "Old regime tactics – Syrian government cuts off fuel to Sheikh Maqsoud and Al-Ashrafiyah (SOHR)",
+    "url": "https://www.syriahr.com/en/365942/"
+   },
+   {
+    "title": "Kurdish neighborhoods Council in Aleppo seek to defuse tensions with Damascus (Kurdistan24)",
+    "url": "https://www.kurdistan24.net/en/story/857417/slug"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-08-13",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "drone",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.238,
+  "lon": 37.155,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": false,
+  "impact": null,
+  "summary": "The Asayish said a drone attack it blamed on forces affiliated with the interim government wounded two of its members in Şêx Meqsûd. The Syrian Ministry of Defence denied the accusation.",
+  "sources": [
+   {
+    "title": "Reinforcements – Damascus government forces and SDF support positions (SOHR)",
+    "url": "https://www.syriahr.com/en/367826/"
+   },
+   {
+    "title": "Nûçe TV: Li Helebê bi dronekê êrîşî ser xaleke Asayişê hat kirin",
+    "url": "https://nucetv.net/li-helebe-bi-droneke-erisi-ser-xaleke-asayise-hat-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-09-20",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "artillery",
+  "place": "Umm Tina (Um Tineh) village, near Deir Hafer, east of Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.19,
+  "lon": 37.771,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "SOHR said Syrian army drone strikes and shelling on the SDF-held village of Umm Tina killed five women and two children; an injured infant died two days later, bringing the civilian toll to eight. The Syrian Ministry of Defence denied shelling the village and blamed SDF rocket fire.",
+  "sources": [
+   {
+    "title": "Seven civilians killed in government shelling of Aleppo countryside (North Press)",
+    "url": "https://npasyria.com/en/130001/"
+   },
+   {
+    "title": "Syria monitor says 7 civilians killed in govt bombardment in north (The New Arab/AFP)",
+    "url": "https://www.newarab.com/news/syria-monitor-says-7-civilians-killed-govt-bombardment"
+   },
+   {
+    "title": "Military escalation – Infant dies affected by his injuries (SOHR)",
+    "url": "https://www.syriahr.com/en/370261/"
+   },
+   {
+    "title": "Nûçe TV: Di êrîşên li ser Dêr Hafirê de 8 sivîl şehîd bûn û 9 kes birîndar bûn",
+    "url": "https://nucetv.net/di-erisen-li-ser-der-hafire-de-8-sivil-sehid-bun-u-9-kes-birindar-bun"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-09-23",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "artillery",
+  "place": "Zubeida (Ain Zubaydah) village, near Deir Hafer, east of Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.107,
+  "lon": 37.642,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "SOHR reported that four children were seriously wounded when Syrian government forces shelled Zubeida village near Deir Hafer with indiscriminate artillery fire.",
+  "sources": [
+   {
+    "title": "Syrian government shelling – Four children wounded in Aleppo (SOHR)",
+    "url": "https://www.syriahr.com/en/370322/"
+   },
+   {
+    "title": "Nûçe TV: Çekdarên hikûmeta Şamê careke din êrîşî bajarokê Dêr Hafirê kir",
+    "url": "https://nucetv.net/cekdaren-hikumeta-same-careke-din-erisi-bajaroke-der-hafire-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-10-01",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "category": "dam",
+  "place": "Tişrîn Dam (Tishreen Dam), Euphrates",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.381,
+  "lon": 38.186,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "The SDF said shells hit the dam's structure, workers' housing and nearby villages, warning of severe harm if the dam were breached.",
+  "summary": "The SDF said forces affiliated with the Syrian government shelled the Tişrîn Dam with tanks and field artillery, and SOHR reported shelling and an infiltration attempt near the dam the same day. No casualties were reported and Damascus did not comment.",
+  "sources": [
+   {
+    "title": "SDF claims Damascus-affiliated forces targeting Tishrin Dam with heavy weapons (The New Region)",
+    "url": "https://thenewregion.com/posts/3212"
+   },
+   {
+    "title": "Foiled infiltration – Artillery shelling follows drone strike near Tishrin Dam (SOHR)",
+    "url": "https://www.syriahr.com/en/370811/"
+   },
+   {
+    "title": "Nûçe TV: QSD: Çekdarên Hikûmeta Veguhêz Bendava Tişrînê topbaran kirin",
+    "url": "https://nucetv.net/qsd-cekdaren-hikumeta-veguhez-bendava-tisrine-topbaran-kirin"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2025-10-06",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 15,
+  "civilian": true,
+  "impact": "All seven roads into the neighbourhoods were closed, placing them under what was described as a complete siege; clashes on 5–7 October left three dead and over 26 injured (al-Araby al-Jadeed).",
+  "summary": "Syrian interim government forces closed every road into Şêx Meqsûd and Eşrefiyê and met residents protesting the closure with tear gas and live fire, according to SOHR and Kurdish outlets; North Press said 15 civilians were injured. Heavy clashes between government fighters and the Asayish followed before a ceasefire on 7 October.",
+  "sources": [
+   {
+    "title": "Damascus-aligned forces crack down on Kurdish protesters in Aleppo (Rudaw)",
+    "url": "https://www.rudaw.net/english/middleeast/syria/061020254"
+   },
+   {
+    "title": "15 injured in Aleppo protests over neighborhood access closures (North Press)",
+    "url": "https://npasyria.com/en/130636/"
+   },
+   {
+    "title": "Interim Government closes all entrances, exits to Sheikh Maqsoud-Ashrafiyah neighborhoods (Hawar)",
+    "url": "https://hawarnews.com/en/interim-government-closes-all-entrances-exits-to-sheikh-maqsoud-ashrafiyah-neighborhoods"
+   },
+   {
+    "title": "Nûçe TV: Êrîşên li ser Şêxmeqsûd û Eşrefiyê hatin şermezarkirin",
+    "url": "https://nucetv.net/erisen-li-ser-sexmeqsud-u-esrefiye-hatin-sermezarkirin"
+   },
+   {
+    "title": "Nûçe TV: Li Şêxmeqsûd û Eşrefiyê hêzên Asayîşê êrîşên Hikûmeta Veguhêz têk birin",
+    "url": "https://nucetv.net/li-sexmeqsud-u-esrefiye-hezen-asayise-erisen-hikumeta-veguhez-tek-birin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2025-12-22",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "artillery",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 22,
+  "civilian": true,
+  "impact": null,
+  "summary": "SOHR said artillery fire from Syrian government-held areas killed at least three civilians and injured more than 22 in the Kurdish neighbourhoods, and called it a possible war crime. Responsibility is disputed: Enab Baladi's correspondent blamed SDF fire for two civilian deaths in the same neighbourhoods, and the government said SDF fire hit other parts of the city.",
+  "sources": [
+   {
+    "title": "Aleppo escalation kills civilians as shelling hits Sheikh Maqsoud, Ashrafiyeh (North Press)",
+    "url": "https://npasyria.com/en/134211/"
+   },
+   {
+    "title": "SDF Shelling Leaves Dead and Wounded in Aleppo (Enab Baladi)",
+    "url": "https://english.enabbaladi.net/archives/2025/12/sdf-shelling-leaves-dead-and-wounded-in-aleppo/"
+   },
+   {
+    "title": "Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2025/12/23/syrian-army-and-kurdish-led-forces-agree-to-de-escalate-violence-in-aleppo"
+   },
+   {
+    "title": "Nûçe TV: Li Helebê mezargeh hat topbarankirin",
+    "url": "https://nucetv.net/li-her-du-taxen-helebe-mezargeha-sehidan-hat-topbarankirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2025-12-23",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "category": "water",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Water and electricity cut, roads closed and internet disrupted in the besieged neighbourhoods.",
+  "summary": "After the 22 December clashes, SOHR reported that the Kurdish neighbourhoods remained under siege by Syrian government forces, with water and electricity cut off, key roads closed and internet services disrupted.",
+  "sources": [
+   {
+    "title": "Following fierce clashes: Electricity, water and internet service interrupted (SOHR)",
+    "url": "https://www.syriahr.com/en/375310/"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-06",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "drone",
+  "place": "al-Shaqif area, Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.24,
+  "lon": 37.155,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Asayish said a Syrian government kamikaze drone wounded two civilians in Şêx Meqsûd's al-Shaqif area, the first strike of the January offensive on the neighbourhoods. Government forces then shelled densely populated parts of Şêx Meqsûd with heavy artillery, SOHR reported.",
+  "sources": [
+   {
+    "title": "2 civilians injured in suicide drone attack on al-Shaqif area, Sheikh Maqsoud (Hawar)",
+    "url": "https://hawarnews.com/en/2-civilians-injured-in-suicide-drone-attack-on-al-shaqif-area-sheikh-maqsoud"
+   },
+   {
+    "title": "At least 4 killed after clashes erupt between Syrian army, SDF in Aleppo (Al Jazeera live)",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/1/6/live-syrian-soldiers-injured-in-drone-attack-by-sdf-in-aleppo"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-01-06",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "category": "infrastructure",
+  "place": "Deir Hafer, east of Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Damage to the electricity grid of a densely populated town, according to the SDF.",
+  "summary": "The SDF said factions affiliated with the Syrian transitional government hit Deir Hafer with mortars, heavy weapons and suicide drones, damaging the town's electricity grid, and also shelled the area near the Tişrîn Dam. The claim was not independently confirmed.",
+  "sources": [
+   {
+    "title": "Transitional Govt. factions target Deir Hafer, vicinity of Tishrin Dam (Hawar)",
+    "url": "https://hawarnews.com/en/transitional-govt-factions-target-deir-hafer-vicinity-of-tishrin-dam"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz Dêr Hafir û derdora Tişrîn topbaran kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-der-hafir-u-derdora-tisrin-topbaran-kir"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-06",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "campaign",
+  "place": "Şêx Meqsûd (Sheikh Maqsoud) and Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.234,
+  "lon": 37.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "Hevdesti counted at least 45 civilians killed and more than 120 wounded, more than 160,000 people displaced and 541 people missing; RIC verified at least 13 civilian deaths in the neighbourhoods. Ended with the government taking the neighbourhoods and the evacuation of Kurdish fighters on 10–11 January.",
+  "summary": "From 6 to 11 January 2026 the Syrian army shelled, droned and stormed the Kurdish-majority neighbourhoods of Şêx Meqsûd and Eşrefiyê after declaring Asayish positions there 'legitimate targets'. SOHR, RIC and Syrians for Truth and Justice reported attacks on hospitals, mass displacement, looting, arrests of Kurdish men and summary executions of captured Asayish fighters. This aggregate record overlaps the individual incident records below; do not add its figures to theirs.",
+  "sources": [
+   {
+    "title": "Explainer: Syrian Transitional Government Assault on Aleppo's Kurdish Neighborhoods (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/01/explainer-syrian-government-assault-on-aleppos-kurdish-neighborhoods/"
+   },
+   {
+    "title": "Jan 2026 escalation in northeastern Syria: civilian harm from Aleppo to al-Hasakah (Hevdesti/Synergy)",
+    "url": "https://hevdesti.org/en/jan2026-escalation-in-northeastern-syria-civilian-harm-from-aleppo-to-alhasakah/"
+   },
+   {
+    "title": "Syria: Forced Displacement and Looting of Property in Sheikh Maqsoud and Ashrafieh during the Aleppo Escalation (Syrians for Truth and Justice)",
+    "url": "https://stj-sy.org/en/syria-forced-displacement-and-looting-of-property-in-sheikh-maqsoud-and-ashrafieh-during-the-aleppo-escalation-january-2026/"
+   },
+   {
+    "title": "Last Kurdish-led SDF fighters leave Syria's Aleppo after days of clashes (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2026/1/11/kurdish-fighters-leave-syrias-aleppo-after-days-of-clashes"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz êrîşên bi topan êrîşî Şêx Meqsûd û Eşrefiyê dike",
+    "url": "https://nucetv.net/hikumeta-veguhez-erisen-bi-topan-erisi-sex-meqsud-u-esrefiye-dike"
+   },
+   {
+    "title": "Nûçe TV: Li Şêx Meqsûd êrîş: 2 kes birîndar",
+    "url": "https://nucetv.net/li-sex-meqsud-eris-2-kes-birindar"
+   },
+   {
+    "title": "Nûçe TV: Li Şêxmeqsûd û Eşrefiyê şer: 7 kuştî û 46 birîndar",
+    "url": "https://nucetv.net/li-helebe-ser-3-kusti-u-38-birindar"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "artillery",
+  "place": "Area of Othman Hospital and residential buildings, Eşrefiyê (Ashrafieh), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.225,
+  "lon": 37.14,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": 60,
+  "civilian": true,
+  "impact": "SOHR raised its civilian toll for the offensive to 25 dead by the end of the day.",
+  "summary": "Syrian government artillery shelling hit the area around Othman Hospital and residential buildings in the Kurdish neighbourhoods; SOHR's preliminary count was eight civilians killed and nearly 60 injured. SOHR called the shelling a flagrant violation of international law.",
+  "sources": [
+   {
+    "title": "Condemning massacres and siege imposed on residential neighbourhoods in Aleppo (SOHR)",
+    "url": "https://www.syriahr.com/en/376106/"
+   },
+   {
+    "title": "Thousands flee Aleppo as clashes between Syria's army and SDF escalate (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2026/1/7/syria-designates-aleppos-kurdish-areas-closed-military-zones-as-clashes-persist"
+   },
+   {
+    "title": "Nûçe TV: Nexweşxaneya Osman a li taxa Eşrefiyê hat topbarankirin",
+    "url": "https://nucetv.net/nexwesxaneya-osman-a-helebe-hat-topbarankirin"
+   },
+   {
+    "title": "Nûçe TV: Li Helebê şer: 9 kuştî û 63 birîndar",
+    "url": "https://nucetv.net/li-helebe-ser-8-kusti-u-55-birindar"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "drone",
+  "place": "S. Khalid Fajr Hospital, Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.238,
+  "lon": 37.155,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": 2,
+  "civilian": true,
+  "impact": "Strikes destroyed the hospital's generators and water tank, leaving patients and sheltering civilians without power or water for days.",
+  "summary": "The Rojava Information Center verified repeated Syrian army artillery and drone strikes on Şêx Meqsûd's only hospital, where civilians had taken shelter; a strike on the courtyard on 8 January killed two people reported to be medical staff and wounded two others. Witnesses also described tanks firing at the hospital and a gas, reported as tear gas, reaching the basement, after which an eight-month-old baby died.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   },
+   {
+    "title": "Nûçe TV: Nexweşxaneya Xalid Fecir a Şêx Meqsûdê hat topbarankirin",
+    "url": "https://nucetv.net/nexwesxaneya-xalid-fecir-a-sexmeqsude-hat-topbarankirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Street outside S. Khalid Fajr Hospital, Şêx Meqsûd (Sheikh Maqsoud), Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.238,
+  "lon": 37.155,
+  "precision": "approximate",
+  "killed": 7,
+  "injured": null,
+  "civilian": true,
+  "impact": "Men were separated from women and many were detained, according to the witness.",
+  "summary": "A resident told the Rojava Information Center that Syrian army soldiers opened fire on civilians gathered outside the hospital to leave the neighbourhood as a group, killing around seven or eight people and wounding more. RIC lists this among its confirmed cases of direct targeting of civilians; the exact date in the 6–11 January offensive is not given.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "drone",
+  "place": "Kherbi (western Şêx Meqsûd), near the Martyrs' Families Association building, Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.238,
+  "lon": 37.152,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "A resident told the Rojava Information Center that a drone struck two civilian cars heading for the hospital during the January offensive, and medical staff said one family of six died: three children, their mother, their aunt and their grandfather. This is a second-hand account cited in RIC's report; the exact date is not given.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-13",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Deir Hafer and Maskanah, east of Heleb (Aleppo)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.157,
+  "lon": 37.708,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "The SDF withdrew from the area on 17 January; the offensive then spread east of the Euphrates.",
+  "summary": "The Syrian army declared Deir Hafer and Maskanah closed military zones on 13 January and launched an offensive on the SDF-held pocket, starting the wider January 2026 offensive into North and East Syria. SOHR said SDF forces were attacked as they withdrew on 17 January.",
+  "sources": [
+   {
+    "title": "Syrian army declares military zones in rural Aleppo as SDF destroys bridges (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2026/1/13/syrian-army-sends-troops-to-rural-aleppo-to-stop-any-sdf-attempt-to-regroup"
+   },
+   {
+    "title": "Photos: Syrian army enters Deir Hafer after SDF withdrawal (Al Jazeera)",
+    "url": "https://www.aljazeera.com/gallery/2026/1/17/photos-syrian-army-enters-deir-hafer-after-sdf-withdrawal"
+   },
+   {
+    "title": "Nûçe TV: Çekdarên Hikûmeta Veguhêz Dêr Hafirê topbaran dikin",
+    "url": "https://nucetv.net/cekdaren-hikumeta-veguhez-der-hafire-topbaran-dikin"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz Dêr Hafir û gundên Meskene topbaran kirin",
+    "url": "https://nucetv.net/hikumeta-veguhez-der-hafir-u-gunden-meskenaye-topbaran-kirin"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-16",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Tişrîn Dam (Tishreen Dam), Euphrates",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.381,
+  "lon": 38.186,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": "Armoured assault on the dam, a major hydroelectric facility on the Euphrates.",
+  "summary": "Syrian army forces launched an armoured attack on SDF positions at the Tişrîn Dam, which the SDF said it repelled, claiming ten tanks destroyed; SOHR confirmed two tanks and two military vehicles destroyed. Casualty figures were not published.",
+  "sources": [
+   {
+    "title": "Ten tanks destroyed at Tishrin Dam (ANF)",
+    "url": "https://english.anf-news.com/rojava-syria/ten-tanks-destroyed-at-tishrin-dam-83275"
+   },
+   {
+    "title": "After destroying two tanks and two military vehicles (SOHR)",
+    "url": "https://www.syriahr.com/en/376562/"
+   },
+   {
+    "title": "Nûçe TV: Çekdarên Hikûmeta Veguhêz bi dronan êrîşî Tişrînê dikin",
+    "url": "https://nucetv.net/cekdaren-hikumeta-veguhez-bi-dronan-erisi-tisrine-dikin"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz bi dronan êrîşî derdora Tişrînê kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-bi-dronan-erisi-derdora-tisrine-kir"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz derdora Tişrînê topbaran kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-derdora-tisrine-topbaran-kir"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz derdora Tişrînê topbaran kirin",
+    "url": "https://nucetv.net/hikumeta-veguhez-derdora-tisrine-topbaran-kirin"
+   },
+   {
+    "title": "Nûçe TV: Hikûmeta Veguhêz Bendava Tirşînê topbaran kir",
+    "url": "https://nucetv.net/hikumeta-veguhez-bendava-tirsine-topbaran-kir"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-17",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Tebqa (Tabqa), Euphrates Dam and Tabqa airbase",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.831,
+  "lon": 38.544,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Hundreds of families unable to leave Tabqa sheltered in public buildings; more than 13,000 people displaced from Raqqa by 18 January.",
+  "summary": "After declaring SDF-held land west of the Euphrates a closed military zone, the Syrian army attacked the Tabqa area and on 18 January took Tebqa city, the Euphrates Dam and Tabqa airbase.",
+  "sources": [
+   {
+    "title": "Syria announces ceasefire agreement with Kurd-led SDF after heavy fighting (Al Jazeera)",
+    "url": "https://www.aljazeera.com/news/2026/1/18/syria-announces-ceasefire-agreement-with-kurd-led-sdf-after-heavy-fighting"
+   },
+   {
+    "title": "Syrian army moves into east Aleppo after Kurdish forces withdraw (BBC)",
+    "url": "https://www.bbc.com/news/articles/ce3k279e53eo"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-18",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Reqa (Raqqa) city and countryside",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.95,
+  "lon": 39.009,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": "Families of victims say bodies were mutilated; some could not be recovered.",
+  "summary": "The Rojava Information Center verified the killing of Kurdish civilians as Syrian army and allied forces took Reqa: Mohammed Ahmed Qaso, 55, an education archive officer whose eyes were gouged out, and 16-year-old Farid Rabie Bakir, killed and beheaded by Syrian army fighters according to his family. RIC also reports a Kurdish cook, Masoud Rashid Mohammed, killed and beheaded in the Reqa countryside, most likely by Syrian army forces.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-18",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Checkpoint near Abu Khashab crossroads, Abyad road (Reqa–Hesekê route)",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 35.947,
+  "lon": 40.021,
+  "precision": "approximate",
+  "killed": 6,
+  "injured": 6,
+  "civilian": true,
+  "impact": "Survivors were taken towards Dêra Zor and left on a rural road.",
+  "summary": "A Kurdish family of 12 fleeing Reqa for Hesekê was stopped at a checkpoint near Abu Khashab; after they said they were Kurdish, the commander ordered the adults killed and Syrian army soldiers opened fire, killing six, including a 17-year-old and a 10-year-old, and wounding the other six, according to the Rojava Information Center. Hevdesti documented the same incident, attributing it to an armed group.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   },
+   {
+    "title": "Jan 2026 escalation in northeastern Syria: civilian harm from Aleppo to al-Hasakah (Hevdesti/Synergy)",
+    "url": "https://hevdesti.org/en/jan2026-escalation-in-northeastern-syria-civilian-harm-from-aleppo-to-alhasakah/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-18",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Abyad road near Sabah al-Khair (Reqa–Hesekê route)",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 36.072,
+  "lon": 39.808,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": "Civilians fleeing Reqa and Tebqa, including four buses of university students, came under fire.",
+  "summary": "The Rojava Information Center documented repeated shooting at clearly civilian vehicles fleeing on the Abyad road on 18 January, including buses carrying al-Sherq University students, and the beating and robbery of civilians at a checkpoint set up by Syrian army and General Security forces. Most victims believed the shooters were tribal fighters affiliated with the Syrian army; RIC recorded four civilian deaths and 12 injuries from indiscriminate shooting across Reqa, Tebqa, Dêra Zor and Hesekê.",
+  "sources": [
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-18",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Eastern Dêra Zor (Deir ez-Zor) countryside, including al-Omar oil field",
+  "governorate": "Deir ez-Zor",
+  "country": "Syria",
+  "lat": 35.08,
+  "lon": 40.591,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Syria's largest oil field, al-Omar, and the Conoco gas field changed hands.",
+  "summary": "Syrian government forces and allied Arab tribal fighters took the SDF-held eastern Dêra Zor countryside, including the al-Shuhayl and al-Busayrah towns and the al-Omar oil and Conoco gas fields, according to Reuters and the BBC.",
+  "sources": [
+   {
+    "title": "Syrian forces seize major oil, gas fields in eastern Syria, security sources say (Reuters)",
+    "url": "https://www.reuters.com/world/middle-east/syrian-forces-seize-major-oil-gas-fields-eastern-syria-security-sources-say-2026-01-18/"
+   },
+   {
+    "title": "Syrian army seizes country's largest oil field from Kurdish forces (BBC)",
+    "url": "https://www.bbc.com/news/articles/cx20n55yxrlo"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-20",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Tell Brak and villages near Çiyayê Kezwan (Mount Abdulaziz), Hesekê (Hasakah) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.667,
+  "lon": 41.059,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Displacement towards Hesekê, Qamişlo and Dêrik; IOM figures cited by L'Orient-Le Jour put displacement into Hasakah governorate at 134,803 by 21 January.",
+  "summary": "Syrian Defence Ministry forces advanced into the Hesekê countryside on 20–21 January, taking villages near Mount Abdulaziz and Tell Brak after SDF withdrawals and deploying to areas seized by tribal fighters who had defected to the ministry, according to the Institute for the Study of War. The UN reported clashes continuing in Hasakah governorate after the 20 January ceasefire.",
+  "sources": [
+   {
+    "title": "Iran Update, January 21, 2026 (Institute for the Study of War)",
+    "url": "https://understandingwar.org/research/middle-east/iran-update-january-21-2026/"
+   },
+   {
+    "title": "Briefing to the Security Council on Syria, 22 January 2026 (UN DPPA)",
+    "url": "https://dppa.un.org/en/mtg-sc-10094-asg-khiari-22-jan-2026"
+   },
+   {
+    "title": "Quelque 134.000 déplacés dans le nord-est de la Syrie (L'Orient-Le Jour)",
+    "url": "https://www.lorientlejour.com/article/1492456/quelque-134000-deplaces-dans-le-nord-est-de-la-syrie-apres-les-affrontements-entre-larmee-et-les-kurdes.html"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-20",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Sirrîn (Sarrin) and Qereqozax (Qara Qozak) bridge, south of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.572,
+  "lon": 38.301,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": "Cut Kobanê's main road links, part of its encirclement.",
+  "summary": "Syrian army forces took the Qereqozax bridge and Sirrîn south of Kobanê on 20 January, according to ISW, and local SDF units said they repelled a further Syrian army attack outside Sirrîn on 22 January despite the ceasefire.",
+  "sources": [
+   {
+    "title": "Iran Update, January 20, 2026 (Institute for the Study of War)",
+    "url": "https://understandingwar.org/research/middle-east/iran-update-january-20-2026/"
+   },
+   {
+    "title": "Heavy blow to gangs in Sirrin: many gang members killed (ANF)",
+    "url": "https://english.anf-news.com/interview/heavy-blow-to-gangs-in-sirrin-many-gang-members-killed-83449"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-20",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "campaign",
+  "place": "Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "About 150,000 people affected; food, medicine and fuel shortages; the Kurdish Red Crescent said four infants died on 24 January from cold and lack of supplies, and Rudaw reported six child deaths by 25 January.",
+  "summary": "Syrian army forces encircled Kobanê from 20 January, closing access roads and severely restricting supplies to the city, which was crowded with people displaced from about 350 surrounding villages, according to RIC and OCHA as cited by Hevdesti. SOHR attributed the siege to forces affiliated with the interim government; a UN convoy reached the city on 25 January.",
+  "sources": [
+   {
+    "title": "Six children dead as Damascus 'siege' on Kobane enters fifth day: Kurdish Red Crescent (Rudaw)",
+    "url": "https://www.rudaw.net/english/middleeast/syria/25012026"
+   },
+   {
+    "title": "Four Children Die in Kobani Amid Extreme Cold and Deepening Humanitarian Crisis (PUKmedia/SOHR)",
+    "url": "https://www.pukmedia.com/EN/Details/80275"
+   },
+   {
+    "title": "The Assault on North & East Syria: Violations during SAA January 2026 offensive (Rojava Information Center)",
+    "url": "https://rojavainformationcenter.org/2026/05/the-assault-on-north-east-syria-violations-during-saa-january-2026-offensive/"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-01-20",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "category": "water",
+  "place": "Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.875,
+  "lon": 38.354,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": "SOHR said the city was cut off from water for more than a week because power cuts halted pumping; residents melted snow to drink. Electricity and internet were also cut.",
+  "summary": "During the Syrian army's siege of Kobanê, electricity, water and internet were cut across the city. SOHR attributed the siege to interim-government forces, and the Catalan daily Ara reported that the dam supplying the city's water was under Damascus's control.",
+  "sources": [
+   {
+    "title": "Four Children Die in Kobani Amid Extreme Cold and Deepening Humanitarian Crisis (PUKmedia/SOHR)",
+    "url": "https://www.pukmedia.com/EN/Details/80275"
+   },
+   {
+    "title": "Medieval siege strangles the Kurdish city of Kobane (Ara)",
+    "url": "https://en.ara.cat/international/medieval-siege-strangles-the-kurdish-city-of-kobane_130_5628314.html"
+   },
+   {
+    "title": "Kobani Under Siege: Rapid Humanitarian Deterioration (Hevdesti, PDF)",
+    "url": "https://hevdesti.org/wp-content/uploads/2026/01/Kobani-Under-Siege-Rapid-Humanitarian-Deterioration-Amid-Road-Closures-and-Restricted-Access.pdf"
+   }
+  ],
+  "kind": "eco"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-23",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "ground assault",
+  "place": "Tebqa (Tabqa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.831,
+  "lon": 38.544,
+  "precision": "approximate",
+  "killed": 4,
+  "injured": null,
+  "civilian": false,
+  "impact": "A video of the mutilated bodies was sent to a victim's family.",
+  "summary": "SOHR reported that a group affiliated with Syrian government forces killed four young SDF captives in Tebqa after the town was seized, then mutilated their bodies.",
+  "sources": [
+   {
+    "title": "Al-Raqqah: Members of group affiliated with government forces commit war crime (SOHR)",
+    "url": "https://www.syriahr.com/en/376735"
+   }
+  ],
+  "kind": "strike"
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-25",
+  "actor": "Syria",
+  "regime": "Interim government",
+  "type": "artillery",
+  "place": "al-Qasimiyah (Qasma) village, west of Kobanê",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.703,
+  "lon": 38.123,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "The SDF said shelling by forces affiliated with Damascus killed a Kurdish child and wounded three members of the same family in al-Qasimiyah, hours after a 15-day ceasefire extension, and reported an armoured attack on al-Jalabiya. SOHR also blamed government forces; the Syrian army accused the SDF of drone attacks around Kobanê.",
+  "sources": [
+   {
+    "title": "Kurdish Child Killed in Syrian Army Shelling West of Kobani (Kurdistan24)",
+    "url": "https://www.kurdistan24.net/en/story/889846/kurdish-child-killed-in-syrian-army-shelling-west-of-kobani"
+   },
+   {
+    "title": "SDF: Damascus breached ceasefire as child killed near Kobani (Shafaq News)",
+    "url": "https://shafaq.com/en/Middle-East/SDF-Damascus-breached-ceasefire-as-child-killed-near-Kobani"
+   },
+   {
+    "title": "Statement Regarding Violations of the Ceasefire Agreement (SDF)",
+    "url": "https://sdf-press.com/en/?p=19612"
+   }
+  ],
+  "kind": "strike"
+ }
+]
