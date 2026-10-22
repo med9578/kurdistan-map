@@ -44,17 +44,19 @@ button{cursor:pointer}
 .langs.float{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));flex:none;display:flex;border-radius:999px;background:var(--panel);backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass);border:1px solid var(--line);padding:3px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
 .langs button{border:0;background:none;border-radius:999px;padding:6px 10px;font-size:12.5px;font-weight:700;color:var(--muted)}
 .langs button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
-.dock{position:absolute;z-index:920;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:6px;padding:6px;border-radius:999px;width:max-content;max-width:calc(100% - 24px)}
-.keybtn{display:flex;align-items:center;gap:10px;height:48px;padding:0 18px 0 14px;border:0;border-radius:999px;background:var(--accent);color:var(--on-accent);font-size:15px;font-weight:700;white-space:nowrap;min-width:0}
-.keybtn .g{display:flex;gap:3px;align-items:center;flex:none}
-.keybtn span:last-child{overflow:hidden;text-overflow:ellipsis}
-.keybtn[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--on-accent)}
-.keybtn.nudge{animation:nudge 1.8s ease-in-out 3}
-@keyframes nudge{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
-.ib{flex:none;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;color:var(--ink)}
-.ib svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.ib[aria-pressed="true"]{background:var(--ink);color:var(--bg,#0a0a0a);border-color:transparent}
-.sheet{position:absolute;z-index:910;top:calc(64px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:calc(86px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
+.menubtn{position:absolute;z-index:930;top:calc(12px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));width:48px;height:48px;border-radius:16px;display:grid;place-items:center;color:var(--ink);padding:0}
+.menubtn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
+.menubtn[aria-expanded="true"]{background:var(--accent);color:var(--on-accent);border-color:transparent}
+.menubtn.nudge{animation:nudge 1.8s ease-in-out 4}
+@keyframes nudge{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(215,255,61,.6)}50%{transform:scale(1.08);box-shadow:0 0 0 10px rgba(215,255,61,0)}}
+.menu{position:absolute;z-index:930;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));width:min(300px,calc(100% - 24px));border-radius:20px;padding:6px;display:flex;flex-direction:column;gap:2px}
+.mi{display:flex;align-items:center;gap:12px;width:100%;border:0;background:none;border-radius:14px;padding:12px 14px;font-size:15px;font-weight:600;color:var(--ink);text-align:start}
+.mi:hover,.mi[aria-pressed="true"]{background:var(--card)}
+.mi svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.mi.key{background:var(--accent);color:var(--on-accent);font-weight:700}
+.mi.key .g{display:flex;gap:3px;align-items:center;flex:none}
+.mi.key .g svg{width:15px;height:15px}
+.sheet{position:absolute;z-index:910;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
 .sh{flex:none;display:flex;align-items:center;gap:10px;padding:14px 14px 8px 18px}
 .sh h2{flex:1;margin:0;font-size:19px;font-weight:800;letter-spacing:-.01em}
 .shx{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;line-height:1;display:grid;place-items:center}
@@ -231,12 +233,8 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 
 /* phone: the sheet rises from the bottom above the dock */
 @media (max-width:760px){
-  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(76px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 150px - env(safe-area-inset-top,0px));height:auto}
-  .sheet.tall{height:calc(100% - 150px - env(safe-area-inset-top,0px))}
-  .dock{left:12px;right:12px;transform:none;width:auto;max-width:none}
-  .keybtn{flex:1;justify-content:center;padding:0 12px;font-size:13.5px;gap:8px}
-  .keybtn .g svg{width:14px;height:14px}
-  .ib{width:46px;height:46px}
+  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 84px - env(safe-area-inset-top,0px));height:auto}
+  .sheet.tall{height:calc(100% - 84px - env(safe-area-inset-top,0px))}
   .stats{grid-template-columns:1fr 1fr}
   .detail h2{font-size:24px}
   .leaflet-control-zoom,.leaflet-bottom.leaflet-left,.leaflet-control-attribution{display:none}
@@ -250,7 +248,6 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 [dir="rtl"] .langs.float{direction:ltr}
 #yrLbl,.rec .d,.detail .meta{unicode-bidi:plaintext}
 #yrLbl{direction:ltr}
-:root[lang="ckb"] .keybtn{font-size:13.5px;gap:8px;padding:0 12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -290,11 +287,12 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <div class="pane" id="paneD" hidden></div>
   </section>
 
-  <nav class="dock glass" aria-label="Menu">
-    <button class="keybtn" data-tab="K" aria-pressed="false"><span class="g" id="keyIcons" aria-hidden="true"></span><span data-t="keyAsk"></span></button>
-    <button class="ib" data-tab="R" aria-pressed="false" data-tl="searchList"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
-    <button class="ib" data-tab="F" aria-pressed="false" data-tl="tabFilters"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></button>
-    <button class="ib" id="aboutBtn" aria-haspopup="dialog" data-tl="tabAbout"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg></button>
+  <button class="menubtn glass" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu" data-tl="menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="menu glass" id="menu" hidden>
+    <button class="mi key" data-tab="K" aria-pressed="false"><span class="g" id="keyIcons" aria-hidden="true"></span><span data-t="keyAsk"></span></button>
+    <button class="mi" data-tab="R" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span data-t="searchList"></span></button>
+    <button class="mi" data-tab="F" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span data-t="tabFilters"></span></button>
+    <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg><span data-t="tabAbout"></span></button>
   </nav>
 
   <section class="hintcard glass" id="hint" hidden role="dialog" aria-labelledby="wH">
@@ -620,6 +618,10 @@ Object.assign(STR.ku, {ms_satellite:"Satelît"});
 Object.assign(STR.ckb, {ms_satellite:"مانگی دەستکرد"});
 Object.assign(STR.tr, {ms_satellite:"Uydu"});
 Object.assign(STR.en, {ms_satellite:"Satellite"});
+Object.assign(STR.ku, {"menu": "Menû", "wKey3": "Ji bo ku bizanî reng û wêne çi dibêjin, li bişkoka ☰ ya li jor çepê bitikîne, paşê li «Nîşan çi dibêjin?»."});
+Object.assign(STR.ckb, {"menu": "لیست", "wKey3": "بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن، لە دوگمەی ☰ لە سەرەوەی لای چەپ بدە، دواتر «هێماکان چی دەڵێن؟»."});
+Object.assign(STR.tr, {"menu": "Menü", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için sol üstteki ☰ düğmesine, sonra «Semboller ne anlama geliyor?» seçeneğine dokun."});
+Object.assign(STR.en, {"menu": "Menu", "wKey3": "To see what the colours and icons mean, tap the ☰ button at the top left, then “What do the symbols mean?”."});
 /* Sorani names for parts, governorates and map labels */
 const PART_CKB = {Iraq:"باشوور", Syria:"ڕۆژاوا", Turkey:"باکوور", Iran:"ڕۆژهەڵات"};
 const GOV_CKB = {Duhok:"دهۆک", Erbil:"هەولێر", Sulaymaniyah:"سلێمانی", "Al Sulaymaniyah":"سلێمانی", Kirkuk:"کەرکووک", Nineveh:"نەینەوا", Hasakah:"حەسەکە", "Al Hasakeh":"جزیرە (حەسەکە)", Aleppo:"حەلەب", Raqqa:"ڕەققە", "Deir ez-Zor":"دێرەزوور", Kurdistan:"سنە (کوردستان)", Kermanshah:"کرماشان", "West Azerbaijan":"ورمێ", Ilam:"ئیلام", Hakkari:"جۆلەمێرگ", Sirnak:"شرناخ", Van:"وان", Diyarbakir:"ئامەد", Mardin:"ماردین", Batman:"ئێلح", Siirt:"سێرت", Bitlis:"بەدلیس", Mus:"مووش", Tunceli:"دێرسم", Bingol:"چەولیگ", Agri:"ئاگری"};
@@ -1023,7 +1025,7 @@ const sheet = document.getElementById("sheet");
 document.getElementById("shX").onclick = () => { lastTab = null; select(null); };
 /* keep a point visible beside the open sheet */
 function flyVis(ll, z, fly) {
-  const off = sheet.hidden ? [0, 0] : phone() ? [0, (sheet.getBoundingClientRect().height - 40) / 2] : [201, 0];
+  const off = sheet.hidden ? [0, 0] : phone() ? [0, (sheet.getBoundingClientRect().height - 40) / 2] : [-201, 0];
   const c = map.unproject(map.project(ll, z).add(off), z);
   fly ? map.flyTo(c, z, {duration:.6}) : map.setView(c, z, {animate:true});
 }
@@ -1093,7 +1095,7 @@ document.addEventListener("click", e => {
   const ch = e.target.closest("[data-only]");
   if (ch) { state.only = ch.dataset.only || null; renderChips(); render(); return; }
   const tb = e.target.closest("[data-tab]");
-  if (tb) { const k = tb.dataset.tab, open = state.tab === k; lastTab = open ? null : k; select(null); clearNear(); if (k === "K") { tb.classList.remove("nudge"); try { localStorage.setItem("ksm-keyseen", "1"); } catch (e) {} } if (k === "R" && !open && !phone()) document.getElementById("q").focus(); return; }
+  if (tb) { const k = tb.dataset.tab, open = state.tab === k; lastTab = open ? null : k; select(null); clearNear(); closeMenu(); if (k === "K") { menuBtn.classList.remove("nudge"); try { localStorage.setItem("ksm-keyseen", "1"); } catch (e) {} } if (k === "R" && !open && !phone()) document.getElementById("q").focus(); return; }
   const r = e.target.closest(".rec");
   if (r) { select(+r.dataset.id, true); return; }
 });
@@ -1106,10 +1108,14 @@ document.addEventListener("change", e => {
 });
 document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase();  render(); };
 const dlg = document.getElementById("about");
-document.getElementById("aboutBtn").onclick = () => dlg.showModal();
+const menuBtn = document.getElementById("menuBtn"), menu = document.getElementById("menu");
+function closeMenu() { menu.hidden = true; menuBtn.setAttribute("aria-expanded", false); }
+menuBtn.onclick = () => { const open = menu.hidden; menu.hidden = !open; menuBtn.setAttribute("aria-expanded", open); };
+map.on("click movestart", closeMenu);
+document.getElementById("aboutBtn").onclick = () => { closeMenu(); dlg.showModal(); };
 document.getElementById("aboutX").onclick = () => dlg.close();
 dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
-document.addEventListener("keydown", e => { if (e.key === "Escape" && !dlg.open) { lastTab = null; select(null); } });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !dlg.open) { if (!menu.hidden) { closeMenu(); return; } lastTab = null; select(null); } });
 
 /* share */
 const BASE_URL = location.protocol.startsWith("http") ? location.href.split("#")[0] : "https://claude.ai/artifact/796jNHKRSBvtxbLDxMNCus";
@@ -1184,7 +1190,7 @@ new ResizeObserver(() => map.invalidateSize({pan:false})).observe(document.getEl
 function boot() { renderKeyIcons(); applyStatic(); showPane(null); drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); syncLabels(); }
 boot();
 openFromHash();
-{ let s = null; try { s = localStorage.getItem("ksm-keyseen"); } catch (e) {} if (!s) document.querySelector(".keybtn").classList.add("nudge"); }
+{ let s = null; try { s = localStorage.getItem("ksm-keyseen"); } catch (e) {} if (!s) document.getElementById("menuBtn").classList.add("nudge"); }
 { let seen = null; try { seen = localStorage.getItem("ksm-welcome"); } catch (e) {}
   const hint = document.getElementById("hint"), close = () => { hint.hidden = true; try { localStorage.setItem("ksm-welcome", "1"); } catch (e) {} };
   if (!seen && !location.hash) hint.hidden = false;
