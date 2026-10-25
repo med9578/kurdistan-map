@@ -1,0 +1,68 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-10-24",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala base, Alana (Dola Alane) valley, Balîsan (Balisan), Xelîfan (Khalifan), Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.47,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": "Material damage to buildings and facilities",
+  "summary": "Komala of the Toilers of Kurdistan (Zehmetkêşan) said an explosive-laden Shahed drone, which it blamed on Iran's IRGC, hit one of its bases in the Alana (Dola Alane) valley of the Balîsan area at about 10 pm on 24 October, damaging buildings and facilities; it said its Peshmerga were safe and no one was hurt. Iran's Mehr news agency reported a drone operation by IRGC ground forces against the group's headquarters in Balîsan, but the IRGC did not officially claim the strike.",
+  "sources": [
+   {
+    "title": "Rudaw: Iranian drone strikes Komala base northeast of Erbil, no casualties reported: Party",
+    "url": "https://rudaw.net/english/categories/kurdistan/1079875"
+   },
+   {
+    "title": "The New Region: Drone attack targets Iranian Kurdish opposition group in Erbil province",
+    "url": "https://thenewregion.com/posts/6904"
+   },
+   {
+    "title": "Nûçe TV: Îranê êrîşî kampa Komeleya Zehmetkêşan li nêzî Hewlêrê kir",
+    "url": "https://nucetv.net/irane-erisi-kampa-komeleya-zehmetkesan-li-nezi-hewlere-kir"
+   },
+   {
+    "title": "ANF: Dola Alane Kampı'na İHA saldırısı",
+    "url": "https://anfenglishmobile.com/kurdIstan/dola-alane-kampi-na-Iha-saldirisi-234676"
+   },
+   {
+    "title": "Asharq Al-Awsat: Tehran Strikes Iranian Kurdish Base in Iraq with Drones",
+    "url": "https://english.aawsat.com/arab-world/5333328-tehran-strikes-iranian-kurdish-base-iraq-drones"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-22",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Besta region and Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.6,
+  "lon": 42.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "About 3,000 steres (roughly 1,950 tonnes) of trees felled in one week",
+  "summary": "Yeni Yaşam and İlke TV, citing Mezopotamya Agency, reported on 22 October that Fadıl Tay of the Şırnak Ecology Platform said about 3,000 steres (roughly 1,950 tonnes) of trees had been felled in one week in the Besta region and on Gabar mountain. Yeni Yaşam reported that village guards did the felling under the supervision of Turkish state soldiers, in the name of oil exploration, mining and a 'security dam'.",
+  "sources": [
+   {
+    "title": "Yeni Yaşam: Besta ve Gabar'da bir hafta bin 950 ton ağaç kesildi",
+    "url": "https://yeniyasamgazetesi9.com/besta-ve-gabarda-bir-hafta-bin-950-ton-agac-kesildi-insansizlastirma-ve-hafizasizlastirma-politikasi/"
+   },
+   {
+    "title": "İlke TV: Besta ve Gabar'da bir haftada bin 950 ton ağaç kesildi: 'Barış doğayla da kurulmalı'",
+    "url": "https://ilketv.com.tr/besta-ve-gabarda-bir-haftada-bin-950-ton-agac-kesildi-baris-dogayla-da-kurulmali/"
+   }
+  ]
+ }
+]
