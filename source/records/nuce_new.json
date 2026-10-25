@@ -38,14 +38,15 @@
   "injured": null,
   "civilian": null,
   "impact": null,
-  "summary": "Nûçe TV, citing CPT's Kameran Osman, reported that the Turkish army shelled Geliyê Mêwîn in the Metîna range twice; he said it was the 11th Turkish shelling of the Kurdistan Region since the guerrilla weapons-burning ceremony.",
+  "summary": "Nûçe TV, citing CPT's Kameran Osman, reported that the Turkish army shelled Geliyê Mêwîn in the Metîna range twice; he said it was the 11th Turkish shelling of the area since the guerrilla weapons-burning ceremony.",
   "sources": [
    {
     "title": "Nûçe TV: ARTÊŞA TIRK CAREKE DIN ÇIYAYÊ METÎNA TOPBARAN KIR",
     "url": "https://nucetv.net/Artesa--Tirk--Carek-Din-Ciyaye-Metîna-Topbaran-Kir"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "8f8d768789"
  },
  {
   "record": "attack",
@@ -722,7 +723,7 @@
   "injured": null,
   "civilian": true,
   "impact": "Camp housing civilian families",
-  "summary": "Nûçe TV reported that the camp of the Kurdistan Democratic Party of Iran (PDKI) near Koye, home to civilian families, was bombed twice on 17 March, and that the IRGC struck the families' camp with drones again on 18 March, alongside a missile strike on a Rojhilat Kurds' camp in Koye.",
+  "summary": "Nûçe TV reported that the camp of the Kurdistan Democratic Party of Iran (PDKI) near Koye, home to civilian families, was bombed twice on 17 March, and that the IRGC struck the families' camp with drones again on 18 March, alongside a missile strike on a camp of Kurds opposed to the Iranian state in Koye.",
   "sources": [
    {
     "title": "Nûçe TV: Kampa PDK-Î’yê ya li navçeya Koye ya li Hewlêrê 2 caran hate bombebarankirin",
@@ -737,7 +738,8 @@
     "url": "https://nucetv.net/bi-dron-u-musekan-erisi-koye-u-silemaniye-hat-kirin"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "c82c339501"
  },
  {
   "record": "attack",
@@ -930,14 +932,15 @@
   "injured": 0,
   "civilian": null,
   "impact": null,
-  "summary": "Nûçe TV, quoting Komala Toilers' Amced Penahî, reported that the Iranian state attacked bases of Rojhilat Kurdish parties at Surdaş with four drones and also struck a Komala member's house near Zirgwêz; no casualties.",
+  "summary": "Nûçe TV, quoting Komala Toilers' Amced Penahî, reported that the Iranian state attacked bases of Kurdish parties opposed to the Iranian state at Surdaş with four drones and also struck a Komala member's house near Zirgwêz; no casualties.",
   "sources": [
    {
     "title": "Nûçe TV: Bi dronan êrîşî kampên li ser sînorê Silêmaniyê hat kirin",
     "url": "https://nucetv.net/bi-dronan-erisi-kampen-li-ser-sinore-silemaniye-hat-kirin"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "c40963e062"
  },
  {
   "record": "attack",
@@ -1006,14 +1009,15 @@
   "injured": null,
   "civilian": null,
   "impact": null,
-  "summary": "Nûçe TV reported that the IRGC struck the Zirgwêzele area, where camps of Rojhilat Kurdish parties (especially Komala) are based, with three missiles at dawn.",
+  "summary": "Nûçe TV reported that the IRGC struck the Zirgwêzele area, where camps of Kurdish parties opposed to the Iranian state (especially Komala) are based, with three missiles at dawn.",
   "sources": [
    {
     "title": "Nûçe TV: Sûpaya Pasdaran bi sê mûşekan êrîşî herêma Zirgiwêzele ya Silêmaniyê kir",
     "url": "https://nucetv.net/supaya-pasdaran-bi-se-musekan-erisi-herema-zirgiwezele-ya-silemaniye-kir"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "7e750faf96"
  },
  {
   "record": "attack",

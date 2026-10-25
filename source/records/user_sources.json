@@ -12,14 +12,15 @@
   "lon": 43.3,
   "precision": "approximate",
   "impact": "About 3 million trees felled or uprooted in 2020–2023 (Baxtyar Zebari's estimate); about 660 km of military roads cut through mountain forest; more than 100 Turkish bases",
-  "summary": "Duhok environmental journalist Baxtyar Zebari estimates the Turkish army felled or uprooted about three million trees in Behdînan between 2020 and 2023, after systematic cutting began around 2013. The Amargi, citing CPT mapping, reports that the army pushed up to 40 km into Başûr, built more than 100 bases and about 660 km of military roads through dense forest. A member of the Kurdistan parliament said military authorities encouraged traders to buy the felled timber and ship it across the border; the Turkish state says the canopy hides PKK fighters.",
+  "summary": "Duhok environmental journalist Baxtyar Zebari estimates the Turkish army felled or uprooted about three million trees in Behdînan between 2020 and 2023, after systematic cutting began around 2013. The Amargi, citing CPT mapping, reports that the army pushed up to 40 km across the Turkish–Iraqi state border, built more than 100 bases and about 660 km of military roads through dense forest. A member of the Kurdistan parliament said military authorities encouraged traders to buy the felled timber and ship it across the border; the Turkish state says the canopy hides PKK fighters.",
   "sources": [
    {
     "title": "The Amargi: Ecocide in Iraqi Kurdistan – Turkey's saws in the mountains (Khaled Sulaiman, 8 Oct 2026)",
     "url": "https://www.theamargi.com/posts/ecocide-in-iraqi-kurdistan-turkeys-saws-in-the-mountains"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "94e67ed585"
  },
  {
   "record": "ecocide",

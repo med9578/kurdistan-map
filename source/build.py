@@ -12,6 +12,9 @@ REC = os.path.join(SRC, "records")
 ARTIFACT_URL = "https://claude.ai/artifact/796jNHKRSBvtxbLDxMNCus"
 
 def rid(d):
+    # id_lock keeps a record's id (and so its translations) stable when its English text is edited later
+    if d.get("id_lock"):
+        return d["id_lock"]
     return hashlib.sha1(f"{d['date']}|{d['place']}|{d['actor']}|{d['summary'][:60]}".encode()).hexdigest()[:10]
 
 # records: every file in records/ except the extra-source lists
@@ -89,18 +92,17 @@ print("index.html:", round(os.path.getsize(os.path.join(ROOT, "index.html")) / 1
 
 # downloads
 out = os.path.join(ROOT, "downloads"); os.makedirs(out, exist_ok=True)
-part = {"Iraq": "Başûr", "Syria": "Rojava", "Turkey": "Bakur", "Iran": "Rojhilat"}
+border = {"Iraq": "Iraqi state", "Syria": "Syrian state", "Turkey": "Turkish state", "Iran": "Iranian state"}
 who = {"Iraq-PMF": "Iraqi state (PMF)", "US": "US", "Israel": "Israel", "US-Israel": "US and Israel", "Turkey": "Turkish state",
        "Iran": "Iranian state", "Syria": "Syrian state", "Iraq": "Iraqi state"}
-cols = ["id", "date", "period", "part_of_kurdistan", "country", "governorate", "place", "place_ku", "place_ckb", "place_tr", "lat", "lon",
+cols = ["id", "date", "period", "within_state_borders", "governorate", "place", "place_ku", "place_ckb", "place_tr", "lat", "lon",
         "precision", "record_type", "attacker", "type_or_category", "killed", "injured", "civilians_harmed", "layer",
         "summary", "summary_ku", "summary_ckb", "summary_tr", "impact", "impact_ku", "impact_ckb", "impact_tr", "sources"]
 with open(os.path.join(out, "kurdistan-strike-map-records.csv"), "w", newline="", encoding="utf-8-sig") as f:
     w = csv.DictWriter(f, fieldnames=cols); w.writeheader()
     for d in sorted(rows, key=lambda d: d["date"]):
         eco = d["kind"] == "eco"
-        w.writerow({"id": d["uid"], "date": d["date"], "period": d.get("period", ""), "part_of_kurdistan": part.get(d["country"], ""),
-            "country": d["country"], "governorate": d.get("governorate", ""), "place": d["place"], "place_ku": d.get("place_ku", ""),
+        w.writerow({"id": d["uid"], "date": d["date"], "period": d.get("period", ""), "within_state_borders": border.get(d["country"], d["country"]), "governorate": d.get("governorate", ""), "place": d["place"], "place_ku": d.get("place_ku", ""),
             "place_ckb": d.get("place_ckb", ""), "place_tr": d.get("place_tr", ""), "lat": d["lat"], "lon": d["lon"],
             "precision": d.get("precision", ""), "record_type": "ecocide" if eco else "attack", "attacker": who.get(d.get("actor", ""), d.get("actor", "")),
             "type_or_category": d.get("category", "") if eco else d.get("type", ""),

@@ -3,7 +3,7 @@
   "date": "2019-10-09",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Rojava border strip (Serêkaniyê / Girê Spî)",
+  "place": "Border strip of Serêkaniyê / Girê Spî",
   "governorate": "Hasakah",
   "country": "Syria",
   "lat": 36.85,
@@ -27,7 +27,8 @@
     "url": "https://sterktv.eu/ji-30-parti-u-rexistinen-civaka-sivil-en-bakur-u-rojhilate-suriyeye-banga-berxwedane/"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "4eae624bfc"
  },
  {
   "date": "2019-10-12",
@@ -288,14 +289,15 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "summary": "Turkish warplanes and drones struck oil and gas fields east of Qamishli; the Suwaydiyah gas installation, NE Syria's only gas plant, was hit four times and production stopped.",
+  "summary": "Turkish warplanes and drones struck oil and gas fields east of Qamishli; the Suwaydiyah gas installation, the Autonomous Administration areas' only gas plant, was hit four times and production stopped.",
   "sources": [
    {
     "title": "North Press: Turkish airstrikes stop only gas installation in NE Syria",
     "url": "https://npasyria.com/en/?p=88032"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "8ced48b9ef"
  },
  {
   "date": "2022-11-23",
@@ -518,7 +520,7 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "summary": "After nine Turkish soldiers died in Iraq, Turkey struck NE Syria from 12 Jan 2024; the Kurdish administration said six power plants were hit (one twice in Qamishli on 15 Jan), leaving hundreds of villages without power and water stations out of service.",
+  "summary": "After nine Turkish soldiers died in Iraq, Turkey struck the Autonomous Administration areas from 12 Jan 2024; the Kurdish administration said six power plants were hit (one twice in Qamishli on 15 Jan), leaving hundreds of villages without power and water stations out of service.",
   "sources": [
    {
     "title": "Al-Monitor: Turkish strikes deprive hundreds of northeast Syria villages of power",
@@ -529,7 +531,8 @@
     "url": "https://www.hrw.org/news/2024/02/09/turkiyes-strikes-wreak-havoc-northeast-syria"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "2e5c90f7ae"
  },
  {
   "date": "2024-08-19",
@@ -544,20 +547,21 @@
   "killed": 1,
   "injured": 1,
   "civilian": null,
-  "summary": "A suspected Turkish drone strike in Qamishli killed one person and injured another (SOHR). SOHR counted 90 Turkish strikes in Rojava in 2024 by then, killing at least 29.",
+  "summary": "A suspected Turkish drone strike in Qamishli killed one person and injured another (SOHR). SOHR counted 90 Turkish strikes across the Syrian state border in 2024 by then, killing at least 29.",
   "sources": [
    {
     "title": "Rudaw: Turkish drone kills one in Qamishli – monitor",
     "url": "https://rudaw.net/english/middleeast/syria/19082024"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "a96f632571"
  },
  {
   "date": "2024-10-23",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Oil, energy, bakery and checkpoint sites across NE Syria",
+  "place": "Oil, energy, bakery and checkpoint sites across the Autonomous Administration areas",
   "governorate": "Hasakah",
   "country": "Syria",
   "lat": 37.052,
@@ -577,7 +581,8 @@
     "url": "https://hevdesti.org/en/?p=5031"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "b98ca90616"
  },
  {
   "date": "2024-10-24",
@@ -1080,7 +1085,7 @@
   "killed": 1,
   "injured": 2,
   "civilian": true,
-  "summary": "An alleged Turkish warplane strike killed a Syrian Kurdish journalist and injured at least two.",
+  "summary": "An alleged Turkish warplane strike killed a Kurdish journalist and injured at least two.",
   "sources": [
    {
     "title": "Airwars TS791 February 15 2025",
@@ -1091,7 +1096,8 @@
     "url": "https://english.anf-news.com/freedom-of-the-press/-77959"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "916651f099"
  },
  {
   "date": "2025-02-26",

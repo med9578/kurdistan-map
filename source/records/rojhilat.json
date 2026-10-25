@@ -516,7 +516,7 @@
   "date": "2022",
   "actor": "Iran",
   "type": "campaign",
-  "place": "Rojhilat: Kurdistan, Kermanshah and West Azerbaijan provinces",
+  "place": "Kurdistan, Kermanshah and West Azerbaijan provinces",
   "governorate": "Kurdistan",
   "country": "Iran",
   "lat": 35.312,
@@ -537,7 +537,8 @@
     "url": "https://www.iranintl.com/en/202610020675"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "c65a19d22a"
  },
  {
   "record": "attack",
@@ -854,14 +855,15 @@
   "injured": null,
   "civilian": false,
   "impact": null,
-  "summary": "ANF reported, citing the YRK (PJAK's armed wing), that Iranian forces attacked YRK positions near Merîwan with artillery and mortar fire, the start of the 2026 clashes in Rojhilat.",
+  "summary": "ANF reported, citing the YRK (PJAK's armed wing), that Iranian forces attacked YRK positions near Merîwan with artillery and mortar fire, the start of the 2026 clashes in Kurdistan.",
   "sources": [
    {
     "title": "ANF: YRK says its forces responded to an Iranian attack in Marivan",
     "url": "https://english.anf-news.com/kurdistan/yrk-our-forces-responded-to-an-iranian-attack-in-marivan-85816"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "7d728a4111"
  },
  {
   "record": "attack",
@@ -1277,8 +1279,8 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "impact": "Flow into the Kurdistan Region fell sharply; Halabja faced drinking-water shortages.",
-  "summary": "The state-owned Daryan dam in Hewraman, completed around 2018, holds back the Sîrwan and sends water through a tunnel of about 48 km to other parts of Iran. Rudaw reported Iraqi Kurdish officials saying the river sometimes stops flowing downstream, and a Niqash report described the flow dropping four metres during a test run.",
+  "impact": "Flow downstream fell sharply; Halabja faced drinking-water shortages.",
+  "summary": "The state-owned Daryan dam in Hewraman, completed around 2018, holds back the Sîrwan and sends water through a tunnel of about 48 km to other parts of Iran. Rudaw reported Kurdish officials saying the river sometimes stops flowing downstream, and a Niqash report described the flow dropping four metres during a test run.",
   "sources": [
    {
     "title": "Rudaw: Halabja to face water crisis next month: dam manager",
@@ -1293,7 +1295,8 @@
     "url": "https://en.wikipedia.org/wiki/Daryan_Dam"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "07d3d47e94"
  },
  {
   "record": "ecocide",

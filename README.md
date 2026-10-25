@@ -1,6 +1,6 @@
 # Kurdistan Strike Map · Nexşeya Êrîşan li ser Kurdistanê · نەخشەی هێرشەکان بۆ سەر کوردستان
 
-An interactive map of state attacks and ecocide across Kurdistan (Başûr, Rojava, Bakur, Rojhilat), in Kurmancî, Soranî (سۆرانی), Türkçe and English.
+An interactive map of state attacks and ecocide across Kurdistan, in Kurmancî, Soranî (سۆرانی), Türkçe and English.
 
 The whole map is one file, `index.html`. It includes the records, translations, base map and code. Open it in any browser.
 
