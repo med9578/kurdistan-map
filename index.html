@@ -211,14 +211,18 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .leaflet-control-zoom{border:1px solid var(--line)!important;border-radius:14px!important;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.4)!important}
 .leaflet-control-zoom a{background:var(--panel)!important;color:var(--ink)!important;border-color:var(--line)!important;backdrop-filter:var(--glass)}
 
-/* welcome */
-.hintcard{position:absolute;z-index:1000;left:50%;top:50%;transform:translate(-50%,-50%);width:min(460px,calc(100% - 24px));max-height:calc(100% - 24px);overflow-y:auto;padding:22px;border-radius:var(--r)}
-.hintcard h2{font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-.02em;margin:8px 0 10px}
-.hintcard p{margin:0 0 16px;font-size:15px;color:var(--ink)}
-.hintcard .big{display:block;width:100%;padding:14px;font-size:15px}
-.hintcard ol{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
-.hintcard li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:14px;line-height:1.4;color:var(--muted)}
-.hintcard li i{font-style:normal;color:var(--accent);text-align:center}
+/* period bar: sticky at the top so old and recent events are never mixed by accident */
+.periods{position:absolute;z-index:905;top:calc(12px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);max-width:calc(100% - 440px);display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-radius:999px;padding:4px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
+.periods::-webkit-scrollbar{display:none}
+.periods button{flex:none;border:0;background:none;border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.periods button.old{color:var(--ink);opacity:.8}
+.periods button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);opacity:1}
+.periods .sep{flex:none;width:1px;margin:7px 3px;background:var(--line)}
+dialog#about[open]{display:flex;flex-direction:column}
+#about .about{flex:1;min-height:0}
+.aboutgo{flex:none;padding:12px 26px 16px;border-top:1px solid var(--line)}
+.aboutgo p{margin:0 0 10px;font-size:13px;color:var(--muted)}
+.aboutgo .sbtn{display:block;width:100%;padding:14px;font-size:15px}
 
 /* about */
 dialog{border:1px solid var(--line);border-radius:var(--r);background:var(--panel-solid);color:var(--ink);padding:0;width:min(760px,calc(100% - 24px));max-height:calc(100% - 40px)}
@@ -234,13 +238,12 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 
 /* phone: the sheet rises from the bottom above the dock */
 @media (max-width:760px){
-  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 84px - env(safe-area-inset-top,0px));height:auto}
-  .sheet.tall{height:calc(100% - 84px - env(safe-area-inset-top,0px))}
+  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 128px - env(safe-area-inset-top,0px));height:auto}
+  .sheet.tall{height:calc(100% - 128px - env(safe-area-inset-top,0px))}
   .stats{grid-template-columns:1fr 1fr}
   .detail h2{font-size:24px}
   .leaflet-control-zoom,.leaflet-bottom.leaflet-left,.leaflet-control-attribution{display:none}
-  .hintcard{padding:18px}
-  .hintcard h2{font-size:24px}
+  .periods{top:calc(68px + env(safe-area-inset-top,0px));left:8px;right:8px;transform:none;max-width:none}
 }
 /* Sorani: Arabic script, right to left; letter-spacing would break the joined letters */
 :root[lang="ckb"]{--sans:"Noto Sans Arabic","Bricolage Grotesque",system-ui,sans-serif}
@@ -295,14 +298,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <button class="mi" data-tab="F" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span data-t="tabFilters"></span></button>
     <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg><span data-t="tabAbout"></span></button>
   </nav>
-
-  <section class="hintcard glass" id="hint" hidden role="dialog" aria-labelledby="wH">
-    <div class="eyebrow" data-t="wEb"></div>
-    <h2 id="wH" data-t="h1"></h2>
-    <p data-t="lede"></p>
-    <button class="sbtn go big" id="hintX" data-t="wExplore"></button>
-    <ol><li><i>●</i><span data-t="hint1"></span></li><li><i>◎</i><span data-t="nearHint"></span></li><li><i>?</i><span data-t="wKey3"></span></li></ol>
-  </section>
+  <div class="periods glass" id="periods" role="group" data-tl="period"></div>
 
   <dialog id="about" aria-labelledby="aboutH">
     <div class="about">
@@ -488,6 +484,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 </ul>
       </div>
     </div>
+    <div class="aboutgo"><p data-t="wKey3"></p><button class="sbtn go" id="aboutGo" data-t="wExplore"></button></div>
   </dialog>
 </div>
 
@@ -623,6 +620,10 @@ Object.assign(STR.ku, {"menu": "Menû", "wKey3": "Ji bo ku bizanî reng û wêne
 Object.assign(STR.ckb, {"menu": "لیست", "wKey3": "بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن، لە دوگمەی ☰ لە سەرەوەی لای چەپ بدە، دواتر «هێماکان چی دەڵێن؟»."});
 Object.assign(STR.tr, {"menu": "Menü", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için sol üstteki ☰ düğmesine, sonra «Semboller ne anlama geliyor?» seçeneğine dokun."});
 Object.assign(STR.en, {"menu": "Menu", "wKey3": "To see what the colours and icons mean, tap the ☰ button at the top left, then “What do the symbols mean?”."});
+Object.assign(STR.ku, {period:"Dem"});
+Object.assign(STR.ckb, {period:"ماوە"});
+Object.assign(STR.tr, {period:"Dönem"});
+Object.assign(STR.en, {period:"Period"});
 Object.assign(STR.ku, {"parts": "Li gorî sînorên dewletan", "part": "Kurdistan"});
 Object.assign(STR.ckb, {"parts": "بەپێی سنووری دەوڵەتان", "part": "کوردستان"});
 Object.assign(STR.tr, {"parts": "Devlet sınırlarına göre", "part": "Kürdistan"});
@@ -767,13 +768,16 @@ function sizeOf(d) {
 }
 const kindOf = d => d.layer === "Eco" ? T("c_" + d.category) : T("ty_" + d.type);
 
+/* periods: older events grouped by era, then one step per year; state.year is null (all), "H" (all before 2017), "1980-1999" or 2024 */
+const PERIODS = [[1925, 1979], [1980, 1999], [2000, 2016]];
+const yRange = y => y === "H" ? [0, Y0 - 1] : typeof y === "string" ? y.split("-").map(Number) : [y, y];
 function matches(d, ignoreYear) {
   if (!state.on[d.layer + "|" + d.sub]) return false;
   if (state.only && d.layer !== state.only) return false;
   if (state.kind && kindGroup(d) !== state.kind) return false;
   if (!state.parts.has(d.country)) return false;
   if (d.hist && !state.hist) return false;
-  if (!ignoreYear && state.year != null && (state.year === "H" ? !d.hist : (d.hist || d.year !== state.year))) return false;
+  if (!ignoreYear && state.year != null) { const [a, b] = yRange(state.year); if (d.year < a || d.year > b) return false; }
   if (state.month && (d.hist || mkey(d) > state.month)) return false;
   if (state.civ && d.civilian !== true) return false;
   if (state.q) {
@@ -862,12 +866,12 @@ map.on("zoomend", syncLabels);
 
 const acledLayer = L.layerGroup().addTo(map);
 function acledCount(a) {
-  const ys = Object.entries(a.years).filter(([y]) => state.month ? +y <= +state.month.slice(0, 4) : state.year == null || state.year === "H" || +y === state.year);
+  const ys = Object.entries(a.years).filter(([y]) => state.month ? +y <= +state.month.slice(0, 4) : state.year == null || (+y >= yRange(state.year)[0] && +y <= yRange(state.year)[1]));
   return ys.reduce((s, [, v]) => ({n:s.n + v.air + v.shell, f:s.f + v.fat}), {n:0, f:0});
 }
 function renderAcled() {
   acledLayer.clearLayers();
-  if (!state.acled || state.year === "H") return;
+  if (!state.acled || (state.year != null && yRange(state.year)[1] < Y0)) return;
   ACLED.forEach(a => {
     if (!state.parts.has(a.country)) return;
     const c = acledCount(a); if (!c.n) return;
@@ -984,12 +988,12 @@ function renderBars() {
   const max = Math.max(1, ...keys.filter(k => k !== "H").map(k => tot(counts[k])));
   document.getElementById("bars").innerHTML = keys.map(y => {
     const cy = state.month ? +state.month.slice(0, 4) : state.year;
-    const c = counts[y], cur = cy === y, dim = state.month ? y === "H" || y > cy : state.year != null && !cur;
+    const c = counts[y], cur = cy === y || (y === "H" && typeof state.year === "string"), dim = state.month ? y === "H" || y > cy : state.year != null && !cur;
     const seg = k => c[k] ? `<i style="height:${Math.min(1, c[k] / max) * 100}%;background:var(${ACTORS[k].v})${y === "H" ? ";opacity:.55" : ""}"></i>` : "";
     const title = `${y === "H" ? T("histShort") : y}: ` + L.filter(l => c[l]).map(l => `${c[l]} ${ACTORS[l].label}`).join(", ");
     return `<button class="${dim ? "dim" : ""} ${cur ? "cur" : ""}" data-year="${y}" aria-pressed="${cur}" title="${esc(title)}"><span class="stk">${L.map(seg).join("")}</span><span class="y">${y === "H" ? T("histBar") : String(y).slice(2)}</span></button>`;
   }).join("");
-  document.getElementById("yrLbl").textContent = state.month ? `${T("months")[+state.month.slice(5) - 1]} ${state.month.slice(0, 4)}` : state.year === "H" ? T("histShort") : state.year ?? `${state.hist ? Math.min(...DATA.filter(d => d.hist).map(d => d.year)) : Y0}–${String(Y1).slice(2)}`;
+  document.getElementById("yrLbl").textContent = state.month ? `${T("months")[+state.month.slice(5) - 1]} ${state.month.slice(0, 4)}` : state.year === "H" ? T("histShort") : typeof state.year === "string" ? state.year.replace("-", "–") : state.year ?? `${state.hist ? Math.min(...DATA.filter(d => d.hist).map(d => d.year)) : Y0}–${String(Y1).slice(2)}`;
 }
 
 function renderList(rows) {
@@ -1011,7 +1015,15 @@ function render() {
   document.getElementById("sK").textContent = fmt(strikes.filter(d => d.type !== "campaign").reduce((s, d) => s + (d.killed || 0), 0));
   document.getElementById("sC").textContent = fmt(strikes.filter(d => d.civilian === true).length);
   document.getElementById("sE").textContent = fmt(rows.length - strikes.length);
-  renderBars(); renderList(rows); renderAcled();
+  renderBars(); renderPeriods(); renderList(rows); renderAcled();
+}
+
+function renderPeriods() {
+  const el = document.getElementById("periods"), b = (v, t, cls) => `<button class="${cls}" data-period="${v}" aria-pressed="${String(state.year ?? "") === String(v)}">${t}</button>`;
+  const ys = []; for (let y = Y0; y <= Y1; y++) ys.push(y);
+  el.innerHTML = b("", T("all"), "") + `<span class="sep"></span>` + PERIODS.map(([a, z]) => b(`${a}-${z}`, `${a}–${String(z).slice(2)}`, "old")).join("") + `<span class="sep"></span>` + ys.map(y => b(y, y, "")).join("");
+  const on = el.querySelector('[aria-pressed="true"]');
+  if (on && el.scrollWidth > el.clientWidth) el.scrollLeft = on.offsetLeft - (el.clientWidth - on.offsetWidth) / 2;
 }
 
 function showPane(p) {
@@ -1089,6 +1101,14 @@ document.addEventListener("click", e => {
   const pt = e.target.closest("[data-part]");
   if (pt) { const k = pt.dataset.part; state.parts.has(k) ? state.parts.delete(k) : state.parts.add(k); pt.setAttribute("aria-pressed", state.parts.has(k)); render(); return; }
   const yb = e.target.closest("[data-year]");
+  const pb = e.target.closest("[data-period]");
+  if (pb) {
+    stopPlay(); select(null);
+    const v = pb.dataset.period, y = v === "" ? null : v.includes("-") ? v : +v;
+    state.year = state.year === y ? null : y;
+    if (state.year != null && yRange(state.year)[1] < Y0 && !state.hist) { state.hist = true; renderLegend(); }
+    render(); return;
+  }
   if (yb) { stopPlay(); const y = yb.dataset.year === "H" ? "H" : +yb.dataset.year; state.year = state.year === y ? null : y; render(); return; }
   const ms = e.target.closest("[data-mapstyle]");
   if (ms) { MAPSTYLE = ms.dataset.mapstyle; try { localStorage.setItem("ksm-mapstyle2", MAPSTYLE); } catch (e) {} drawBase(); applyStatic(); return; }
@@ -1194,11 +1214,9 @@ function boot() { renderKeyIcons(); applyStatic(); showPane(null); drawBase(); r
 boot();
 openFromHash();
 { let s = null; try { s = localStorage.getItem("ksm-keyseen"); } catch (e) {} if (!s) document.getElementById("menuBtn").classList.add("nudge"); }
-{ let seen = null; try { seen = localStorage.getItem("ksm-welcome"); } catch (e) {}
-  const hint = document.getElementById("hint"), close = () => { hint.hidden = true; try { localStorage.setItem("ksm-welcome", "1"); } catch (e) {} };
-  if (!seen && !location.hash) hint.hidden = false;
-  document.getElementById("hintX").onclick = close;
-  map.on("click", close); }
+/* the About box opens on every visit, so nobody lands on the map without knowing what it shows; a link to one record skips it */
+document.getElementById("aboutGo").onclick = () => dlg.close();
+if (!location.hash.startsWith("#r-")) dlg.showModal();
 const rethemed = () => { const s = state.sel; state.sel = null; drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); if (s != null) select(s, false); if (nearCircle) nearCircle.setStyle({color:css("--accent"), fillColor:css("--accent")}); };
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", rethemed);
 document.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => {
