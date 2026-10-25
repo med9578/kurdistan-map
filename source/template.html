@@ -210,6 +210,16 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .periods button.old{color:var(--ink);opacity:.8}
 .periods button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);opacity:1}
 .periods .sep{flex:none;width:1px;margin:7px 3px;background:var(--line)}
+#intro{width:min(440px,calc(100% - 24px))}
+.intro{padding:24px 24px 18px}
+.intro h2{font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-.02em;margin:0 0 12px}
+.intro p{margin:0 0 10px;font-size:15.5px;line-height:1.5}
+.intro p.m{color:var(--muted);font-size:14px}
+.intro ol{list-style:none;margin:14px 0 18px;padding:14px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+.intro li{display:grid;grid-template-columns:24px 1fr;gap:8px;font-size:14.5px;line-height:1.4}
+.intro li i{font-style:normal;color:var(--accent);text-align:center}
+.intro .go{display:block;width:100%;padding:14px;font-size:15px}
+.intro .more{display:block;margin:10px auto 0;border:0;background:none;color:var(--muted);font-size:13.5px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
 dialog#about[open]{display:flex;flex-direction:column}
 #about .about{flex:1;min-height:0}
 .aboutgo{flex:none;padding:12px 26px 16px;border-top:1px solid var(--line)}
@@ -289,6 +299,17 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg><span data-t="tabAbout"></span></button>
   </nav>
   <div class="periods glass" id="periods" role="group" data-tl="period"></div>
+
+  <dialog id="intro" aria-labelledby="introH">
+    <div class="intro">
+      <h2 id="introH" data-t="h1"></h2>
+      <p data-t="intro1"></p>
+      <p class="m" data-t="intro2"></p>
+      <ol><li><i>●</i><span data-t="introTap"></span></li><li><i>⏱</i><span data-t="introYears"></span></li><li><i>☰</i><span data-t="introKey"></span></li></ol>
+      <button class="sbtn go" id="introGo" data-t="wExplore"></button>
+      <button class="more" id="introMore" data-t="introMore"></button>
+    </div>
+  </dialog>
 
   <dialog id="about" aria-labelledby="aboutH">
     <div class="about">
@@ -556,6 +577,10 @@ Object.assign(STR.ckb, {"menu": "لیست", "wKey3": "بۆ ئەوەی بزانی
 Object.assign(STR.tr, {"menu": "Menü", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için sol üstteki ☰ düğmesine, sonra «Semboller ne anlama geliyor?» seçeneğine dokun."});
 Object.assign(STR.en, {"menu": "Menu", "wKey3": "To see what the colours and icons mean, tap the ☰ button at the top left, then “What do the symbols mean?”."});
 Object.assign(STR.ku, {period:"Dem"});
+Object.assign(STR.ku, {intro1:"Ev nexşe êrîşên dewletan li ser Kurdistanê nîşan dide: êrîşên dronan, bombebaran, topbaran û kuştina kolberan li ser sînor, û daristan, zevî û avên ku hatine wêrankirin. Ji îro heta 1925an vedigere.", intro2:"Her xal bûyereke rastîn e ku rojnamevanên Kurd û rêxistinên mafên mirovan ragihandine, bi girêdana çavkaniyê.", introTap:"Li xalekê bitikîne da ku bibînî çi qewimî.", introYears:"Bi salên li jor demekê hilbijêre.", introKey:"Li ☰ bitikîne da ku bizanî reng û wêne çi dibêjin.", introMore:"Zêdetir derbarê nexşeyê de"});
+Object.assign(STR.ckb, {intro1:"ئەم نەخشەیە هێرشەکانی دەوڵەتان بۆ سەر کوردستان نیشان دەدات: هێرشی درۆن، بۆمبباران، تۆپباران و کوشتنی کۆڵبەران لەسەر سنوور، هەروەها ئەو دارستان و کێڵگە و ئاوانەی وێران کراون. لە ئەمڕۆوە تا ساڵی 1925 دەگەڕێتەوە.", intro2:"هەر خاڵێک ڕووداوێکی ڕاستەقینەیە کە ڕۆژنامەنووسانی کورد و ڕێکخراوەکانی مافی مرۆڤ ڕاپۆرتیان کردووە، لەگەڵ بەستەری سەرچاوەکەی.", introTap:"لە خاڵێک بدە بۆ ئەوەی ببینیت چی ڕوویداوە.", introYears:"لە ساڵەکانی سەرەوە ماوەیەک هەڵبژێرە.", introKey:"لە ☰ بدە بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن.", introMore:"زیاتر دەربارەی نەخشەکە"});
+Object.assign(STR.tr, {intro1:"Bu harita devletlerin Kürdistan'a yönelik saldırılarını gösteriyor: SİHA saldırıları, bombardımanlar, topçu atışları ve sınırda öldürülen kolberler; ayrıca yok edilen ormanlar, tarlalar ve sular. Bugünden 1925'e kadar uzanıyor.", intro2:"Her nokta, Kürt gazetecilerin ve insan hakları örgütlerinin aktardığı gerçek bir olay; her birinde kaynağın bağlantısı var.", introTap:"Ne olduğunu görmek için bir noktaya dokun.", introYears:"Üstteki yıllardan bir dönem seç.", introKey:"Renklerin ve simgelerin anlamı için ☰ düğmesine dokun.", introMore:"Harita hakkında daha fazlası"});
+Object.assign(STR.en, {intro1:"This map shows state attacks on Kurdistan: drone strikes, bombing, shelling and the killing of kolbars at the border, and the forests, fields and water destroyed with them. It covers today and reaches back to 1925.", intro2:"Every point is a real event reported by Kurdish journalists and human rights groups, with a link to the source.", introTap:"Tap a point to see what happened.", introYears:"Use the years at the top to pick a period.", introKey:"Tap ☰ to see what the colours and icons mean.", introMore:"More about this map"});
 Object.assign(STR.ckb, {period:"ماوە"});
 Object.assign(STR.tr, {period:"Dönem"});
 Object.assign(STR.en, {period:"Period"});
@@ -1149,9 +1174,13 @@ function boot() { renderKeyIcons(); applyStatic(); showPane(null); drawBase(); r
 boot();
 openFromHash();
 { let s = null; try { s = localStorage.getItem("ksm-keyseen"); } catch (e) {} if (!s) document.getElementById("menuBtn").classList.add("nudge"); }
-/* the About box opens on every visit, so nobody lands on the map without knowing what it shows; a link to one record skips it */
+/* a short welcome opens on every visit, so nobody lands on the map without knowing what it shows; a link to one record skips it */
 document.getElementById("aboutGo").onclick = () => dlg.close();
-if (!location.hash.startsWith("#r-")) dlg.showModal();
+const intro = document.getElementById("intro");
+document.getElementById("introGo").onclick = () => intro.close();
+document.getElementById("introMore").onclick = () => { intro.close(); dlg.showModal(); };
+intro.addEventListener("click", e => { if (e.target === intro) intro.close(); });
+if (!location.hash.startsWith("#r-")) intro.showModal();
 const rethemed = () => { const s = state.sel; state.sel = null; drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); if (s != null) select(s, false); if (nearCircle) nearCircle.setStyle({color:css("--accent"), fillColor:css("--accent")}); };
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", rethemed);
 document.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => {
