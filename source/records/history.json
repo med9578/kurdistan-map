@@ -194,7 +194,7 @@
   "period": "1992–1999",
   "actor": "Turkey",
   "category": "land",
-  "place": "Villages across Bakur (representative: Kulp–Lice area)",
+  "place": "Villages across Kurdistan (representative: Kulp–Lice area)",
   "governorate": "Diyarbakır, Şırnak, Hakkari, Tunceli, Mardin, Siirt, Bingöl and others",
   "country": "Turkey",
   "lat": 38.4,
@@ -204,7 +204,7 @@
   "injured": null,
   "civilian": true,
   "impact": "Interior minister: 2,215 villages and hamlets evacuated by 1994; 3,000+ by the late 1990s; hundreds of thousands displaced",
-  "summary": "Turkish security forces forcibly evacuated and burned Kurdish villages and hamlets across Bakur, destroying homes, crops, orchards and forests. The interior minister acknowledged 2,215 villages and hamlets evacuated by late 1994, later totals exceeded 3,000, and the European Court of Human Rights found Turkey responsible in Akdivar v. Turkey (1996) and many later cases.",
+  "summary": "Turkish security forces forcibly evacuated and burned Kurdish villages and hamlets across Kurdistan, destroying homes, crops, orchards and forests. The interior minister acknowledged 2,215 villages and hamlets evacuated by late 1994, later totals exceeded 3,000, and the European Court of Human Rights found Turkey responsible in Akdivar v. Turkey (1996) and many later cases.",
   "sources": [
    {
     "title": "Human Rights Watch/Helsinki: Turkey – Forced displacement of ethnic Kurds from southeastern Turkey (Oct 1994)",
@@ -219,7 +219,8 @@
     "url": "https://www.hrw.org/legacy/backgrounder/eca/turkey1206/2.htm"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "0ef94b953d"
  },
  {
   "record": "attack",
@@ -482,7 +483,7 @@
   "injured": 3,
   "civilian": true,
   "impact": null,
-  "summary": "Turkish F-16 jets, acting on drone footage, bombed 37 villagers from Roboskî and Bujeh as they crossed back from Başûr with mules, killing 34 of them, 17 of whom were children. A military prosecutor called it an 'unavoidable error', and no one was prosecuted.",
+  "summary": "Turkish F-16 jets, acting on drone footage, bombed 37 villagers from Roboskî and Bujeh as they crossed back over the Iraqi–Turkish state border with mules, killing 34 of them, 17 of whom were children. A military prosecutor called it an 'unavoidable error', and no one was prosecuted.",
   "sources": [
    {
     "title": "Human Rights Watch: Turkey – No Justice for Airstrike Victims (2012)",
@@ -493,7 +494,8 @@
     "url": "https://www.hrw.org/news/2014/01/07/dispatches-impunity-and-cover-turkey"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "eab7530a41"
  },
  {
   "record": "attack",
@@ -844,7 +846,7 @@
   "period": "Aug 1979 – 1983",
   "actor": "Iran",
   "type": "campaign",
-  "place": "Pawe (Paveh), Sine, Mehabad and Rojhilat generally",
+  "place": "Pawe (Paveh), Sine, Mehabad and Kurdistan generally",
   "governorate": "Kermanshah / Kurdistan / West Azerbaijan",
   "country": "Iran",
   "lat": 35.044,
@@ -869,7 +871,8 @@
     "url": "https://en.wikipedia.org/wiki/1979_Kurdish_rebellion_in_Iran"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "1297967b23"
  },
  {
   "record": "attack",
@@ -1012,14 +1015,15 @@
   "injured": null,
   "civilian": true,
   "impact": "51–64 villages burned, destroyed or severely damaged",
-  "summary": "KGNA's study of Iranian state repression in Rojhilat records 51–64 Kurdish villages burned, destroyed or severely damaged by Iranian forces between 1979 and 1987, with Hewşar and Nexede among the hardest-hit districts.",
+  "summary": "KGNA's study of Iranian state repression in Kurdistan records 51–64 Kurdish villages burned, destroyed or severely damaged by Iranian forces between 1979 and 1987, with Hewşar and Nexede among the hardest-hit districts.",
   "sources": [
    {
     "title": "KGNA: Massacres in Eastern Kurdistan 1979-1987",
     "url": "https://kgna.krd/18407/"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "a6cc22c710"
  },
  {
   "record": "attack",
@@ -1064,7 +1068,7 @@
   "injured": null,
   "civilian": null,
   "impact": null,
-  "summary": "About 3,000 Revolutionary Guards crossed into Başûr in more than 100 vehicles to attack KDPI camps around Koye, occupied Heybet Sultan mountain and shelled civilian areas of Koye and Taqtaq, according to a letter from Iraq to the UN Security Council. No casualty count is established.",
+  "summary": "About 3,000 Revolutionary Guards crossed the Iranian–Iraqi state border in more than 100 vehicles to attack KDPI camps around Koye, occupied Heybet Sultan mountain and shelled civilian areas of Koye and Taqtaq, according to a letter from Iraq to the UN Security Council. No casualty count is established.",
   "sources": [
    {
     "title": "UN Security Council document S/1996/617",
@@ -1079,7 +1083,8 @@
     "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "336ad01d8d"
  },
  {
   "record": "attack",
@@ -1098,7 +1103,7 @@
   "injured": 11,
   "civilian": true,
   "impact": "About 1,350 families (8,000 people) displaced; farmland damaged",
-  "summary": "Iranian Revolutionary Guards shelled and rocketed Kurdish border villages around Sîdekan and Qendîl during an offensive against PJAK, killing at least three Iraqi Kurdish civilians and wounding 11 by late July. Human Rights Watch reported that Iranian and Turkish attacks displaced about 8,000 people between July and November 2011.",
+  "summary": "Iranian Revolutionary Guards shelled and rocketed Kurdish border villages around Sîdekan and Qendîl during an offensive against PJAK, killing at least three Kurdish civilians and wounding 11 by late July. Human Rights Watch reported that Iranian and Turkish attacks displaced about 8,000 people between July and November 2011.",
   "sources": [
    {
     "title": "Human Rights Watch: Iran/Turkey – Recent attacks on civilians in Iraqi Kurdistan (Dec 2011)",
@@ -1113,7 +1118,8 @@
     "url": "https://www.institutkurde.org/en/info/latest/hundreds-displaced-by-iran-iraq-kurd-clashes-icrc-2708/"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "a94b8c81a4"
  },
  {
   "record": "attack",
@@ -1430,14 +1436,15 @@
   "injured": 373,
   "civilian": true,
   "impact": null,
-  "summary": "Eight Iraqi warplanes bombed the Ziwa camp for Kurdish refugees from Başûr inside Iran, as students gathered for exam results. KGNA records 150 killed, including pregnant women and infants, and 373 injured; the camp was bombed nine times during the war.",
+  "summary": "Eight Iraqi warplanes bombed the Ziwa camp inside Iran for Kurdish refugees who had fled the Iraqi state, as students gathered for exam results. KGNA records 150 killed, including pregnant women and infants, and 373 injured; the camp was bombed nine times during the war.",
   "sources": [
    {
     "title": "KGNA: The crime of bombardment of the Ziwa camp – 1985",
     "url": "https://kgna.krd/11318/"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "63413d4376"
  },
  {
   "record": "attack",
@@ -1570,7 +1577,7 @@
   "period": "23 Feb – 6 Sept 1988 (with 1987–1989 related operations)",
   "actor": "Iraq",
   "type": "campaign",
-  "place": "Başûr rural areas (representative: Germiyan / Silêmanî)",
+  "place": "Rural Kurdistan (representative: Germiyan / Silêmanî)",
   "governorate": "Sulaymaniyah, Kirkuk, Erbil, Duhok",
   "country": "Iraq",
   "lat": 35.3,
@@ -1611,7 +1618,8 @@
     "url": "https://www.aljazeera.com/indepth/features/2014/04/iraq-kurds-press-states-recognise-genocide-anfal-201441371637191288.html"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "2e1bb9ac9a"
  },
  {
   "record": "attack",
@@ -2068,7 +2076,7 @@
   "period": "1987–1989",
   "actor": "Iraq",
   "category": "agriculture",
-  "place": "Rural Başûr (representative: Germiyan plain)",
+  "place": "Rural Kurdistan (representative: Germiyan plain)",
   "governorate": "Sulaymaniyah, Kirkuk, Erbil, Duhok",
   "country": "Iraq",
   "lat": 35.4,
@@ -2101,7 +2109,8 @@
     "url": "https://kurdistanmemoryprogramme.com/the-kurdish-village-that-rose-from-the-dead/"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "e2525e39e6"
  },
  {
   "record": "ecocide",
@@ -2136,7 +2145,7 @@
   "period": "March – April 1991",
   "actor": "Iraq",
   "type": "campaign",
-  "place": "Kerkûk (Kirkuk) and Başûr cities; mass exodus to Turkish and Iranian borders",
+  "place": "Kerkûk (Kirkuk) and other Kurdish cities; mass exodus to Turkish and Iranian borders",
   "governorate": "Kirkuk / Sulaymaniyah / Erbil / Duhok",
   "country": "Iraq",
   "lat": 35.468,
@@ -2161,7 +2170,8 @@
     "url": "https://kurdistanmemoryprogramme.com/caught-in-those-blizzards-parents-had-no-choice-but-to-abandon-their-children/"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "03886c3e52"
  },
  {
   "record": "ecocide",
@@ -2218,7 +2228,7 @@
   "injured": null,
   "civilian": true,
   "impact": "About 120,000 Kurds stripped of citizenship; barred from owning land and property",
-  "summary": "Under Decree 93, a special census in Hesekê province stripped about 120,000 Syrian Kurds (20% of Syrian Kurds at the time) of citizenship, leaving them stateless and unable to own land, property or businesses. Human Rights Watch describes it as part of a plan to Arabise the resource-rich northeast.",
+  "summary": "Under Decree 93, a special census in Hesekê province stripped about 120,000 Kurds (20% of Kurds within Syrian state borders at the time) of citizenship, leaving them stateless and unable to own land, property or businesses. Human Rights Watch describes it as part of a plan to Arabise the resource-rich northeast.",
   "sources": [
    {
     "title": "Human Rights Watch: Syria – The Silenced Kurds (1996)",
@@ -2229,7 +2239,8 @@
     "url": "https://kurdistanmemoryprogramme.com/history-of-the-kurds/"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "90cc4bc4c2"
  },
  {
   "record": "ecocide",

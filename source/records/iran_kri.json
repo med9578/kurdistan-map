@@ -250,7 +250,7 @@
   "killed": 13,
   "injured": 58,
   "civilian": true,
-  "summary": "The IRGC launched dozens of ballistic missiles and suicide drones at Iranian Kurdish party sites in Koya, Zrgwez, Altun Kupri/Pirde and elsewhere. Kurdish counter-terrorism officials said 13 people were killed (Airwars: 13-18) and 58 wounded, mostly civilians; in Koya a refugee-settlement school was hit and pregnant Rehana Kanaani and her newborn son died. The totals cover all 28 Sept sites.",
+  "summary": "The IRGC launched dozens of ballistic missiles and suicide drones at sites of Kurdish parties opposed to the Iranian state in Koya, Zrgwez, Altun Kupri/Pirde and elsewhere. Kurdish counter-terrorism officials said 13 people were killed (Airwars: 13-18) and 58 wounded, mostly civilians; in Koya a refugee-settlement school was hit and pregnant Rehana Kanaani and her newborn son died. The totals cover all 28 Sept sites.",
   "sources": [
    {
     "title": "Airwars - Civilian casualties, Iranian strikes 28 Sept 2022 (IRI004)",
@@ -269,7 +269,8 @@
     "url": "https://english.anf-news.com/kurdistan/-62752"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "37c469affb"
  },
  {
   "date": "2022-09-28",
@@ -284,7 +285,7 @@
   "killed": 0,
   "injured": null,
   "civilian": null,
-  "summary": "Komala said about 10 drones and missiles hit its offices in a complex housing Iranian Kurdish refugees, destroying a building. A Komala member told HRW no one was killed there; several members had shrapnel wounds. Casualties are counted in the 28 Sept Koya entry.",
+  "summary": "Komala said about 10 drones and missiles hit its offices in a complex housing Kurdish refugees from Iran, destroying a building. A Komala member told HRW no one was killed there; several members had shrapnel wounds. Casualties are counted in the 28 Sept Koya entry.",
   "sources": [
    {
     "title": "Human Rights Watch (via ecoi.net) - Iraq: Iran Attacks Kill Civilians in Kurdistan Region",
@@ -295,7 +296,8 @@
     "url": "https://airwars.org/?p=85489"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "7143ee637c"
  },
  {
   "date": "2022-09-28",
@@ -558,14 +560,15 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "summary": "Iranian drones and missiles hit headquarters of four Iranian Kurdish parties (PDKI, PAK, Komala and others) across the Kurdistan Region, including PDKI sites in Koya and Komala HQ in Zargwez. The PDKI said none of its members were killed.",
+  "summary": "Iranian drones and missiles hit headquarters of four Kurdish parties opposed to the Iranian state (PDKI, PAK, Komala and others) across Kurdistan, including PDKI sites in Koya and Komala HQ in Zargwez. The PDKI said none of its members were killed.",
   "sources": [
    {
     "title": "FDD Long War Journal - Kurdish Iranian opposition groups say Iran targeted them in northern Iraq",
     "url": "https://www.longwarjournal.org/archives/2026/03/kurdish-iranian-opposition-groups-say-iran-targeted-them-in-northern-iraq-claim-operations-in-iran.php"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "f83164d84d"
  },
  {
   "date": "2026-03-03",
@@ -906,7 +909,7 @@
   "killed": 0,
   "injured": 0,
   "civilian": true,
-  "summary": "Two drones hit the Azadi camp, which houses Iranian Kurdish opposition members and families; Rudaw reports it was struck again by five drones in early May, causing only material damage.",
+  "summary": "Two drones hit the Azadi camp, which houses Kurdish members of the opposition to the Iranian state and families; Rudaw reports it was struck again by five drones in early May, causing only material damage.",
   "sources": [
    {
     "title": "Rudaw - Iran strikes Kurdish opposition group in Kurdistan Region of Iraq",
@@ -921,7 +924,8 @@
     "url": "https://nucetv.net/kampa-surdase-careke-din-rasti-erisen-dewleta-irane-hat"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "07ec004bdc"
  },
  {
   "date": "2026-05-05",
@@ -988,20 +992,21 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "summary": "The IRGC hit a PAK camp near Erbil with two ballistic missiles and two drones, and struck camps of at least two other Iranian Kurdish parties within 48 hours (1-2 July). Casualties at the PAK camp were not stated.",
+  "summary": "The IRGC hit a PAK camp near Erbil with two ballistic missiles and two drones, and struck camps of at least two other Kurdish parties opposed to the Iranian state within 48 hours (1-2 July). Casualties at the PAK camp were not stated.",
   "sources": [
    {
     "title": "France 24 - Iran launches drone, missile attacks on dissident bases in Iraqi Kurdistan",
     "url": "https://www.france24.com/en/middle-east/20260713-iran-launches-drone-missile-attacks-kurdish-dissident-bases-iraq"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "1e68b6f878"
  },
  {
   "date": "2026-07-13",
   "actor": "Iran",
   "type": "drone",
-  "place": "Iranian Kurdish refugee camp, Darashakran, Khabat District",
+  "place": "Camp for Kurdish refugees from Iran, Darashakran, Khabat District",
   "governorate": "Erbil",
   "country": "Iraq",
   "lat": 36.4,
@@ -1010,7 +1015,7 @@
   "killed": 0,
   "injured": 0,
   "civilian": true,
-  "summary": "Three drones struck an Iranian Kurdish refugee camp in Darashakran; no casualties were reported.",
+  "summary": "Three drones struck a camp for Kurdish refugees from Iran in Darashakran; no casualties were reported.",
   "sources": [
    {
     "title": "Shafaq News - Drones strike Iranian refugee camp in Erbil",
@@ -1021,7 +1026,8 @@
     "url": "https://nucetv.net/irane-disa-erisi-baregeha-pake-kir"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "5e91e98845"
  },
  {
   "date": "2026-07-17",
@@ -1193,7 +1199,7 @@
   "date": "2026-10-08",
   "actor": "Iran",
   "type": "drone",
-  "place": "Complex housing Iranian Kurdish refugee families, Khabat District",
+  "place": "Complex housing Kurdish refugee families from Iran, Khabat District",
   "governorate": "Erbil",
   "country": "Iraq",
   "lat": 36.27,
@@ -1213,7 +1219,8 @@
     "url": "https://nucetv.net/bi-dronan-erisi-baregeha-sazmana-xebate-ya-li-hewlere-hat-kirin"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "d354b948b9"
  },
  {
   "date": "2026-10-12",

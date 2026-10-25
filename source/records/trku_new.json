@@ -172,7 +172,7 @@
   "date": "2017-06-22",
   "actor": "Iran",
   "type": "border shooting",
-  "place": "Rojhilat–Bakur border near Ûrmiye (Urmia)",
+  "place": "Iranian–Turkish state border near Ûrmiye (Urmia)",
   "governorate": "West Azerbaijan",
   "country": "Iran",
   "lat": 37.548,
@@ -189,7 +189,8 @@
     "url": "https://kurmanci.anf-news.com/kurdistan/rejima-Irane-kurdek-din-ji-qetil-kir-82361"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "975eee14cd"
  },
  {
   "record": "ecocide",
@@ -1322,14 +1323,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF reported that the Iranian army killed kolber Meysem Kerîm Elî at Kanî Xumare village near Kelaşîn in Sîdekan, Başûr, and that IRGC forces did not allow his body to be taken to Rojhilat; another kolber was seriously wounded the night before.",
+  "summary": "ANF reported that the Iranian army killed kolber Meysem Kerîm Elî at Kanî Xumare village near Kelaşîn in Sîdekan, and that IRGC forces did not allow his body to be taken back across the Iraqi–Iranian state border; another kolber was seriously wounded the night before.",
   "sources": [
    {
     "title": "Îranê kolberekî din qetil kir",
     "url": "https://kurmanci.anf-news.com/kurdistan/Irane-kolbereki-din-qetil-kir-97369"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "94c7614232"
  },
  {
   "record": "attack",
@@ -1346,14 +1348,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF reported that IRGC forces fired on kolbers crossing the border from Mêşero village and killed Kamîl Mûradî (26) from Soraw village in Rojhilat; his body was left for hours before police took it to Silêmanî, the Penjwen district head said.",
+  "summary": "ANF reported that IRGC forces fired on kolbers crossing the border from Mêşero village and killed Kamîl Mûradî (26) from Soraw village; his body was left for hours before police took it to Silêmanî, the Penjwen district head said.",
   "sources": [
    {
     "title": "Rejîma Îranê kolberekî din kuşt",
     "url": "https://kurmanci.anf-news.com/kurdistan/rejima-Irane-kolbereki-din-kust-97857"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "e7d7d1c83f"
  },
  {
   "record": "attack",
@@ -1408,7 +1411,7 @@
   "date": "2018-07-02",
   "actor": "Turkey",
   "category": "forest fire",
-  "place": "Forests between Rûbarok (Derecik) and the Başûr border, Şemzînan (Şemdinli)",
+  "place": "Forests between Rûbarok (Derecik) and the Turkish–Iraqi state border, Şemzînan (Şemdinli)",
   "governorate": "Hakkari",
   "country": "Turkey",
   "lat": 37.307,
@@ -1418,14 +1421,15 @@
   "injured": null,
   "civilian": null,
   "impact": "thousands of hectares of forest burned",
-  "summary": "ANF reported that Turkish soldiers deliberately set forest fires at many points between Rûbarok (Derecik) and the Başûr border in Şemzînan, burning thousands of hectares and killing wildlife.",
+  "summary": "ANF reported that Turkish soldiers deliberately set forest fires at many points between Rûbarok (Derecik) and the Turkish–Iraqi state border in Şemzînan, burning thousands of hectares and killing wildlife.",
   "sources": [
    {
     "title": "Devlet, Şemdinli’de 'hilal' çizerek orman yakıyor",
     "url": "https://anf-news.com/toplum-ekolojI/devlet-Semdinli-de-hilal-cizerek-orman-yakiyor-110277"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "1f7ce96046"
  },
  {
   "record": "ecocide",
@@ -1854,14 +1858,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Kolbernews, reported that Iranian state forces attacked kolbers on the Çaldiran border with Bakur and killed Nîmet Şehbaz Heyderan (30), a father of two from Îsa Gulêkî village.",
+  "summary": "ANF, citing Kolbernews, reported that Iranian state forces attacked kolbers on the Çaldiran section of the Iranian–Turkish state border and killed Nîmet Şehbaz Heyderan (30), a father of two from Îsa Gulêkî village.",
   "sources": [
    {
     "title": "Hêzên rejîma Îranê kolberek dî jî kuşt",
     "url": "https://kurmanci.anf-news.com/kurdistan/hezen-rejima-Irane-kolberek-di-ji-kust-102427"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "55fff4d2c6"
  },
  {
   "record": "ecocide",
@@ -2060,7 +2065,7 @@
   "date": "2018-11-08",
   "actor": "Iran",
   "type": "border shooting",
-  "place": "Başûr–Rojhilat border near Pîranşar (Piranshahr)",
+  "place": "Iraqi–Iranian state border near Pîranşar (Piranshahr)",
   "governorate": "West Azerbaijan",
   "country": "Iran",
   "lat": 36.7,
@@ -2077,7 +2082,8 @@
     "url": "https://kurmanci.anf-news.com/kurdistan/rejima-Irane-kolbereki-din-ji-qetil-kir-104433"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "681419e300"
  },
  {
   "record": "attack",
@@ -2878,14 +2884,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Kolber News, reported that Iranian security forces fired directly on a group of kolbers on the Rojhilat–Başûr border near Ûrmiye and killed Mihemed Îbrahîmzade, a father of four from Nebî Abid village near Rebet.",
+  "summary": "ANF, citing Kolber News, reported that Iranian security forces fired directly on a group of kolbers on the Iranian–Iraqi state border near Ûrmiye and killed Mihemed Îbrahîmzade, a father of four from Nebî Abid village near Rebet.",
   "sources": [
    {
     "title": "Kolberek ji aliyê hêzên rejîma Îranê ve hate qetilkirin",
     "url": "https://kurmanci.anf-news.com/kurdistan/kolberek-ji-aliye-hezen-rejima-Irane-ve-hate-qetilkirin-127386"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "58b3977853"
  },
  {
   "record": "attack",
@@ -4350,14 +4357,15 @@
   "injured": null,
   "civilian": null,
   "impact": null,
-  "summary": "ANF reported that more than 100 village guards from Şenoba were cutting trees in northern Besta and, advancing about 5 km over the border via Nêrweh village, in the Avagûzê area of Zaxo in Başûr, with the wood carried by tractor to military bases.",
+  "summary": "ANF reported that more than 100 village guards from Şenoba were cutting trees in northern Besta and, advancing about 5 km over the border via Nêrweh village, in the Avagûzê area of Zaxo, with the wood carried by tractor to military bases.",
   "sources": [
    {
     "title": "Koruculardan Besta ve Heftanîn'de ağaç kıyımı",
     "url": "https://anf-news.com/toplum-ekolojI/koruculardan-besta-ve-heftanin-de-agac-kiyimi-160070"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "2984296291"
  },
  {
   "record": "ecocide",
@@ -4860,7 +4868,7 @@
   "date": "2022-04-16",
   "actor": "Turkey",
   "type": "border shooting",
-  "place": "Border between Rûbarok (Derecik) and Başûr, near Hacıbey hamlet",
+  "place": "Turkish–Iraqi state border at Rûbarok (Derecik), near Hacıbey hamlet",
   "governorate": "Hakkari",
   "country": "Turkey",
   "lat": 37.307,
@@ -4870,14 +4878,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF reported that 21-year-old Tahsin Yalçın was killed when Turkish soldiers opened fire on the border between Rûbarok (Derecik) and Başûr; two others with him escaped unhurt.",
+  "summary": "ANF reported that 21-year-old Tahsin Yalçın was killed when Turkish soldiers opened fire on the Turkish–Iraqi state border at Rûbarok (Derecik); two others with him escaped unhurt.",
   "sources": [
    {
     "title": "Sınır hattında katledilen Yalçın toprağa verildi",
     "url": "https://anf-news.com/guncel/sinir-hattinda-yargisiz-infaz-edilen-yalcin-topraga-verildi-169374"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "e365acd61b"
  },
  {
   "record": "attack",
@@ -5004,7 +5013,7 @@
   "date": "2022-09-13",
   "actor": "Turkey",
   "type": "border shooting",
-  "place": "Bakur–Rojhilat border near Elend, Xoy (Khoy)",
+  "place": "Turkish–Iranian state border near Elend, Xoy (Khoy)",
   "governorate": "West Azerbaijan",
   "country": "Iran",
   "lat": 38.548,
@@ -5021,7 +5030,8 @@
     "url": "https://kurmanci.anf-news.com/kurdistan/dewleta-tirk-kolberek-kurd-qetil-kir-160592"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "0626b25ac1"
  },
  {
   "record": "attack",
@@ -5570,14 +5580,15 @@
   "injured": 3,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojhilat media, reported that Iranian forces fired on kolbers at Hengejal near Bane, killing Ahmed Sadiqî (32), a father of two, and wounding three other kolbers.",
+  "summary": "ANF, citing Kurdish media, reported that Iranian forces fired on kolbers at Hengejal near Bane, killing Ahmed Sadiqî (32), a father of two, and wounding three other kolbers.",
   "sources": [
    {
     "title": "Dewleta Îranê kolberekî din qetil kir",
     "url": "https://kurmanci.anf-news.com/kurdistan/dewleta-Irane-kolbereki-din-qetil-kir-177728"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "2813bb876f"
  },
  {
   "record": "attack",
@@ -5666,14 +5677,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojhilat media, reported that Iranian forces attacked kolbers on the Newsûd border at night and killed Sadiq Mîranî (40), a father of two.",
+  "summary": "ANF, citing Kurdish media, reported that Iranian forces attacked kolbers on the Newsûd border at night and killed Sadiq Mîranî (40), a father of two.",
   "sources": [
    {
     "title": "Îranê kolberek qetil kir",
     "url": "https://kurmanci.anf-news.com/kurdistan/Irane-kolberek-qetil-kir-178614"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "8b870af299"
  },
  {
   "record": "attack",
@@ -5738,14 +5750,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing local Rojhilat media, reported that kolber Eta Huseyîn, wounded when Iranian forces fired on a group of kolbers near Newsûd, died after nine days of treatment.",
+  "summary": "ANF, citing local Kurdish media, reported that kolber Eta Huseyîn, wounded when Iranian forces fired on a group of kolbers near Newsûd, died after nine days of treatment.",
   "sources": [
    {
     "title": "Dewleta Îranê kolberek qetil kir",
     "url": "https://kurmanci.anf-news.com/kurdistan/s-180970"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "8eba8be72c"
  },
  {
   "record": "attack",
@@ -5762,14 +5775,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojhilat media, reported that Iranian forces fired directly on kolbers at Hengejal on the Bane border at 2am and killed Elî Zerxamî, a father of three from Sarîbax village near Seqiz.",
+  "summary": "ANF, citing Kurdish media, reported that Iranian forces fired directly on kolbers at Hengejal on the Bane border at 2am and killed Elî Zerxamî, a father of three from Sarîbax village near Seqiz.",
   "sources": [
    {
     "title": "Hêzên Îranê kolberek kuştin",
     "url": "https://kurmanci.anf-news.com/rojane/hezen-Irane-kolberek-kustin-180426"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "20d226a0d7"
  },
  {
   "record": "attack",
@@ -6190,14 +6204,15 @@
   "injured": 6,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojhilat media, reported that Iranian armed forces attacked kolbers on the Newsûd border in the morning, killing Eyub Mihemed from Salas-e Babajani and wounding six, who were treated in Pawe.",
+  "summary": "ANF, citing Kurdish media, reported that Iranian armed forces attacked kolbers on the Newsûd border in the morning, killing Eyub Mihemed from Salas-e Babajani and wounding six, who were treated in Pawe.",
   "sources": [
    {
     "title": "Kolberek ji aliyê hêzên Îranê ve hate qetilkirin",
     "url": "https://kurmanci.anf-news.com/kurdistan/kolberek-ji-aliye-hezen-Irane-ve-hate-qetilkirin-185408"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "6155720e7c"
  },
  {
   "record": "attack",
@@ -6358,14 +6373,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojhilat media, reported that kolber Îbrahîm Ehmed Nejad from Mehabad was killed by Iranian forces on the Serdeşt border.",
+  "summary": "ANF, citing Kurdish media, reported that kolber Îbrahîm Ehmed Nejad from Mehabad was killed by Iranian forces on the Serdeşt border.",
   "sources": [
    {
     "title": "Dewleta Îranê kolberek qetil kir",
     "url": "https://kurmanci.anf-news.com/kurdistan/dewleta-Irane-kolberek-qetil-kir-189403"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "1d2fb09331"
  },
  {
   "record": "attack",
@@ -6550,14 +6566,15 @@
   "injured": null,
   "civilian": null,
   "impact": null,
-  "summary": "ANF reported that village guards were cutting trees in border areas of Çelê where military operations continue, stacking them near Biyadir village for sale, and villagers said the wood came from Zap, Avaşîn and Metîna in Başûr.",
+  "summary": "ANF reported that village guards were cutting trees in border areas of Çelê where military operations continue, stacking them near Biyadir village for sale, and villagers said the wood came from Zap, Avaşîn and Metîna.",
   "sources": [
    {
     "title": "Çelê’de ağaç kıyımı, Amed’de protesto eden halka saldırı",
     "url": "https://anf-news.com/guncel/Cele-de-agac-kiyimi-amed-de-protesto-eden-halka-saldiri-210884"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "19b6d72faf"
  },
  {
   "record": "ecocide",
@@ -6852,7 +6869,7 @@
   "date": "2025-12-03",
   "actor": "Turkey",
   "type": "border shooting",
-  "place": "Rojhilat border near Yarmeqî village, Makû (Maku)",
+  "place": "Iranian–Turkish state border near Yarmeqî village, Makû (Maku)",
   "governorate": "West Azerbaijan",
   "country": "Iran",
   "lat": 39.291,
@@ -6862,14 +6879,15 @@
   "injured": null,
   "civilian": true,
   "impact": null,
-  "summary": "ANF, citing Rojnews and local sources, reported that kolber Hisên Dewletxwa from Yarmeqî village was shot without warning by Turkish state forces inside Rojhilat territory near Makû and killed.",
+  "summary": "ANF, citing Rojnews and local sources, reported that kolber Hisên Dewletxwa from Yarmeqî village was shot without warning by Turkish state forces on the Iranian state's side of the border near Makû and killed.",
   "sources": [
    {
     "title": "Li Makûyê di êrîşa dewleta Tirk de kolberek din hate qetilkirin",
     "url": "https://kurmanci.anf-news.com/kurdistan/li-makuye-di-erisa-dewleta-tirk-de-kolberek-din-hate-qetilkirin-204811"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "17e5c48136"
  },
  {
   "record": "attack",

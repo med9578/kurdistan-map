@@ -190,7 +190,7 @@
   "period": "15 August 1986",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Border mountains of Behdînan, Başûr (opposite Çele/Çukurca)",
+  "place": "Border mountains of Behdînan (opposite Çele/Çukurca)",
   "governorate": "Duhok",
   "country": "Iraq",
   "lat": 37.3,
@@ -199,8 +199,8 @@
   "killed": null,
   "injured": null,
   "civilian": null,
-  "impact": "First large Turkish air and ground incursion into Başûr",
-  "summary": "After a PKK attack at Çele (Çukurca), the Turkish state sent warplanes and about 8,000 troops across the border into Başûr against PKK camps, by Iraqi consent, as memurlar.net and TRT Haber recount. Wikipedia, citing Turkish press, lists 165 PKK fighters killed; no independent count was found and no civilian toll is recorded.",
+  "impact": "First large Turkish air and ground incursion across the Turkish–Iraqi state border",
+  "summary": "After a PKK attack at Çele (Çukurca), the Turkish state sent warplanes and about 8,000 troops across the Turkish–Iraqi state border against PKK camps, by Iraqi consent, as memurlar.net and TRT Haber recount. Wikipedia, citing Turkish press, lists 165 PKK fighters killed; no independent count was found and no civilian toll is recorded.",
   "sources": [
    {
     "title": "Memurlar.net: Irak'a ilk harekat 1983'te yapılmıştı",
@@ -215,7 +215,8 @@
     "url": "https://en.wikipedia.org/wiki/August_1986_Turkish_incursion_into_northern_Iraq"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "66350b9b64"
  },
  {
   "record": "attack",
@@ -224,7 +225,7 @@
   "period": "16–26 December 2007",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Qendîl (Qandil), Zap, Avaşîn, Metîna and Xakurkê, Başûr",
+  "place": "Qendîl (Qandil), Zap, Avaşîn, Metîna and Xakurkê",
   "governorate": "Erbil / Sulaymaniyah / Duhok",
   "country": "Iraq",
   "lat": 36.45,
@@ -253,7 +254,8 @@
     "url": "https://en.wikipedia.org/wiki/December_2007_Turkish_incursion_into_northern_Iraq"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "e3136dedd3"
  },
  {
   "record": "attack",
@@ -262,7 +264,7 @@
   "period": "21–29 February 2008",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Zap valley and Xakurkê (Hakurk), Başûr",
+  "place": "Zap valley and Xakurkê (Hakurk)",
   "governorate": "Duhok / Erbil",
   "country": "Iraq",
   "lat": 37.33,
@@ -287,7 +289,8 @@
     "url": "https://en.wikipedia.org/wiki/2008_Turkish_incursion_into_northern_Iraq"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "4f1a65506c"
  },
  {
   "record": "attack",
@@ -296,7 +299,7 @@
   "period": "17 August – October 2011",
   "actor": "Turkey",
   "type": "campaign",
-  "place": "Qendîl (Qandil) and border areas of Başûr",
+  "place": "Qendîl (Qandil) and border areas of Kurdistan",
   "governorate": "Erbil / Sulaymaniyah / Duhok",
   "country": "Iraq",
   "lat": 36.5,
@@ -306,7 +309,7 @@
   "injured": null,
   "civilian": null,
   "impact": "Includes the Bolê road strike that killed seven civilians of one family",
-  "summary": "Turkish warplanes bombed Qendîl and other areas of Başûr from 17 August 2011; on 29 August the Turkish General Staff claimed 'up to 160' PKK fighters killed (RFE/RL), and TRT later gave 270 for August–October. Iraqi Kurdish officials and Human Rights Watch said a strike near Bolê on 21 August killed seven civilians of one family, four of them children; Turkey denied responsibility.",
+  "summary": "Turkish warplanes bombed Qendîl and other areas of Kurdistan from 17 August 2011; on 29 August the Turkish General Staff claimed 'up to 160' PKK fighters killed (RFE/RL), and TRT later gave 270 for August–October. Kurdish officials and Human Rights Watch said a strike near Bolê on 21 August killed seven civilians of one family, four of them children; Turkey denied responsibility.",
   "sources": [
    {
     "title": "RFE/RL: Turkey says up to 160 Kurd rebels killed in Iraq strikes",
@@ -325,7 +328,8 @@
     "url": "https://en.wikipedia.org/wiki/August_2011_Turkey%E2%80%93Iraq_cross-border_raids"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "d1436907d8"
  },
  {
   "record": "attack",
@@ -371,7 +375,7 @@
   "period": "January 2026",
   "actor": "Iran",
   "type": "campaign",
-  "place": "Rojhilat: Kirmaşan (Kermanshah), Îlam and Kurdistan provinces",
+  "place": "Kirmaşan (Kermanshah), Îlam and Kurdistan provinces",
   "governorate": "Kermanshah / Ilam / Kurdistan",
   "country": "Iran",
   "lat": 34.2,
@@ -381,13 +385,14 @@
   "injured": null,
   "civilian": true,
   "impact": "Hengaw verified 290 Kurds killed across Iran in the protests, including at least 23 children and 24 women",
-  "summary": "Hengaw's first-half 2026 report verified the identities of 290 Kurds killed by Iranian state forces during the January 2026 protests, 284 of them by direct gunfire. Of these, 102 were killed in Rojhilat provinces: 89 in Kirmaşan, 11 in Îlam and 2 in Kurdistan (Sine); most of the rest were killed in Tehran (92) and Alborz (36).",
+  "summary": "Hengaw's first-half 2026 report verified the identities of 290 Kurds killed by Iranian state forces during the January 2026 protests, 284 of them by direct gunfire. Of these, 102 were killed in Kurdish provinces: 89 in Kirmaşan, 11 in Îlam and 2 in Kurdistan (Sine); most of the rest were killed in Tehran (92) and Alborz (36).",
   "sources": [
    {
     "title": "Hengaw: Statistical report on violations against Kurdish people in Iran, first half of 2026",
     "url": "https://hengaw.org/en/content/article-41686"
    }
   ],
-  "kind": "strike"
+  "kind": "strike",
+  "id_lock": "4b2b9aa507"
  }
 ]

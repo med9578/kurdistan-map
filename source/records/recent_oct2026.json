@@ -88,7 +88,7 @@
   "date": "2026-10-21",
   "actor": "Iran",
   "category": "land",
-  "place": "Seyranbend border gate to Teymiz, Şêweguwêzan and Mîşyawe villages, Başûr–Rojhilat border",
+  "place": "Seyranbend border gate to Teymiz, Şêweguwêzan and Mîşyawe villages, Iraqi–Iranian state border",
   "governorate": "Kurdistan",
   "country": "Iran",
   "lat": 35.95,
@@ -98,13 +98,14 @@
   "injured": null,
   "civilian": null,
   "impact": "About 10 km of concrete wall with watchtowers and a border trench 3 m wide and 4 m deep",
-  "summary": "ANF, citing RojNews, reported on 21 October that Iranian state forces had built a concrete wall about 10 km long with watchtowers on the border between Başûr and Rojhilat, from the Seyranbend border gate to behind Teymiz and Şêweguwêzan villages, and dug a trench about 3 m wide and 4 m deep up to Mîşyawe village.",
+  "summary": "ANF, citing RojNews, reported on 21 October that Iranian state forces had built a concrete wall about 10 km long with watchtowers on the border the Iraqi and Iranian states drew through Kurdistan, from the Seyranbend border gate to behind Teymiz and Şêweguwêzan villages, and dug a trench about 3 m wide and 4 m deep up to Mîşyawe village.",
   "sources": [
    {
     "title": "ANF: İran, Başûr ve Rojhilat sınırında duvar örüyor",
     "url": "https://anfenglishmobile.com/guncel/Iran-basur-ve-rojhilat-sinirinda-duvar-oruyor-234549"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "b3cc90785c"
  }
 ]

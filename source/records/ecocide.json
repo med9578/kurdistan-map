@@ -133,7 +133,7 @@
   "date": "2020",
   "actor": "Turkey",
   "category": "forest fire",
-  "place": "Mountains of Başûr (Duhok to Silêmanî)",
+  "place": "Mountains from Duhok to Silêmanî",
   "country": "Iraq",
   "lat": 37.1,
   "lon": 43.7,
@@ -150,7 +150,8 @@
     "url": "https://rudaw.net/english/kurdistan/12112020"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "8dbda17336"
  },
  {
   "date": "2021-05",
@@ -316,7 +317,7 @@
   "date": "2024",
   "actor": "Turkey",
   "category": "forest fire",
-  "place": "Zagros mountains, Başûr (mainly Duhok)",
+  "place": "Zagros mountains (mainly Duhok)",
   "country": "Iraq",
   "lat": 37.1,
   "lon": 43.5,
@@ -329,7 +330,8 @@
     "url": "https://paxforpeace.nl/news/wildfires-rage-across-iraqi-kurdistan-as-conflict-intensifies/"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "ef1b77d201"
  },
  {
   "date": "2025-06-20",
@@ -494,14 +496,15 @@
   "lon": 38.183,
   "precision": "approximate",
   "impact": "All-time low flow; worst drought since 1953; >90% wheat losses in Hasakah; flow ~200 m3/s vs 500 m3/s 1987 quota (early 2022)",
-  "summary": "Euphrates flow in NE Syria fell to an all-time low in May 2021, attributed to Turkish upstream diversion and climate change; a Tishreen Dam engineer warned of a historic reservoir drop in Sept 2021.",
+  "summary": "Euphrates flow through Kurdistan within Syrian state borders fell to an all-time low in May 2021, attributed to Turkish upstream diversion and climate change; a Tishreen Dam engineer warned of a historic reservoir drop in Sept 2021.",
   "sources": [
    {
     "title": "Atlantic Council: Syria has a water crisis and it's not going away (24 Feb 2022)",
     "url": "https://www.atlanticcouncil.org/blogs/menasource/syria-has-a-water-crisis-and-its-not-going-away/"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "4bdf551024"
  },
  {
   "date": "2023-07",
@@ -531,7 +534,7 @@
   "lat": 37.0,
   "lon": 41.95,
   "precision": "approximate",
-  "impact": "Only domestic gas plant in NE Syria out of service",
+  "impact": "Only domestic gas plant in the Autonomous Administration areas out of service",
   "summary": "During the 'Claw-Sword' offensive, Turkish warplanes and drones struck oil and gas fields east of Qamishli; the Suwaydiyah gas installation was attacked four times and production stopped.",
   "sources": [
    {
@@ -539,7 +542,8 @@
     "url": "https://npasyria.com/en/?p=88032"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "e23f7043e4"
  },
  {
   "date": "2023-10-05",
@@ -551,14 +555,15 @@
   "lon": 41.95,
   "precision": "approximate",
   "impact": ">=18 water pumping stations and 11 power stations knocked out; ~4.3 million people affected; Sweidiya plant served >1 million",
-  "summary": "HRW documented Turkish drone strikes on 5–10 Oct 2023 that disabled power, water, oil and the only domestic gas plant in NE Syria, and urged Turkey to stop targeting power and water stations.",
+  "summary": "HRW documented Turkish drone strikes on 5–10 Oct 2023 that disabled power, water, oil and the only domestic gas plant in the Autonomous Administration areas, and urged Turkey to stop targeting power and water stations.",
   "sources": [
    {
     "title": "HRW: Northeast Syria – Turkish strikes disrupt water, electricity (26 Oct 2023)",
     "url": "https://www.hrw.org/news/2023/10/26/northeast-syria-turkish-strikes-disrupt-water-electricity"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "9ef03fd452"
  },
  {
   "date": "2023-10",
@@ -607,7 +612,7 @@
   "lat": 37.0,
   "lon": 41.95,
   "precision": "approximate",
-  "impact": "NE Syria's only domestic gas bottling plant out of use; cooking-gas price spike and blackouts",
+  "impact": "The Autonomous Administration areas' only domestic gas bottling plant out of use; cooking-gas price spike and blackouts",
   "summary": "Turkey struck Suwaydiyah again on 14 Jan 2024, three months after earlier damage; officials said the bottled cooking gas and power facilities were put out of use.",
   "sources": [
    {
@@ -619,7 +624,8 @@
     "url": "https://iraqoilreport.com/news/turkish-strikes-threaten-syrian-crude-exports-to-iraqi-kurdistan-45355"
    }
   ],
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "84d4f20bca"
  },
  {
   "date": "2024-01",

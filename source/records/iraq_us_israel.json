@@ -329,7 +329,7 @@
   "injured": 0,
   "civilian": true,
   "impact": "About 220,000 barrels per day taken offline, cutting Kurdistan oil output by about 70% (HRW citing The New Arab); a water pipeline damaged at Khurmala (Reuters)",
-  "summary": "Drone strikes hit five oil fields in Başûr (the Kurdistan Region) between 14 and 17 July 2025, halting most production; no group claimed them. A KRG official blamed 'criminal militias on the Iraqi government payroll' (HRW), and a Kurdish official blamed the PMF for the 16 July strikes; Baghdad denies PMF involvement.",
+  "summary": "Drone strikes hit five oil fields in Kurdistan between 14 and 17 July 2025, halting most production; no group claimed them. A KRG official blamed 'criminal militias on the Iraqi government payroll' (HRW), and a Kurdish official blamed the PMF for the 16 July strikes; Baghdad denies PMF involvement.",
   "sources": [
    {
     "title": "Human Rights Watch: Iraq: Damage to Kurdistan Region Oil Fields Puts Rights at Risk (29 Jul 2025)",
@@ -345,7 +345,8 @@
    }
   ],
   "category": "infrastructure",
-  "kind": "eco"
+  "kind": "eco",
+  "id_lock": "1e04cd225c"
  },
  {
   "record": "ecocide",
