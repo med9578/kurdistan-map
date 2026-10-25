@@ -10,7 +10,7 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 
 ## Adding new attacks
 
-1. **Find events.** Check these sources for state attacks on any part of Kurdistan and for state-caused ecocide since the newest date on the map (the build prints it):
+1. **Find events.** Check these sources for state attacks anywhere in Kurdistan and for state-caused ecocide since the newest date on the map (the build prints it):
    ANF (English, Kurmancî, Türkçe), Nûçe TV, Sterk TV, Rudaw, Kurdistan24, Hengaw, Kurdistan Human Rights Network (KHRN), Community Peacemaker Teams (CPT), Rojava Information Center, North Press, Kolbernews, SOHR.
    Do not get around paywalls or bot blocks.
 2. **Skip duplicates.** An event already on the map with the same date (±1 day) and place is a duplicate. Add the new source to it instead (`source/records/extra_sources.json`, with the record's `id`).
@@ -26,7 +26,7 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 
    - `record`: `attack` or `ecocide`.
    - `actor`: `Turkey`, `Iran`, `Syria`, `Iraq`, `US`, `Israel` or `US-Israel`.
-   - `country` is the state whose borders the place is in: `Iraq` (Başûr), `Syria` (Rojava), `Turkey` (Bakur), `Iran` (Rojhilat).
+   - `country` is the state whose borders the place is in: `Iraq`, `Syria`, `Turkey` or `Iran`.
    - Attack `type`: `drone`, `airstrike`, `missile`, `artillery`, `ground assault`, `border shooting`, `chemical`, `massacre`, `campaign`.
    - Ecocide uses `category` instead: `forest fire`, `deforestation`, `agriculture`, `water`, `infrastructure`, `dam`, `land`.
    - `killed`/`injured`: numbers, or `null` if unknown. `civilian`: `true` only if a source says civilians were harmed; `false`, or `null` if unclear.
@@ -43,7 +43,7 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 
 - Kurdish place names first, with the state's name in brackets: Hewlêr (Erbil), Amed (Diyarbakır), Sine (Sanandaj).
 - Name attackers as states: "the Turkish state", "Iranian state forces".
-- Never write "northern Iraq", "northern Syria" or "southeast Turkey" in the map's own voice; say Başûr, Rojava, Bakur, Rojhilat.
+- Kurdistan is one land. Never divide it into parts: do not use Başûr, Bakur, Rojava or Rojhilat as region names, and never write "northern Iraq", "northern Syria", "southeast Turkey" or "Iraqi/Syrian/Iranian Kurdistan" in the map's own voice. Say "Kurdistan", use Kurdish city and province names, and where the border itself matters name it as a state border ("the Iraqi–Iranian state border").
 - Use "terrorist", "militant", "neutralised" or "security operation" only inside a quote, saying whose words they are.
 - Kolbars are kolbars, not smugglers.
 - Military operation names go in quotes as the state's own label.
