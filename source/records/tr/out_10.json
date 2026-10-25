@@ -249,10 +249,10 @@
  },
  "2984296291": {
   "place_ku": "Herêma Avagûzê li aliyê din ê sînor li hember Nêrweh (Uludere), Zaxo; û bakurê Bestayê",
-  "summary_ku": "ANF ragihand ku zêdetirî 100 cerdevanên ji Şenobayê li bakurê Bestayê, û bi rêya gundê Nêrwehê nêzî 5 km ji sînor derbas bûn, li herêma Avagûzê ya Zaxoyê li Başûr, dar dibirîn û dar bi traktoran dibirin baregehên leşkerî.",
+  "summary_ku": "ANF ragihand ku zêdetirî 100 cerdevanên ji Şenobayê li bakurê Bestayê, û bi rêya gundê Nêrwehê nêzî 5 km ji sînor derbas bûn, li herêma Avagûzê ya Zaxoyê, dar dibirîn û dar bi traktoran dibirin baregehên leşkerî.",
   "impact_ku": "",
   "place_tr": "Nêrweh (Uludere) karşısında, sınırın öte yanındaki Avagûzê bölgesi, Zaxo; ve kuzey Besta",
-  "summary_tr": "ANF'nin aktardığına göre, Şenoba'dan 100'ü aşkın korucu kuzey Besta'da ve Nêrweh köyü üzerinden sınırı yaklaşık 5 km geçerek Başûr'daki Zaxo'nun Avagûzê bölgesinde ağaç kesiyor, odunlar traktörlerle askeri üslere taşınıyordu.",
+  "summary_tr": "ANF'nin aktardığına göre, Şenoba'dan 100'ü aşkın korucu kuzey Besta'da ve Nêrweh köyü üzerinden sınırı yaklaşık 5 km geçerek Zaxo'nun Avagûzê bölgesinde ağaç kesiyor, odunlar traktörlerle askeri üslere taşınıyordu.",
   "impact_tr": ""
  },
  "2728f9631f": {
@@ -416,11 +416,11 @@
   "impact_tr": ""
  },
  "e365acd61b": {
-  "place_ku": "Sînorê di navbera Rûbarok (Derecik) û Başûr de, nêzî mezraya Hacıbey",
-  "summary_ku": "ANF ragihand ku Tahsin Yalçın ê 21 salî dema ku leşkerên Tirk li ser sînorê di navbera Rûbarok (Derecik) û Başûr de gule reşandin hat kuştin; du kesên din ên bi wî re bêyî birîn xilas bûn.",
+  "place_ku": "Sînorê dewletên Tirkiyê û Iraqê li Rûbarokê (Derecik), nêzî mezraya Hacıbey",
+  "summary_ku": "ANF ragihand ku Tahsin Yalçın ê 21 salî dema ku leşkerên Tirk li ser sînorê dewletên Tirkiyê û Iraqê li Rûbarokê (Derecik) gule reşandin hat kuştin; du kesên din ên bi wî re bêyî birîn xilas bûn.",
   "impact_ku": "",
-  "place_tr": "Rûbarok (Derecik) ile Başûr arasındaki sınır, Hacıbey mezrası yakını",
-  "summary_tr": "ANF'nin aktardığına göre, Türk askerlerinin Rûbarok (Derecik) ile Başûr arasındaki sınırda ateş açması sonucu 21 yaşındaki Tahsin Yalçın yaşamını yitirdi; yanındaki iki kişi yara almadan kurtuldu.",
+  "place_tr": "Rûbarok'ta (Derecik) Türkiye–Irak devlet sınırı, Hacıbey mezrası yakını",
+  "summary_tr": "ANF'nin aktardığına göre, Türk askerlerinin Rûbarok'ta (Derecik) Türkiye–Irak devlet sınırında ateş açması sonucu 21 yaşındaki Tahsin Yalçın yaşamını yitirdi; yanındaki iki kişi yara almadan kurtuldu.",
   "impact_tr": ""
  },
  "edb6369197": {
@@ -464,10 +464,10 @@
   "impact_tr": ""
  },
  "0626b25ac1": {
-  "place_ku": "Sînorê Bakur–Rojhilat nêzî Elendê, Xoy (Khoy)",
+  "place_ku": "Sînorê dewletên Tirkiyê û Îranê nêzî Elendê, Xoy (Khoy)",
   "summary_ku": "ANF ragihand ku leşkerên Tirk li ser sînorê Tirkiye–Îranê kolber Esker Derwîşzade (31), bavê sê zarokan ê ji gundê Kerkûşê yê nêzî Xoyê, ji serê wî gulebaran kirin û ew di cih de jiyana xwe ji dest da.",
   "impact_ku": "",
-  "place_tr": "Elend yakınında Bakur–Rojhilat sınırı, Xoy (Hoy)",
+  "place_tr": "Elend yakınında Türkiye–İran devlet sınırı, Xoy (Hoy)",
   "summary_tr": "ANF'nin aktardığına göre, Türk askerleri Türkiye–İran sınırında Xoy yakınındaki Kerkûş köyünden üç çocuk babası kolber Esker Derwîşzade'yi (31) başından vurdu ve Derwîşzade olay yerinde yaşamını yitirdi.",
   "impact_tr": ""
  },

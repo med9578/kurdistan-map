@@ -32,11 +32,11 @@
   "impact_tr": ""
  },
  "0ef94b953d": {
-  "place_ku": "Gundên li seranserê Bakur (nimûne: herêma Pasûr–Licê)",
-  "summary_ku": "Hêzên ewlehiyê yên dewleta Tirk li seranserê Bakur gund û mezreyên Kurdan bi zorê vala kirin û şewitandin; mal, berhem, baxçe û daristan wêran kirin. Wezîrê Karên Hundir pejirand ku heta dawiya 1994an 2.215 gund û mezre hatine valakirin, paşê hejmar ji 3.000î derbas bû, û Dadgeha Mafên Mirovan a Ewropayê di doza Akdivar li dijî Tirkiyeyê (1996) û gelek dozên paşê de Tirkiye berpirsiyar dît.",
+  "place_ku": "Gundên li Kurdistanê (nimûne: herêma Pasûr–Licê)",
+  "summary_ku": "Hêzên ewlehiyê yên dewleta Tirk li seranserê wan deverên Kurdistanê yên di bin desthilatdariya wê de gund û mezreyên Kurdan bi zorê vala kirin û şewitandin; mal, berhem, baxçe û daristan wêran kirin. Wezîrê Karên Hundir pejirand ku heta dawiya 1994an 2.215 gund û mezre hatine valakirin, paşê hejmar ji 3.000î derbas bû, û Dadgeha Mafên Mirovan a Ewropayê di doza Akdivar li dijî Tirkiyeyê (1996) û gelek dozên paşê de Tirkiye berpirsiyar dît.",
   "impact_ku": "Wezîrê Karên Hundir: heta 1994an 2.215 gund û mezre hatin valakirin; heta dawiya salên 1990an zêdetirî 3.000; bi sed hezaran kes koçber bûn",
-  "place_tr": "Bakur genelindeki köyler (örnek: Pasûr (Kulp)–Licê (Lice) bölgesi)",
-  "summary_tr": "Türk devletinin güvenlik güçleri Bakur genelinde Kürt köylerini ve mezralarını zorla boşalttı ve yaktı; evleri, ekinleri, bahçeleri ve ormanları tahrip etti. İçişleri bakanı 1994 sonuna kadar 2.215 köy ve mezranın boşaltıldığını kabul etti, sonraki toplamlar 3.000'i aştı; Avrupa İnsan Hakları Mahkemesi Akdivar - Türkiye (1996) davasında ve sonraki birçok davada Türkiye'yi sorumlu buldu.",
+  "place_tr": "Kürdistan'daki köyler (örnek: Pasûr (Kulp)–Licê (Lice) bölgesi)",
+  "summary_tr": "Türk devletinin güvenlik güçleri, Kürdistan'ın kendi denetimindeki bölgeleri genelinde Kürt köylerini ve mezralarını zorla boşalttı ve yaktı; evleri, ekinleri, bahçeleri ve ormanları tahrip etti. İçişleri bakanı 1994 sonuna kadar 2.215 köy ve mezranın boşaltıldığını kabul etti, sonraki toplamlar 3.000'i aştı; Avrupa İnsan Hakları Mahkemesi Akdivar - Türkiye (1996) davasında ve sonraki birçok davada Türkiye'yi sorumlu buldu.",
   "impact_tr": "İçişleri bakanı: 1994'e kadar 2.215 köy ve mezra boşaltıldı; 1990'ların sonuna kadar 3.000'den fazla; yüz binlerce kişi yerinden edildi"
  },
  "fb4d14499c": {
@@ -105,10 +105,10 @@
  },
  "eab7530a41": {
   "place_ku": "Roboskî (Ortasu), Qilaban (Uludere)",
-  "summary_ku": "Balafirên F-16 yên dewleta Tirk, li ser bingeha dîmenên dronê, 37 gundiyên ji Roboskî û Bujehê dema bi qantiran ji Başûr vedigeriyan bombebaran kirin û 34 ji wan kuştin, ku 17 ji wan zarok bûn. Dozgerekî leşkerî jê re got 'xeletiyeke neçar', û tu kes nehat darizandin.",
+  "summary_ku": "Balafirên F-16 yên dewleta Tirk, li ser bingeha dîmenên dronê, 37 gundiyên ji Roboskî û Bujehê dema bi qantiran ji aliyê din ê sînor vedigeriyan bombebaran kirin û 34 ji wan kuştin, ku 17 ji wan zarok bûn. Dozgerekî leşkerî jê re got 'xeletiyeke neçar', û tu kes nehat darizandin.",
   "impact_ku": "",
   "place_tr": "Roboskî (Ortasu), Qilaban (Uludere)",
-  "summary_tr": "Türk devletine ait F-16 uçakları, drone görüntülerine dayanarak Başûr'dan katırlarla geri dönen Roboskî ve Bujeh'ten 37 köylüyü bombaladı; 17'si çocuk olmak üzere 34'ünü öldürdü. Bir askeri savcı olayı 'kaçınılmaz hata' olarak nitelendirdi ve kimse yargılanmadı.",
+  "summary_tr": "Türk devletine ait F-16 uçakları, drone görüntülerine dayanarak sınırın öte yanından katırlarla geri dönen Roboskî ve Bujeh'ten 37 köylüyü bombaladı; 17'si çocuk olmak üzere 34'ünü öldürdü. Bir askeri savcı olayı 'kaçınılmaz hata' olarak nitelendirdi ve kimse yargılanmadı.",
   "impact_tr": ""
  },
  "79c3d1aa27": {
@@ -121,10 +121,10 @@
  },
  "0d8195236f": {
   "place_ku": "Silopiya (Silopi)",
-  "summary_ku": "Hêzên ewlehiyê yên dewleta Tirk li Silopiyayê qedexeya derketina derve ya şev û roj ragihandin û li taxên niştecihan çekên giran bi kar anîn. Sivîl hatin kuştin û gelek mal hatin wêrankirin; OHCHR radigihîne ku tiştên dewletê jê re digot 'operasyonên ewlehiyê' li başûrrojhilat di navbera Tîrmeha 2015an û Kanûna 2016an de nêzî 2.000 kes kuştin.",
+  "summary_ku": "Hêzên ewlehiyê yên dewleta Tirk li Silopiyayê qedexeya derketina derve ya şev û roj ragihandin û li taxên niştecihan çekên giran bi kar anîn. Sivîl hatin kuştin û gelek mal hatin wêrankirin; OHCHR radigihîne ku tiştên dewletê jê re digot 'operasyonên ewlehiyê' li Kurdistanê di navbera Tîrmeha 2015an û Kanûna 2016an de nêzî 2.000 kes kuştin.",
   "impact_ku": "Qedexeya derketina derve ya şev û roj; zirareke giran li taxên niştecihan",
   "place_tr": "Silopiya (Silopi)",
-  "summary_tr": "Türk devletinin güvenlik güçleri Silopiya'da gece gündüz süren sokağa çıkma yasağı ilan etti ve yerleşim mahallelerinde ağır silahlar kullandı. Siviller öldürüldü, çok sayıda ev yıkıldı; OHCHR, devletin 'güvenlik operasyonları' olarak adlandırdığı operasyonlarda Temmuz 2015 ile Aralık 2016 arasında bölgede yaklaşık 2.000 kişinin öldürüldüğünü bildiriyor.",
+  "summary_tr": "Türk devletinin güvenlik güçleri Silopiya'da gece gündüz süren sokağa çıkma yasağı ilan etti ve yerleşim mahallelerinde ağır silahlar kullandı. Siviller öldürüldü, çok sayıda ev yıkıldı; OHCHR, devletin 'güvenlik operasyonları' olarak adlandırdığı operasyonlarda Temmuz 2015 ile Aralık 2016 arasında Kürdistan'da yaklaşık 2.000 kişinin öldürüldüğünü bildiriyor.",
   "impact_tr": "Gece gündüz sokağa çıkma yasağı; yerleşim mahallelerinde ağır hasar"
  },
  "c57a6f649b": {
@@ -200,10 +200,10 @@
   "impact_tr": ""
  },
  "1297967b23": {
-  "place_ku": "Pawe (Paveh), Sine, Mehabad û bi giştî Rojhilat",
+  "place_ku": "Pawe (Paveh), Sine, Mehabad û bi giştî Kurdistan",
   "summary_ku": "Piştî fermana Xumeynî ya 18ê Tebaxa 1979an ji bo êrîşa li ser Kurdistanê, artêş û Pasdarên dewleta Îranê Pawe, Sine, Mehabad û bajar û gundên din topbaran kirin û êrîşî wan kirin. Texmînên li ser nêzî 10.000 kuştiyan di vî şerî de, di nav de girtiyên îdamkirî, bi berfirehî tên neqilkirin; KGNA wek hejmara herî kêm herî kêm 518 qurbaniyên piştrastkirî yên komkujiyên gundan dihejmêre.",
   "impact_ku": "KGNA: herî kêm 51–64 gund hatin şewitandin an wêrankirin, komkujî li 61 gund û 11 bajaran (1979–1987)",
-  "place_tr": "Pawe (Paveh), Sine, Mehabad ve genel olarak Rojhilat",
+  "place_tr": "Pawe (Paveh), Sine, Mehabad ve genel olarak Kürdistan",
   "summary_tr": "Humeyni'nin 18 Ağustos 1979'da Kürdistan'a saldırı emri vermesinin ardından İran devletinin ordusu ve Devrim Muhafızları Pawe, Sine, Mehabad ve diğer kasaba ve köyleri topa tuttu ve bastı. Çatışmada idam edilen tutsaklar dahil yaklaşık 10.000 kişinin öldürüldüğüne dair tahminler yaygın olarak aktarılıyor; KGNA ise asgari olarak köy katliamlarının doğrulanmış en az 518 kurbanını sayıyor.",
   "impact_tr": "KGNA: en az 51–64 köy yakıldı veya yıkıldı, 61 köy ve 11 kasabada katliam (1979–1987)"
  },
@@ -241,10 +241,10 @@
  },
  "a6cc22c710": {
   "place_ku": "Gundên navçeyên Hewşar, Nexede û Mehabadê (nimûne)",
-  "summary_ku": "Lêkolîna KGNA ya li ser zordariya dewleta Îranê li Rojhilat tomar dike ku di navbera 1979 û 1987an de hêzên dewleta Îranê 51–64 gundên Kurdan şewitandin, wêran kirin an zirareke giran gihandin wan; Hewşar û Nexede di nav navçeyên herî zêde zirar dîtine de ne.",
+  "summary_ku": "Lêkolîna KGNA ya li ser zordariya dewleta Îranê li Kurdistanê tomar dike ku di navbera 1979 û 1987an de hêzên dewleta Îranê 51–64 gundên Kurdan şewitandin, wêran kirin an zirareke giran gihandin wan; Hewşar û Nexede di nav navçeyên herî zêde zirar dîtine de ne.",
   "impact_ku": "51–64 gund hatin şewitandin, wêrankirin an zirareke giran dîtin",
   "place_tr": "Hewşar, Nexede ve Mehabad bölgelerindeki köyler (örnek)",
-  "summary_tr": "KGNA'nın İran devletinin Rojhilat'taki baskılarına ilişkin çalışması, 1979 ile 1987 arasında İran devletinin güçlerinin 51–64 Kürt köyünü yaktığını, yıktığını veya ağır hasara uğrattığını kaydediyor; Hewşar ve Nexede en çok etkilenen bölgeler arasında.",
+  "summary_tr": "KGNA'nın İran devletinin Kürdistan'daki baskılarına ilişkin çalışması, 1979 ile 1987 arasında İran devletinin güçlerinin 51–64 Kürt köyünü yaktığını, yıktığını veya ağır hasara uğrattığını kaydediyor; Hewşar ve Nexede en çok etkilenen bölgeler arasında.",
   "impact_tr": "51–64 köy yakıldı, yıkıldı veya ağır hasar gördü"
  },
  "4d8feb0fd7": {
@@ -257,18 +257,18 @@
  },
  "336ad01d8d": {
   "place_ku": "Koye (Koya), çiyayê Heybet Sultan",
-  "summary_ku": "Li gorî nameyeke Iraqê ji Encumena Ewlehiyê ya NY re, nêzî 3.000 Pasdarên dewleta Îranê bi zêdetirî 100 wesayîtan derbasî Başûr bûn da ku êrîşî kampên KDPI yên li derdora Koyeyê bikin, çiyayê Heybet Sultan dagir kirin û herêmên sivîl ên Koye û Teqteqê topbaran kirin. Hejmara qurbaniyan nehatiye tespîtkirin.",
+  "summary_ku": "Li gorî nameyeke Iraqê ji Encumena Ewlehiyê ya NY re, nêzî 3.000 Pasdarên dewleta Îranê bi zêdetirî 100 wesayîtan sînorê dewletên Iraq û Îranê derbas kirin da ku êrîşî kampên KDPI yên li derdora Koyeyê bikin, çiyayê Heybet Sultan dagir kirin û herêmên sivîl ên Koye û Teqteqê topbaran kirin. Hejmara qurbaniyan nehatiye tespîtkirin.",
   "impact_ku": "",
   "place_tr": "Koye (Koya), Heybet Sultan dağı",
-  "summary_tr": "Irak'ın BM Güvenlik Konseyi'ne gönderdiği bir mektuba göre, İran devletinin yaklaşık 3.000 Devrim Muhafızı 100'den fazla araçla Başûr'a geçerek Koye çevresindeki KDPI kamplarına saldırdı, Heybet Sultan dağını işgal etti ve Koye ile Teqteq'in sivil bölgelerini topa tuttu. Kayıp sayısı tespit edilmiş değil.",
+  "summary_tr": "Irak'ın BM Güvenlik Konseyi'ne gönderdiği bir mektuba göre, İran devletinin yaklaşık 3.000 Devrim Muhafızı 100'den fazla araçla Irak–İran devlet sınırını geçerek Koye çevresindeki KDPI kamplarına saldırdı, Heybet Sultan dağını işgal etti ve Koye ile Teqteq'in sivil bölgelerini topa tuttu. Kayıp sayısı tespit edilmiş değil.",
   "impact_tr": ""
  },
  "a94b8c81a4": {
   "place_ku": "Sîdekan (Sidakan) û gundên sînor ên Qendîlê (Qandil)",
-  "summary_ku": "Pasdarên dewleta Îranê di dema êrîşeke li dijî PJAK de gundên sînor ên Kurdan li derdora Sîdekan û Qendîlê bi top û roketan bombebaran kirin, û heta dawiya Tîrmehê herî kêm sê sivîlên Kurd ên Başûr kuştin û 11 birîndar kirin. Human Rights Watch ragihand ku êrîşên dewleta Îranê û dewleta Tirk di navbera Tîrmeh û Mijdara 2011an de nêzî 8.000 kes koçber kirin.",
+  "summary_ku": "Pasdarên dewleta Îranê di dema êrîşeke li dijî PJAK de gundên sînor ên Kurdan li derdora Sîdekan û Qendîlê bi top û roketan bombebaran kirin, û heta dawiya Tîrmehê herî kêm sê sivîlên Kurd kuştin û 11 birîndar kirin. Human Rights Watch ragihand ku êrîşên dewleta Îranê û dewleta Tirk di navbera Tîrmeh û Mijdara 2011an de nêzî 8.000 kes koçber kirin.",
   "impact_ku": "Nêzî 1.350 malbat (8.000 kes) koçber bûn; zeviyên çandiniyê zirar dîtin",
   "place_tr": "Sîdekan (Sidakan) ve Qendîl (Kandil) sınır köyleri",
-  "summary_tr": "İran devletinin Devrim Muhafızları, PJAK'a karşı yürüttüğü saldırı sırasında Sîdekan ve Qendîl çevresindeki Kürt sınır köylerini top ve roketlerle vurdu; Temmuz sonuna kadar Başûrlu en az üç Kürt sivili öldürdü, 11'ini yaraladı. Human Rights Watch, İran devleti ve Türk devletinin saldırılarının Temmuz-Kasım 2011 arasında yaklaşık 8.000 kişiyi yerinden ettiğini bildirdi.",
+  "summary_tr": "İran devletinin Devrim Muhafızları, PJAK'a karşı yürüttüğü saldırı sırasında Sîdekan ve Qendîl çevresindeki Kürt sınır köylerini top ve roketlerle vurdu; Temmuz sonuna kadar en az üç Kürt sivili öldürdü, 11'ini yaraladı. Human Rights Watch, İran devleti ve Türk devletinin saldırılarının Temmuz-Kasım 2011 arasında yaklaşık 8.000 kişiyi yerinden ettiğini bildirdi.",
   "impact_tr": "Yaklaşık 1.350 aile (8.000 kişi) yerinden edildi; tarım arazileri zarar gördü"
  },
  "2b8b9b643d": {
@@ -345,10 +345,10 @@
  },
  "63413d4376": {
   "place_ku": "Kampa penaberan a Ziwa, Mergewer (Margavar), nêzîkî Ûrmiyeyê",
-  "summary_ku": "Heşt balafirên şer ên dewleta Iraqê kampa Ziwa ya penaberên Kurd ên ji Başûr li hundirê Îranê bombebaran kirin, dema ku xwendekar ji bo encamên ezmûnan kom bûbûn. KGNA 150 kuştî tomar dike, di nav de jinên ducanî û pitik, û 373 birîndar; kamp di dema şer de neh caran hate bombebarankirin.",
+  "summary_ku": "Heşt balafirên şer ên dewleta Iraqê kampa Ziwa ya penaberên Kurd ên ji dewleta Iraqê reviyabûn, li hundirê Îranê, bombebaran kirin, dema ku xwendekar ji bo encamên ezmûnan kom bûbûn. KGNA 150 kuştî tomar dike, di nav de jinên ducanî û pitik, û 373 birîndar; kamp di dema şer de neh caran hate bombebarankirin.",
   "impact_ku": "",
   "place_tr": "Ziwa mülteci kampı, Mergewer (Margavar), Ûrmiye (Urmiye) yakınları",
-  "summary_tr": "Irak devletine ait sekiz savaş uçağı, İran topraklarındaki Başûrlu Kürt mültecilere ait Ziwa kampını, öğrenciler sınav sonuçları için toplandığı sırada bombaladı. KGNA, aralarında hamile kadınlar ve bebeklerin de bulunduğu 150 ölü ve 373 yaralı kaydediyor; kamp savaş boyunca dokuz kez bombalandı.",
+  "summary_tr": "Irak devletine ait sekiz savaş uçağı, İran topraklarındaki, Irak devletinden kaçmış Kürt mültecilere ait Ziwa kampını, öğrenciler sınav sonuçları için toplandığı sırada bombaladı. KGNA, aralarında hamile kadınlar ve bebeklerin de bulunduğu 150 ölü ve 373 yaralı kaydediyor; kamp savaş boyunca dokuz kez bombalandı.",
   "impact_tr": ""
  },
  "26174114eb": {
@@ -384,10 +384,10 @@
   "impact_tr": "8.000'den fazla kişi hardal gazına maruz kaldı"
  },
  "2e1bb9ac9a": {
-  "place_ku": "Herêmên gundewarî yên Başûr (nimûne: Germiyan / Silêmanî)",
+  "place_ku": "Herêmên gundewarî yên Kurdistanê (nimûne: Germiyan / Silêmanî)",
   "summary_ku": "Di jenosîda Enfalê de, dewleta Baas a Iraqê li dijî Kurdên gundewarî heşt qonaxên operasyonên leşkerî, kîmyewî û îdamên girseyî li dar xistin. Human Rights Watch texmîn kir ku 50.000–100.000 kes hatin kuştin û çavkaniyên Kurdî (KGNA, Bernameya Bîranîna Kurdistanê) heta 182.000 dibêjin; ew ji aliyê Dadgeha Bilind a Iraqê (2007), parlamentoya Iraqê (2008) û parlamentoyên Swêdê (2012), Keyaniya Yekbûyî (2013) û Norwêcê ve wek jenosîd hate naskirin.",
   "impact_ku": "Nêzî 4.000–4.500 gund hatin wêrankirin; bi deh hezaran kes birin kampan û gorên girseyî",
-  "place_tr": "Başûr'un kırsal bölgeleri (örnek: Germiyan / Silêmanî)",
+  "place_tr": "Kürdistan'ın kırsal bölgeleri (örnek: Germiyan / Silêmanî)",
   "summary_tr": "Enfal soykırımında Irak Baas devleti kırsaldaki Kürtlere karşı askeri, kimyasal ve toplu infaz operasyonlarından oluşan sekiz aşama yürüttü. Human Rights Watch 50.000–100.000 kişinin öldürüldüğünü tahmin etti, Kürt kaynakları (KGNA, Kürdistan Hafıza Programı) ise 182.000'e kadar rakam veriyor; Enfal, Irak Yüksek Ceza Mahkemesi (2007), Irak parlamentosu (2008) ve İsveç (2012), Birleşik Krallık (2013) ve Norveç parlamentoları tarafından soykırım olarak tanındı.",
   "impact_tr": "Yaklaşık 4.000–4.500 köy yıkıldı; on binlerce kişi kamplara ve toplu mezarlara götürüldü"
  },
@@ -504,10 +504,10 @@
   "impact_tr": ""
  },
  "e2525e39e6": {
-  "place_ku": "Gundewariya Başûr (nimûne: deşta Germiyanê)",
+  "place_ku": "Gundewariya Kurdistanê (nimûne: deşta Germiyanê)",
   "summary_ku": "Li gorî fermanên 160 û 28/4008 (1987), dewleta Iraqê gundewariya Kurdistanê wek 'herêma qedexe' îlan kir, bi hezaran gund wêran kirin, û baxçe, bîr, heywan û zeviyên çandiniyê tune kirin; bi vî awayî civakeke cotkar veguherand civakeke kampan. KGNA nêzî 4.500 gundên wêrankirî dihejmêre.",
   "impact_ku": "Nêzî 4.000–4.500 gund hatin wêrankirin (KGNA ~4.500; KMP di dema Enfalê bi xwe de ~2.500); baxçe, bîr û kanî hatin tunekirin; 'herêmên qedexe'",
-  "place_tr": "Başûr'un kırsalı (örnek: Germiyan ovası)",
+  "place_tr": "Kürdistan'ın kırsalı (örnek: Germiyan ovası)",
   "summary_tr": "Irak devleti 160 ve 28/4008 sayılı emirler (1987) uyarınca kırsal Kürdistan'ı 'yasak bölge' ilan etti, binlerce köyü yerle bir etti; bahçeleri, kuyuları, hayvanları ve tarım arazilerini yok ederek bir çiftçi toplumunu kamplar toplumuna dönüştürdü. KGNA yaklaşık 4.500 köyün yıkıldığını sayıyor.",
   "impact_tr": "Yaklaşık 4.000–4.500 köy yerle bir edildi (KGNA ~4.500; KMP yalnızca Enfal sırasında ~2.500); bahçeler, kuyular ve pınarlar yok edildi; 'yasak bölgeler'"
  },
@@ -520,10 +520,10 @@
   "impact_tr": "Kasaba ve ilçe boşaltılarak halk 17 kampa taşındı; evler, okullar ve camiler havaya uçuruldu"
  },
  "03886c3e52": {
-  "place_ku": "Kerkûk (Kirkuk) û bajarên Başûr; koça girseyî ber bi sînorên Tirkiye û Îranê ve",
+  "place_ku": "Kerkûk (Kirkuk) û bajarên Kurdan; koça girseyî ber bi sînorên Tirkiye û Îranê ve",
   "summary_ku": "Piştî serhildana Adara 1991ê, hêzên dewleta Iraqê bi çekên giran û helîkopteran Kerkûk û bajarên Kurdan ji nû ve girtin û bûn sedema koça girseyî ya Kurdan ber bi çiyayên li ser sînorên Tirkiye û Îranê ve. KGNA texmînên 50.000–100.000 kesên kuştî, wendakirî an ji ber sermayê û birçîbûnê mirî neqil dike; ev hejmar nakok e.",
   "impact_ku": "Nêzî 1,5–2 milyon kes reviyan; KGNA li ser sînorê Tirkiyeyê her roj 500–1.000 mirin neqil dike (Wezareta Derve ya DYA)",
-  "place_tr": "Kerkûk (Kerkük) ve Başûr kentleri; Türkiye ve İran sınırlarına toplu göç",
+  "place_tr": "Kerkûk (Kerkük) ve Kürt kentleri; Türkiye ve İran sınırlarına toplu göç",
   "summary_tr": "Mart 1991 ayaklanmasının ardından Irak devletinin güçleri ağır silahlar ve helikopterlerle Kerkûk'ü ve Kürt kentlerini yeniden ele geçirdi; bu, Kürtlerin Türkiye ve İran sınırları boyunca dağlara toplu göçüne yol açtı. KGNA, öldürülen, kaybedilen ya da soğuk ve açlıktan ölenlerin sayısına dair 50.000–100.000 tahminlerini aktarıyor; rakam tartışmalı.",
   "impact_tr": "Yaklaşık 1,5–2 milyon kişi kaçtı; KGNA, Türkiye sınırında günde 500–1.000 ölüm olduğunu aktarıyor (ABD Dışişleri Bakanlığı)"
  },
@@ -577,10 +577,10 @@
  },
  "94e67ed585": {
   "place_ku": "Daristanên çiyayî yên Behdînanê (Badinan), Duhok",
-  "summary_ku": "Rojnamevanê jîngehê yê ji Duhokê Baxtyar Zebarî texmîn dike ku artêşa dewleta Tirk di navbera 2020 û 2023an de li Behdînanê nêzî sê milyon dar birîne an ji kokê derxistine; birîna sîstematîk nêzî sala 2013an dest pê kiribû. The Amargi, bi neqilkirina nexşeyên CPT, radigihîne ku artêş heta 40 km kete hundirê Başûr, zêdetirî 100 baregeh û nêzî 660 km rêyên leşkerî di nav daristanên stûr de çêkirin. Endamekî parlamentoya Kurdistanê got ku rayedarên leşkerî bazirgan teşwîq kirin ku darên birî bikirin û derbasî aliyê din ê sînor bikin; dewleta Tirk dibêje ku daristan şervanên PKK vedişêrin.",
+  "summary_ku": "Rojnamevanê jîngehê yê ji Duhokê Baxtyar Zebarî texmîn dike ku artêşa dewleta Tirk di navbera 2020 û 2023an de li Behdînanê nêzî sê milyon dar birîne an ji kokê derxistine; birîna sîstematîk nêzî sala 2013an dest pê kiribû. The Amargi, bi neqilkirina nexşeyên CPT, radigihîne ku artêş heta 40 km ji sînorê dewletên Tirkiyê û Iraqê derbas bû, zêdetirî 100 baregeh û nêzî 660 km rêyên leşkerî di nav daristanên stûr de çêkirin. Endamekî parlamentoya Kurdistanê got ku rayedarên leşkerî bazirgan teşwîq kirin ku darên birî bikirin û derbasî aliyê din ê sînor bikin; dewleta Tirk dibêje ku daristan şervanên PKK vedişêrin.",
   "impact_ku": "Di 2020–2023an de nêzî 3 milyon dar hatin birîn an ji kokê derxistin (texmîna Baxtyar Zebarî); nêzî 660 km rêyên leşkerî di nav daristanên çiyayî de hatin vekirin; zêdetirî 100 baregehên dewleta Tirk",
   "place_tr": "Behdînan (Badinan) dağ ormanları, Duhok",
-  "summary_tr": "Duhoklu çevre gazetecisi Baxtyar Zebari, sistematik kesimin 2013 civarında başlamasının ardından Türk devletinin ordusunun 2020–2023 yılları arasında Behdînan'da yaklaşık üç milyon ağacı kestiğini veya söktüğünü tahmin ediyor. CPT'nin haritalamasına dayanan The Amargi, ordunun Başûr'da 40 km'ye kadar ilerlediğini, 100'den fazla üs ve sık ormanların içinden yaklaşık 660 km askeri yol inşa ettiğini bildiriyor. Kürdistan parlamentosundan bir milletvekili, askeri yetkililerin tüccarları kesilen kerestenin satın alınıp sınırın öte yakasına taşınması için teşvik ettiğini söyledi; Türk devleti ise ağaç örtüsünün PKK savaşçılarını gizlediğini söylüyor.",
+  "summary_tr": "Duhoklu çevre gazetecisi Baxtyar Zebari, sistematik kesimin 2013 civarında başlamasının ardından Türk devletinin ordusunun 2020–2023 yılları arasında Behdînan'da yaklaşık üç milyon ağacı kestiğini veya söktüğünü tahmin ediyor. CPT'nin haritalamasına dayanan The Amargi, ordunun Türkiye–Irak devlet sınırının 40 km'ye kadar ötesine ilerlediğini, 100'den fazla üs ve sık ormanların içinden yaklaşık 660 km askeri yol inşa ettiğini bildiriyor. Kürdistan parlamentosundan bir milletvekili, askeri yetkililerin tüccarları kesilen kerestenin satın alınıp sınırın öte yakasına taşınması için teşvik ettiğini söyledi; Türk devleti ise ağaç örtüsünün PKK savaşçılarını gizlediğini söylüyor.",
   "impact_tr": "2020–2023'te yaklaşık 3 milyon ağaç kesildi veya söküldü (Baxtyar Zebari'nin tahmini); dağ ormanlarının içinden yaklaşık 660 km askeri yol açıldı; Türk devletine ait 100'den fazla üs"
  },
  "249dde5f83": {
@@ -601,10 +601,10 @@
  },
  "8f8d768789": {
   "place_ku": "Geliyê Mêwîn, çiyayên Metîna, Amêdî",
-  "summary_ku": "Nûçe TV, bi neqilkirina Kameran Osman ê ji CPT, ragihand ku artêşa dewleta Tirk Geliyê Mêwîn ê li zincîreçiyayên Metîna du caran topbaran kir; wî got ku ev 11emîn topbarana dewleta Tirk a li ser Başûr e ji merasîma şewitandina çekên gerîlayan û vir ve.",
+  "summary_ku": "Nûçe TV, bi neqilkirina Kameran Osman ê ji CPT, ragihand ku artêşa dewleta Tirk Geliyê Mêwîn ê li zincîreçiyayên Metîna du caran topbaran kir; wî got ku ev 11emîn topbarana dewleta Tirk a li ser Kurdistanê ye ji merasîma şewitandina çekên gerîlayan û vir ve.",
   "impact_ku": "",
   "place_tr": "Geliyê Mêwîn, Metîna dağları, Amêdî (Amadiye)",
-  "summary_tr": "Nûçe TV, CPT'den Kameran Osman'a dayanarak Türk devletinin ordusunun Metîna sıradağlarındaki Geliyê Mêwîn'i iki kez topa tuttuğunu bildirdi; Osman bunun gerillaların silah yakma töreninden bu yana Türk devletinin Başûr'a yönelik 11. topçu saldırısı olduğunu söyledi.",
+  "summary_tr": "Nûçe TV, CPT'den Kameran Osman'a dayanarak Türk devletinin ordusunun Metîna sıradağlarındaki Geliyê Mêwîn'i iki kez topa tuttuğunu bildirdi; Osman bunun gerillaların silah yakma töreninden bu yana Türk devletinin Kürdistan'a yönelik 11. topçu saldırısı olduğunu söyledi.",
   "impact_tr": ""
  },
  "984f185b6e": {
