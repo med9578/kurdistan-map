@@ -1,0 +1,25 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-10-27",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Near the Barvishkani border post, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.99,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian border guards shot kolbar Ali Mashhouri, from Kandeh Sureh village in Baneh, without warning near the Barvishkani border post, severely wounding him in both legs. He was taken to Salahaddin Ayyubi Hospital in Baneh.",
+  "sources": [
+   {
+    "title": "Hengaw: Kolbar Ali Mashhouri seriously injured by border guards",
+    "url": "https://hengaw.org/en/content/news-kolbars-2026-10-29-18081"
+   }
+  ]
+ }
+]
