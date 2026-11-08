@@ -10,7 +10,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Noto+Sans+Arabic:wght@400..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@500..800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
@@ -22,9 +22,9 @@
   --ground:#0a0a0a; --land:#171717; --water:#040404; --grid:transparent; --road:#262626; --river:#1f3442; --border:#7a7a7a;
   --panel:rgba(20,20,20,.8); --panel-solid:#121212; --card:rgba(255,255,255,.05); --ink:#f3f3f1; --muted:#9d9d99; --line:rgba(255,255,255,.1); --hover:rgba(255,255,255,.06);
   --accent:#d7ff3d; --accent-ink:#d7ff3d; --on-accent:#0a0a0a;
-  --turkey:#ff4538; --iran:#b07cff; --syria:#29d3c2; --iraq:#ffa41c; --usil:#a3adbb; --eco:#45e08a; --halo:#171717;
+  --turkey:#e30a17; --iran:#239f40; --syria:#ffffff; --iraq:#000000; --usil:#2f6bff; --eco:#f5a524; --halo:#171717;
   --heat1:#d7ff3d; --heat2:#ffa41c; --heat3:#ff4538; --heat4:#ffffff;
-  --sans:"Bricolage Grotesque",system-ui,sans-serif; --cond:var(--sans); --mono:var(--sans);
+  --display:"Bricolage Grotesque",system-ui,sans-serif; --sans:"IBM Plex Sans",system-ui,sans-serif; --cond:var(--sans); --mono:var(--sans);
   --r:22px; --glass:blur(18px) saturate(140%); color-scheme:dark;
 }
 html,body{height:100%;margin:0}
@@ -43,31 +43,33 @@ button{cursor:pointer}
 /* floating layout: the map fills the screen; a dock at the bottom opens one sheet at a time */
 .langs.float{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));flex:none;display:flex;border-radius:999px;background:var(--panel);backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass);border:1px solid var(--line);padding:3px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
 .langs button{border:0;background:none;border-radius:999px;padding:6px 10px;font-size:12.5px;font-weight:700;color:var(--muted)}
-.langs button[lang="ckb"]{font-family:"Noto Sans Arabic",var(--sans);font-size:13.5px;line-height:1.1}
+.langs button[lang="ckb"]{font-family:"Noto Kufi Arabic",var(--sans);font-size:13px;line-height:1.1}
 .langs button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
 .menubtn{position:absolute;z-index:930;top:calc(12px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));width:48px;height:48px;border-radius:16px;display:grid;place-items:center;color:var(--ink);padding:0}
-.menubtn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
+.menubtn svg{width:26px;height:26px}
 .menubtn[aria-expanded="true"]{background:var(--accent);color:var(--on-accent);border-color:transparent}
 .menubtn.nudge{animation:nudge 1.8s ease-in-out 4}
 @keyframes nudge{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(215,255,61,.6)}50%{transform:scale(1.08);box-shadow:0 0 0 10px rgba(215,255,61,0)}}
 .menu{position:absolute;z-index:930;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));width:min(300px,calc(100% - 24px));border-radius:20px;padding:6px;display:flex;flex-direction:column;gap:2px}
 .mi{display:flex;align-items:center;gap:12px;width:100%;border:0;background:none;border-radius:14px;padding:12px 14px;font-size:15px;font-weight:600;color:var(--ink);text-align:start}
 .mi:hover,.mi[aria-pressed="true"]{background:var(--card)}
-.mi svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.mi svg{width:22px;height:22px;flex:none}
 .mi.key{background:var(--accent);color:var(--on-accent);font-weight:700}
 .mi.key .g{display:flex;gap:3px;align-items:center;flex:none}
 .mi.key .g svg{width:15px;height:15px}
 .sheet{position:absolute;z-index:910;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
-.sh{flex:none;display:flex;align-items:center;gap:10px;padding:14px 14px 8px 18px}
-.sh h2{flex:1;margin:0;font-size:19px;font-weight:800;letter-spacing:-.01em}
-.shx{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:20px;line-height:1;display:grid;place-items:center}
-.pane{flex:1;min-height:0;overflow-y:auto;padding:4px 18px 20px}
+.sh{flex:none;position:relative;display:flex;align-items:center;gap:12px;padding:16px 20px 10px}
+.sh h2{flex:1;margin:0;font-size:20px;font-weight:700;letter-spacing:-.01em}
+.grab{display:none}
+.shx{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;padding:0;color:var(--ink)}
+.pane{flex:1;min-height:0;overflow-y:auto;padding:6px 20px 28px}
 .search{display:flex;align-items:center;gap:10px;padding:0 16px;height:46px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted);margin-bottom:8px}
 .search input{flex:1;min-width:0;border:0;background:none;outline:0;font-size:15px;color:var(--ink)}
 .search input::placeholder{color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
 .chip{flex:none;display:flex;align-items:center;gap:7px;height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:600;white-space:nowrap}
 .chip i{width:9px;height:9px;border-radius:50%;display:block}
+.chip .hi{width:18px;height:18px;color:var(--eco)}
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:transparent}
 .fh{font-size:14px;font-weight:700;margin:4px 0 10px}
 
@@ -84,7 +86,7 @@ button{cursor:pointer}
 .bars{flex:1;display:flex;gap:4px;align-items:flex-end}
 .bars button{flex:1;border:0;background:none;padding:0;display:flex;flex-direction:column;align-items:stretch;min-width:0}
 .bars .stk{height:46px;display:flex;flex-direction:column-reverse;border-radius:5px;overflow:hidden}
-.bars .stk i{display:block}
+.bars .stk i{display:block;box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
 .bars .y{font-size:10px;color:var(--muted);text-align:center;margin-top:4px;font-variant-numeric:tabular-nums}
 .bars button.dim .stk{opacity:.22}
 .bars button.cur .y{color:var(--accent);font-weight:700}
@@ -93,13 +95,13 @@ button{cursor:pointer}
 
 /* list */
 .listhead{display:flex;justify-content:space-between;align-items:baseline;margin:2px 0 4px}
-.rec{display:grid;grid-template-columns:16px 1fr;gap:10px;padding:11px 4px;border:0;border-bottom:1px solid var(--line);background:none;width:100%;text-align:start}
+.rec{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start;padding:14px 4px;border:0;border-bottom:1px solid var(--line);background:none;width:100%;text-align:start}
 .rec:hover{background:var(--hover)}
 .rec.sel{background:var(--hover);box-shadow:inset 3px 0 0 var(--accent)}
-.rec .d{font-size:11.5px;color:var(--muted)}
-.rec .p{display:block;font-weight:700;font-size:14.5px;line-height:1.3}
+.rec .d{font-size:12px;color:var(--muted);font-weight:500}
+.rec .p{display:block;font-family:var(--display);font-weight:700;font-size:15.5px;line-height:1.35;margin:2px 0 3px}
 .rec .k{font-size:12.5px;color:var(--muted)}
-.rec svg{margin-top:4px}
+.rec .mpin{margin-top:2px}
 .empty{padding:20px 4px;color:var(--muted)}
 
 /* guide: key + filters */
@@ -113,7 +115,7 @@ button{cursor:pointer}
 #keyBody .kgrid .sw{width:12px;height:12px}
 #keyBody .krow{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-top:9px}
 #keyBody .hint{font-size:12.5px;color:var(--muted);margin:12px 0 4px}
-.sw{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.sw{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block;box-shadow:0 0 0 1.5px rgba(255,255,255,.6)}
 .sec{padding:14px 0;border-top:1px solid var(--line)}
 p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .sec h3{margin:0 0 8px;display:flex;align-items:center;gap:8px;font-size:13.5px;font-weight:700}
@@ -137,36 +139,56 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 
 /* detail */
 .detail{padding:2px 0 8px}
-.back{border:0;background:none;padding:0;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:12px}
-.detail .tag{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
-.detail h2{font-weight:800;font-size:26px;line-height:1.08;letter-spacing:-.02em;margin:12px 0 6px;text-wrap:balance}
-.detail .meta{font-size:12.5px;color:var(--muted);line-height:1.6}
-.detail .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
-.detail .facts div{padding:10px 12px;border-radius:16px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
+.back{display:inline-flex;align-items:center;gap:6px;border:0;background:none;padding:0;font-size:13.5px;font-weight:600;color:var(--muted);margin-bottom:14px}
+.back .hi{width:18px;height:18px}
+[dir="rtl"] .back .hi{transform:scaleX(-1)}
+.detail .tag{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:600;padding:5px 14px 5px 6px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--ink)}
+[dir="rtl"] .detail .tag{padding:5px 6px 5px 14px}
+.detail .tag .mpin{width:26px;height:26px;border-width:2.5px}
+.detail h2{font-weight:800;font-size:26px;line-height:1.15;letter-spacing:-.02em;margin:16px 0 12px;text-wrap:balance}
+.detail .meta{display:flex;flex-direction:column;gap:7px;font-size:13.5px;color:var(--muted)}
+.detail .meta div{display:flex;align-items:center;gap:9px}
+.detail .meta .hi{width:18px;height:18px;color:var(--ink);opacity:.7}
+.detail .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}
+.detail .facts div{gap:2px;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
 .detail .facts b{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
-.detail .facts span{font-size:11px;color:var(--muted);line-height:1.25}
+.detail .facts span{font-size:12px;color:var(--muted);line-height:1.3}
 .detail .impact{font-weight:700;margin-top:12px}
-.detail p{margin:8px 0;font-size:15px;line-height:1.55}
-.detail ul{margin:6px 0 0;padding-inline-start:18px;font-size:13px}
+.detail p{margin:12px 0;font-size:15.5px;line-height:1.7}
+.detail ul{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:13.5px}
+.detail li{display:flex;gap:8px;align-items:flex-start}
+.detail li .hi{width:16px;height:16px;margin-top:3px;color:var(--muted)}
 .detail a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px;word-break:break-word}
-.detail .eyebrow{margin-top:16px}
-.share{display:flex;gap:8px;margin-top:16px}
-.sbtn{flex:1;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:12px 14px;font-size:13.5px;font-weight:700;white-space:nowrap}
+.detail .eyebrow{margin-top:22px}
+.share{display:flex;gap:10px;margin-top:24px}
+.sbtn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:12px 14px;font-size:13.5px;font-weight:700;white-space:nowrap}
+.sbtn .hi{width:18px;height:18px}
 .sbtn.go{background:var(--accent);color:var(--on-accent);border-color:transparent}
+
+/* type scale: display face for titles and numbers, text face for reading; weight and colour carry the hierarchy */
+.sh h2,.detail h2,.intro h2,.about h2,.stat b,.detail .facts b,.periods button,.mi,.chip,.sbtn,.tag{font-family:var(--display)}
+.hi{width:20px;height:20px;flex:none;display:block}
+.flag{display:inline-block;width:20px;height:14px;border-radius:3px;overflow:hidden;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.35);vertical-align:middle}
+.flag svg{display:block;width:100%;height:100%}
+.flags{display:inline-flex;gap:3px;flex:none}
+.mpin{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#141414;border:3px solid var(--c);box-shadow:0 0 0 1.5px #fff,inset 0 0 0 1.5px #fff;flex:none}
+.mpin.eco{background:var(--eco)}
+.mpin svg{width:14px;height:14px}
 
 /* map marks: picture pins (colour = state, icon = kind, badge = people killed) and grouped bubbles */
 .pin{position:relative;width:30px;height:37px}
-.pin .pc{position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--c);display:grid;place-items:center;box-shadow:0 0 0 2px #0a0a0a,0 5px 12px rgba(0,0,0,.55);transition:transform .15s}
-.pin::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);border:5px solid transparent;border-top:8px solid var(--c);border-bottom:0}
+.pin .pc{position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:#141414;border:3.5px solid var(--c);display:grid;place-items:center;box-shadow:0 0 0 1.5px #fff,inset 0 0 0 1.5px #fff,0 5px 12px rgba(0,0,0,.55);transition:transform .15s}
+.pin.eco .pc{background:var(--eco)}
+.pin::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);border:5px solid transparent;border-top:8px solid #fff;border-bottom:0}
 .pin .pc svg{width:17px;height:17px}
 .pin b{position:absolute;top:-7px;right:-9px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:#fff;color:#0a0a0a;font-size:10.5px;font-weight:800;line-height:17px;text-align:center;box-shadow:0 0 0 2px #0a0a0a;font-family:var(--sans)}
-.pin.hist .pc{background:#0a0a0a;box-shadow:0 0 0 2px var(--c),0 5px 12px rgba(0,0,0,.55)}
-.pin.sel .pc{transform:scale(1.28);box-shadow:0 0 0 3px var(--accent),0 0 0 6px rgba(215,255,61,.25),0 5px 12px rgba(0,0,0,.55)}
+.pin.hist .pc{border-style:dashed;opacity:.92}
+.pin.sel .pc{transform:scale(1.28);box-shadow:0 0 0 3px var(--accent),0 0 0 7px rgba(215,255,61,.3),0 5px 12px rgba(0,0,0,.55)}
 .mk:hover .pin .pc{transform:scale(1.12)}
 .pin .live{position:absolute;left:-7px;top:-7px;width:44px;height:44px;border-radius:50%;border:2px solid var(--accent);animation:live 1.9s ease-out infinite;pointer-events:none}
-.cl{border-radius:50%;background:var(--g);display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.55);transition:transform .15s}
+.cl{border-radius:50%;background:var(--g);display:grid;place-items:center;box-shadow:0 0 0 1.5px #fff,0 6px 16px rgba(0,0,0,.55);transition:transform .15s}
 .cl:hover{transform:scale(1.08)}
-.cl span{width:calc(100% - 8px);height:calc(100% - 8px);border-radius:50%;background:#0a0a0a;color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--sans)}
+.cl span{width:calc(100% - 9px);height:calc(100% - 9px);border-radius:50%;background:#141414;box-shadow:0 0 0 1.5px #fff;color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--display)}
 .leaflet-cluster-anim .leaflet-marker-icon,.leaflet-cluster-anim .leaflet-marker-shadow{transition:transform .3s ease-out,opacity .3s ease-in}
 .leaflet-cluster-spider-leg{transition:stroke-dashoffset .3s ease-out,stroke-opacity .3s ease-in}
 .ico{display:inline-block;vertical-align:middle;flex:none}
@@ -217,6 +239,7 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .periods button{flex:none;border:0;background:none;border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .periods button.old{color:var(--ink);opacity:.8}
 .periods button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);opacity:1}
+.periods button{direction:ltr;unicode-bidi:isolate}
 .periods .sep{flex:none;width:1px;margin:7px 3px;background:var(--line)}
 #intro{width:min(440px,calc(100% - 24px))}
 .intro{padding:24px 24px 18px}
@@ -225,7 +248,8 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .intro p.m{color:var(--muted);font-size:14px}
 .intro ol{list-style:none;margin:14px 0 18px;padding:14px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
 .intro li{display:grid;grid-template-columns:24px 1fr;gap:8px;font-size:14.5px;line-height:1.4}
-.intro li i{font-style:normal;color:var(--accent);text-align:center}
+.intro li i{font-style:normal;color:var(--accent);display:grid;place-items:center}
+.intro li .hi{width:20px;height:20px}
 .intro .go{display:block;width:100%;padding:14px;font-size:15px}
 .intro .more{display:block;margin:10px auto 0;border:0;background:none;color:var(--muted);font-size:13.5px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
 dialog#about[open]{display:flex;flex-direction:column}
@@ -248,20 +272,27 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 
 /* phone: the sheet rises from the bottom above the dock */
 @media (max-width:760px){
-  .sheet{top:auto;left:8px;right:8px;width:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:calc(100% - 128px - env(safe-area-inset-top,0px));height:auto}
-  .sheet.tall{height:calc(100% - 128px - env(safe-area-inset-top,0px))}
+  .sheet{top:auto;left:0;right:0;width:auto;bottom:0;border-radius:26px 26px 0 0;border-bottom:0;max-height:70%;height:auto;padding-bottom:env(safe-area-inset-bottom,0px);background:var(--panel-solid);box-shadow:0 -12px 40px rgba(0,0,0,.55);animation:rise .22s ease-out}
+  .sheet.tall{height:70%}
+  .grab{display:block;position:absolute;top:7px;left:50%;transform:translateX(-50%);width:42px;height:5px;border-radius:9px;background:rgba(255,255,255,.28)}
+  .sh{padding:22px 18px 10px;touch-action:none}
+  .pane{padding:4px 18px 24px}
   .stats{grid-template-columns:1fr 1fr}
   .detail h2{font-size:24px}
   .leaflet-control-zoom,.leaflet-bottom.leaflet-left,.leaflet-control-attribution{display:none}
   .periods{top:calc(68px + env(safe-area-inset-top,0px));left:8px;right:8px;transform:none;max-width:none}
 }
 /* Sorani: Arabic script, right to left; letter-spacing would break the joined letters */
-:root[lang="ckb"]{--sans:"Noto Sans Arabic","Bricolage Grotesque",system-ui,sans-serif}
+:root[lang="ckb"]{--display:"Noto Kufi Arabic",system-ui,sans-serif;--sans:"IBM Plex Sans Arabic","IBM Plex Sans",system-ui,sans-serif}
+[dir="rtl"] body{line-height:1.75}
+[dir="rtl"] .detail p,[dir="rtl"] .intro p,[dir="rtl"] .about p,[dir="rtl"] .about li{line-height:1.95}
+[dir="rtl"] .detail h2,[dir="rtl"] .intro h2,[dir="rtl"] .about h2,[dir="rtl"] .sh h2{line-height:1.45}
 [dir="rtl"] *{letter-spacing:0!important}
 [dir="rtl"] .eyebrow{text-transform:none;font-size:12.5px}
 [dir="rtl"] .langs.float{direction:ltr}
 #yrLbl,.rec .d,.detail .meta{unicode-bidi:plaintext}
 #yrLbl{direction:ltr}
+@keyframes rise{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -273,7 +304,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
   <div class="langs float" role="group" aria-label="Ziman · Dil · Language"><button data-lang="ku" lang="ku" aria-label="Kurdî (Kurmancî)">Kurdî</button><button data-lang="ckb" lang="ckb" dir="rtl" aria-label="کوردی (سۆرانی)">کوردی</button><button data-lang="tr" lang="tr" aria-label="Türkçe">TR</button><button data-lang="en" lang="en" aria-label="English">EN</button></div>
 
   <section class="sheet glass" id="sheet" hidden aria-labelledby="shT">
-    <header class="sh"><h2 id="shT"></h2><button class="shx" id="shX">×</button></header>
+    <header class="sh" id="shH"><span class="grab" aria-hidden="true"></span><button class="shx" id="shX" data-tl="close"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6l12 12"/></svg></button><h2 id="shT"></h2></header>
     <div class="pane" id="pK" hidden><div id="keyBody"></div></div>
     <div class="pane" id="paneR" hidden>
       <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input type="search" id="q" placeholder="Li cihekî bigere" aria-label="Li tomaran bigere"></label>
@@ -301,12 +332,12 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <div class="pane" id="paneD" hidden></div>
   </section>
 
-  <button class="menubtn glass" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu" data-tl="menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <button class="menubtn glass" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu" data-tl="menu"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></button>
   <nav class="menu glass" id="menu" hidden>
     <button class="mi key" data-tab="K" aria-pressed="false"><span class="g" id="keyIcons" aria-hidden="true"></span><span data-t="keyAsk"></span></button>
-    <button class="mi" data-tab="R" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span data-t="searchList"></span></button>
-    <button class="mi" data-tab="F" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span data-t="tabFilters"></span></button>
-    <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg><span data-t="tabAbout"></span></button>
+    <button class="mi" data-tab="R" aria-pressed="false"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg><span data-t="searchList"></span></button>
+    <button class="mi" data-tab="F" aria-pressed="false"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"/></svg><span data-t="tabFilters"></span></button>
+    <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg><span data-t="tabAbout"></span></button>
   </nav>
   <div class="periods glass" id="periods" role="group" data-tl="period"></div>
 
@@ -315,7 +346,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
       <h2 id="introH" data-t="h1"></h2>
       <p data-t="intro1"></p>
       <p class="m" data-t="intro2"></p>
-      <ol><li><i>●</i><span data-t="introTap"></span></li><li><i>⏱</i><span data-t="introYears"></span></li><li><i>☰</i><span data-t="introKey"></span></li></ol>
+      <ol><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg></i><span data-t="introTap"></span></li><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg></i><span data-t="introYears"></span></li><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></i><span data-t="introKey"></span></li></ol>
       <button class="sbtn go" id="introGo" data-t="wExplore"></button>
       <button class="more" id="introMore" data-t="introMore"></button>
     </div>
@@ -561,7 +592,7 @@ const STR = {
     killed:"killed", wounded:"wounded", civHarmed:"civilians harmed", yes:"yes", no:"no", unclear:"unclear", none:"none",
     back:"BACK", approx:"approximate", docBy:"Documented by", enNote:"", N:"N", E:"E", langBtn:"KU", langAria:"Biguhere bo Kurmancî"}
 };
-Object.assign(STR.ku, {keyAsk:"Nîşan çi dibêjin?", searchList:"Lêgerîn û lîste", tabFilters:"Parzûn û sal", byState:"Kîjan dewletê êrîş kir", wKey3:"Ji bo ku bizanî nîşan çi dibêjin, li bişkoka zer a jêrîn bitikîne: ● ▲ ■ Nîşan çi dibêjin?", tabMap:"Nexşe", tabList:"Lîste", tabGuide:"Rêber", tabAbout:"Derbarê", all:"Hemû", shareBtn:"↗ Parve bike", wKey2:"Reng nîşan dide kîjan dewletê êrîş kir, şêwe jî cureya êrîşê. Di beşa Rêber de hemû têne ravekirin.", wEb:"Ji vir dest pê bike", wStory:"▶ BI ÇÎROKÊ DEST PÊ BIKE · 8 BEŞ", wExplore:"LI NEXŞEYÊ BIGERE",
+Object.assign(STR.ku, {keyAsk:"Nîşan çi dibêjin?", searchList:"Lêgerîn û lîste", tabFilters:"Parzûn û sal", byState:"Kîjan dewletê êrîş kir", wKey3:"Ji bo ku bizanî nîşan çi dibêjin, li bişkoka zer a jêrîn bitikîne: ● ▲ ■ Nîşan çi dibêjin?", tabMap:"Nexşe", tabList:"Lîste", tabGuide:"Rêber", tabAbout:"Derbarê", all:"Hemû", shareBtn:"Parve bike", wKey2:"Reng nîşan dide kîjan dewletê êrîş kir, şêwe jî cureya êrîşê. Di beşa Rêber de hemû têne ravekirin.", wEb:"Ji vir dest pê bike", wStory:"▶ BI ÇÎROKÊ DEST PÊ BIKE · 8 BEŞ", wExplore:"LI NEXŞEYÊ BIGERE",
   wKey:"Reng nîşan dide kîjan dewletê êrîş kir, şêwe jî cureya êrîşê. Bişkoka NÎŞAN hemûyan rave dike.",
   sh_circle:"Êrîşa dronê", sh_triangle:"Bombebarana ji asîman an mûşek", sh_square:"Topbaran, êrîşa bejayî an gulebarana li ser sînor", sh_star:"Komkujî an êrîşa kîmyewî", keyBtn:"NÎŞAN", hintH:"Çawa bi kar bînî", gotIt:"BAŞ E", more:"cure",
   hint1:"Li nîşanekê bitikîne da ku bibînî çi qewimî û çavkanî kî ne.",
@@ -570,7 +601,7 @@ Object.assign(STR.ku, {keyAsk:"Nîşan çi dibêjin?", searchList:"Lêgerîn û 
   nearNone:"Di nav vê dorê de, bi parzûnên niha, tu tomar tune.", nearHint:"Li cihekî vala yê nexşeyê bitikîne da ku bibînî çi li dora wê qewimî.",
   liveNote:"Xeleka ku lê dide: 30 rojên dawî yên tomarê", copyLink:"LÎNKÊ KOPÎ BIKE", copyText:"NIVÎSÊ KOPÎ BIKE", copied:"HAT KOPÎKIRIN ✓", shareH:"Belav bike",
   months:["Çile","Sibat","Adar","Nîsan","Gulan","Hezîran","Tîrmeh","Tebax","Îlon","Cotmeh","Mijdar","Kanûn"]});
-Object.assign(STR.tr, {keyAsk:"Semboller ne anlama geliyor?", searchList:"Ara ve liste", tabFilters:"Filtreler ve yıllar", byState:"Saldıran devlet", wKey3:"Sembollerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: ● ▲ ■ Semboller ne anlama geliyor?", tabMap:"Harita", tabList:"Liste", tabGuide:"Rehber", tabAbout:"Hakkında", all:"Tümü", shareBtn:"↗ Paylaş", wKey2:"Renk saldıran devleti, şekil saldırının türünü gösterir. Rehber sekmesi hepsini açıklar.", wEb:"Buradan başla", wStory:"▶ HİKÂYEYLE BAŞLA · 8 BÖLÜM", wExplore:"HARİTAYI KEŞFET",
+Object.assign(STR.tr, {keyAsk:"Semboller ne anlama geliyor?", searchList:"Ara ve liste", tabFilters:"Filtreler ve yıllar", byState:"Saldıran devlet", wKey3:"Sembollerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: ● ▲ ■ Semboller ne anlama geliyor?", tabMap:"Harita", tabList:"Liste", tabGuide:"Rehber", tabAbout:"Hakkında", all:"Tümü", shareBtn:"Paylaş", wKey2:"Renk saldıran devleti, şekil saldırının türünü gösterir. Rehber sekmesi hepsini açıklar.", wEb:"Buradan başla", wStory:"▶ HİKÂYEYLE BAŞLA · 8 BÖLÜM", wExplore:"HARİTAYI KEŞFET",
   wKey:"Renk saldıran devleti, şekil saldırının türünü gösterir. SEMBOLLER düğmesi hepsini açıklar.",
   sh_circle:"SİHA saldırısı", sh_triangle:"Hava saldırısı ya da füze", sh_square:"Topçu, kara saldırısı ya da sınırda ateş", sh_star:"Katliam ya da kimyasal saldırı", keyBtn:"SEMBOLLER", hintH:"Nasıl kullanılır", gotIt:"TAMAM", more:"tür",
   hint1:"Ne olduğunu ve kaynakları görmek için bir sembole tıkla.",
@@ -579,7 +610,7 @@ Object.assign(STR.tr, {keyAsk:"Semboller ne anlama geliyor?", searchList:"Ara ve
   nearNone:"Bu çevrede, mevcut filtrelerle hiç kayıt yok.", nearHint:"Çevresinde ne olduğunu görmek için haritada boş bir yere tıkla.",
   liveNote:"Atan halka: kaydın son 30 günü", copyLink:"BAĞLANTIYI KOPYALA", copyText:"METNİ KOPYALA", copied:"KOPYALANDI ✓", shareH:"Yay",
   months:["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"]});
-Object.assign(STR.en, {keyAsk:"What do the symbols mean?", searchList:"Search and list", tabFilters:"Filters and years", byState:"Which state attacked", wKey3:"To see what the symbols mean, tap the yellow button at the bottom: ● ▲ ■ What do the symbols mean?", tabMap:"Map", tabList:"List", tabGuide:"Guide", tabAbout:"About", all:"All", shareBtn:"↗ Share", wKey2:"Colour shows which state attacked; shape shows the kind of attack. The Guide tab explains them all.", wEb:"Start here", wStory:"▶ START WITH THE STORY · 8 CHAPTERS", wExplore:"EXPLORE THE MAP",
+Object.assign(STR.en, {keyAsk:"What do the symbols mean?", searchList:"Search and list", tabFilters:"Filters and years", byState:"Which state attacked", wKey3:"To see what the symbols mean, tap the yellow button at the bottom: ● ▲ ■ What do the symbols mean?", tabMap:"Map", tabList:"List", tabGuide:"Guide", tabAbout:"About", all:"All", shareBtn:"Share", wKey2:"Colour shows which state attacked; shape shows the kind of attack. The Guide tab explains them all.", wEb:"Start here", wStory:"▶ START WITH THE STORY · 8 CHAPTERS", wExplore:"EXPLORE THE MAP",
   wKey:"Colour shows which state attacked; shape shows the kind of attack. The KEY button explains them all.",
   sh_circle:"Drone strike", sh_triangle:"Airstrike or missile", sh_square:"Shelling, ground attack or border shooting", sh_star:"Massacre or chemical attack", keyBtn:"KEY", hintH:"How to use this map", gotIt:"GOT IT", more:"kinds",
   hint1:"Click a symbol to see what happened and who documented it.",
@@ -614,7 +645,7 @@ STR.ckb = {h1:"نەخشەی هێرشەکان بۆ سەر کوردستان", alt:
   back:"گەڕانەوە", approx:"نزیکەیی", docBy:"کێ بەڵگەی کردووە", enNote:"", N:"N", E:"E",
   keyAsk:"هێماکان چی دەڵێن؟", searchList:"گەڕان و لیست", tabFilters:"فلتەر و ساڵەکان", byState:"کام دەوڵەت هێرشی کرد",
   wKey3:"بۆ ئەوەی بزانیت هێماکان چی دەڵێن، لە دوگمە زەردەکەی خوارەوە بدە: ● ▲ ■ هێماکان چی دەڵێن؟",
-  tabAbout:"دەربارە", all:"هەموو", shareBtn:"↗ بڵاوکردنەوە", wEb:"لێرەوە دەست پێ بکە", wExplore:"بە نەخشەکەدا بگەڕێ",
+  tabAbout:"دەربارە", all:"هەموو", shareBtn:"بڵاوکردنەوە", wEb:"لێرەوە دەست پێ بکە", wExplore:"بە نەخشەکەدا بگەڕێ",
   sh_circle:"هێرشی درۆن", sh_triangle:"بۆردومانی ئاسمانی یان مووشەک", sh_square:"تۆپباران، هێرشی زەمینی یان تەقەکردن لە سنوور", sh_star:"کۆمەڵکوژی یان هێرشی کیمیایی",
   more:"جۆر", hint1:"لە هێمایەک بدە بۆ ئەوەی بزانیت چی ڕوویداوە و کێ بەڵگەی کردووە.", heatOn:"وەک نەخشەی گەرمی پیشان بدە",
   nearH:"لێرە چی ڕوویدا؟", nearPlace:"دەوروبەری {p}", nearR:"لە ماوەی {r} کیلۆمەتردا", nearNone:"بە فلتەرەکانی ئێستا، لەم ناوچەیەدا هیچ تۆمارێک نییە.",
@@ -762,7 +793,22 @@ const kindGroup = d => d.layer === "Eco" ? "eco" : (KINDS.find(([, s]) => s && s
 const KIND_ICON = {drone:"drone", air:"airstrike", ground:"artillery", border:"border shooting", mass:"massacre", eco:"forest fire"};
 
 /* symbols */
-function sym(d, size) { return ico(subOf(d), css(ACTORS[d.layer].v), Math.max(size, 14)); }
+const HI = {"calendar": "<path d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"/>", "map-pin": "<path d=\"M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"/><path d=\"M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z\"/>", "globe-alt": "<path d=\"M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418\"/>", "link": "<path d=\"M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244\"/>", "share": "<path d=\"M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z\"/>", "document-duplicate": "<path d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"/>", "arrow-left": "<path d=\"M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18\"/>", "fire": "<path d=\"M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z\"/><path d=\"M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z\"/>", "x-mark": "<path d=\"M6 18 18 6M6 6l12 12\"/>"};
+const hi = n => `<svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HI[n]}</svg>`;
+/* small flags of the attacking states, next to their colour */
+const FLAG = {
+  Turkey:'<rect width="30" height="20" fill="#e30a17"/><circle cx="11" cy="10" r="5" fill="#fff"/><circle cx="12.3" cy="10" r="4" fill="#e30a17"/><polygon points="17.5,10 15.4,10.7 16.7,8.9 16.7,11.1 15.4,9.3" fill="#fff"/>',
+  Iran:'<rect width="30" height="7" fill="#239f40"/><rect y="7" width="30" height="6" fill="#fff"/><rect y="13" width="30" height="7" fill="#da0000"/><circle cx="15" cy="10" r="1.8" fill="#da0000"/>',
+  Iraq:'<rect width="30" height="7" fill="#ce1126"/><rect y="7" width="30" height="6" fill="#fff"/><rect y="13" width="30" height="7" fill="#000"/><path d="M10 10h10" stroke="#007a3d" stroke-width="1.6"/>',
+  Syria:'<rect width="30" height="7" fill="#007a3d"/><rect y="7" width="30" height="6" fill="#fff"/><rect y="13" width="30" height="7" fill="#000"/><circle cx="10" cy="10" r="1.3" fill="#ce1126"/><circle cx="15" cy="10" r="1.3" fill="#ce1126"/><circle cx="20" cy="10" r="1.3" fill="#ce1126"/>',
+  US:'<rect width="30" height="20" fill="#fff"/><path d="M0 1.5h30M0 4.6h30M0 7.7h30M0 10.8h30M0 13.9h30M0 17h30" stroke="#b22234" stroke-width="1.55"/><rect width="13" height="10.8" fill="#3c3b6e"/>',
+  Israel:'<rect width="30" height="20" fill="#fff"/><rect y="2.5" width="30" height="2.6" fill="#0038b8"/><rect y="14.9" width="30" height="2.6" fill="#0038b8"/><path d="M15 6.6l2.9 5H12.1zM15 13.4l-2.9-5h5.8z" fill="none" stroke="#0038b8" stroke-width=".9"/>'
+};
+const flag1 = k => FLAG[k] ? `<span class="flag"><svg viewBox="0 0 30 20" aria-hidden="true">${FLAG[k]}</svg></span>` : "";
+const flagOf = l => l === "USIL" ? `<span class="flags">${flag1("US")}${flag1("Israel")}</span>` : l === "Eco" ? hi("fire") : flag1(l);
+/* a record's mark outside the map: the same pin, small; ring = state, amber fill = ecocide */
+const ringOf = d => d.layer === "Eco" ? (ACTORS[d.actor] ? ACTORS[d.actor].v : "--muted") : ACTORS[d.layer].v;
+function sym(d) { const e = d.layer === "Eco"; return `<span class="mpin${e ? " eco" : ""}" style="--c:var(${ringOf(d)})">${ico(subOf(d), e ? "#141414" : "#fff", 14)}</span>`; }
 function poly(n, h, r, rot, inner) {
   const pts = [];
   for (let k = 0; k < n * (inner ? 2 : 1); k++) { const rr = inner && k % 2 ? r * inner : r, a = Math.PI * 2 * k / (n * (inner ? 2 : 1)) + rot; pts.push(`${(h + rr * Math.cos(a)).toFixed(1)},${(h + rr * Math.sin(a)).toFixed(1)}`); }
@@ -913,7 +959,7 @@ function showAcled(a) {
   const max = Math.max(1, ...rows.map(([, v]) => v.air + v.shell));
   const tot = rows.reduce((s, [, v]) => ({n:s.n + v.air + v.shell, f:s.f + v.fat}), {n:0, f:0});
   document.getElementById("paneD").innerHTML = `<div class="detail">
-    <button class="back" id="back">${BACK()}</button>
+    <button class="back" id="back">${hi("arrow-left")}${T("back")}</button>
     <div class="tag" style="color:var(--muted)">ACLED · ${T("acledTag")}</div>
     <h2>${esc(govName(a.admin1))}</h2>
     <div class="meta">${esc(PART[a.country]?.sub || "")} · 2017–2026</div>
@@ -939,9 +985,9 @@ const markerLayer = (L.markerClusterGroup ? L.markerClusterGroup({showCoverageOn
   }}) : L.layerGroup()).addTo(map);
 const zOf = d => state.sel === d.id ? 10000 : d.type === "campaign" ? -100 : d.layer === "Eco" ? 0 : (d.killed || 0) * 10;
 function iconFor(d) {
-  const sel = state.sel === d.id, c = ACTORS[d.layer].v, k = d.type === "campaign" ? 0 : d.killed || 0;
+  const sel = state.sel === d.id, c = ringOf(d), e = d.layer === "Eco", k = d.type === "campaign" ? 0 : d.killed || 0;
   return L.divIcon({className:"mk", iconSize:[30, 37], iconAnchor:[15, 37], tooltipAnchor:[0, -30],
-    html:`<div class="pin${sel ? " sel" : ""}${d.hist ? " hist" : ""}" style="--c:var(${c})">${isRecent(d) ? '<span class="live"></span>' : ""}<span class="pc">${ico(subOf(d), d.hist ? css(c) : "#0a0a0a", 17)}</span>${k ? `<b>${k > 999 ? Math.round(k / 1000) + "k" : k}</b>` : ""}</div>`});
+    html:`<div class="pin${sel ? " sel" : ""}${d.hist ? " hist" : ""}${e ? " eco" : ""}" style="--c:var(${c})">${isRecent(d) ? '<span class="live"></span>' : ""}<span class="pc">${ico(subOf(d), e ? "#141414" : "#fff", 17)}</span>${k ? `<b>${k > 999 ? Math.round(k / 1000) + "k" : k}</b>` : ""}</div>`});
 }
 function buildMarkers() {
   markerLayer.clearLayers(); markers.clear();
@@ -961,7 +1007,7 @@ function renderKey() {
   const cats = Object.keys(CATS).filter(k => DATA.some(d => d.layer === "Eco" && d.category === k));
   const row = (sub, label, bg) => `<div class="krow2"><span class="kpin" style="background:${bg || "var(--muted)"}">${ico(sub, "#0a0a0a", 14)}</span><span>${label}</span></div>`;
   document.getElementById("keyBody").innerHTML =
-    `<h4>${T("keyWho")}</h4><div class="kgrid">${who.map(l => `<div><span class="sw" style="background:var(${ACTORS[l].v})"></span>${ACTORS[l].label}</div>`).join("")}<div><span class="sw" style="background:var(--eco)"></span>${T("aE")}</div></div>` +
+    `<h4>${T("keyWho")}</h4><div class="kgrid">${who.map(l => `<div><span class="mpin" style="--c:var(${ACTORS[l].v});width:22px;height:22px;border-width:3px"></span>${flagOf(l)}${ACTORS[l].label}</div>`).join("")}<div><span class="sw" style="background:var(--eco)"></span>${T("aE")}</div></div>` +
     `<h4>${T("keyIcon")}</h4><div class="klist">${types.map(k => row(k, T("ty_" + k))).join("")}</div>` +
     `<h4>${T("aE")}</h4><div class="klist">${cats.map(k => row(k, T("c_" + k), "var(--eco)")).join("")}</div>` +
     `<h4>${T("keyMore")}</h4>` +
@@ -1027,7 +1073,7 @@ function renderList(rows) {
   if (!rows.length) { ol.innerHTML = `<li class="empty">${T("empty")}</li>`; return; }
   ol.innerHTML = rows.map(recHTML).join("");
 }
-const recHTML = d => `<li><button class="rec ${state.sel === d.id ? "sel" : ""}" data-id="${d.id}">${sym(d, 12, false)}<span><span class="d">${esc(d.date)}${d.governorate ? " · " + esc(govName(d.governorate)) : ""}</span><span class="p">${esc(loc(d, "place"))}</span><span class="k">${ACTORS[d.layer].label} · ${esc(kindOf(d))}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}</span></span></button></li>`;
+const recHTML = d => `<li><button class="rec ${state.sel === d.id ? "sel" : ""}" data-id="${d.id}">${sym(d)}<span><span class="d">${esc(d.date)}${d.governorate ? " · " + esc(govName(d.governorate)) : ""}</span><span class="p">${esc(loc(d, "place"))}</span><span class="k">${ACTORS[d.layer].label} · ${esc(kindOf(d))}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}</span></span></button></li>`;
 
 function render() {
   const rows = DATA.filter(d => matches(d)).sort((a, b) => String(b.date).localeCompare(String(a.date)));
@@ -1063,6 +1109,11 @@ function setSheetTitle(p) { document.getElementById("shT").textContent = p === "
 let lastTab = null;
 const sheet = document.getElementById("sheet");
 document.getElementById("shX").onclick = () => { lastTab = null; select(null); };
+/* phone: drag the sheet's top edge down to close it */
+{ let y0 = null; const h = document.getElementById("shH");
+  h.addEventListener("touchstart", e => { y0 = e.touches[0].clientY; }, {passive:true});
+  h.addEventListener("touchmove", e => { if (y0 != null) sheet.style.transform = `translateY(${Math.max(0, e.touches[0].clientY - y0)}px)`; }, {passive:true});
+  h.addEventListener("touchend", e => { const dy = y0 == null ? 0 : e.changedTouches[0].clientY - y0; y0 = null; sheet.style.transform = ""; if (dy > 70) document.getElementById("shX").click(); }); }
 /* keep a point visible beside the open sheet */
 function flyVis(ll, z, fly) {
   const off = sheet.hidden ? [0, 0] : phone() ? [0, (sheet.getBoundingClientRect().height - 40) / 2] : [-201, 0];
@@ -1078,7 +1129,7 @@ function renderChips() {
   renderKinds();
   const ls = ["Turkey", "Iran", "Syria", "Iraq", "USIL", "Eco"].filter(l => DATA.some(d => d.layer === l));
   document.getElementById("chips").innerHTML = `<button class="chip" data-only="" aria-pressed="${!state.only}">${T("all")}</button>` +
-    ls.map(l => `<button class="chip" data-only="${l}" aria-pressed="${state.only === l}"><i style="background:var(${ACTORS[l].v})"></i>${esc(ACTORS[l].label)}</button>`).join("");
+    ls.map(l => `<button class="chip" data-only="${l}" aria-pressed="${state.only === l}">${flagOf(l)}${esc(ACTORS[l].label)}</button>`).join("");
 }
 function setIcon(id) { const d = DATA[id], m = markers.get(id); if (m) { m.setIcon(iconFor(d)); m.setZIndexOffset(zOf(d)); } }
 function select(id, fly) {
@@ -1096,16 +1147,16 @@ function select(id, fly) {
     <div><b>${d.injured ?? "–"}</b><span>${T("wounded")}</span></div>
     <div><b>${T(d.nocas ? "none" : d.civilian === true ? "yes" : d.civilian === false ? "no" : "unclear")}</b><span>${T("civHarmed")}</span></div></div>`;
   document.getElementById("paneD").innerHTML = `<div class="detail">
-    <button class="back" id="back">${BACK()}</button>
-    <div class="tag" style="color:var(${a.v})">${sym(d, 12, false)}${d.layer === "Eco" ? `${T("aE")}${d.actor && d.actor !== "Other" ? " · " + esc(ACTORS[d.actor]?.label || d.actor) : ""}` : esc(a.label)} · ${esc(kindOf(d))}</div>
+    <button class="back" id="back">${hi("arrow-left")}${T("back")}</button>
+    <div class="tag">${sym(d)}${d.layer === "Eco" ? (ACTORS[d.actor] ? flagOf(d.actor) : "") : flagOf(d.layer)}${d.layer === "Eco" ? `${T("aE")}${d.actor && d.actor !== "Other" ? " · " + esc(ACTORS[d.actor]?.label || d.actor) : ""}` : esc(a.label)} · ${esc(kindOf(d))}</div>
     <h2>${esc(loc(d, "place"))}</h2>
-    <div class="meta">${esc(d.period || d.date)}<br>${esc(where)}<br>${d.lat.toFixed(3)}°${T("N")} ${d.lon.toFixed(3)}°${T("E")}${d.precision === "approximate" ? " · " + T("approx") : ""}</div>
+    <div class="meta"><div>${hi("calendar")}<span dir="ltr">${esc(d.period || d.date)}</span></div><div>${hi("map-pin")}<span>${esc(where)}</span></div><div>${hi("globe-alt")}<span><span dir="ltr">${d.lat.toFixed(3)}°${T("N")} ${d.lon.toFixed(3)}°${T("E")}</span>${d.precision === "approximate" ? " · " + T("approx") : ""}</span></div></div>
     ${facts}
     ${d.impact ? `<div class="impact">${esc(loc(d, "impact"))}</div>` : ""}
     ${LANG !== "en" && !d["summary_" + LANG] ? `<div class="eyebrow" style="margin-top:12px">${T("enNote")}</div>` : ""}<p lang="${d["summary_" + LANG] ? LANG : "en"}" dir="auto">${esc(loc(d, "summary"))}</p>
     <div class="eyebrow" style="margin-top:14px">${T("docBy")}</div>
-    <ul>${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a></li>`).join("")}</ul>
-    <div class="share"><button class="sbtn go" id="cpLink">${T("shareBtn")}</button><button class="sbtn" id="cpText">${T("copyText")}</button></div>
+    <ul>${(d.sources || []).map(s => `<li>${hi("link")}<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.url)}</a></li>`).join("")}</ul>
+    <div class="share"><button class="sbtn go" id="cpLink">${hi("share")}${T("shareBtn")}</button><button class="sbtn" id="cpText">${hi("document-duplicate")}${T("copyText")}</button></div>
   </div>`;
   document.getElementById("cpLink").onclick = e => { const b = e.currentTarget; if (navigator.share && phone()) navigator.share({title:loc(d, "place"), text:`${loc(d, "place")} · ${d.period || d.date}`, url:linkOf(d)}).catch(() => {}); else copy(linkOf(d), b); };
   document.getElementById("cpText").onclick = e => copy(textOf(d), e.currentTarget);
@@ -1209,7 +1260,7 @@ function showNear(ll) {
   const years = rows.filter(d => !d.hist).map(d => d.year);
   openDrawer(true);
   document.getElementById("paneD").innerHTML = `<div class="detail">
-    <button class="back" id="back">${BACK()}</button>
+    <button class="back" id="back">${hi("arrow-left")}${T("back")}</button>
     <div class="tag" style="color:var(--ink)">◎ ${T("nearH")}</div>
     <h2>${near && near[1] < 45000 ? esc(T("nearPlace").replace("{p}", near[0])) : `${ll.lat.toFixed(2)}°${T("N")} ${ll.lng.toFixed(2)}°${T("E")}`}</h2>
     <div class="meta">${ll.lat.toFixed(3)}°${T("N")} ${ll.lng.toFixed(3)}°${T("E")} · ${T("nearR").replace("{r}", km)}${years.length ? ` · ${Math.min(...years)}–${Math.max(...years)}` : ""}</div>
