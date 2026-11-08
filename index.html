@@ -41,10 +41,6 @@ button{cursor:pointer}
 .eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 
 /* floating layout: the map fills the screen; a dock at the bottom opens one sheet at a time */
-.langs.float{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));flex:none;display:flex;border-radius:999px;background:var(--panel);backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass);border:1px solid var(--line);padding:3px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
-.langs button{border:0;background:none;border-radius:999px;padding:6px 10px;font-size:12.5px;font-weight:700;color:var(--muted)}
-.langs button[lang="ckb"]{font-family:"Noto Kufi Arabic",var(--sans);font-size:13px;line-height:1.1}
-.langs button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
 .menubtn{position:absolute;z-index:930;top:calc(12px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));width:48px;height:48px;border-radius:16px;display:grid;place-items:center;color:var(--ink);padding:0}
 .menubtn svg{width:26px;height:26px}
 .menubtn[aria-expanded="true"]{background:var(--accent);color:var(--on-accent);border-color:transparent}
@@ -57,10 +53,15 @@ button{cursor:pointer}
 .mi.key{background:var(--accent);color:var(--on-accent);font-weight:700}
 .mi.key .g{display:flex;gap:3px;align-items:center;flex:none}
 .mi.key .g svg{width:15px;height:15px}
-.sheet{position:absolute;z-index:910;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
+.sheet{background:var(--panel-solid)!important;position:absolute;z-index:910;top:calc(68px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:390px;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
 .sh{flex:none;position:relative;display:flex;align-items:center;gap:12px;padding:16px 20px 10px}
 .sh h2{flex:1;margin:0;font-size:20px;font-weight:700;letter-spacing:-.01em}
 .grab{display:none}
+/* a record has no sheet title: the close button moves to the far side and the record's tag shares its row */
+.sh{z-index:2}
+.sheet.d .shx{order:2}
+.sheet.d #paneD{margin-top:-56px}
+.sheet.d .detail .tag{max-width:calc(100% - 56px)}
 .shx{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;padding:0;color:var(--ink)}
 .pane{flex:1;min-height:0;overflow-y:auto;padding:6px 20px 28px}
 .search{display:flex;align-items:center;gap:10px;padding:0 16px;height:46px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted);margin-bottom:8px}
@@ -165,6 +166,29 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .sbtn .hi{width:18px;height:18px}
 .sbtn.go{background:var(--accent);color:var(--on-accent);border-color:transparent}
 
+/* language: one button, a sheet with the four choices */
+.langbtn{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));height:48px;display:flex;align-items:center;gap:8px;padding:0 16px 0 13px;border-radius:16px;color:var(--ink);font-family:var(--display);font-weight:700;font-size:14.5px}
+.langbtn .hi{width:21px;height:21px}
+#langCur:lang(ckb),.lopt[lang="ckb"] b{font-family:"Noto Kufi Arabic",var(--sans)}
+#paneLang{flex:none}
+.lopt{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;padding:16px 4px;border:0;border-bottom:1px solid var(--line);background:none;text-align:start}
+.lopt span{display:flex;flex-direction:column;gap:2px}
+.lopt b{font-size:17px;font-weight:700}
+.lopt small{font-size:12.5px;color:var(--muted)}
+.lopt .hi{width:22px;height:22px;color:var(--accent);visibility:hidden}
+.lopt[aria-pressed="true"] .hi{visibility:visible}
+.lopt[aria-pressed="true"] b{color:var(--accent)}
+.lopt[dir="rtl"]{direction:rtl}
+/* the newest record, always one tap away */
+.latest{position:absolute;z-index:890;left:50%;transform:translateX(-50%);bottom:calc(18px + env(safe-area-inset-bottom,0px));width:min(440px,calc(100% - 24px));display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px;border-radius:20px;text-align:start;color:var(--ink);background:var(--panel-solid)}
+.latest .t{display:flex;flex-direction:column;min-width:0;gap:1px}
+.latest small{font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.latest b{font-family:var(--display);font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.latest span.m{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.latest>.hi{width:20px;height:20px;color:var(--muted)}
+[dir="rtl"] .latest>.hi{transform:scaleX(-1)}
+[dir="rtl"] .latest small{letter-spacing:0;text-transform:none}
+.detail .facts b.hot{color:#ff5a4f}
 /* type scale: display face for titles and numbers, text face for reading; weight and colour carry the hierarchy */
 .sh h2,.detail h2,.intro h2,.about h2,.stat b,.detail .facts b,.periods button,.mi,.chip,.sbtn,.tag{font-family:var(--display)}
 .hi{width:20px;height:20px;flex:none;display:block}
@@ -289,7 +313,6 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 [dir="rtl"] .detail h2,[dir="rtl"] .intro h2,[dir="rtl"] .about h2,[dir="rtl"] .sh h2{line-height:1.45}
 [dir="rtl"] *{letter-spacing:0!important}
 [dir="rtl"] .eyebrow{text-transform:none;font-size:12.5px}
-[dir="rtl"] .langs.float{direction:ltr}
 #yrLbl,.rec .d,.detail .meta{unicode-bidi:plaintext}
 #yrLbl{direction:ltr}
 @keyframes rise{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
@@ -301,7 +324,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
 <div class="app">
   <div id="map" dir="ltr" role="application" aria-label="Map of attacks across Kurdistan"></div>
 
-  <div class="langs float" role="group" aria-label="Ziman · Dil · Language"><button data-lang="ku" lang="ku" aria-label="Kurdî (Kurmancî)">Kurdî</button><button data-lang="ckb" lang="ckb" dir="rtl" aria-label="کوردی (سۆرانی)">کوردی</button><button data-lang="tr" lang="tr" aria-label="Türkçe">TR</button><button data-lang="en" lang="en" aria-label="English">EN</button></div>
+  <button class="langbtn glass" id="langBtn" aria-haspopup="dialog"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802"/></svg><span id="langCur"></span></button>
 
   <section class="sheet glass" id="sheet" hidden aria-labelledby="shT">
     <header class="sh" id="shH"><span class="grab" aria-hidden="true"></span><button class="shx" id="shX" data-tl="close"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6l12 12"/></svg></button><h2 id="shT"></h2></header>
@@ -330,6 +353,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
       <div id="paneL"></div>
     </div>
     <div class="pane" id="paneD" hidden></div>
+    <div class="pane" id="paneLang" hidden><button class="lopt" data-lang="ckb" lang="ckb" dir='rtl'><span><b>کوردی</b><small>سۆرانی</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="ku" lang="ku" dir='ltr'><span><b>Kurdî</b><small>Kurmancî</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="tr" lang="tr"><span><b>Türkçe</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="en" lang="en"><span><b>English</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button></div>
   </section>
 
   <button class="menubtn glass" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu" data-tl="menu"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></button>
@@ -339,6 +363,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <button class="mi" data-tab="F" aria-pressed="false"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"/></svg><span data-t="tabFilters"></span></button>
     <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg><span data-t="tabAbout"></span></button>
   </nav>
+  <button class="latest glass" id="latest" hidden></button>
   <div class="periods glass" id="periods" role="group" data-tl="period"></div>
 
   <dialog id="intro" aria-labelledby="introH">
@@ -673,6 +698,10 @@ Object.assign(STR.ckb, {"menu": "لیست", "wKey3": "بۆ ئەوەی بزانی
 Object.assign(STR.tr, {"menu": "Menü", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için sol üstteki ☰ düğmesine, sonra «Semboller ne anlama geliyor?» seçeneğine dokun."});
 Object.assign(STR.en, {"menu": "Menu", "wKey3": "To see what the colours and icons mean, tap the ☰ button at the top left, then “What do the symbols mean?”."});
 Object.assign(STR.ku, {period:"Dem"});
+Object.assign(STR.ku, {langH:"Ziman", latest:"Ya herî dawî"});
+Object.assign(STR.ckb, {langH:"زمان", latest:"دوایین هێرش"});
+Object.assign(STR.tr, {langH:"Dil", latest:"En son"});
+Object.assign(STR.en, {langH:"Language", latest:"Latest"});
 Object.assign(STR.ku, {intro1:"Ev nexşe êrîşên dewletan li ser Kurdistanê nîşan dide: êrîşên dronan, bombebaran, topbaran û kuştina kolberan li ser sînor, û daristan, zevî û avên ku hatine wêrankirin. Ji îro heta 1925an vedigere.", intro2:"Her xal bûyereke rastîn e ku rojnamevanên Kurd û rêxistinên mafên mirovan ragihandine, bi girêdana çavkaniyê.", introTap:"Li xalekê bitikîne da ku bibînî çi qewimî.", introYears:"Bi salên li jor demekê hilbijêre.", introKey:"Li ☰ bitikîne da ku bizanî reng û wêne çi dibêjin.", introMore:"Zêdetir derbarê nexşeyê de"});
 Object.assign(STR.ckb, {intro1:"ئەم نەخشەیە هێرشەکانی دەوڵەتان بۆ سەر کوردستان نیشان دەدات: هێرشی درۆن، بۆمبباران، تۆپباران و کوشتنی کۆڵبەران لەسەر سنوور، هەروەها ئەو دارستان و کێڵگە و ئاوانەی وێران کراون. لە ئەمڕۆوە تا ساڵی 1925 دەگەڕێتەوە.", intro2:"هەر خاڵێک ڕووداوێکی ڕاستەقینەیە کە ڕۆژنامەنووسانی کورد و ڕێکخراوەکانی مافی مرۆڤ ڕاپۆرتیان کردووە، لەگەڵ بەستەری سەرچاوەکەی.", introTap:"لە خاڵێک بدە بۆ ئەوەی ببینیت چی ڕوویداوە.", introYears:"لە ساڵەکانی سەرەوە ماوەیەک هەڵبژێرە.", introKey:"لە ☰ بدە بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن.", introMore:"زیاتر دەربارەی نەخشەکە"});
 Object.assign(STR.tr, {intro1:"Bu harita devletlerin Kürdistan'a yönelik saldırılarını gösteriyor: SİHA saldırıları, bombardımanlar, topçu atışları ve sınırda öldürülen kolberler; ayrıca yok edilen ormanlar, tarlalar ve sular. Bugünden 1925'e kadar uzanıyor.", intro2:"Her nokta, Kürt gazetecilerin ve insan hakları örgütlerinin aktardığı gerçek bir olay; her birinde kaynağın bağlantısı var.", introTap:"Ne olduğunu görmek için bir noktaya dokun.", introYears:"Üstteki yıllardan bir dönem seç.", introKey:"Renklerin ve simgelerin anlamı için ☰ düğmesine dokun.", introMore:"Harita hakkında daha fazlası"});
@@ -699,8 +728,11 @@ const LBL_CKB = {KURDISTAN:"کوردستان", "Hewlêr":"هەولێر", Duhok:"
 const govName = g => LANG === "ckb" ? GOV_CKB[g] || g : KU[g] || ADM_KU[g] || g;
 const BACK = () => (LANG === "ckb" ? "→ " : "← ") + T("back");
 
-let LANG = "ku";
-try { const l = localStorage.getItem("ksm-lang"); if (l === "en" || l === "ku" || l === "tr" || l === "ckb") LANG = l; } catch (e) {}
+let LANG = "ckb";
+{ let l = null; try { l = localStorage.getItem("ksm-lang"); } catch (e) {}
+  if (l === "en" || l === "ku" || l === "tr" || l === "ckb") LANG = l;
+  else { const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "", nl = (navigator.language || "").toLowerCase();
+    LANG = /Baghdad|Tehran/.test(tz) ? "ckb" : /Istanbul|Damascus/.test(tz) ? "ku" : nl.startsWith("en") ? "en" : nl.startsWith("tr") ? "tr" : "ckb"; } }
 const loc = (d, f) => (LANG !== "en" && d[f + "_" + LANG]) || d[f];
 const T = k => STR[LANG][k] ?? STR.en[k] ?? k;
 function applyStatic() {
@@ -713,6 +745,7 @@ function applyStatic() {
   document.getElementById("q").placeholder = T("search");
   document.getElementById("map").setAttribute("aria-label", T("mapLabel"));
   document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
+  document.getElementById("langCur").textContent = {ckb:"کوردی", ku:"Kurdî", tr:"Türkçe", en:"English"}[LANG];
   document.getElementById("aboutTR").hidden = LANG !== "tr";
   document.getElementById("aboutKU").hidden = LANG !== "ku";
   document.getElementById("aboutEN").hidden = LANG !== "en";
@@ -793,7 +826,7 @@ const kindGroup = d => d.layer === "Eco" ? "eco" : (KINDS.find(([, s]) => s && s
 const KIND_ICON = {drone:"drone", air:"airstrike", ground:"artillery", border:"border shooting", mass:"massacre", eco:"forest fire"};
 
 /* symbols */
-const HI = {"calendar": "<path d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"/>", "map-pin": "<path d=\"M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"/><path d=\"M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z\"/>", "globe-alt": "<path d=\"M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418\"/>", "link": "<path d=\"M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244\"/>", "share": "<path d=\"M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z\"/>", "document-duplicate": "<path d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"/>", "arrow-left": "<path d=\"M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18\"/>", "fire": "<path d=\"M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z\"/><path d=\"M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z\"/>", "x-mark": "<path d=\"M6 18 18 6M6 6l12 12\"/>"};
+const HI = {"chevron-right":"<path d=\"m8.25 4.5 7.5 7.5-7.5 7.5\"/>","calendar": "<path d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"/>", "map-pin": "<path d=\"M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\"/><path d=\"M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z\"/>", "globe-alt": "<path d=\"M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418\"/>", "link": "<path d=\"M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244\"/>", "share": "<path d=\"M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z\"/>", "document-duplicate": "<path d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"/>", "arrow-left": "<path d=\"M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18\"/>", "fire": "<path d=\"M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z\"/><path d=\"M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z\"/>", "x-mark": "<path d=\"M6 18 18 6M6 6l12 12\"/>"};
 const hi = n => `<svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HI[n]}</svg>`;
 /* small flags of the attacking states, next to their colour */
 const FLAG = {
@@ -836,6 +869,13 @@ function sizeOf(d) {
   if (d.type === "campaign") return 26;
   const k = d.killed || 0;
   return (k >= 10 ? 24 : k >= 3 ? 19 : k >= 1 ? 16 : 14) + (TYPES[d.type] === "star" ? 2 : 0);
+}
+/* dates as people say them */
+function fdate(d) {
+  if (d.period) return d.period;
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d.date || ""); if (!m) return d.date || "";
+  const day = +m[3], mon = T("months")[+m[2] - 1], y = m[1];
+  return LANG === "ckb" ? `${day}ی ${mon}ی ${y}` : LANG === "en" ? `${day} ${mon} ${y}` : `${day} ${mon} ${y}`;
 }
 const kindOf = d => d.layer === "Eco" ? T("c_" + d.category) : T("ty_" + d.type);
 
@@ -1073,7 +1113,7 @@ function renderList(rows) {
   if (!rows.length) { ol.innerHTML = `<li class="empty">${T("empty")}</li>`; return; }
   ol.innerHTML = rows.map(recHTML).join("");
 }
-const recHTML = d => `<li><button class="rec ${state.sel === d.id ? "sel" : ""}" data-id="${d.id}">${sym(d)}<span><span class="d">${esc(d.date)}${d.governorate ? " · " + esc(govName(d.governorate)) : ""}</span><span class="p">${esc(loc(d, "place"))}</span><span class="k">${ACTORS[d.layer].label} · ${esc(kindOf(d))}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}</span></span></button></li>`;
+const recHTML = d => `<li><button class="rec ${state.sel === d.id ? "sel" : ""}" data-id="${d.id}">${sym(d)}<span><span class="d">${esc(fdate(d))}${d.governorate ? " · " + esc(govName(d.governorate)) : ""}</span><span class="p">${esc(loc(d, "place"))}</span><span class="k">${ACTORS[d.layer].label} · ${esc(kindOf(d))}${d.killed ? ` · ${d.killed} ${T("nKilled")}` : ""}</span></span></button></li>`;
 
 function render() {
   const rows = DATA.filter(d => matches(d)).sort((a, b) => String(b.date).localeCompare(String(a.date)));
@@ -1086,9 +1126,17 @@ function render() {
   document.getElementById("sK").textContent = fmt(strikes.filter(d => d.type !== "campaign").reduce((s, d) => s + (d.killed || 0), 0));
   document.getElementById("sC").textContent = fmt(strikes.filter(d => d.civilian === true).length);
   document.getElementById("sE").textContent = fmt(rows.length - strikes.length);
-  renderBars(); renderPeriods(); renderList(rows); renderAcled();
+  renderBars(); renderPeriods(); renderList(rows); renderAcled(); renderLatest(rows);
 }
 
+function renderLatest(rows) {
+  const el = document.getElementById("latest"), d = rows.find(r => r.date && !r.period);
+  el.dataset.id = d ? d.id : "";
+  if (!d) { el.hidden = true; return; }
+  el.hidden = !!state.tab;
+  el.innerHTML = `${sym(d)}<span class="t"><small>${T("latest")}</small><b>${esc(loc(d, "place"))}</b><span class="m">${esc(fdate(d))} · ${esc(d.layer === "Eco" ? T("aE") : ACTORS[d.layer].label)} · ${esc(kindOf(d))}</span></span>${hi("chevron-right")}`;
+}
+document.getElementById("latest").onclick = e => { const id = e.currentTarget.dataset.id; if (id !== "") { lastTab = null; select(+id, true); } };
 function renderPeriods() {
   const el = document.getElementById("periods"), b = (v, t, cls) => `<button class="${cls}" data-period="${v}" aria-pressed="${String(state.year ?? "") === String(v)}">${t}</button>`;
   const ys = []; for (let y = Y0; y <= Y1; y++) ys.push(y);
@@ -1099,13 +1147,15 @@ function renderPeriods() {
 
 function showPane(p) {
   state.tab = p;
-  [["K", "pK"], ["R", "paneR"], ["F", "pF"], ["D", "paneD"]].forEach(([k, id]) => document.getElementById(id).hidden = p !== k);
+  [["K", "pK"], ["R", "paneR"], ["F", "pF"], ["D", "paneD"], ["L", "paneLang"]].forEach(([k, id]) => document.getElementById(id).hidden = p !== k);
   document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.tab === (p === "D" ? lastTab : p)));
   sheet.hidden = !p;
+  { const l = document.getElementById("latest"); if (l.dataset.id) l.hidden = !!p; }
   sheet.classList.toggle("tall", p === "R" || p === "F" || p === "D");
+  sheet.classList.toggle("d", p === "D");
   if (p) setSheetTitle(p);
 }
-function setSheetTitle(p) { document.getElementById("shT").textContent = p === "K" ? T("keyH") : p === "R" ? T("searchList") : p === "F" ? T("tabFilters") : ""; }
+function setSheetTitle(p) { document.getElementById("shT").textContent = p === "K" ? T("keyH") : p === "R" ? T("searchList") : p === "F" ? T("tabFilters") : p === "L" ? T("langH") : ""; }
 let lastTab = null;
 const sheet = document.getElementById("sheet");
 document.getElementById("shX").onclick = () => { lastTab = null; select(null); };
@@ -1143,14 +1193,14 @@ function select(id, fly) {
   const d = DATA[id], a = ACTORS[d.layer], part = PART[d.country];
   const where = [d.governorate ? govName(d.governorate) : "", part ? part.sub : d.country].filter(Boolean).join(" · ");
   const facts = d.layer === "Eco" ? "" : `<div class="facts">
-    <div><b>${d.killed ?? "–"}</b><span>${T("killed")}</span></div>
+    <div><b class="${d.killed ? "hot" : ""}">${d.killed ?? "–"}</b><span>${T("killed")}</span></div>
     <div><b>${d.injured ?? "–"}</b><span>${T("wounded")}</span></div>
-    <div><b>${T(d.nocas ? "none" : d.civilian === true ? "yes" : d.civilian === false ? "no" : "unclear")}</b><span>${T("civHarmed")}</span></div></div>`;
+    <div><b class="${d.civilian === true ? "hot" : ""}">${T(d.nocas ? "none" : d.civilian === true ? "yes" : d.civilian === false ? "no" : "unclear")}</b><span>${T("civHarmed")}</span></div></div>`;
   document.getElementById("paneD").innerHTML = `<div class="detail">
-    <button class="back" id="back">${hi("arrow-left")}${T("back")}</button>
+    ${lastTab ? `<button class="back" id="back">${hi("arrow-left")}${T("back")}</button>` : ""}
     <div class="tag">${sym(d)}${d.layer === "Eco" ? (ACTORS[d.actor] ? flagOf(d.actor) : "") : flagOf(d.layer)}${d.layer === "Eco" ? `${T("aE")}${d.actor && d.actor !== "Other" ? " · " + esc(ACTORS[d.actor]?.label || d.actor) : ""}` : esc(a.label)} · ${esc(kindOf(d))}</div>
     <h2>${esc(loc(d, "place"))}</h2>
-    <div class="meta"><div>${hi("calendar")}<span dir="ltr">${esc(d.period || d.date)}</span></div><div>${hi("map-pin")}<span>${esc(where)}</span></div><div>${hi("globe-alt")}<span><span dir="ltr">${d.lat.toFixed(3)}°${T("N")} ${d.lon.toFixed(3)}°${T("E")}</span>${d.precision === "approximate" ? " · " + T("approx") : ""}</span></div></div>
+    <div class="meta"><div>${hi("calendar")}<span>${esc(fdate(d))}</span></div><div>${hi("map-pin")}<span>${esc(where)}${d.precision === "approximate" ? " · " + T("approx") : ""}</span></div></div>
     ${facts}
     ${d.impact ? `<div class="impact">${esc(loc(d, "impact"))}</div>` : ""}
     ${LANG !== "en" && !d["summary_" + LANG] ? `<div class="eyebrow" style="margin-top:12px">${T("enNote")}</div>` : ""}<p lang="${d["summary_" + LANG] ? LANG : "en"}" dir="auto">${esc(loc(d, "summary"))}</p>
@@ -1162,7 +1212,7 @@ function select(id, fly) {
   document.getElementById("cpText").onclick = e => copy(textOf(d), e.currentTarget);
   showPane("D");
   document.getElementById("paneD").scrollTop = 0;
-  document.getElementById("back").onclick = () => select(null);
+  if (lastTab) document.getElementById("back").onclick = () => select(null);
   if (d.lat != null && (fly || phone())) flyVis([d.lat, d.lon], fly ? Math.max(map.getZoom(), 10) : map.getZoom(), fly);
 }
 
@@ -1299,8 +1349,9 @@ intro.addEventListener("click", e => { if (e.target === intro) intro.close(); })
 if (!location.hash.startsWith("#r-")) intro.showModal();
 const rethemed = () => { const s = state.sel; state.sel = null; drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); if (s != null) select(s, false); if (nearCircle) nearCircle.setStyle({color:css("--accent"), fillColor:css("--accent")}); };
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", rethemed);
+document.getElementById("langBtn").onclick = () => { const o = state.tab === "L"; closeMenu(); if (state.sel != null) select(null); showPane(o ? null : "L"); };
 document.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => {
-  LANG = b.dataset.lang;
+  LANG = b.dataset.lang; showPane(null);
   try { localStorage.setItem("ksm-lang", LANG); } catch (e) {}
   applyStatic();
   lblMarkers.forEach(o => o.m.setIcon(lblIcon(o.cls, o.t)));
