@@ -297,6 +297,9 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .periods button.old{color:var(--ink);opacity:.8}
 .periods button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);opacity:1}
 .periods button{direction:ltr;unicode-bidi:isolate}
+.periods .cal{flex:none;display:grid;place-items:center;padding:0 4px 0 8px;color:var(--muted)}
+.periods .cal .hi{width:18px;height:18px}
+.periods{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%)}
 .periods .sep{flex:none;width:1px;margin:7px 3px;background:var(--line)}
 #intro{width:min(440px,calc(100% - 24px))}
 .intro{padding:24px 24px 18px}
@@ -1197,9 +1200,10 @@ document.getElementById("latest").onclick = e => { const id = e.currentTarget.da
 function renderPeriods() {
   const el = document.getElementById("periods"), b = (v, t, cls) => `<button class="${cls}" data-period="${v}" aria-pressed="${String(state.year ?? "") === String(v)}">${t}</button>`;
   const ys = []; for (let y = Y0; y <= Y1; y++) ys.push(y);
-  el.innerHTML = b("", T("all"), "") + `<span class="sep"></span>` + PERIODS.map(([a, z]) => b(`${a}-${z}`, `${a}–${String(z).slice(2)}`, "old")).join("") + `<span class="sep"></span>` + ys.map(y => b(y, y, "")).join("");
+  // newest first, so this year and last year are in view without scrolling; the older eras sit at the far end
+  el.innerHTML = `<span class="cal">${hi("calendar")}</span>` + b("", T("all"), "") + `<span class="sep"></span>` + ys.reverse().map(y => b(y, y, "")).join("") + `<span class="sep"></span>` + PERIODS.slice().reverse().map(([a, z]) => b(`${a}-${z}`, `${a}–${String(z).slice(2)}`, "old")).join("");
   const on = el.querySelector('[aria-pressed="true"]');
-  if (on && el.scrollWidth > el.clientWidth) el.scrollLeft = on.offsetLeft - (el.clientWidth - on.offsetWidth) / 2;
+  if (on && el.scrollWidth > el.clientWidth) { const r = el.getBoundingClientRect(), o = on.getBoundingClientRect(); el.scrollBy({left:(o.left + o.width / 2) - (r.left + r.width / 2), behavior:"smooth"}); }
 }
 
 function showPane(p) {
