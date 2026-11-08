@@ -166,6 +166,28 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .sbtn .hi{width:18px;height:18px}
 .sbtn.go{background:var(--accent);color:var(--on-accent);border-color:transparent}
 
+/* year button + year sheet */
+.yearbtn{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));left:calc(max(12px,env(safe-area-inset-left,0px)) + 58px);height:48px;display:flex;align-items:center;gap:8px;padding:0 12px 0 13px;border-radius:16px;color:var(--ink);font-size:15px;font-weight:700}
+.yearbtn .hi{width:20px;height:20px}
+.yearbtn .dn{width:16px;height:16px;color:var(--muted)}
+.yearbtn.on{background:var(--accent);color:var(--on-accent);border-color:transparent}
+.yearbtn.on .dn{color:var(--on-accent)}
+#yearCur{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+#paneY{flex:none}
+.sheet:has(#paneY:not([hidden])){max-height:78%}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;border-radius:14px;background:var(--card);border:1px solid var(--line);margin-bottom:12px}
+.seg button{border:0;background:none;border-radius:10px;padding:10px 6px;font-family:var(--display);font-size:13.5px;font-weight:700;color:var(--muted);white-space:nowrap}
+.seg button[aria-selected="true"]{background:var(--ink);color:#0a0a0a}
+.yrow{display:grid;grid-template-columns:minmax(64px,auto) 1fr 46px;align-items:center;gap:14px;width:100%;padding:11px 10px;border:0;border-radius:14px;background:none;text-align:start}
+.yrow:hover{background:var(--hover)}
+.yrow b{white-space:nowrap;font-size:16px;font-weight:700;direction:ltr;unicode-bidi:isolate;text-align:start}
+.yrow.big{grid-template-columns:1fr auto;margin-bottom:4px;border-bottom:1px solid var(--line);border-radius:14px 14px 0 0}
+.yrow .n{font-size:14px;font-weight:600;color:var(--muted);text-align:end;font-variant-numeric:tabular-nums}
+.ybar{display:flex;height:12px;border-radius:6px;overflow:hidden;background:rgba(255,255,255,.06)}
+.ybar i{display:block;height:100%;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
+[dir="rtl"] .ybar{flex-direction:row}
+.yrow[aria-pressed="true"]{background:rgba(215,255,61,.12)}
+.yrow[aria-pressed="true"] b,.yrow[aria-pressed="true"] .n{color:var(--accent)}
 /* filters */
 .fsum{padding:14px;border-radius:20px;background:var(--card);border:1px solid var(--line);margin-bottom:22px}
 .fsum .stats{gap:10px}
@@ -223,7 +245,7 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 [dir="rtl"] .latest small{letter-spacing:0;text-transform:none}
 .detail .facts b.hot{color:#ff5a4f}
 /* type scale: display face for titles and numbers, text face for reading; weight and colour carry the hierarchy */
-.sh h2,.detail h2,.intro h2,.about h2,.stat b,.detail .facts b,.periods button,.mi,.chip,.sbtn,.tag{font-family:var(--display)}
+.sh h2,.detail h2,.intro h2,.about h2,.stat b,.detail .facts b,.yearbtn,.yrow b,.mi,.chip,.sbtn,.tag{font-family:var(--display)}
 .hi{width:20px;height:20px;flex:none;display:block}
 .flag{display:inline-block;width:20px;height:14px;border-radius:3px;overflow:hidden;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.35);vertical-align:middle}
 .flag svg{display:block;width:100%;height:100%}
@@ -291,16 +313,6 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .leaflet-control-zoom a{background:var(--panel)!important;color:var(--ink)!important;border-color:var(--line)!important;backdrop-filter:var(--glass)}
 
 /* period bar: sticky at the top so old and recent events are never mixed by accident */
-.periods{position:absolute;z-index:905;top:calc(12px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);max-width:calc(100% - 440px);display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-radius:999px;padding:4px;box-shadow:0 6px 20px rgba(0,0,0,.45)}
-.periods::-webkit-scrollbar{display:none}
-.periods button{flex:none;border:0;background:none;border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
-.periods button.old{color:var(--ink);opacity:.8}
-.periods button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);opacity:1}
-.periods button{direction:ltr;unicode-bidi:isolate}
-.periods .cal{flex:none;display:grid;place-items:center;padding:0 4px 0 8px;color:var(--muted)}
-.periods .cal .hi{width:18px;height:18px}
-.periods{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%)}
-.periods .sep{flex:none;width:1px;margin:7px 3px;background:var(--line)}
 #intro{width:min(440px,calc(100% - 24px))}
 .intro{padding:24px 24px 18px}
 .intro h2{font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-.02em;margin:0 0 12px}
@@ -340,7 +352,6 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
   .stats{grid-template-columns:1fr 1fr}
   .detail h2{font-size:24px}
   .leaflet-control-zoom,.leaflet-bottom.leaflet-left,.leaflet-control-attribution{display:none}
-  .periods{top:calc(68px + env(safe-area-inset-top,0px));left:8px;right:8px;transform:none;max-width:none}
 }
 /* Sorani: Arabic script, right to left; letter-spacing would break the joined letters */
 :root[lang="ckb"]{--display:"Noto Kufi Arabic",system-ui,sans-serif;--sans:"IBM Plex Sans Arabic","IBM Plex Sans",system-ui,sans-serif}
@@ -397,6 +408,10 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
       </details>
     </div>
     <div class="pane" id="paneD" hidden></div>
+    <div class="pane" id="paneY" hidden>
+      <div class="seg" role="tablist"><button data-ytab="now" role="tab"></button><button data-ytab="hist" role="tab"></button></div>
+      <div id="yrows"></div>
+    </div>
     <div class="pane" id="paneLang" hidden><button class="lopt" data-lang="ckb" lang="ckb" dir='rtl'><span><b>کوردی</b><small>سۆرانی</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="ku" lang="ku" dir='ltr'><span><b>Kurdî</b><small>Kurmancî</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="tr" lang="tr"><span><b>Türkçe</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="en" lang="en"><span><b>English</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button></div>
   </section>
 
@@ -408,7 +423,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
     <button class="mi" id="aboutBtn" aria-haspopup="dialog"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg><span data-t="tabAbout"></span></button>
   </nav>
   <button class="latest glass" id="latest" hidden></button>
-  <div class="periods glass" id="periods" role="group" data-tl="period"></div>
+  <button class="yearbtn glass" id="yearBtn" aria-haspopup="dialog"><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg><span id="yearCur"></span><svg class="hi dn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg></button>
 
   <dialog id="intro" aria-labelledby="introH">
     <div class="intro">
@@ -751,6 +766,10 @@ Object.assign(STR.tr, {moreOpts:"Diğer seçenekler", nFilters:"{n} filtre açı
 Object.assign(STR.ku, {introBack:"Nexşe her hefte tê nûkirin."});
 Object.assign(STR.ckb, {introBack:"نەخشەکە هەموو هەفتەیەک نوێ دەکرێتەوە."});
 Object.assign(STR.tr, {introBack:"Harita her hafta güncelleniyor."});
+Object.assign(STR.ku, {allYears:"Hemû sal", tabNow:"Salên dawî"});
+Object.assign(STR.ckb, {allYears:"هەموو ساڵەکان", tabNow:"ساڵانی دوایی"});
+Object.assign(STR.tr, {allYears:"Tüm yıllar", tabNow:"Son yıllar"});
+Object.assign(STR.en, {allYears:"All years", tabNow:"Recent"});
 Object.assign(STR.en, {introBack:"The map is updated every week."});
 Object.assign(STR.en, {moreOpts:"More options", nFilters:"{n} filters on", welcomeBack:"Welcome back", introNew:"{n} new records since your last visit"});
 Object.assign(STR.ckb, {langH:"زمان", latest:"دوایین هێرش"});
@@ -1197,18 +1216,41 @@ function renderLatest(rows) {
   el.innerHTML = `${sym(d)}<span class="t"><small>${T("latest")}</small><b>${esc(loc(d, "place"))}</b><span class="m">${esc(fdate(d))} · ${esc(d.layer === "Eco" ? T("aE") : ACTORS[d.layer].label)} · ${esc(kindOf(d))}</span></span>${hi("chevron-right")}`;
 }
 document.getElementById("latest").onclick = e => { const id = e.currentTarget.dataset.id; if (id !== "") { lastTab = null; select(+id, true); } };
+/* years: a button that says what is shown, and a sheet with every year, its count and who attacked */
+let ytab = null;
+const yLabel = y => y == null ? T("allYears") : y === "H" ? T("histShort") : typeof y === "string" ? y.replace(/-(\d\d)(\d\d)$/, "–$2") : String(y);
 function renderPeriods() {
-  const el = document.getElementById("periods"), b = (v, t, cls) => `<button class="${cls}" data-period="${v}" aria-pressed="${String(state.year ?? "") === String(v)}">${t}</button>`;
-  const ys = []; for (let y = Y0; y <= Y1; y++) ys.push(y);
-  // newest first, so this year and last year are in view without scrolling; the older eras sit at the far end
-  el.innerHTML = `<span class="cal">${hi("calendar")}</span>` + b("", T("all"), "") + `<span class="sep"></span>` + ys.reverse().map(y => b(y, y, "")).join("") + `<span class="sep"></span>` + PERIODS.slice().reverse().map(([a, z]) => b(`${a}-${z}`, `${a}–${String(z).slice(2)}`, "old")).join("");
-  const on = el.querySelector('[aria-pressed="true"]');
-  if (on && el.scrollWidth > el.clientWidth) { const r = el.getBoundingClientRect(), o = on.getBoundingClientRect(); el.scrollBy({left:(o.left + o.width / 2) - (r.left + r.width / 2), behavior:"smooth"}); }
+  document.getElementById("yearCur").textContent = yLabel(state.year);
+  document.getElementById("yearBtn").classList.toggle("on", state.year != null);
+  if (state.tab === "Y") renderYears();
 }
+function renderYears() {
+  const tab = ytab || (state.year != null && yRange(state.year)[1] < Y0 ? "hist" : "now");
+  document.querySelectorAll("[data-ytab]").forEach(b => { b.innerHTML = esc(T(b.dataset.ytab === "now" ? "tabNow" : "histH")) + ` · <span dir="ltr">${b.dataset.ytab === "now" ? `${Y0}–${String(Y1).slice(2)}` : `${PERIODS[0][0]}–${String(Y0 - 1).slice(2)}`}</span>`; b.setAttribute("aria-selected", b.dataset.ytab === tab); });
+  const L = Object.keys(ACTORS), rows = DATA.filter(d => matches(d, true));
+  const keys = tab === "now" ? [null, ...Array.from({length:Y1 - Y0 + 1}, (_, k) => Y1 - k)] : ["H", ...PERIODS.slice().reverse().map(([a, z]) => `${a}-${z}`)];
+  const cnt = k => { const by = Object.fromEntries(L.map(l => [l, 0])); rows.forEach(d => { if (k == null || (d.year >= yRange(k)[0] && d.year <= yRange(k)[1] && (k !== "H" || d.hist))) by[d.layer]++; }); return by; };
+  const all = keys.map(k => [k, cnt(k)]), tot = by => L.reduce((s, l) => s + by[l], 0);
+  const max = Math.max(1, ...all.filter(([k]) => k != null && k !== "H").map(([, by]) => tot(by)));
+  document.getElementById("yrows").innerHTML = all.map(([k, by]) => {
+    const n = tot(by), big = k == null || k === "H";
+    const bar = big ? "" : `<span class="ybar">${L.filter(l => by[l]).map(l => `<i style="width:${by[l] / max * 100}%;background:var(${ACTORS[l].v})"></i>`).join("")}</span>`;
+    return `<button class="yrow${big ? " big" : ""}" data-yr="${k ?? ""}" aria-pressed="${String(state.year ?? "") === String(k ?? "")}"><b>${k == null ? T("allYears") : yLabel(k)}</b>${bar}<span class="n">${fmt(n)}</span></button>`;
+  }).join("");
+}
+document.getElementById("yearBtn").onclick = () => { const o = state.tab === "Y"; closeMenu(); if (state.sel != null) select(null); ytab = null; showPane(o ? null : "Y"); if (!o) renderYears(); };
+document.getElementById("paneY").addEventListener("click", e => {
+  const t = e.target.closest("[data-ytab]"); if (t) { ytab = t.dataset.ytab; renderYears(); return; }
+  const r = e.target.closest("[data-yr]"); if (!r) return;
+  const v = r.dataset.yr; stopPlay();
+  state.year = v === "" ? null : v === "H" || v.includes("-") ? v : +v;
+  if (state.year != null && yRange(state.year)[1] < Y0 && !state.hist) { state.hist = true; renderLegend(); }
+  showPane(null); render();
+});
 
 function showPane(p) {
   state.tab = p;
-  [["K", "pK"], ["R", "paneR"], ["F", "pF"], ["D", "paneD"], ["L", "paneLang"]].forEach(([k, id]) => document.getElementById(id).hidden = p !== k);
+  [["K", "pK"], ["R", "paneR"], ["F", "pF"], ["D", "paneD"], ["L", "paneLang"], ["Y", "paneY"]].forEach(([k, id]) => document.getElementById(id).hidden = p !== k);
   document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.tab === (p === "D" ? lastTab : p)));
   sheet.hidden = !p;
   { const l = document.getElementById("latest"); if (l.dataset.id) l.hidden = !!p; }
@@ -1216,7 +1258,7 @@ function showPane(p) {
   sheet.classList.toggle("d", p === "D");
   if (p) setSheetTitle(p);
 }
-function setSheetTitle(p) { document.getElementById("shT").textContent = p === "K" ? T("keyH") : p === "R" ? T("searchList") : p === "F" ? T("tabFilters") : p === "L" ? T("langH") : ""; }
+function setSheetTitle(p) { document.getElementById("shT").textContent = p === "K" ? T("keyH") : p === "R" ? T("searchList") : p === "F" ? T("tabFilters") : p === "L" ? T("langH") : p === "Y" ? T("years") : ""; }
 let lastTab = null;
 const sheet = document.getElementById("sheet");
 document.getElementById("shX").onclick = () => { lastTab = null; select(null); };
