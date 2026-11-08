@@ -1,0 +1,33 @@
+[
+ {
+  "record": "ecocide",
+  "date": "2026-11-08",
+  "actor": "Iraq-PMF",
+  "category": "infrastructure",
+  "place": "Xormor (Khor Mor) gas field, Çemçemał (Chamchamal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.33,
+  "lon": 44.97,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": "Gas production stopped and a large fire broke out; power generation expected to fall by 2,500–2,800 MW.",
+  "summary": "Shafaq News and Kurdistan24 reported that drones struck the Xormor (Khor Mor) gas field on the evening of 8 November 2026, setting the gas storage and LPG units on fire and halting production; no one was hurt. Rudaw's security source said it was launched from Xurmatû (Tuz Khurmatu), and channels linked to pro-Iran Iraqi armed groups called it a 'suicide drone'; no group claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Khor Mor gas field halts production after drone attack",
+    "url": "https://shafaq.com/en/Kurdistan/Khor-Mor-gas-field-halts-production-after-drone-attack"
+   },
+   {
+    "title": "Kurdistan24: Attack on Khor Mor Gas Field Halts Production, Causes Major Fire",
+    "url": "https://www.kurdistan24.net/en/story/951677/khor-mor-gas-field-targeted-in-drone-attack"
+   },
+   {
+    "title": "Rudaw: Gas production halted in Khor Mor after strike hits gas storage unit",
+    "url": "https://www.rudaw.net/english/categories/kurdistan/1080073"
+   }
+  ]
+ }
+]
