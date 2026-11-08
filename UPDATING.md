@@ -11,7 +11,15 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 ## Adding new attacks
 
 1. **Find events.** Check these sources for state attacks anywhere in Kurdistan and for state-caused ecocide since the newest date on the map (the build prints it):
-   ANF (English, Kurmancî, Türkçe), Nûçe TV, Sterk TV, Rudaw, Kurdistan24, Hengaw, Kurdistan Human Rights Network (KHRN), Community Peacemaker Teams (CPT), Rojava Information Center, North Press, Kolbernews, SOHR.
+   - **Main:** ANF (English, Kurmancî, Türkçe), Nûçe TV, Sterk TV, Rudaw, Kurdistan24, Shafaq News, The New Region, Hengaw, Kurdistan Human Rights Network (KHRN), Community Peacemaker Teams (CPT), Rojava Information Center, North Press, Hawar News, Kolbernews, SOHR.
+   - **Rojhilat and kolbars:** Kurdpa ([kolbars](https://kurdpa.net/human-rights/kolbars), [environment](https://kurdpa.net/focus-areas/environment), [monthly reports](https://kurdpa.net/statistics-documents/monthly-reports); trust the date in the URL, the page shows the Kurdish calendar).
+   - **Başûr and Rojhilat, daily:** Rojnews ([Kurdistan](https://rojnews.news/?cat=62), [environment](https://rojnews.news/?cat=69)); close to the PKK media network, like ANF.
+   - **Bakur ecocide:** Mezopotamya Agency ([Ekoloji](https://mezopotamyaajansi.com/EKOLOJI), [Kurmancî](https://mezopotamyaajansi.com/kr/EKOLOJI), [English](https://mezopotamyaajansi.com/en)), JINNEWS ([ekoloji](https://jinnews.net/kategori/ekoloji)), Yeni Yaşam, Yeni Özgür Politika (mostly reprints), Bianet.
+   - **Şingal and the disputed areas:** KirkukNow ([reports](https://www.kirkuknow.com/en/news?category=3)).
+   - **Field data:** CPT Iraqi Kurdistan ([cptik.org/data](https://cptik.org/data)), updated every few months.
+   - **Soranî cross-checks:** Awene, Channel8.
+   - **Party sources** (use as leads, and say so in the record): PDKI's Kurdistanmedia, Komala.
+   - Blocked or gone when last checked: BasNews, Esta, HRANA, Iran Human Rights, Enab Baladi, Medya News, the KRG site, Draw Media, Peyamner, NRT.
    Do not get around paywalls or bot blocks.
 2. **Skip duplicates.** An event already on the map with the same date (±1 day) and place is a duplicate. Add the new source to it instead (`source/records/extra_sources.json`, with the record's `id`).
 3. **Write the records** into a new file `source/records/YYYY-MM-DD.json` (the date you add them), as a JSON list:
