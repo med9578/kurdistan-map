@@ -158,6 +158,39 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .sbtn .hi{width:18px;height:18px}
 .sbtn.go{background:var(--accent);color:var(--on-accent);border-color:transparent}
 
+/* filters */
+.fsum{padding:14px;border-radius:20px;background:var(--card);border:1px solid var(--line);margin-bottom:22px}
+.fsum .stats{gap:10px}
+.fsum .stat{background:none;border:0;padding:0}
+.factive{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:13.5px;font-weight:600;color:var(--accent)}
+.factive .clear{margin:0}
+#pF .fh{font-family:var(--display);font-size:15px;margin:0 0 10px}
+#pF .chips,#pF .pills{margin-bottom:22px}
+#pF .chip .flag{width:18px;height:12.6px}
+.tgl{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);font-size:14.5px;font-weight:600;cursor:pointer;margin-bottom:22px}
+.tgl input{appearance:none;-webkit-appearance:none;flex:none;width:46px;height:28px;border-radius:999px;background:rgba(255,255,255,.18);position:relative;margin:0;cursor:pointer;transition:background .15s}
+.tgl input::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:transform .15s}
+.tgl input:checked{background:var(--accent)}
+.tgl input:checked::after{transform:translateX(18px);background:#0a0a0a}
+[dir="rtl"] .tgl input::after{left:auto;right:3px}
+[dir="rtl"] .tgl input:checked::after{transform:translateX(-18px)}
+#pF .ylbl{margin:0 0 10px}
+#pF .years{margin-bottom:22px}
+.more{border-top:1px solid var(--line);padding-top:6px}
+.more summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:12px 0;font-family:var(--display);font-weight:700;font-size:15px;color:var(--muted)}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:"";width:9px;height:9px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-3px);transition:transform .15s}
+.more[open] summary::after{transform:rotate(-135deg)}
+.more[open] summary{color:var(--ink)}
+.menubtn[data-n]:not([data-n=""])::after,.mi[data-n]:not([data-n=""])::after{content:attr(data-n);position:absolute;top:-5px;right:-5px;min-width:20px;height:20px;padding:0 5px;border-radius:999px;background:var(--accent);color:#0a0a0a;font:800 11.5px/20px var(--display);text-align:center;box-shadow:0 0 0 2px #0a0a0a}
+.mi[data-n]:not([data-n=""]){position:relative}
+.mi[data-n]:not([data-n=""])::after{position:static;margin-inline-start:auto;box-shadow:none}
+/* welcome back: a short version after the first visit */
+.intro .back{display:none}
+.intro.short [data-t="intro1"],.intro.short .m,.intro.short ol{display:none}
+.intro.short .back{display:block}
+.intro .new{display:none;margin:0 0 16px;padding:10px 14px;border-radius:14px;background:rgba(215,255,61,.12);color:var(--accent);font-weight:700;font-size:14.5px}
+.intro.short .new:not(:empty){display:block}
 /* language: one button, a sheet with the four choices */
 .langbtn{position:absolute;z-index:900;top:calc(12px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));height:48px;display:flex;align-items:center;gap:8px;padding:0 16px 0 13px;border-radius:16px;color:var(--ink);font-family:var(--display);font-weight:700;font-size:14.5px}
 .langbtn .hi{width:21px;height:21px}
@@ -325,22 +358,30 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
       <ol id="items" style="list-style:none;margin:0;padding:0"></ol>
     </div>
     <div class="pane" id="pF" hidden>
-      <div class="fh" data-t="byState"></div>
-      <div class="chips" id="chips" role="group"></div>
-      <div class="fh" data-t="byKind"></div>
-      <div class="pills" id="kinds" role="group"></div>
-      <button class="clear" id="clearF" data-t="clearF"></button>
-      <div class="stats" aria-live="polite">
+      <div class="fsum">
+        <div class="stats" aria-live="polite">
         <div class="stat"><b id="sN">0</b><span data-t="stN"></span></div>
         <div class="stat k"><b id="sK">0</b><span data-t="stK"></span></div>
         <div class="stat"><b id="sC">0</b><span data-t="stC"></span></div>
         <div class="stat"><b id="sE">0</b><span data-t="stE"></span></div>
       </div>
-      <div class="ylbl"><span class="eyebrow" data-t="years"></span><b id="yrLbl"></b></div>
+        <div class="factive" id="fActive" hidden><span id="fN"></span><button class="clear" id="clearF" data-t="clearF"></button></div>
+      </div>
+      <div class="fh" data-t="byState"></div>
+      <div class="chips" id="chips" role="group"></div>
+      <div class="fh" data-t="byKind"></div>
+      <div class="pills" id="kinds" role="group"></div>
+      <div class="fh" data-t="parts"></div>
+      <div class="chips" id="partChips" role="group"></div>
+      <label class="tgl"><span data-t="civOnly"></span><input type="checkbox" id="civ" role="switch"></label>
+      <div class="ylbl"><span class="fh" data-t="years" style="margin:0"></span><b id="yrLbl"></b></div>
       <div class="years"><button class="play" id="play"></button><div class="bars" id="bars"></div></div>
-      <div class="fh" data-t="mapStyle"></div>
-      <div class="pills" role="group"><button class="chip" data-mapstyle="satellite"></button><button class="chip" data-mapstyle="natural"></button><button class="chip" data-mapstyle="dark"></button></div>
-      <div id="paneL"></div>
+      <details class="more" id="moreF">
+        <summary><span data-t="moreOpts"></span></summary>
+        <div class="fh" data-t="mapStyle"></div>
+        <div class="pills" role="group"><button class="chip" data-mapstyle="satellite"></button><button class="chip" data-mapstyle="natural"></button><button class="chip" data-mapstyle="dark"></button></div>
+        <div id="paneL"></div>
+      </details>
     </div>
     <div class="pane" id="paneD" hidden></div>
     <div class="pane" id="paneLang" hidden><button class="lopt" data-lang="ckb" lang="ckb" dir='rtl'><span><b>کوردی</b><small>سۆرانی</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="ku" lang="ku" dir='ltr'><span><b>Kurdî</b><small>Kurmancî</small></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="tr" lang="tr"><span><b>Türkçe</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button><button class="lopt" data-lang="en" lang="en"><span><b>English</b></span><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 12.75 6 6 9-13.5"/></svg></button></div>
@@ -361,6 +402,8 @@ dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
       <h2 id="introH" data-t="h1"></h2>
       <p data-t="intro1"></p>
       <p class="m" data-t="intro2"></p>
+      <p class="back" data-t="introBack"></p>
+      <p class="new" id="introNew"></p>
       <ol><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg></i><span data-t="introTap"></span></li><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg></i><span data-t="introYears"></span></li><li><i><svg class="hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></i><span data-t="introKey"></span></li></ol>
       <button class="sbtn go" id="introGo" data-t="wExplore"></button>
       <button class="more" id="introMore" data-t="introMore"></button>
@@ -620,10 +663,10 @@ Object.assign(STR.ku, {"mapStyle": "Şêweya nexşeyê", "ms_natural": "Erd û �
 Object.assign(STR.ckb, {"mapStyle": "شێوەی نەخشە", "ms_natural": "زەوی و چیا", "ms_dark": "تاریک"});
 Object.assign(STR.tr, {"mapStyle": "Harita görünümü", "ms_natural": "Doğal arazi", "ms_dark": "Koyu"});
 Object.assign(STR.en, {"mapStyle": "Map style", "ms_natural": "Natural terrain", "ms_dark": "Dark"});
-Object.assign(STR.ku, {"legendHint": "Reng nîşan dide kê êrîş kir, wêne jî cureya êrîşê. Li jêr qat û cureyan veke an bigire.", "wKey3": "Ji bo ku bizanî reng û wêne çi dibêjin, li bişkoka zer a jêrîn bitikîne: Nîşan çi dibêjin?", "histNote": "Nîşanên reş bi xeleka rengîn: bûyerên dîrokî"});
-Object.assign(STR.ckb, {"legendHint": "ڕەنگ نیشان دەدات کێ هێرشی کرد؛ وێنەکە جۆری هێرشەکە. لە خوارەوە چین و جۆرەکان بکەرەوە یان دایانبخە.", "wKey3": "بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن، لە دوگمە زەردەکەی خوارەوە بدە: هێماکان چی دەڵێن؟", "histNote": "هێمای ڕەش بە ئەڵقەی ڕەنگاوڕەنگ: ڕووداوە مێژووییەکان"});
-Object.assign(STR.tr, {"legendHint": "Renk saldıranı, simge saldırının türünü gösterir. Aşağıdan katmanları ve türleri açıp kapatabilirsin.", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: Semboller ne anlama geliyor?", "histNote": "Renkli halkalı koyu işaretler: tarihsel olaylar"});
-Object.assign(STR.en, {"legendHint": "Colour shows who attacked; the icon shows the kind of attack. Turn layers and kinds on or off below.", "wKey3": "To see what the colours and icons mean, tap the yellow button at the bottom: What do the symbols mean?", "histNote": "Dark pins with a coloured ring: historical events"});
+Object.assign(STR.ku, {"legendHint": "Reng nîşan dide kê êrîş kir, wêne jî cureya êrîşê. Li jêr qat û cureyan veke an bigire.", "wKey3": "Ji bo ku bizanî reng û wêne çi dibêjin, li bişkoka zer a jêrîn bitikîne: Nîşan çi dibêjin?", "histNote": "Xeleka qutqutkirî: bûyerên dîrokî"});
+Object.assign(STR.ckb, {"legendHint": "ڕەنگ نیشان دەدات کێ هێرشی کرد؛ وێنەکە جۆری هێرشەکە. لە خوارەوە چین و جۆرەکان بکەرەوە یان دایانبخە.", "wKey3": "بۆ ئەوەی بزانیت ڕەنگ و وێنەکان چی دەڵێن، لە دوگمە زەردەکەی خوارەوە بدە: هێماکان چی دەڵێن؟", "histNote": "ئەڵقەی پچڕپچڕ: ڕووداوە مێژووییەکان"});
+Object.assign(STR.tr, {"legendHint": "Renk saldıranı, simge saldırının türünü gösterir. Aşağıdan katmanları ve türleri açıp kapatabilirsin.", "wKey3": "Renklerin ve simgelerin ne anlama geldiğini görmek için alttaki sarı düğmeye dokun: Semboller ne anlama geliyor?", "histNote": "Kesik çizgili halka: tarihsel olaylar"});
+Object.assign(STR.en, {"legendHint": "Colour shows who attacked; the icon shows the kind of attack. Turn layers and kinds on or off below.", "wKey3": "To see what the colours and icons mean, tap the yellow button at the bottom: What do the symbols mean?", "histNote": "Dashed ring: historical events"});
 Object.assign(STR.ku, {ms_satellite:"Satelît"});
 Object.assign(STR.ckb, {ms_satellite:"مانگی دەستکرد"});
 Object.assign(STR.tr, {ms_satellite:"Uydu"});
@@ -634,6 +677,14 @@ Object.assign(STR.tr, {"menu": "Menü", "wKey3": "Renklerin ve simgelerin ne anl
 Object.assign(STR.en, {"menu": "Menu", "wKey3": "To see what the colours and icons mean, tap the ☰ button at the top left, then “What do the symbols mean?”."});
 Object.assign(STR.ku, {period:"Dem"});
 Object.assign(STR.ku, {langH:"Ziman", latest:"Ya herî dawî"});
+Object.assign(STR.ku, {moreOpts:"Vebijarkên din", nFilters:"{n} parzûn vekirî", welcomeBack:"Bi xêr hatî dîsa", introNew:"{n} tomarên nû ji serdana te ya dawî ve"});
+Object.assign(STR.ckb, {moreOpts:"هەڵبژاردەی زیاتر", nFilters:"{n} فلتەر چالاکە", welcomeBack:"بەخێربێیتەوە", introNew:"{n} تۆماری نوێ لە دوایین سەردانتەوە"});
+Object.assign(STR.tr, {moreOpts:"Diğer seçenekler", nFilters:"{n} filtre açık", welcomeBack:"Tekrar hoş geldin", introNew:"Son ziyaretinden beri {n} yeni kayıt"});
+Object.assign(STR.ku, {introBack:"Nexşe her hefte tê nûkirin."});
+Object.assign(STR.ckb, {introBack:"نەخشەکە هەموو هەفتەیەک نوێ دەکرێتەوە."});
+Object.assign(STR.tr, {introBack:"Harita her hafta güncelleniyor."});
+Object.assign(STR.en, {introBack:"The map is updated every week."});
+Object.assign(STR.en, {moreOpts:"More options", nFilters:"{n} filters on", welcomeBack:"Welcome back", introNew:"{n} new records since your last visit"});
 Object.assign(STR.ckb, {langH:"زمان", latest:"دوایین هێرش"});
 Object.assign(STR.tr, {langH:"Dil", latest:"En son"});
 Object.assign(STR.en, {langH:"Language", latest:"Latest"});
@@ -688,6 +739,7 @@ function applyStatic() {
   document.documentElement.dir = LANG === "ckb" ? "rtl" : "ltr";
   const play = document.getElementById("play"); play.textContent = timer ? "■" : "▶"; play.setAttribute("aria-label", T(timer ? "stop" : "play"));
   if (typeof renderChips === "function") renderChips();
+  if (document.querySelector(".intro.short")) document.getElementById("introH").textContent = T("welcomeBack");
 }
 
 
@@ -986,9 +1038,9 @@ function renderKey() {
     `<h4>${T("keyIcon")}</h4><div class="klist">${types.map(k => row(k, T("ty_" + k))).join("")}</div>` +
     `<h4>${T("aE")}</h4><div class="klist">${cats.map(k => row(k, T("c_" + k), "var(--eco)")).join("")}</div>` +
     `<h4>${T("keyMore")}</h4>` +
-    `<div class="krow"><span class="pin" style="--c:var(--muted);transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("drone", "#0a0a0a", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>` +
+    `<div class="krow"><span class="pin" style="--c:#bbb;transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("drone", "#fff", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>` +
     `<div class="krow"><span class="cl" style="--g:conic-gradient(var(--turkey) 0 200deg,var(--iran) 200deg 300deg,var(--eco) 300deg);width:30px;height:30px"><span style="font-size:11px">12</span></span><span>${T("keyCluster")}</span></div>` +
-    (HAS_HIST ? `<div class="krow"><span class="pin hist" style="--c:var(--muted);transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("massacre", css("--muted"), 17)}</span></span><span>${T("histNote")}</span></div>` : "") +
+    (HAS_HIST ? `<div class="krow"><span class="pin hist" style="--c:#bbb;transform:scale(.7);margin:-6px -4px -2px"><span class="pc">${ico("massacre", "#fff", 17)}</span></span><span>${T("histNote")}</span></div>` : "") +
     `<div class="krow"><i style="width:14px;height:14px;border:1px dashed var(--ink);border-radius:50%;opacity:.5;flex:none"></i><span>${T("keyAcled")}</span></div>` +
     `<div class="krow"><i style="width:14px;height:14px;border:2px solid var(--accent);border-radius:50%;flex:none"></i><span>${T("liveNote")}</span></div>` +
     `<p class="hint">${T("keyClick")} ${T("nearHint")}</p>`;
@@ -1012,12 +1064,9 @@ function renderLegend() {
   pane.innerHTML = `<p class="sec" style="margin:0;font-size:12.5px;color:var(--muted)">${T("legendHint")}</p>` +
     `<div class="sec"><label class="opt"><input type="checkbox" id="heatOn" ${state.heat ? "checked" : ""}><span>◉ ${T("heatOn")}</span></label></div>` + ["Turkey", "Iran", "Syria", "Iraq", "USIL", "Eco"].filter(l => DATA.some(d => d.layer === l)).map(sec).join("") +
     `<div class="sec"><h3>${T("acledH")}</h3><label class="opt"><input type="checkbox" id="acledOn" ${state.acled ? "checked" : ""}><span>${T("acledOn")}</span><span class="n">${ACLED.length}</span></label><div class="ref" style="margin-top:6px"><div><i style="width:14px;height:14px;border:1px dashed var(--ink);border-radius:50%;opacity:.5"></i><span>${T("acledNote")}</span></div></div></div>` +
-    (HAS_HIST ? `<div class="sec"><h3>${T("histH")}</h3><label class="opt"><input type="checkbox" id="histOn" ${state.hist ? "checked" : ""}><span>${T("histOn")}</span><span class="n">${DATA.filter(d => d.hist).length}</span></label><div class="ref" style="margin-top:6px"><div><span class="pin hist" style="--c:var(--muted);transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("massacre", css("--muted"), 17)}</span></span><span>${T("histNote")}</span></div></div></div>` : "") +
-    `<div class="sec"><h3>${T("parts")}</h3><div class="parts">${PARTS.filter(p => DATA.some(d => d.country === p.id)).map(p =>
-      `<button class="part" data-part="${p.id}" aria-pressed="${state.parts.has(p.id)}">${p.sub}</button>`).join("")}</div>
-      <label class="opt" style="margin-top:10px"><input type="checkbox" id="civ" ${state.civ ? "checked" : ""}><span>${T("civOnly")}</span></label></div>
-    <div class="sec"><h3>${T("reading")}</h3><div class="ref">
-      <div><span class="pin" style="--c:var(--muted);transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("drone", "#0a0a0a", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>
+    (HAS_HIST ? `<div class="sec"><h3>${T("histH")}</h3><label class="opt"><input type="checkbox" id="histOn" ${state.hist ? "checked" : ""}><span>${T("histOn")}</span><span class="n">${DATA.filter(d => d.hist).length}</span></label><div class="ref" style="margin-top:6px"><div><span class="pin hist" style="--c:#bbb;transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("massacre", "#fff", 17)}</span></span><span>${T("histNote")}</span></div></div></div>` : "") +
+    `<div class="sec"><h3>${T("reading")}</h3><div class="ref">
+      <div><span class="pin" style="--c:#bbb;transform:scale(.6);margin:-8px -6px -4px"><span class="pc">${ico("drone", "#fff", 17)}</span><b>3</b></span><span>${T("keyBadge")}</span></div>
       <div><i style="border-top:1.5px dashed var(--border)"></i>${T("border")}</div>
       <div><i style="border-top:2px solid var(--road)"></i>${T("road")}</div>
       <div><i style="border-top:2px solid var(--river)"></i>${T("river")}</div>
@@ -1061,9 +1110,17 @@ function render() {
   document.getElementById("sK").textContent = fmt(strikes.filter(d => d.type !== "campaign").reduce((s, d) => s + (d.killed || 0), 0));
   document.getElementById("sC").textContent = fmt(strikes.filter(d => d.civilian === true).length);
   document.getElementById("sE").textContent = fmt(rows.length - strikes.length);
-  renderBars(); renderPeriods(); renderList(rows); renderAcled(); renderLatest(rows);
+  renderBars(); renderPeriods(); renderList(rows); renderAcled(); renderLatest(rows); renderActive();
 }
 
+/* how many filters are on: shown in the panel and as a dot on the menu */
+function renderActive() {
+  const n = [state.only, state.kind, state.year != null, state.civ, state.q, state.parts.size < PARTS.length, Object.values(state.on).some(v => !v)].filter(Boolean).length;
+  document.getElementById("fActive").hidden = !n;
+  document.getElementById("fN").textContent = T("nFilters").replace("{n}", n);
+  document.getElementById("menuBtn").dataset.n = n || "";
+  document.querySelector('[data-tab="F"]').dataset.n = n || "";
+}
 function renderLatest(rows) {
   const el = document.getElementById("latest"), d = rows.find(r => r.date && !r.period);
   el.dataset.id = d ? d.id : "";
@@ -1112,6 +1169,8 @@ function renderKinds() {
 }
 function renderChips() {
   renderKinds();
+  document.getElementById("partChips").innerHTML = PARTS.filter(p => DATA.some(d => d.country === p.id)).map(p => `<button class="chip" data-part="${p.id}" aria-pressed="${state.parts.has(p.id)}">${flag1(p.id)}${esc(p.sub)}</button>`).join("");
+  document.getElementById("civ").checked = state.civ;
   const ls = ["Turkey", "Iran", "Syria", "Iraq", "USIL", "Eco"].filter(l => DATA.some(d => d.layer === l));
   document.getElementById("chips").innerHTML = `<button class="chip" data-only="" aria-pressed="${!state.only}">${T("all")}</button>` +
     ls.map(l => `<button class="chip" data-only="${l}" aria-pressed="${state.only === l}">${flagOf(l)}${esc(ACTORS[l].label)}</button>`).join("");
@@ -1160,7 +1219,7 @@ document.addEventListener("click", e => {
   const lay = e.target.closest("[data-layer]");
   if (lay) { const l = lay.dataset.layer, subs = subsOf(l), anyOn = subs.some(s => state.on[l + "|" + s]); subs.forEach(s => state.on[l + "|" + s] = !anyOn); renderLegend(); render(); return; }
   const pt = e.target.closest("[data-part]");
-  if (pt) { const k = pt.dataset.part; state.parts.has(k) ? state.parts.delete(k) : state.parts.add(k); pt.setAttribute("aria-pressed", state.parts.has(k)); render(); return; }
+  if (pt) { const k = pt.dataset.part; state.parts.has(k) ? state.parts.delete(k) : state.parts.add(k); renderChips(); render(); return; }
   const yb = e.target.closest("[data-year]");
   const pb = e.target.closest("[data-period]");
   if (pb) {
@@ -1281,6 +1340,15 @@ const intro = document.getElementById("intro");
 document.getElementById("introGo").onclick = () => intro.close();
 document.getElementById("introMore").onclick = () => { intro.close(); dlg.showModal(); };
 intro.addEventListener("click", e => { if (e.target === intro) intro.close(); });
+{ let seen = null; try { seen = localStorage.getItem("ksm-seen"); } catch (e) {}
+  const newest = DATA.reduce((m, d) => d.date > m ? d.date : m, "");
+  if (seen) {
+    const n = DATA.filter(d => d.date > seen && !d.period).length;
+    intro.querySelector(".intro").classList.add("short");
+    document.getElementById("introH").textContent = T("welcomeBack");
+    document.getElementById("introNew").textContent = n ? T("introNew").replace("{n}", n) : "";
+  }
+  try { localStorage.setItem("ksm-seen", newest); } catch (e) {} }
 if (!location.hash.startsWith("#r-")) intro.showModal();
 const rethemed = () => { const s = state.sel; state.sel = null; drawBase(); renderKey(); renderLegend(); buildMarkers(); render(); if (s != null) select(s, false); if (nearCircle) nearCircle.setStyle({color:css("--accent"), fillColor:css("--accent")}); };
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", rethemed);
