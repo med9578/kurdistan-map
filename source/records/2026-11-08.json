@@ -1,0 +1,110 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-10-31",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Around Misurab village, Shaho mountains, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 34.95,
+  "lon": 46.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Oak woodland in the protected Shaho area caught fire (see ecocide record).",
+  "summary": "KHRN reported that IRGC forces deployed artillery around Misurab village and shelled parts of the Shaho mountains on 31 October and again on 1 November 2026, and set up checkpoints on roads to nearby villages. The IRGC made no statement.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC shells Shaho Mountains for two consecutive days",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/02/irgc-shells-shaho-mountains-for-two-consecutive-days"
+   },
+   {
+    "title": "Rudaw: IRGC shells Kurdish mountain in Iran with 'heavy artillery,' sparking fires: Watchdog",
+    "url": "https://rudaw.net/english/categories/iran/1079978"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-31",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Oak woodland around Misurab, Shaho protected area, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 34.97,
+  "lon": 46.68,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN and Rudaw reported that IRGC artillery shelling of the Shaho mountains on 31 October 2026 set fire to vegetation and oak woodland in the area protected since 2009.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC shells Shaho Mountains for two consecutive days",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/02/irgc-shells-shaho-mountains-for-two-consecutive-days"
+   },
+   {
+    "title": "Rudaw: IRGC shells Kurdish mountain in Iran with 'heavy artillery,' sparking fires: Watchdog",
+    "url": "https://rudaw.net/english/categories/iran/1079978"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-11-04",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala base, Alana (Dola Alane) valley, Balîsan (Balisan), Xelîfan (Khalifan), Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.47,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": null,
+  "impact": "Material damage to the base.",
+  "summary": "Shafaq News, Rudaw and Hawar News reported that two drones struck a Komala base in the Alana valley of Balisan on the morning of 4 November 2026, causing material damage and no casualties. Komala blamed the IRGC; the IRGC made no claim.",
+  "sources": [
+   {
+    "title": "Shafaq News: Two drones strike Iranian opposition base in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-targets-Iranian-Kurdish-opposition-group"
+   },
+   {
+    "title": "Rudaw: Iran launches fresh drone attacks in Kurdistan Region",
+    "url": "https://rudaw.net/english/categories/kurdistan/1080012"
+   },
+   {
+    "title": "Hawar News: Two drones target headquarters of opposition party in Kurdistan Region",
+    "url": "https://hawarnews.com/en/two-drones-target-headquarters-of-opposition-party-in-kurdistan-region"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-11-04",
+  "actor": "Iran",
+  "type": "airstrike",
+  "place": "Tewêle (Tawella), Helebce (Halabja)",
+  "governorate": "Halabja",
+  "country": "Iraq",
+  "lat": 35.26,
+  "lon": 46.17,
+  "precision": "approximate",
+  "killed": 0,
+  "injured": 0,
+  "civilian": true,
+  "impact": "A family home was heavily damaged.",
+  "summary": "Rudaw reported that an airstrike hit the house of Alwan Abdullah in Tewêle shortly after 1 am on 4 November 2026, heavily damaging it while the family was away. Rudaw grouped it with Iranian drone attacks that night, but its security source did not name the attacker.",
+  "sources": [
+   {
+    "title": "Rudaw: Iran launches fresh drone attacks in Kurdistan Region",
+    "url": "https://rudaw.net/english/categories/kurdistan/1080012"
+   }
+  ]
+ }
+]
