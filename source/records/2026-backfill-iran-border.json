@@ -1,0 +1,1317 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-01-01",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Azadi Boulevard, Nurabad (Delfan)",
+  "governorate": "Lorestan",
+  "country": "Iran",
+  "lat": 34.07,
+  "lon": 47.97,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that IRGC forces shot Ahad Ebrahimpour Abdoli, a 34-year-old worker, in the chest during protests on Azadi Boulevard in Nurabad-e Delfan, killing him; security forces pressured his family not to inform the media or hold a funeral.",
+  "sources": [
+   {
+    "title": "KHRN: Eleven Kurdish citizens killed as protests spread",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/01/08/eleven-kurdish-citizens-killed-as-protests-spread-dozens-injured-hundreds-arrested"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-02",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Harsin",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.27,
+  "lon": 47.59,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that Ali Azizi was killed by gunfire from IRGC Basij forces during protests in Harsin. State-affiliated media portrayed him as a Basij member killed by protesters, but eyewitnesses said he was among the protesters, and his father was pressured by the IRGC into publishing a video.",
+  "sources": [
+   {
+    "title": "KHRN: Eleven Kurdish citizens killed as protests spread",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/01/08/eleven-kurdish-citizens-killed-as-protests-spread-dozens-injured-hundreds-arrested"
+   },
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-03",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Artesh Street, Jafarabad neighbourhood, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.33,
+  "lon": 47.08,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that IRGC forces fired live ammunition at protesters in the Jafarabad neighbourhood of Kermanshah, killing 16-year-old child labourer Reza Ghanbari and wounding Yarsan brothers Rasoul (17) and Reza (20) Kadivarian, who died on 3 and 4 January. Security bodies pressured Ghanbari's family to call him a Basij member, which they refused.",
+  "sources": [
+   {
+    "title": "KHRN: Eleven Kurdish citizens killed as protests spread",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/01/08/eleven-kurdish-citizens-killed-as-protests-spread-dozens-injured-hundreds-arrested"
+   },
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   },
+   {
+    "title": "Hengaw: Rasul Kadivarian, 17, and brother Reza shot dead by Iranian forces in Kermanshah",
+    "url": "https://hengaw.org/en/content/article-38803"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-04",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Imam Khomeini Hospital, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that after the 3 January Malekshahi killings, Special Forces units raided Imam Khomeini Hospital in Ilam on two consecutive nights, breaking down doors to arrest wounded protesters and remove bodies, beating several medical staff, and using tear gas, batons and gunfire against families gathered in the courtyard.",
+  "sources": [
+   {
+    "title": "KHRN: End security forces' siege of Imam Khomeini Hospital in Ilam",
+    "url": "https://kurdistanhumanrights.org/en/press-releases/2026/01/05/khrn-end-security-forces-siege-of-imam-khomeini-hospital-in-ilam-arrest-of-injured-protesters"
+   },
+   {
+    "title": "KHRN: Eleven Kurdish citizens killed as protests spread",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/01/08/eleven-kurdish-citizens-killed-as-protests-spread-dozens-injured-hundreds-arrested"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-07",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Khomeini Boulevard, Chenaran",
+  "governorate": "Razavi Khorasan",
+  "country": "Iran",
+  "lat": 36.65,
+  "lon": 59.12,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian government forces fired Kalashnikov rifles at protesters on Khomeini Boulevard in Chenaran on the night of 7 January, killing at least five Kurdish residents: Mehdi Validoost, Morteza Jahanbakhsh, Ruhollah Setareh Moshtari (26), Mohammadreza Gorouhi and Mehdi Ghorbandoust, who died the next day. KHRN confirmed four Kurdish deaths in Chenaran.",
+  "sources": [
+   {
+    "title": "Hengaw: At least five Kurdish residents killed by Iranian forces during protests in Chenaran",
+    "url": "https://hengaw.org/en/content/article-38901"
+   },
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Îlam (Ilam) city",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that five Kurdish protesters were killed by IRGC and other security forces' gunfire in Ilam on 8–9 January: Pouya Rostami, Arvin Radfar (21), Miad (Milad) Sadeh-Miri (26), Mehdi Ghanbari, and Saeid Safari, who was shot and beaten with batons and died on 15 January.",
+  "sources": [
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   },
+   {
+    "title": "Hengaw: Iranian forces kill Pouya Rostami, 23, in Ilam",
+    "url": "https://hengaw.org/en/content/article-39105"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Azadi Square, Kengawer (Kangavar)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.5,
+  "lon": 47.96,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that IRGC forces shot dead Ali Gerdakaneh, a 27-year-old hairdresser, with live ammunition during protests in Azadi Square, Kangavar.",
+  "sources": [
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Zarneh, Eywan (Eyvan)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.93,
+  "lon": 46.19,
+  "precision": "exact",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that IRGC forces raided the family home of 21-year-old Mobin Feyli in Zarneh, Eyvan, during the protests, wounding his brother and shooting Mobin dead as he tried to help him.",
+  "sources": [
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   },
+   {
+    "title": "Hengaw: Mobin Feyli shot dead by Iranian government forces in Ivan",
+    "url": "https://hengaw.org/en/content/article-39027"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Alley opposite Razi Laboratory, Qurwe (Qorveh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.17,
+  "lon": 47.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian government forces shot 12-year-old Taher Malekshahi in the face at about one metre with pellet rounds and beat him during protests in Qorveh, after he had raised his hands; he lost his left eye. The IRGC later pressured his family to say he was wounded by 'terrorists'.",
+  "sources": [
+   {
+    "title": "Hengaw: 12-year-old Kurdish boy severely injured by shotgun fire during protests, loses an eye",
+    "url": "https://hengaw.org/en/content/article-39377"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Taj (Tarif) Street and Ghafour neighbourhood, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.31,
+  "lon": 46.99,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN, citing an eyewitness, reported that security forces fired live rounds and powerful pellet shot at protesters in Sanandaj on 8–9 January after a general strike, killing at least one man shot in the head at close range and wounding dozens; the toll could not be independently confirmed during the internet shutdown.",
+  "sources": [
+   {
+    "title": "KHRN: Sanandaj protests turn deadly, eyewitnesses report Hashd al-Shaabi deployment",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/01/16/sanandaj-protests-turn-deadly-eyewitnesses-report-hashd-al-shaabi-deployment"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Esfarayen",
+  "governorate": "North Khorasan",
+  "country": "Iran",
+  "lat": 37.08,
+  "lon": 57.51,
+  "precision": "approximate",
+  "killed": 12,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian government forces using DShK heavy machine guns and Kalashnikovs killed at least 12 protesters in Esfarayen on 8–9 January, at least seven of them Kurds, including a minor and two women; two members of the forces were also killed. KHRN recorded 12 Kurdish deaths in Esfarayen.",
+  "sources": [
+   {
+    "title": "Hengaw: At least 12 killed, including seven Kurds, during protests in Esfarayen",
+    "url": "https://hengaw.org/en/content/article-39396"
+   },
+   {
+    "title": "KHRN: KHRN documents 240 Kurdish deaths in 2026 protests in Iran",
+    "url": "https://kurdistanhumanrights.org/en/publications/special-reports/2026/02/12/khrn-documents-240-kurdish-deaths-in-2026-protests-in-iran"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-20",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Vazineh plain, Mîrawa (Mirabad), Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.38,
+  "lon": 45.28,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian border forces fired live ammunition at kolbar Mohammad Motalebi, 33, from Alvatan village in Mirabad, wounding him while he was carrying goods on the Vazineh plain.",
+  "sources": [
+   {
+    "title": "Hengaw: Kolbar wounded after border forces opened fire using live ammunition",
+    "url": "https://hengaw.org/en/content/article-39803"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-10",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Near Bardeh Resheh village, Merîwan (Marivan) border",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.52,
+  "lon": 46.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that government forces shot Farzin Sasani of Bardeh Resheh village in the leg near the Marivan border, where he had gone to reach telecoms networks in the Kurdistan Region to call relatives; it said forces had orders to open direct fire on people gathering in border areas. Reported 11 March as happening 'in recent days'.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man wounded after border forces open fire under direct shoot order in Marivan",
+    "url": "https://hengaw.org/en/content/article-39985"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-12",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.25,
+  "lon": 46.27,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces arrested Kurdish religious figure Sheikh Zahed Shahabi 'with severe violence' in recent days, after which IRGC forces searched his family home so destructively that the family left the house. Reported 13 March.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish religious figure Sheikh Zahed Shahabi violently arrested in Saqqez",
+    "url": "https://hengaw.org/en/content/article-40006"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-03-14",
+  "actor": "Iran",
+  "category": "land",
+  "place": "Border areas of Qesrî Şîrîn (Qasr-e Shirin), Khosravi, Naft Shahr and Sumar",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.4,
+  "lon": 45.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that military authorities ordered nomadic families in the Kermanshah border areas to leave by 14 March, about 40 days early, to clear grazing land for artillery and heavy equipment, putting herds at risk in the cold summer pastures.",
+  "sources": [
+   {
+    "title": "Hengaw: Security forces order evacuation of Kermanshah border areas, forcing early migration of nomadic families",
+    "url": "https://hengaw.org/en/content/article-40001"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-29",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Kurdistan Boulevard, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.31,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that plainclothes security agents chased 35-year-old Kaveh Naseri's car through Sanandaj at night, fired about 12 bullets into it and, after it stopped, shot him twice in the back of the head; forces told the family they had mistaken him for an 'Israeli' and claimed weapons were found, which Hengaw's evidence contradicts.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish civilian Kaveh Naseri shot dead by Iranian security forces in Sanandaj",
+    "url": "https://hengaw.org/en/content/article-40890"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Checkpoint at the entrance to Bîcar (Bijar)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.87,
+  "lon": 47.6,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that in early April Basij forces at a checkpoint at the entrance to Bijar fired dozens of rounds at Sadegh Fazlali's car after mistaking a toy pistol for a weapon, killing him and wounding his son-in-law Habibollah Shirgir in the neck; the IRGC pressured the family to blame an Israeli drone.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man Sadegh Fazlali killed by Iranian forces at Bijar checkpoint amid Iran-Israel-US war",
+    "url": "https://hengaw.org/en/content/article-41107"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-02",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Darbakeh village, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.7,
+  "lon": 45.14,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces raided Darbakeh village and stormed the family home of young Mani Abdollahzadeh without a warrant, arresting him with violence and taking him to an undisclosed location.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian forces violently arrest Mani Abdollahzadeh in Piranshahr",
+    "url": "https://hengaw.org/en/content/article-40591"
+   },
+   {
+    "title": "KHRN: Monthly Report of May 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/06/01/monthly-report-of-may-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-04",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Chiane village, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.68,
+  "lon": 45.1,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that government forces raided Abdollah Nabizadeh's home in Chiane village at about 5 a.m. without a warrant and arrested him violently.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man Abdollah Nabizadeh violently arrested in Piranshahr",
+    "url": "https://hengaw.org/en/content/article-40621"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-05",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Serable (Sarableh)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.77,
+  "lon": 46.56,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN's May report listed Arshiya Gheysar-Beygi of Sarableh as severely beaten during his arrest in Sarableh on 5 May.",
+  "sources": [
+   {
+    "title": "KHRN: Monthly Report of May 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/06/01/monthly-report-of-may-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-14",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Kelekin village, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.69,
+  "lon": 45.18,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that intelligence forces raided the family home of 23-year-old Sabah Bevara in Kelekin village, arrested him without a warrant and subjected him to severe violence.",
+  "sources": [
+   {
+    "title": "Hengaw: Intelligence forces violently arrest Sabah Bevara in Piranshahr",
+    "url": "https://hengaw.org/en/content/article-40802"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-21",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Ministry forces raided the family home of 41-year-old Ali Eskandari in Ilam and arrested him violently without a warrant.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man Ali Eskandari violently arrested by Iranian intelligence forces in Ilam",
+    "url": "https://hengaw.org/en/content/article-40877"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Choman border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.98,
+  "lon": 45.75,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border guards shot Kurdish trader Mutaleb Khaibari, a father of two from Saleh village, in the head at close range without warning at dawn, killing him; he carried no goods. Authorities withheld his body.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish trader Mutaleb Khaibari shot dead by Iranian border forces near Baneh",
+    "url": "https://hengaw.org/en/content/article-41206"
+   },
+   {
+    "title": "KHRN: Iran border guards kill Kurdish man in Baneh",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/06/11/iran-border-guards-kill-kurdish-man-in-baneh"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Surkiw border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.02,
+  "lon": 45.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border forces opened fire at close range without warning on a group of kolbars, seriously wounding 29-year-old kolbar Nasih Khodaei in the leg.",
+  "sources": [
+   {
+    "title": "Hengaw: Kolbar Nasih Khodaei seriously injured after border forces open fire in Baneh",
+    "url": "https://hengaw.org/en/content/article-41224"
+   },
+   {
+    "title": "KHRN: Monthly Report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-16",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Seyranband border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.93,
+  "lon": 45.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces opened fire on kolbar Ako Salehi, a father of two from Baneh, wounding him in the hand; he was taken to Tabriz for treatment.",
+  "sources": [
+   {
+    "title": "Hengaw: Two kolbars shot and wounded by Iranian forces near Baneh and Marivan",
+    "url": "https://hengaw.org/en/content/article-41442"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-17",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Doleh Bid border area, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.55,
+  "lon": 46.08,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian border forces and IRGC troops shot kolbar Mohammad Naderi, from Sardoush village in Marivan, in the leg.",
+  "sources": [
+   {
+    "title": "Hengaw: Two kolbars shot and wounded by Iranian forces near Baneh and Marivan",
+    "url": "https://hengaw.org/en/content/article-41442"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-01",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.76,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that a group of Basij members attacked 19-year-old Siavash Alak in Mahabad and one of them stabbed him repeatedly, killing him; three other civilians were wounded. Riot police violently dispersed protests at the hospital and the city held a general strike. KHRN attributed the killing to IRGC-aligned local auxiliaries.",
+  "sources": [
+   {
+    "title": "Hengaw: 19-year-old Kurdish man killed by Basij forces in Mahabad; protests and general strike follow",
+    "url": "https://hengaw.org/en/content/article-41572"
+   },
+   {
+    "title": "KHRN: Monthly Report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-03",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Shushmi border area near Newsûd (Nowsud)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 35.16,
+  "lon": 46.22,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border guards shot 57-year-old kolbar Wazir Rahimi, from Ravansar's Shahu district, from close range in the Shushmi border area, killing him instantly. In a reply to UN experts, Iran acknowledged the killing, claiming a ricochet struck him after warning shots.",
+  "sources": [
+   {
+    "title": "Hengaw: 57-year-old Kurdish Kolbar Wazir Rahimi killed by direct fire from Iranian border forces near Nowsud",
+    "url": "https://hengaw.org/en/content/article-41594"
+   },
+   {
+    "title": "KHRN: Iranian border guards kill Kolbar in Nowsud",
+    "url": "https://kurdistanhumanrights.org/en/news/kolbaras-en/2026/07/04/iranian-border-guards-kill-kolbar-in-nowsud"
+   },
+   {
+    "title": "Rudaw: Iran acknowledges killing five Kurdish border porters in response to UN inquiry",
+    "url": "https://www.rudaw.net/english/categories/iran/1080085"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-05",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Nalas (Nelas), Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.38,
+  "lon": 45.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Department agents arrested Mamosta Abubakr Yousofi and Younes Mousapour in Nalas without a warrant, using severe physical violence and degrading treatment, and took them to Urmia.",
+  "sources": [
+   {
+    "title": "Hengaw: Mamosta Abubakr Yousofi and Younes Mousapour violently arrested in Sardasht",
+    "url": "https://hengaw.org/en/content/article-41657"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-28",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "IRGC checkpoint on the Bokan–Şahîndij (Bukan–Shahin Dezh) road",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.5,
+  "lon": 46.25,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC forces at a checkpoint opened direct fire on Seyed Ahmad Esmaili, from Mahabad, as he rode a motorcycle, killing him, and then seized his body. The IRGC's Hamzeh Headquarters claimed it had killed a 'terrorist operative' without naming him.",
+  "sources": [
+   {
+    "title": "Hengaw: IRGC forces kill Seyed Ahmad Esmaili in Bukan, seize his body",
+    "url": "https://hengaw.org/en/content/article-42053"
+   },
+   {
+    "title": "KHRN: IRGC forces kill Kurdish man, withhold body from family",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/03/irgc-forces-kill-kurdish-man-withhold-body-from-family"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-04",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hangeh Jal (Hengejal) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.03,
+  "lon": 45.78,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Border Regiment forces shot kolbar Goran Khedri, a father from Neyzerud village, seriously wounding him in the thigh.",
+  "sources": [
+   {
+    "title": "Hengaw: One kolbar shot by Iranian border forces, another injured by landmine near Baneh",
+    "url": "https://hengaw.org/en/content/article-42151"
+   },
+   {
+    "title": "KHRN: Three kolbars injured by border guards' gunfire, landmine in Baneh",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/07/three-kolbars-injured-by-border-guards-gunfire-landmine-in-baneh"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-05",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hengezhal border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.03,
+  "lon": 45.78,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that border forces opened direct fire on 49-year-old kolbar Hassan Mostafazadeh, a father of three from Rabat in Sardasht, critically wounding him; he was moved to Tabriz.",
+  "sources": [
+   {
+    "title": "Hengaw: Border forces seriously wound kolbar Hassan Mostafazadeh near Baneh",
+    "url": "https://hengaw.org/en/content/article-42170"
+   },
+   {
+    "title": "Kurdpa: Bane; Hesen Mistefazade wounded",
+    "url": "https://kurdpa.net/news/2026-08-07-79"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-09",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Negel village, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.2,
+  "lon": 46.64,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurdpa reported that environmental activist Awat Karami was arrested violently and without a warrant at his home in Negel village and denied a lawyer and family contact.",
+  "sources": [
+   {
+    "title": "Kurdpa: Sine; violent arrest of Awat Karami",
+    "url": "https://kurdpa.net/news/2026-08-12-60786"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-15",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.31,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces entered Dariush Rahimi's home in Sanandaj without a warrant and arrested him using physical force, confiscating his and his wife's phones.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish man Dariush Rahimi arrested during violent raid in Sanandaj",
+    "url": "https://hengaw.org/en/content/article-42303"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-16",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Kachaleh village, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC Intelligence forces surrounded Kachaleh village before dawn, raided homes and arrested Ayvaz Behnamoun and brothers Shaban and Ebrahim Ahmadoush with the use of force and without warrants.",
+  "sources": [
+   {
+    "title": "Hengaw: Three Kurdish men arrested by IRGC Intelligence during raids in Urmia",
+    "url": "https://hengaw.org/en/content/article-42312"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-19",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Beauty salon near Qane Bridge, Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.76,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Ministry agents raided the salon where civil activist and mountaineer Shirin Masoudi worked and arrested her with force and without a warrant, taking her to Urmia.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish civil society activist Shirin Masoudi arrested during violent raid in Mahabad",
+    "url": "https://hengaw.org/en/content/article-42430"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-20",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Jafarabad neighbourhood, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.32,
+  "lon": 47.07,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that officers from two police stations fired from both sides on a car near Jafarabad, killing Mohammad Reza Mohammadi and critically wounding his friend, whom plainclothes agents then took away. The same day police killed Yarsan former prisoner Pouya Naderi in Dareh Drij in what KHRN called an armed clash; Hengaw said he was shot dead by Iranian forces.",
+  "sources": [
+   {
+    "title": "KHRN: Two Kurdish Citizens Killed by Iranian Police Forces in Kermanshah",
+    "url": "https://kurdistanhumanrights.org/en/news/extrajudicial-killings/2026/08/22/two-kurdish-citizens-killed-by-iranian-police-forces-in-kermanshah"
+   },
+   {
+    "title": "Hengaw: Hengaw's August 2026 report on rights violations against Kurds in Iran",
+    "url": "https://hengaw.org/en/content/article-42662"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-23",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Asmanabad, Chardavol",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.83,
+  "lon": 46.43,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces in many vehicles surrounded 27-year-old Kurdish singer Amin Naseri by a roadside and shot him in the back of the leg and lower back before arresting him; he was wanted over the January protests.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish artist Amin Naseri shot and arrested by Iranian forces in Ilam",
+    "url": "https://hengaw.org/en/content/article-42467"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-24",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Pirhamzeh area, Asmanabad, Chardavol",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.83,
+  "lon": 46.43,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that plainclothes forces in eight vehicles surrounded the Pirhamzeh area and physically assaulted Yaser Havasizadeh while arresting him; a day earlier forces raided the shop of Rouhollah Gholami and arrested him with severe violence.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian forces violently arrest three Kurdish men in Ilam",
+    "url": "https://hengaw.org/en/content/article-42482"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-26",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Shaho mountains, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.03,
+  "lon": 46.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that the IRGC told villagers around Shaho mountain that access would be banned for several days and then shelled protected areas of the mountain in Kamyaran County. Reported 27 August as happening 'in recent days'.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC shelling causes wildfire in Shaho protected area",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/27/irgc-shelling-causes-wildfire-in-shaho-protected-area"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-08-26",
+  "actor": "Iran",
+  "category": "forest fire",
+  "place": "Shaho and Kosalan protected area, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.03,
+  "lon": 46.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that IRGC shelling of Shaho mountain set fire to a large part of the protected area, and that IRGC forces blocked environmental activists and residents from putting out the still-active blaze.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC shelling causes wildfire in Shaho protected area",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/27/irgc-shelling-causes-wildfire-in-shaho-protected-area"
+   },
+   {
+    "title": "KHRN: IRGC Continues Artillery Shelling and Drone Attacks Across Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/16/irgc-continues-artillery-shelling-and-drone-attacks-across-kurdistan"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-01",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Kasnazan village, Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.2,
+  "lon": 46.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that security forces surrounded Kasnazan village and arrested 48-year-old Nahid Kasnazani using violence, threatening her family.",
+  "sources": [
+   {
+    "title": "Hengaw: Nahid Kasnazani violently arrested by Iranian security forces in Saqqez",
+    "url": "https://hengaw.org/en/content/article-42585"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-06",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.31,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that about 15 Intelligence Department agents raided 55-year-old Faridoun Namdari's workplace, subjecting him to severe physical violence before arresting him, then raided his home and arrested his wife Sholeh Rouhi.",
+  "sources": [
+   {
+    "title": "Hengaw: Faridoun Namdari and wife Sholeh Rouhi detained in violent raids",
+    "url": "https://hengaw.org/en/content/article-42652"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.52,
+  "lon": 46.18,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Iranian forces arrested Kurdish singer Khbat Fadaei outside his home in Marivan using violence and without a warrant.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish singer Khbat Fadaei violently arrested in Marivan",
+    "url": "https://hengaw.org/en/content/article-42669"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-14",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Hangeh Zhal (Hengejal) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.03,
+  "lon": 45.78,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Border Regiment forces shot and seriously wounded 20-year-old kolbar Arvin Azizi from Qureh Darreh village, Saqqez; Kurdpa said he was hit by war-grade bullets in the abdomen.",
+  "sources": [
+   {
+    "title": "Hengaw: Young kolbar Arvin Azizi seriously wounded by border forces",
+    "url": "https://hengaw.org/en/content/article-42825"
+   },
+   {
+    "title": "Kurdpa: Hengejal border; Arvin Azizi wounded",
+    "url": "https://kurdpa.net/news/2026-09-20-61137"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-16",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Şino (Oshnavieh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.04,
+  "lon": 45.1,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC Intelligence forces beat Ahmad Hajipour while arresting him in Oshnavieh.",
+  "sources": [
+   {
+    "title": "Hengaw: IRGC violently arrests Ahmad Hajipour in Oshnavieh",
+    "url": "https://hengaw.org/en/content/article-42799"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-16",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Dîwandere (Divandarreh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.91,
+  "lon": 47.02,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Department forces arrested 30-year-old Donya Veisi near her home using violence after she ignored phone summonses.",
+  "sources": [
+   {
+    "title": "Hengaw: Donya Veisi violently arrested by security forces in Divandarreh",
+    "url": "https://hengaw.org/en/content/article-42796"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-17",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Road near Jaldian village, Pîranşar (Piranshahr)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.66,
+  "lon": 45.17,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that dozens of Ministry of Intelligence forces ambushed 35-year-old Ali Osloub on his motorcycle and fired DShK heavy machine guns and Kalashnikovs, killing him, then kept his body. The ministry later called him an 'operational member' of a Kurdish opposition party.",
+  "sources": [
+   {
+    "title": "KHRN: Ministry of Intelligence forces shoot dead Kurdish man near Piranshahr",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/09/21/ministry-of-intelligence-forces-shoot-dead-kurdish-man-near-piranshahr"
+   },
+   {
+    "title": "Hengaw: Monthly report on human rights violations against Kurds in Iran, September 2026",
+    "url": "https://hengaw.org/en/content/article-43126"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-20",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Alak village, Kamyaran",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.03,
+  "lon": 46.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Intelligence Ministry forces raided the family home of 17-year-old Hawre Yousefi in Alak village and arrested him using significant physical force and without a warrant.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish teenager Hawre Yousefi arrested during Intelligence Ministry raid in Kamyaran",
+    "url": "https://hengaw.org/en/content/article-42847"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-30",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Gwezeh border area, Wazneh plain, Mîrawa (Mirabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.4,
+  "lon": 45.25,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that IRGC forces opened fire without warning on herder and trader Khaled Shir (Khaled Abdullah Haji), a father from Alawatan village, as he tended livestock in the border highlands; he died in hospital in Urmia on 1 October.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish herder Khaled Shir shot dead by IRGC forces",
+    "url": "https://hengaw.org/en/content/article-43030"
+   },
+   {
+    "title": "KHRN: Monthly Report of September 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/19/monthly-report-of-september-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-02",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Shaho mountains, Rawansar (Ravansar)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.85,
+  "lon": 46.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that the IRGC barred access to parts of the Shaho mountains in Ravansar County from 2 to 7 October, citing military exercises and artillery shelling, and heavily shelled large sections of the mountains.",
+  "sources": [
+   {
+    "title": "KHRN: Monthly report of October 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/03/monthly-report-of-october-2026"
+   },
+   {
+    "title": "KHRN: IRGC Continues Artillery Shelling and Drone Attacks Across Kurdistan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/16/irgc-continues-artillery-shelling-and-drone-attacks-across-kurdistan"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-08",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Seqiz (Saqqez)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.25,
+  "lon": 46.27,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 7,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw and Kurdpa reported that more than 30 armed intelligence agents raided the homes of seven members of two Saqqez mountaineering groups at dawn, beating them and family members during the arrests: Abdullah Amini, Rahim Haghparast, Seyed Mohammad Saleh Hosseini, Mohammad Hakimpour, Mostafa Ghaderi, Khaled Rahimi and Hossein Abdollahi.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian intelligence forces violently arrest seven Kurds in Saqqez",
+    "url": "https://hengaw.org/en/content/article-43178"
+   },
+   {
+    "title": "Kurdpa: Seqiz; violent arrest of 7 mountaineers",
+    "url": "https://kurdpa.net/news/2026-10-10-61306"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-15",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Entrance to Bokan (Bukan)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.52,
+  "lon": 46.21,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "KHRN reported that security forces stopped Sunni scholar Sheikh Mohammad Saleh Pordel as he entered Bukan, held a gun to his head, called him a 'terrorist' and mistreated people who tried to defend him, releasing him hours later.",
+  "sources": [
+   {
+    "title": "KHRN: Security forces detain Sunni religious leader at gunpoint in Bukan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/22/security-forces-detain-sunni-religious-leader-at-gunpoint-in-bukan"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1576 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-01-12",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Qorveh Central Prison, Qurwe (Qorveh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.17,
+  "lon": 47.8,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Pezhman Saedi, a 21-year-old Kurdish man from Qorveh arrested at 18, was executed at dawn on 12 January at Qorveh Central Prison for “premeditated murder”; Hengaw said the conviction rested solely on oaths by the complainant's relatives (qasameh). The case was only verified five months later because of internet shutdowns.",
+  "sources": [
+   {
+    "title": "Hengaw: Pezhman Saedi, arrested at 18, executed after conviction based solely on relatives' oaths",
+    "url": "https://hengaw.org/en/content/article-41388"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-14",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Qorveh Central Prison, Qurwe (Qorveh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.17,
+  "lon": 47.8,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Afshin Davoudi, a Kurdish prisoner from Qorveh, was executed at dawn on 14 January at Qorveh Central Prison after a “premeditated murder” conviction; the execution was reported five months later due to communication disruptions.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish prisoner Afshin Davoudi executed in Qorveh Central Prison",
+    "url": "https://hengaw.org/en/content/article-41321"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-09",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Detention facility, Bîcar (Bijar)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.87,
+  "lon": 47.6,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Soran Feyzizadeh, 40, a Kurdish protester from Saqqez living in Bijar, was arrested during protests in Bijar on 7 January and died under severe torture in a detention facility in the city; security agencies told his family of his death by phone on 9 January. His body was barely recognisable, the family had to pay to retrieve it, and he was buried in Saqqez under heavy security.",
+  "sources": [
+   {
+    "title": "Hengaw: Soran Feyzizadeh, detained protester, killed under torture in Bijar",
+    "url": "https://hengaw.org/en/content/article-39132"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-07",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Gîlan (Gilan-e Gharb); held at Kermanshah Central Prison",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.14,
+  "lon": 45.92,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Delaram Kazemi, a Kurdish mother of two from Gilan-e Gharb, was violently rearrested during protests on 7 January and beaten during arrest and in detention, suffering fractures to her arms and legs; she was moved to Kermanshah Central Prison without medical treatment.",
+  "sources": [
+   {
+    "title": "Hengaw: Delaram Kazemi held in Kermanshah prison despite fractured limbs",
+    "url": "https://hengaw.org/en/content/article-39501"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-28",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Saeed Malekian, a 32-year-old Kurd from Harsin in Kermanshah Province, was executed at Ghezel Hesar Prison in Karaj on 28 January after about six years in prison on a “premeditated murder” charge.",
+  "sources": [
+   {
+    "title": "Hengaw: Five prisoners, including three Kurds, executed in Ghezel Hesar Prison in Karaj",
+    "url": "https://hengaw.org/en/content/article-39531"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-30",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mohammad Javad Namdari, a Kurdish prisoner from Kermanshah, was executed at dawn on 30 January at Kermanshah Central Prison (Dizelabad) on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Nine prisoners executed in prisons across Iranian prisons",
+    "url": "https://hengaw.org/en/content/article-39505"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-03",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two brothers from Kuhdasht in Lorestan Province, Ahmad Heydari and Farhad Heydari, counted by Hengaw among three Kurds executed at the prison, were executed at Ghezel Hesar Prison in Karaj on 3 February on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Five prisoners, including three Kurds, executed in Ghezel Hesar Prison in Karaj",
+    "url": "https://hengaw.org/en/content/article-39531"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-03",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Quchan Prison, Qoçan (Quchan)",
+  "governorate": "Razavi Khorasan",
+  "country": "Iran",
+  "lat": 37.11,
+  "lon": 58.51,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Ali Mohammadpour, a 44-year-old Kurdish prisoner from Quchan, was executed at Quchan Prison on 3 February after a murder conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Nine prisoners executed in prisons across Iranian prisons",
+    "url": "https://hengaw.org/en/content/article-39505"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-08",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish prisoners, Hadi Momeni and 24-year-old Shahriyar Veysi, were executed at dawn on 8 February at Kermanshah Central Prison (Dizelabad) on drug-related charges, about three years after their arrest.",
+  "sources": [
+   {
+    "title": "Hengaw: 12 prisoners, including one woman, executed in prisons across Iran",
+    "url": "https://hengaw.org/en/content/article-39618"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-10",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ilam Central Prison, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mohammadkaram Jafari, a Kurdish prisoner from Sarpol-e Zahab, was executed at Ilam Central Prison on 10 February after a murder conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: 12 prisoners, including one woman, executed in prisons across Iran",
+    "url": "https://hengaw.org/en/content/article-39618"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-12",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Intelligence Department detention facility, Bandar Abbas",
+  "governorate": "Hormozgan",
+  "country": "Iran",
+  "lat": 27.18,
+  "lon": 56.27,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Nima Jafari, a 22-year-old Kurdish labourer from Sartang village in Eyvan-e Gharb (Ilam Province), was arrested by Intelligence Department agents in Bandar Abbas on 6 February and killed under severe torture after several days in custody; the body was handed to his family on 12 February. Authorities claimed he had “committed suicide” and threatened the family to say so.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish detainee Nima Jafari killed under torture after arrest in Bandar Abbas",
+    "url": "https://hengaw.org/en/content/article-39634"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-03",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Mahabad Central Prison, Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.76,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that after US and Israeli aircraft bombed an IRGC Basij centre near Mahabad Prison on 3 March, prisoners protested their detention under wartime conditions by burning blankets, and special forces entered the prison and fired tear gas at them; phone lines were cut and 120 prisoners, including 38 political prisoners, were later moved to Miandoab Prison under heavy security.",
+  "sources": [
+   {
+    "title": "KHRN: Security tightened at Mahabad Prison as prisoners protest",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/03/03/security-tightened-at-mahabad-prison-as-prisoners-protest"
+   },
+   {
+    "title": "KHRN: Monthly report of March 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/04/17/monthly-report-of-march-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-15",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish prisoners, Mohammad Heydari, 31, and Abed Sharafi, 28, were executed at dawn on 15 April at Kermanshah Central Prison (Dizelabad) in separate qisas cases for premeditated murder.",
+  "sources": [
+   {
+    "title": "Hengaw: At least five prisoners executed in Kermanshah, Zanjan and Kashan prisons",
+    "url": "https://hengaw.org/en/content/article-40434"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-23",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Karaj Central Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.82,
+  "lon": 50.97,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Sajjad Shirzadi, a 30-year-old Kurdish man from Kermanshah and father of two, was executed at Karaj Central Prison on 23 April after being convicted of killing an officer; Hengaw could report it only four months later because of the internet shutdown.",
+  "sources": [
+   {
+    "title": "Hengaw: Three prisoners, including a woman, executed at Karaj Central Prison",
+    "url": "https://hengaw.org/en/content/article-42447"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-25",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw and KHRN reported that Kurdish political prisoner Naser Bakrzadeh, 26, was insulted and severely beaten by the prison's sentence-enforcement official at Urmia Central Prison on 25 April after he protested being threatened with imminent execution when told the Supreme Court had upheld his death sentence for “spying for Israel”.",
+  "sources": [
+   {
+    "title": "Hengaw: Political prisoner Naser Bakrzadeh at imminent risk after Iran upholds death sentence",
+    "url": "https://hengaw.org/en/content/article-40489"
+   },
+   {
+    "title": "KHRN: Death sentence of Kurdish man upheld after two previous overturns",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/04/27/death-sentence-of-kurdish-man-upheld-after-two-previous-overturns"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-02",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KHRN reported that Kurdish political prisoner Nasser Bakerzadeh (Bakrzadeh), 26, convicted of “espionage for Israel”, was secretly executed at Urmia Central Prison on 2 May together with Azerbaijani Turkic Yarsan prisoner Yaghoub Karimpour, without notice to families. Hengaw reported that Mehrab Abdollahzadeh, 27, a Kurdish Woman, Life, Freedom detainee who said his confessions were extracted under torture, was also secretly executed there at dawn (KHRN gives 2 May, Kurdpa 3 May); the judiciary confirmed it.",
+  "sources": [
+   {
+    "title": "KHRN: Iran secretly executes two men accused of espionage in Orumiyeh",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/05/02/iran-secretly-executes-two-men-accused-of-espionage-in-orumiyeh"
+   },
+   {
+    "title": "Hengaw: Iran secretly executes Mehrab Abdollahzadeh, detained during Woman, Life, Freedom protests",
+    "url": "https://hengaw.org/en/content/article-40588"
+   },
+   {
+    "title": "KHRN: Monthly report of May 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/06/01/monthly-report-of-may-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-06",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish prisoners, Mohammad Taqi Shahveisi, a father of four from Salas-e Babajani, and Siros Ramazani, 31, from Kermanshah, were executed at dawn on 6 May at Kermanshah Central Prison (Dizelabad) in separate murder cases.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes two Kurdish prisoners at Kermanshah's Dizelabad Prison",
+    "url": "https://hengaw.org/en/content/article-40668"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-16",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Torbat-e Heydarieh Central Prison, Torbat-e Heydarieh",
+  "governorate": "Razavi Khorasan",
+  "country": "Iran",
+  "lat": 35.27,
+  "lon": 59.22,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Ebrahim Farhadi Topkanlou, a 48-year-old Kurdish father of three from Sabzevar, was executed at dawn on 16 May at Torbat-e Heydarieh Central Prison on drug-related charges while his case was still under appeal.",
+  "sources": [
+   {
+    "title": "Hengaw: Ebrahim Farhadi Topkanlou executed in Torbat-e Heydarieh on drug-related charges",
+    "url": "https://hengaw.org/en/content/article-40838"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-21",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Naqadeh Central Prison, Neqede (Naqadeh)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.96,
+  "lon": 45.39,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Kurdish political prisoners Ramin Zaleh and Karim Maroufpour, 29, both from Naqadeh and sentenced to death for “baghi” through alleged PDKI membership, were secretly executed at dawn on 21 May at Naqadeh Central Prison without notice to their families; Mizan called them members of “separatist terrorist groups”. Hengaw said such charges rest on confessions obtained under torture.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran secretly executes Kurdish political prisoners Ramin Zaleh and Karim Maroufpour in Naqadeh Prison",
+    "url": "https://hengaw.org/en/content/article-40860"
+   },
+   {
+    "title": "KHRN: Monthly report of May 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/06/01/monthly-report-of-may-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-25",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Mahabad Central Prison, Mehabad (Mahabad)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.76,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Abdolghader Rasouli, a Kurdish prisoner from Mahabad, was executed at dawn on 25 May at Mahabad Central Prison on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish prisoner Abdolghader Rasouli executed in Mahabad Central Prison",
+    "url": "https://hengaw.org/en/content/article-40929"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-25",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish prisoners from Kermanshah, Saman Ebrahimi (Nazi Sarvnovi), 32, and Ali Shahbazi, 27, were executed at dawn on 25 May at Kermanshah Central Prison (Dizelabad) in separate murder cases.",
+  "sources": [
+   {
+    "title": "Hengaw: Saman Ebrahimi and Ali Shahbazi executed on murder charges in Kermanshah Central Prison",
+    "url": "https://hengaw.org/en/content/article-40934"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-25",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sanandaj Central Prison, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.3,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Farhang Shekhala, a prisoner from Sanandaj, was executed in the early hours of 25 May at Sanandaj Central Prison on a qisas sentence for “premeditated murder”.",
+  "sources": [
+   {
+    "title": "Hengaw: Farhang Shekhala executed on “premeditated murder” charge in Sanandaj",
+    "url": "https://hengaw.org/en/content/article-40992"
+   },
+   {
+    "title": "KHRN: Monthly report of May 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/06/01/monthly-report-of-may-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-26",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Bukan Central Prison, Bokan (Bukan)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.52,
+  "lon": 46.21,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that five Kurdish prisoners were executed in the early hours of 26 May at Bukan Central Prison, three of them identified as Rahman Mahmoudi, Jafar Mohammadi and Salah Jang; four had drug-related convictions and Salah Jang a murder conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Authorities execute five prisoners in Bukan on drug and premeditated murder charges",
+    "url": "https://hengaw.org/en/content/article-40971"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-31",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Adelabad Prison, Shiraz",
+  "governorate": "Fars",
+  "country": "Iran",
+  "lat": 29.62,
+  "lon": 52.53,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Barzou Mousazadeh, a 30-year-old Kurd from Kermanshah who worked as a labourer in Shiraz, was executed with nine others on 31 May at Adelabad Prison in Shiraz after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Twelve prisoners executed across multiple cities in Iran",
+    "url": "https://hengaw.org/en/content/article-41060"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-01",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Kurdish political prisoners Ashkan Maleki and Mehrdad Mohammadinia, both from Qorveh and arrested in the January 2026 protests, were secretly executed at dawn on 1 June at Ghezel Hesar Prison in Karaj for “moharebeh”, after a trial before Judge Abolqasem Salavati that Hengaw said relied on confessions extracted under torture; families were denied a last visit. Co-defendant Arman Marefati from Saqqez remained at risk.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran secretly executes Kurdish political prisoners Ashkan Maleki and Mehrdad Mohammadinia",
+    "url": "https://hengaw.org/en/content/article-41034"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-01",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Damghan Central Prison, Damghan",
+  "governorate": "Semnan",
+  "country": "Iran",
+  "lat": 36.17,
+  "lon": 54.34,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Morteza Sadeqzadeh, a 25-year-old Kurdish prisoner from Saqqez, was executed in the early hours of 1 June at Damghan Central Prison on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Authorities execute Morteza Sadeqzadeh in Damghan on drug-related charges",
+    "url": "https://hengaw.org/en/content/article-41056"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-09",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish prisoners, Abbas Zarei from Sarin village (Firouzabad district) and Daryoush Qobadi, were executed on 9 June at Kermanshah Central Prison (Dizelabad) on qisas sentences for murder.",
+  "sources": [
+   {
+    "title": "Hengaw: Two prisoners executed in Mahshahr and Kermanshah prisons",
+    "url": "https://hengaw.org/en/content/article-41189"
+   },
+   {
+    "title": "Hengaw: Executions of eight prisoners carried out in prisons across Iran",
+    "url": "https://hengaw.org/en/content/article-41232"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-10",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Maku Central Prison, Mako (Maku)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 39.29,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Zakariya Khezernezhad, a Kurdish prisoner from Maku, was executed at Maku Central Prison on 10 June after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Executions of eight prisoners carried out in prisons across Iran",
+    "url": "https://hengaw.org/en/content/article-41232"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-14",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Shirvan Central Prison, Şîrwan (Shirvan)",
+  "governorate": "North Khorasan",
+  "country": "Iran",
+  "lat": 37.4,
+  "lon": 57.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish men from Shirvan, Nasrollah Khodadadi, 36, and Amin Rajabian, 32, were executed on 14 June at Shirvan Central Prison after “premeditated murder” convictions.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish and Turkish prisoners among three executed in Shirvan and Mashhad",
+    "url": "https://hengaw.org/en/content/article-41430"
+   },
+   {
+    "title": "Hengaw: Reza Rajabian executed in Shirvan Prison",
+    "url": "https://hengaw.org/en/content/article-44219"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-15",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sanandaj Central Prison, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.3,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Aram Zarei, a Kurdish prisoner from Sanandaj convicted of killing his wife in 2024, was executed in the early hours of 15 June at Sanandaj Central Prison.",
+  "sources": [
+   {
+    "title": "Hengaw: Execution of Aram Zarei carried out at Sanandaj Central Prison",
+    "url": "https://hengaw.org/en/content/article-41286"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-15",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Karim Karami, a Kurdish prisoner from Kermanshah (57, per KHRN), was executed on 15 June at Kermanshah Central Prison after a murder conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: 12 prisoners executed in prisons across Iran amid ongoing wave of executions",
+    "url": "https://hengaw.org/en/content/article-41382"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-16",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sanandaj Central Prison, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.3,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mohammad Ahmadi, a Kurdish prisoner from Sanandaj, was executed in the early hours of 16 June at Sanandaj Central Prison after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Mohammad Ahmadi executed in Sanandaj Central Prison",
+    "url": "https://hengaw.org/en/content/article-41324"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-17",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Hamedan Central Prison (Alvand), Hemedan (Hamedan)",
+  "governorate": "Hamadan",
+  "country": "Iran",
+  "lat": 34.8,
+  "lon": 48.51,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Alireza Maleki, a 29-year-old Kurdish prisoner from Sonqor and Koliai, was executed on 17 June at Hamedan Central Prison (KHRN gives 16 June) after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Five prisoners, including three Turks, executed in Hamedan",
+    "url": "https://hengaw.org/en/content/article-41371"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-18",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Mehran (arrest), held at an undisclosed location",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.12,
+  "lon": 46.16,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Mehdi Karimi, a Kurdish resident of Malekshahi known from a widely shared photo of the January protests, was violently arrested by Ministry of Intelligence agents in Mehran on 18 June, severely beaten and tortured, and forced into confessions later aired by state-affiliated media.",
+  "sources": [
+   {
+    "title": "Hengaw: Mehdi Karimi detained in Ilam, forced to make confessions under torture",
+    "url": "https://hengaw.org/en/content/article-41420"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-21",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sari Central Prison, Sari",
+  "governorate": "Mazandaran",
+  "country": "Iran",
+  "lat": 36.56,
+  "lon": 53.06,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Fayeq Ahmadi, a 39-year-old Kurdish man from Kermanshah living in Mazandaran, was executed on 21 June at Sari Central Prison on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish prisoner Fayeq Ahmadi executed in Sari Central Prison",
+    "url": "https://hengaw.org/en/content/article-41447"
+   },
+   {
+    "title": "KHRN: Monthly report of June 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/07/02/monthly-report-of-june-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-21",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Khosrow Ahadi, a 27-year-old Kurdish man from Kermanshah, was executed on 21 June at Kermanshah Central Prison after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Iranian authorities execute Khosrow Ahadi and Khalil Panahi in separate cases",
+    "url": "https://hengaw.org/en/content/article-41491"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-01",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sanandaj Central Prison, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.3,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Shorsh Sattarzadeh, a Kurdish prisoner from Chapan Olya village (Ziwiyeh, Saqqez), was executed at dawn on 1 July at Sanandaj Central Prison after 18 years in prison on a qisas sentence.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish prisoner Shorsh Sattarzadeh executed in Sanandaj Central Prison after 18 years of imprisonment",
+    "url": "https://hengaw.org/en/content/article-41550"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-12",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Shirvan Central Prison, Şîrwan (Shirvan)",
+  "governorate": "North Khorasan",
+  "country": "Iran",
+  "lat": 37.4,
+  "lon": 57.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish men from Shirvan, Mohammad Imani, 27, and Asad Alijani, 33, were executed at dawn on 12 July at Shirvan Central Prison on qisas sentences for murder.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes two Kurdish Prisoners convicted of murder at Shirvan prison",
+    "url": "https://hengaw.org/en/content/article-41733"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-14",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that two Kurdish religious prisoners, Mohieddin Abdollahi from Javanroud and Hossein Palani Jaf from Sarpol-e Zahab, held by the IRGC since 2018, were executed at dawn on 14 July at Kermanshah Central Prison for “baghi” (armed rebellion); state-affiliated media alleged they belonged to ISIS cells. Mizan confirmed the executions.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes two Kurdish religious prisoners convicted of baghi",
+    "url": "https://hengaw.org/en/content/article-41738"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-14",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Tabriz Central Prison, Tabriz",
+  "governorate": "East Azerbaijan",
+  "country": "Iran",
+  "lat": 38.08,
+  "lon": 46.29,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Salman Kakehkhani, a Kurdish prisoner from Baneh (KHRN: Saqqez), was executed at dawn on 14 July at Tabriz Central Prison on drug-related charges, leaving his 12-year-old child without either parent.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes Salman Kakehkhani convicted on drug-related charges at Tabriz prison",
+    "url": "https://hengaw.org/en/content/article-41771"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-21",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Ayoub Mohebi, a 40-year-old Kurdish prisoner from Nurabad (Delfan), was executed on 21 July at Ghezel Hesar Prison in Karaj on a qisas sentence over an unintentional killing in a street fight.",
+  "sources": [
+   {
+    "title": "Hengaw: Ayoub Mohebi executed in Qezel Hesar Prison",
+    "url": "https://hengaw.org/en/content/article-41917"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-22",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ilam Central Prison, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Iraj Ebrahimizadeh, a 37-year-old Kurdish prisoner from Ilam, was executed in the early hours of 22 July at Ilam Central Prison on a qisas sentence for “premeditated murder”.",
+  "sources": [
+   {
+    "title": "Hengaw: Iraj Ebrahimizadeh executed at Ilam Central Prison",
+    "url": "https://hengaw.org/en/content/article-41862"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-25",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Sardar Qaderi, a 30-year-old Kurdish prisoner from Mahabad, was executed at dawn on 25 July at Urmia Central Prison on a qisas sentence for killing an IRGC base commander who, Hengaw said, had assaulted him in hospital with Basij members during a land dispute.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes Kurdish prisoner Sardar Qaderi at Urmia Central Prison",
+    "url": "https://hengaw.org/en/content/article-41928"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-29",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Farzad Sobhani, a 21-year-old Kurdish prisoner from Gardeh Qeit village, Naqadeh, arrested at 18, was executed at dawn on 29 July at Urmia Central Prison on a qisas sentence; Kurdpa said he was under 18 at the time of the alleged killing.",
+  "sources": [
+   {
+    "title": "Hengaw: Farzad Sobhani executed at Urmia Central Prison",
+    "url": "https://hengaw.org/en/content/article-42042"
+   },
+   {
+    "title": "KHRN: Monthly report of July 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/08/01/monthly-report-of-july-2026"
+   },
+   {
+    "title": "Kurdpa: July 2026 execution statistics",
+    "url": "https://kurdpa.net/news/2026-08-10-60763"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-30",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Alijan Garavand, a Kurd from Qebleh village in Kuhdasht County, was executed at dawn on 30 July at Ghezel Hesar Prison in Karaj after 17 years on death row for “premeditated murder”.",
+  "sources": [
+   {
+    "title": "Hengaw: Alijan Garavand executed after 17 years on death row",
+    "url": "https://hengaw.org/en/content/article-42064"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-03",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw reported that Omid Behzad, a 21-year-old Kurdish university student from Urmia arrested in March during the war on charges of “spying for Israel”, was executed at dawn on 3 August at Urmia Central Prison with Turkic prisoner Pouria Safvat, even though the Supreme Court had overturned his death sentence on 1 August; Hengaw called it an extrajudicial execution. Bodies were not returned to the families.",
+  "sources": [
+   {
+    "title": "Hengaw: Hengaw releases new details on the executions of Kurdish student Omid Behzad and Turkish man Pouria Safvat at Urmia Central Prison",
+    "url": "https://hengaw.org/en/content/article-42115"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-08",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Zanjan Central Prison, Zanjan",
+  "governorate": "Zanjan",
+  "country": "Iran",
+  "lat": 36.68,
+  "lon": 48.48,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Payam Pakzad, a 41-year-old Kurdish father of four from Bojnord, was executed at dawn on 8 August at Zanjan Central Prison on a qisas sentence for “premeditated murder”.",
+  "sources": [
+   {
+    "title": "Hengaw: Kurdish prisoner Payam Pakzad executed in Zanjan Central Prison",
+    "url": "https://hengaw.org/en/content/article-42265"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-18",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Sanandaj Central Prison, Sine (Sanandaj)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.3,
+  "lon": 47.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Kaveh Rafoosheh, a 35-year-old Kurdish man from Sanandaj, was executed in the early hours of 18 August at Sanandaj Central Prison for a killing in a street fight, despite a protest outside the prison the previous night calling for a halt.",
+  "sources": [
+   {
+    "title": "Hengaw: Kaveh Rafoosheh executed in Sanandaj despite public protest",
+    "url": "https://hengaw.org/en/content/article-42340"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-19",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ilam Central Prison, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw and KHRN reported that Khodadad Mohammadi, a retired Kurdish teacher and father of five from Eyvan-e Gharb, and 20-year-old Donya Mohammadi, also from Eyvan-e Gharb per KHRN, were executed at dawn on 19 August at Ilam Central Prison on qisas sentences for murder.",
+  "sources": [
+   {
+    "title": "Hengaw: Two prisoners executed at Ilam Central Prison, including retired Kurdish teacher Khodadad Mohammadi",
+    "url": "https://hengaw.org/en/content/article-42399"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-19",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Isfahan Central Prison (Dastgerd), Isfahan",
+  "governorate": "Isfahan",
+  "country": "Iran",
+  "lat": 32.66,
+  "lon": 51.62,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mohsen Darabi, a Kurdish father of two from Kermanshah, was executed on 19 August at Isfahan Central Prison on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Four prisoners executed in Isfahan Central Prison in separate drug-related cases",
+    "url": "https://hengaw.org/en/content/article-42411"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-22",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Khorramabad Central Prison (Parsilon), Xurmawa (Khorramabad)",
+  "governorate": "Lorestan",
+  "country": "Iran",
+  "lat": 33.49,
+  "lon": 48.36,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mohammadreza Rezaei Knkat, a 26-year-old Kurdish prisoner from Nurabad (Delfan) arrested at 19, was executed at dawn on 22 August at Khorramabad Central Prison on drug-related charges, two days after his family protested outside the prison and judiciary.",
+  "sources": [
+   {
+    "title": "Hengaw: Mohammadreza Rezaei Knkat executed in Khorramabad Prison",
+    "url": "https://hengaw.org/en/content/article-42422"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-23",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Maku Central Prison, Mako (Maku)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 39.29,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Ardalan Sabzi (Balkhkanlou), a Kurdish prisoner from Maku, was executed at dawn on 23 August at Maku Central Prison on a qisas sentence for “premeditated murder”.",
+  "sources": [
+   {
+    "title": "Hengaw: Ardalan Sabzi executed in Maku Central Prison",
+    "url": "https://hengaw.org/en/content/article-42442"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-25",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that brothers Saeed Najafi and Hamid Najafi from Kuhdasht, Lorestan Province, were executed at dawn on 25 August at Ghezel Hesar Prison in Karaj for “waging war against God through armed robbery”.",
+  "sources": [
+   {
+    "title": "Hengaw: Two brothers from Kuhdasht executed in Qezel Hesar Prison",
+    "url": "https://hengaw.org/en/content/article-42487"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-26",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Khorramabad Central Prison (Parsilon), Xurmawa (Khorramabad)",
+  "governorate": "Lorestan",
+  "country": "Iran",
+  "lat": 33.49,
+  "lon": 48.36,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mostafa Vosoughi, a 27-year-old Kurdish man from Rivasan village in Delfan (Nurabad) County, was executed at dawn on 26 August at Khorramabad Central Prison after a murder conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes seven prisoners, including woman subjected to forced marriage, across five prisons",
+    "url": "https://hengaw.org/en/content/article-42507"
+   },
+   {
+    "title": "KHRN: Monthly report of August 2026",
+    "url": "https://kurdistanhumanrights.org/en/publications/monthly-reports/2026/09/06/monthly-report-of-august-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-13",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Jiroft Central Prison, Jiroft",
+  "governorate": "Kerman",
+  "country": "Iran",
+  "lat": 28.68,
+  "lon": 57.74,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Farzad Ahmadpour, a 35-year-old Kurdish man from Saqqez, was executed at dawn on 13 September at Jiroft Central Prison in Kerman Province on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes Kurdish prisoner Farzad Ahmadpour at Jiroft Prison",
+    "url": "https://hengaw.org/en/content/article-42729"
+   },
+   {
+    "title": "KHRN: Monthly report of September 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/19/monthly-report-of-september-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-15",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ilam Central Prison, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Kurdish prisoner Fereydoun Akbarzadeh from Sarableh County was executed at dawn on 15 September at Ilam Central Prison after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Fereydoun Akbarzadeh executed in Ilam Prison",
+    "url": "https://hengaw.org/en/content/article-42774"
+   },
+   {
+    "title": "KHRN: Monthly report of September 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/19/monthly-report-of-september-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-27",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ghezel Hesar Prison, Karaj",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.83,
+  "lon": 50.93,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Shahhossein Abbasi (Jafari), 39, a father of three, and Milad Zeinali, 26, Kurdish men from Kuhdasht, were executed at dawn on 27 September at Ghezel Hesar Prison in Karaj on drug-related charges (a separate Hengaw item dates Zeinali's execution 28 September).",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes five prisoners in Isfahan and Karaj",
+    "url": "https://hengaw.org/en/content/article-42985"
+   },
+   {
+    "title": "Hengaw: Milad Zeinali executed in Qezel Hesar Prison",
+    "url": "https://hengaw.org/en/content/article-42963"
+   },
+   {
+    "title": "KHRN: Monthly report of September 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/19/monthly-report-of-september-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-29",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Kermanshah Central Prison (Dizelabad), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.37,
+  "lon": 47.03,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Ehsan Norouzi, a Kurdish Yarsan father of one from Palan Olya village in Dalahu County, was executed at dawn on 29 September at Kermanshah Central Prison (Dizelabad) after a “premeditated murder” conviction.",
+  "sources": [
+   {
+    "title": "Hengaw: Ehsan Norouzi executed in Kermanshah Central Prison",
+    "url": "https://hengaw.org/en/content/article-43021"
+   },
+   {
+    "title": "KHRN: Monthly report of September 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/10/19/monthly-report-of-september-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-03",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Urmia Central Prison, Ûrmiye (Urmia)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 37.55,
+  "lon": 45.07,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Mostafa Sharifi, a 45-year-old Kurdish father of three from Piranshahr, was executed at dawn on 3 October at Urmia Central Prison on drug-related charges after five years in detention.",
+  "sources": [
+   {
+    "title": "Hengaw: Mostafa Sharifi executed in Urmia after five years in detention",
+    "url": "https://hengaw.org/en/content/article-43082"
+   },
+   {
+    "title": "KHRN: Monthly report of October 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/03/monthly-report-of-october-2026"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-15",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Shirvan Central Prison, Şîrwan (Shirvan)",
+  "governorate": "North Khorasan",
+  "country": "Iran",
+  "lat": 37.4,
+  "lon": 57.93,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Reza Rajabian, a 23-year-old Kurdish prisoner from Shirvan arrested at 18, was executed at dawn on 15 October at Shirvan Central Prison for a killing in a fight; his cousin Amin Rajabian was executed at the same prison in June.",
+  "sources": [
+   {
+    "title": "Hengaw: Reza Rajabian executed in Shirvan Prison",
+    "url": "https://hengaw.org/en/content/article-44219"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-18",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Adelabad Prison, Shiraz",
+  "governorate": "Fars",
+  "country": "Iran",
+  "lat": 29.62,
+  "lon": 52.53,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Shahram Babanzadeh, a 30-year-old Kurdish car mechanic from Bojnurd, was executed on 18 October at Adelabad Prison in Shiraz on drug-related charges.",
+  "sources": [
+   {
+    "title": "Hengaw: Iran executes five prisoners in three cities",
+    "url": "https://hengaw.org/en/content/news-general-2026-10-23-18041"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-27",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Ilam Central Prison, Îlam (Ilam)",
+  "governorate": "Ilam",
+  "country": "Iran",
+  "lat": 33.64,
+  "lon": 46.42,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Farhad Tavan, a 44-year-old Kurdish father of two, was executed on 27 October at Ilam Central Prison after being convicted of murdering his wife.",
+  "sources": [
+   {
+    "title": "Hengaw: Farhad Tavan executed in Ilam Prison",
+    "url": "https://hengaw.org/en/content/news-execution-2026-10-30-18096"
+   },
+   {
+    "title": "KHRN: Monthly report of October 2026",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/03/monthly-report-of-october-2026"
+   }
+  ]
+ }
+]

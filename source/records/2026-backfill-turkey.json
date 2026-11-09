@@ -1,0 +1,2030 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-01-08",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Yafes neighbourhood, Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked young people marching in Cizîr's Yafes neighbourhood against attacks on the Kurdish neighbourhoods of Şêxmeqsûd and Eşrefiyê in Aleppo, beating and detaining at least three and threatening journalists with death.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cizîr'de Halep yürüyüşüne saldırı: Gazeteciler ölümle tehdit edildi, çok sayıda genç gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/296743"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-14",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Jandarma post at Üçyol, Dêrik (Derik), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.36,
+  "lon": 40.27,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that villagers of Qizilê who chased unidentified men in a pick-up, suspecting theft, were attacked at the gate of the Dêrik gendarmerie post by the men, who turned out to be police; they beat villagers, held a gun to one man's head and fired into the air, and the gendarmerie then detained the badly beaten B.D., 21, and three children aged 14–16.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Jandarma karakolunda çocuklara polis işkencesi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/297558"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-15",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Koçhisar neighbourhood, Qoser (Kızıltepe), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.19,
+  "lon": 40.59,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police broke down doors in house raids in Qoser over protests against attacks on the Autonomous Administration areas; Metin Çakar, 51, and his son Emir were beaten and Metin had a heart attack. About 30 people detained over three days were reportedly beaten in custody.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Ev baskınında darp eden edilen kişi kalp krizi geçirdi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/297625"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-18",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Yenipazar neighbourhood, Akdeniz, Mersin",
+  "governorate": "Mersin",
+  "country": "Turkey",
+  "lat": 36.81,
+  "lon": 34.64,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that the mainly Kurdish Yenipazar neighbourhood had been under armoured-vehicle siege for three days over protests against attacks on the Autonomous Administration areas, with many young people beaten inside armoured vehicles, and that anti-terror police got out of armoured vehicles and fired live rounds towards protesting youths.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Akdeniz’de polis gençlere gerçek mermiyle saldırdı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298024"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-19",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Wan (Van) city centre",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.5,
+  "lon": 43.38,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish state police attacked a rally in Wan protesting attacks on the Autonomous Administration areas before it could start, injuring several people and detaining nearly 100, including DEM Party and DBP co-chairs, the deposed co-mayors Neslihan Şedal and Abdullah Zeydan and Van Bar president Sinan Özaraz; reports said detainees were tortured.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Attack on rally for Rojava: Around 100 people detained",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/298172"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-20",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Turkish–Syrian state border, Nisêbîn (Nusaybin), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.07,
+  "lon": 41.21,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Diyar Koç was allegedly tortured by Turkish soldiers during protests in Nisêbîn against attacks on the Autonomous Administration areas, suffering fractures and a brain haemorrhage; footage of him being beaten and insulted after soldiers detained him beside a military post on 20 January, when crowds crossed the border towards Qamişlo, was shared online. After treatment at Ankara Etlik City Hospital he was taken to Sincan No. 1 F-Type Prison on 29–30 January.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Koç taken from hospital to prison after alleged torture",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/300534"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Sınırda işkence",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298619"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-20",
+  "actor": "Turkey",
+  "type": "border shooting",
+  "place": "Qamişlo–Nisêbîn border line, Qamişlo",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 41.22,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 5,
+  "civilian": true,
+  "impact": null,
+  "summary": "Journalist Nujan Mela Hasan of Nûdem Media told Mezopotamya Agency that on 20 January Turkish border forces first used water cannon and gas, then fired live rounds directly at demonstrators and journalists on the Qamişlo–Nisêbîn border line protesting attacks on the Autonomous Administration areas; she was shot in the abdomen and foot, a civilian helping her was fired on, and four others near her were wounded. Turkish sources said soldiers fired into the air, which she denied.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Qamişlo-Nisêbîn sınırında yaralanan gazeteci: Gerçek mermilerle saldırıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/301704"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Sınırı aşan genç: Asker ateş açıyor, korkmuyoruz",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298388"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-21",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Wêranşar (Viranşehir), Riha (Şanlıurfa)",
+  "governorate": "Şanlıurfa",
+  "country": "Turkey",
+  "lat": 37.23,
+  "lon": 39.76,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing ÖHD Riha, reported that police used tear gas on a crowd protesting attacks on the Autonomous Administration areas in Wêranşar, affecting many people, and detained eight people including children and a woman, who were subjected to torture and ill-treatment.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: ÖHD Riha: Gözaltına alınanlar işkenceye maruz kaldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298724"
+   },
+   {
+    "title": "Mezopotamya Ajansı: ÖHD: Riha’da 10’u aşkın kişiye işkence yapıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/300583"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-21",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Petrolkent neighbourhood, Êlih (Batman)",
+  "governorate": "Batman",
+  "country": "Turkey",
+  "lat": 37.88,
+  "lon": 41.13,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing İHD and ÖHD Batman, reported that a young man, M.E.T., detained in a night house raid, was beaten by many officers, struck on the head with a rifle butt and repeatedly had a plastic bag put over his head until he fainted, with the violence continuing in the detention vehicle.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Bir işkence vakası daha: Kafasına poşet geçirildi, ayıltıp aynısını tekrar yaptılar",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298995"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-21",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Dört Yol junction, Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 7,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that plain-clothes police raided a café in Cizîr, beat six young people and the café owner who objected, and detained all seven.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cizîr'de polis kafe basıp 7 kişiyi darp ederek gözaltına aldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/298747"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-22",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Rojava solidarity protest, Antwerp",
+  "governorate": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.22,
+  "lon": 4.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 6,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that a protest in Antwerp against attacks on the Autonomous Administration areas was attacked with knives or other cutting tools, wounding six people, two seriously; four attackers were detained. The source does not identify the attackers.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Belçika'daki Rojava eyleminde saldırı: 2'si ağır 6 yaralı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299015"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-23",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Norşîn (Güroymak), Bedlîs (Bitlis)",
+  "governorate": "Bitlis",
+  "country": "Turkey",
+  "lat": 38.58,
+  "lon": 42.02,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 8,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked a march in Norşîn against attacks on the Autonomous Administration areas, beating and detaining eight people; footage of beatings in custody later emerged.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Norşîn'de polis saldırısı ve 8 gözaltı yürüyüşü durduramadı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299199"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-23",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Şahkulubey Street, Qoser (Kızıltepe), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.19,
+  "lon": 40.59,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacking a group continuing a march in Qoser against attacks on the Autonomous Administration areas lifted a 13-year-old boy, F.M., into the air and slammed him to the ground, an act caught on camera; he was detained and released the next day.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Polis, bir çocuğu havaya kaldırarak yere çarptı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299216"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Qoser’de polisin darp ettiği çocuk serbest bırakıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299256"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-24",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Fatih, Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.02,
+  "lon": 28.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked protests in several neighbourhoods of Fatih against attacks on the Autonomous Administration areas, detaining many, including DEM Party Istanbul co-chair Çınar Altan and MA reporter Uğurcan Boztaş; DEM Party MP Celal Fırat was beaten and taken to hospital.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Rojava protestosuna polis saldırısı: DEM'li vekil hastaneye kaldırıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299412"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-25",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Cumhuriyet Street, Agirî (Ağrı)",
+  "governorate": "Ağrı",
+  "country": "Turkey",
+  "lat": 39.72,
+  "lon": 43.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked a group of DEM Party and DBP officials and young people calling for solidarity with the Autonomous Administration areas on Cumhuriyet Street in Agirî, injuring several and detaining at least five.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Agirî’de polis saldırısına rağmen yürüyüş",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/299578"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-26",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that DBP Youth Assembly member Ramazan Kalkan was forced into a car by plain-clothes police in a Cizîr street on 26 January and held without notice; DEM Party MP Newroz Uysal Aslan said police put a bag over his head, injected him and forced his fingerprints onto papers.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Emniyette işkence: Kafasına poşet koydular, iğne yapıp parmaklarını zorla kağıtlara bastılar",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/300574"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-27",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Dicle neighbourhood, Bismil, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.85,
+  "lon": 40.66,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that three people were beaten and detained in evening police house raids in Bismil's Dicle neighbourhood, where other flats in the building were also raided and belongings strewn about.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Bismil’de 3 kişi darp edilerek gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/300093"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-01",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Mamak, Ankara",
+  "governorate": "Ankara",
+  "country": "Turkey",
+  "lat": 39.93,
+  "lon": 32.92,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked the Ankara Democratic Institutions Platform's march for the 1 February World Rojava Solidarity Day in Mamak and also beat journalists following it.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Mamak'ta yürüyüşü takip edilen gazeteciler darp edildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/300942"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-01",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Mûş (Muş) city centre",
+  "governorate": "Muş",
+  "country": "Turkey",
+  "lat": 38.74,
+  "lon": 41.49,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked people marching after a 1 February Rojava Solidarity Day statement attended by DBP co-chair Keskin Bayındır in Mûş, beating and detaining two.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Mûş’ta 2 kişi darp edilerek gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/301046"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-01",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Qoser (Kızıltepe), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.19,
+  "lon": 40.59,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that after a Rojava solidarity march of tens of thousands in Qoser, police attacked young people chanting in the streets and beat and detained many; footage showed an officer pressing on a prone young man's throat.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Qoser'de Rojava yürüyüşü sonrası çok sayıda genç darp edilerek gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/300938"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-12",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Şakran (Aliağa) Children's Prison, İzmir",
+  "governorate": "İzmir",
+  "country": "Turkey",
+  "lat": 38.8,
+  "lon": 26.97,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that a 16-year-old girl, A.K., jailed in İzmir for 'membership of an organisation' after sharing a video of herself braiding her hair (a campaign after a jihadist cut a Kurdish woman fighter's braid in Syria), was strip-searched on entering Şakran prison and attacked in her ward; DEM MP Burcugül Çubuk raised it in parliament and a criminal complaint was filed.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Burcugül Çubuk: 16 yaşındaki çocuk cezaevine çıplak arandı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/302210"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Saç örgüsü nedeniyle tutuklanan çocuğa işkenceye ilişkin suç duyurusu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/303075"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-20",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Maraş Street, Riyaarmûşê (İpekyolu), Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.5,
+  "lon": 43.38,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police and municipal officers of the trustee-run Van Metropolitan Municipality attacked street vendor Osman Demir and his son after seizing his goods; both were injured and taken to hospital.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Wan'da polis ve zabıta seyyar satıcıya saldırdı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/303119"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-21",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Forensic Medicine Institute (held from Marmara No. 5 L-Type Prison), Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.0,
+  "lon": 28.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing ÖHD Istanbul, reported that 70-year-old seriously ill prisoner Mehmet Edip Taşar was verbally and physically attacked by the doctors examining him when he was sent to the Forensic Medicine Institute (ATK); he died in custody a month later.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Ağır hasta tutsak Taşar, ATK sevkinde doktorların saldırısına uğradı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/303344"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-25",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Seyrantepe neighbourhood, Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.51,
+  "lon": 43.36,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that motorcycle police who stopped a car in Seyrantepe beat and detained the occupants after they asked whether the officers had a search warrant; bystanders filmed it.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Wan'da yunus polisler yurttaşları darp ederek gözaltına aldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/303666"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-03",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Arzoxlî (Kervanpınar) neighbourhood, Sûr, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.86,
+  "lon": 40.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish state gendarmerie attacked residents of Arzoxlî resisting the ZENKAR-1 solar power plant planned on their pasture, using batons, plastic bullets, pepper gas and water cannon; four people were injured (one knocked unconscious by a blow to the head) and 16 villagers, who described treatment amounting to torture, were detained.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: GES’e karşı direnen mahalleliye jandarma saldırısı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/304295"
+   },
+   {
+    "title": "Mezopotamya Ajansı: GES protestosuna saldırı: 16 gözaltı, 4 yaralı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/304315"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-06",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Marmara Prison (Silivri), Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.08,
+  "lon": 28.24,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that guards raided the wards of Hamit Akay and Doğukan Mağol, jailed after police broke up a 10 January protest in Istanbul against attacks on the Kurdish neighbourhoods of Şêxmeqsûd and Eşrefiyê in Aleppo, beat them for covering the ward cameras and put them in cells; both began hunger strikes.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Koğuşları izleyen kameralara karşı çıkan tutsaklar darp edilip, hücreye konuldu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/305426"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-03-12",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Kasor basin, Kuyê neighbourhood, Pasûr (Kulp), Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 38.5,
+  "lon": 41.0,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish state authorities gave a positive environmental impact (ÇED) decision for gold, copper and iron exploration by Kılıç Kardeşler Madencilik in the Kasor basin, which supplies water to 60 neighbourhoods and hamlets of Pasûr; Kuyê residents vowed to resist and the Amed Bar took the permit to court.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Pasûr'un su havzasında maden aramaya izin verildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/305282"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Kuyê sakinleri madene karşı: Talana izin vermeyeceğiz",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/302630"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-17",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that a 15-year-old boy, B.K., was beaten and detained by police in Cizîr because of a football shirt bearing the word 'Kurdistan'; the shirt was seized and he was questioned for 'insulting' and 'obstructing' officers.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Kürdistan forması gerekçesiyle darp edilen çocuk savcılıkta ifade verdi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/306034"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-24",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Başakşehir Çam and Sakura City Hospital, Istanbul (held from Marmara No. 5 L-Type Prison)",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.1,
+  "lon": 28.79,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that seriously ill prisoner Mehmet Edip Taşar, held at Marmara No. 5 L-Type Closed Prison since December 2022 and not released despite his illness, died at the hospital where he was being treated; his body was to be taken to Êlih (Batman).",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Ill prisoner Mehmet Edip Taşar lost his life",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/306813"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-24",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Istanbul (incl. Başakşehir) and Kocaeli",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.06,
+  "lon": 28.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police carried out simultaneous dawn house raids on 38 people, five of them children, accused of 'propaganda' at the 22 March Newroz in Istanbul and in Kocaeli, breaking doors and beating several; a woman in Başakşehir whose home was wrecked was detained for sharing footage, and Eren Abaş and E.K. said they were tortured for an hour. Nine were jailed.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: İstanbul ve Kocaeli'nde gözaltına alınan çok sayıda kişin darp edildiği öğrenildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/306823"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Gözaltında şiddet: 1'i çocuk 9 tutuklama",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/306878"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Polisin dağıttığı evinin görüntülerini çektiği için gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/306995"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Newroz sonrası ev baskınında işkence: Polisler hakkında suç duyurusu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/307196"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-26",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Çarşamba S-Type Closed Prison, Samsun",
+  "governorate": "Samsun",
+  "country": "Turkey",
+  "lat": 41.2,
+  "lon": 36.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that prison guards who entered the cell of political prisoners Mahsum Arslan, Muhammet Ahmet and Kerem Karagöz at Çarşamba S-Type Prison on 26 March, under the pretext of a cell change, beat them; prisoner Baran Eman said his friends were tortured and he was put in isolation. The beaten prisoners were later given communication and visiting bans.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Torture of prisoners at Carsamba S-Type Prison",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/307484"
+   },
+   {
+    "title": "Mezopotamya Agency: Communication and visiting bans imposed on beaten prisoners",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/311228"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-03-28",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Meleqer village, Giyadîn (Diyadin), Agirî (Ağrı)",
+  "governorate": "Ağrı",
+  "country": "Turkey",
+  "lat": 39.5,
+  "lon": 43.6,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Koza Holding began cyanide gold mining on 470 hectares between tributaries of the Murat river at Meleqer village after receiving state ÇED approvals; according to the ÇED report, 44 million cubic metres of water would be polluted over four years, threatening Mûş and Agirî.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Koza Holding zehir saçıyor: Mûş ve Agirî tehlikenin eşiğinde",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/307179"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-03-28",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Tigris (Dicle) river at Cizîr (Cizre), below Gabar mountain (Kasrik area), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.2,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that crude oil from the Gabar mountain (Kasrik) area, where oil drilling is under way, contaminated the Tigris, Cizîr's drinking-water source, forcing the municipality to shut the treatment plant temporarily. The source does not name who was responsible for the spill.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Dicle Nehri’ne ham petrol karıştı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/307257"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-01",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Hecaciler Cemetery, Nisêbîn (Nusaybin), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.07,
+  "lon": 41.22,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that graves of people who lost their lives in the Kurdish freedom struggle in Hecaciler Cemetery were attacked, with headstones and marble slabs smashed and trees beside the graves destroyed; MEBYA-DER said soldiers stationed at the cemetery since January were alleged to be responsible, and a similar attack had happened two weeks earlier.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Attack on graves in Nisêbîn: The enemies of humanity must be identified",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/307656"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-01",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Hospital (held from Kırşehir S-Type High-Security Prison), Kırşehir",
+  "governorate": "Kırşehir",
+  "country": "Turkey",
+  "lat": 39.15,
+  "lon": 34.16,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that prisoner Rojhat Babat, from Wan, serving an aggravated life sentence in Kırşehir S-Type High-Security Prison, died in the hospital he had been transferred to; his family had seen an 'emergency' record a week earlier but the prison gave them no information.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Tutsak Babat hastanede yaşamını yitirdi: Aileye bilgi verilmedi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/307627"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-04-13",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Têznê rural neighbourhood, Şemrex (Mazıdağı), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.48,
+  "lon": 40.48,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Eti Bakır, part of Cengiz Holding, which took over the state phosphate works at Şemrex through privatisation in 2011, was building three new plants in the special industrial zone at Têznê, deepening ecological destruction; the Chamber of Agricultural Engineers called for urgent soil and water analysis.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cengiz Holding Şemrex’i yok ediyor: Acil toprak ve su analizi yapılmalı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/308693"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-13",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Beşiri High-Security Closed Prison, Êlih (Batman)",
+  "governorate": "Batman",
+  "country": "Turkey",
+  "lat": 37.92,
+  "lon": 41.29,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Mehmet Çeviren, 42, a father of three from Dêrik serving an aggravated life sentence since 2016, died in Beşiri High-Security Prison; the prison said it was suicide, which his brother Velat Çeviren rejected, saying he had asked for clothes two days earlier.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Tutsak Çeviren'in ağabeyi: Kardeşim intihar etmedi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/308772"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-04-16",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Bazirgan (Satıcılar) village, Giyadîn (Diyadin), Agirî (Ağrı)",
+  "governorate": "Ağrı",
+  "country": "Turkey",
+  "lat": 39.55,
+  "lon": 43.67,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that a solar power plant (GES) was being imposed on the pastures of Bazirgan village, the villagers' main livelihood, with 'pressure and threats' and citing a 'presidential instruction' after an earlier version was cancelled; on 20 May company workers began installation without permits, provoking tension with villagers.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Merada GES işgali: Hayvancılık olmazsa nasıl geçineceğiz?",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/309057"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Bazirgân’da izinsiz GES kurulumu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312716"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-22",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Elbak (Başkale) district police headquarters, Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.05,
+  "lon": 44.02,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that brothers Fatih, İsmail and Diyar Değer were detained and tortured at the Elbak police headquarters after objecting to a plain-clothes officer breaking traffic rules; 13 police officers later gave statements on charges including intentional injury.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Trafik kuralına uymayan polisi uyaran gençlere işkence",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/309821"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Üç kardeşe 13 polisin işkence ettiği tespit edildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/310078"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-23",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Batman Training and Research Hospital (held from Beşiri Open Prison), Êlih (Batman)",
+  "governorate": "Batman",
+  "country": "Turkey",
+  "lat": 37.89,
+  "lon": 41.13,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Dılbaz Abi, from Silopiya, held in Beşiri Open Prison, died under suspicious circumstances in hospital; the prison claimed he jumped from a window on 15 April in a suicide attempt and he had a brain haemorrhage.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Tutuklu Abi şüpheli bir şekilde yaşamını yitirdi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/309982"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-04-25",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Cilbiya and Biliga villages, Silopiya (Silopi), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.3,
+  "lon": 42.62,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that tree felling by village guards under Turkish army supervision, going on for years in the rural areas of Cilbiya and Biliga in the Qileban–Silopiya–Zaxo triangle (a 'special security zone' since the 1990s), restarted with spring and hundreds of trees were cut at random.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cilbiya ve Biliga'da ağaç katliamı yeniden başlatıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/310221"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-07",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Yeşilyurt State Hospital (held from İzmir High-Security Prison), İzmir",
+  "governorate": "İzmir",
+  "country": "Turkey",
+  "lat": 38.4,
+  "lon": 27.1,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that ill political prisoner Mehmet Salih Filiz, held in İzmir High-Security Prison, was beaten by gendarmes at the hospital where he was taken for examination and was then taken to a military doctor who refused to issue an assault report. The exact date of the beating is not given.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Askerlerin darp ettiği hasta tutsağı ‘askeri doktora’ götürdüler",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/311389"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-05-13",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Çemê Elî area, Besta region, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.55,
+  "lon": 42.25,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that felling of monumental trees led by village guard Necim Varol, brought from Hosyan village of Berwarî (Pervari), had been going on for a week in the Çemê Elî area of Besta, with hundreds of trees cut under army supervision; a week earlier guards from Hosyan had cut monumental trees at Çemê Tehlo.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Besta’da korucuların eliyle anıt ağaçlar kesiliyor!",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/311988"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-13",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Kanîreş (Karlıova), Çewlîg (Bingöl)",
+  "governorate": "Bingöl",
+  "country": "Turkey",
+  "lat": 39.3,
+  "lon": 41.01,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police broke down the door of Sedat Bahşi's house with a battering ram, cuffed his 15-year-old son behind his back and beat him, breaking one arm and cracking the other, before an ID check showed they had raided the wrong house; the family filed a criminal complaint.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Yanlış eve baskın yapan polis ‘işkenceden sonra’ pardon dedi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312054"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Polis 'yanlış' baskında çocuğu darp etmişti: Aile suç duyurusunda bulundu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312520"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-19",
+  "actor": "Turkey",
+  "type": "border shooting",
+  "place": "Dirbêsiyê countryside, on the Turkish–Syrian state border",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.03,
+  "lon": 40.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing Hawar News Agency, reported that Turkish soldiers on the border opened fire on ten civilians from Til trying to cross from the Dirbêsiyê countryside, wounding three, and sent the group back.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Türkiye askerleri sınırda sivillere ateş açtı: 3 kişi yaralandı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312670"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-05-20",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Xwarik village, Gimgim (Varto), Mûş",
+  "governorate": "Muş",
+  "country": "Turkey",
+  "lat": 39.17,
+  "lon": 41.45,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that 20 May was the set date for the first drilling of a state-approved geothermal power plant (JES) planned at Xwarik village, where residents and the Gimgim Ecology Platform had kept a protest vigil for 18 days, saying the project threatens water, pasture and Alevi sacred sites.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: JES projesinin sondaj günü: Hep birlikte direnelim",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312724"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Halk JES'e karşı direnişte",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312784"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-05-23",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Eskar and Beyrok neighbourhoods, Dorşîn mountain, Pasûr (Kulp), Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 38.55,
+  "lon": 41.05,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that thousands of trees had been destroyed in more than a year of felling around Eskar on the slopes of Dorşîn mountain, an area closed for 'security' where felling went on under the eyes of Turkish soldiers and about three truckloads a day passed police and army checkpoints; the Medra Xwûş and Goma areas had been cleared and cutting continued at Dêrê.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Dorşin Dağı eteklerinde ağaç kıyımı!",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/312089"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Eskar’daki ağaç kıyımını yerinde görüntüledik: Binlerce ağaç yok edildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/313044"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-05-25",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Rîsor stream, Dêrgul (Kumçatı), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.4,
+  "lon": 42.33,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that oil and drilling water from the oil exploration on Mount Gabar was being mixed into the Rîsor stream at Dêrgul, turning it white; villages downstream use it for irrigation and drinking, and it flows on into the Tigris.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Rîsor Deresi suyuna petrol karıştırıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/313236"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-07",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Değda (Dexda) plateau near Naz village, Zêkreş, Milazgir (Malazgirt), Mûş",
+  "governorate": "Muş",
+  "country": "Turkey",
+  "lat": 39.15,
+  "lon": 42.53,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that state-armed village guards carried out an armed attack on residents of Zêkreş village as they tried to pass Naz village to graze animals on the Değda plateau, banned to them since the 1990s for refusing the village guard system; no one was killed or wounded, but villagers told a DEM Party delegation they were tortured, and the next day Turkish gendarmes removed them and their animals from the plateau.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Koruculardan yaylalarına girmeye çalışan yurttaşlara saldırı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/314334"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Köylüler korucuların ardından jandarma saldırısına uğradı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/314365"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Korucuların saldırısına uğrayan köylüler yaşadıklarını anlattı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/314452"
+   },
+   {
+    "title": "Mezopotamya Agency: Residents attacked by village guards: Put an end to this system",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/314586"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-10",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Şemzînan (Şemdinli) and Hakkari Prison, Colemêrg (Hakkari)",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.3,
+  "lon": 44.57,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that kolbars Salah Bimari, 39, and Resul Bimari, 48, detained near Şemzînan while trying to cross towards the Iranian state border, were subjected to physical and sexual torture, including rape, in police custody and then in Hakkari Prison over more than a month, according to the Hakkari Bar, İHD and ÖHD; Salah's teeth were broken.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Gözaltındaki işkence cezaevinde de sürdü: Dişleri kırıldı, cinsel işkenceye uğradı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/316114"
+   },
+   {
+    "title": "Mezopotamya Ajansı: İşte gözaltında işkence ve tecavüze maruz kalan kolberlerin ifadesi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/316129"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Cebeci Campus, Ankara University, Ankara",
+  "governorate": "Ankara",
+  "country": "Turkey",
+  "lat": 39.93,
+  "lon": 32.87,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Kurdish students at Ankara University's Cebeci Campus were attacked for a second time by a group identifying itself with the ultranationalist ('ülkücü') movement, after a first attack on 8 June; three students were trapped in a Faculty of Law lecture hall while the group tried to force the door.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Attack on Kurdish students at Cebeci Campus",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/314617"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Çemhaskê village plateau, Elkê (Beytüşşebap), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.57,
+  "lon": 43.17,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish soldiers from Boğaz Ören outpost, its commander İbrahim Türkoğlu and village guard Fahri Özdemir attacked Kurdish nomads (koçer) taking their animals to a plateau they had rented by notarised deed from Çemhaskê villagers, forcibly removing them; a shepherd was beaten.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Soldiers and village guards attack nomads heading to plateau in Elkê",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/314722"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Şırnak T-Type Closed Prison, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.52,
+  "lon": 42.46,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that political prisoner Murat Yalçın, brought from Erzurum Dumlu to Şırnak for a hearing, was forcibly strip-searched by guards who pinned him face down at the entrance of Şırnak T-Type Prison; his lawyers filed a criminal complaint.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Şırnak Cezaevi’nde çıplak arama işkencesi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/315028"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-15",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Dumlupınar neighbourhood, Bismil, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.85,
+  "lon": 40.66,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police who came to Veysi Yokuş's home for the third time looking for someone else dragged him from the second floor to the street and beat him in front of his children, then also beat neighbour Emrah Katırcı who objected, and detained both.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Amed'de 2 kişi darp edilerek gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/315090"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-06-19",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Pirxûs town, Xelat (Ahlat), Bedlîs (Bitlis)",
+  "governorate": "Bitlis",
+  "country": "Turkey",
+  "lat": 38.75,
+  "lon": 42.4,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that machinery resumed work on a solar power plant planned by Ecowind 1 Enerji on about 1,080 decares of Pirxûs pasture despite residents' protests, with Turkish gendarmerie blockading the site, closing the village's roads and detaining a villager.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Pirxûs'ta GES için iş makinaları yeniden çalışmaya başladı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/315531"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-20",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Deşta Avê village, Hîzan, Bedlîs (Bitlis)",
+  "governorate": "Bitlis",
+  "country": "Turkey",
+  "lat": 38.25,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that state-armed village guards fired on villagers' flock at about 02:00 at Deşta Avê, a village emptied by the state in 1993, killing more than 100 sheep; shepherds narrowly escaped, gendarmes took no action, and villagers said the guards had seized their deeded pastures.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Hîzan'da korucular köylülerin hayvanlarına saldırdı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/315617"
+   },
+   {
+    "title": "Mezopotamya Ajansı: DEM Parti'den korucuların koyunlarını öldürdüğü köye ziyaret",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/316142"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-27",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Bağcılar, Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.04,
+  "lon": 28.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 6,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that police attacked young people handing out leaflets for a 'Freedom Rally' in Bağcılar after the district police chief said 'I will bring the process down on your heads', beating and detaining six; Furkan Aksu suffered a concussion with a suspected skull fracture.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Beyin sarsıntısı geçiren Furkan Aksu gözaltında tutuluyor",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/316476"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07-03",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Eskar and Beyrok neighbourhoods, Dorşîn mountain, Pasûr (Kulp), Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 38.55,
+  "lon": 41.05,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that felling on the slopes of Dorşîn mountain had risen from two to eight truckloads a day; the Amed Ecology Assembly and Amed Bar filed a criminal complaint against those cutting and against the Kulp state forestry office for allowing it under the name of 'rejuvenation'.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Pasûr’daki ağaç kesimi günde 2 kamyondan 8 kamyona çıktı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/316920"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07-06",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Cafran village, Çewlîg (Bingöl)",
+  "governorate": "Bingöl",
+  "country": "Turkey",
+  "lat": 38.95,
+  "lon": 40.55,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that forest cutting by the state forestry directorate under the name of 'rejuvenation', ongoing without pause at Cafran village since 2023, was destroying century-old trees, wildlife and water sources despite villagers' objections; the village head had petitioned the Bingöl forestry directorate to stop it.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Denetim yok, talan var: Cafran’da orman kesimi devam ediyor",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/317203"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Cafran’da ağaç kıyımının durdurulması istendi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/313885"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07-08",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "GAP Main Irrigation Canal, Qoser (Kızıltepe), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.19,
+  "lon": 40.59,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that water released on 30 June from the Atatürk Dam into the GAP main canal to Mêrdîn was cut again eight days later, leaving about one million decares of farmland without water, according to the Qoser Grain Traders' Association.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Mêrdîn’e 8 gün önce verilen su kesildi, bir milyon dönüm arazi susuz kaldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/317443"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-10",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Çiğköfte shop, Bursa",
+  "governorate": "Bursa",
+  "country": "Turkey",
+  "lat": 40.19,
+  "lon": 29.06,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported a racist attack on a shopkeeper in Bursa for playing an Ahmet Kaya song: an unidentified man filmed himself threatening to smash his head, wreck his stall and 'bury' him for playing a Kurdish song, and shared the video online. No injuries were reported.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Racist attack on shop playing Ahmet Kaya song",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/317730"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07-10",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Kûrta Xanê area, Besta region, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.55,
+  "lon": 42.25,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that village guards from Milakerî and Niyar villages, passing the Turkish army checkpoint at Navyan, were cutting centuries-old monumental trees with chainsaws in the Kûrta Xanê area of Besta, despite official claims that felling had stopped.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Besta’da asker gözetiminde anıt ağaç kesimi!",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/317640"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-11",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Bus journey from Amed to Çatalzeytin, Kastamonu",
+  "governorate": "Kastamonu",
+  "country": "Turkey",
+  "lat": 41.95,
+  "lon": 34.22,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that 18-year-old Furkan Oğlak, travelling from Amed to a construction job in Kastamonu on 11 July, was harassed and racially attacked by passengers for listening to Kurdish music and called a 'terrorist'; police then detained him and he was jailed the next day on a 'propaganda' charge.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Youth attacked for listening to Kurdish music, then arrested on ‘propaganda’ charge",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/319310"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-12",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Checkpoint, Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.33,
+  "lon": 42.19,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Mahir Can Ada, 35, detained at a checkpoint in Cizîr while travelling to the Kurdistan Region over an alleged tip-off, was laid face down inside an armoured vehicle with its cameras switched off and beaten, with officers standing on his ankles; a doctor's report said 'no assault' despite visible injuries and a cast on his foot. He was jailed for 'resisting an officer' and released at his first hearing in August.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cizîr’de ihbar ile gözaltı ve darp",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/317841"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Darp izleri ve alçılı ayağa rağmen ‘darp yoktur’ raporu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/318515"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Cizîr’de gözaltında darp edilen yurttaş tahliye edildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321214"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-21",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Sarıyer Square, Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.17,
+  "lon": 29.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Kurdish rice-seller Adem Yıldız and relatives Nuh and Abdurrahman Yıldız were called to Sarıyer Square on 21 July by local shopkeepers who had harassed Adem for being Kurdish, and were attacked by a group of 30–70 people, many with sticks; footage showed the attack and the family said threats continued.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: İstanbul'da Kürtlere yönelik ırkçı saldırının görüntülerine ulaştık",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/319370"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Kürt esnafa ırkçı saldırı sonrası tehditler sürüyor",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/319262"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-24",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Güngör neighbourhood, 23 Nisan Street, Gever (Yüksekova), Colemêrg (Hakkari)",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.57,
+  "lon": 44.29,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that 17-year-old Elanur Kına was hit by a Turkish police armoured vehicle in Gever, breaking her leg in two places; her family said police pressed them to withdraw their complaint.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Women hit by armored vehicle to undergo surgery",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/319084"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Polisten zırhlı aracın çarptığı çocuğun ailesine ‘şikayetinizi çekin’ baskısı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/319182"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-07-29",
+  "actor": "Other",
+  "category": "forest fire",
+  "place": "Forest near Mala Qaso and Mala Bawo villages, Semsûr (Adıyaman)",
+  "governorate": "Adıyaman",
+  "country": "Turkey",
+  "lat": 37.78,
+  "lon": 38.25,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that a fire that began in pasture after blasting at a quarry of Alaska Madencilik spread into forest towards Mala Qaso and Mala Bawo villages and burned about 50 hectares before being brought under control.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Semsûr’daki yangın kontrol altına alındı: 50 hektarlık alan yandı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/319389"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-08-07",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Licik village, Kanîreş (Karlıova), Çewlîg (Bingöl)",
+  "governorate": "Bingöl",
+  "country": "Turkey",
+  "lat": 39.3,
+  "lon": 41.1,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that officials of US-based IGNIS H2 Enerji, escorted by many Turkish gendarmes and machinery, tried to enter Licik village for geothermal plant (JES) field work; villagers blocked the road, saying the project would poison groundwater and destroy pasture.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Köylüler JES çalışması yapmak isteyen firma ve jandarmayı durdurdu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/320280"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-11",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Van Yüzüncü Yıl Dursun Odabaş Medical Centre, Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 38.56,
+  "lon": 43.29,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Nevzat Öner, a prisoner at Van F-Type High-Security Prison, was beaten and tortured by Turkish gendarmes at the hospital on 11 August because he refused to be examined in handcuffs; rights groups and the Van Bar protested and he filed a criminal complaint.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: İşkenceye uğrayan tutsak suç duyurusunda bulundu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321432"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Van Cezaevi'nde tutsağa yapılan işkence protesto edildi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321304"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-14",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Sûr, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.91,
+  "lon": 40.24,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that four young people detained near the Hazreti Süleyman Mosque in Sûr were beaten by police while being taken to hospital for medical examinations; a confidentiality order was imposed and lawyer access restricted.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Detained youth in Amed subjected to police brutality",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/320895"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-08-20",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Girêsor rural neighbourhood, Şemrex (Mazıdağı), Mêrdîn (Mardin)",
+  "governorate": "Mardin",
+  "country": "Turkey",
+  "lat": 37.47,
+  "lon": 40.5,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that machinery was brought back, with gendarmerie sent in, to start a solar power plant on the pasture of Girêsor; livestock-raising villagers blocked the machines.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Şemrex’te köylüler GES için gelen iş makinelerini durdurdu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321385"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-21",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Bektaşlı village, Alaplı, Zonguldak",
+  "governorate": "Zonguldak",
+  "country": "Turkey",
+  "lat": 41.18,
+  "lon": 31.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that more than 70 Kurdish seasonal hazelnut workers and family members from Cizîr and Silopiya were attacked twice over two days in Bektaşlı village; DEM Party MPs called for their safety and an investigation was opened.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Zonguldak'ta 70 Kürt işçiye saldırı: Can güvenliği çağrısı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321576"
+   },
+   {
+    "title": "Mezopotamya Ajansı: Zonguldak’ta Kürt işçilere saldırıya ilişkin soruşturma açıldı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321640"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-23",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Cumayeri and Gümüşova, Düzce",
+  "governorate": "Düzce",
+  "country": "Turkey",
+  "lat": 40.87,
+  "lon": 30.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Kurdish seasonal workers from Mêrdîn were racially attacked by a group where they were staying in Cumayeri and Gümüşova, days after the attack on Kurdish workers in Zonguldak; the workers sent footage and said they were considering leaving.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Düzce’de de mevsimlik Kürt işçilere saldırı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/321629"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-30",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Bayburt city",
+  "governorate": "Bayburt",
+  "country": "Turkey",
+  "lat": 40.26,
+  "lon": 40.23,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that construction worker Süleyman Konat was attacked by about 15 people in Bayburt while trying to stop an attack on his nephew for wearing an Amedspor shirt, suffering five fractures to his nose; the attackers allegedly said 'this is Bayburt, it will be a grave for Kurds' and were released two days later.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Bayburt'ta Amedpsor forması giyen iki kişiye ırkçı saldırı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/322540"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-05",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Fadılı village, Nilüfer, Bursa",
+  "governorate": "Bursa",
+  "country": "Turkey",
+  "lat": 40.18,
+  "lon": 28.87,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 9,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing Farqîn co-mayor Kadri Esen, reported that nine Kurdish fig-picking workers wearing Amedspor shirts (Faruk Bağcı, Caner Binen, Muhammednur Binen, Barış Burakmak, Mevlüt Kemaloğlu, Ömer Bağcı, Hasan Benz, Taner Binen, Yusuf Bağcı) were beaten and injured by villagers in a racist attack.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Workers wearing Amedspor jerseys targeted in racist attack",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/322969"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-07",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Mesopotamians Language and Culture Association, Çerkezköy, Tekirdağ",
+  "governorate": "Tekirdağ",
+  "country": "Turkey",
+  "lat": 41.29,
+  "lon": 28.0,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that the Kurdish-language Mesopotamians Language and Culture Research and Development Association in Çerkezköy was fired on at about 00:10; two bullets hit the premises and three casings were found. One person was detained.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Kurdish language association in Tekirdağ attacked with gunfire",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/322914"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-12",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Erzincan High-Security Prison, Erzîngan (Erzincan)",
+  "governorate": "Erzincan",
+  "country": "Turkey",
+  "lat": 39.75,
+  "lon": 39.49,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that prison staff in riot gear raided wards of Erzincan High-Security Prison at midnight and beat and tortured many political prisoners; prisoner Fırat Erbağa told his family he and others were tortured and put in cells.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cezaevinde tutsaklara gece baskını: Darp ve işkence edildi!",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/323472"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-09-18",
+  "actor": "Turkey",
+  "category": "deforestation",
+  "place": "Basa (Güçlükonak) side of Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.5,
+  "lon": 42.1,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported footage from the Basa side of Mount Gabar showing tonnes of dynamite used to open at least 11 oil wells, with trees and rocks blown metres into the air and trees around the wells destroyed.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Gabar Dağı’nda doğa talanının yeni görüntüleri",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/324011"
+   },
+   {
+    "title": "Mezopotamya Agency: New footage reveals environmental destruction on Mount Gabar",
+    "url": "https://mezopotamyaajansi.com/en/ECOLOGY/content/view/324020"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-20",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Bağcılar Square, Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.04,
+  "lon": 28.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish police attacked young people dancing halay in Bağcılar Square to celebrate Amedspor's win over Beşiktaş, detaining three with their hands cuffed behind their backs.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Polis İstanbul’da Amedspor taraftarına saldırdı: 3 gözaltı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/324129"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-22",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Eskişehir Prison, Eskişehir",
+  "governorate": "Eskişehir",
+  "country": "Turkey",
+  "lat": 39.78,
+  "lon": 30.52,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency, citing Ajansa Welat, reported that Şiyar Çiçek, imprisoned since 2014 and held for about two years in Eskişehir Prison, died under suspicious circumstances after ten days in a solitary cell; his family said he was in good health apart from diabetes.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Şiyar Çiçek cezaevinde şüpheli şekilde yaşamını yitirdi",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/324319"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-09-22",
+  "actor": "Turkey",
+  "category": "forest fire",
+  "place": "Şax (Çağlayan) and Hebler (Hisar) villages, Cizîr (Cizre), Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.36,
+  "lon": 42.25,
+  "precision": "exact",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that artillery fire from the Turkish army post at Hebler started a fire in the countryside of Şax and Hebler, villages leased to the Defence Ministry for 49 years; it spread through the first-degree protected Şikefta More area, burning orchards and fruit trees while soldiers made no attempt to put it out. Fires had broken out the same way several times before.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: TSK’ye kiralanan köyün kırsalında top atışları yangına neden oldu",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/324302"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-01",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Şehîd Binevş Cemetery, Basret village, Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.5,
+  "lon": 42.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish soldiers attacked the Şehîd Binevş cemetery of PKK members on Mount Gabar, breaking named gravestones; the cemetery had already been bombed and destroyed from the air and ground in 2015.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Cemetery on Mount Gabar vandalized by soldiers",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/325181"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-06",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Zîlan valley (Şorik, Karakilise and Çakırbey villages), Erdîş (Erciş), Wan (Van)",
+  "governorate": "Van",
+  "country": "Turkey",
+  "lat": 39.2,
+  "lon": 43.45,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that state-backed geothermal (JES) drilling over 8,860 hectares of the Zîlan valley was destroying farmland and dumping heavy-metal fluids into the valley, and that Şorik, Karakilise and Çakırbey villages faced being emptied.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Zîlan Vadisi'nde JES tehdidi: 3 köy boşaltılma riskiyle karşı karşıya",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/325593"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-11",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Cuma Bilika and Binevş Edessa cemetery, Sipîndarok village, Cûdî mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.37,
+  "lon": 42.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that gravestones of the PKK cemetery at Sipîndarok on Mount Cûdî, destroyed by bombing in 2015 and closed as a 'military security zone', had been collectively buried in a pit; families searching for graves such as that of Hatice Erbağa found the stones there. When the stones were buried is not stated.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Cûdî’de mezar taşları toplu olarak çukura gömülmüş!",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/326075"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-29",
+  "actor": "Turkey",
+  "category": "water",
+  "place": "Şilyan village, Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.52,
+  "lon": 42.05,
+  "precision": "approximate",
+  "impact": null,
+  "summary": "Mezopotamya Agency reported villagers' complaint that drilling waste from the state oil company TPAO's operations on Mount Gabar was being dumped by tanker into the stream and empty land at Şilyan, polluting the water that about 4,000 sheep and goats drink.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Gabar'da petrol şirketleri atıkları dereye boşaltıyor",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/327763"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-31",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Near Qereman village, Dirbêsiyê, on the Turkish–Syrian state border",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 37.05,
+  "lon": 40.65,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Mezopotamya Agency reported that Turkish soldiers stopped three women trying to cross from Dirbêsiyê into Turkey near Qereman village, tortured them and seized their money and belongings.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: Three women reportedly tortured at Dirbêsiyê border",
+    "url": "https://mezopotamyaajansi.com/en/NEWS/content/view/327943"
+   }
+  ]
+ }
+]
