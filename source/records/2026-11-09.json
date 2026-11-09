@@ -1,0 +1,300 @@
+[
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": "Cars of the returning families were burned or smashed; the return of 800 families to Serê Kaniyê was postponed.",
+  "injured": null,
+  "date": "2026-10-26",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "District administration building, Girê Spî (Tal Abyad)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.697,
+  "lon": 38.954,
+  "killed": 0,
+  "civilian": true,
+  "summary": "Rudaw reported that crowds attacked about 100 Kurdish families returning to Girê Spî to present property deeds, trapping them in the district administration building from about 10:00 to 18:30 until General Security forces arrived; Shafaq News quoted returnees saying men linked to armed factions beat several people and burned or stole cars. Rudaw could not verify who the attackers were, and SOHR said they were displaced people living in the town who opposed the returns.",
+  "sources": [
+   {
+    "title": "Rudaw: Kurdish returnees attacked in northern Syria, 100 families 'besieged' in building",
+    "url": "https://www.rudaw.net/english/categories/syria/1079897"
+   },
+   {
+    "title": "Shafaq News: Armed men attack Kurdish families returning to Syria's Tal Abyad",
+    "url": "https://shafaq.com/en/Middle-East/Armed-men-attack-Kurdish-families-returning-to-Syria-s-Tal-Abyad"
+   },
+   {
+    "title": "STJ: Condemnation and call for an investigation into attacks on Kurdish families returning to Girê Spî",
+    "url": "https://stj-sy.org/en/statement-of-condemnation-and-call-for-an-investigation-into-attacks-on-kurdish-families-returning-to-gire-spi-tell-abyad/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-04",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Outside the governorate building, Hesekê (Al-Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.502,
+  "lon": 40.747,
+  "killed": 0,
+  "civilian": true,
+  "summary": "Shafaq News reported that masked men on motorcycles attacked a sit-in of Kurdish students demanding Kurdish-language education outside the governorate building, injuring several students. Kongra Star blamed 'racist and armed groups' and held the Syrian transitional government responsible; the attackers were not identified.",
+  "sources": [
+   {
+    "title": "Shafaq News: Masked group attacks Kurdish student protest in Al-Hasakah",
+    "url": "https://shafaq.com/en/Kurdistan/Masked-group-attacks-Kurdish-student-protest-in-Al-Hasakah"
+   },
+   {
+    "title": "Hawar News: Kongra Star condemns attack on student protesters in Hasakah",
+    "url": "https://hawarnews.com/en/kongra-star-condemns-attack-on-student-protesters-in-hasakah"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-07",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Turkish state border opposite Girê Spî (Tal Abyad)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.71,
+  "lon": 38.95,
+  "killed": 0,
+  "civilian": true,
+  "summary": "ANF, citing a voice recording the three sent to SOHR, reported that Turkish soldiers tortured three young men from Girê Spî who tried to cross the border; the report, published on 7 November 2026, gives no date or names. The young men warned others not to approach the border.",
+  "sources": [
+   {
+    "title": "ANF: Türk askerleri Girê Spîli 3 gence işkence yaptı",
+    "url": "https://anfenglishmobile.com/rojava-surIye/turk-askerleri-gire-spili-3-gence-iskence-yapti-235167"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-10-27",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Karaj Central Prison",
+  "governorate": "Alborz",
+  "country": "Iran",
+  "lat": 35.84,
+  "lon": 50.94,
+  "killed": 1,
+  "civilian": null,
+  "summary": "Hengaw reported that Farshad Qaderi, 28, a Kurd from Qalateh village in Delfan, Lorestan, was executed in Karaj Central Prison under qisas after a murder conviction, one of seven executions on 25–28 October 2026 that state media did not announce.",
+  "sources": [
+   {
+    "title": "Hengaw: Seven people executed across five prisons",
+    "url": "https://hengaw.org/en/content/news-execution-2026-10-31-18103"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-07",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Etlik City Hospital, Ankara (held from Sincan No. 2 Prison)",
+  "governorate": "Ankara",
+  "country": "Turkey",
+  "lat": 39.98,
+  "lon": 32.82,
+  "killed": 1,
+  "civilian": true,
+  "summary": "Mezopotamya Agency reported that Kurdish political prisoner Tuncer Sağlam, from Wan, held in Sincan No. 2 Prison since 2024 on a 'propaganda' charge, died in Etlik City Hospital after about 25 days in intensive care. His cousin said the authorities refused to release him for treatment while doctors failed to reach a diagnosis after nine biopsies.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: ill prisoner Tuncer Sağlam dies",
+    "url": "https://mezopotamyaajansi.com/en/ALL-NEWS/content/view/328607"
+   },
+   {
+    "title": "Mezopotamya Agency (Kurmancî): Tuncer Sağlam hat definkirin",
+    "url": "https://mezopotamyaajansi.com/kr/HEM-NCE/content/view/328718"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-06",
+  "actor": "Turkey",
+  "type": "custody death",
+  "place": "Osmaniye No. 2 T-Type Closed Prison",
+  "governorate": "Osmaniye",
+  "country": "Turkey",
+  "lat": 37.07,
+  "lon": 36.25,
+  "killed": 0,
+  "civilian": true,
+  "summary": "Mezopotamya Agency reported, citing his brother, that guards at Osmaniye No. 2 T-Type Prison beat ill Kurdish prisoner Emin Çetintaş after he refused a strip search on his return from hospital; the report of 6 November 2026 gives no date. The prison did not respond.",
+  "sources": [
+   {
+    "title": "Mezopotamya Agency: ill prisoner Emin Çetintaş assaulted",
+    "url": "https://mezopotamyaajansi.com/en/ALL-NEWS/content/view/328575"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-04",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Baraim Abad village, Miyandoaw (Miandoab)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.97,
+  "lon": 46.1,
+  "killed": 0,
+  "civilian": true,
+  "summary": "Kurdpa reported that Miandoab intelligence agents raided the Zand family home in Baraim Abad without a warrant, beat family members including the father, Kamil Zand, and violently arrested Milad Zand, 19, who is held incommunicado.",
+  "sources": [
+   {
+    "title": "Kurdpa: Milad Zand arrested in a violent raid",
+    "url": "https://kurdpa.net/news/2026-11-06-61527"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-03",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Bokan (Bukan)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.52,
+  "lon": 46.21,
+  "killed": 0,
+  "civilian": true,
+  "summary": "Rudaw, citing Hengaw, reported that Iranian state security forces blocked roads in Bokan with dozens of military vehicles and violently arrested four men without warrants: prayer leader Hassan Mahmoudi, Navid Mostafazadeh, Aram Vafaei and Fattah Hajizadeh. Their whereabouts are unknown.",
+  "sources": [
+   {
+    "title": "Rudaw: Iranian forces arrest Kurds in Bukan and Oshnavieh",
+    "url": "https://www.rudaw.net/english/categories/iran/1080002"
+   },
+   {
+    "title": "KHRN: Ministry of Intelligence forces arrest at least five Kurds in Bukan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/04/ministry-of-intelligence-forces-arrest-at-least-five-kurds-in-bukan"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": 1,
+  "date": "2026-11-03",
+  "actor": "Other",
+  "type": "raid",
+  "place": "Linz, Austria",
+  "governorate": "Upper Austria",
+  "country": "Austria",
+  "lat": 48.306,
+  "lon": 14.286,
+  "killed": 0,
+  "civilian": true,
+  "summary": "ANF reported that about 30 Austrian police officers lured Muhlis Akkaya, a Kurd facing extradition to Turkey over Kurdish songs and posts about Rojava, out of his home in Linz after a two-hour standoff and beat him severely. He was treated in Linz State Hospital and his lawyers plan legal action.",
+  "sources": [
+   {
+    "title": "ANF: Türkiye'ye iade riski altındaki Akkaya'ya polis şiddeti",
+    "url": "https://anfenglishmobile.com/avrupa/turkiye-ye-iade-riski-altindaki-akkaya-ya-polis-siddeti-235213"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "impact": null,
+  "injured": null,
+  "date": "2026-11-03",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Şehîd Binevş cemetery, Basret village, Gabar mountain, Şirnex (Şırnak)",
+  "governorate": "Şırnak",
+  "country": "Turkey",
+  "lat": 37.55,
+  "lon": 41.9,
+  "killed": null,
+  "civilian": null,
+  "summary": "Yeni Yaşam reported that MEBYA-DER found gravestones of PKK members broken and the flowers and headscarves left by families burned at a cemetery in Basret village on Gabar, two days after a visit on 1 November 2026. MEBYA-DER said it does not know who did it; the paper called it a new attack on the cemetery.",
+  "sources": [
+   {
+    "title": "Yeni Yaşam: Gabar'daki mezarlığa yeni saldırı",
+    "url": "https://yeniyasamgazetesi10.com/gabardaki-mezarliga-yeni-saldiri-mezar-taslari-kirildi-cicekler-yakildi/"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "precision": "approximate",
+  "impact": null,
+  "date": "2026-11-06",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Hevsel Gardens and city walls buffer zone, Sûr, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.91,
+  "lon": 40.24,
+  "killed": null,
+  "civilian": null,
+  "summary": "Yeni Yaşam reported that a 10-year oil exploration licence from the Turkish state's petroleum authority (MAPEG) to PETAR, a SANKO Holding company, covers about 16,000 hectares around Amed, with two wells inside the UNESCO buffer zone of the Hevsel Gardens and city walls. The Amed Bar Association has sued to cancel the licence and the environmental assessment.",
+  "sources": [
+   {
+    "title": "Yeni Yaşam: 5 bin yıllık tarih ranta kurban ediliyor",
+    "url": "https://yeniyasamgazetesi10.com/5-bin-yillik-tarih-ranta-kurban-ediliyor/"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "precision": "approximate",
+  "impact": null,
+  "date": "2026-10-22",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Arzoxlî (Kervanpınar) village pasture, Sûr, Amed (Diyarbakır)",
+  "governorate": "Diyarbakır",
+  "country": "Turkey",
+  "lat": 37.88,
+  "lon": 40.33,
+  "killed": null,
+  "civilian": null,
+  "summary": "ANF reported that machinery of the solar company Zenkar-1, escorted by police, has been working on Arzoxlî village's shared pasture before the legal process has ended, on what may be an archaeological site, and that villagers have held a vigil there since about 22 October 2026. On 7 November soldiers blocked women marching to the site.",
+  "sources": [
+   {
+    "title": "ANF: Arzoxlî'deki nöbet 17'nci gününde sürüyor",
+    "url": "https://anfenglishmobile.com/toplum-ekolojI/arzoxli-deki-nobet-17-nci-gununde-suruyor-235160"
+   },
+   {
+    "title": "ANF: Kürdistan'da maden, JES ve GES projeleri hız kazandı",
+    "url": "https://anfenglishmobile.com/toplum-ekolojI/kurdistan-da-maden-jes-ve-ges-projeleri-hiz-kazandi-235222"
+   }
+  ]
+ }
+]

@@ -94,7 +94,7 @@ print("index.html:", round(os.path.getsize(os.path.join(ROOT, "index.html")) / 1
 out = os.path.join(ROOT, "downloads"); os.makedirs(out, exist_ok=True)
 border = {"Iraq": "Iraqi state", "Syria": "Syrian state", "Turkey": "Turkish state", "Iran": "Iranian state"}
 who = {"Iraq-PMF": "Iraqi state (PMF)", "US": "US", "Israel": "Israel", "US-Israel": "US and Israel", "Turkey": "Turkish state",
-       "Iran": "Iranian state", "Syria": "Syrian state", "Iraq": "Iraqi state"}
+       "Iran": "Iranian state", "Syria": "Syrian state", "Iraq": "Iraqi state", "Other": "Other attacker (see summary)"}
 cols = ["id", "date", "period", "within_state_borders", "governorate", "place", "place_ku", "place_ckb", "place_tr", "lat", "lon",
         "precision", "record_type", "attacker", "type_or_category", "killed", "injured", "civilians_harmed", "layer",
         "summary", "summary_ku", "summary_ckb", "summary_tr", "impact", "impact_ku", "impact_ckb", "impact_tr", "sources"]

@@ -10,7 +10,7 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 
 ## Adding new attacks
 
-1. **Find events.** Check these sources for state attacks anywhere in Kurdistan and for state-caused ecocide since the newest date on the map (the build prints it):
+1. **Find events.** The map covers **any attack on Kurdish people, groups, land or anything Kurdish, by anyone, anywhere**: state military attacks, kolbars shot or beaten at borders, executions, deaths or abuse in custody, violent raids, attacks by mobs and armed groups, attacks on graves and property, and ecocide. Plain arrests without violence are not mapped. Check these sources since the newest date on the map (the build prints it):
    - **Main:** ANF (English, Kurmancî, Türkçe), Nûçe TV, Sterk TV, Rudaw, Kurdistan24, Shafaq News, The New Region, Hengaw, Kurdistan Human Rights Network (KHRN), Community Peacemaker Teams (CPT), Rojava Information Center, North Press, Hawar News, Kolbernews, SOHR.
    - **Rojhilat and kolbars:** Kurdpa ([kolbars](https://kurdpa.net/human-rights/kolbars), [environment](https://kurdpa.net/focus-areas/environment), [monthly reports](https://kurdpa.net/statistics-documents/monthly-reports); trust the date in the URL, the page shows the Kurdish calendar).
    - **Başûr and Rojhilat, daily:** Rojnews ([Kurdistan](https://rojnews.news/?cat=62), [environment](https://rojnews.news/?cat=69)); close to the PKK media network, like ANF.
@@ -33,9 +33,10 @@ This rewrites `index.html` (the whole map in one file) and `downloads/kurdistan-
 ```
 
    - `record`: `attack` or `ecocide`.
-   - `actor`: `Turkey`, `Iran`, `Syria`, `Iraq`, `US`, `Israel` or `US-Israel`.
+   - `actor`: `Turkey`, `Iran`, `Syria`, `Iraq`, `Iraq-PMF`, `US`, `Israel`, `US-Israel`, or `Other` for anyone else (armed groups, mobs, unknown attackers, other states). With `Other`, the summary must say who the source says the attackers were.
    - `country` is the state whose borders the place is in: `Iraq`, `Syria`, `Turkey` or `Iran`.
-   - Attack `type`: `drone`, `airstrike`, `missile`, `artillery`, `ground assault`, `border shooting`, `chemical`, `massacre`, `campaign`.
+   - Attack `type`: `drone`, `airstrike`, `missile`, `artillery`, `ground assault`, `border shooting`, `chemical`, `massacre`, `campaign`, `execution`, `custody death` (death or abuse in custody), `raid` (violent house raid or arrest), `mob attack` (mob or armed group), `property attack` (graves, homes, property).
+   - `country` can be another country for attacks on Kurds abroad (for example `Austria`).
    - Ecocide uses `category` instead: `forest fire`, `deforestation`, `agriculture`, `water`, `infrastructure`, `dam`, `land`.
    - `killed`/`injured`: numbers, or `null` if unknown. `civilian`: `true` only if a source says civilians were harmed; `false`, or `null` if unclear.
    - `precision`: `exact` for a known village or site, `approximate` otherwise.
