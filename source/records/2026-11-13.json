@@ -1,0 +1,262 @@
+[
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "date": "2026-11-07",
+  "actor": "Turkey",
+  "type": "raid",
+  "place": "Colemêrg (Hakkari) city centre",
+  "governorate": "Hakkari",
+  "country": "Turkey",
+  "lat": 37.574,
+  "lon": 43.737,
+  "summary": "Mezopotamya Agency reported that after the Galatasaray–Amedspor match on 7 November a police officer in Colemêrg made the Grey Wolves sign and shouted sexist insults; when residents and Amedspor fans protested, large numbers of police were sent in and attacked the fans. On 10 November police raided homes in the Pehlivan, Gazi, Bulak, Keklikpınar and Yenimahalle neighbourhoods and detained 10 young people, who were released the next day.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: Colemêrg'te ev baskını: 10 kişi gözaltına alındı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/328880"
+   },
+   {
+    "title": "Yeni Yaşam: Amedspor-Galatasaray maçı sonrası Colemêrg’te 10 gözaltı",
+    "url": "https://yeniyasamgazetesi10.com/amedspor-galatasaray-maci-sonrasi-colemergte-10-gozalti/"
+   },
+   {
+    "title": "Rojnews: لە جۆلەمێرگ ١٠ هاندەری ئامەد سپۆر دەستبەسەر کران",
+    "url": "https://rojnews.news/?p=744220"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "date": "2026-11-07",
+  "actor": "Iran",
+  "type": "custody death",
+  "place": "Dizel Abad Prison, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.3,
+  "lon": 47.06,
+  "summary": "Kurdpa reported that Foad Qaderi, 35, a Kurdish nurse from Sarrud village in Cwanro (Javanrud), was released on heavy bail on 7 November after 48 days in Kermanshah Intelligence detention and solitary confinement at Dizel Abad Prison, bearing marks of torture: interrogators seeking forced confessions had broken his nose, ribs and toes. He had been arrested without a warrant on the Ravansar–Kamyaran road on 21 September and denied a lawyer and family visits.",
+  "sources": [
+   {
+    "title": "Kurdpa: Foad Qaderi, Kurdish Nurse, Temporarily Released on Heavy Bail with Marks of Torture After 48 Days of Arbitrary Detention",
+    "url": "https://kurdpa.net/en/news/2026-11-08-61546"
+   },
+   {
+    "title": "Kurdpa (Soranî): فواد قادری، پەرستاری کورد، دوای ٤٨ ڕۆژ ... بە شوێنەواری ئەشکەنجە ... ئازاد کرا",
+    "url": "https://kurdpa.net/news/2026-11-08-61547"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "date": "2026-11-07",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Road between Eyn Îsa (Ain Issa) and Reqa (Raqqa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.1,
+  "lon": 38.95,
+  "summary": "North Press reported that Kurdish folk singer Rizwan Sheikh Hussein, from Mêl village south-east of Kobanê, was abducted by an armed group on the evening of Saturday 7 November between Ain Issa and Raqqa while travelling to sing Kurdish songs at a wedding he had been booked for by phone; the kidnappers demanded a $50,000 ransom. The group was not identified and no motive beyond ransom was reported.",
+  "sources": [
+   {
+    "title": "North Press: اختطاف مُطرب شعبي في كوباني.. وطلب فدية مالية كبيرة لإطلاق سراحه",
+    "url": "https://npasyria.com/248837/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "date": "2026-11-08",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Istanbul",
+  "governorate": "Istanbul",
+  "country": "Turkey",
+  "lat": 41.01,
+  "lon": 28.98,
+  "summary": "Mezopotamya Agency reported that four masked men stopped Ahmet Kabaiş, uncle of Rojin Kabaiş (the Kurdish student found dead in Wan in 2024), at an isolated spot in Istanbul, beat him and told him to drop the Rojin case, threatening to do the same to her father Nizamettin Kabaiş; one drew a gun but did not fire. He was taken to hospital. The attackers were unidentified; the family believes they are linked to Rojin's killers and says it had been threatened for a year.",
+  "sources": [
+   {
+    "title": "Mezopotamya Ajansı: İstanbul'da Rojin Kabaiş'in amcasına saldırı",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/328747"
+   },
+   {
+    "title": "Yeni Yaşam: Nizamettin Kabaiş’ten saldırıya tepki: Saldırganları da katilleri de bulun",
+    "url": "https://yeniyasamgazetesi10.com/nizamettin-kabaisten-saldiriya-tepki-saldirganlari-da-katilleri-de-bulun/"
+   },
+   {
+    "title": "Yeni Yaşam: Rojin Kabaiş’in ailesine yönelik saldırıya tepki: 2 yıldır kimleri koruyorsunuz?",
+    "url": "https://yeniyasamgazetesi10.com/rojin-kabaisin-ailesine-yonelik-saldirilara-tepki-2-yildir-kimleri-koruyorsunuz/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "date": "2026-11-10",
+  "actor": "Iran",
+  "type": "execution",
+  "place": "Dizel Abad (Kermanshah Central) Prison, Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.3,
+  "lon": 47.06,
+  "summary": "Hengaw, KHRN and Kurdpa reported that Ershad Abbasi, a young Kurdish man from Ziyarat-e Tamarkhan village in Selase Bawecanî (Salas-e Babajani), was executed at dawn on 10 November at Kermanshah Central Prison (Dizel Abad) on a qisas sentence for murder, about two years after his arrest; the execution was not announced officially.",
+  "sources": [
+   {
+    "title": "Hengaw: Ershad Abbasi executed in Kermanshah Central Prison",
+    "url": "https://hengaw.org/en/content/news-execution-2026-11-10-18180"
+   },
+   {
+    "title": "KHRN: Prisoner executed for murder-related charges in Kermanshah Central Prison",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/10/prisoner-executed-for-murder-related-charges-in-kermanshah-central-prison"
+   },
+   {
+    "title": "Kurdpa: Salas-e Babajani: Irshad Abbasi, Young Kurdish Man, Executed in Kermanshah Central Prison",
+    "url": "https://kurdpa.net/en/news/2026-11-10-61561"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "date": "2026-11-10",
+  "actor": "Iraq",
+  "type": "raid",
+  "place": "Yarwelî (Yarawali) village, north of Kerkûk (Kirkuk)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.56,
+  "lon": 44.4,
+  "summary": "Rojnews reported that Iraqi army forces raided the home of a 32-year-old Kurdish man in Yarwelî village north of Kerkûk and opened fire on him inside the house, hitting him with four bullets; he was taken to hospital. The reason for the raid was not known and no official statement was issued.",
+  "sources": [
+   {
+    "title": "Rojnews: لە کەرکووک سوپای عێراق دەستڕێژی گوللـەی لە کوردێک کرد",
+    "url": "https://rojnews.news/?p=744196"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": "Damage to homes, gardens, vineyards and farmland (YRK)",
+  "date": "2026-11-11",
+  "actor": "Iran",
+  "type": "artillery",
+  "place": "Heights around Gagal, Hanareşêxan (Haneh Sheykhan) and Qamîşele (Qamishaleh) villages, Merîwan (Marivan)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.58,
+  "lon": 46.1,
+  "summary": "KHRN reported that IRGC forces stationed around Gagal, Hanareşêxan and Qamîşele shelled the surrounding forested heights from 07:30 on 11 November while kamikaze drones struck the area. Rojnews, citing local sources, said villages were hit with drones and mortars, damaging orchards and nature; the PJAK-linked YRK said homes, gardens, vineyards and farmland were badly damaged and its own forces suffered no losses.",
+  "sources": [
+   {
+    "title": "KHRN: IRGC launches artillery, drone attacks near Marivan",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/11/irgc-launches-artillery-drone-attacks-near-marivan"
+   },
+   {
+    "title": "Rojnews: ڕژێمی ئێران بە چڕی بۆردوومانی سنووری مەریوان دەکات",
+    "url": "https://rojnews.news/?p=744341"
+   },
+   {
+    "title": "Rojnews: یەرەکە: هێرشەکانی سوپای پاسداران زیانیان بە هاووڵاتییانی مەریوان گەیاندووە",
+    "url": "https://rojnews.news/?p=744685"
+   },
+   {
+    "title": "ANF: YRK: Iranian attacks caused extensive damage in Merîwan",
+    "url": "https://english.anf-news.com/kurdistan/yrk-iranian-attacks-caused-extensive-damage-in-meriwan-88146"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "date": "2026-11-11",
+  "actor": "Iran",
+  "type": "ground assault",
+  "place": "Qendîl border area, Serdeşt (Sardasht)",
+  "governorate": "West Azerbaijan",
+  "country": "Iran",
+  "lat": 36.25,
+  "lon": 45.35,
+  "summary": "KHRN and Hengaw reported that Iranian border guards ambushed a group of PJAK members in the Qendîl border area of Serdeşt, killing at least one; IRGC Hamzeh Seyyed al-Shohada forces then took the body. Hengaw named him as Pouyan Karimi, 43, from Sine (Sanandaj); the YRK statement carried by Rojnews and ANF named its fighter Dêrsim Behar and said the IRGC and allied Kurdish militia attacked with heavy weapons and drones on the night of Wednesday 11 November (Hengaw dates it 12 November). The IRGC claimed two PJAK members were killed; only one body was shown.",
+  "sources": [
+   {
+    "title": "KHRN: At Least One PJAK Member Killed in Armed Clash in Sardasht Border Areas",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/12/at-least-one-pjak-member-killed-in-armed-clash-in-qandil-mountains"
+   },
+   {
+    "title": "Hengaw: Iranian border guards kill Pouyan Karimi near Sardasht",
+    "url": "https://hengaw.org/en/content/news-military_operation-2026-11-13-18201"
+   },
+   {
+    "title": "ANF: YRK announces the death of one of its members in Iranian attacks",
+    "url": "https://english.anf-news.com/kurdistan/yrk-announces-the-death-of-one-of-its-members-in-iranian-attacks-88172"
+   },
+   {
+    "title": "Rojnews: یەرەکە: لە پێکدادان لەگەڵ ڕژێمی ئێران هەڤاڵمان دێرسیم بەهار شەهیدبوو",
+    "url": "https://rojnews.news/?p=744943"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-11-11",
+  "actor": "Other",
+  "category": "deforestation",
+  "place": "Soleiman Beg woodland and old cemetery, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 36.0,
+  "lon": 45.89,
+  "precision": "approximate",
+  "impact": "Ancient oak trees cut and uprooted, land subdivided for sale on a historic cemetery site",
+  "summary": "Kurdpa reported that in recent weeks people seeking to grab land have cut down and uprooted ancient oak trees in the historic Soleiman Beg area of Bane, home to one of the city's old cemeteries, and divided it into building plots; a local source said they enjoy state backing and state bodies have not responded. The Pazin environmental association began legal action and Bane's Ifta Council declared the seizure forbidden usurpation.",
+  "sources": [
+   {
+    "title": "Kurdpa: Baneh: Land Grab and Destruction of Oak Trees in the Historical \"Soleiman Beg\" Region",
+    "url": "https://kurdpa.net/en/news/2026-11-11-61570"
+   },
+   {
+    "title": "Kurdpa (Soranî): بانە؛ داگیرکردنی زەوی و تێکدانی داربەڕووەکانی ناوچەی مێژوویی «سلێمان بەگ»",
+    "url": "https://kurdpa.net/news/2026-11-12-61577"
+   }
+  ]
+ }
+]
