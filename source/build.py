@@ -96,7 +96,7 @@ border = {"Iraq": "Iraqi state", "Syria": "Syrian state", "Turkey": "Turkish sta
 who = {"Iraq-PMF": "Iraqi state (PMF)", "US": "US", "Israel": "Israel", "US-Israel": "US and Israel", "Turkey": "Turkish state",
        "Iran": "Iranian state", "Syria": "Syrian state", "Iraq": "Iraqi state", "Other": "Other attacker (see summary)"}
 cols = ["id", "date", "period", "within_state_borders", "governorate", "place", "place_ku", "place_ckb", "place_tr", "lat", "lon",
-        "precision", "record_type", "attacker", "type_or_category", "killed", "injured", "civilians_harmed", "layer",
+        "precision", "record_type", "attacker", "type_or_category", "killed", "injured", "civilians_harmed", "unconfirmed", "layer",
         "summary", "summary_ku", "summary_ckb", "summary_tr", "impact", "impact_ku", "impact_ckb", "impact_tr", "sources"]
 with open(os.path.join(out, "kurdistan-strike-map-records.csv"), "w", newline="", encoding="utf-8-sig") as f:
     w = csv.DictWriter(f, fieldnames=cols); w.writeheader()
@@ -108,6 +108,7 @@ with open(os.path.join(out, "kurdistan-strike-map-records.csv"), "w", newline=""
             "type_or_category": d.get("category", "") if eco else d.get("type", ""),
             "killed": "" if d.get("killed") is None else d["killed"], "injured": "" if d.get("injured") is None else d["injured"],
             "civilians_harmed": "" if eco else {True: "yes", False: "no"}.get(d.get("civilian"), "unclear"),
+            "unconfirmed": "yes" if d.get("unconfirmed") else "",
             "layer": "history (before 2017)" if d.get("layer") == "history" else "",
             "summary": d["summary"], "summary_ku": d.get("summary_ku", ""), "summary_ckb": d.get("summary_ckb", ""), "summary_tr": d.get("summary_tr", ""),
             "impact": d.get("impact") or "", "impact_ku": d.get("impact_ku", ""), "impact_ckb": d.get("impact_ckb", ""), "impact_tr": d.get("impact_tr", ""),
