@@ -1,0 +1,64 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-11-13",
+  "actor": "Iran",
+  "type": "raid",
+  "place": "Near Kuzeran (Kuzaran), Kirmaşan (Kermanshah)",
+  "governorate": "Kermanshah",
+  "country": "Iran",
+  "lat": 34.49,
+  "lon": 46.6,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Hengaw reported that Iran's Islamic Revolutionary Guard Corps (IRGC) shot dead Shayan Zarei, a 23-year-old Kurdish man of the Yarsan faith, near Kuzeran on the outskirts of Kirmaşan on the evening of 13 November, opening fire without warning while he was travelling with two other people; he died at the scene. The condition and whereabouts of his two companions were unknown. Hengaw added that Zarei had been prosecuted years earlier over a group fight that ended in a death and had been released on bail.",
+  "sources": [
+   {
+    "title": "Hengaw: IRGC kills Kurdish Yarsani man Shayan Zarei in Kuzaran",
+    "url": "https://hengaw.org/en/content/news-state_killing-2026-11-14-18206"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-11-14",
+  "actor": "Iran",
+  "type": "border shooting",
+  "place": "Surkêw (Sorkev) border area, Bane (Baneh)",
+  "governorate": "Kurdistan",
+  "country": "Iran",
+  "lat": 35.97,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hengaw, Kurdpa and KHRN reported that Iranian border guards shot dead Tayeb Rostami, a 34-year-old kolbar from Bane, at close range and without warning in the Surkêw border area in the early hours of 14 November; Kurdpa said he was hit by two rounds in the head and abdomen. He was married with one child and his wife is pregnant. KHRN said at least eight kolbars have been shot dead by Iranian border guards in Kurdistan this year.",
+  "sources": [
+   {
+    "title": "Hengaw: Kolbar Tayeb Rostami shot dead by border guards in Baneh",
+    "url": "https://hengaw.org/en/content/news-kolbars-2026-11-14-18202"
+   },
+   {
+    "title": "Kurdpa: Baneh: Tayeb Rostami, 34-Year-Old Kolbar, Killed by Direct Fire from Military Forces at the Baneh Border",
+    "url": "https://kurdpa.net/en/news/2026-11-14-61587"
+   },
+   {
+    "title": "KHRN: Iranian border guards kill Kurdish kolbar",
+    "url": "https://kurdistanhumanrights.org/en/news/2026/11/14/iranian-border-guards-kill-kurdish-kolbar-in-baneh"
+   },
+   {
+    "title": "Rojnews: کۆڵبەرێکی کورد لەلایەن هێزە چەکدارەکانی ئێرانەوە کوژرا",
+    "url": "https://rojnews.news/?p=745234"
+   },
+   {
+    "title": "Mezopotamya Ajansı: İran bir Kürt kolberi katletti",
+    "url": "https://mezopotamyaajansi.com/GUNCEL/content/view/329289"
+   }
+  ]
+ }
+]

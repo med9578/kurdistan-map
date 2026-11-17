@@ -1,0 +1,831 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-01",
+  "actor": "Syria",
+  "type": "raid",
+  "place": "al-Hazima road, north of Reqa (Raqqa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.03,
+  "lon": 39.05,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that Kurdish civilian Sadiq Buzan (Bozan) was shot dead by Syrian government army forces while fleeing Raqqa on his tractor on the al-Hazima road north of the city, after government forces took Raqqa in January 2026; his family said he was killed for being Kurdish.",
+  "sources": [
+   {
+    "title": "Kurd Online: Kurdish citizen Sadiq Buzan was killed while trying to leave Raqqa city",
+    "url": "https://english.kurd-online.com/kurdish-citizen-sadiq-buzan-was-killed-while-trying-to-leave-raqqa-city/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01",
+  "actor": "Syria",
+  "type": "raid",
+  "place": "Reqa (Raqqa)–Hesekê (Hasakah) road",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.2,
+  "lon": 39.6,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing Rights Monitor, reported that the body of Masoud Rashid Mohammad, a Kurdish civilian from Jala village in Efrîn (Afrin), was found shot and beheaded after he tried to flee from Raqqa towards Hasakah; relatives buried him on 29 January 2026. Rights Monitor attributed the killing to Syrian government army and Defence Ministry forces, based on local accounts.",
+  "sources": [
+   {
+    "title": "Kurd Online: Documentation of the Killing of a Kurdish Civilian from Afrin While Transiting from Raqqa to Al-Hasakah",
+    "url": "https://english.kurd-online.com/documentation-of-the-killing-of-a-kurdish-civilian-from-afrin-while-transiting-from-raqqa-to-al-hasakah/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-28",
+  "actor": "Syria",
+  "type": "ground assault",
+  "place": "Tal al-Laban, west of Til Temir (Tal Tamr), Hesekê (Hasakah) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.62,
+  "lon": 40.25,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurd Online reported that factions of the Syrian interim authority attacked Kurdish-led forces at Tal al-Laban in the western Hasakah countryside despite the ceasefire, and that media close to the Autonomous Administration said the factions shelled al-Ghaibesh village and the church of the Assyrian village of Tal Jumaa west of Til Temir with heavy artillery, damaging the church; Kurdish forces said four attackers were killed.",
+  "sources": [
+   {
+    "title": "Kurd Online: Kurdish Forces Repel Attack in al-Hasakah Countryside, Accuse Syrian Interim Authority Factions of Ceasefire Violations West of Tal Tamr",
+    "url": "https://english.kurd-online.com/kurdish-forces-repel-attack-in-al-hasakah-countryside-accuse-syrian-interim-authority-factions-of-ceasefire-violations-west-of-tal-tamr/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-29",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Bayanon junction, Heleb (Aleppo)–Efrîn (Afrin) road",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.31,
+  "lon": 37.08,
+  "precision": "approximate",
+  "killed": 3,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing Rights Monitor, reported that unidentified gunmen on a motorcycle opened fire on a taxi on the Aleppo–Afrin road at the Bayanon junction, killing three women from Maryamin village in rural Afrin, Rania Haji Hassan, Izza Firas Haji Hassan and Fatima Batayhi, and injuring two members of the same family. The same day the body of an unidentified woman shot in the head was found at Kafardali Tahtani junction in Jindires.",
+  "sources": [
+   {
+    "title": "Kurd Online: Documentation of the Killing of Three Women in Afrin During an Armed Attack",
+    "url": "https://english.kurd-online.com/documentation-of-the-killing-of-three-women-in-afrin-during-an-armed-attack-and-the-discovery-of-the-body-of-an-unidentified-woman-in-separate-incidents/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-03",
+  "actor": "Syria",
+  "type": "property attack",
+  "place": "Southern and south-eastern Kobanê countryside (Xirab Eşk, Kark Kitkan, Celebiyê and other villages)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.75,
+  "lon": 38.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Kurdish Human Rights Network in Syria and other groups said armed groups operating under the Syrian interim government's Ministry of Defence systematically looted about 60 Kurdish villages in the southern and south-eastern Kobanê countryside after the Syrian army entered them, including Khirab Ashk, Kark Kitkan, Jalabiya, Hamdoun and Bir Nasser, taking furniture, appliances, vehicles, harvesters and livestock; returning residents were threatened.",
+  "sources": [
+   {
+    "title": "Kurd Online: Statement on the Wave of Organized Looting and Pillage Against Kurdish Civilians in the Countryside of Kobani",
+    "url": "https://english.kurd-online.com/statement-on-the-wave-of-organized-looting-and-pillage-against-kurdish-civilians-in-the-countryside-of-kobani/"
+   },
+   {
+    "title": "Kurd Online: Kobani: Siege and Widespread Plunder of the Property of 70 Villages",
+    "url": "https://english.kurd-online.com/kobani-siege-and-widespread-plunder-of-the-property-of-70-villages-and-the-destruction-of-livelihoods/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-08",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Hesekê (Hasakah) city",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.5,
+  "lon": 40.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": false,
+  "impact": null,
+  "summary": "Kurd Online, citing local sources, reported that an armed cell suspected of links to ISIS attacked Kurdish Asayish forces in Hasakah late on 8 February 2026, injuring one Asayish member; the attackers fled towards the Khushman neighbourhood and were arrested.",
+  "sources": [
+   {
+    "title": "Kurd Online: Armed Cell Targets Asayish Forces in Hasakah",
+    "url": "https://english.kurd-online.com/armed-cell-targets-asayish-forces-in-hasakah/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-12",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Near Tel Kelex (Tal Kalakh), Homs countryside, at the Syria–Lebanon border",
+  "governorate": "Homs",
+  "country": "Syria",
+  "lat": 34.67,
+  "lon": 36.26,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that Abdullah Habash from Aouini village near Kobanê, his wife and their five children, including a 20-day-old baby, were abducted by an armed group near Tal Kalakh while trying to cross into Lebanon after leaving besieged Kobanê on 12 February; the kidnappers demanded about $35,000 and, according to activists, sent videos showing the children being tortured (not independently verified).",
+  "sources": [
+   {
+    "title": "Kurd Online: Abduction of a Kurdish Family from Kobani During Attempted Flight to Lebanon",
+    "url": "https://english.kurd-online.com/abduction-of-a-kurdish-family-from-kobani-father-mother-and-their-children-during-attempted-flight-to-lebanon-and-extortion-of-a-35000-ransom/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02",
+  "actor": "Syria",
+  "type": "massacre",
+  "place": "Xan Mamat (Khan Mamat) village, Kobanê countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.8,
+  "lon": 38.3,
+  "precision": "approximate",
+  "killed": 5,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing the Syrian Observatory for Human Rights (SOHR), reported that in Khan Mamat village government forces and allied local armed groups killed four civilians inside a room and then demolished it over them, and that the body of a young man killed after an argument with gunmen lay unburied in the village for about 15 days; SOHR said the killings were 'if confirmed' serious violations. Phones, harvesters and trucks were also seized.",
+  "sources": [
+   {
+    "title": "Kurd Online: Kobani: Extrajudicial Killings, Denial of Burial, Confiscation of Civilians' Property",
+    "url": "https://english.kurd-online.com/kobani-extrajudicial-killings-denial-of-burial-confiscation-of-civilians-property-and-military-buildup-by-two-turkey-aligned-factions/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-21",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Efrîn (Afrin) city entrances, garage and main roads",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.51,
+  "lon": 36.87,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Syrians for Truth and Justice (STJ) reported that Kurds returning from Newroz celebrations in Midanki to Afrin on 20–21 March 2026 were attacked by groups of often masked young men at the city entrances, transport hubs and bridges: Kurdish flags were torn off, car windows smashed, people beaten and forced to insult the Kurdish flag. STJ said General Security members had first ordered celebrants to lower Kurdish flags and failed to protect them. The Human Rights Organization Afrin said more than 70 people were detained in March, mostly linked to Newroz.",
+  "sources": [
+   {
+    "title": "STJ: Syria/Nowruz 2026: Attacks on Kurds, Humiliation of Symbols, and Security Failure to Protect Civilians",
+    "url": "https://stj-sy.org/en/syria-nowruz-2026-attacks-on-kurds-humiliation-of-symbols-and-security-failure-to-protect-civilians"
+   },
+   {
+    "title": "Kurd Online: Human Rights Organization in Afrin Documents Violations During March 2026",
+    "url": "https://english.kurd-online.com/human-rights-organization-in-afrin-documents-violations-during-march-2026-and-calls-for-cessation-of-abuses-against-inhabitants/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-22",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Xirab Eşk (Kharab Ashk) village and Minbic (Manbij)–Kobanê road, Kobanê countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.76,
+  "lon": 38.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that on 22 March 2026 supporters of the Syrian interim authority carried out racist attacks on Kurdish villages in the Kobanê countryside, including Kharab Ashak and Dekerman, destroying property and writing slogans on houses; Kurdish driver Abdul Qader was beaten by about 20 men from Manbij who smashed his vehicle on the Manbij–Kobanê road. Shops of Kurdish citizens in Ain Issa were also vandalised. Security forces did not intervene.",
+  "sources": [
+   {
+    "title": "Kurd Online: Escalation of Nationalistic Attacks Against Kurds in Rural Kobani",
+    "url": "https://english.kurd-online.com/on-march-22-2026-the-predominantly-kurdish-rural-areas-of-kobani-in-northern-syria-witnessed-a-series-of-nationalistic-attacks-and-violations-targeting-kurdish-civilians-and-their-properties-these/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-04",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Al-Qaws area, al-Mazot Street and Helmet Roundabout, Efrîn (Afrin) city",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.51,
+  "lon": 36.87,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing Afrin Now, reported that groups of settlers chanted racist slogans, raised pictures of Saddam Hussein and physically harassed and pushed Kurdish residents gathered in Afrin city to welcome the second convoy of displaced Kurds returning on 4 April 2026; Internal Security Forces confiscated a Kurdish flag from a young man.",
+  "sources": [
+   {
+    "title": "Kurd Online: Provocations Accompany Arrival of Second Convoy of Afrin Displaced in City Center",
+    "url": "https://english.kurd-online.com/provocations-accompany-arrival-of-second-convoy-of-afrin-displaced-in-city-center/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-09",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Ain Îsa (Ain Issa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that Arab residents of Ain Issa broke into a Kurdish citizen's house, seized it by force and vandalised it despite his ownership papers, and that a Kurdish shopkeeper's shop was smashed and taken by force after its owner was assaulted several times; Kurdish families began selling property and leaving for Hasakah and Kobanê.",
+  "sources": [
+   {
+    "title": "Kurd Online: Attacks on Properties of Kurdish Citizens and Fears of New Displacement",
+    "url": "https://english.kurd-online.com/attacks-on-properties-of-kurdish-citizens-and-fears-of-new-displacement-despite-presence-of-public-security/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Reqa (Raqqa) city",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.95,
+  "lon": 39.01,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR testimonies, reported that Kurdish families in Raqqa faced ethnically motivated harassment and threats from armed men of local Arab tribes ('either you leave or we will kidnap your children'); empty Kurdish homes were looted, and a displaced Kurdish woman said unidentified people set her house on fire about a week after she fled in early April 2026.",
+  "sources": [
+   {
+    "title": "Kurd Online: Rising Tensions and Threats in Raqqa Force Kurdish Families to Displace Toward Hasakah",
+    "url": "https://english.kurd-online.com/rising-tensions-and-threats-in-raqqa-force-kurdish-families-to-displace-toward-hasakah/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-27",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Ain Îsa (Ain Issa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that members of the Turkish-backed al-Hamza Division (Hamzat), now under the Syrian Defence Ministry, seized a shop belonging to a Kurdish citizen in Ain Issa, while the same faction threatened Asayish personnel at the joint checkpoint in al-Qanaya, Kobanê countryside.",
+  "sources": [
+   {
+    "title": "Kurd Online: Escalating Provocations at 'Joint Checkpoint' in Kobani Countryside and Seizure of Private Property in Ain Issa",
+    "url": "https://english.kurd-online.com/escalating-provocations-at-joint-checkpoint-in-kobani-countryside-and-seizure-of-private-property-in-ain-issa/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-10",
+  "actor": "Turkey",
+  "type": "border shooting",
+  "place": "Kîkan (Kikan) village, 5 km east of Kobanê, Turkish state border",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.89,
+  "lon": 38.42,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "North Press reported that Ibrahim Sabri, 39, was killed when Turkish gendarmerie opened fire on him while he was irrigating farmland in Kikan village, 5 km east of Kobanê on the Turkish state border. On 15 May, gendarmerie also shot dead Mustafa Alawi, 30, from al-Hadara (Aleppo countryside), as he tried to cross near Jishan village, 28 km east of Kobanê.",
+  "sources": [
+   {
+    "title": "North Press: Syrian man killed by Turkish gendarmerie near Kobani",
+    "url": "https://npasyria.com/en/137721/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-30",
+  "actor": "Syria",
+  "type": "raid",
+  "place": "Til Eran (Tal Aran) and Til Hasil (Tal Hasil), eastern Heleb (Aleppo) countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.12,
+  "lon": 37.33,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rights Monitor Syria, via Kurd Online, reported that security forces of the interim authority raided the mostly Kurdish towns of Tal Aran and Tal Hasil on 30 June 2026 with dozens of vehicles, sealing them off and arresting residents; personnel physically assaulted Nazha Hamki after she filmed the raid and asked for a warrant.",
+  "sources": [
+   {
+    "title": "Kurd Online: Campaign of Arrests and Assaults on Kurdish Women During Security Raids Targeting the Towns of Tal Aran and Tal Hasil",
+    "url": "https://english.kurd-online.com/campaign-of-arrests-and-assaults-on-kurdish-women-during-security-raids-targeting-the-towns-of-tal-aran-and-tal-hasil-in-the-eastern-countryside-of-aleppo/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-11",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Derwîş (Darwish) village, Efrîn (Afrin) countryside",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.45,
+  "lon": 36.95,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Human Rights Organization in Afrin said fires broke out on 11 July 2026 in Darwish village, held by Turkish forces and allied factions and empty of its original residents, and that eyewitnesses said Turkish forces were burning houses and surrounding trees, with fears of looting beforehand. It also said the Turkish army left Basila village on 13 July, leaving houses in ruins.",
+  "sources": [
+   {
+    "title": "Kurd Online: Human Rights Organization: Turkish Army Turns Afrin Villages into Ruins After Evacuating Its Bases",
+    "url": "https://english.kurd-online.com/human-rights-organization-turkish-army-turns-afrin-villages-into-ruins-after-evacuating-its-bases/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-15",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Drilling site between Manajir and Serê Kaniyê (Ras al-Ain), Hesekê (Hasakah) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.76,
+  "lon": 39.98,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that about seven gunmen abducted two Kurdish workers from the Kobanê countryside, Waiso Saleh al-Houshan and Muhammad Ismail Qader, at gunpoint from a drilling rig between Manajir and Serê Kaniyê on 15 July 2026, and demanded a $600,000 ransom.",
+  "sources": [
+   {
+    "title": "Kurd Online: Abduction of Two Kurdish Citizens Near Sere Kaniye, Kidnappers Demand $600,000 Ransom",
+    "url": "https://english.kurd-online.com/abduction-of-two-kurdish-citizens-near-sere-kaniye-kidnappers-demand-600000-ransom/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-28",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Olive grove near Feqîra (Faqiran) junction, Cindirês (Jindires), Efrîn (Afrin)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.4,
+  "lon": 36.7,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rights Monitor Syria, via Kurd Online, reported that Adil Abdulhanan Nassan, born 1959, a Kurdish returnee from Shitka village, was found shot dead in his olive grove near Faqiran junction in Jindires on 28 July 2026; a note reading 'This is the fate of every Kurd' was reportedly left on his body. Attackers unidentified.",
+  "sources": [
+   {
+    "title": "Kurd Online: Killing of Kurdish Citizen Adil Abdulhanan Nassan on His Agricultural Land in Rural Afrin",
+    "url": "https://english.kurd-online.com/killing-of-kurdish-citizen-adil-abdulhanan-nassan-on-his-agricultural-land-in-rural-afrin-amid-indications-of-a-possible-racially-motivated-crime/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-01",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Al-Diriyah neighbourhood, al-Jazra junction, Reqa (Raqqa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 35.95,
+  "lon": 39.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported (1 August 2026) that elderly Kurdish man Saleh Ahmad Samo was shot in the head by two masked gunmen on a motorcycle while with his wife in the al-Diriyah neighbourhood of Raqqa; the attackers fled.",
+  "sources": [
+   {
+    "title": "Kurd Online: Assassination of an Elderly Kurdish Man in Raqqa",
+    "url": "https://english.kurd-online.com/assassination-of-an-elderly-kurdish-man-in-raqqa-days-after-the-killing-of-a-kurdish-citizen-in-afrin/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-10",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Serê Kaniyê (Ras al-Ain)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.85,
+  "lon": 40.07,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "North Press reported that attackers assaulted families in the first return convoy of more than 400 displaced families to Serê Kaniyê on 10 August 2026, beating elderly people; Kurd Online said Turkish-backed gunmen living in the city fired on and smashed returnees' vehicles, detained several returnees and beat bus driver Öcalan Haskê, leaving him with head injuries. Internal Security called it a dispute with current residents.",
+  "sources": [
+   {
+    "title": "North Press: Attacks target families returning to Syria's Sere Kaniye",
+    "url": "https://npasyria.com/en/140102/"
+   },
+   {
+    "title": "Kurd Online: Attack on Young Kurdish Man from Displaced Serê Kaniyê Residents",
+    "url": "https://english.kurd-online.com/attack-on-young-kurdish-man-from-displaced-sere-kaniye-residents-upon-his-return-to-the-city-in-the-return-convoy/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-11",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Market, Ain Îsa (Ain Issa)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.385,
+  "lon": 38.86,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that armed tribal men struck a Kurdish woman in the back with stones in the Ain Issa market on 11 August 2026, without security intervention, amid tensions after the attacks on Serê Kaniyê returnees.",
+  "sources": [
+   {
+    "title": "Kurd Online: Attack on Kurdish Woman in Ain Issa and Looting of Displaced People's Homes in Tal Abyad",
+    "url": "https://english.kurd-online.com/attack-on-kurdish-woman-in-ain-issa-and-looting-of-displaced-peoples-homes-in-tal-abyad-amid-fears-of-escalating-tensions/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-12",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "Metkalta village, western Girê Spî (Tal Abyad) countryside",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 38.8,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that displaced people who had occupied homes of Kurdish owners in Metkalta village for seven years looted them as they left on 12 August 2026, stripping doors, windows and electrical fittings and damaging walls, leaving several homes uninhabitable.",
+  "sources": [
+   {
+    "title": "Kurd Online: Attack on Kurdish Woman in Ain Issa and Looting of Displaced People's Homes in Tal Abyad",
+    "url": "https://english.kurd-online.com/attack-on-kurdish-woman-in-ain-issa-and-looting-of-displaced-peoples-homes-in-tal-abyad-amid-fears-of-escalating-tensions/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-03",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Reqa (Raqqa)–Heleb (Aleppo) road",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.0,
+  "lon": 38.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that gunmen in a vehicle bearing 'General Security' logos abducted a Kurdish man and his son from Jirn village in western Girê Spî on the Raqqa–Aleppo road and demanded a $25,000 ransom; it was unclear whether they belonged to an official agency.",
+  "sources": [
+   {
+    "title": "Kurd Online: Abduction of a Kurdish Man and His Son on the Raqqa–Aleppo Road",
+    "url": "https://english.kurd-online.com/abduction-of-a-kurdish-man-and-his-son-on-the-raqqa-aleppo-road-with-a-25000-ransom-demanded/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-04",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Bîr Temah (Bir Tamah) village, western Girê Spî (Tal Abyad) countryside",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.68,
+  "lon": 38.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that armed men from neighbouring Mneif village, mostly members of the Turkish-backed Syrian National Army now under the Defence Ministry, beat and injured members of a displaced Kurdish family who came to inspect their seized farmland in Bir Tamah, insulted and threatened them with death and drove them off at gunpoint.",
+  "sources": [
+   {
+    "title": "Kurd Online: Armed Attack on Kurdish Family and Expulsion from Agricultural Lands in Rural Girê Spî",
+    "url": "https://english.kurd-online.com/armed-attack-on-kurdish-family-and-expulsion-from-agricultural-lands-in-rural-gire-spi-tal-abyad/"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-09-07",
+  "actor": "Other",
+  "category": "land",
+  "place": "Celka (Jalka), Tinah, Rummanah, Jahjah Yabis and Kendal villages, between Ain Îsa and Girê Spî (Tal Abyad)",
+  "governorate": "Raqqa",
+  "country": "Syria",
+  "lat": 36.48,
+  "lon": 38.9,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that faction-affiliated groups seized farmland of Kurdish owners in villages near the M4 between Ain Issa and Tal Abyad, barring owners and ploughing the land for profit, allegedly with General Security facilitation; shots were fired over people trying to reach their villages, and a Kendal landowner who complained was detained.",
+  "sources": [
+   {
+    "title": "Kurd Online: Seizure of Agricultural Lands Belonging to Kurdish Citizens Between Ain Issa and Tell Abyad",
+    "url": "https://english.kurd-online.com/seizure-of-agricultural-lands-belonging-to-kurdish-citizens-between-ain-issa-and-tell-abyad-gire-spi-amid-accusations-of-security-facilitation/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-11",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Adlana village, Serê Kaniyê (Ras al-Ain) countryside",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.7,
+  "lon": 40.1,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "North Press reported on 11 September 2026 that Sipan Hizni (Sami Sheikh Moussa Hasso), a Kurdish former SDF fighter integrated into the Defence Ministry's Hasakah Brigade, was abducted from Deir ez-Zor and killed, his body found in Adlana village; reports linked it to members of the Bu Hassan clan of the Baggara tribe (unverified). Authorities said several suspects were arrested.",
+  "sources": [
+   {
+    "title": "North Press: Kurdish fighter killed after abduction in Syria's Hasakah",
+    "url": "https://npasyria.com/en/141345/"
+   },
+   {
+    "title": "STJ: Joint Statement on the Abduction and Killing of 'Sipan Hazni' and the Fire at Kobani Prison",
+    "url": "https://stj-sy.org/en/syria-joint-statement-on-the-abduction-and-killing-of-sipan-hazni-and-the-fire-at-kobani-ayn-al-arab-prison"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-12",
+  "actor": "Syria",
+  "type": "custody death",
+  "place": "Kobanê prison",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.89,
+  "lon": 38.36,
+  "precision": "approximate",
+  "killed": 8,
+  "injured": 17,
+  "civilian": true,
+  "impact": null,
+  "summary": "North Press reported that eight prisoners were killed and 17 wounded at Kobanê prison early on 12 September 2026 after unrest and fires, when prisoners refused threatened transfer to Aleppo; it followed a protest over Sipan Hizni's killing dispersed with gunfire. Kurd Online said the eight were Kurdish detainees and cited an account that the General Security chief provoked them with racist remarks; the Martyrs' Families Institution blamed Internal Security, which opened a probe. Accounts of the fire's start differ.",
+  "sources": [
+   {
+    "title": "North Press: Eight prisoners killed, 17 wounded in Kobani prison tensions",
+    "url": "https://npasyria.com/en/141409/"
+   },
+   {
+    "title": "Kurd Online: Kobani Awakes to Prison Fire Tragedy",
+    "url": "https://english.kurd-online.com/kobani-awakes-to-prison-fire-tragedy-more-than-25-kurdish-citizens-killed-and-injured/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-30",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Girkê Legê (al-Muabbada); body found on Dardara road, Tel Koçer",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.99,
+  "lon": 41.97,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Hawar News reported that Hassan Arafat Kalash, about 50, a philosophy teacher and Kurdistan Democratic Party – Syria (KDP-S) council member, was abducted by unidentified people from the Girkê Legê market on 30 September 2026; ransom of $300,000 was demanded and his burned body was found on 2 October on Dardara road in Tel Koçer district. Those responsible are unknown.",
+  "sources": [
+   {
+    "title": "Hawar News: Hassan Kalash's body identified after found burned in Tel Koçer",
+    "url": "https://hawarnews.com/en/hassan-kalashs-body-identified-after-found-burned-in-tel-kocer"
+   },
+   {
+    "title": "Kurd Online: KDP-S Issues Statement on the Abduction of Council Member in Girkê Legê",
+    "url": "https://english.kurd-online.com/kdp-s-issues-statement-on-the-abduction-of-logical-council-member-in-girke-lege/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-08",
+  "actor": "Syria",
+  "type": "raid",
+  "place": "Al-Hamama roundabout and al-Mufti neighbourhood, Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.5,
+  "lon": 40.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that General Security forces fired heavily into the air and struck vehicles with rifle butts to disperse gatherings of Kurdish youth in Hasakah on 8 October 2026, and that several Kurdish residents were injured near the al-Hamama roundabout and property damaged by gunfire; SOHR said a protester had attacked a General Security vehicle.",
+  "sources": [
+   {
+    "title": "Kurd Online: Rising Tensions in Al-Hasakah Amid Security Deployment",
+    "url": "https://english.kurd-online.com/rising-tensions-in-al-hasakah-amid-security-deployment-and-warnings-of-slipping-into-civil-clashes/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-09",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Al-Sina'a roundabout, Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.5,
+  "lon": 40.74,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 4,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurd Online, citing SOHR, reported that three Kurdish brothers and a General Security member were wounded by gunmen's fire near al-Sina'a roundabout in Hasakah amid tensions as crowds from the Arab-majority Ghuwayran neighbourhood tried to reach Kurdish areas; the shooters were unknown.",
+  "sources": [
+   {
+    "title": "Kurd Online: Three Kurdish Youth and a General Security Member Injured at Al-Sina'a Traffic Circle in Hasakah",
+    "url": "https://english.kurd-online.com/three-kurdish-youth-and-a-general-security-member-injured-at-al-sinaa-traffic-circle-in-hasakah/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-09",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Marsho roundabout, Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.5,
+  "lon": 40.75,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Syrian Kurdish Journalists Network said participants in a pro-government rally in Hasakah assaulted photojournalists Khalil Idris Khalil and Adel Adnan Mohammed on 9 October 2026 while they reported for Voice of America, hitting them, trying to seize a camera and shouting 'There is no place for Kurds here'.",
+  "sources": [
+   {
+    "title": "Kurd Online: Syrian Kurdish Journalists Network Condemns Assault on Photojournalists in Hasakah",
+    "url": "https://english.kurd-online.com/syrian-kurdish-journalists-network-condemns-assault-on-photojournalists-in-hasakah/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-10",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Al-Salhiyah neighbourhood, Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.51,
+  "lon": 40.76,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurd Online reported that armed attackers targeted a Radio Rojava team working in Hasakah's al-Salhiyah neighbourhood, injuring one member, who needed surgery, and stealing the team's vehicle.",
+  "sources": [
+   {
+    "title": "Kurd Online: Armed Attack Targets 'Radio Rojava' Team in Al-Hasakah",
+    "url": "https://english.kurd-online.com/armed-attack-targets-radio-rojava-team-in-al-hasakah-leaving-one-member-injured/"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-10-13",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "PYD office, Ghuwayran neighbourhood, Hesekê (Hasakah)",
+  "governorate": "Hasakah",
+  "country": "Syria",
+  "lat": 36.49,
+  "lon": 40.74,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Democratic Union Party (PYD) said its office in Hasakah's Ghuwayran neighbourhood was broken into, looted and vandalised on 13 October 2026, with photos of fallen women fighters and Kurdish symbols attacked, days after an attack on the Martyrs' Families Institution in Til Temir. Attackers not identified.",
+  "sources": [
+   {
+    "title": "Kurd Online: Hasakah: Vandalism of PYD Office and Attack on Photos of Fallen Female Kurdish Fighters",
+    "url": "https://english.kurd-online.com/hasakah-vandalism-of-pyd-office-and-attack-on-photos-of-fallen-female-kurdish-fighters-spark-condemnation-and-calls-for-accountability/"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-23",
+  "actor": "Syria",
+  "category": "agriculture",
+  "place": "Deşta Kitxê (Katekh plain), Afrava (Afrazah) and Goliyê Jêrîn, between Mabeta and Reco (Rajo), Efrîn (Afrin)",
+  "governorate": "Aleppo",
+  "country": "Syria",
+  "lat": 36.6,
+  "lon": 36.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Kurd Online, citing Afrin Now, reported that Iktafa Agricultural Investment Company, affiliated with the Syrian Sovereign Fund, seized olive harvests and land of Kurdish owners in the Katekh plain during harvest, citing missing ownership papers: it took four of ten sacks of olives near Afrazah and a plot of about 50 olive trees in Lower Koliya.",
+  "sources": [
+   {
+    "title": "Kurd Online: Iktafa Company Seizes Lands and Olive Crops in the Katekh Plain in Afrin",
+    "url": "https://english.kurd-online.com/iktafa-company-seizes-lands-and-olive-crops-in-the-katekh-plain-in-afrin-under-the-pretext-of-missing-ownership-documents/"
+   }
+  ]
+ }
+]

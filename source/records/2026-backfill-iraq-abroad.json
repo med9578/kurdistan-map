@@ -1,0 +1,1818 @@
+[
+ {
+  "record": "attack",
+  "date": "2026-01-21",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PAK headquarters, Hewlêr (Erbil) province",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.3,
+  "lon": 44.0,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 1,
+  "civilian": false,
+  "impact": null,
+  "summary": "Shafaq News reported that a drone struck the headquarters of the Kurdistan Freedom Party (PAK) in Hewlêr (Erbil) province, killing PAK member Mohammed Saleh Mohammadi ('Nebrez'), who had a logistics role in the Kurdistan National Army, and injuring one other person. PAK blamed Iran; Kurdistan Region authorities had not commented.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack on PAK headquarters in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-on-PAK-headquarters-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-01-26",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Tram line 16, Leipzig",
+  "governorate": "Saxony",
+  "country": "Germany",
+  "lat": 51.34,
+  "lon": 12.37,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a 31-year-old Kurdish woman was insulted, threatened with the words 'We will kill all Kurds' and stabbed on a Leipzig tram; a 21-year-old Syrian man went on trial in October 2026 for aggravated assault and robbery and denied an anti-Kurdish motive.",
+  "sources": [
+   {
+    "title": "ANF: Trial begins in Leipzig over knife attack on Kurdish woman",
+    "url": "https://english.anf-news.com/news/trial-begins-in-leipzig-over-knife-attack-on-kurdish-woman-87905"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-02-06",
+  "actor": "Turkey",
+  "category": "land",
+  "place": "Geliyê Reşava (Rashava valley), Deraluk, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.05,
+  "lon": 43.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "CPT reported that on 6 February Turkish soldiers used explosives on mountain ridges to build a military road through Geliyê Reşava, heavily deforesting the area, and that helicopter flares the next day and the blasts damaged historic sites including the Abbasid-era Dushaw bridge. Shafaq News and Rojnews reported in February that the road, cut with heavy machinery and explosives, links Turkish army posts from Deraluk to Nahili and Niro Rikan.",
+  "sources": [
+   {
+    "title": "CPT: The Fragility of Peace: Turkish Military Expansion",
+    "url": "https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages"
+   },
+   {
+    "title": "Shafaq News: Turkiye carves new supply route through Duhok",
+    "url": "https://shafaq.com/en/Kurdistan/Turkiye-carves-new-supply-route-through-Iraqi-Kurdistan-s-Duhok"
+   },
+   {
+    "title": "Rojnews: Turkish state building a military road in Deraluk",
+    "url": "https://rojnews.news/?p=671084"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-22",
+  "actor": "Iraq",
+  "type": "raid",
+  "place": "Newroz neighbourhood, Kerkûk (Kirkuk)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.44,
+  "lon": 44.39,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rudaw reported that the Iraqi army raided five Kurdish homes in the Newroz neighbourhood of Kerkûk before dawn and forcibly expelled the families, claiming the land belongs to the military; residents said soldiers used force when they refused to leave, and ANF reported that some residents were tortured. The army withdrew later that day after the governor intervened.",
+  "sources": [
+   {
+    "title": "Rudaw: Iraqi army raids Kurdish homes in Kirkuk, forcibly expels families",
+    "url": "https://rudaw.net/english/middleeast/iraq/22022026"
+   },
+   {
+    "title": "ANF: Governor of Kirkuk: Iraqi soldiers have withdrawn from Newroz neighborhood",
+    "url": "https://english.anf-news.com/kurdistan/governor-of-kirkuk-iraqi-soldiers-have-withdrawn-from-newroz-neighborhood-84038"
+   },
+   {
+    "title": "Rojnews: Kirkuk Kurdish parties condemn Iraqi army attack on Kurdish homes",
+    "url": "https://rojnews.news/?p=671312"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-23",
+  "actor": "Other",
+  "type": "custody death",
+  "place": "Deportation custody, Germany (deportee now in Herîr, Hewlêr)",
+  "governorate": "Germany",
+  "country": "Germany",
+  "lat": 51.16,
+  "lon": 10.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rudaw reported that Adel Khaylani, a Kurd from the Kurdistan Region, broke bones jumping from a third-floor window when about 15 German federal police raided his flat to deport him, and said officers then beat him in custody despite his broken limbs; another deportee, Dilan Sarkawt, said he was handcuffed and beaten. They were among 40 people deported to Iraq that week.",
+  "sources": [
+   {
+    "title": "Rudaw: Broken bones, broken dreams: Kurds swept up in Germany migrant crackdowns",
+    "url": "https://rudaw.net/english/categories/kurdistan/937374"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-02-24",
+  "actor": "Turkey",
+  "type": "property attack",
+  "place": "Mijê and other Bergarê villages below Çiyayê Gare, Amêdî",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.42,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rojnews reported that villagers of Bergarê, displaced for about three years, broke through concrete barriers and returned to Mijê and nearby villages to find homes, the village mosque and infrastructure destroyed, which they blamed on the Turkish army. CPT reported that the 39 villages displaced around Gare in the 2024 'Claw-Lock' operation had still not been allowed to return.",
+  "sources": [
+   {
+    "title": "Rojnews: Turkish state has destroyed Bergarê villages like Gaza",
+    "url": "https://rojnews.news/?p=671586"
+   },
+   {
+    "title": "CPT: The Fragility of Peace",
+    "url": "https://cptik.org/reports-1/2026/2/24/the-fragility-of-peace-turkish-military-expansion-and-limited-positive-outcomes-for-displaced-villages"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-03",
+  "actor": "Other",
+  "type": "missile",
+  "place": "Bajêt Kandala camp for displaced people, Zaxo (Zakho)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.08,
+  "lon": 42.65,
+  "precision": "exact",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that a 17-year-old girl was injured when missile debris fell on Bajêt Kandala camp for displaced people south of Zaxo, amid attacks on the Kurdistan Region by Iran and Iran-aligned Iraqi armed factions; the source did not say who fired it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Missile debris injures 17-year-old girl at displaced camp in Zakho",
+    "url": "https://shafaq.com/en/Kurdistan/Missile-debris-injures-17-year-old-girl-at-displaced-camp-in-Zakho"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-04",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Pope Francis residential complex, Enkawa (Ankawa), Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.23,
+  "lon": 43.99,
+  "precision": "exact",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that a drone crashed inside the Pope Francis residential complex in Enkawa as Hewlêr came under renewed drone and missile attacks, and a security source said that day's explosions wounded two civilians; no one claimed the attacks, which the governor blamed on the failure of the federal government.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone crashes into Erbil housing complex",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-crashes-into-Erbil-housing-complex"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-04",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Surdaş (Surdash) camp of Komala, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.85,
+  "lon": 45.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that rockets hit the Surdaş camp of the Komala party in Dukan district with no casualties, preliminary information suggesting they came from Iranian territory, and that a drone struck the Komala site again on 5 March after a further rocket attack.",
+  "sources": [
+   {
+    "title": "Shafaq News: Rocket fire targets Surdas camp",
+    "url": "https://shafaq.com/en/Kurdistan/Rocket-fire-targets-Surdas-Camp-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Shafaq News: Drone, rocket attacks target Iranian Kurdish opposition sites",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-rocket-attacks-target-Iranian-Kurdish-opposition-sites-in-Kurdistan"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-05",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Oil fields near Nisra and Kafarki villages, Çemankê (Chamanke)",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.03,
+  "lon": 43.32,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that two drones attacked oil fields near Nisra and Kafarki villages in Çemankê sub-district north of Duhok; one was shot down and the other crashed near a generator inside the field and started a fire. No one claimed the attack, and Rojnews reported the field was evacuated.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack targets oil fields in Duhok",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-targets-oil-fields-in-Kurdistan-s-Duhok"
+   },
+   {
+    "title": "Rojnews: Chemanke oil field evacuated after drone attack",
+    "url": "https://rojnews.news/?p=674286"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-05",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Khabat Organization headquarters, Rizgarî, Xebat (Khabat) district",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.27,
+  "lon": 43.7,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News and Rojnews reported a night strike on a headquarters of the Khabat Organization of Iranian Kurdistan in Rizgarî sub-district; casualties were not confirmed. The IRGC announced missile strikes on Kurdish opposition sites in the Kurdistan Region the next day.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone, rocket attacks target Iranian Kurdish opposition sites",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-rocket-attacks-target-Iranian-Kurdish-opposition-sites-in-Kurdistan"
+   },
+   {
+    "title": "Rojnews: Khabat Organization headquarters attacked in Hewlêr",
+    "url": "https://rojnews.news/?p=674199"
+   },
+   {
+    "title": "Shafaq News: Iran fires missiles at Kurdish opposition sites",
+    "url": "https://shafaq.com/en/Kurdistan/Iran-fires-missiles-at-Kurdish-opposition-sites-in-Iraqi-Kurdistan"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-05",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadî (Azadi) camp for Kurdish refugees from Iran, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported a drone strike on Azadî camp for Kurdish refugees from Iran in Koye district; casualties were not immediately known. The camp, which houses PDKI members and families, was hit repeatedly in this period.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone strike targets Iranian Kurdish refugee camp in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-targets-Iranian-Kurdish-refugee-camp-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-05",
+  "actor": "Other",
+  "type": "border shooting",
+  "place": "Telecommunications tower, Şinrwê–Befrî Mîrî summit, Helebce (Halabja)",
+  "governorate": "Halabja",
+  "country": "Iraq",
+  "lat": 35.22,
+  "lon": 46.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that a telecommunications tower on the Şinrwê–Befrî Mîrî summit near the border of Helebce province was attacked with six rockets, with another source saying the tower was hit by heavy DShK machine-gun fire; workers had just left and no casualties were reported. The attacker was not named.",
+  "sources": [
+   {
+    "title": "Shafaq News: Six rockets hit communications tower in Halabja",
+    "url": "https://shafaq.com/en/Kurdistan/Six-rockets-hit-communications-tower-in-Kurdistan-s-Halabja"
+   },
+   {
+    "title": "Rojnews: Befrî Mîrî summit in Helebce attacked",
+    "url": "https://rojnews.news/?p=674208"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-05",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Westa Recep neighbourhood, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.65,
+  "lon": 44.55,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 2,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rojnews reported that an explosive drone fell on a house in the Westa Recep neighbourhood of central Soran, lightly injuring a married couple and destroying the house, and that Kewerte village (Çoman), Dergele village (Wertê) and Mount Korek were bombed the same night. The source did not name the attacker.",
+  "sources": [
+   {
+    "title": "Rojnews: Two civilians injured by drone attack in Soran",
+    "url": "https://rojnews.news/?p=674270"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-06",
+  "actor": "Iraq-PMF",
+  "type": "drone",
+  "place": "Sarsang oil field",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 37.06,
+  "lon": 43.35,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Kurdistan Region's Ministry of Natural Resources said a drone strike by 'outlaw groups inside Iraq' (Iran-aligned Iraqi armed factions) damaged facilities at the HKN-operated Sarsang oil field overnight, forcing production of about 30,000 barrels a day to stop, Shafaq News reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack forces shutdown of Sarsang oil field",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-forces-shutdown-of-Sarsang-oil-field-in-Duhok"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-06",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Arjaan Rotana hotel, 100-metre street, Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.19,
+  "lon": 44.0,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that a drone struck the Arjaan Rotana hotel in central Hewlêr, an hour after the US embassy warned that Iran-aligned militias might target hotels used by foreigners; damage and casualties were not immediately known and no one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack targets hotel in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-targets-hotel-in-Kurdistan-s-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Werdê village apartments and social welfare office, Çoman (Choman)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.63,
+  "lon": 44.89,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rojnews reported that Iranian drones struck apartments in Werdê village and the Çoman social welfare office in the town centre near civilian homes, causing heavy material damage but no casualties.",
+  "sources": [
+   {
+    "title": "Rojnews: Drone attack on Çoman",
+    "url": "https://rojnews.news/?p=674564"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala headquarters, Zirgwêzele (Zargwezala)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.63,
+  "lon": 45.62,
+  "precision": "exact",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that a strike on a Komala headquarters in Zirgwêzele killed guard Aso Ismaili. Komala blamed Iran for the series of strikes on its sites.",
+  "sources": [
+   {
+    "title": "Shafaq News: Guard killed in strike on Komala HQ",
+    "url": "https://shafaq.com/en/Kurdistan/Guard-killed-in-strike-on-Komala-HQ-in-Al-Sulaimaniyah"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Peshmerga Unit 70 headquarters, Silêmanî (Sulaymaniyah)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.57,
+  "lon": 45.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Silêmanî Asayish said four drones struck the headquarters of Peshmerga Unit 70 and two more targeted the area of a UN compound and the Turkish consulate office, without casualties; those responsible were not identified, Shafaq News and Rojnews reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones strike Peshmerga base and foreign sites in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-strike-Peshmerga-base-and-foreign-sites-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Unit 70 forces attacked with two drones",
+    "url": "https://rojnews.news/?p=674822"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-07",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Perimeter of Hewlêr (Erbil) International Airport",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.24,
+  "lon": 43.96,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": 3,
+  "civilian": false,
+  "impact": null,
+  "summary": "Rojnews, citing the Hewlêr governor, reported that debris of an intercepted drone fell inside Hewlêr airport during nine drone attacks overnight, killing airport Asayish officer Wlat Tahir, a father of two, and injuring three other Asayish members; Shafaq News also reported the death. No one claimed the attack.",
+  "sources": [
+   {
+    "title": "Rojnews: Four victims of last night's attacks on Hewlêr",
+    "url": "https://rojnews.news/?p=674947"
+   },
+   {
+    "title": "Shafaq News: Drone strike kills Asayish officer at Erbil International Airport",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-kills-Asayish-officer-at-Erbil-International-Airport"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-09",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Telecommunications towers, Mount Zmnako, Derbendîxan (Darbandikhan)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.15,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that several drones hit telecommunications installations on Mount Zmnako near Derbendîxan, damaging communications infrastructure; it was the eighth drone strike on towers there in recent weeks. CPT attributed that period's attacks to Iran and allied groups.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack targets telecom towers in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-targets-telecom-towers-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Zmnako attacked with drones",
+    "url": "https://rojnews.news/?p=674005"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-10",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Camps of Kurdish parties from Iran, Dola Alan, Xelîfan (Khalifan)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.52,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "ANF reported a drone attack on camps of Kurdish opposition parties from Iran in Dola Alan, Xelîfan, without casualties, saying Iran carried out more than 12 attacks on the Soran area overnight, including six drones on Mount Korek, two on Mount Beni Herîr and two on a refugee camp and Herîr airbase.",
+  "sources": [
+   {
+    "title": "ANF: Drone attack on camps of Rojhilat parties",
+    "url": "https://english.anf-news.com/kurdistan/drone-attack-on-camps-of-rojhilat-parties-in-south-kurdistan-84299"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-12",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Qelawe (Qalawa) neighbourhood, Silêmanî (Sulaymaniyah)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.55,
+  "lon": 45.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a drone came down in the densely populated Qelawe neighbourhood of Silêmanî, injuring a child and badly damaging several houses; Shafaq News, citing the Asayish, reported no casualties. The drone's origin was not stated.",
+  "sources": [
+   {
+    "title": "ANF: Drone crashes in residential area in Sulaymaniyah, injuring a child",
+    "url": "https://english.anf-news.com/kurdistan/drone-crashes-in-residential-area-in-sulaymaniyah-injuring-a-child-and-damaging-houses-84342"
+   },
+   {
+    "title": "Shafaq News: Drone falls on house roof in al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-falls-on-house-roof-in-al-Sulaymaniyah-no-casualties"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-13",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Lanaz oil refinery, Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.12,
+  "lon": 43.94,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that an unidentified drone hit installations of the Lanaz refinery in Hewlêr, setting petroleum on fire and forcing the refinery to shut down; Shafaq linked the wave of attacks to Iran-aligned armed factions.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack hits oil refinery in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-hits-oil-refinery-in-Erbil"
+   },
+   {
+    "title": "Shafaq News: Drone strike halts operations at Lanaz refinery",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-halts-operations-at-Lanaz-refinery"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-14",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadî camp and PDKI office near Koye University, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported drone strikes on Azadî camp of the PDKI in Koye, which shelters members, refugees and a field hospital, and on a nearby PDKI office near Koye University, which was damaged; the camp had also been hit by drones on 13 March. Rojnews reported two missiles on Koye the same day.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones target KDPI camp and office in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-target-KDPI-camp-and-office-in-Erbil"
+   },
+   {
+    "title": "Shafaq News: Drone attack hits Azadi Camp in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-hits-Azadi-Camp-in-Erbil"
+   },
+   {
+    "title": "Rojnews: Koye attacked with two missiles",
+    "url": "https://rojnews.news/?p=677681"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-14",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Cêjnîkan (Jezhnikan) camp of the PDKI, Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.38,
+  "lon": 44.1,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that three rockets landed inside the perimeter of the PDKI's Cêjnîkan camp in Hewlêr, causing no casualties.",
+  "sources": [
+   {
+    "title": "Shafaq News: Kurdish Iranian opposition camp in Erbil hit by three rockets",
+    "url": "https://shafaq.com/en/Kurdistan/Kurdish-Iranian-opposition-camp-in-Erbil-hit-by-three-rockets"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-18",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Two Peshmerga headquarters in Hewlêr (Erbil) and Silêmanî (Sulaymaniyah) provinces",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.0,
+  "lon": 44.6,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": false,
+  "impact": null,
+  "summary": "The Kurdistan Region's Ministry of Peshmerga said drones struck two headquarters of its units in Hewlêr and Silêmanî provinces, injuring three Peshmerga, and condemned the 'terrorist acts', Rojnews reported; the attackers were not named.",
+  "sources": [
+   {
+    "title": "Rojnews: Ministry of Peshmerga: two of our headquarters attacked with drones",
+    "url": "https://rojnews.news/?p=678703"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-19",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Mount Korek and Mount Beni Herîr, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.58,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Rojnews reported that Iran fired four missiles at the tourist mountain of Korek and at Mount Beni Herîr in the Soran administration, starting fires at the impact sites.",
+  "sources": [
+   {
+    "title": "Rojnews: Soran area attacked four times",
+    "url": "https://rojnews.news/?p=679145"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-19",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala camp, Zirgwêzele (Zargwezala)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.63,
+  "lon": 45.62,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that four rockets hit the Komala camp at Zirgwêzele, with preliminary findings of numerous injuries and significant damage; Rojnews reported four drones on Zirgwêz the same day. The sources did not name the attacker, but Komala has blamed Iran for the strikes on its camps.",
+  "sources": [
+   {
+    "title": "Shafaq News: Rockets target Komala site in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Rockets-target-Komala-site-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Zirgwêz attacked with four drones",
+    "url": "https://rojnews.news/?p=679110"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-21",
+  "actor": "Iraq-PMF",
+  "type": "drone",
+  "place": "Peshmerga position on the outskirts of Çemçemał (Chamchamal)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.53,
+  "lon": 44.83,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": false,
+  "impact": null,
+  "summary": "The Ministry of Peshmerga said 'outlawed terrorist groups' (its term for the Iran-aligned Iraqi armed factions) hit a Peshmerga site on the outskirts of Çemçemał with an explosive drone overnight and called on Iraq's commander-in-chief to stop the attacks, Shafaq News reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack targets Peshmerga site in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-targets-Peshmerga-site-in-Iraq-s-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Ministry of Peshmerga: we were attacked with drones",
+    "url": "https://rojnews.news/?p=679941"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-23",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Surdaş (Surdash) camp, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.85,
+  "lon": 45.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that a rocket hit Surdaş camp, which houses families linked to the Komala party, causing limited damage and no casualties; the source did not name the attacker.",
+  "sources": [
+   {
+    "title": "Shafaq News: Rocket hits Iranian opposition camp in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Rocket-hits-Iranian-opposition-camp-in-Al-Sulaymaniyah"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-28",
+  "actor": "Iraq-PMF",
+  "type": "drone",
+  "place": "Residence of Kurdistan Region President Nêçîrvan Barzanî, Duhok",
+  "governorate": "Duhok",
+  "country": "Iraq",
+  "lat": 36.86,
+  "lon": 42.99,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "A drone hit the Duhok residence of Kurdistan Region President Nêçîrvan Barzanî; he blamed 'outlaw groups' (Iran-aligned Iraqi armed factions) and said no one was there. Iran blamed the US and Israel, Shafaq News reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: President Barzani calls home attack a dangerous escalation",
+    "url": "https://shafaq.com/en/Kurdistan/President-Barzani-calls-home-attack-a-dangerous-escalation-for-Iraq"
+   },
+   {
+    "title": "Shafaq News: Iran blames US-Israel for President Barzani home attack",
+    "url": "https://shafaq.com/en/Kurdistan/Iran-blames-US-Israel-for-President-Barzani-home-attack"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-03-31",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Sebiran residential complex, Xebat (Khabat)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.27,
+  "lon": 43.73,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 3,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that three children were slightly injured when debris of a drone shot down on its way to Hewlêr airport fell on a house in the Sebiran complex in Xebat district, also damaging farm equipment; debris had damaged homes in Xebat and Enkawa three days earlier.",
+  "sources": [
+   {
+    "title": "Shafaq News: Intercepted drone debris wounds 3 children in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Intercepted-drone-debris-wounds-3-children-in-Erbil"
+   },
+   {
+    "title": "Shafaq News: Drones intercepted over Erbil, homes damaged",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-intercepted-over-Erbil-homes-damaged"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-01",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Castrol oil warehouses (Serdar Group), Hewlêr–Mûsil (Erbil–Mosul) road",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.22,
+  "lon": 43.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that three drones struck the Castrol oil warehouses of the Serdar Group on the Hewlêr–Mûsil road within three hours, causing a major fire that destroyed large parts of the site; no one claimed the attack.",
+  "sources": [
+   {
+    "title": "Shafaq News: Three drones hit Castrol warehouses near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Three-drones-hit-Castrol-warehouses-near-Erbil"
+   },
+   {
+    "title": "Shafaq News: Drone strike devastates Erbil oil warehouses",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-devastates-Erbil-oil-warehouses-photos"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-03",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Karêzan (Karizan) neighbourhood, Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.17,
+  "lon": 44.02,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that debris from a drone attack damaged at least five homes in the Karêzan neighbourhood of central Hewlêr, some heavily; no casualties were reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone debris hits five homes in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-debris-hits-five-homes-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-03",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Azadî and Zewî Spî camps and martyrs' cemetery, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Rojnews reported that seven missiles hit Azadî and Zewî Spî camps, which it said house only civilian refugees, and the cemetery of Kurdish fighters from Iran in Koye, after bombardment through the day; Shafaq News reported suicide drones on a PDKI headquarters in Koye, and the Kurdistan Region Security Agency counted eight attacks on Koye that day. More drones hit Azadî camp on 4 April, damaging homes.",
+  "sources": [
+   {
+    "title": "Rojnews: Koye camps attacked with seven missiles",
+    "url": "https://rojnews.news/?p=683556"
+   },
+   {
+    "title": "Shafaq News: Drones strike Iranian Kurdish opposition party in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-strike-Iranian-Kurdish-poposition-party-in-Erbil"
+   },
+   {
+    "title": "Shafaq News: Over 10 drone attacks struck Al-Sulaymaniyah in 48 hours",
+    "url": "https://shafaq.com/en/Kurdistan/Over-10-drone-attacks-struck-Al-Sulaymaniyah-in-48-hours"
+   },
+   {
+    "title": "ANF: Camps of Rojhilat parties bombed in Hewler and Koye",
+    "url": "https://english.anf-news.com/kurdistan/camps-of-rojhilat-parties-bombed-in-hewler-and-koye-84757"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-04",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Camp of Kurdish parties from Iran, Topzawe (Tobzawa), Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.03,
+  "lon": 43.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that a drone struck a camp of Kurdish opposition parties from Iran in the Topzawe area of Hewlêr while another hit a camp in Koye; casualties were unknown and no one claimed the attacks.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones hit Iranian Kurdish party camps in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-hit-Iranian-Kurdish-party-camps-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-06",
+  "actor": "Other",
+  "type": "drone",
+  "place": "House in Bextiyarî (Bakhtiari) neighbourhood, Silêmanî (Sulaymaniyah)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.57,
+  "lon": 45.41,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "KirkukNow reported that a drone strike hit a home in the Bextiyarî neighbourhood of Silêmanî; the attacker was not stated.",
+  "sources": [
+   {
+    "title": "KirkukNow: Couple killed by drone strike in Erbil",
+    "url": "https://www.kirkuknow.com/en/news/71596"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-07",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Communications towers, Mount Gulan, Derbendîxan (Darbandikhan)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.1,
+  "lon": 45.72,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Derbendîxan district head told Rojnews that a drone hit Mount Gulan, which carries telephone and radio towers, cutting communications; he linked it to the Iran–Israel–US war.",
+  "sources": [
+   {
+    "title": "Rojnews: Mount Gulan hit by drone, communications cut",
+    "url": "https://rojnews.news/?p=685205"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-13",
+  "actor": "Other",
+  "type": "property attack",
+  "place": "NRT headquarters, German village, Silêmanî (Sulaymaniyah)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.58,
+  "lon": 45.36,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "NRT, a channel close to the New Generation movement, said gunmen in a taxi fired a burst of bullets at its headquarters in Silêmanî and fled; the gunmen were not identified, Rojnews reported.",
+  "sources": [
+   {
+    "title": "Rojnews: NRT channel shot at in Silêmanî",
+    "url": "https://rojnews.news/?p=687574"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-15",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI headquarters, Dêgele (Degala)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.17,
+  "lon": 44.48,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI official Karim Parwizi told Shafaq News that a drone hit a party headquarters in the Dêgele area without casualties; no one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone strike hits KDPI headquarters in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-hits-KDPI-headquarters-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-16",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Bakşar (Bak Shar) camp of the PAK, north of Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.35,
+  "lon": 44.05,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PAK spokesperson Khalil Kanisanani said a drone struck the party's Bakşar camp north of Hewlêr early Thursday, destroying two houses without casualties, Shafaq News reported; no one claimed it, but the IRGC had claimed earlier strikes on such camps.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone strikes Bak Shar camp north of Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strikes-Bak-Shar-camp-north-of-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-16",
+  "actor": "Other",
+  "type": "raid",
+  "place": "Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.19,
+  "lon": 44.01,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Channel 8 said its reporter Eyub Warti was abducted by security forces affiliated with the KDP in Hewlêr while gathering information on the environmental impact of refineries, and that his whereabouts were unknown, ANF and Rojnews reported.",
+  "sources": [
+   {
+    "title": "ANF: Channel 8 reporter kidnapped by security forces in Erbil",
+    "url": "https://english.anf-news.com/freedom-of-the-press/channel-8-reporter-kidnapped-by-security-forces-in-erbil-84954"
+   },
+   {
+    "title": "Rojnews: Channel 8: our reporter Eyub Wertî abducted in Hewlêr",
+    "url": "https://rojnews.news/?p=688535"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-23",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Çemşar (Chamshar) base of the Kurdistan National Army (PAK), near Dareşekran (Darashakran)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.32,
+  "lon": 43.97,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "A source in the group told Shafaq News that drones struck the Çemşar site of the PAK's armed wing near Dareşekran from 22:45 in an attack still going on at the time of reporting; casualties were unknown.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone swarm hits Kurdish National Army site near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-swarm-hits-Kurdish-National-Army-site-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-27",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Residential complex for Kurdish refugees from Iran, Surdaş (Surdash)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.85,
+  "lon": 45.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that two drones struck a residential complex housing Kurdish refugees from Iran in Surdaş around 4:15 pm, causing injuries and damage; no official casualty figure was given. The attacker was not named.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones hit Iranian Kurdish refugee complex in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-hit-Iranian-Kurdish-refugee-complex-in-Al-Sulaymaniyah"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-04-30",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Azadî (Azadi) camp, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PDKI official Karim Barwizi told Shafaq News that the Azadî refugee camp in Koye was targeted with eight missiles and drones, causing material damage but no casualties.",
+  "sources": [
+   {
+    "title": "Shafaq News: Strikes rock Iranian Kurdish opposition camp in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Strikes-rock-Iranian-Kurdish-opposition-camp-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-06",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Zewî Spî (Zawi Spi) camp, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PDKI official Karim Parweizi told Shafaq News that drones and missiles hit the Zewî Spî camp in Koye district, causing material damage.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack hits Iranian opposition camp near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-hits-Iranian-opposition-camp-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-06",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Gerdeçal (Gardachal) camp for PDKI families, near Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.19,
+  "lon": 44.15,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "The PDKI said Iran launched two drone strikes on its Gerdeçal camp for members' families near Hewlêr, hitting civilian housing and health and education facilities, Shafaq News reported; Tehran did not comment.",
+  "sources": [
+   {
+    "title": "Shafaq News: Iranian Kurdish party says Tehran struck family camp near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Iranian-Kurdish-party-says-Tehran-struck-family-camp-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-18",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Surdaş (Surdash) camp, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.85,
+  "lon": 45.12,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "The Kurdistan Region Security Council said Surdaş camp, which houses Kurdish refugees from Iran, was hit by two missiles and three drones over 24 hours without casualties; Komala said Iran struck its headquarters there, and Rojnews reported four missiles.",
+  "sources": [
+   {
+    "title": "Shafaq News: KRSC: Missiles, drones target Iranian Kurdish camp",
+    "url": "https://shafaq.com/en/Kurdistan/KRSC-Missiles-drones-target-Iranian-Kurdish-camp-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Surdaş camp attacked with four missiles",
+    "url": "https://rojnews.news/?p=699116"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-20",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Komala family camp, Zirgwêzele (Zargwezala)",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.63,
+  "lon": 45.62,
+  "precision": "exact",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported a drone strike on a Komala camp housing families of the party's Peshmerga in Zirgwêzele, causing material damage only; Rojnews reported two drones. Komala has blamed Tehran for the strikes on its camps.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone strike hits Kurdish opposition Komala camp",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-strike-hits-Kurdish-opposition-Komala-camp-near-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rojnews: Zirgwêz attacked with two drones",
+    "url": "https://rojnews.news/?p=699646"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-05-31",
+  "actor": "Other",
+  "type": "drone",
+  "place": "House in Babeştiyan (Babashtian) village, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.7,
+  "lon": 44.5,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Shafaq News reported that an unidentified drone crashed into a house in Babeştiyan village in the Soran administration, causing material damage but no casualties.",
+  "sources": [
+   {
+    "title": "Shafaq News: Unidentified drone hits house in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Unidentified-drone-hits-house-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-02",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "Komala headquarters, Geliyê Alanê (Alana valley), Xelîfan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.52,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Komala said its headquarters in the Alana valley were struck by two missiles late Tuesday and blamed Tehran, saying Iran had fired more than 82 missiles and drones at its bases since 28 February; it had reported two missiles on a site northeast of Hewlêr on 31 May.",
+  "sources": [
+   {
+    "title": "Shafaq News: Komala blames Tehran for missile strike",
+    "url": "https://shafaq.com/en/Kurdistan/Komala-blames-Tehran-for-missile-strike-on-Iraqi-Kurdistan"
+   },
+   {
+    "title": "Shafaq News: Iranian missiles target Kurdish opposition base near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Iranian-missiles-target-Kurdish-opposition-base-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-07",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Çemşar (Chamshar) headquarters of the Kurdistan National Army, Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.32,
+  "lon": 43.97,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported a drone strike on the Çemşar headquarters of the Kurdistan National Army (PAK's armed wing); those responsible and the damage were not known.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iran-opposed Kurdish group's base in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iran-opposed-Kurdish-group-s-base-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-08",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadî camp hospital, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PDKI leader Karim Parwizi told Shafaq News that three drones targeted Azadî camp, two falling inside and causing damage, and a security source said another hit the camp's hospital; no casualties were reported and no one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Three drones target Erbil's Azadi camp, one hits hospital",
+    "url": "https://shafaq.com/en/Kurdistan/Three-drones-target-Erbil-s-Azadi-camp-one-hits-hospital"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-09",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI positions, Balîsan (Balisan) valley, Xelîfan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.5,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI official Karim Parwizi told Shafaq News that three drones targeted party positions in the Balîsan valley of Xelîfan district on 9 June.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iranian Kurdish camp near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iranian-Kurdish-camp-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-11",
+  "actor": "Other",
+  "type": "drone",
+  "place": "Grain depot, Quştepe (Qushtapa)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.0,
+  "lon": 44.03,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Kurdistan Region's Counter-Terrorism Service said two explosive drones hit a grain depot in Quştepe south of Hewlêr, causing extensive damage to vital civilian infrastructure but no casualties; no one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones hit grain depot in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-hit-grain-depot-in-Erbil"
+   },
+   {
+    "title": "Rojnews: Grain depot in Quştepe attacked with two drones",
+    "url": "https://rojnews.news/?p=705087"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-16",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "House in Zewî Spî (Zawi Spi) camp, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.09,
+  "lon": 44.62,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PDKI leader Karim Parwezi told Shafaq News that a drone exploded on a house in Zewî Spî camp, causing significant damage but no injuries; the Kurdistan Region Security Council confirmed a drone hit the refugee camp at 10:05 pm.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iranian Kurdish opposition camp in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iranian-Kurdish-opposition-camp-in-Erbil"
+   },
+   {
+    "title": "Rojnews: Zewî Spî camp in Koye attacked with drone",
+    "url": "https://rojnews.news/?p=706451"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-06-27",
+  "actor": "Other",
+  "type": "mob attack",
+  "place": "Hotel in Hewlêr (Erbil)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.19,
+  "lon": 44.01,
+  "precision": "approximate",
+  "killed": 1,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Rojnews reported that Kurdistan Freedom Party (PAK) member Soran Mohammadzadeh was found dead in a hotel in Hewlêr with bullet marks on his body; officials gave no information and the killers were not identified.",
+  "sources": [
+   {
+    "title": "Rojnews: PAK member found killed in Hewlêr",
+    "url": "https://rojnews.news/?p=709380"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-01",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Dêgele (Degala) camp of the PDKI",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.17,
+  "lon": 44.48,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI leader Karim Parwizi told Shafaq News that a drone attack on Dêgele camp caused material damage but no casualties; another source said five Iranian Hadid-110 drones fell around the headquarters and warehouses. Nobody claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iranian Kurdish camp near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iranian-Kurdish-camp-near-Erbil"
+   },
+   {
+    "title": "Rojnews: PDKI: Dêgele camp attacked with a drone",
+    "url": "https://rojnews.news/?p=710404"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-02",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI position, Dola Alanê, Balîsan",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.52,
+  "lon": 44.45,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI leader Karim Pirozi told Shafaq News that a drone struck a party position in Dola Alanê in the Balîsan area without casualties; no one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iranian Kurdish party base near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iranian-Kurdish-party-base-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-22",
+  "actor": "Iran",
+  "type": "missile",
+  "place": "PAK Çemşar (Chamshar) headquarters near Dareşekran (Darashakran)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.32,
+  "lon": 43.97,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 6,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that a drone and missile attack on the PAK headquarters in Hewlêr injured six party members, a day after air defences intercepted two ballistic missiles fired at the Çemşar headquarters near Dareşekran and PAK reported two more missile attacks on it.",
+  "sources": [
+   {
+    "title": "Shafaq News: New attack hit Iranian opposition party",
+    "url": "https://shafaq.com/en/Kurdistan/New-attack-hit-Iranian-opposition-party-in-Iraqi-Kurdistan"
+   },
+   {
+    "title": "Shafaq News: Missiles target Iranian Kurdish opposition base in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Missiles-target-Iranian-Kurdish-opposition-base-in-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-27",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Çemşar (Chamshar) and Pakşar (Pakshar) bases of the PAK, Hewlêr (Erbil) province",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.32,
+  "lon": 43.97,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "A security source told Shafaq News that four drones hit the Çemşar headquarters of the Kurdistan National Army and the Pakşar base of the PAK; no one claimed the attacks.",
+  "sources": [
+   {
+    "title": "Shafaq News: Missile strike reported near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Missile-strike-reported-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-29",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI camp, Balîsan (Balisan) valley",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.5,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI official Karim Parwezi told Shafaq News that a drone hit a party camp in the Balîsan valley that had been evacuated, causing no casualties; Rojnews also reported the attack.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone targets Iranian Kurdish opposition headquarters north of Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-targets-Iranian-Kurdish-Opposition-headquarters-north-of-Erbil"
+   },
+   {
+    "title": "Rojnews: PDKI attacked with drone in Balîsan",
+    "url": "https://rojnews.news/?p=717788"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-31",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Khabat Organization headquarters, Topzawe (Tobzawa), Hewlêr–Mexmûr road",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.03,
+  "lon": 43.85,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "The Khabat Organization of Iranian Kurdistan said three drones hit its facilities at dawn: two struck its headquarters at Topzawe on the Hewlêr–Mexmûr road, and the third exploded at its Başîqa (Bashiqa) base in Nineveh province, Shafaq News reported.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone hits Iranian Kurdish opposition base in Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-hits-Iranian-Kurdish-opposition-base-in-Erbil"
+   },
+   {
+    "title": "ANF: Drone attacks target bases of PDK-I and Sazmani Xebat",
+    "url": "https://english.anf-news.com/kurdistan/drone-attacks-target-bases-of-pdk-i-and-sazmani-xebat-in-south-kurdistan-86553"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-07-31",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "Azadî (Azadi) camp, Koye (Koya)",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.08,
+  "lon": 44.63,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "PDKI official Karim Parwezi told Shafaq News that two drones hit the party's Azadî camp, causing damage but no casualties; the drones' origin was not stated.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drones attack Iranian Kurdish opposition camp near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Drones-attack-Iranian-Kurdish-opposition-camp-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-08-01",
+  "actor": "Other",
+  "category": "forest fire",
+  "place": "Mountain near Casane (Jasana) cave and Geçîne (Gechina) village, Dukan",
+  "governorate": "Sulaymaniyah",
+  "country": "Iraq",
+  "lat": 35.92,
+  "lon": 44.98,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "Shafaq News reported that two drones struck near Casane cave outside Geçîne village in Dukan district, igniting a large vegetation fire; Komala's security chief told Rudaw the strike hit a mountain near its positions and caused a small fire. No one claimed it.",
+  "sources": [
+   {
+    "title": "Shafaq News: Drone attack sparks fire in Al-Sulaymaniyah",
+    "url": "https://shafaq.com/en/Kurdistan/Drone-attack-sparks-fire-in-Al-Sulaymaniyah"
+   },
+   {
+    "title": "Rudaw: Drone strikes hit area near Iranian Kurdish opposition group in Sulaimani",
+    "url": "https://rudaw.net/english/categories/kurdistan/1078630"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-18",
+  "actor": "Other",
+  "type": "raid",
+  "place": "Schwabing district, Munich",
+  "governorate": "Bavaria",
+  "country": "Germany",
+  "lat": 48.16,
+  "lon": 11.58,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that a Munich police officer shot and seriously injured 14-year-old Kurdish student Abdulkadir Ö.; police said he held an airsoft gun resembling a real weapon, while his family said he dropped the toy and shouted that it was a toy before police opened fire.",
+  "sources": [
+   {
+    "title": "ANF: Police in Munich shot and seriously injure 14-year-old Kurdish boy",
+    "url": "https://english.anf-news.com/news/police-in-munich-shot-and-seriously-injure-14-year-old-kurdish-boy-86840"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-08-30",
+  "actor": "Iraq",
+  "type": "custody death",
+  "place": "Federal intelligence facility, Diyala (arrested in Xaneqîn / Khanaqin)",
+  "governorate": "Diyala",
+  "country": "Iraq",
+  "lat": 34.35,
+  "lon": 45.38,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": true,
+  "impact": null,
+  "summary": "KirkukNow reported that Rebin Star, 29, a Kurdish blacksmith arrested in Xaneqîn after adding Kurdish to his shop sign, said he was beaten at arrest, then beaten with cables, given electric shocks and held in solitary confinement by Iraqi intelligence in Diyala; a KRG forensic report supported his account. Rudaw reported his release on 1 September.",
+  "sources": [
+   {
+    "title": "KirkukNow: Two Long Nights in Custody: Account of Torture in Iraqi Intelligence Prison",
+    "url": "https://www.kirkuknow.com/en/news/71808"
+   },
+   {
+    "title": "Rudaw: Man arrested in disputed region for adding Kurdish to shop sign",
+    "url": "https://rudaw.net/english/categories/kurdistan/1079080"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-02",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI camp and headquarters, Balîsan (Balisan), and Cêjnîkan (Jezhnikan) camp",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.5,
+  "lon": 44.4,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": null,
+  "impact": null,
+  "summary": "PDKI official Karim Barwazi told Shafaq News that Iranian drones hit party positions between 2:00 and 2:42 am, three entering the camp and headquarters in Balîsan while drones aimed at Cêjnîkan camp were intercepted; there were no casualties.",
+  "sources": [
+   {
+    "title": "Shafaq News: Iranian drones target KDPI headquarters near Erbil",
+    "url": "https://shafaq.com/en/Kurdistan/Iranian-drones-target-KDPI-headquarters-near-Erbil"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-24",
+  "actor": "Iran",
+  "type": "drone",
+  "place": "PDKI site, Dilîziyan (Dilizian) village, Soran",
+  "governorate": "Erbil",
+  "country": "Iraq",
+  "lat": 36.68,
+  "lon": 44.57,
+  "precision": "approximate",
+  "killed": null,
+  "injured": 1,
+  "civilian": null,
+  "impact": null,
+  "summary": "Two security sources told Rudaw that three IRGC drones, launched from near the Hacî Omeran border crossing, hit a PDKI site in Dilîziyan village on the outskirts of Soran around 2 am, lightly injuring one party Peshmerga; a PDKI official confirmed the attack.",
+  "sources": [
+   {
+    "title": "Rudaw: IRGC targets Kurdistan Region with three drones",
+    "url": "https://rudaw.net/english/categories/kurdistan/1079434"
+   }
+  ]
+ },
+ {
+  "record": "attack",
+  "date": "2026-09-27",
+  "actor": "Iraq",
+  "type": "raid",
+  "place": "Warehouse in central Pirdê (Altun Kupri)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.75,
+  "lon": 44.14,
+  "precision": "approximate",
+  "killed": 2,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "Kurdish teenagers Murad Zana, 14, and Mohammed Hemin, 15, were killed during an Iraqi Counter-Terrorism Service raid on suspected ISIS members in Pirdê; relatives said troops fired heavy machine guns in a residential area and a soldier fired at random inside a warehouse. The CTS first called Hemin an ISIS member, then admitted two civilians were killed, and the prime minister's office ordered an inquiry (KirkukNow, Rudaw).",
+  "sources": [
+   {
+    "title": "KirkukNow: Anti-ISIS Altun Kupri Operation: 'Indiscriminate Fire'",
+    "url": "https://www.kirkuknow.com/en/news/71834"
+   },
+   {
+    "title": "Rudaw: Iraqi PM office orders investigation after deadly operation claims lives of two Kurdish teenagers",
+    "url": "https://rudaw.net/english/categories/iraq/1079509"
+   },
+   {
+    "title": "Rudaw: Iraqi anti-terror agency acknowledges civilian deaths in Kirkuk operation",
+    "url": "https://rudaw.net/english/categories/iraq/1079542"
+   },
+   {
+    "title": "Rojnews: Kirkuk Kurdish blocs speak out against killing of two Kurdish teenagers",
+    "url": "https://rojnews.news/?p=734360"
+   }
+  ]
+ },
+ {
+  "record": "ecocide",
+  "date": "2026-10-22",
+  "actor": "Iraq",
+  "category": "land",
+  "place": "Eliawa (Aliawa) village, Kerkûk (Kirkuk)",
+  "governorate": "Kirkuk",
+  "country": "Iraq",
+  "lat": 35.5,
+  "lon": 44.43,
+  "precision": "approximate",
+  "killed": null,
+  "injured": null,
+  "civilian": true,
+  "impact": null,
+  "summary": "ANF reported that authorities began demolitions in the Kurdish village of Eliawa near Kerkûk for a housing investment project, threatening more than 70 families with losing homes on land they say the state allocated to them; residents protested.",
+  "sources": [
+   {
+    "title": "ANF: More than 70 Kurdish families face displacement in Kirkuk",
+    "url": "https://english.anf-news.com/kurdistan/more-than-70-kurdish-families-face-displacement-in-kirkuk-87839"
+   }
+  ]
+ }
+]
