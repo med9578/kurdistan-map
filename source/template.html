@@ -255,6 +255,8 @@ p.sec{font-size:12.5px;color:var(--muted);margin:0}
 .pin .pc svg{width:17px;height:17px}
 .pin b{position:absolute;top:-7px;right:-9px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:#fff;color:#0a0a0a;font-size:10.5px;font-weight:800;line-height:17px;text-align:center;box-shadow:0 0 0 2px #0a0a0a;font-family:var(--sans)}
 .pin.hist .pc{border-style:dashed;opacity:.92}
+.pin.unc{opacity:.6}
+.unc-tag{display:inline-flex;align-items:center;gap:6px;margin:12px 0 0;padding:4px 12px;border-radius:999px;background:rgba(255,200,0,.14);color:#ffd166;font-size:12.5px;font-weight:700}
 .pin.sel .pc{transform:scale(1.28);box-shadow:0 0 0 3px var(--accent),0 0 0 7px rgba(215,255,61,.3),0 5px 12px rgba(0,0,0,.55)}
 .mk:hover .pin .pc{transform:scale(1.12)}
 .pin .live{position:absolute;left:-7px;top:-7px;width:44px;height:44px;border-radius:50%;border:2px solid var(--accent);animation:live 1.9s ease-out infinite;pointer-events:none}
@@ -706,10 +708,10 @@ Object.assign(STR.ku, {allYears:"Hemû sal", tabNow:"Salên dawî"});
 Object.assign(STR.ckb, {allYears:"هەموو ساڵەکان", tabNow:"ساڵانی دوایی"});
 Object.assign(STR.tr, {allYears:"Tüm yıllar", tabNow:"Son yıllar"});
 Object.assign(STR.en, {allYears:"All years", tabNow:"Recent"});
-Object.assign(STR.ku, {aO:"Êrîşkarên din", k_rights:"Îdam, êrîşa li ser malan, girtîgeh", k_mob:"Êrîşên girse û komên çekdar", ty_execution:"Îdam", "ty_custody death":"Mirin an îşkence di girtîgehê de", ty_raid:"Êrîşa tund li ser malê", "ty_mob attack":"Êrîşa girse an komeke çekdar", "ty_property attack":"Êrîş li ser gor an milk"});
-Object.assign(STR.ckb, {aO:"هێرشبەرانی تر", k_rights:"لەسێدارەدان، پەلامار، زیندان", k_mob:"هێرشی کۆمەڵ و گرووپی چەکدار", ty_execution:"لەسێدارەدان", "ty_custody death":"مردن یان ئەشکەنجە لە زینداندا", ty_raid:"پەلاماری توندوتیژ بۆ ماڵ", "ty_mob attack":"هێرشی خەڵک یان گرووپی چەکدار", "ty_property attack":"هێرش بۆ سەر گۆڕ یان موڵک"});
-Object.assign(STR.tr, {aO:"Diğer saldırganlar", k_rights:"İdam, baskın, cezaevi", k_mob:"Linç ve silahlı gruplar", ty_execution:"İdam", "ty_custody death":"Cezaevinde ölüm veya şiddet", ty_raid:"Şiddetli ev baskını", "ty_mob attack":"Linç veya silahlı grup saldırısı", "ty_property attack":"Mezara veya mülke saldırı"});
-Object.assign(STR.en, {aO:"Other attackers", k_rights:"Executions, raids, prison", k_mob:"Mobs and armed groups", ty_execution:"Execution", "ty_custody death":"Death or abuse in custody", ty_raid:"Violent raid", "ty_mob attack":"Mob or armed group attack", "ty_property attack":"Attack on graves or property"});
+Object.assign(STR.ku, {aO:"Êrîşkarên din", k_rights:"Îdam, êrîş, girtin, girtîgeh", ty_arrest:"Girtin", ty_killing:"Kuştin", unconf:"Nehatiye piştrastkirin", k_mob:"Êrîşên girse û komên çekdar", ty_execution:"Îdam", "ty_custody death":"Mirin an îşkence di girtîgehê de", ty_raid:"Êrîşa tund li ser malê", "ty_mob attack":"Êrîşa girse an komeke çekdar", "ty_property attack":"Êrîş li ser gor an milk"});
+Object.assign(STR.ckb, {aO:"هێرشبەرانی تر", k_rights:"لەسێدارەدان، پەلامار، دەستگیرکردن، زیندان", ty_arrest:"دەستگیرکردن", ty_killing:"کوشتن", unconf:"پشتڕاست نەکراوەتەوە", k_mob:"هێرشی کۆمەڵ و گرووپی چەکدار", ty_execution:"لەسێدارەدان", "ty_custody death":"مردن یان ئەشکەنجە لە زینداندا", ty_raid:"پەلاماری توندوتیژ بۆ ماڵ", "ty_mob attack":"هێرشی خەڵک یان گرووپی چەکدار", "ty_property attack":"هێرش بۆ سەر گۆڕ یان موڵک"});
+Object.assign(STR.tr, {aO:"Diğer saldırganlar", k_rights:"İdam, baskın, gözaltı, cezaevi", ty_arrest:"Gözaltı ve tutuklama", ty_killing:"Öldürme", unconf:"Doğrulanmadı", k_mob:"Linç ve silahlı gruplar", ty_execution:"İdam", "ty_custody death":"Cezaevinde ölüm veya şiddet", ty_raid:"Şiddetli ev baskını", "ty_mob attack":"Linç veya silahlı grup saldırısı", "ty_property attack":"Mezara veya mülke saldırı"});
+Object.assign(STR.en, {aO:"Other attackers", k_rights:"Executions, raids, arrests, prison", ty_arrest:"Arrest or detention", ty_killing:"Killing", unconf:"Not confirmed", k_mob:"Mobs and armed groups", ty_execution:"Execution", "ty_custody death":"Death or abuse in custody", ty_raid:"Violent raid", "ty_mob attack":"Mob or armed group attack", "ty_property attack":"Attack on graves or property"});
 Object.assign(STR.en, {introBack:"The map is updated every week."});
 Object.assign(STR.en, {moreOpts:"More options", nFilters:"{n} filters on", welcomeBack:"Welcome back", introNew:"{n} new records since your last visit"});
 Object.assign(STR.ckb, {langH:"زمان", latest:"دوایین هێرش"});
@@ -779,7 +781,7 @@ const ACTORS = {
   Other:{get label(){return T("aO")}, v:"--other"},
   Eco:{get label(){return T("aE")}, v:"--eco"}
 };
-const TYPES = {drone:"circle", airstrike:"triangle", missile:"triangle", artillery:"square", "ground assault":"square", "border shooting":"square", chemical:"star", massacre:"star", campaign:"ring", execution:"star", "custody death":"star", raid:"square", "mob attack":"square", "property attack":"square"};
+const TYPES = {drone:"circle", airstrike:"triangle", missile:"triangle", artillery:"square", "ground assault":"square", "border shooting":"square", chemical:"star", massacre:"star", campaign:"ring", execution:"star", "custody death":"star", raid:"square", "mob attack":"square", "property attack":"square", arrest:"square", killing:"star"};
 const SHAPES = [["circle", "sh_circle"], ["triangle", "sh_triangle"], ["square", "sh_square"], ["star", "sh_star"], ["ring", "ty_campaign"]];
 const CATS = {"forest fire":1, deforestation:1, agriculture:1, water:1, infrastructure:1, dam:1, land:1};
 const PARTS = [
@@ -831,6 +833,8 @@ const ICON = {
   raid:'<path d="M3 11.5 12 3.5l9 8M5.5 9.5V21h13V9.5"/><path d="M12.5 21l-1.5-4 2.5-2-1.5-3.5"/>',
   "mob attack":'<circle cx="8" cy="7" r="3"/><circle cx="16.5" cy="7" r="3"/><path d="M2.5 20.5c.4-3.8 2.8-6 5.5-6s5.1 2.2 5.5 6M11.5 20.5c.4-3.8 2.5-6 5-6s4.6 2.2 5 6"/>',
   "property attack":'<path d="M7 21V9a5 5 0 0 1 10 0v12M4 21h16M9.5 10.5h5M12 8v6"/>',
+  arrest:'<circle cx="7.5" cy="14.5" r="4.5"/><circle cx="16.5" cy="14.5" r="4.5"/><path d="M7.5 10V6.5a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2V10"/>',
+  killing:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="5"/><path d="m9.5 9.5 5 5M14.5 9.5l-5 5"/>',
   "forest fire":'<path class="f" d="M12 2c3.5 4.2 6.5 6.6 6.5 11.5a6.5 6.5 0 0 1-13 0c0-3 1.8-5 3.2-6.3 0 2.2 1 3.4 2.3 3.6-.2-3.2-.6-5.6 1-8.8z"/>',
   deforestation:'<path d="M5 21h14M8 21v-9h8v9"/><ellipse cx="12" cy="12" rx="4" ry="1.6"/><path d="M14 3.5 19.5 9 17.5 11 12 5.5z"/>',
   agriculture:'<path d="M12 22V7"/><path class="f" d="M12 11.5c-3 0-4.2-2-4.2-4 3 0 4.2 2 4.2 4zM12 11.5c3 0 4.2-2 4.2-4-3 0-4.2 2-4.2 4zM12 16.5c-3 0-4.2-2-4.2-4 3 0 4.2 2 4.2 4zM12 16.5c3 0 4.2-2 4.2-4-3 0-4.2 2-4.2 4zM12 7c-1.2-1.8-.6-3.6 0-5 .6 1.4 1.2 3.2 0 5z"/>',
@@ -841,7 +845,7 @@ const ICON = {
 };
 const subOf = d => d.layer === "Eco" ? d.category : d.type;
 const ico = (sub, color, size) => `<svg class="ico" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${(ICON[sub] || ICON.drone).replace(/class="f"/g, `fill="${color}" stroke="none"`)}</svg>`;
-const KINDS = [["drone", ["drone"]], ["air", ["airstrike", "missile"]], ["ground", ["artillery", "ground assault", "campaign"]], ["border", ["border shooting"]], ["mass", ["chemical", "massacre"]], ["rights", ["execution", "custody death", "raid"]], ["mob", ["mob attack", "property attack"]], ["eco", null]];
+const KINDS = [["drone", ["drone"]], ["air", ["airstrike", "missile"]], ["ground", ["artillery", "ground assault", "campaign"]], ["border", ["border shooting"]], ["mass", ["chemical", "massacre"]], ["rights", ["execution", "custody death", "raid", "arrest", "killing"]], ["mob", ["mob attack", "property attack"]], ["eco", null]];
 const kindGroup = d => d.layer === "Eco" ? "eco" : (KINDS.find(([, s]) => s && s.includes(d.type)) || ["ground"])[0];
 const KIND_ICON = {drone:"drone", air:"airstrike", ground:"artillery", border:"border shooting", mass:"massacre", rights:"execution", mob:"mob attack", eco:"forest fire"};
 
@@ -1047,7 +1051,7 @@ const zOf = d => state.sel === d.id ? 10000 : d.type === "campaign" ? -100 : d.l
 function iconFor(d) {
   const sel = state.sel === d.id, c = ringOf(d), e = d.layer === "Eco", k = d.type === "campaign" ? 0 : d.killed || 0;
   return L.divIcon({className:"mk", iconSize:[30, 37], iconAnchor:[15, 37], tooltipAnchor:[0, -30],
-    html:`<div class="pin${sel ? " sel" : ""}${d.hist ? " hist" : ""}${e ? " eco" : ""}" style="--c:var(${c})">${isRecent(d) ? '<span class="live"></span>' : ""}<span class="pc">${ico(subOf(d), e ? "#141414" : "#fff", 17)}</span>${k ? `<b>${k > 999 ? Math.round(k / 1000) + "k" : k}</b>` : ""}</div>`});
+    html:`<div class="pin${sel ? " sel" : ""}${d.hist ? " hist" : ""}${e ? " eco" : ""}${d.unconfirmed ? " unc" : ""}" style="--c:var(${c})">${isRecent(d) ? '<span class="live"></span>' : ""}<span class="pc">${ico(subOf(d), e ? "#141414" : "#fff", 17)}</span>${k ? `<b>${k > 999 ? Math.round(k / 1000) + "k" : k}</b>` : ""}</div>`});
 }
 function buildMarkers() {
   markerLayer.clearLayers(); markers.clear();
@@ -1250,6 +1254,7 @@ function select(id, fly) {
   document.getElementById("paneD").innerHTML = `<div class="detail">
     ${lastTab ? `<button class="back" id="back">${hi("arrow-left")}${T("back")}</button>` : ""}
     <div class="tag">${sym(d)}${d.layer === "Eco" ? (ACTORS[d.actor] ? flagOf(d.actor) : "") : flagOf(d.layer)}${d.layer === "Eco" ? `${T("aE")}${d.actor && d.actor !== "Other" ? " · " + esc(ACTORS[d.actor]?.label || d.actor) : ""}` : esc(a.label)} · ${esc(kindOf(d))}</div>
+    ${d.unconfirmed ? `<div class="unc-tag">⚠ ${T("unconf")}</div>` : ""}
     <h2>${esc(loc(d, "place"))}</h2>
     <div class="meta"><div>${hi("calendar")}<span>${esc(fdate(d))}</span></div><div>${hi("map-pin")}<span>${esc(where)}${d.precision === "approximate" ? " · " + T("approx") : ""}</span></div></div>
     ${facts}
